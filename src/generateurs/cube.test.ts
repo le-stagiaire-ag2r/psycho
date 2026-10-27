@@ -80,7 +80,7 @@ describe('modèle de cube', () => {
 
 describe('générateur de cubes retournés', () => {
   it.each(DIFFS.flatMap((d) => FORMES.map((f) => [d, f] as const)))(
-    '1 bon + 4 faux, aucun faux ne correspond à une des 24 orientations (difficulté %i, forme %s)',
+    '1 bon + 3 faux, aucun faux ne correspond à une des 24 orientations (difficulté %i, forme %s)',
     (d, forme) => {
       const config = { ...EPREUVES.spatial, parametres: { ...EPREUVES.spatial.parametres, variantes: forme } };
       const refs = generateurSpatial.construireRefs({ graineBase: 5, nb: 800, difficulte: d, config });
@@ -89,8 +89,8 @@ describe('générateur de cubes retournés', () => {
         expect(item.stimulus.type).toBe('cube');
         if (item.stimulus.type !== 'cube') continue;
         const { propositions } = item.stimulus;
-        expect(propositions).toHaveLength(5);
-        expect(new Set(propositions.map(cleVue)).size).toBe(5);
+        expect(propositions).toHaveLength(EPREUVES.spatial.nbChoix);
+        expect(new Set(propositions.map(cleVue)).size).toBe(EPREUVES.spatial.nbChoix);
 
         // Recalcul indépendant : on reconstruit le même cube (même graine) et on teste les 24 orientations.
         const rng = creerPrng(ref.seed);

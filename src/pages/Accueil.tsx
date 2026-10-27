@@ -24,137 +24,122 @@ export default function Accueil() {
 
   return (
     <>
-      <section>
-        <h1>Entraînement aux tests de sélection</h1>
-        <p className="encadre" role="note">
+      <section className="hero">
+        <h1>Entraîne-toi aux tests de sélection</h1>
+        <p className="sous-titre">Gratuit, sans compte, sans pub. Ta progression reste sur ton appareil.</p>
+        <p className="mention" role="note">
           {NON_AFFILIATION}
         </p>
-        <p>
-          100 % gratuit, sans compte, sans pub. Les questions sont générées dans ton navigateur et ta progression reste
-          sur ton appareil. {MENTION_ENTRAINEMENT}
-        </p>
       </section>
 
-      <section aria-label="Raccourcis" className="mis-en-avant">
-        <div className="carte">
-          <h3>Examen blanc complet</h3>
-          <p>Enchaîne les épreuves avec un chrono strict, comme un vrai test sur ordinateur.</p>
-          <Link className="bouton" to="/examen">
-            Préparer l’examen
-          </Link>
-        </div>
-        <div className="carte">
-          <h3>Révision des erreurs</h3>
-          <p>
-            {nbErreurs > 0
-              ? `${nbErreurs} question${nbErreurs > 1 ? 's' : ''} ratée${nbErreurs > 1 ? 's' : ''} à refaire.`
-              : 'Refais tes questions ratées : elles apparaîtront ici.'}
-          </p>
-          <Link className="bouton bouton-secondaire" to="/revision">
-            Réviser
-          </Link>
-        </div>
-        <div className="carte">
-          <h3>Fiches méthode</h3>
-          <p>Démarche, pièges classiques et gestion du temps pour chaque épreuve.</p>
-          <Link className="bouton bouton-secondaire" to="/methode">
-            Lire les fiches
-          </Link>
-        </div>
+      <section aria-label="Raccourcis" className="raccourcis">
+        <Link className="raccourci" to="/examen">
+          <strong>Examen blanc</strong>
+          <span>Enchaîne les épreuves, chrono strict</span>
+        </Link>
+        <Link className="raccourci" to="/revision">
+          <strong>Réviser mes erreurs</strong>
+          <span>{nbErreurs > 0 ? `${nbErreurs} à refaire` : 'Rien à refaire pour l’instant'}</span>
+        </Link>
+        <Link className="raccourci" to="/methode">
+          <strong>Fiches méthode</strong>
+          <span>Astuces et pièges, épreuve par épreuve</span>
+        </Link>
       </section>
 
-      <section aria-labelledby="titre-reglages" className="reglages">
-        <h2 id="titre-reglages">Réglages</h2>
-
-        <fieldset>
+      <section aria-labelledby="titre-reglages" className="carte reglages">
+        <h2 id="titre-reglages" className="visuellement-cache">
+          Réglages
+        </h2>
+        <fieldset className="segmente">
           <legend>Niveau visé</legend>
           {NIVEAUX.map((n) => (
-            <label key={n.id} className="choix">
+            <label key={n.id}>
               <input
                 type="radio"
                 name="niveau"
                 checked={niveau === n.id}
                 onChange={() => majPrefs({ niveau: n.id as NiveauId })}
               />
-              {n.libelle}
+              <span>{n.libelle}</span>
             </label>
           ))}
         </fieldset>
 
-        <fieldset>
+        <fieldset className="segmente">
           <legend>Mode</legend>
-          <label className="choix">
+          <label>
             <input
               type="radio"
               name="mode"
               checked={mode === 'entrainement'}
               onChange={() => majPrefs({ mode: 'entrainement' as Mode })}
             />
-            Entraînement (chrono souple, correction après chaque question)
+            <span>Entraînement</span>
           </label>
-          <label className="choix">
+          <label>
             <input
               type="radio"
               name="mode"
               checked={mode === 'examen'}
               onChange={() => majPrefs({ mode: 'examen' as Mode })}
             />
-            Examen blanc (chrono strict, correction à la fin)
+            <span>Examen blanc</span>
           </label>
         </fieldset>
 
         {mode === 'entrainement' && (
-          <fieldset>
+          <fieldset className="segmente">
             <legend>Difficulté</legend>
             {DIFFICULTES.map((d) => (
-              <label key={d.id} className="choix">
+              <label key={d.id}>
                 <input
                   type="radio"
                   name="difficulte"
                   checked={difficulte === d.id}
                   onChange={() => majPrefs({ difficulte: d.id })}
                 />
-                {d.libelle}
+                <span>{d.libelle}</span>
               </label>
             ))}
           </fieldset>
         )}
+        <p className="discret reglages-aide">
+          {mode === 'entrainement'
+            ? 'Entraînement : chrono souple, explication après chaque erreur.'
+            : 'Examen blanc : chrono strict, correction à la fin.'}
+        </p>
       </section>
 
       <section aria-labelledby="titre-epreuves">
         <h2 id="titre-epreuves">Épreuves</h2>
-        <p className="discret">
-          Les formats (nombre de questions, durée) sont indicatifs et peuvent différer des épreuves réelles.
-        </p>
         <ul className="grille-epreuves">
           {ORDRE_EPREUVES.map((id) => {
             const c = EPREUVES[id];
             const objectif = OBJECTIFS[id]?.[niveau];
+            if (!c.disponible) return null;
             return (
-              <li key={id} className={`carte ${c.disponible ? '' : 'carte-inactive'}`}>
+              <li key={id} className="carte carte-epreuve">
                 <h3>{c.titre}</h3>
-                <p>{c.description}</p>
-                {c.disponible ? (
-                  <>
-                    <p className="discret">
-                      {id === 'personnalite'
-                        ? 'Mode découverte : sans score, sans bonne réponse, rien n’est enregistré'
-                        : mode === 'examen'
-                        ? `${c.nbQuestions} questions en ${formatDuree(c.dureeSecondes * 1000)} (indicatif)`
-                        : `${c.nbQuestionsEntrainement} questions, chrono souple`}
-                      {objectif && mode === 'examen' && ` · objectif indicatif : ${Math.round(objectif.precisionMin * 100)} % de précision`}
-                    </p>
-                    <Link className="bouton" to={id === 'personnalite' ? '/personnalite' : `/epreuve/${id}/${mode}`}>
-                      {id === 'personnalite' ? 'Découvrir' : mode === 'examen' ? 'Lancer l’examen blanc' : 'S’entraîner'}
-                    </Link>
-                  </>
-                ) : (
-                  <p className="discret">Bientôt disponible</p>
-                )}
+                <p className="description">{c.description}</p>
+                <p className="discret">
+                  {id === 'personnalite'
+                    ? 'Sans score ni bonne réponse'
+                    : mode === 'examen'
+                    ? `${c.nbQuestions} questions · ${formatDuree(c.dureeSecondes * 1000)}`
+                    : `${c.nbQuestionsEntrainement} questions`}
+                  {objectif && mode === 'examen' && ` · objectif ${Math.round(objectif.precisionMin * 100)} %`}
+                </p>
+                <Link className="bouton" to={id === 'personnalite' ? '/personnalite' : `/epreuve/${id}/${mode}`}>
+                  {id === 'personnalite' ? 'Découvrir' : mode === 'examen' ? 'Lancer' : 'S’entraîner'}
+                </Link>
               </li>
             );
           })}
         </ul>
+        <p className="discret centre">
+          Formats indicatifs : ils peuvent différer des épreuves réelles. {MENTION_ENTRAINEMENT}
+        </p>
       </section>
     </>
   );

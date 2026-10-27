@@ -93,8 +93,8 @@ describe('générateur de suites de cubes', () => {
       if (item.stimulus.type !== 'suite-cubes') continue;
       const { suite, propositions } = item.stimulus;
       expect(suite).toHaveLength(d === 3 ? 4 : 3);
-      expect(propositions).toHaveLength(5);
-      expect(new Set(propositions.map(cleV)).size).toBe(5);
+      expect(propositions).toHaveLength(EPREUVES.logique.nbChoix);
+      expect(new Set(propositions.map(cleV)).size).toBe(EPREUVES.logique.nbChoix);
 
       // Vérification indépendante : une seule prédiction possible, et c'est la bonne réponse.
       const predictions = predictionsCompatibles(regles, suite);

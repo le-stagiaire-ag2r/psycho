@@ -63,3 +63,5 @@ témoignages de candidats. Pour l'officiel : sengager.fr ou un CIRFA.
 - [ ] Numérique : ~25 questions en 18 min
 - [ ] Anglais : 100 à 150 questions, ~55 min (ici 100 en 55 min)
 - [ ] Ordre de l'examen blanc : logique, spatial, verbal, numérique, codage, attention (`src/config/examen.ts`)
+
+- [x] Nombre de propositions : 4 maximum pour tous les QCM (retour d'un testeur : « 5 propositions aux cubes, c'est trop »). Réglable par épreuve dans `src/config/epreuves.ts` (`nbChoix`). À confirmer auprès de candidats.

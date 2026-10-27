@@ -72,7 +72,7 @@ export default function Resultats({
       <ul className="tuiles">
         <li>
           <span className="tuile-valeur">{decimal(bilan.score, bilan.score % 1 ? 1 : 0)}</span>
-          <span>Score ({bilan.nbCorrectes} bonnes sur {bilan.nbItems})</span>
+          <span>Score ({bilan.nbCorrectes} bonne{bilan.nbCorrectes > 1 ? 's' : ''} sur {bilan.nbItems})</span>
         </li>
         <li>
           <span className="tuile-valeur">{pourcent(bilan.precision)}</span>

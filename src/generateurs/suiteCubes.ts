@@ -297,7 +297,7 @@ function genererSuite(ref: ItemRef): Item {
       pourquoi: props.map((p) =>
         p.nature
           ? p.pourquoi
-          : `C’est le résultat de la règle (${regle.description}) appliquée une fois au dernier cube de la suite, comme entre les cubes précédents.`,
+          : 'C’est ce que donne la règle de la suite appliquée une fois de plus au dernier cube, exactement comme entre les cubes précédents.',
       ),
     };
   }
