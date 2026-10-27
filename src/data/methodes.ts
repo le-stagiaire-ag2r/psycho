@@ -189,7 +189,7 @@ export const FICHES: FicheMethode[] = [
         titre: 'Méthode',
         points: [
           'Estime d’abord l’ordre de grandeur : cela élimine souvent deux ou trois propositions.',
-          'Pour un pourcentage : 10 % = diviser par 10 ; 5 % = la moitié ; 1 % = diviser par 100. Combine-les (15 % = 10 % + 5 %).',
+          'Pour un pourcentage : 10 % = diviser par 10 ; 5 % = la moitié de 10 % ; 1 % = diviser par 100. Combine-les (15 % = 10 % + 5 %).',
           'Convertis les durées en minutes avant de calculer : 1 h 30 = 90 min, jamais 1,30 h ni 130 min.',
           'Vérifie l’unité demandée à la fin (minutes ou heures, euros ou pourcentage).',
         ],

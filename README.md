@@ -14,7 +14,7 @@ Le brief complet du projet est dans [`CLAUDE.md`](CLAUDE.md).
 | --- | --- | --- |
 | 1 | Socle : PRNG à graine, schéma d'item, moteur chronométré, sauvegarde locale, export/import, signalement d'erreur | fait |
 | 2 | Attention, codage | fait |
-| 3 | Quadrillages tournés (contrôle des 8 symétries), numérique (44 gabarits, arithmétique exacte) | fait |
+| 3 | Quadrillages tournés (contrôle des 8 symétries), numérique (45 gabarits, arithmétique exacte) | fait |
 | 4 | Cubes à plier / retournés (24 orientations), suites logiques (solveur d'unicité) | fait |
 | 5 | Verbal (159 items) et anglais (158 items), banques JSON avec champ de relecture | fait, relu une fois par IA (voir `RELECTURE.md`), **relecture humaine à faire** |
 | 6 | Personnalité en mode découverte (sans score, rien d'enregistré) | fait |

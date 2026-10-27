@@ -11,7 +11,7 @@
    "fausses": [
     "go",
     "going",
-    "is going"
+    "are going"
    ],
    "explication": "« every day » : habitude, donc présent simple à la 3e personne : goes.",
    "relecture": null
@@ -79,7 +79,7 @@
    "enonce": "There ___ a lot of people in the street now.",
    "bonne": "are",
    "fausses": [
-    "is",
+    "be",
     "was",
     "were"
    ],
@@ -387,11 +387,11 @@
    "enonce": "He has ___ to Paris twice.",
    "bonne": "been",
    "fausses": [
-    "gone",
     "was",
-    "going"
+    "going",
+    "went"
    ],
-   "explication": "« been » exprime un aller-retour (expérience) ; « gone » signifie qu'il est parti et n'est pas revenu.",
+   "explication": "Present perfect de be (expérience) : has been to.",
    "relecture": null
   },
   {
@@ -486,8 +486,8 @@
    "bonne": "will call",
    "fausses": [
     "called",
-    "call",
-    "have called"
+    "have called",
+    "calling"
    ],
    "explication": "« tomorrow » : futur, will + infinitif.",
    "relecture": null
@@ -835,7 +835,7 @@
    "enonce": "I remember the day ___ we met.",
    "bonne": "when",
    "fausses": [
-    "where",
+    "which",
     "who",
     "whose"
    ],
@@ -975,9 +975,9 @@
    "enonce": "She arrived ___ Paris yesterday morning.",
    "bonne": "in",
    "fausses": [
-    "at",
+    "to",
     "on",
-    "to"
+    "by"
    ],
    "explication": "arrive in + ville ou pays.",
    "relecture": null
@@ -1033,7 +1033,7 @@
    "fausses": [
     "during",
     "since",
-    "by the"
+    "for"
    ],
    "explication": "until + moment où l'attente s'arrête.",
    "relecture": null
@@ -1089,7 +1089,7 @@
    "fausses": [
     "Must",
     "Shall",
-    "Might"
+    "Ought"
    ],
    "explication": "Demande polie : could you...?",
    "relecture": null
@@ -1131,7 +1131,7 @@
    "fausses": [
     "must",
     "will",
-    "should"
+    "shall"
    ],
    "explication": "Déduction négative : can't be.",
    "relecture": null
@@ -1140,14 +1140,14 @@
    "id": "ANG-GRA-082",
    "type": "grammaire",
    "niveau": 2,
-   "enonce": "You look very ill. You ___ see a doctor.",
-   "bonne": "should",
+   "enonce": "You look very ill. You ___ to see a doctor.",
+   "bonne": "ought",
    "fausses": [
-    "can",
-    "will",
-    "may"
+    "should",
+    "must",
+    "can"
    ],
-   "explication": "Conseil : should.",
+   "explication": "« ought to » + infinitif exprime le conseil ; « should », « must » et « can » ne prennent pas « to ».",
    "relecture": null
   },
   {
@@ -1201,23 +1201,23 @@
    "fausses": [
     "a",
     "any",
-    "some"
+    "many"
    ],
-   "explication": "« honest » commence par un son voyelle : an.",
+   "explication": "« honest » commence par un son voyelle (le h est muet) : an.",
    "relecture": null
   },
   {
    "id": "ANG-GRA-087",
    "type": "grammaire",
    "niveau": 1,
-   "enonce": "I play ___ guitar.",
-   "bonne": "the",
+   "enonce": "I ___ the guitar every evening.",
+   "bonne": "play",
    "fausses": [
-    "an",
-    "some",
-    "any"
+    "do",
+    "make",
+    "have"
    ],
-   "explication": "play the + instrument.",
+   "explication": "On « joue » d'un instrument : play the guitar.",
    "relecture": null
   },
   {
@@ -1227,9 +1227,9 @@
    "enonce": "___ sun rises in the east.",
    "bonne": "The",
    "fausses": [
-    "A",
     "An",
-    "Some"
+    "Any",
+    "Many"
    ],
    "explication": "Élément unique : the sun.",
    "relecture": null
@@ -1243,7 +1243,7 @@
    "fausses": [
     "a",
     "any",
-    "some"
+    "many"
    ],
    "explication": "Profession : a/an ; « engineer » commence par une voyelle : an.",
    "relecture": null
@@ -1284,8 +1284,8 @@
    "bonne": "an",
    "fausses": [
     "a",
-    "some",
-    "any"
+    "many",
+    "few"
    ],
    "explication": "« umbrella » commence par un son voyelle : an.",
    "relecture": null
@@ -1633,7 +1633,7 @@
    "enonce": "You like football, ___ you?",
    "bonne": "don't",
    "fausses": [
-    "do",
+    "didn't",
     "are",
     "aren't"
    ],
@@ -1686,7 +1686,7 @@
    "id": "ANG-GRA-121",
    "type": "grammaire",
    "niveau": 2,
-   "enonce": "Can you look ___ my cat while I'm away?",
+   "enonce": "Can you look ___ my cat while I'm away? It needs feeding every day.",
    "bonne": "after",
    "fausses": [
     "at",
@@ -2082,7 +2082,7 @@
    "bonne": "musician",
    "fausses": [
     "magician",
-    "electrician",
+    "technician",
     "politician"
    ],
    "explication": "musician = musicien.",
@@ -2111,7 +2111,7 @@
    "fausses": [
     "swimsuit",
     "sandal",
-    "shorts"
+    "T-shirt"
    ],
    "explication": "coat = manteau.",
    "relecture": null

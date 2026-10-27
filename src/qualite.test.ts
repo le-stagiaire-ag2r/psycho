@@ -55,6 +55,32 @@ describe('banques verbal et anglais : typographie', () => {
   });
 });
 
+describe('anglais : aucun indice involontaire dans les propositions', () => {
+  const items = BANQUES.anglais!;
+  const VOYELLES = /^[aeiou]/i;
+  it('l’article « a / an » placé avant le trou s’accorde avec TOUTES les propositions (sinon la bonne réponse se devine)', () => {
+    for (const it of items) {
+      const m = /\b(a|an) ___/.exec(it.enonce);
+      if (!m) continue;
+      // Items dont le but est justement de choisir l'article : les propositions SONT les articles.
+      if (['a', 'an'].includes(it.bonne.toLowerCase())) continue;
+      for (const o of [it.bonne, ...it.fausses]) {
+        const attendu = VOYELLES.test(o) ? 'an' : 'a';
+        expect(`${it.id} « ${m[1]} ${o} » : ${m[1] === attendu}`).toBe(`${it.id} « ${m[1]} ${o} » : true`);
+      }
+    }
+  });
+  it('aucun pluriel ne se glisse après « a ___ » (« a shorts »)', () => {
+    for (const it of items) {
+      if (!/\ba ___/.test(it.enonce) || ['a', 'an'].includes(it.bonne.toLowerCase())) continue;
+      for (const o of [it.bonne, ...it.fausses]) expect(`${it.id} ${o} : ${/[^s]s$/.test(o) && !/(ss|us|is)$/.test(o)}`).toBe(`${it.id} ${o} : false`);
+    }
+  });
+  it('les trous « ___ » sont bien présents exactement une fois dans les phrases à compléter', () => {
+    for (const it of items.filter((x) => x.type === 'grammaire')) expect(it.enonce.split('___').length - 1).toBe(1);
+  });
+});
+
 describe('questionnaire de personnalité : formulation', () => {
   it('chaque affirmation est une phrase complète à la première personne', () => {
     const items = (personnalite as { items: { texte: string }[] }).items;

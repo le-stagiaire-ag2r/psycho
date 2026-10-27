@@ -12,7 +12,7 @@ faute de langue, explication fausse, distracteur absurde, règle impossible à d
 ### Ce qui a été vérifié
 - **Verbal (159 items)** et **anglais (158 items)** : chaque énoncé, chaque proposition, chaque explication.
 - **Personnalité (50 affirmations)** : formulation et contresens possibles.
-- **Numérique (44 gabarits)** : 2 exemples par gabarit relus à la main (énoncé, réponse, pièges, explication), mathématiques recoupées.
+- **Numérique (45 gabarits)** : 2 exemples par gabarit relus à la main (énoncé, réponse, pièges, explication), mathématiques recoupées.
 - **Raisonnement général, cubes, grilles, attention, codage** : explications générées relues sur des échantillons de chaque difficulté.
 - **Liste de mots du codage** (215 mots).
 
@@ -41,6 +41,35 @@ faute de langue, explication fausse, distracteur absurde, règle impossible à d
 | Raisonnement | « On avance de -2 » | « On recule de 2 rangs » |
 
 Ces corrections sont verrouillées par des tests (`src/qualite.test.ts` et tests des générateurs).
+
+## Passe 2 : vérification logique indépendante (octobre 2026)
+
+Objectif : ne plus se fier aux générateurs eux-mêmes, mais **recalculer chaque réponse à partir de ce que le candidat voit**.
+
+### Vérifications automatiques (dans `npm test`)
+| Épreuve | Méthode indépendante | Volume |
+| --- | --- | --- |
+| Numérique | Pour chacun des 45 gabarits, on lit l'énoncé AFFICHÉ, on en extrait les nombres, on recalcule la réponse avec un solveur écrit à part (force brute quand c'est possible) et on exige que la bonne proposition soit la SEULE égale au résultat | 45 × 400 graines |
+| Suites de nombres | Énumération « en avant » de milliers de règles plausibles (arithmétiques, géométriques, carrés, cubes, triangulaires, écarts évolutifs, affines, Fibonacci, entrelacées) : toutes celles compatibles avec les termes affichés doivent prédire la réponse | 750 suites |
+| Suites de lettres et de mots | Même principe, modulo 26 / listes circulaires, tous pas et tous sens | 750 suites + 750 suites |
+| Comparaisons | Lecture des phrases affichées, énumération de tous les classements, un seul doit rester | 750 énoncés |
+| Codage | La consigne affichée est relue dans le tableau affiché | 3 × 2 × 600 |
+| Attention | Distance d'édition entre les deux suites affichées (une perturbation = 1 opération) | 3 × 3 000 |
+| Grilles | Rotation recalculée en coordonnées depuis la consigne (« 270° anti-horaire »…) | 3 × 1 000 |
+| Cubes | (a) aucune des 3 faces n'est dessinée en miroir et ce sont bien les faces tournées vers l'observateur ; (b) la règle « tiers de tour du cube » (états visibles) est recoupée avec la vraie rotation 3D des 6 faces ; (c) le modèle « deux vues » montre exactement les 6 faces | 400 cubes × 24 rotations |
+| Tous | Tests « golden » : si un générateur change sans que sa `VERSION_…` soit incrémentée, un test échoue (les identifiants d'items restent stables) | 6 générateurs |
+
+Ces vérifications n'ont trouvé **aucune erreur de calcul ni de logique** dans les générateurs. Leur seule alerte (« 2, 4, 8, 16 → 14 ») venait d'un artefact du test (deux suites entrelacées ajustent n'importe quoi à 4 termes) : le test a été corrigé sur le principe « une règle ne compte que si elle est confirmée par une redondance », le générateur appliquait déjà ce principe.
+
+### Vérification dans un navigateur réel (horloge simulée)
+Chrono strict d'examen (3:30 → coupure automatique, durée plafonnée, seules les réponses données comptées), absence/présence du bouton « Passer » selon la config, enchaînement automatique de l'épreuve 1 à l'épreuve 2 avec chrono remis à 7:00, enregistrement unique dans l'historique.
+
+### Relecture item par item des 158 questions d'anglais
+Chaque phrase a été reconstituée avec chacune de ses 4 propositions pour juger si les mauvaises réponses sont vraiment fausses. Corrigés (mauvaise réponse défendable) :
+- « You like football, do you? » (tag positif-positif valide) ; « Might you help me » (grammatical, très formel) ; « I play some guitar » (courant) ; « She is going to school every day » ; « There is a lot of people » (usage oral) ; « the day where we met » (usage oral) ; « arrived at Paris » ; « He has gone to Paris twice » ; « I call you tomorrow » ; « You can see a doctor » (valable comme suggestion) ; « She should be at home » (valable comme attente) ; « look for my cat » ; « the engineer / some engineer » ; « I will wait here by the… ».
+- Indices involontaires : « a electrician », « a shorts » (l'article trahissait la réponse) → test automatique ajouté.
+
+Les 159 questions de verbal ont subi le même contrôle (chaque proposition testée) sans nouvelle correction.
 
 ### Points que je juge encore discutables (à trancher par un humain)
 Aucun n'est faux à mon avis, mais un relecteur pourrait légitimement hésiter :
