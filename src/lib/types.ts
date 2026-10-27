@@ -43,7 +43,23 @@ export interface StimulusCodage {
   cible: EntreeCodage;
 }
 
-export type Stimulus = StimulusAttention | StimulusCodage;
+/** Grille noir/blanc : true = case noire. */
+export type Grille = boolean[][];
+
+/** Quadrillage tourné : on retrouve la bonne grille parmi les propositions (affichées A, B, C…). */
+export interface StimulusGrille {
+  type: 'grille';
+  modele: Grille;
+  propositions: Grille[];
+}
+
+/** Énoncé purement textuel (numérique, verbal, anglais). */
+export interface StimulusTexte {
+  type: 'texte';
+  enonce: string;
+}
+
+export type Stimulus = StimulusAttention | StimulusCodage | StimulusGrille | StimulusTexte;
 
 /** Question prête à afficher (QCM : une seule bonne réponse). */
 export interface Item {

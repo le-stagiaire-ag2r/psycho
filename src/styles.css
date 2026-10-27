@@ -430,3 +430,56 @@ progress {
 .point-fort {
   color: var(--bon);
 }
+
+/* ----- Épreuves graphiques et textuelles ----- */
+:root {
+  --grille-noir: #1d2218;
+  --grille-blanc: #ffffff;
+  --grille-trait: #9aa08c;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='clair']) {
+    --grille-noir: #ecebdf;
+    --grille-blanc: #15180f;
+    --grille-trait: #5b6354;
+  }
+}
+:root[data-theme='sombre'] {
+  --grille-noir: #ecebdf;
+  --grille-blanc: #15180f;
+  --grille-trait: #5b6354;
+}
+.enonce {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  background: var(--fond-carte);
+  border: 1px solid var(--bordure);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+}
+.modele-grille {
+  margin: 0 auto 1rem;
+  text-align: center;
+}
+.modele-grille figcaption {
+  color: var(--texte-doux);
+  font-size: 0.9rem;
+}
+.grille-svg {
+  width: clamp(110px, 22vw, 190px);
+  height: auto;
+}
+.options-graphiques {
+  grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+}
+.options-graphiques .option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.6rem 0.4rem;
+}
+.options-graphiques .grille-svg {
+  width: 100%;
+  max-width: 120px;
+}

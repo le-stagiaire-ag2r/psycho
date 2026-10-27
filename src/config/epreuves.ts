@@ -98,8 +98,8 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
   spatial: {
     id: 'spatial',
     titre: 'Raisonnement spatial',
-    description: 'Quadrillages tournés et cubes retournés.',
-    disponible: false,
+    description: 'Quadrillages noir/blanc tournés : retrouve la bonne grille.',
+    disponible: true,
     nbQuestions: 25,
     dureeSecondes: 420,
     nbChoix: 5,
@@ -107,8 +107,17 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
     passerAutorise: true,
     penaliteErreur: 0,
     difficulteExamen: 2,
-    parametres: {},
-    conseils: [],
+    parametres: {
+      // Variantes tirées en alternance (séparées par des virgules) : 'grille' (cube à venir).
+      variantes: 'grille',
+      // 'horaire', 'antihoraire' ou 'mixte' (le sens est alors précisé dans chaque consigne)
+      sensRotation: 'mixte',
+    },
+    conseils: [
+      'Choisis une case repère (un coin, une case noire isolée) et suis-la pendant la rotation.',
+      'Un quart de tour horaire : la première ligne devient la dernière colonne. Un demi-tour : tout est lu à l’envers.',
+      'Méfie-toi des miroirs : ils ressemblent à une rotation mais inversent la gauche et la droite.',
+    ],
   },
   verbal: {
     id: 'verbal',
@@ -129,7 +138,7 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
     id: 'numerique',
     titre: 'Aptitude numérique',
     description: 'Calcul niveau 3e : pourcentages, fractions, vitesse, poules et lapins.',
-    disponible: false,
+    disponible: true,
     nbQuestions: 25,
     dureeSecondes: 1080,
     nbChoix: 5,
@@ -138,7 +147,11 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
     penaliteErreur: 0,
     difficulteExamen: 2,
     parametres: {},
-    conseils: [],
+    conseils: [
+      'Estime d’abord l’ordre de grandeur : cela élimine souvent deux ou trois propositions.',
+      'Les mauvaises réponses sont des erreurs classiques (base 100 au lieu de 60, pourcentages qui « s’annulent »…) : relis l’énoncé.',
+      'Il est quasiment impossible de tout finir : passe les problèmes longs et reviens-y à la fin (touche P).',
+    ],
   },
   anglais: {
     id: 'anglais',
