@@ -1,4 +1,5 @@
 import type { Item } from '../lib/types';
+import CubeSvg, { PatronSvg } from './CubeSvg';
 import GrilleSvg from './GrilleSvg';
 
 interface Props {
@@ -45,12 +46,42 @@ function Stimulus({ item }: { item: Item }) {
       );
     case 'texte':
       return <p className="enonce">{s.enonce}</p>;
+    case 'cube':
+      return s.modele.forme === 'patron' ? (
+        <figure className="modele-cube">
+          <PatronSvg patron={s.modele.patron} />
+          <figcaption>Patron à plier (les symboles sont à l’extérieur du cube)</figcaption>
+        </figure>
+      ) : (
+        <div className="modele-cube modele-vues">
+          <figure>
+            <CubeSvg vue={s.modele.vues[0]} libelle="Cube modèle, vue 1" />
+            <figcaption>Vue 1</figcaption>
+          </figure>
+          <figure>
+            <CubeSvg vue={s.modele.vues[1]} libelle="Cube modèle, vue 2 (angle opposé)" />
+            <figcaption>Vue 2 : le même cube vu du côté opposé</figcaption>
+          </figure>
+        </div>
+      );
+    case 'suite-cubes':
+      return (
+        <div className="suite-cubes" role="group" aria-label="Suite de cubes">
+          {s.suite.map((v, i) => (
+            <div key={i} className="etape-cube">
+              <CubeSvg vue={v} libelle={`Cube ${i + 1}`} />
+              <span aria-hidden="true" className="fleche">→</span>
+            </div>
+          ))}
+          <div className="etape-cube etape-inconnue" aria-label="Cube à trouver">?</div>
+        </div>
+      );
   }
 }
 
 export default function QuestionView({ item, choix, onChoisir }: Props) {
   const corrige = choix !== null;
-  const graphique = item.stimulus.type === 'grille';
+  const graphique = ['grille', 'cube', 'suite-cubes'].includes(item.stimulus.type);
   return (
     <div className="question">
       <Stimulus item={item} />
@@ -72,9 +103,22 @@ export default function QuestionView({ item, choix, onChoisir }: Props) {
               className={classe}
               disabled={corrige}
               onClick={() => onChoisir(i)}
-              aria-label={s.type === 'grille' ? `Proposition ${o}` : undefined}
+              aria-label={graphique ? `Proposition ${o}` : undefined}
             >
-              <kbd>{i + 1}</kbd> {s.type === 'grille' ? <><strong>{o}</strong><GrilleSvg grille={s.propositions[i]} cellule={22} libelle={`Proposition ${o}`} /></> : o}
+              <kbd>{i + 1}</kbd>{' '}
+              {s.type === 'grille' ? (
+                <>
+                  <strong>{o}</strong>
+                  <GrilleSvg grille={s.propositions[i]} cellule={22} libelle={`Proposition ${o}`} />
+                </>
+              ) : s.type === 'cube' || s.type === 'suite-cubes' ? (
+                <>
+                  <strong>{o}</strong>
+                  <CubeSvg vue={s.propositions[i]} libelle={`Proposition ${o}`} />
+                </>
+              ) : (
+                o
+              )}
             </button>
           );
         })}

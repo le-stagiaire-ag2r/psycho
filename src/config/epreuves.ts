@@ -84,7 +84,7 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
     id: 'logique',
     titre: 'Raisonnement logique',
     description: 'Suites de cubes à symboles : quel cube suit la même logique ?',
-    disponible: false,
+    disponible: true,
     nbQuestions: 20,
     dureeSecondes: 600,
     nbChoix: 5,
@@ -93,12 +93,16 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
     penaliteErreur: 0,
     difficulteExamen: 2,
     parametres: {},
-    conseils: [],
+    conseils: [
+      'Compare deux cubes consécutifs face par face (dessus, devant, droite) : qu’est-ce qui change exactement ?',
+      'Une règle peut combiner deux changements (un symbole qui pivote ET deux symboles qui s’échangent) : vérifie chacun séparément.',
+      'Vérifie ta règle sur toute la suite avant de choisir : elle doit expliquer chaque passage, pas seulement le premier.',
+    ],
   },
   spatial: {
     id: 'spatial',
     titre: 'Raisonnement spatial',
-    description: 'Quadrillages noir/blanc tournés : retrouve la bonne grille.',
+    description: 'Quadrillages tournés, cubes à plier et cubes retournés.',
     disponible: true,
     nbQuestions: 25,
     dureeSecondes: 420,
@@ -108,8 +112,9 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
     penaliteErreur: 0,
     difficulteExamen: 2,
     parametres: {
-      // Variantes tirées en alternance (séparées par des virgules) : 'grille' (cube à venir).
-      variantes: 'grille',
+      // Variantes tirées en alternance (séparées par des virgules) : 'grille', 'patron', 'vues'.
+      // Ordre et répartition à valider auprès de candidats (voir TODO-FORMATS.md).
+      variantes: 'grille,vues,grille,patron',
       // 'horaire', 'antihoraire' ou 'mixte' (le sens est alors précisé dans chaque consigne)
       sensRotation: 'mixte',
     },

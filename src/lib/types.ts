@@ -59,7 +59,50 @@ export interface StimulusTexte {
   enonce: string;
 }
 
-export type Stimulus = StimulusAttention | StimulusCodage | StimulusGrille | StimulusTexte;
+/**
+ * Une face de cube telle qu'on la voit : indice du symbole, nombre de quarts de tour horaires
+ * par rapport à sa position canonique, et `mir` si le symbole apparaît en miroir.
+ */
+export interface FaceCube {
+  sym: number;
+  k: number;
+  mir: boolean;
+}
+
+/** Les trois faces visibles d'un cube en projection isométrique : [dessus, avant, droite]. */
+export type Vue3 = [FaceCube, FaceCube, FaceCube];
+
+/** Patron en croix d'un cube (symboles tels que dessinés sur le papier, sans miroir). */
+export interface PatronCube {
+  dessus: FaceCube;
+  gauche: FaceCube;
+  avant: FaceCube;
+  droite: FaceCube;
+  arriere: FaceCube;
+  dessous: FaceCube;
+}
+
+/** Cube retourné : le modèle est un patron (à plier) ou deux vues opposées du même cube. */
+export interface StimulusCube {
+  type: 'cube';
+  modele: { forme: 'patron'; patron: PatronCube } | { forme: 'vues'; vues: [Vue3, Vue3] };
+  propositions: Vue3[];
+}
+
+/** Suite logique de cubes : on affiche les premiers cubes, puis on cherche le suivant. */
+export interface StimulusSuiteCubes {
+  type: 'suite-cubes';
+  suite: Vue3[];
+  propositions: Vue3[];
+}
+
+export type Stimulus =
+  | StimulusAttention
+  | StimulusCodage
+  | StimulusGrille
+  | StimulusTexte
+  | StimulusCube
+  | StimulusSuiteCubes;
 
 /** Question prête à afficher (QCM : une seule bonne réponse). */
 export interface Item {

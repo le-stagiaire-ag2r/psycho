@@ -483,3 +483,45 @@ progress {
   width: 100%;
   max-width: 120px;
 }
+
+/* ----- Cubes ----- */
+:root {
+  --cube-dessus: #f4f2e6;
+  --cube-avant: #dcd9c6;
+  --cube-droite: #b9b69f;
+  --cube-trait: #3a4030;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='clair']) {
+    --cube-dessus: #4a5140;
+    --cube-avant: #384030;
+    --cube-droite: #2a3024;
+    --cube-trait: #a7ab9a;
+  }
+}
+:root[data-theme='sombre'] {
+  --cube-dessus: #4a5140;
+  --cube-avant: #384030;
+  --cube-droite: #2a3024;
+  --cube-trait: #a7ab9a;
+}
+.cube-dessus { fill: var(--cube-dessus); stroke: var(--cube-trait); stroke-width: 1.5; stroke-linejoin: round; }
+.cube-avant { fill: var(--cube-avant); stroke: var(--cube-trait); stroke-width: 1.5; stroke-linejoin: round; }
+.cube-droite { fill: var(--cube-droite); stroke: var(--cube-trait); stroke-width: 1.5; stroke-linejoin: round; }
+.cube-symbole { fill: var(--grille-noir); }
+.patron-face { fill: var(--cube-dessus); stroke: var(--cube-trait); stroke-width: 1.5; }
+.cube-svg { width: 100%; max-width: 150px; height: auto; }
+.patron-svg { width: min(100%, 420px); height: auto; }
+.modele-cube { margin: 0 auto 1rem; text-align: center; }
+.modele-cube figcaption { color: var(--texte-doux); font-size: 0.9rem; }
+.modele-vues { display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; }
+.modele-vues figure { margin: 0; }
+.modele-vues .cube-svg { max-width: 170px; }
+.suite-cubes { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 0.25rem; margin-bottom: 1rem; }
+.etape-cube { display: flex; align-items: center; }
+.etape-cube .cube-svg { max-width: 120px; }
+.fleche { font-size: 1.6rem; color: var(--texte-doux); margin: 0 0.25rem; }
+.etape-inconnue {
+  width: 90px; height: 90px; justify-content: center; font-size: 2.5rem; font-weight: 700;
+  border: 3px dashed var(--accent); border-radius: 12px; color: var(--accent);
+}

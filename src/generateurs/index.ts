@@ -1,6 +1,7 @@
 import type { EpreuveId, Generateur, Item, ItemRef } from '../lib/types';
 import { generateurAttention } from './attention';
 import { generateurCodage } from './codage';
+import { generateurLogique } from './suiteCubes';
 import { generateurNumerique } from './numerique';
 import { generateurSpatial } from './spatial';
 
@@ -10,6 +11,7 @@ export const GENERATEURS: Partial<Record<EpreuveId, Generateur>> = {
   codage: generateurCodage,
   numerique: generateurNumerique,
   spatial: generateurSpatial,
+  logique: generateurLogique,
 };
 
 export function genererItem(ref: ItemRef): Item {
