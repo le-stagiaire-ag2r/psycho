@@ -85,7 +85,7 @@ describe('questionnaire de personnalité : formulation', () => {
   it('chaque affirmation est une phrase complète à la première personne', () => {
     const items = (personnalite as { items: { texte: string }[] }).items;
     for (const i of items) {
-      expect(i.texte).toMatch(/^(Je|J'|Cela|Dans|Mon|Les|Il m'|Il )/);
+      expect(i.texte).toMatch(/^(Je|J'|Cela|Dans|Mon|Mes|Les|Il m'|Il )/);
       expect(i.texte.endsWith('.')).toBe(true);
     }
     // « Je suis un emploi du temps » est ambigu (être / suivre).

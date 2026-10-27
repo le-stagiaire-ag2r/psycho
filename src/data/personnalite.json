@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "epreuve": "personnalite",
  "items": [
   {
@@ -251,6 +251,756 @@
    "id": "PER-OUV-10",
    "dimension": "ouverture",
    "texte": "Je suis plein(e) d'idées."
+  },
+  {
+   "id": "PER-EXT-11",
+   "dimension": "extraversion",
+   "texte": "J'aime être entouré(e) de beaucoup de monde."
+  },
+  {
+   "id": "PER-EXT-12",
+   "dimension": "extraversion",
+   "texte": "Je préfère les moments tranquilles, seul(e), aux grandes réunions."
+  },
+  {
+   "id": "PER-EXT-13",
+   "dimension": "extraversion",
+   "texte": "Je prends facilement la parole en groupe."
+  },
+  {
+   "id": "PER-EXT-14",
+   "dimension": "extraversion",
+   "texte": "Je me sens épuisé(e) après une longue journée passée avec des inconnus."
+  },
+  {
+   "id": "PER-EXT-15",
+   "dimension": "extraversion",
+   "texte": "Je fais rapidement connaissance avec de nouvelles personnes."
+  },
+  {
+   "id": "PER-EXT-16",
+   "dimension": "extraversion",
+   "texte": "J'attends qu'on vienne me parler avant de m'exprimer."
+  },
+  {
+   "id": "PER-EXT-17",
+   "dimension": "extraversion",
+   "texte": "Je dégage beaucoup d'énergie."
+  },
+  {
+   "id": "PER-EXT-18",
+   "dimension": "extraversion",
+   "texte": "J'aime les activités animées et pleines de monde."
+  },
+  {
+   "id": "PER-EXT-19",
+   "dimension": "extraversion",
+   "texte": "Je me présente spontanément aux personnes que je ne connais pas."
+  },
+  {
+   "id": "PER-EXT-20",
+   "dimension": "extraversion",
+   "texte": "Je suis plutôt discret(e) dans les réunions."
+  },
+  {
+   "id": "PER-EXT-21",
+   "dimension": "extraversion",
+   "texte": "J'aime prendre les devants dans un groupe."
+  },
+  {
+   "id": "PER-EXT-22",
+   "dimension": "extraversion",
+   "texte": "Je trouve facile de me faire entendre."
+  },
+  {
+   "id": "PER-EXT-23",
+   "dimension": "extraversion",
+   "texte": "Je préfère rester à l'écart quand il y a beaucoup de monde."
+  },
+  {
+   "id": "PER-EXT-24",
+   "dimension": "extraversion",
+   "texte": "J'ai souvent envie de sortir et de voir du monde."
+  },
+  {
+   "id": "PER-EXT-25",
+   "dimension": "extraversion",
+   "texte": "Je suis à l'aise pour parler devant un public."
+  },
+  {
+   "id": "PER-EXT-26",
+   "dimension": "extraversion",
+   "texte": "Je suis mal à l'aise quand je dois parler en public."
+  },
+  {
+   "id": "PER-EXT-27",
+   "dimension": "extraversion",
+   "texte": "Je suis souvent le premier à proposer une activité."
+  },
+  {
+   "id": "PER-EXT-28",
+   "dimension": "extraversion",
+   "texte": "J'aime plaisanter et faire rire autour de moi."
+  },
+  {
+   "id": "PER-EXT-29",
+   "dimension": "extraversion",
+   "texte": "Je me sens plus vivant(e) quand je suis avec d'autres personnes."
+  },
+  {
+   "id": "PER-EXT-30",
+   "dimension": "extraversion",
+   "texte": "Je m'exprime peu, même avec des personnes que je connais."
+  },
+  {
+   "id": "PER-EXT-31",
+   "dimension": "extraversion",
+   "texte": "Je me lance volontiers dans une discussion avec un inconnu."
+  },
+  {
+   "id": "PER-EXT-32",
+   "dimension": "extraversion",
+   "texte": "J'ai besoin de longs moments de solitude pour me ressourcer."
+  },
+  {
+   "id": "PER-EXT-33",
+   "dimension": "extraversion",
+   "texte": "Je me sens à l'aise pour animer un groupe."
+  },
+  {
+   "id": "PER-EXT-34",
+   "dimension": "extraversion",
+   "texte": "Je préfère laisser les autres mener la conversation."
+  },
+  {
+   "id": "PER-EXT-35",
+   "dimension": "extraversion",
+   "texte": "Les ambiances animées me stimulent."
+  },
+  {
+   "id": "PER-EXT-36",
+   "dimension": "extraversion",
+   "texte": "Je me mets facilement en avant."
+  },
+  {
+   "id": "PER-EXT-37",
+   "dimension": "extraversion",
+   "texte": "Je trouve les longues conversations fatigantes."
+  },
+  {
+   "id": "PER-EXT-38",
+   "dimension": "extraversion",
+   "texte": "Je cherche souvent la compagnie des autres."
+  },
+  {
+   "id": "PER-EXT-39",
+   "dimension": "extraversion",
+   "texte": "J'ai de l'enthousiasme à raconter ce que je vis."
+  },
+  {
+   "id": "PER-EXT-40",
+   "dimension": "extraversion",
+   "texte": "Je garde mes pensées pour moi."
+  },
+  {
+   "id": "PER-AGR-11",
+   "dimension": "agreabilite",
+   "texte": "J'essaie de traiter chacun avec respect."
+  },
+  {
+   "id": "PER-AGR-12",
+   "dimension": "agreabilite",
+   "texte": "Je pense d'abord à mes intérêts avant ceux des autres."
+  },
+  {
+   "id": "PER-AGR-13",
+   "dimension": "agreabilite",
+   "texte": "Je suis prêt(e) à rendre service même quand cela me dérange."
+  },
+  {
+   "id": "PER-AGR-14",
+   "dimension": "agreabilite",
+   "texte": "Je me méfie facilement des intentions des autres."
+  },
+  {
+   "id": "PER-AGR-15",
+   "dimension": "agreabilite",
+   "texte": "J'accorde facilement ma confiance."
+  },
+  {
+   "id": "PER-AGR-16",
+   "dimension": "agreabilite",
+   "texte": "Je cherche un compromis plutôt que d'imposer mon point de vue."
+  },
+  {
+   "id": "PER-AGR-17",
+   "dimension": "agreabilite",
+   "texte": "Je critique facilement les gens."
+  },
+  {
+   "id": "PER-AGR-18",
+   "dimension": "agreabilite",
+   "texte": "Je suis patient(e) avec les gens qui ont du mal à comprendre."
+  },
+  {
+   "id": "PER-AGR-19",
+   "dimension": "agreabilite",
+   "texte": "Je trouve que les autres sont souvent égoïstes."
+  },
+  {
+   "id": "PER-AGR-20",
+   "dimension": "agreabilite",
+   "texte": "J'aime aider quelqu'un qui a un problème."
+  },
+  {
+   "id": "PER-AGR-21",
+   "dimension": "agreabilite",
+   "texte": "Je suis touché(e) par les difficultés des autres."
+  },
+  {
+   "id": "PER-AGR-22",
+   "dimension": "agreabilite",
+   "texte": "J'ai du mal à pardonner quand on m'a blessé(e)."
+  },
+  {
+   "id": "PER-AGR-23",
+   "dimension": "agreabilite",
+   "texte": "Je dis ce que je pense, même si cela peut vexer."
+  },
+  {
+   "id": "PER-AGR-24",
+   "dimension": "agreabilite",
+   "texte": "Je prends en compte l'avis de chacun avant de décider."
+  },
+  {
+   "id": "PER-AGR-25",
+   "dimension": "agreabilite",
+   "texte": "Je suis généreux(se) de mon temps."
+  },
+  {
+   "id": "PER-AGR-26",
+   "dimension": "agreabilite",
+   "texte": "Je trouve que les gens ont généralement de bonnes intentions."
+  },
+  {
+   "id": "PER-AGR-27",
+   "dimension": "agreabilite",
+   "texte": "Je me moque des soucis des autres."
+  },
+  {
+   "id": "PER-AGR-28",
+   "dimension": "agreabilite",
+   "texte": "Je reste calme et courtois(e) même quand quelqu'un m'énerve."
+  },
+  {
+   "id": "PER-AGR-29",
+   "dimension": "agreabilite",
+   "texte": "Je coopère volontiers avec les autres."
+  },
+  {
+   "id": "PER-AGR-30",
+   "dimension": "agreabilite",
+   "texte": "Je cherche à gagner même si cela se fait au détriment des autres."
+  },
+  {
+   "id": "PER-AGR-31",
+   "dimension": "agreabilite",
+   "texte": "J'écoute attentivement quand quelqu'un me confie un souci."
+  },
+  {
+   "id": "PER-AGR-32",
+   "dimension": "agreabilite",
+   "texte": "Je me réjouis de la réussite des autres."
+  },
+  {
+   "id": "PER-AGR-33",
+   "dimension": "agreabilite",
+   "texte": "Je remarque quand quelqu'un ne va pas bien."
+  },
+  {
+   "id": "PER-AGR-34",
+   "dimension": "agreabilite",
+   "texte": "J'ai tendance à juger sévèrement les erreurs des autres."
+  },
+  {
+   "id": "PER-AGR-35",
+   "dimension": "agreabilite",
+   "texte": "Je fais passer l'équipe avant moi."
+  },
+  {
+   "id": "PER-AGR-36",
+   "dimension": "agreabilite",
+   "texte": "Je suis irrité(e) par ceux qui demandent de l'aide."
+  },
+  {
+   "id": "PER-AGR-37",
+   "dimension": "agreabilite",
+   "texte": "Je m'efforce de ne froisser personne."
+  },
+  {
+   "id": "PER-AGR-38",
+   "dimension": "agreabilite",
+   "texte": "Je pense que chacun doit se débrouiller seul."
+  },
+  {
+   "id": "PER-AGR-39",
+   "dimension": "agreabilite",
+   "texte": "J'accepte volontiers de céder pour garder la bonne entente."
+  },
+  {
+   "id": "PER-AGR-40",
+   "dimension": "agreabilite",
+   "texte": "Je suis attentif(ve) aux besoins des autres avant qu'ils les expriment."
+  },
+  {
+   "id": "PER-CON-11",
+   "dimension": "conscience",
+   "texte": "Je termine ce que j'ai commencé."
+  },
+  {
+   "id": "PER-CON-12",
+   "dimension": "conscience",
+   "texte": "J'ai tendance à remettre les choses au lendemain."
+  },
+  {
+   "id": "PER-CON-13",
+   "dimension": "conscience",
+   "texte": "Je prépare mes affaires la veille."
+  },
+  {
+   "id": "PER-CON-14",
+   "dimension": "conscience",
+   "texte": "Je fais mes tâches dans l'ordre, sans me disperser."
+  },
+  {
+   "id": "PER-CON-15",
+   "dimension": "conscience",
+   "texte": "Je me laisse facilement distraire de mon travail."
+  },
+  {
+   "id": "PER-CON-16",
+   "dimension": "conscience",
+   "texte": "Je suis rigoureux(se) dans ce que je fais."
+  },
+  {
+   "id": "PER-CON-17",
+   "dimension": "conscience",
+   "texte": "Je laisse parfois les choses à moitié faites."
+  },
+  {
+   "id": "PER-CON-18",
+   "dimension": "conscience",
+   "texte": "J'aime avoir un plan avant de me lancer."
+  },
+  {
+   "id": "PER-CON-19",
+   "dimension": "conscience",
+   "texte": "Je tiens mes promesses."
+  },
+  {
+   "id": "PER-CON-20",
+   "dimension": "conscience",
+   "texte": "Je suis souvent en retard."
+  },
+  {
+   "id": "PER-CON-21",
+   "dimension": "conscience",
+   "texte": "Je vérifie mon travail avant de le rendre."
+  },
+  {
+   "id": "PER-CON-22",
+   "dimension": "conscience",
+   "texte": "Je me fixe des objectifs précis."
+  },
+  {
+   "id": "PER-CON-23",
+   "dimension": "conscience",
+   "texte": "Je fais les choses à la dernière minute."
+  },
+  {
+   "id": "PER-CON-24",
+   "dimension": "conscience",
+   "texte": "Je range mes affaires après les avoir utilisées."
+  },
+  {
+   "id": "PER-CON-25",
+   "dimension": "conscience",
+   "texte": "Je persévère même quand la tâche devient pénible."
+  },
+  {
+   "id": "PER-CON-26",
+   "dimension": "conscience",
+   "texte": "J'abandonne facilement quand c'est difficile."
+  },
+  {
+   "id": "PER-CON-27",
+   "dimension": "conscience",
+   "texte": "Je suis organisé(e) dans mon travail."
+  },
+  {
+   "id": "PER-CON-28",
+   "dimension": "conscience",
+   "texte": "Je suis ponctuel(le)."
+  },
+  {
+   "id": "PER-CON-29",
+   "dimension": "conscience",
+   "texte": "Je fais preuve d'autodiscipline."
+  },
+  {
+   "id": "PER-CON-30",
+   "dimension": "conscience",
+   "texte": "Je perds souvent mes affaires."
+  },
+  {
+   "id": "PER-CON-31",
+   "dimension": "conscience",
+   "texte": "Je réfléchis avant d'agir."
+  },
+  {
+   "id": "PER-CON-32",
+   "dimension": "conscience",
+   "texte": "J'agis souvent sur un coup de tête."
+  },
+  {
+   "id": "PER-CON-33",
+   "dimension": "conscience",
+   "texte": "Je note ce que j'ai à faire pour ne rien oublier."
+  },
+  {
+   "id": "PER-CON-34",
+   "dimension": "conscience",
+   "texte": "Je ne supporte pas le travail bâclé."
+  },
+  {
+   "id": "PER-CON-35",
+   "dimension": "conscience",
+   "texte": "Je me contente de faire le minimum."
+  },
+  {
+   "id": "PER-CON-36",
+   "dimension": "conscience",
+   "texte": "Je suis fiable."
+  },
+  {
+   "id": "PER-CON-37",
+   "dimension": "conscience",
+   "texte": "Je planifie mes journées."
+  },
+  {
+   "id": "PER-CON-38",
+   "dimension": "conscience",
+   "texte": "Je néglige parfois les détails."
+  },
+  {
+   "id": "PER-CON-39",
+   "dimension": "conscience",
+   "texte": "Je prends mes responsabilités au sérieux."
+  },
+  {
+   "id": "PER-CON-40",
+   "dimension": "conscience",
+   "texte": "Je garde mon espace de travail en ordre."
+  },
+  {
+   "id": "PER-STA-11",
+   "dimension": "stabilite",
+   "texte": "Je garde mon calme sous la pression."
+  },
+  {
+   "id": "PER-STA-12",
+   "dimension": "stabilite",
+   "texte": "Je panique facilement quand les choses vont mal."
+  },
+  {
+   "id": "PER-STA-13",
+   "dimension": "stabilite",
+   "texte": "Je me remets vite d'un contretemps."
+  },
+  {
+   "id": "PER-STA-14",
+   "dimension": "stabilite",
+   "texte": "Je rumine longtemps après une critique."
+  },
+  {
+   "id": "PER-STA-15",
+   "dimension": "stabilite",
+   "texte": "Je reste serein(e) face à l'imprévu."
+  },
+  {
+   "id": "PER-STA-16",
+   "dimension": "stabilite",
+   "texte": "Je m'inquiète à l'avance pour des choses qui ne se produiront peut-être pas."
+  },
+  {
+   "id": "PER-STA-17",
+   "dimension": "stabilite",
+   "texte": "Je dors bien même quand j'ai des soucis."
+  },
+  {
+   "id": "PER-STA-18",
+   "dimension": "stabilite",
+   "texte": "Je me sens souvent tendu(e)."
+  },
+  {
+   "id": "PER-STA-19",
+   "dimension": "stabilite",
+   "texte": "Je supporte bien les situations stressantes."
+  },
+  {
+   "id": "PER-STA-20",
+   "dimension": "stabilite",
+   "texte": "Je doute souvent de moi."
+  },
+  {
+   "id": "PER-STA-21",
+   "dimension": "stabilite",
+   "texte": "Je garde mon sang-froid dans les situations d'urgence."
+  },
+  {
+   "id": "PER-STA-22",
+   "dimension": "stabilite",
+   "texte": "Je m'énerve pour des détails."
+  },
+  {
+   "id": "PER-STA-23",
+   "dimension": "stabilite",
+   "texte": "Je prends les critiques sans me laisser abattre."
+  },
+  {
+   "id": "PER-STA-24",
+   "dimension": "stabilite",
+   "texte": "Je me sens facilement dépassé(e) par les événements."
+  },
+  {
+   "id": "PER-STA-25",
+   "dimension": "stabilite",
+   "texte": "Je suis rarement anxieux(se)."
+  },
+  {
+   "id": "PER-STA-26",
+   "dimension": "stabilite",
+   "texte": "Mes émotions sont stables d'un jour à l'autre."
+  },
+  {
+   "id": "PER-STA-27",
+   "dimension": "stabilite",
+   "texte": "Je me laisse envahir par mes soucis."
+  },
+  {
+   "id": "PER-STA-28",
+   "dimension": "stabilite",
+   "texte": "Je dédramatise facilement les problèmes."
+  },
+  {
+   "id": "PER-STA-29",
+   "dimension": "stabilite",
+   "texte": "Je me sens facilement coupable."
+  },
+  {
+   "id": "PER-STA-30",
+   "dimension": "stabilite",
+   "texte": "Je suis sûr(e) de moi dans les moments difficiles."
+  },
+  {
+   "id": "PER-STA-31",
+   "dimension": "stabilite",
+   "texte": "Je me mets facilement en colère."
+  },
+  {
+   "id": "PER-STA-32",
+   "dimension": "stabilite",
+   "texte": "Je relativise quand quelque chose ne se passe pas comme prévu."
+  },
+  {
+   "id": "PER-STA-33",
+   "dimension": "stabilite",
+   "texte": "Je suis souvent nerveux(se) avant une épreuve importante."
+  },
+  {
+   "id": "PER-STA-34",
+   "dimension": "stabilite",
+   "texte": "Je reste de bonne humeur même quand la journée est difficile."
+  },
+  {
+   "id": "PER-STA-35",
+   "dimension": "stabilite",
+   "texte": "Les imprévus me déstabilisent."
+  },
+  {
+   "id": "PER-STA-36",
+   "dimension": "stabilite",
+   "texte": "Je me sens bien dans ma peau."
+  },
+  {
+   "id": "PER-STA-37",
+   "dimension": "stabilite",
+   "texte": "J'ai du mal à me calmer après une contrariété."
+  },
+  {
+   "id": "PER-STA-38",
+   "dimension": "stabilite",
+   "texte": "Je ne me laisse pas facilement impressionner."
+  },
+  {
+   "id": "PER-STA-39",
+   "dimension": "stabilite",
+   "texte": "Je me sens vite découragé(e) après un échec."
+  },
+  {
+   "id": "PER-STA-40",
+   "dimension": "stabilite",
+   "texte": "Je gère bien mes émotions."
+  },
+  {
+   "id": "PER-OUV-11",
+   "dimension": "ouverture",
+   "texte": "J'aime découvrir des idées nouvelles."
+  },
+  {
+   "id": "PER-OUV-12",
+   "dimension": "ouverture",
+   "texte": "Je préfère les habitudes aux nouveautés."
+  },
+  {
+   "id": "PER-OUV-13",
+   "dimension": "ouverture",
+   "texte": "Je suis curieux(se) de tout."
+  },
+  {
+   "id": "PER-OUV-14",
+   "dimension": "ouverture",
+   "texte": "J'aime lire des livres qui font réfléchir."
+  },
+  {
+   "id": "PER-OUV-15",
+   "dimension": "ouverture",
+   "texte": "Je m'ennuie quand on parle de théories."
+  },
+  {
+   "id": "PER-OUV-16",
+   "dimension": "ouverture",
+   "texte": "J'aime imaginer des solutions originales."
+  },
+  {
+   "id": "PER-OUV-17",
+   "dimension": "ouverture",
+   "texte": "Je trouve les débats d'idées passionnants."
+  },
+  {
+   "id": "PER-OUV-18",
+   "dimension": "ouverture",
+   "texte": "J'aime visiter des endroits que je ne connais pas."
+  },
+  {
+   "id": "PER-OUV-19",
+   "dimension": "ouverture",
+   "texte": "Je me méfie des changements."
+  },
+  {
+   "id": "PER-OUV-20",
+   "dimension": "ouverture",
+   "texte": "J'aime l'art, la musique ou la poésie."
+  },
+  {
+   "id": "PER-OUV-21",
+   "dimension": "ouverture",
+   "texte": "Je me pose souvent des questions sur le monde."
+  },
+  {
+   "id": "PER-OUV-22",
+   "dimension": "ouverture",
+   "texte": "Je préfère faire les choses comme on les a toujours faites."
+  },
+  {
+   "id": "PER-OUV-23",
+   "dimension": "ouverture",
+   "texte": "J'aime apprendre de nouvelles choses."
+  },
+  {
+   "id": "PER-OUV-24",
+   "dimension": "ouverture",
+   "texte": "Je m'intéresse peu à la culture."
+  },
+  {
+   "id": "PER-OUV-25",
+   "dimension": "ouverture",
+   "texte": "J'essaie volontiers des activités inhabituelles."
+  },
+  {
+   "id": "PER-OUV-26",
+   "dimension": "ouverture",
+   "texte": "Je trouve facilement des moyens inventifs de résoudre un problème."
+  },
+  {
+   "id": "PER-OUV-27",
+   "dimension": "ouverture",
+   "texte": "Je me perds facilement dans mes pensées et mon imagination."
+  },
+  {
+   "id": "PER-OUV-28",
+   "dimension": "ouverture",
+   "texte": "Je trouve la philosophie ennuyeuse."
+  },
+  {
+   "id": "PER-OUV-29",
+   "dimension": "ouverture",
+   "texte": "Je suis attiré(e) par ce qui sort de l'ordinaire."
+  },
+  {
+   "id": "PER-OUV-30",
+   "dimension": "ouverture",
+   "texte": "Je cherche à comprendre le fonctionnement des choses."
+  },
+  {
+   "id": "PER-OUV-31",
+   "dimension": "ouverture",
+   "texte": "Je n'aime pas qu'on bouscule mes habitudes."
+  },
+  {
+   "id": "PER-OUV-32",
+   "dimension": "ouverture",
+   "texte": "J'ai plaisir à jouer avec les mots et les idées."
+  },
+  {
+   "id": "PER-OUV-33",
+   "dimension": "ouverture",
+   "texte": "Je m'adapte facilement à une nouvelle façon de faire."
+  },
+  {
+   "id": "PER-OUV-34",
+   "dimension": "ouverture",
+   "texte": "Je ne vois pas l'intérêt de se poser des questions sur tout."
+  },
+  {
+   "id": "PER-OUV-35",
+   "dimension": "ouverture",
+   "texte": "J'aime regarder les choses sous un angle différent."
+  },
+  {
+   "id": "PER-OUV-36",
+   "dimension": "ouverture",
+   "texte": "Je m'intéresse à des cultures différentes de la mienne."
+  },
+  {
+   "id": "PER-OUV-37",
+   "dimension": "ouverture",
+   "texte": "Je préfère les tâches simples et répétitives aux tâches inventives."
+  },
+  {
+   "id": "PER-OUV-38",
+   "dimension": "ouverture",
+   "texte": "Je suis fasciné(e) par les sciences et les découvertes."
+  },
+  {
+   "id": "PER-OUV-39",
+   "dimension": "ouverture",
+   "texte": "J'aime réfléchir à des problèmes compliqués."
+  },
+  {
+   "id": "PER-OUV-40",
+   "dimension": "ouverture",
+   "texte": "Je trouve peu d'intérêt aux discussions abstraites."
   }
  ]
 }

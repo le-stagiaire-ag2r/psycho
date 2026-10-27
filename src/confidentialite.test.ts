@@ -39,14 +39,14 @@ describe('confidentialité : rien ne quitte l’appareil', () => {
 describe('questionnaire de personnalité (mode découverte)', () => {
   const items = (personnalite as { items: { id: string; dimension: string; texte: string }[] }).items;
 
-  it('contient 50 affirmations, 10 par dimension, sans doublon', () => {
-    expect(items).toHaveLength(50);
-    expect(new Set(items.map((i) => i.id)).size).toBe(50);
-    expect(new Set(items.map((i) => i.texte)).size).toBe(50);
+  it('contient au moins 150 affirmations, équilibrées entre les 5 dimensions, sans doublon', () => {
+    expect(items.length).toBeGreaterThanOrEqual(150);
+    expect(new Set(items.map((i) => i.id)).size).toBe(items.length);
+    expect(new Set(items.map((i) => i.texte)).size).toBe(items.length);
     const parDim = new Map<string, number>();
     for (const i of items) parDim.set(i.dimension, (parDim.get(i.dimension) ?? 0) + 1);
     expect([...parDim.keys()].sort()).toEqual(['agreabilite', 'conscience', 'extraversion', 'ouverture', 'stabilite']);
-    for (const n of parDim.values()) expect(n).toBe(10);
+    for (const n of parDim.values()) expect(n).toBe(items.length / 5);
   });
 
   it('ne contient aucune information de cotation (pas de score possible)', () => {

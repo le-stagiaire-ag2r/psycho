@@ -47,7 +47,7 @@ témoignages de candidats. Pour l'officiel : sengager.fr ou un CIRFA.
 - [ ] Nombre de propositions : 4 (config `nbChoix`)
 
 ## Personnalité
-- [ ] Nombre d'affirmations réel (100 à 250) ; ici 50 affirmations adaptées des « Big-Five Factor Markers » de l'IPIP, **traduction faite pour ce projet, non validée** (le site ipip.ori.org n'était pas joignable pour récupérer la version française officielle)
+- [ ] Nombre d'affirmations réel (100 à 250) ; ici 200 affirmations (40 par dimension) : 50 adaptées des « Big-Five Factor Markers » de l'IPIP et 150 écrites pour ce projet dans le même esprit, **non validées psychométriquement** (le site ipip.ori.org n'était pas joignable pour récupérer la version française officielle)
 
 ## Pénalité d'erreur
 - [ ] Une mauvaise réponse retire-t-elle des points ? (actuellement : non, `penaliteErreur: 0`)

@@ -34,7 +34,9 @@ const DIMENSIONS: { nom: string; texte: string }[] = [
   { nom: 'Ouverture', texte: 'La curiosité intellectuelle, l’imagination et le goût des idées nouvelles ou abstraites.' },
 ];
 
-const TAILLES = [10, 25, 50];
+// Tailles proposées : le vrai questionnaire est annoncé long (100 à 250 affirmations), on permet donc de s'entraîner à l'endurance.
+const TOTAL = AFFIRMATIONS.length;
+const TAILLES = [25, 50, 100, 150, TOTAL];
 
 export default function Personnalite() {
   const [etape, setEtape] = useState<'intro' | 'questionnaire' | 'fin'>('intro');
@@ -106,13 +108,14 @@ export default function Personnalite() {
             <label key={t} className="choix">
               <input type="radio" name="taille" checked={taille === t} onChange={() => setTaille(t)} />
               {t} affirmations
-              {t === 50 ? ' (toutes)' : ''}
+              {t === TOTAL ? ' (toutes)' : ''}
             </label>
           ))}
         </fieldset>
         <p className="discret">
-          Le vrai questionnaire est annoncé comme bien plus long (de 100 à 250 affirmations selon les témoignages, à
-          valider). Les affirmations proposées ici sont adaptées d’un inventaire en accès libre (voir ATTRIBUTIONS.md).
+          Le vrai questionnaire est annoncé comme long (de 100 à 250 affirmations selon les témoignages, à valider) et
+          reformule plusieurs fois les mêmes idées : c’est aussi le cas ici, avec {TOTAL} affirmations. Elles sont
+          adaptées d’un inventaire en accès libre ou écrites pour ce projet (voir ATTRIBUTIONS.md).
         </p>
         <div className="actions">
           <button type="button" className="bouton" onClick={commencer} autoFocus>

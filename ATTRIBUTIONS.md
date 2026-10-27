@@ -10,10 +10,11 @@ Ce fichier liste les sources externes utilisées dans le projet. Il doit être t
 - **Verbal et anglais** (`src/data/verbal.json`, `src/data/anglais.json`) : items rédigés pour ce projet, avec l'aide
   d'une IA, **à l'avance** (jamais à l'exécution) ; aucun contenu copié d'un test réel ni d'un site de préparation.
   Les proverbes sont des proverbes traditionnels du domaine public. Statut de relecture : voir le champ `relecture` de chaque item.
-- **Personnalité** (`src/data/personnalite.json`) : 50 affirmations adaptées en français des « Big-Five Factor Markers »
-  de l'IPIP (International Personality Item Pool, domaine public, <https://ipip.ori.org>). La traduction a été faite
-  pour ce projet et n'est **pas** la version française validée de l'IPIP ; elle n'a pas été validée psychométriquement
-  et n'est utilisée qu'en mode découverte, sans score.
+- **Personnalité** (`src/data/personnalite.json`) : 200 affirmations. Les 50 premières (identifiants `01` à `10` de chaque
+  dimension) sont adaptées en français des « Big-Five Factor Markers » de l'IPIP (International Personality Item Pool,
+  domaine public, <https://ipip.ori.org>) ; les 150 autres (`11` à `40`) ont été écrites pour ce projet, dans le même
+  esprit (reformulations des mêmes idées). Rien n'est la version française validée de l'IPIP ni n'a été validé
+  psychométriquement ; le tout n'est utilisé qu'en mode découverte, sans score.
 
 ## Sources envisagées (pas encore utilisées)
 

@@ -328,7 +328,7 @@ export const FICHES: FicheMethode[] = [
         titre: 'Ce qu’il faut savoir',
         points: [
           'Les questionnaires de type « Big Five » décrivent cinq dimensions : extraversion, agréabilité, conscience, stabilité émotionnelle, ouverture. Aucune n’est « meilleure » dans l’absolu.',
-          'Le format est long (plusieurs dizaines à plus d’une centaine d’affirmations, d’après les témoignages) : la difficulté est surtout de rester attentif jusqu’au bout.',
+          'Le format est long (100 à 250 affirmations selon les témoignages) : la difficulté est surtout de rester attentif jusqu’au bout.',
           'Il est courant que les mêmes idées soient reformulées plusieurs fois.',
         ],
       },
