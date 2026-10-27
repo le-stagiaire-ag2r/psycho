@@ -212,7 +212,7 @@
     },
     {
      "texte": "victoire",
-     "raison": "« victoire » signifie « triomphe sur un adversaire » : ce n'est pas le sens de « échec » (« résultat très mauvais, raté »)."
+     "raison": "« victoire » signifie « triomphe sur un adversaire » : c'est le contraire de « échec », pas son synonyme."
     }
    ],
    "explication": "« échec » et « fiasco » veulent tous deux dire « résultat très mauvais, raté ». Un synonyme a un sens proche, pas opposé.",
@@ -223,8 +223,8 @@
    "type": "synonyme",
    "niveau": 1,
    "enonce": "Quel mot est un synonyme de « fréquent » ?",
-   "bonne": "habituel",
-   "pourquoiBonne": "« habituel » signifie « qui arrive souvent », comme « fréquent » : les deux mots sont interchangeables.",
+   "bonne": "courant",
+   "pourquoiBonne": "« courant » signifie « qui arrive souvent », comme « fréquent » : les deux mots sont interchangeables.",
    "fausses": [
     {
      "texte": "rare",
@@ -239,7 +239,7 @@
      "raison": "« inattendu » signifie « qui surprend, qu'on n'attendait pas » : ce n'est pas le sens de « fréquent » (« qui arrive souvent »)."
     }
    ],
-   "explication": "« fréquent » et « habituel » veulent tous deux dire « qui arrive souvent ». Un synonyme a un sens proche, pas opposé.",
+   "explication": "« fréquent » et « courant » veulent tous deux dire « qui arrive souvent ». Un synonyme a un sens proche, pas opposé.",
    "relecture": null
   },
   {
@@ -343,8 +343,8 @@
    "type": "synonyme",
    "niveau": 1,
    "enonce": "Quel mot est un synonyme de « ancien » ?",
-   "bonne": "antique",
-   "pourquoiBonne": "« antique » signifie « qui date de très longtemps », comme « ancien » : les deux mots sont interchangeables.",
+   "bonne": "vieux",
+   "pourquoiBonne": "« vieux » signifie « qui existe depuis longtemps », comme « ancien » : les deux mots sont interchangeables.",
    "fausses": [
     {
      "texte": "récent",
@@ -356,10 +356,10 @@
     },
     {
      "texte": "futur",
-     "raison": "« futur » signifie « qui n'existe pas encore » : ce n'est pas le sens de « ancien » (« qui date de très longtemps »)."
+     "raison": "« futur » signifie « qui n'existe pas encore » : ce n'est pas le sens de « ancien » (« qui existe depuis longtemps »)."
     }
    ],
-   "explication": "« ancien » et « antique » veulent tous deux dire « qui date de très longtemps ». Un synonyme a un sens proche, pas opposé.",
+   "explication": "« ancien » et « vieux » veulent tous deux dire « qui existe depuis longtemps ». Un synonyme a un sens proche, pas opposé.",
    "relecture": null
   },
   {
@@ -439,8 +439,8 @@
    "type": "synonyme",
    "niveau": 2,
    "enonce": "Quel mot est un synonyme de « véridique » ?",
-   "bonne": "sincère",
-   "pourquoiBonne": "« sincère » signifie « qui dit la vérité », comme « véridique » : les deux mots sont interchangeables.",
+   "bonne": "vrai",
+   "pourquoiBonne": "« vrai » signifie « conforme à la vérité », comme « véridique » : les deux mots sont interchangeables.",
    "fausses": [
     {
      "texte": "mensonger",
@@ -448,14 +448,14 @@
     },
     {
      "texte": "fictif",
-     "raison": "« fictif » signifie « inventé, imaginaire » : ce n'est pas le sens de « véridique » (« qui dit la vérité »)."
+     "raison": "« fictif » signifie « inventé, imaginaire » : ce n'est pas le sens de « véridique » (« conforme à la vérité »)."
     },
     {
      "texte": "douteux",
-     "raison": "« douteux » signifie « dont on n'est pas sûr » : ce n'est pas le sens de « véridique » (« qui dit la vérité »)."
+     "raison": "« douteux » signifie « dont on n'est pas sûr » : ce n'est pas le sens de « véridique » (« conforme à la vérité »)."
     }
    ],
-   "explication": "« véridique » et « sincère » veulent tous deux dire « qui dit la vérité ». Un synonyme a un sens proche, pas opposé.",
+   "explication": "« véridique » et « vrai » veulent tous deux dire « conforme à la vérité ». Un synonyme a un sens proche, pas opposé.",
    "relecture": null
   },
   {
@@ -1367,8 +1367,8 @@
    "type": "intrus",
    "niveau": 1,
    "enonce": "Quel mot est l'intrus ?",
-   "bonne": "Danemark",
-   "pourquoiBonne": "« Danemark » est un pays, pas une langue, alors que les quatre autres mots appartiennent à la même série (langues) : c'est l'intrus.",
+   "bonne": "grammaire",
+   "pourquoiBonne": "« grammaire » désigne l'ensemble des règles d'une langue, pas une langue, alors que les quatre autres mots appartiennent à la même série (langues) : c'est l'intrus.",
    "fausses": [
     {
      "texte": "espagnol",
@@ -1387,7 +1387,7 @@
      "raison": "« allemand » fait partie de la même série que les autres mots (langues) : ce n'est pas lui l'intrus."
     }
    ],
-   "explication": "Espagnol, italien, portugais et allemand sont des langues ; le Danemark est un pays.",
+   "explication": "Espagnol, italien, portugais et allemand sont des langues ; la grammaire est l'ensemble des règles d'une langue.",
    "relecture": null
   },
   {
@@ -1507,8 +1507,8 @@
    "type": "intrus",
    "niveau": 2,
    "enonce": "Quel mot est l'intrus ?",
-   "bonne": "portrait",
-   "pourquoiBonne": "« portrait » vient de « portraire » (dessiner), pas de « porter », alors que les quatre autres mots appartiennent à la même série (mots de la famille de « porter ») : c'est l'intrus.",
+   "bonne": "portail",
+   "pourquoiBonne": "« portail » est de la famille de « porte » (l'ouverture), pas de « porter », alors que les quatre autres mots appartiennent à la même série (mots de la famille de « porter ») : c'est l'intrus.",
    "fausses": [
     {
      "texte": "porteur",
@@ -1523,11 +1523,11 @@
      "raison": "« transporter » fait partie de la même série que les autres mots (mots de la famille de « porter ») : ce n'est pas lui l'intrus."
     },
     {
-     "texte": "support",
-     "raison": "« support » fait partie de la même série que les autres mots (mots de la famille de « porter ») : ce n'est pas lui l'intrus."
+     "texte": "importer",
+     "raison": "« importer » fait partie de la même série que les autres mots (mots de la famille de « porter ») : ce n'est pas lui l'intrus."
     }
    ],
-   "explication": "Porteur, portable, transporter et support sont de la famille de « porter » ; « portrait » vient de « portraire ».",
+   "explication": "Porteur, portable, transporter et importer sont de la famille de « porter » ; « portail » vient de « porte ».",
    "relecture": null
   },
   {
@@ -1648,19 +1648,19 @@
    "niveau": 2,
    "enonce": "Quel mot correspond à la définition suivante : « Qui ne laisse passer ni la lumière ni les regards » ?",
    "bonne": "opaque",
-   "pourquoiBonne": "« opaque » est bien le mot qui signifie « Qui ne laisse passer ni la lumière ni les regards ».",
+   "pourquoiBonne": "« opaque » est bien le mot qui signifie « qui ne laisse passer ni la lumière ni les regards ».",
    "fausses": [
     {
      "texte": "translucide",
-     "raison": "« translucide » signifie « qui laisse passer la lumière sans qu'on voie nettement à travers » : cela ne correspond pas à « Qui ne laisse passer ni la lumière ni les regards »."
+     "raison": "« translucide » signifie « qui laisse passer la lumière sans qu'on voie nettement à travers » : cela ne correspond pas à « qui ne laisse passer ni la lumière ni les regards »."
     },
     {
      "texte": "diaphane",
-     "raison": "« diaphane » signifie « qui laisse passer la lumière, presque transparent » : cela ne correspond pas à « Qui ne laisse passer ni la lumière ni les regards »."
+     "raison": "« diaphane » signifie « qui laisse passer la lumière, presque transparent » : cela ne correspond pas à « qui ne laisse passer ni la lumière ni les regards »."
     },
     {
      "texte": "limpide",
-     "raison": "« limpide » signifie « parfaitement clair, transparent » : cela ne correspond pas à « Qui ne laisse passer ni la lumière ni les regards »."
+     "raison": "« limpide » signifie « parfaitement clair, transparent » : cela ne correspond pas à « qui ne laisse passer ni la lumière ni les regards »."
     }
    ],
    "explication": "Un corps opaque arrête la lumière ; « translucide » et « diaphane » la laissent passer.",
@@ -1672,19 +1672,19 @@
    "niveau": 2,
    "enonce": "Quel mot correspond à la définition suivante : « Personne qui aime l'humanité et cherche à lui faire du bien » ?",
    "bonne": "philanthrope",
-   "pourquoiBonne": "« philanthrope » est bien le mot qui signifie « Personne qui aime l'humanité et cherche à lui faire du bien ».",
+   "pourquoiBonne": "« philanthrope » est bien le mot qui signifie « personne qui aime l'humanité et cherche à lui faire du bien ».",
    "fausses": [
     {
      "texte": "misanthrope",
-     "raison": "« misanthrope » signifie « personne qui fuit les gens et n'aime pas l'humanité » : cela ne correspond pas à « Personne qui aime l'humanité et cherche à lui faire du bien »."
+     "raison": "« misanthrope » signifie « personne qui fuit les gens et n'aime pas l'humanité » : cela ne correspond pas à « personne qui aime l'humanité et cherche à lui faire du bien »."
     },
     {
      "texte": "mélomane",
-     "raison": "« mélomane » signifie « personne qui aime la musique » : cela ne correspond pas à « Personne qui aime l'humanité et cherche à lui faire du bien »."
+     "raison": "« mélomane » signifie « personne qui aime la musique » : cela ne correspond pas à « personne qui aime l'humanité et cherche à lui faire du bien »."
     },
     {
      "texte": "bibliophile",
-     "raison": "« bibliophile » signifie « personne qui aime les livres » : cela ne correspond pas à « Personne qui aime l'humanité et cherche à lui faire du bien »."
+     "raison": "« bibliophile » signifie « personne qui aime les livres » : cela ne correspond pas à « personne qui aime l'humanité et cherche à lui faire du bien »."
     }
    ],
    "explication": "Le philanthrope aime l'humanité (du grec « phílos », ami, et « ánthrôpos », homme) ; le misanthrope la fuit ; le mélomane aime la musique ; le bibliophile les livres.",
@@ -1696,19 +1696,19 @@
    "niveau": 2,
    "enonce": "Quel mot correspond à la définition suivante : « Collectionneur de livres rares » ?",
    "bonne": "bibliophile",
-   "pourquoiBonne": "« bibliophile » est bien le mot qui signifie « Collectionneur de livres rares ».",
+   "pourquoiBonne": "« bibliophile » est bien le mot qui signifie « collectionneur de livres rares ».",
    "fausses": [
     {
      "texte": "philatéliste",
-     "raison": "« philatéliste » signifie « collectionneur de timbres » : cela ne correspond pas à « Collectionneur de livres rares »."
+     "raison": "« philatéliste » signifie « collectionneur de timbres » : cela ne correspond pas à « collectionneur de livres rares »."
     },
     {
      "texte": "numismate",
-     "raison": "« numismate » signifie « collectionneur de monnaies et de médailles » : cela ne correspond pas à « Collectionneur de livres rares »."
+     "raison": "« numismate » signifie « collectionneur de monnaies et de médailles » : cela ne correspond pas à « collectionneur de livres rares »."
     },
     {
      "texte": "cartophile",
-     "raison": "« cartophile » signifie « collectionneur de cartes postales » : cela ne correspond pas à « Collectionneur de livres rares »."
+     "raison": "« cartophile » signifie « collectionneur de cartes postales » : cela ne correspond pas à « collectionneur de livres rares »."
     }
    ],
    "explication": "Le bibliophile collectionne les livres ; le philatéliste les timbres ; le numismate les monnaies ; le cartophile les cartes postales.",
@@ -1720,19 +1720,19 @@
    "niveau": 1,
    "enonce": "Quel mot correspond à la définition suivante : « Qui se produit une fois par an » ?",
    "bonne": "annuel",
-   "pourquoiBonne": "« annuel » est bien le mot qui signifie « Qui se produit une fois par an ».",
+   "pourquoiBonne": "« annuel » est bien le mot qui signifie « qui se produit une fois par an ».",
    "fausses": [
     {
      "texte": "biennal",
-     "raison": "« biennal » signifie « qui revient tous les deux ans » : cela ne correspond pas à « Qui se produit une fois par an »."
+     "raison": "« biennal » signifie « qui revient tous les deux ans » : cela ne correspond pas à « qui se produit une fois par an »."
     },
     {
      "texte": "mensuel",
-     "raison": "« mensuel » signifie « qui revient tous les mois » : cela ne correspond pas à « Qui se produit une fois par an »."
+     "raison": "« mensuel » signifie « qui revient tous les mois » : cela ne correspond pas à « qui se produit une fois par an »."
     },
     {
      "texte": "hebdomadaire",
-     "raison": "« hebdomadaire » signifie « qui revient toutes les semaines » : cela ne correspond pas à « Qui se produit une fois par an »."
+     "raison": "« hebdomadaire » signifie « qui revient toutes les semaines » : cela ne correspond pas à « qui se produit une fois par an »."
     }
    ],
    "explication": "Annuel : tous les ans ; biennal : tous les deux ans ; mensuel : tous les mois ; hebdomadaire : toutes les semaines.",
@@ -1744,19 +1744,19 @@
    "niveau": 2,
    "enonce": "Quel mot correspond à la définition suivante : « Accord conclu pour cesser les combats entre des armées en guerre » ?",
    "bonne": "armistice",
-   "pourquoiBonne": "« armistice » est bien le mot qui signifie « Accord conclu pour cesser les combats entre des armées en guerre ».",
+   "pourquoiBonne": "« armistice » est bien le mot qui signifie « accord conclu pour cesser les combats entre des armées en guerre ».",
    "fausses": [
     {
      "texte": "ultimatum",
-     "raison": "« ultimatum » signifie « dernière exigence adressée avant le recours à la force » : cela ne correspond pas à « Accord conclu pour cesser les combats entre des armées en guerre »."
+     "raison": "« ultimatum » signifie « dernière exigence adressée avant le recours à la force » : cela ne correspond pas à « accord conclu pour cesser les combats entre des armées en guerre »."
     },
     {
      "texte": "embargo",
-     "raison": "« embargo » signifie « interdiction de commercer avec un pays » : cela ne correspond pas à « Accord conclu pour cesser les combats entre des armées en guerre »."
+     "raison": "« embargo » signifie « interdiction de commercer avec un pays » : cela ne correspond pas à « accord conclu pour cesser les combats entre des armées en guerre »."
     },
     {
      "texte": "blocus",
-     "raison": "« blocus » signifie « encerclement d'un lieu pour couper ses échanges » : cela ne correspond pas à « Accord conclu pour cesser les combats entre des armées en guerre »."
+     "raison": "« blocus » signifie « encerclement d'un lieu pour couper ses échanges » : cela ne correspond pas à « accord conclu pour cesser les combats entre des armées en guerre »."
     }
    ],
    "explication": "Un armistice suspend les combats ; un ultimatum est une exigence finale ; un embargo interdit des échanges ; un blocus isole un lieu.",
@@ -1768,19 +1768,19 @@
    "niveau": 1,
    "enonce": "Quel mot correspond à la définition suivante : « Étude des êtres vivants » ?",
    "bonne": "biologie",
-   "pourquoiBonne": "« biologie » est bien le mot qui signifie « Étude des êtres vivants ».",
+   "pourquoiBonne": "« biologie » est bien le mot qui signifie « étude des êtres vivants ».",
    "fausses": [
     {
      "texte": "géologie",
-     "raison": "« géologie » signifie « science de la Terre et des roches » : cela ne correspond pas à « Étude des êtres vivants »."
+     "raison": "« géologie » signifie « science de la Terre et des roches » : cela ne correspond pas à « étude des êtres vivants »."
     },
     {
      "texte": "astronomie",
-     "raison": "« astronomie » signifie « science des astres » : cela ne correspond pas à « Étude des êtres vivants »."
+     "raison": "« astronomie » signifie « science des astres » : cela ne correspond pas à « étude des êtres vivants »."
     },
     {
      "texte": "sociologie",
-     "raison": "« sociologie » signifie « science des sociétés humaines » : cela ne correspond pas à « Étude des êtres vivants »."
+     "raison": "« sociologie » signifie « science des sociétés humaines » : cela ne correspond pas à « étude des êtres vivants »."
     }
    ],
    "explication": "La biologie étudie le vivant (« bio- » = vie) ; la géologie la Terre ; l'astronomie les astres ; la sociologie les sociétés.",
@@ -1792,19 +1792,19 @@
    "niveau": 2,
    "enonce": "Quel mot correspond à la définition suivante : « Lieu où l'on élève des abeilles » ?",
    "bonne": "rucher",
-   "pourquoiBonne": "« rucher » est bien le mot qui signifie « Lieu où l'on élève des abeilles ».",
+   "pourquoiBonne": "« rucher » est bien le mot qui signifie « lieu où l'on élève des abeilles ».",
    "fausses": [
     {
      "texte": "étable",
-     "raison": "« étable » signifie « bâtiment où vivent les vaches » : cela ne correspond pas à « Lieu où l'on élève des abeilles »."
+     "raison": "« étable » signifie « bâtiment où vivent les vaches » : cela ne correspond pas à « lieu où l'on élève des abeilles »."
     },
     {
      "texte": "bergerie",
-     "raison": "« bergerie » signifie « bâtiment où vivent les moutons » : cela ne correspond pas à « Lieu où l'on élève des abeilles »."
+     "raison": "« bergerie » signifie « bâtiment où vivent les moutons » : cela ne correspond pas à « lieu où l'on élève des abeilles »."
     },
     {
      "texte": "volière",
-     "raison": "« volière » signifie « grande cage pour oiseaux » : cela ne correspond pas à « Lieu où l'on élève des abeilles »."
+     "raison": "« volière » signifie « grande cage pour oiseaux » : cela ne correspond pas à « lieu où l'on élève des abeilles »."
     }
    ],
    "explication": "Un rucher abrite des ruches ; l'étable abrite des bovins, la bergerie des moutons, la volière des oiseaux.",
@@ -1816,19 +1816,19 @@
    "niveau": 2,
    "enonce": "Quel mot correspond à la définition suivante : « Mettre fin à un contrat » ?",
    "bonne": "résilier",
-   "pourquoiBonne": "« résilier » est bien le mot qui signifie « Mettre fin à un contrat ».",
+   "pourquoiBonne": "« résilier » est bien le mot qui signifie « mettre fin à un contrat ».",
    "fausses": [
     {
      "texte": "reconduire",
-     "raison": "« reconduire » signifie « renouveler, prolonger » : cela ne correspond pas à « Mettre fin à un contrat »."
+     "raison": "« reconduire » signifie « renouveler, prolonger » : cela ne correspond pas à « mettre fin à un contrat »."
     },
     {
      "texte": "conclure",
-     "raison": "« conclure » signifie « mener à terme, signer un accord » : cela ne correspond pas à « Mettre fin à un contrat »."
+     "raison": "« conclure » signifie « mener à terme, signer un accord » : cela ne correspond pas à « mettre fin à un contrat »."
     },
     {
      "texte": "parapher",
-     "raison": "« parapher » signifie « signer de ses initiales » : cela ne correspond pas à « Mettre fin à un contrat »."
+     "raison": "« parapher » signifie « signer de ses initiales » : cela ne correspond pas à « mettre fin à un contrat »."
     }
    ],
    "explication": "Résilier un contrat, c'est y mettre fin ; le reconduire, c'est le prolonger ; le conclure, le signer ; le parapher, y apposer ses initiales.",
@@ -1840,19 +1840,19 @@
    "niveau": 2,
    "enonce": "Quel mot correspond à la définition suivante : « Qui est présent partout à la fois » ?",
    "bonne": "omniprésent",
-   "pourquoiBonne": "« omniprésent » est bien le mot qui signifie « Qui est présent partout à la fois ».",
+   "pourquoiBonne": "« omniprésent » est bien le mot qui signifie « qui est présent partout à la fois ».",
    "fausses": [
     {
      "texte": "éphémère",
-     "raison": "« éphémère » signifie « qui dure très peu de temps » : cela ne correspond pas à « Qui est présent partout à la fois »."
+     "raison": "« éphémère » signifie « qui dure très peu de temps » : cela ne correspond pas à « qui est présent partout à la fois »."
     },
     {
      "texte": "itinérant",
-     "raison": "« itinérant » signifie « qui se déplace d'un lieu à un autre » : cela ne correspond pas à « Qui est présent partout à la fois »."
+     "raison": "« itinérant » signifie « qui se déplace d'un lieu à un autre » : cela ne correspond pas à « qui est présent partout à la fois »."
     },
     {
      "texte": "sédentaire",
-     "raison": "« sédentaire » signifie « qui reste au même endroit » : cela ne correspond pas à « Qui est présent partout à la fois »."
+     "raison": "« sédentaire » signifie « qui reste au même endroit » : cela ne correspond pas à « qui est présent partout à la fois »."
     }
    ],
    "explication": "Omniprésent : présent en tous lieux (« omni- » = tout).",
@@ -1864,19 +1864,19 @@
    "niveau": 2,
    "enonce": "Quel mot correspond à la définition suivante : « Quantité en trop, qui dépasse le nécessaire » ?",
    "bonne": "excédent",
-   "pourquoiBonne": "« excédent » est bien le mot qui signifie « Quantité en trop, qui dépasse le nécessaire ».",
+   "pourquoiBonne": "« excédent » est bien le mot qui signifie « quantité en trop, qui dépasse le nécessaire ».",
    "fausses": [
     {
      "texte": "déficit",
-     "raison": "« déficit » signifie « ce qui manque pour équilibrer » : cela ne correspond pas à « Quantité en trop, qui dépasse le nécessaire »."
+     "raison": "« déficit » signifie « ce qui manque pour équilibrer » : cela ne correspond pas à « quantité en trop, qui dépasse le nécessaire »."
     },
     {
      "texte": "manque",
-     "raison": "« manque » signifie « absence de ce qui est nécessaire » : cela ne correspond pas à « Quantité en trop, qui dépasse le nécessaire »."
+     "raison": "« manque » signifie « absence de ce qui est nécessaire » : cela ne correspond pas à « quantité en trop, qui dépasse le nécessaire »."
     },
     {
      "texte": "quota",
-     "raison": "« quota » signifie « part fixée à l'avance » : cela ne correspond pas à « Quantité en trop, qui dépasse le nécessaire »."
+     "raison": "« quota » signifie « part fixée à l'avance » : cela ne correspond pas à « quantité en trop, qui dépasse le nécessaire »."
     }
    ],
    "explication": "Un excédent est un surplus ; un déficit est un manque.",
@@ -1888,19 +1888,19 @@
    "niveau": 1,
    "enonce": "Quel mot correspond à la définition suivante : « Qui peut être mangé sans danger » ?",
    "bonne": "comestible",
-   "pourquoiBonne": "« comestible » est bien le mot qui signifie « Qui peut être mangé sans danger ».",
+   "pourquoiBonne": "« comestible » est bien le mot qui signifie « qui peut être mangé sans danger ».",
    "fausses": [
     {
      "texte": "combustible",
-     "raison": "« combustible » signifie « qui peut brûler » : cela ne correspond pas à « Qui peut être mangé sans danger »."
+     "raison": "« combustible » signifie « qui peut brûler » : cela ne correspond pas à « qui peut être mangé sans danger »."
     },
     {
      "texte": "potable",
-     "raison": "« potable » signifie « qui peut être bu sans danger » : cela ne correspond pas à « Qui peut être mangé sans danger »."
+     "raison": "« potable » signifie « qui peut être bu sans danger » : cela ne correspond pas à « qui peut être mangé sans danger »."
     },
     {
      "texte": "soluble",
-     "raison": "« soluble » signifie « qui peut se dissoudre dans un liquide » : cela ne correspond pas à « Qui peut être mangé sans danger »."
+     "raison": "« soluble » signifie « qui peut se dissoudre dans un liquide » : cela ne correspond pas à « qui peut être mangé sans danger »."
     }
    ],
    "explication": "Comestible : qui peut se manger ; potable : qui peut se boire ; combustible : qui peut brûler ; soluble : qui peut se dissoudre.",
@@ -1912,19 +1912,19 @@
    "niveau": 2,
    "enonce": "Quel mot correspond à la définition suivante : « Qui se rapporte aux reins » ?",
    "bonne": "rénal",
-   "pourquoiBonne": "« rénal » est bien le mot qui signifie « Qui se rapporte aux reins ».",
+   "pourquoiBonne": "« rénal » est bien le mot qui signifie « qui se rapporte aux reins ».",
    "fausses": [
     {
      "texte": "hépatique",
-     "raison": "« hépatique » signifie « relatif au foie » : cela ne correspond pas à « Qui se rapporte aux reins »."
+     "raison": "« hépatique » signifie « relatif au foie » : cela ne correspond pas à « qui se rapporte aux reins »."
     },
     {
      "texte": "cardiaque",
-     "raison": "« cardiaque » signifie « relatif au cœur » : cela ne correspond pas à « Qui se rapporte aux reins »."
+     "raison": "« cardiaque » signifie « relatif au cœur » : cela ne correspond pas à « qui se rapporte aux reins »."
     },
     {
      "texte": "pulmonaire",
-     "raison": "« pulmonaire » signifie « relatif aux poumons » : cela ne correspond pas à « Qui se rapporte aux reins »."
+     "raison": "« pulmonaire » signifie « relatif aux poumons » : cela ne correspond pas à « qui se rapporte aux reins »."
     }
    ],
    "explication": "Rénal : relatif aux reins ; hépatique : au foie ; cardiaque : au cœur ; pulmonaire : aux poumons.",
@@ -1936,19 +1936,19 @@
    "niveau": 3,
    "enonce": "Quel mot correspond à la définition suivante : « Remplacer quelqu'un dans ses fonctions de façon provisoire » ?",
    "bonne": "suppléer",
-   "pourquoiBonne": "« suppléer » est bien le mot qui signifie « Remplacer quelqu'un dans ses fonctions de façon provisoire ».",
+   "pourquoiBonne": "« suppléer » est bien le mot qui signifie « remplacer quelqu'un dans ses fonctions de façon provisoire ».",
    "fausses": [
     {
      "texte": "supplier",
-     "raison": "« supplier » signifie « prier avec insistance » : cela ne correspond pas à « Remplacer quelqu'un dans ses fonctions de façon provisoire »."
+     "raison": "« supplier » signifie « prier avec insistance » : cela ne correspond pas à « remplacer quelqu'un dans ses fonctions de façon provisoire »."
     },
     {
      "texte": "suspendre",
-     "raison": "« suspendre » signifie « arrêter provisoirement » : cela ne correspond pas à « Remplacer quelqu'un dans ses fonctions de façon provisoire »."
+     "raison": "« suspendre » signifie « arrêter provisoirement » : cela ne correspond pas à « remplacer quelqu'un dans ses fonctions de façon provisoire »."
     },
     {
      "texte": "supputer",
-     "raison": "« supputer » signifie « estimer par déduction » : cela ne correspond pas à « Remplacer quelqu'un dans ses fonctions de façon provisoire »."
+     "raison": "« supputer » signifie « estimer par déduction » : cela ne correspond pas à « remplacer quelqu'un dans ses fonctions de façon provisoire »."
     }
    ],
    "explication": "Suppléer quelqu'un, c'est le remplacer provisoirement ; supplier, c'est prier avec insistance ; supputer, c'est évaluer par déduction.",
@@ -1960,19 +1960,19 @@
    "niveau": 2,
    "enonce": "Quel mot correspond à la définition suivante : « Qui ne varie pas, qui reste identique » ?",
    "bonne": "constant",
-   "pourquoiBonne": "« constant » est bien le mot qui signifie « Qui ne varie pas, qui reste identique ».",
+   "pourquoiBonne": "« constant » est bien le mot qui signifie « qui ne varie pas, qui reste identique ».",
    "fausses": [
     {
      "texte": "fluctuant",
-     "raison": "« fluctuant » signifie « qui varie souvent » : cela ne correspond pas à « Qui ne varie pas, qui reste identique »."
+     "raison": "« fluctuant » signifie « qui varie souvent » : cela ne correspond pas à « qui ne varie pas, qui reste identique »."
     },
     {
      "texte": "ondoyant",
-     "raison": "« ondoyant » signifie « changeant, qui ondule » : cela ne correspond pas à « Qui ne varie pas, qui reste identique »."
+     "raison": "« ondoyant » signifie « changeant, qui ondule » : cela ne correspond pas à « qui ne varie pas, qui reste identique »."
     },
     {
      "texte": "volatil",
-     "raison": "« volatil » signifie « qui s'évapore ou change vite » : cela ne correspond pas à « Qui ne varie pas, qui reste identique »."
+     "raison": "« volatil » signifie « qui s'évapore ou change vite » : cela ne correspond pas à « qui ne varie pas, qui reste identique »."
     }
    ],
    "explication": "Constant : qui ne change pas ; fluctuant, ondoyant et volatil : qui changent.",
@@ -1984,19 +1984,19 @@
    "niveau": 2,
    "enonce": "Quel mot correspond à la définition suivante : « Ne pas tenir compte de quelque chose » ?",
    "bonne": "ignorer",
-   "pourquoiBonne": "« ignorer » est bien le mot qui signifie « Ne pas tenir compte de quelque chose ».",
+   "pourquoiBonne": "« ignorer » est bien le mot qui signifie « ne pas tenir compte de quelque chose ».",
    "fausses": [
     {
      "texte": "remarquer",
-     "raison": "« remarquer » signifie « faire attention à, constater » : cela ne correspond pas à « Ne pas tenir compte de quelque chose »."
+     "raison": "« remarquer » signifie « faire attention à, constater » : cela ne correspond pas à « ne pas tenir compte de quelque chose »."
     },
     {
      "texte": "consulter",
-     "raison": "« consulter » signifie « chercher un avis ou une information » : cela ne correspond pas à « Ne pas tenir compte de quelque chose »."
+     "raison": "« consulter » signifie « chercher un avis ou une information » : cela ne correspond pas à « ne pas tenir compte de quelque chose »."
     },
     {
      "texte": "signaler",
-     "raison": "« signaler » signifie « faire connaître » : cela ne correspond pas à « Ne pas tenir compte de quelque chose »."
+     "raison": "« signaler » signifie « faire connaître » : cela ne correspond pas à « ne pas tenir compte de quelque chose »."
     }
    ],
    "explication": "Ignorer : ne pas prendre en compte. En français, « ignorer » peut aussi vouloir dire « ne pas savoir » (j'ignore la réponse). Ici, c'est le sens « ne pas tenir compte de ».",
@@ -2008,19 +2008,19 @@
    "niveau": 2,
    "enonce": "Quel mot correspond à la définition suivante : « Convaincre quelqu'un de renoncer à un projet » ?",
    "bonne": "dissuader",
-   "pourquoiBonne": "« dissuader » est bien le mot qui signifie « Convaincre quelqu'un de renoncer à un projet ».",
+   "pourquoiBonne": "« dissuader » est bien le mot qui signifie « convaincre quelqu'un de renoncer à un projet ».",
    "fausses": [
     {
      "texte": "persuader",
-     "raison": "« persuader » signifie « convaincre de faire quelque chose » : cela ne correspond pas à « Convaincre quelqu'un de renoncer à un projet »."
+     "raison": "« persuader » signifie « convaincre de faire quelque chose » : cela ne correspond pas à « convaincre quelqu'un de renoncer à un projet »."
     },
     {
      "texte": "inciter",
-     "raison": "« inciter » signifie « pousser à agir » : cela ne correspond pas à « Convaincre quelqu'un de renoncer à un projet »."
+     "raison": "« inciter » signifie « pousser à agir » : cela ne correspond pas à « convaincre quelqu'un de renoncer à un projet »."
     },
     {
      "texte": "exhorter",
-     "raison": "« exhorter » signifie « encourager vivement à agir » : cela ne correspond pas à « Convaincre quelqu'un de renoncer à un projet »."
+     "raison": "« exhorter » signifie « encourager vivement à agir » : cela ne correspond pas à « convaincre quelqu'un de renoncer à un projet »."
     }
    ],
    "explication": "Dissuader : détourner de ; persuader, inciter et exhorter poussent à agir.",
@@ -2032,19 +2032,19 @@
    "niveau": 1,
    "enonce": "Quel mot correspond à la définition suivante : « Qui a lieu pendant la nuit » ?",
    "bonne": "nocturne",
-   "pourquoiBonne": "« nocturne » est bien le mot qui signifie « Qui a lieu pendant la nuit ».",
+   "pourquoiBonne": "« nocturne » est bien le mot qui signifie « qui a lieu pendant la nuit ».",
    "fausses": [
     {
      "texte": "diurne",
-     "raison": "« diurne » signifie « qui a lieu pendant le jour » : cela ne correspond pas à « Qui a lieu pendant la nuit »."
+     "raison": "« diurne » signifie « qui a lieu pendant le jour » : cela ne correspond pas à « qui a lieu pendant la nuit »."
     },
     {
      "texte": "quotidien",
-     "raison": "« quotidien » signifie « qui a lieu chaque jour » : cela ne correspond pas à « Qui a lieu pendant la nuit »."
+     "raison": "« quotidien » signifie « qui a lieu chaque jour » : cela ne correspond pas à « qui a lieu pendant la nuit »."
     },
     {
      "texte": "estival",
-     "raison": "« estival » signifie « qui concerne l'été » : cela ne correspond pas à « Qui a lieu pendant la nuit »."
+     "raison": "« estival » signifie « qui concerne l'été » : cela ne correspond pas à « qui a lieu pendant la nuit »."
     }
    ],
    "explication": "Nocturne : de la nuit ; diurne : du jour ; quotidien : de chaque jour ; estival : de l'été.",
@@ -2056,19 +2056,19 @@
    "niveau": 2,
    "enonce": "Quel mot correspond à la définition suivante : « Qui parle peu » ?",
    "bonne": "taciturne",
-   "pourquoiBonne": "« taciturne » est bien le mot qui signifie « Qui parle peu ».",
+   "pourquoiBonne": "« taciturne » est bien le mot qui signifie « qui parle peu ».",
    "fausses": [
     {
      "texte": "loquace",
-     "raison": "« loquace » signifie « qui parle volontiers » : cela ne correspond pas à « Qui parle peu »."
+     "raison": "« loquace » signifie « qui parle volontiers » : cela ne correspond pas à « qui parle peu »."
     },
     {
      "texte": "volubile",
-     "raison": "« volubile » signifie « qui parle beaucoup et vite » : cela ne correspond pas à « Qui parle peu »."
+     "raison": "« volubile » signifie « qui parle beaucoup et vite » : cela ne correspond pas à « qui parle peu »."
     },
     {
      "texte": "disert",
-     "raison": "« disert » signifie « qui parle avec facilité » : cela ne correspond pas à « Qui parle peu »."
+     "raison": "« disert » signifie « qui parle avec facilité » : cela ne correspond pas à « qui parle peu »."
     }
    ],
    "explication": "Taciturne : silencieux ; loquace, volubile et disert : qui parlent beaucoup ou facilement.",
@@ -2084,15 +2084,15 @@
    "fausses": [
     {
      "texte": "pluie",
-     "raison": "« Qui sème le vent récolte la pluie » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « tempête ». Le sens du proverbe : celui qui provoque des troubles en subira de grandes conséquences."
+     "raison": "« Qui sème le vent récolte la pluie » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « tempête »."
     },
     {
      "texte": "moisson",
-     "raison": "« Qui sème le vent récolte la moisson » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « tempête ». Le sens du proverbe : celui qui provoque des troubles en subira de grandes conséquences."
+     "raison": "« Qui sème le vent récolte la moisson » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « tempête »."
     },
     {
      "texte": "fumée",
-     "raison": "« Qui sème le vent récolte la fumée » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « tempête ». Le sens du proverbe : celui qui provoque des troubles en subira de grandes conséquences."
+     "raison": "« Qui sème le vent récolte la fumée » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « tempête »."
     }
    ],
    "explication": "Le proverbe complet est : « Qui sème le vent récolte la tempête. » Sens : celui qui provoque des troubles en subira de grandes conséquences.",
@@ -2108,15 +2108,15 @@
    "fausses": [
     {
      "texte": "chant",
-     "raison": "« Petit à petit, l'oiseau fait son chant » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « nid ». Le sens du proverbe : on réussit par de petits efforts répétés."
+     "raison": "« Petit à petit, l'oiseau fait son chant » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « nid »."
     },
     {
      "texte": "ciel",
-     "raison": "« Petit à petit, l'oiseau fait son ciel » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « nid ». Le sens du proverbe : on réussit par de petits efforts répétés."
+     "raison": "« Petit à petit, l'oiseau fait son ciel » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « nid »."
     },
     {
      "texte": "vol",
-     "raison": "« Petit à petit, l'oiseau fait son vol » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « nid ». Le sens du proverbe : on réussit par de petits efforts répétés."
+     "raison": "« Petit à petit, l'oiseau fait son vol » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « nid »."
     }
    ],
    "explication": "Le proverbe complet est : « Petit à petit, l'oiseau fait son nid. » Sens : on réussit par de petits efforts répétés.",
@@ -2132,15 +2132,15 @@
    "fausses": [
     {
      "texte": "poussière",
-     "raison": "« Pierre qui roule n'amasse pas poussière » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « mousse ». Le sens du proverbe : celui qui change sans cesse de lieu ou de métier ne s'installe pas et ne s'enrichit pas."
+     "raison": "« Pierre qui roule n'amasse pas poussière » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « mousse »."
     },
     {
      "texte": "sable",
-     "raison": "« Pierre qui roule n'amasse pas sable » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « mousse ». Le sens du proverbe : celui qui change sans cesse de lieu ou de métier ne s'installe pas et ne s'enrichit pas."
+     "raison": "« Pierre qui roule n'amasse pas sable » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « mousse »."
     },
     {
      "texte": "neige",
-     "raison": "« Pierre qui roule n'amasse pas neige » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « mousse ». Le sens du proverbe : celui qui change sans cesse de lieu ou de métier ne s'installe pas et ne s'enrichit pas."
+     "raison": "« Pierre qui roule n'amasse pas neige » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « mousse »."
     }
    ],
    "explication": "Le proverbe complet est : « Pierre qui roule n'amasse pas mousse. » Sens : celui qui change sans cesse de lieu ou de métier ne s'installe pas et ne s'enrichit pas.",
@@ -2156,15 +2156,15 @@
    "fausses": [
     {
      "texte": "roi",
-     "raison": "« L'habit ne fait pas le roi » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « moine ». Le sens du proverbe : il ne faut pas juger sur les apparences."
+     "raison": "« L'habit ne fait pas le roi » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « moine »."
     },
     {
      "texte": "soldat",
-     "raison": "« L'habit ne fait pas le soldat » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « moine ». Le sens du proverbe : il ne faut pas juger sur les apparences."
+     "raison": "« L'habit ne fait pas le soldat » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « moine »."
     },
     {
      "texte": "maître",
-     "raison": "« L'habit ne fait pas le maître » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « moine ». Le sens du proverbe : il ne faut pas juger sur les apparences."
+     "raison": "« L'habit ne fait pas le maître » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « moine »."
     }
    ],
    "explication": "Le proverbe complet est : « L'habit ne fait pas le moine. » Sens : il ne faut pas juger sur les apparences.",
@@ -2180,15 +2180,15 @@
    "fausses": [
     {
      "texte": "vent",
-     "raison": "« Il n'y a pas de fumée sans vent » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « feu ». Le sens du proverbe : une rumeur ou un effet a toujours une cause."
+     "raison": "« Il n'y a pas de fumée sans vent » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « feu »."
     },
     {
      "texte": "cendre",
-     "raison": "« Il n'y a pas de fumée sans cendre » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « feu ». Le sens du proverbe : une rumeur ou un effet a toujours une cause."
+     "raison": "« Il n'y a pas de fumée sans cendre » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « feu »."
     },
     {
      "texte": "nuage",
-     "raison": "« Il n'y a pas de fumée sans nuage » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « feu ». Le sens du proverbe : une rumeur ou un effet a toujours une cause."
+     "raison": "« Il n'y a pas de fumée sans nuage » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « feu »."
     }
    ],
    "explication": "Le proverbe complet est : « Il n'y a pas de fumée sans feu. » Sens : une rumeur ou un effet a toujours une cause.",
@@ -2204,15 +2204,15 @@
    "fausses": [
     {
      "texte": "chaude",
-     "raison": "« Chat échaudé craint l'eau chaude » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « froide ». Le sens du proverbe : après une mauvaise expérience, on se méfie même de ce qui est inoffensif (le chat brûlé par l'eau chaude craint même l'eau froide)."
+     "raison": "« Chat échaudé craint l'eau chaude » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « froide »."
     },
     {
      "texte": "bouillante",
-     "raison": "« Chat échaudé craint l'eau bouillante » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « froide ». Le sens du proverbe : après une mauvaise expérience, on se méfie même de ce qui est inoffensif (le chat brûlé par l'eau chaude craint même l'eau froide)."
+     "raison": "« Chat échaudé craint l'eau bouillante » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « froide »."
     },
     {
      "texte": "sale",
-     "raison": "« Chat échaudé craint l'eau sale » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « froide ». Le sens du proverbe : après une mauvaise expérience, on se méfie même de ce qui est inoffensif (le chat brûlé par l'eau chaude craint même l'eau froide)."
+     "raison": "« Chat échaudé craint l'eau sale » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « froide »."
     }
    ],
    "explication": "Le proverbe complet est : « Chat échaudé craint l'eau froide. » Sens : après une mauvaise expérience, on se méfie même de ce qui est inoffensif (le chat brûlé par l'eau chaude craint même l'eau froide).",
@@ -2228,15 +2228,15 @@
    "fausses": [
     {
      "texte": "frère",
-     "raison": "« Tel père, tel frère » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « fils ». Le sens du proverbe : les enfants ressemblent à leurs parents."
+     "raison": "« Tel père, tel frère » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « fils »."
     },
     {
      "texte": "oncle",
-     "raison": "« Tel père, tel oncle » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « fils ». Le sens du proverbe : les enfants ressemblent à leurs parents."
+     "raison": "« Tel père, tel oncle » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « fils »."
     },
     {
      "texte": "voisin",
-     "raison": "« Tel père, tel voisin » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « fils ». Le sens du proverbe : les enfants ressemblent à leurs parents."
+     "raison": "« Tel père, tel voisin » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « fils »."
     }
    ],
    "explication": "Le proverbe complet est : « Tel père, tel fils. » Sens : les enfants ressemblent à leurs parents.",
@@ -2252,15 +2252,15 @@
    "fausses": [
     {
      "texte": "facile",
-     "raison": "« À cœur vaillant, rien d'facile » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « impossible ». Le sens du proverbe : avec du courage, on vient à bout de tout."
+     "raison": "« À cœur vaillant, rien d'facile » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « impossible »."
     },
     {
      "texte": "inutile",
-     "raison": "« À cœur vaillant, rien d'inutile » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « impossible ». Le sens du proverbe : avec du courage, on vient à bout de tout."
+     "raison": "« À cœur vaillant, rien d'inutile » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « impossible »."
     },
     {
      "texte": "léger",
-     "raison": "« À cœur vaillant, rien d'léger » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « impossible ». Le sens du proverbe : avec du courage, on vient à bout de tout."
+     "raison": "« À cœur vaillant, rien d'léger » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « impossible »."
     }
    ],
    "explication": "Le proverbe complet est : « À cœur vaillant, rien d'impossible. » Sens : avec du courage, on vient à bout de tout.",
@@ -2276,15 +2276,15 @@
    "fausses": [
     {
      "texte": "pied",
-     "raison": "« Rien ne sert de courir, il faut partir à pied » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « point ». Le sens du proverbe : il vaut mieux agir au bon moment que se presser en retard (fable « Le Lièvre et la Tortue »)."
+     "raison": "« Rien ne sert de courir, il faut partir à pied » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « point »."
     },
     {
      "texte": "l'aube",
-     "raison": "« Rien ne sert de courir, il faut partir à l'aube » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « point ». Le sens du proverbe : il vaut mieux agir au bon moment que se presser en retard (fable « Le Lièvre et la Tortue »)."
+     "raison": "« Rien ne sert de courir, il faut partir à l'aube » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « point »."
     },
     {
      "texte": "droite",
-     "raison": "« Rien ne sert de courir, il faut partir à droite » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « point ». Le sens du proverbe : il vaut mieux agir au bon moment que se presser en retard (fable « Le Lièvre et la Tortue »)."
+     "raison": "« Rien ne sert de courir, il faut partir à droite » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « point »."
     }
    ],
    "explication": "Le proverbe complet est : « Rien ne sert de courir, il faut partir à point. » Sens : il vaut mieux agir au bon moment que se presser en retard (fable « Le Lièvre et la Tortue »).",
@@ -2300,15 +2300,15 @@
    "fausses": [
     {
      "texte": "s'arrête",
-     "raison": "« Les chiens aboient, la caravane s'arrête » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « passe ». Le sens du proverbe : il ne faut pas se laisser arrêter par les critiques."
+     "raison": "« Les chiens aboient, la caravane s'arrête » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « passe »."
     },
     {
      "texte": "s'endort",
-     "raison": "« Les chiens aboient, la caravane s'endort » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « passe ». Le sens du proverbe : il ne faut pas se laisser arrêter par les critiques."
+     "raison": "« Les chiens aboient, la caravane s'endort » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « passe »."
     },
     {
      "texte": "recule",
-     "raison": "« Les chiens aboient, la caravane recule » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « passe ». Le sens du proverbe : il ne faut pas se laisser arrêter par les critiques."
+     "raison": "« Les chiens aboient, la caravane recule » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « passe »."
     }
    ],
    "explication": "Le proverbe complet est : « Les chiens aboient, la caravane passe. » Sens : il ne faut pas se laisser arrêter par les critiques.",
@@ -2324,15 +2324,15 @@
    "fausses": [
     {
      "texte": "pense",
-     "raison": "« Qui trop embrasse mal pense » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « étreint ». Le sens du proverbe : celui qui entreprend trop de choses n'en réussit aucune."
+     "raison": "« Qui trop embrasse mal pense » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « étreint »."
     },
     {
      "texte": "mange",
-     "raison": "« Qui trop embrasse mal mange » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « étreint ». Le sens du proverbe : celui qui entreprend trop de choses n'en réussit aucune."
+     "raison": "« Qui trop embrasse mal mange » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « étreint »."
     },
     {
      "texte": "parle",
-     "raison": "« Qui trop embrasse mal parle » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « étreint ». Le sens du proverbe : celui qui entreprend trop de choses n'en réussit aucune."
+     "raison": "« Qui trop embrasse mal parle » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « étreint »."
     }
    ],
    "explication": "Le proverbe complet est : « Qui trop embrasse mal étreint. » Sens : celui qui entreprend trop de choses n'en réussit aucune.",
@@ -2348,15 +2348,15 @@
    "fausses": [
     {
      "texte": "proie",
-     "raison": "« Qui va à la chasse perd sa proie » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « place ». Le sens du proverbe : quand on quitte un endroit, quelqu'un d'autre peut le prendre."
+     "raison": "« Qui va à la chasse perd sa proie » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « place »."
     },
     {
      "texte": "chance",
-     "raison": "« Qui va à la chasse perd sa chance » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « place ». Le sens du proverbe : quand on quitte un endroit, quelqu'un d'autre peut le prendre."
+     "raison": "« Qui va à la chasse perd sa chance » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « place »."
     },
     {
      "texte": "route",
-     "raison": "« Qui va à la chasse perd sa route » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « place ». Le sens du proverbe : quand on quitte un endroit, quelqu'un d'autre peut le prendre."
+     "raison": "« Qui va à la chasse perd sa route » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « place »."
     }
    ],
    "explication": "Le proverbe complet est : « Qui va à la chasse perd sa place. » Sens : quand on quitte un endroit, quelqu'un d'autre peut le prendre.",
@@ -2372,15 +2372,15 @@
    "fausses": [
     {
      "texte": "dormant",
-     "raison": "« L'appétit vient en dormant » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « mangeant ». Le sens du proverbe : le désir grandit quand on a commencé."
+     "raison": "« L'appétit vient en dormant » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « mangeant »."
     },
     {
      "texte": "courant",
-     "raison": "« L'appétit vient en courant » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « mangeant ». Le sens du proverbe : le désir grandit quand on a commencé."
+     "raison": "« L'appétit vient en courant » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « mangeant »."
     },
     {
      "texte": "parlant",
-     "raison": "« L'appétit vient en parlant » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « mangeant ». Le sens du proverbe : le désir grandit quand on a commencé."
+     "raison": "« L'appétit vient en parlant » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « mangeant »."
     }
    ],
    "explication": "Le proverbe complet est : « L'appétit vient en mangeant. » Sens : le désir grandit quand on a commencé.",
@@ -2396,15 +2396,15 @@
    "fausses": [
     {
      "texte": "brûle",
-     "raison": "« Qui s'y frotte s'y brûle » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « pique ». Le sens du proverbe : qui s'attaque à plus fort ou à quelque chose de dangereux s'expose à être blessé."
+     "raison": "« Qui s'y frotte s'y brûle » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « pique »."
     },
     {
      "texte": "perd",
-     "raison": "« Qui s'y frotte s'y perd » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « pique ». Le sens du proverbe : qui s'attaque à plus fort ou à quelque chose de dangereux s'expose à être blessé."
+     "raison": "« Qui s'y frotte s'y perd » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « pique »."
     },
     {
      "texte": "noie",
-     "raison": "« Qui s'y frotte s'y noie » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « pique ». Le sens du proverbe : qui s'attaque à plus fort ou à quelque chose de dangereux s'expose à être blessé."
+     "raison": "« Qui s'y frotte s'y noie » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « pique »."
     }
    ],
    "explication": "Le proverbe complet est : « Qui s'y frotte s'y pique. » Sens : qui s'attaque à plus fort ou à quelque chose de dangereux s'expose à être blessé.",
@@ -2420,15 +2420,15 @@
    "fausses": [
     {
      "texte": "noirs",
-     "raison": "« La nuit, tous les chats sont noirs » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « gris ». Le sens du proverbe : dans l'obscurité, on ne distingue plus les différences."
+     "raison": "« La nuit, tous les chats sont noirs » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « gris »."
     },
     {
      "texte": "blancs",
-     "raison": "« La nuit, tous les chats sont blancs » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « gris ». Le sens du proverbe : dans l'obscurité, on ne distingue plus les différences."
+     "raison": "« La nuit, tous les chats sont blancs » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « gris »."
     },
     {
      "texte": "perdus",
-     "raison": "« La nuit, tous les chats sont perdus » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « gris ». Le sens du proverbe : dans l'obscurité, on ne distingue plus les différences."
+     "raison": "« La nuit, tous les chats sont perdus » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « gris »."
     }
    ],
    "explication": "Le proverbe complet est : « La nuit, tous les chats sont gris. » Sens : dans l'obscurité, on ne distingue plus les différences.",
@@ -2444,15 +2444,15 @@
    "fausses": [
     {
      "texte": "soldat",
-     "raison": "« C'est en forgeant qu'on devient soldat » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « forgeron ». Le sens du proverbe : c'est en pratiquant qu'on devient bon."
+     "raison": "« C'est en forgeant qu'on devient soldat » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « forgeron »."
     },
     {
      "texte": "artisan",
-     "raison": "« C'est en forgeant qu'on devient artisan » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « forgeron ». Le sens du proverbe : c'est en pratiquant qu'on devient bon."
+     "raison": "« C'est en forgeant qu'on devient artisan » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « forgeron »."
     },
     {
      "texte": "maître",
-     "raison": "« C'est en forgeant qu'on devient maître » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « forgeron ». Le sens du proverbe : c'est en pratiquant qu'on devient bon."
+     "raison": "« C'est en forgeant qu'on devient maître » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « forgeron »."
     }
    ],
    "explication": "Le proverbe complet est : « C'est en forgeant qu'on devient forgeron. » Sens : c'est en pratiquant qu'on devient bon.",
@@ -2468,15 +2468,15 @@
    "fausses": [
     {
      "texte": "trop tôt",
-     "raison": "« Mieux vaut tard que trop tôt » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « jamais ». Le sens du proverbe : faire une chose en retard vaut mieux que ne pas la faire du tout."
+     "raison": "« Mieux vaut tard que trop tôt » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « jamais »."
     },
     {
      "texte": "rien",
-     "raison": "« Mieux vaut tard que rien » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « jamais ». Le sens du proverbe : faire une chose en retard vaut mieux que ne pas la faire du tout."
+     "raison": "« Mieux vaut tard que rien » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « jamais »."
     },
     {
      "texte": "plus",
-     "raison": "« Mieux vaut tard que plus » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « jamais ». Le sens du proverbe : faire une chose en retard vaut mieux que ne pas la faire du tout."
+     "raison": "« Mieux vaut tard que plus » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « jamais »."
     }
    ],
    "explication": "Le proverbe complet est : « Mieux vaut tard que jamais. » Sens : faire une chose en retard vaut mieux que ne pas la faire du tout.",
@@ -2492,15 +2492,15 @@
    "fausses": [
     {
      "texte": "perds",
-     "raison": "« Un tiens vaut mieux que deux tu perds » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « l'auras ». Le sens du proverbe : ce que l'on possède déjà vaut mieux qu'une promesse incertaine (« tiens » = ce qu'on tient, « tu l'auras » = la promesse)."
+     "raison": "« Un tiens vaut mieux que deux tu perds » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « l'auras »."
     },
     {
      "texte": "vois",
-     "raison": "« Un tiens vaut mieux que deux tu vois » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « l'auras ». Le sens du proverbe : ce que l'on possède déjà vaut mieux qu'une promesse incertaine (« tiens » = ce qu'on tient, « tu l'auras » = la promesse)."
+     "raison": "« Un tiens vaut mieux que deux tu vois » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « l'auras »."
     },
     {
      "texte": "cherches",
-     "raison": "« Un tiens vaut mieux que deux tu cherches » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « l'auras ». Le sens du proverbe : ce que l'on possède déjà vaut mieux qu'une promesse incertaine (« tiens » = ce qu'on tient, « tu l'auras » = la promesse)."
+     "raison": "« Un tiens vaut mieux que deux tu cherches » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « l'auras »."
     }
    ],
    "explication": "Le proverbe complet est : « Un tiens vaut mieux que deux tu l'auras. » Sens : ce que l'on possède déjà vaut mieux qu'une promesse incertaine (« tiens » = ce qu'on tient, « tu l'auras » = la promesse).",
@@ -2516,15 +2516,15 @@
    "fausses": [
     {
      "texte": "entendra",
-     "raison": "« Aide-toi, le ciel t'entendra » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « aidera ». Le sens du proverbe : il faut d'abord agir soi-même pour espérer être aidé."
+     "raison": "« Aide-toi, le ciel t'entendra » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « aidera »."
     },
     {
      "texte": "sauvera",
-     "raison": "« Aide-toi, le ciel t'sauvera » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « aidera ». Le sens du proverbe : il faut d'abord agir soi-même pour espérer être aidé."
+     "raison": "« Aide-toi, le ciel t'sauvera » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « aidera »."
     },
     {
      "texte": "protégera",
-     "raison": "« Aide-toi, le ciel t'protégera » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « aidera ». Le sens du proverbe : il faut d'abord agir soi-même pour espérer être aidé."
+     "raison": "« Aide-toi, le ciel t'protégera » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « aidera »."
     }
    ],
    "explication": "Le proverbe complet est : « Aide-toi, le ciel t'aidera. » Sens : il faut d'abord agir soi-même pour espérer être aidé.",
@@ -2540,15 +2540,15 @@
    "fausses": [
     {
      "texte": "mers",
-     "raison": "« Les petits ruisseaux font les grandes mers » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « rivières ». Le sens du proverbe : beaucoup de petites quantités finissent par faire beaucoup."
+     "raison": "« Les petits ruisseaux font les grandes mers » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « rivières »."
     },
     {
      "texte": "cascades",
-     "raison": "« Les petits ruisseaux font les grandes cascades » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « rivières ». Le sens du proverbe : beaucoup de petites quantités finissent par faire beaucoup."
+     "raison": "« Les petits ruisseaux font les grandes cascades » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « rivières »."
     },
     {
      "texte": "vagues",
-     "raison": "« Les petits ruisseaux font les grandes vagues » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « rivières ». Le sens du proverbe : beaucoup de petites quantités finissent par faire beaucoup."
+     "raison": "« Les petits ruisseaux font les grandes vagues » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « rivières »."
     }
    ],
    "explication": "Le proverbe complet est : « Les petits ruisseaux font les grandes rivières. » Sens : beaucoup de petites quantités finissent par faire beaucoup.",
@@ -2564,15 +2564,15 @@
    "fausses": [
     {
      "texte": "mal",
-     "raison": "« Qui aime bien châtie mal » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « bien ». Le sens du proverbe : celui qui aime vraiment corrige aussi, parce qu'il veut le bien de l'autre."
+     "raison": "« Qui aime bien châtie mal » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « bien »."
     },
     {
      "texte": "fort",
-     "raison": "« Qui aime bien châtie fort » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « bien ». Le sens du proverbe : celui qui aime vraiment corrige aussi, parce qu'il veut le bien de l'autre."
+     "raison": "« Qui aime bien châtie fort » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « bien »."
     },
     {
      "texte": "souvent",
-     "raison": "« Qui aime bien châtie souvent » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « bien ». Le sens du proverbe : celui qui aime vraiment corrige aussi, parce qu'il veut le bien de l'autre."
+     "raison": "« Qui aime bien châtie souvent » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « bien »."
     }
    ],
    "explication": "Le proverbe complet est : « Qui aime bien châtie bien. » Sens : celui qui aime vraiment corrige aussi, parce qu'il veut le bien de l'autre.",
@@ -2588,15 +2588,15 @@
    "fausses": [
     {
      "texte": "dorment",
-     "raison": "« Quand le chat n'est pas là, les souris dorment » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « dansent ». Le sens du proverbe : sans surveillance, on profite de l'absence du chef."
+     "raison": "« Quand le chat n'est pas là, les souris dorment » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « dansent »."
     },
     {
      "texte": "fuient",
-     "raison": "« Quand le chat n'est pas là, les souris fuient » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « dansent ». Le sens du proverbe : sans surveillance, on profite de l'absence du chef."
+     "raison": "« Quand le chat n'est pas là, les souris fuient » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « dansent »."
     },
     {
      "texte": "chantent",
-     "raison": "« Quand le chat n'est pas là, les souris chantent » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « dansent ». Le sens du proverbe : sans surveillance, on profite de l'absence du chef."
+     "raison": "« Quand le chat n'est pas là, les souris chantent » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « dansent »."
     }
    ],
    "explication": "Le proverbe complet est : « Quand le chat n'est pas là, les souris dansent. » Sens : sans surveillance, on profite de l'absence du chef.",
@@ -2612,15 +2612,15 @@
    "fausses": [
     {
      "texte": "succès",
-     "raison": "« L'argent ne fait pas le succès » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « bonheur ». Le sens du proverbe : la richesse ne garantit pas d'être heureux."
+     "raison": "« L'argent ne fait pas le succès » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « bonheur »."
     },
     {
      "texte": "courage",
-     "raison": "« L'argent ne fait pas le courage » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « bonheur ». Le sens du proverbe : la richesse ne garantit pas d'être heureux."
+     "raison": "« L'argent ne fait pas le courage » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « bonheur »."
     },
     {
      "texte": "travail",
-     "raison": "« L'argent ne fait pas le travail » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « bonheur ». Le sens du proverbe : la richesse ne garantit pas d'être heureux."
+     "raison": "« L'argent ne fait pas le travail » n'est pas le proverbe : c'est une expression figée, dont la fin exacte est « bonheur »."
     }
    ],
    "explication": "Le proverbe complet est : « L'argent ne fait pas le bonheur. » Sens : la richesse ne garantit pas d'être heureux.",
@@ -2636,15 +2636,15 @@
    "fausses": [
     {
      "texte": "rithme",
-     "raison": "« rithme » est mal écrit : « i » à la place de « y ». Le mot s'écrit « rythme »."
+     "raison": "« rithme » est mal écrit : « i » au lieu de « y » (le mot vient du grec). Le mot s'écrit « rythme »."
     },
     {
      "texte": "rhytme",
-     "raison": "« rhytme » est mal écrit : « h » en trop, il manque « h ». Le mot s'écrit « rythme »."
+     "raison": "« rhytme » est mal écrit : le « y » et le « h » sont intervertis : c'est « -yth- », pas « -hyt- ». Le mot s'écrit « rythme »."
     },
     {
      "texte": "rytme",
-     "raison": "« rytme » est mal écrit : il manque « h ». Le mot s'écrit « rythme »."
+     "raison": "« rytme » est mal écrit : il manque le « h » : on écrit « -yth- ». Le mot s'écrit « rythme »."
     }
    ],
    "explication": "L'orthographe correcte est « rythme ». Le mot vient du grec « rhuthmos » : il garde le « h » et le « y ».",
@@ -2660,15 +2660,15 @@
    "fausses": [
     {
      "texte": "dévelopement",
-     "raison": "« dévelopement » est mal écrit : il manque « p ». Le mot s'écrit « développement »."
+     "raison": "« dévelopement » est mal écrit : il manque un « p » : on en écrit deux. Le mot s'écrit « développement »."
     },
     {
      "texte": "développment",
-     "raison": "« développment » est mal écrit : il manque « e ». Le mot s'écrit « développement »."
+     "raison": "« développment » est mal écrit : il manque le « e » avant « -ment » : la terminaison est « -ement ». Le mot s'écrit « développement »."
     },
     {
      "texte": "dévellopement",
-     "raison": "« dévellopement » est mal écrit : « l » en trop, il manque « p ». Le mot s'écrit « développement »."
+     "raison": "« dévellopement » est mal écrit : deux « l » au lieu d'un seul, et un seul « p » au lieu de deux. Le mot s'écrit « développement »."
     }
    ],
    "explication": "L'orthographe correcte est « développement ». Comme « développer » : un seul « l », deux « p », puis le suffixe « -ement ».",
@@ -2684,15 +2684,15 @@
    "fausses": [
     {
      "texte": "aparition",
-     "raison": "« aparition » est mal écrit : il manque « p ». Le mot s'écrit « apparition »."
+     "raison": "« aparition » est mal écrit : il manque un « p » : on en écrit deux. Le mot s'écrit « apparition »."
     },
     {
      "texte": "apparision",
-     "raison": "« apparision » est mal écrit : « s » à la place de « t ». Le mot s'écrit « apparition »."
+     "raison": "« apparision » est mal écrit : « s » au lieu de « t » : la terminaison est « -ition ». Le mot s'écrit « apparition »."
     },
     {
      "texte": "appariton",
-     "raison": "« appariton » est mal écrit : il manque « i ». Le mot s'écrit « apparition »."
+     "raison": "« appariton » est mal écrit : il manque le « i » de la terminaison « -ition ». Le mot s'écrit « apparition »."
     }
    ],
    "explication": "L'orthographe correcte est « apparition ». Comme « apparaître » : deux « p », puis la terminaison « -ition ».",
@@ -2708,15 +2708,15 @@
    "fausses": [
     {
      "texte": "acceuillir",
-     "raison": "« acceuillir » est mal écrit : « e » en trop, il manque « e ». Le mot s'écrit « accueillir »."
+     "raison": "« acceuillir » est mal écrit : « eu » au lieu de « ue » : c'est « cueillir » avec un « c » devant. Le mot s'écrit « accueillir »."
     },
     {
      "texte": "accueuillir",
-     "raison": "« accueuillir » est mal écrit : « u » en trop. Le mot s'écrit « accueillir »."
+     "raison": "« accueuillir » est mal écrit : un « u » en trop après « ue ». Le mot s'écrit « accueillir »."
     },
     {
      "texte": "aqueillir",
-     "raison": "« aqueillir » est mal écrit : « q » à la place de « cc ». Le mot s'écrit « accueillir »."
+     "raison": "« aqueillir » est mal écrit : « qu » au lieu de « cc » : le mot commence par « acc- ». Le mot s'écrit « accueillir »."
     }
    ],
    "explication": "L'orthographe correcte est « accueillir ». Comme « cueillir » : après « c », on met « ue » pour garder le son [k] devant « eil ».",
@@ -2732,15 +2732,15 @@
    "fausses": [
     {
      "texte": "éxigence",
-     "raison": "« éxigence » est mal écrit : « é » à la place de « e ». Le mot s'écrit « exigence »."
+     "raison": "« éxigence » est mal écrit : accent en trop sur le premier « e ». Le mot s'écrit « exigence »."
     },
     {
      "texte": "exigeance",
-     "raison": "« exigeance » est mal écrit : « a » en trop. Le mot s'écrit « exigence »."
+     "raison": "« exigeance » est mal écrit : « a » en trop : la terminaison est « -ence », pas « -eance ». Le mot s'écrit « exigence »."
     },
     {
      "texte": "exiguence",
-     "raison": "« exiguence » est mal écrit : « u » en trop. Le mot s'écrit « exigence »."
+     "raison": "« exiguence » est mal écrit : « u » en trop : « exiger » donne « exigence ». Le mot s'écrit « exigence »."
     }
    ],
    "explication": "L'orthographe correcte est « exigence ». Comme « exiger » : le mot commence par « ex- » sans accent et finit par « -ence ».",
@@ -2756,15 +2756,15 @@
    "fausses": [
     {
      "texte": "cauchemard",
-     "raison": "« cauchemard » est mal écrit : « d » en trop. Le mot s'écrit « cauchemar »."
+     "raison": "« cauchemard » est mal écrit : « d » en trop à la fin. Le mot s'écrit « cauchemar »."
     },
     {
      "texte": "cochemar",
-     "raison": "« cochemar » est mal écrit : « o » à la place de « au ». Le mot s'écrit « cauchemar »."
+     "raison": "« cochemar » est mal écrit : « o » au lieu de « au » au début. Le mot s'écrit « cauchemar »."
     },
     {
      "texte": "caushemar",
-     "raison": "« caushemar » est mal écrit : « s » à la place de « c ». Le mot s'écrit « cauchemar »."
+     "raison": "« caushemar » est mal écrit : « s » au lieu de « c » : le début est « cauche- ». Le mot s'écrit « cauchemar »."
     }
    ],
    "explication": "L'orthographe correcte est « cauchemar ». Le mot finit par « -ar », sans « d » muet.",
@@ -2780,15 +2780,15 @@
    "fausses": [
     {
      "texte": "dilème",
-     "raison": "« dilème » est mal écrit : « è » à la place de « em ». Le mot s'écrit « dilemme »."
+     "raison": "« dilème » est mal écrit : un seul « m » : le mot se termine par « -emme ». Le mot s'écrit « dilemme »."
     },
     {
      "texte": "dilemne",
-     "raison": "« dilemne » est mal écrit : « n » à la place de « m ». Le mot s'écrit « dilemme »."
+     "raison": "« dilemne » est mal écrit : « n » au lieu de « m » : le mot se termine par « -emme ». Le mot s'écrit « dilemme »."
     },
     {
      "texte": "dillemme",
-     "raison": "« dillemme » est mal écrit : « l » en trop. Le mot s'écrit « dilemme »."
+     "raison": "« dillemme » est mal écrit : « l » doublé en trop au début. Le mot s'écrit « dilemme »."
     }
    ],
    "explication": "L'orthographe correcte est « dilemme ». Mot d'origine grecque : un seul « l », deux « m », fin en « -emme ».",
@@ -2804,15 +2804,15 @@
    "fausses": [
     {
      "texte": "ocasion",
-     "raison": "« ocasion » est mal écrit : il manque « c ». Le mot s'écrit « occasion »."
+     "raison": "« ocasion » est mal écrit : il manque un « c » : on en écrit deux. Le mot s'écrit « occasion »."
     },
     {
      "texte": "occassion",
-     "raison": "« occassion » est mal écrit : « s » en trop. Le mot s'écrit « occasion »."
+     "raison": "« occassion » est mal écrit : « s » doublé en trop : un seul « s ». Le mot s'écrit « occasion »."
     },
     {
      "texte": "ocassion",
-     "raison": "« ocassion » est mal écrit : il manque « c », « s » en trop. Le mot s'écrit « occasion »."
+     "raison": "« ocassion » est mal écrit : il manque un « c » et un « s » est en trop. Le mot s'écrit « occasion »."
     }
    ],
    "explication": "L'orthographe correcte est « occasion ». Deux « c », un seul « s ».",
@@ -2828,15 +2828,15 @@
    "fausses": [
     {
      "texte": "nécésaire",
-     "raison": "« nécésaire » est mal écrit : « é » à la place de « es ». Le mot s'écrit « nécessaire »."
+     "raison": "« nécésaire » est mal écrit : un accent en trop sur le deuxième « e » et il manque un « s » : on en écrit deux. Le mot s'écrit « nécessaire »."
     },
     {
      "texte": "necessaire",
-     "raison": "« necessaire » est mal écrit : « e » à la place de « é ». Le mot s'écrit « nécessaire »."
+     "raison": "« necessaire » est mal écrit : il manque l'accent aigu sur le premier « e ». Le mot s'écrit « nécessaire »."
     },
     {
      "texte": "nécessère",
-     "raison": "« nécessère » est mal écrit : « è » à la place de « ai ». Le mot s'écrit « nécessaire »."
+     "raison": "« nécessère » est mal écrit : terminaison « -ère » au lieu de « -aire ». Le mot s'écrit « nécessaire »."
     }
    ],
    "explication": "L'orthographe correcte est « nécessaire ». Un seul accent (sur le premier « e »), deux « s », fin en « -aire ».",
@@ -2852,15 +2852,15 @@
    "fausses": [
     {
      "texte": "correspondence",
-     "raison": "« correspondence » est mal écrit : « e » à la place de « a ». Le mot s'écrit « correspondance »."
+     "raison": "« correspondence » est mal écrit : terminaison « -ence » au lieu de « -ance ». Le mot s'écrit « correspondance »."
     },
     {
      "texte": "corespondance",
-     "raison": "« corespondance » est mal écrit : il manque « r ». Le mot s'écrit « correspondance »."
+     "raison": "« corespondance » est mal écrit : il manque un « r » : on en écrit deux. Le mot s'écrit « correspondance »."
     },
     {
      "texte": "corrèspondance",
-     "raison": "« corrèspondance » est mal écrit : « è » à la place de « e ». Le mot s'écrit « correspondance »."
+     "raison": "« corrèspondance » est mal écrit : accent grave en trop sur le « e ». Le mot s'écrit « correspondance »."
     }
    ],
    "explication": "L'orthographe correcte est « correspondance ». Deux « r » après « co- », et la fin « -ance » (comme « correspondant »).",
@@ -2876,15 +2876,15 @@
    "fausses": [
     {
      "texte": "connaisance",
-     "raison": "« connaisance » est mal écrit : il manque « s ». Le mot s'écrit « connaissance »."
+     "raison": "« connaisance » est mal écrit : il manque un « s » : on en écrit deux. Le mot s'écrit « connaissance »."
     },
     {
      "texte": "conaissance",
-     "raison": "« conaissance » est mal écrit : il manque « n ». Le mot s'écrit « connaissance »."
+     "raison": "« conaissance » est mal écrit : il manque un « n » : on en écrit deux. Le mot s'écrit « connaissance »."
     },
     {
      "texte": "connaissence",
-     "raison": "« connaissence » est mal écrit : « e » à la place de « a ». Le mot s'écrit « connaissance »."
+     "raison": "« connaissence » est mal écrit : terminaison « -ence » au lieu de « -ance ». Le mot s'écrit « connaissance »."
     }
    ],
    "explication": "L'orthographe correcte est « connaissance ». Deux « n » et deux « s », comme « connaître → connaissance ».",
@@ -2900,15 +2900,15 @@
    "fausses": [
     {
      "texte": "apartement",
-     "raison": "« apartement » est mal écrit : il manque « p ». Le mot s'écrit « appartement »."
+     "raison": "« apartement » est mal écrit : il manque un « p » : on en écrit deux. Le mot s'écrit « appartement »."
     },
     {
      "texte": "appartemment",
-     "raison": "« appartemment » est mal écrit : « m » en trop. Le mot s'écrit « appartement »."
+     "raison": "« appartemment » est mal écrit : « m » doublé en trop. Le mot s'écrit « appartement »."
     },
     {
      "texte": "appartemant",
-     "raison": "« appartemant » est mal écrit : « a » à la place de « e ». Le mot s'écrit « appartement »."
+     "raison": "« appartemant » est mal écrit : terminaison « -ant » au lieu de « -ement ». Le mot s'écrit « appartement »."
     }
    ],
    "explication": "L'orthographe correcte est « appartement ». Deux « p », un seul « t », puis « -ement ».",
@@ -2924,15 +2924,15 @@
    "fausses": [
     {
      "texte": "adollescent",
-     "raison": "« adollescent » est mal écrit : « l » en trop. Le mot s'écrit « adolescent »."
+     "raison": "« adollescent » est mal écrit : « l » doublé en trop. Le mot s'écrit « adolescent »."
     },
     {
      "texte": "adolessent",
-     "raison": "« adolessent » est mal écrit : « s » à la place de « c ». Le mot s'écrit « adolescent »."
+     "raison": "« adolessent » est mal écrit : « s » au lieu de « sc » : on écrit « -esc- ». Le mot s'écrit « adolescent »."
     },
     {
      "texte": "adolescant",
-     "raison": "« adolescant » est mal écrit : « a » à la place de « e ». Le mot s'écrit « adolescent »."
+     "raison": "« adolescant » est mal écrit : terminaison « -ant » au lieu de « -ent ». Le mot s'écrit « adolescent »."
     }
    ],
    "explication": "L'orthographe correcte est « adolescent ». Un seul « l », puis « -sc- » et la fin « -ent » (comme « innocent »).",
@@ -2948,15 +2948,15 @@
    "fausses": [
     {
      "texte": "paralèle",
-     "raison": "« paralèle » est mal écrit : il manque « l ». Le mot s'écrit « parallèle »."
+     "raison": "« paralèle » est mal écrit : il manque un « l » : on écrit « -llèle » (deux « l », « è », un « l »). Le mot s'écrit « parallèle »."
     },
     {
      "texte": "parrallèle",
-     "raison": "« parrallèle » est mal écrit : « r » en trop. Le mot s'écrit « parallèle »."
+     "raison": "« parrallèle » est mal écrit : « r » doublé en trop, et « l » mal placés. Le mot s'écrit « parallèle »."
     },
     {
      "texte": "paralelle",
-     "raison": "« paralelle » est mal écrit : « e » en trop, il manque « è ». Le mot s'écrit « parallèle »."
+     "raison": "« paralelle » est mal écrit : les « l » et l'accent sont mal placés : on écrit « -llèle ». Le mot s'écrit « parallèle »."
     }
    ],
    "explication": "L'orthographe correcte est « parallèle ». Un seul « r » mais deux « l » au milieu, puis l'accent grave sur le « è ».",
@@ -2972,15 +2972,15 @@
    "fausses": [
     {
      "texte": "inteligence",
-     "raison": "« inteligence » est mal écrit : il manque « l ». Le mot s'écrit « intelligence »."
+     "raison": "« inteligence » est mal écrit : il manque un « l » : on en écrit deux. Le mot s'écrit « intelligence »."
     },
     {
      "texte": "intelligance",
-     "raison": "« intelligance » est mal écrit : « a » à la place de « e ». Le mot s'écrit « intelligence »."
+     "raison": "« intelligance » est mal écrit : terminaison « -ance » au lieu de « -ence ». Le mot s'écrit « intelligence »."
     },
     {
      "texte": "intellegence",
-     "raison": "« intellegence » est mal écrit : « e » à la place de « i ». Le mot s'écrit « intelligence »."
+     "raison": "« intellegence » est mal écrit : « e » au lieu de « i » : on écrit « intelli- ». Le mot s'écrit « intelligence »."
     }
    ],
    "explication": "L'orthographe correcte est « intelligence ». Deux « l » au milieu, et la fin « -ence ».",
@@ -2996,15 +2996,15 @@
    "fausses": [
     {
      "texte": "gouvernemment",
-     "raison": "« gouvernemment » est mal écrit : « m » en trop. Le mot s'écrit « gouvernement »."
+     "raison": "« gouvernemment » est mal écrit : « m » doublé en trop. Le mot s'écrit « gouvernement »."
     },
     {
      "texte": "gouverment",
-     "raison": "« gouverment » est mal écrit : il manque « ne ». Le mot s'écrit « gouvernement »."
+     "raison": "« gouverment » est mal écrit : il manque « ne » : « gouverne-ment ». Le mot s'écrit « gouvernement »."
     },
     {
      "texte": "gouvernemant",
-     "raison": "« gouvernemant » est mal écrit : « a » à la place de « e ». Le mot s'écrit « gouvernement »."
+     "raison": "« gouvernemant » est mal écrit : terminaison « -ant » au lieu de « -ent ». Le mot s'écrit « gouvernement »."
     }
    ],
    "explication": "L'orthographe correcte est « gouvernement ». Comme « gouverner » : un seul « m », puis « -ement ».",
@@ -3020,15 +3020,15 @@
    "fausses": [
     {
      "texte": "souhaitter",
-     "raison": "« souhaitter » est mal écrit : « t » en trop. Le mot s'écrit « souhaiter »."
+     "raison": "« souhaitter » est mal écrit : « t » doublé en trop. Le mot s'écrit « souhaiter »."
     },
     {
      "texte": "souaiter",
-     "raison": "« souaiter » est mal écrit : il manque « h ». Le mot s'écrit « souhaiter »."
+     "raison": "« souaiter » est mal écrit : il manque le « h » muet. Le mot s'écrit « souhaiter »."
     },
     {
      "texte": "souhèter",
-     "raison": "« souhèter » est mal écrit : « è » à la place de « ai ». Le mot s'écrit « souhaiter »."
+     "raison": "« souhèter » est mal écrit : « è » au lieu de « ai ». Le mot s'écrit « souhaiter »."
     }
    ],
    "explication": "L'orthographe correcte est « souhaiter ». Le « h » muet se place entre « sou » et « aiter ».",
@@ -3044,15 +3044,15 @@
    "fausses": [
     {
      "texte": "chausure",
-     "raison": "« chausure » est mal écrit : il manque « s ». Le mot s'écrit « chaussure »."
+     "raison": "« chausure » est mal écrit : il manque un « s » : on en écrit deux. Le mot s'écrit « chaussure »."
     },
     {
      "texte": "chaussur",
-     "raison": "« chaussur » est mal écrit : il manque « e ». Le mot s'écrit « chaussure »."
+     "raison": "« chaussur » est mal écrit : il manque le « e » final. Le mot s'écrit « chaussure »."
     },
     {
      "texte": "chossure",
-     "raison": "« chossure » est mal écrit : « o » à la place de « au ». Le mot s'écrit « chaussure »."
+     "raison": "« chossure » est mal écrit : « o » au lieu de « au ». Le mot s'écrit « chaussure »."
     }
    ],
    "explication": "L'orthographe correcte est « chaussure ». Deux « s » (comme « chausser ») et la fin « -ure ».",
@@ -3068,15 +3068,15 @@
    "fausses": [
     {
      "texte": "agrésif",
-     "raison": "« agrésif » est mal écrit : « é » à la place de « es ». Le mot s'écrit « agressif »."
+     "raison": "« agrésif » est mal écrit : « é » au lieu de « e » et il manque un « s » : on en écrit deux. Le mot s'écrit « agressif »."
     },
     {
      "texte": "aggressif",
-     "raison": "« aggressif » est mal écrit : « g » en trop. Le mot s'écrit « agressif »."
+     "raison": "« aggressif » est mal écrit : « g » doublé en trop (c'est l'anglais « aggressive ») : en français un seul « g ». Le mot s'écrit « agressif »."
     },
     {
      "texte": "agressiv",
-     "raison": "« agressiv » est mal écrit : « v » à la place de « f ». Le mot s'écrit « agressif »."
+     "raison": "« agressiv » est mal écrit : « v » au lieu de « f » à la fin. Le mot s'écrit « agressif »."
     }
    ],
    "explication": "L'orthographe correcte est « agressif ». Un seul « g » et deux « s », comme « agresser ».",
@@ -3092,15 +3092,15 @@
    "fausses": [
     {
      "texte": "éfémère",
-     "raison": "« éfémère » est mal écrit : « f » à la place de « ph ». Le mot s'écrit « éphémère »."
+     "raison": "« éfémère » est mal écrit : « f » au lieu de « ph ». Le mot s'écrit « éphémère »."
     },
     {
      "texte": "éphémaire",
-     "raison": "« éphémaire » est mal écrit : « ai » à la place de « è ». Le mot s'écrit « éphémère »."
+     "raison": "« éphémaire » est mal écrit : terminaison « -aire » au lieu de « -ère ». Le mot s'écrit « éphémère »."
     },
     {
      "texte": "éphèmère",
-     "raison": "« éphèmère » est mal écrit : « è » à la place de « é ». Le mot s'écrit « éphémère »."
+     "raison": "« éphèmère » est mal écrit : accent grave au lieu d'aigu sur le premier « e » après « ph ». Le mot s'écrit « éphémère »."
     }
    ],
    "explication": "L'orthographe correcte est « éphémère ». Mot d'origine grecque : « ph » pour le son [f], accents aigu, aigu, grave.",
@@ -3116,15 +3116,15 @@
    "fausses": [
     {
      "texte": "privilége",
-     "raison": "« privilége » est mal écrit : « é » à la place de « è ». Le mot s'écrit « privilège »."
+     "raison": "« privilége » est mal écrit : accent aigu au lieu de grave sur la dernière syllabe. Le mot s'écrit « privilège »."
     },
     {
      "texte": "privillège",
-     "raison": "« privillège » est mal écrit : « l » en trop. Le mot s'écrit « privilège »."
+     "raison": "« privillège » est mal écrit : « l » doublé en trop. Le mot s'écrit « privilège »."
     },
     {
      "texte": "privilaige",
-     "raison": "« privilaige » est mal écrit : « ai » à la place de « è ». Le mot s'écrit « privilège »."
+     "raison": "« privilaige » est mal écrit : terminaison « -aige » au lieu de « -ège ». Le mot s'écrit « privilège »."
     }
    ],
    "explication": "L'orthographe correcte est « privilège ». Un seul « l » et l'accent grave sur le dernier « è » (devant « ge »).",
@@ -3140,15 +3140,15 @@
    "fausses": [
     {
      "texte": "bacalauréat",
-     "raison": "« bacalauréat » est mal écrit : il manque « c ». Le mot s'écrit « baccalauréat »."
+     "raison": "« bacalauréat » est mal écrit : il manque un « c » : on en écrit deux. Le mot s'écrit « baccalauréat »."
     },
     {
      "texte": "baccalaureat",
-     "raison": "« baccalaureat » est mal écrit : « e » à la place de « é ». Le mot s'écrit « baccalauréat »."
+     "raison": "« baccalaureat » est mal écrit : il manque l'accent aigu sur le « é » de « -réat ». Le mot s'écrit « baccalauréat »."
     },
     {
      "texte": "baccaloréat",
-     "raison": "« baccaloréat » est mal écrit : « o » à la place de « au ». Le mot s'écrit « baccalauréat »."
+     "raison": "« baccaloréat » est mal écrit : « o » au lieu de « au ». Le mot s'écrit « baccalauréat »."
     }
    ],
    "explication": "L'orthographe correcte est « baccalauréat ». Deux « c », un seul « l », puis « -auréat » avec accent aigu.",
@@ -3164,15 +3164,15 @@
    "fausses": [
     {
      "texte": "interogation",
-     "raison": "« interogation » est mal écrit : il manque « r ». Le mot s'écrit « interrogation »."
+     "raison": "« interogation » est mal écrit : il manque un « r » : on en écrit deux. Le mot s'écrit « interrogation »."
     },
     {
      "texte": "intérrogation",
-     "raison": "« intérrogation » est mal écrit : « é » à la place de « e ». Le mot s'écrit « interrogation »."
+     "raison": "« intérrogation » est mal écrit : accent en trop sur le premier « e ». Le mot s'écrit « interrogation »."
     },
     {
      "texte": "interrogacion",
-     "raison": "« interrogacion » est mal écrit : « c » à la place de « t ». Le mot s'écrit « interrogation »."
+     "raison": "« interrogacion » est mal écrit : « c » au lieu de « t » : la terminaison est « -ation ». Le mot s'écrit « interrogation »."
     }
    ],
    "explication": "L'orthographe correcte est « interrogation ». Comme « interroger » : deux « r » et la fin « -ation ».",
@@ -3188,15 +3188,15 @@
    "fausses": [
     {
      "texte": "embarasser",
-     "raison": "« embarasser » est mal écrit : il manque « r ». Le mot s'écrit « embarrasser »."
+     "raison": "« embarasser » est mal écrit : il manque un « r » : on en écrit deux. Le mot s'écrit « embarrasser »."
     },
     {
      "texte": "embarrasé",
-     "raison": "« embarrasé » est mal écrit : « é » à la place de « ser ». Le mot s'écrit « embarrasser »."
+     "raison": "« embarrasé » est mal écrit : il manque un « s » et la terminaison « -er » : « embarrasser ». Le mot s'écrit « embarrasser »."
     },
     {
      "texte": "enbarrasser",
-     "raison": "« enbarrasser » est mal écrit : « n » à la place de « m ». Le mot s'écrit « embarrasser »."
+     "raison": "« enbarrasser » est mal écrit : « n » au lieu de « m » devant « b ». Le mot s'écrit « embarrasser »."
     }
    ],
    "explication": "L'orthographe correcte est « embarrasser ». Deux « r », deux « s », et « -em » devant « b ».",

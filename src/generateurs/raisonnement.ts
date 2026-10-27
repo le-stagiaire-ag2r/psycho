@@ -92,6 +92,9 @@ function brutSuiteLettres(rng: Prng, diff: Difficulte): Brut {
   const fausses = lettresVoisines(s.suivante).map((l, i) => {
     const d = ecarts[i];
     const k = Math.abs(d);
+    if (l === s.lettres[s.lettres.length - 1]) {
+      return { texte: l, raison: `${l} est la dernière lettre affichée : la règle n'a pas été appliquée une fois de plus, alors que la suite avance à chaque étape.` };
+    }
     return {
       texte: l,
       raison: `${l} se trouve ${k} rang${k > 1 ? 's' : ''} ${d > 0 ? 'après' : 'avant'} la bonne réponse (${s.suivante}) dans l'alphabet : c'est une erreur de comptage de ${k} rang${k > 1 ? 's' : ''}.`,
@@ -112,6 +115,9 @@ function brutSuiteMots(rng: Prng, diff: Difficulte): Brut {
   const fausses = s.voisins.map((mot, i) => {
     const d = s.ecartsVoisins[i];
     const k = Math.abs(d);
+    if (mot === s.mots[s.mots.length - 1]) {
+      return { texte: mot, raison: `« ${mot} » est le dernier mot affiché : la règle n'a pas été appliquée une fois de plus, alors que la suite avance à chaque étape.` };
+    }
     return {
       texte: mot,
       raison: `« ${mot} » se trouve ${k} rang${k > 1 ? 's' : ''} ${d > 0 ? 'après' : 'avant'} le bon mot (« ${s.suivant} ») dans la liste des ${s.nomListe} : c'est une erreur de comptage de ${k} rang${k > 1 ? 's' : ''}.`,

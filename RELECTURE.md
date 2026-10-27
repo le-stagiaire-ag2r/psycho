@@ -122,6 +122,29 @@ Les empreintes « golden » ne portent plus que sur la question (énoncé, propo
 
 Le questionnaire de personnalité n'a volontairement ni bonne réponse ni explication.
 
+## Passe 5 : test à l'aveugle puis relecture complète (octobre 2026)
+
+**Test à l'aveugle** : 4 correcteurs indépendants (des sous-agents IA qui n'avaient accès qu'à un fichier contenant les énoncés et les propositions mélangées, sans la clé ni les explications) ont résolu les 159 questions de verbal et les 158 d'anglais.
+
+Résultat : **316 réponses sur 317** identiques à la clé. Seul écart : ANG-GRA-082 (« You ___ to see a doctor » : le correcteur a répondu « should », ce qu'un candidat pouvait faire aussi). Questions signalées comme fragiles et corrigées :
+
+| Question | Problème signalé | Correction |
+| --- | --- | --- |
+| ANG-GRA-082 | « should » / « ought » défendables à cause du « to » | phrase sans « to » : should (propositions : ought, have, need, toutes impossibles sans « to ») |
+| ANG-GRA-057 | « which » pour une personne, courant à l'oral | remplacé par « where » |
+| VER-SYN-010 | fréquent → habituel (nuance) | fréquent → courant |
+| VER-SYN-015 | ancien → antique (plus fort) | ancien → vieux |
+| VER-SYN-019 | véridique → sincère (proche, pas identique) | véridique → vrai |
+| VER-INT-011 | « Danemark » : seul mot à majuscule, indice trop visible | intrus « grammaire » |
+| VER-INT-016 | « portrait » : étymologie trop pointue | intrus « portail » (famille de « porte ») |
+
+**Relecture complète, avec la clé et les explications sous les yeux** (317 questions, ~950 explications). Corrections supplémentaires :
+- Anglais : un second sens possible retiré dans « What time did the film start tonight? » (→ « tomorrow evening »), « The meeting is by Monday », « I get up by 7 o'clock », « Must you help me, please? », « Hardly did he arrive… », « You like football, didn't you? », « I'm looking after my keys », « The train was empty / fast », « so hard-working that he forgot his birthday », « company was famous… », « He lay », « speak slower… ». Pour la ceinture de sécurité : ajout de « and it is not optional ».
+- Verbal : explications d'orthographe réécrites à la main (le calcul automatique des différences donnait parfois des phrases absurdes comme « h en trop, il manque h »), proverbes sans répétition du sens sur chaque mauvaise réponse, « victoire » signalé comme contraire d'« échec ».
+- Raisonnement : un distracteur qui est le dernier terme affiché est expliqué comme « règle non appliquée ».
+
+**Limites qui demeurent** : les correcteurs « à l'aveugle » sont des IA de la même famille que l'auteur : ils partagent probablement certains angles morts. Pour les questions dont la mauvaise réponse n'est pas *grammaticalement impossible* mais *incohérente avec le contexte* (conjonctions, vocabulaire avec indice, modaux), l'unicité repose sur le sens de la phrase. Seul un relecteur humain, idéalement anglophone pour l'anglais, peut le garantir.
+
 ## Comment relire à votre tour
 1. Ouvrez `src/data/verbal.json` ou `src/data/anglais.json`.
 2. Pour chaque item, vérifiez qu'**une seule** proposition est juste.

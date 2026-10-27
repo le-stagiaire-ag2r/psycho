@@ -870,21 +870,21 @@
    "id": "ANG-GRA-037",
    "type": "grammaire",
    "niveau": 2,
-   "enonce": "What time ___ the film start tonight?",
+   "enonce": "What time ___ the film start tomorrow evening?",
    "bonne": "does",
-   "pourquoiBonne": "« What time does the film start tonight? » est correct. Question au présent simple (programme), 3e personne : does.",
+   "pourquoiBonne": "« What time does the film start tomorrow evening? » est correct. Question au présent simple (programme), 3e personne : does.",
    "fausses": [
     {
      "texte": "do",
-     "raison": "« What time do the film start tonight? » ne convient pas : « do » va avec I / you / we / they ; « the film » est à la 3e personne du singulier, donc « does »."
+     "raison": "« What time do the film start tomorrow evening? » ne convient pas : « do » va avec I / you / we / they ; « the film » est à la 3e personne du singulier, donc « does »."
     },
     {
      "texte": "did",
-     "raison": "« What time did the film start tonight? » ne convient pas : « did » est au passé, alors que « tonight » est dans le futur proche (programme)."
+     "raison": "« What time did the film start tomorrow evening? » ne convient pas : « did » est au passé, alors que « tomorrow evening » est dans le futur."
     },
     {
      "texte": "is",
-     "raison": "« What time is the film start tonight? » ne convient pas : « is » ne peut pas être suivi de « start » : on aurait « is starting » ; pour une question de programme, on utilise « does »."
+     "raison": "« What time is the film start tomorrow evening? » ne convient pas : « is » ne peut pas être suivi de « start » : on aurait « is starting » ; pour une question de programme, on utilise « does »."
     }
    ],
    "explication": "Question au présent simple (programme), 3e personne : does.",
@@ -1355,8 +1355,8 @@
    "pourquoiBonne": "« The man who lives next door is a doctor. » est correct. Antécédent personne, sujet du verbe : who.",
    "fausses": [
     {
-     "texte": "which",
-     "raison": "« The man which lives next door is a doctor. » ne convient pas : « which » ne s'emploie que pour des choses ; « the man » est une personne."
+     "texte": "where",
+     "raison": "« The man where lives next door is a doctor. » ne convient pas : « where » ne s'emploie que pour un lieu ; « the man » est une personne."
     },
     {
      "texte": "whose",
@@ -1555,8 +1555,8 @@
      "raison": "« The meeting is at Monday. » ne convient pas : « at » s'emploie avec une heure ; devant un jour de la semaine, on dit « on »."
     },
     {
-     "texte": "by",
-     "raison": "« The meeting is by Monday. » ne convient pas : « by » signifie « avant » ou « par » ; il ne convient pas pour situer une réunion un jour donné."
+     "texte": "to",
+     "raison": "« The meeting is to Monday. » ne convient pas : « to » ne se place pas devant un jour de la semaine ; on dit « on Monday »."
     }
    ],
    "explication": "« on » + jour de la semaine ou date (on Monday, on 5 May). « in » + mois ou année, « at » + heure.",
@@ -1579,8 +1579,8 @@
      "raison": "« I get up on 7 o'clock. » ne convient pas : « on » s'emploie avec un jour ; devant une heure, on dit « at »."
     },
     {
-     "texte": "by",
-     "raison": "« I get up by 7 o'clock. » ne convient pas : « by » signifie « avant, au plus tard » ; pour une heure précise on dit « at »."
+     "texte": "of",
+     "raison": "« I get up of 7 o'clock. » ne convient pas : « of » ne s'emploie pas pour donner une heure ; on dit « at 7 o'clock »."
     }
    ],
    "explication": "« at » + heure précise (at 7 o'clock, at noon). « in » + mois ou année, « on » + jour.",
@@ -1623,12 +1623,12 @@
      "raison": "« I'm looking at my keys. I can't find them. » ne convient pas : « look at » veut dire « regarder » ; ici on cherche ses clés, il faut « look for »."
     },
     {
-     "texte": "after",
-     "raison": "« I'm looking after my keys. I can't find them. » ne convient pas : « look after » veut dire « s'occuper de » ; ici on cherche ses clés."
+     "texte": "in",
+     "raison": "« I'm looking in my keys. I can't find them. » ne convient pas : « look in » veut dire « regarder à l'intérieur de » ; ici on cherche ses clés, il faut « look for »."
     },
     {
-     "texte": "to",
-     "raison": "« I'm looking to my keys. I can't find them. » ne convient pas : « look to » ne veut pas dire « chercher » ; pour chercher, on dit « look for »."
+     "texte": "of",
+     "raison": "« I'm looking of my keys. I can't find them. » ne convient pas : « look of » ne s'emploie pas pour chercher ; pour chercher, on dit « look for »."
     }
    ],
    "explication": "« look for » = chercher (qqch qu'on a perdu). « look at » = regarder, « look after » = s'occuper de.",
@@ -1782,21 +1782,21 @@
    "id": "ANG-GRA-075",
    "type": "grammaire",
    "niveau": 1,
-   "enonce": "You ___ wear a seat belt. It's the law.",
+   "enonce": "You ___ wear a seat belt. It's the law, and it is not optional.",
    "bonne": "must",
-   "pourquoiBonne": "« You must wear a seat belt. It's the law. » est correct. « must » exprime une obligation forte (loi, règle) : « You must wear a seat belt » = vous devez attacher votre ceinture.",
+   "pourquoiBonne": "« You must wear a seat belt. It's the law, and it is not optional. » est correct. « must » exprime une obligation forte (loi, règle) : « You must wear a seat belt » = vous devez attacher votre ceinture.",
    "fausses": [
     {
      "texte": "can",
-     "raison": "« You can wear a seat belt. It's the law. » ne convient pas : « can » exprime une possibilité ou une capacité, pas l'obligation imposée par la loi."
+     "raison": "« You can wear a seat belt. It's the law, and it is not optional. » ne convient pas : « can » exprime une possibilité ou une capacité, pas l'obligation imposée par la loi."
     },
     {
      "texte": "may",
-     "raison": "« You may wear a seat belt. It's the law. » ne convient pas : « may » exprime une permission ou une possibilité, pas l'obligation imposée par la loi."
+     "raison": "« You may wear a seat belt. It's the law, and it is not optional. » ne convient pas : « may » exprime une permission ou une possibilité, pas l'obligation imposée par la loi."
     },
     {
      "texte": "would",
-     "raison": "« You would wear a seat belt. It's the law. » ne convient pas : « would » exprime une hypothèse ou une politesse, pas une obligation."
+     "raison": "« You would wear a seat belt. It's the law, and it is not optional. » ne convient pas : « would » exprime une hypothèse ou une politesse, pas une obligation."
     }
    ],
    "explication": "« must » exprime une obligation forte (loi, règle) : « You must wear a seat belt » = vous devez attacher votre ceinture.",
@@ -1859,8 +1859,8 @@
    "pourquoiBonne": "« Could you help me, please? » est correct. « Could you …? » est la manière polie de demander un service (« pourriez-vous … ? »). « Would you …? » marche aussi.",
    "fausses": [
     {
-     "texte": "Must",
-     "raison": "« Must you help me, please? » ne convient pas : « Must » exprime une obligation ; pour une demande polie, on emploie « Could »."
+     "texte": "Are",
+     "raison": "« Are you help me, please? » ne convient pas : « Are you help me » est incorrect : « are » demande « helping » ; pour une demande polie, on dit « Could you help me »."
     },
     {
      "texte": "Shall",
@@ -1950,24 +1950,24 @@
    "id": "ANG-GRA-082",
    "type": "grammaire",
    "niveau": 2,
-   "enonce": "You look very ill. You ___ to see a doctor.",
-   "bonne": "ought",
-   "pourquoiBonne": "« You look very ill. You ought to see a doctor. » est correct. « ought to » + infinitif exprime le conseil ; « should », « must » et « can » ne prennent pas « to ».",
+   "enonce": "You look very ill. You ___ see a doctor.",
+   "bonne": "should",
+   "pourquoiBonne": "« You look very ill. You should see a doctor. » est correct. « should » + infinitif sans « to » exprime un conseil : you should see a doctor = vous devriez consulter un médecin. (« ought to » a le même sens, mais exige « to ».)",
    "fausses": [
     {
-     "texte": "should",
-     "raison": "« You look very ill. You should to see a doctor. » ne convient pas : « should » est correct pour un conseil mais ne se construit pas avec « to » ; ici la phrase contient « to », donc c'est « ought to »."
+     "texte": "ought",
+     "raison": "« You look very ill. You ought see a doctor. » ne convient pas : « ought » doit toujours être suivi de « to » (« ought to see ») ; sans « to », la phrase est incorrecte."
     },
     {
-     "texte": "must",
-     "raison": "« You look very ill. You must to see a doctor. » ne convient pas : « must » ne se construit pas avec « to » ; la phrase contient « to »."
+     "texte": "have",
+     "raison": "« You look very ill. You have see a doctor. » ne convient pas : « have see » n'existe pas : on dirait « have to see » (obligation) ou « should see » (conseil)."
     },
     {
-     "texte": "can",
-     "raison": "« You look very ill. You can to see a doctor. » ne convient pas : « can » ne se construit pas avec « to » et n'exprime pas un conseil."
+     "texte": "need",
+     "raison": "« You look very ill. You need see a doctor. » ne convient pas : « need see » n'existe pas à l'affirmatif : on dirait « need to see » ; « need » sans « to » ne s'emploie qu'à la forme négative ou interrogative."
     }
    ],
-   "explication": "« ought to » + infinitif exprime le conseil ; « should », « must » et « can » ne prennent pas « to ».",
+   "explication": "« should » + infinitif sans « to » exprime un conseil : you should see a doctor = vous devriez consulter un médecin. (« ought to » a le même sens, mais exige « to ».)",
    "relecture": null
   },
   {
@@ -2727,8 +2727,8 @@
      "raison": "« Hardly has he arrived when the phone rang. » ne convient pas : après « Hardly », on utilise le past perfect avec inversion : « Hardly had he arrived »."
     },
     {
-     "texte": "did",
-     "raison": "« Hardly did he arrived when the phone rang. » ne convient pas : « did » donnerait « Hardly did he arrive » (passé simple) ; la structure avec « when » appelle le past perfect : « had »."
+     "texte": "would",
+     "raison": "« Hardly would he arrived when the phone rang. » ne convient pas : « would » ne peut pas précéder « arrived » dans cette structure : « Hardly had he arrived when … » exige le past perfect (« had »)."
     },
     {
      "texte": "was",
@@ -2795,8 +2795,8 @@
    "pourquoiBonne": "« You like football, don't you? » est correct. Question tag : phrase positive, tag négatif avec l'auxiliaire du présent simple.",
    "fausses": [
     {
-     "texte": "didn't",
-     "raison": "« You like football, didn't you? » ne convient pas : le tag reprend l'auxiliaire du verbe : « You like » est au présent simple, donc « don't you »."
+     "texte": "won't",
+     "raison": "« You like football, won't you? » ne convient pas : « won't » est un futur ; le tag reprend l'auxiliaire du présent simple : « don't you »."
     },
     {
      "texte": "are",
@@ -3443,8 +3443,8 @@
    "pourquoiBonne": "« He didn't tell the truth. He lied. » est correct. « lie » (lied) = mentir ; « lay » (laid) = poser ; « lie » (lay) = être allongé. Les trois verbes se ressemblent, mais « He didn't tell the truth » = il a menti = « lied ».",
    "fausses": [
     {
-     "texte": "lay",
-     "raison": "« He didn't tell the truth. He lay. » ne convient pas : « lay » est le passé de « lie » au sens « être allongé » ; pour « mentir », le passé est « lied »."
+     "texte": "lie",
+     "raison": "« He didn't tell the truth. He lie. » ne convient pas : « lie » est la forme de base ; la phrase « didn't tell » est au passé, il faut « lied »."
     },
     {
      "texte": "laid",
@@ -3510,21 +3510,21 @@
    "id": "ANG-VOC-022",
    "type": "vocabulaire",
    "niveau": 2,
-   "enonce": "The train was ___. It arrived thirty minutes late.",
+   "enonce": "If a train arrives thirty minutes late, we say it is ___.",
    "bonne": "delayed",
-   "pourquoiBonne": "« The train was delayed. It arrived thirty minutes late. » est correct. « delayed » = retardé, en retard (un train, un avion). « early » = en avance.",
+   "pourquoiBonne": "« If a train arrives thirty minutes late, we say it is delayed. » est correct. « delayed » = retardé, en retard (un train, un avion). « early » = en avance.",
    "fausses": [
     {
      "texte": "early",
-     "raison": "« The train was early. It arrived thirty minutes late. » ne convient pas : « early » veut dire « en avance », alors que le train est arrivé avec trente minutes de retard."
+     "raison": "« If a train arrives thirty minutes late, we say it is early. » ne convient pas : « early » veut dire « en avance », le contraire de « late » (en retard)."
     },
     {
      "texte": "fast",
-     "raison": "« The train was fast. It arrived thirty minutes late. » ne convient pas : « fast » veut dire « rapide », ce qui contredit « thirty minutes late »."
+     "raison": "« If a train arrives thirty minutes late, we say it is fast. » ne convient pas : « fast » veut dire « rapide » ; cela ne décrit pas un retard."
     },
     {
      "texte": "empty",
-     "raison": "« The train was empty. It arrived thirty minutes late. » ne convient pas : « empty » veut dire « vide » ; cela ne dit rien sur l'horaire."
+     "raison": "« If a train arrives thirty minutes late, we say it is empty. » ne convient pas : « empty » veut dire « vide » ; cela ne décrit pas un retard."
     }
    ],
    "explication": "« delayed » = retardé, en retard (un train, un avion). « early » = en avance.",
@@ -3591,8 +3591,8 @@
      "raison": "« Please speak quieter. I can't hear you. » ne convient pas : « quieter » veut dire « plus silencieux » : si on n'entend pas, il faut parler plus fort, pas plus bas."
     },
     {
-     "texte": "slower",
-     "raison": "« Please speak slower. I can't hear you. » ne convient pas : « slower » veut dire « plus lentement » ; le problème est le volume de la voix, pas la vitesse."
+     "texte": "softer",
+     "raison": "« Please speak softer. I can't hear you. » ne convient pas : « softer » veut dire « plus doucement » : parler plus doucement aggraverait le problème."
     },
     {
      "texte": "lower",
@@ -3656,22 +3656,22 @@
    "niveau": 3,
    "enonce": "He was so ___ that he forgot his own birthday.",
    "bonne": "absent-minded",
-   "pourquoiBonne": "« He was so absent-minded that he forgot his own birthday. » est correct. « absent-minded » = distrait, qui oublie les choses. « well-known » = célèbre, « hard-working » = travailleur, « self-confident » = sûr de soi.",
+   "pourquoiBonne": "« He was so absent-minded that he forgot his own birthday. » est correct. « absent-minded » = distrait, qui oublie les choses. « well-known » = célèbre, « polite » = poli, « self-confident » = sûr de soi.",
    "fausses": [
     {
      "texte": "well-known",
      "raison": "« He was so well-known that he forgot his own birthday. » ne convient pas : « well-known » veut dire « célèbre » ; cela n'explique pas qu'on oublie son anniversaire."
     },
     {
-     "texte": "hard-working",
-     "raison": "« He was so hard-working that he forgot his own birthday. » ne convient pas : « hard-working » veut dire « travailleur » ; cela n'explique pas qu'on oublie son anniversaire."
+     "texte": "polite",
+     "raison": "« He was so polite that he forgot his own birthday. » ne convient pas : « polite » veut dire « poli » ; cela n'explique pas qu'on oublie son anniversaire."
     },
     {
      "texte": "self-confident",
      "raison": "« He was so self-confident that he forgot his own birthday. » ne convient pas : « self-confident » veut dire « sûr de soi » ; cela n'explique pas qu'on oublie son anniversaire."
     }
    ],
-   "explication": "« absent-minded » = distrait, qui oublie les choses. « well-known » = célèbre, « hard-working » = travailleur, « self-confident » = sûr de soi.",
+   "explication": "« absent-minded » = distrait, qui oublie les choses. « well-known » = célèbre, « polite » = poli, « self-confident » = sûr de soi.",
    "relecture": null
   },
   {
@@ -3680,11 +3680,11 @@
    "niveau": 3,
    "enonce": "The company was ___ last year; it had to close all its shops.",
    "bonne": "bankrupt",
-   "pourquoiBonne": "« The company was bankrupt last year; it had to close all its shops. » est correct. « bankrupt » = en faillite (une entreprise qui n'a plus d'argent et ferme). « successful » = qui réussit, « famous » = célèbre.",
+   "pourquoiBonne": "« The company was bankrupt last year; it had to close all its shops. » est correct. « bankrupt » = en faillite (une entreprise qui n'a plus d'argent et ferme). « successful » = qui réussit, « profitable » = rentable.",
    "fausses": [
     {
-     "texte": "famous",
-     "raison": "« The company was famous last year; it had to close all its shops. » ne convient pas : « famous » veut dire « célèbre » ; une entreprise célèbre ne ferme pas forcément tous ses magasins."
+     "texte": "profitable",
+     "raison": "« The company was profitable last year; it had to close all its shops. » ne convient pas : « profitable » veut dire « rentable » : cela contredit le fait de fermer tous les magasins."
     },
     {
      "texte": "generous",
@@ -3695,7 +3695,7 @@
      "raison": "« The company was successful last year; it had to close all its shops. » ne convient pas : « successful » veut dire « prospère » : cela contredit le fait de fermer tous les magasins."
     }
    ],
-   "explication": "« bankrupt » = en faillite (une entreprise qui n'a plus d'argent et ferme). « successful » = qui réussit, « famous » = célèbre.",
+   "explication": "« bankrupt » = en faillite (une entreprise qui n'a plus d'argent et ferme). « successful » = qui réussit, « profitable » = rentable.",
    "relecture": null
   },
   {
