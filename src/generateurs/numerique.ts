@@ -84,12 +84,14 @@ function genererNumerique(ref: ItemRef): Item {
   const options = toutes.map((o) => formater(o.valeur, t.format));
   const bonneReponse = toutes.findIndex((o) => egal(o.valeur, t.solution));
 
-  const pieges = toutes
-    .filter((o) => o.piege && !egal(o.valeur, t.solution))
-    .map((o) => `${formater(o.valeur, t.format)} : ${o.piege}`);
-  const explication = pieges.length
-    ? `${t.explication} Pièges possibles : ${pieges.join(' ; ')}.`
-    : t.explication;
+  const bonne = formater(t.solution, t.format);
+  const pourquoi = toutes.map((o, i) => {
+    if (i === bonneReponse) return `Le calcul détaillé aboutit à ${bonne} : c'est la seule proposition qui vérifie l'énoncé.`;
+    const opt = options[i];
+    return o.piege
+      ? `${opt} vient d'une erreur classique : ${o.piege}. Le bon calcul donne ${bonne}.`
+      : `${opt} ne correspond à aucun calcul correct de l'énoncé : c'est une valeur proche de la bonne réponse, qui sert à brouiller. Le bon calcul donne ${bonne}.`;
+  });
 
   return {
     id: `numerique-v${ref.version}-d${ref.difficulte}-s${ref.seed}`,
@@ -98,7 +100,8 @@ function genererNumerique(ref: ItemRef): Item {
     stimulus: { type: 'texte', enonce: virguleFr(t.enonce) },
     options,
     bonneReponse,
-    explication: virguleFr(explication),
+    explication: virguleFr(t.explication),
+    pourquoi: pourquoi.map(virguleFr),
   };
 }
 

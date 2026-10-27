@@ -98,6 +98,30 @@ Aucun n'est faux à mon avis, mais un relecteur pourrait légitimement hésiter 
 - Le brief recommande une vérification croisée à l'aveugle (une autre passe qui résout les questions sans voir la clé) : elle n'a pas été faite.
 - Les formats des épreuves eux-mêmes (nombre de questions, durées, types) restent à valider auprès de candidats (voir `TODO-FORMATS.md`).
 
+## Passe 4 : chaque question est expliquée (octobre 2026)
+
+Objectif : apprendre de ses erreurs. Après chaque réponse (entraînement, bilan d'examen, révision), l'appli affiche :
+1. **pourquoi ta réponse est fausse** (propre à la proposition choisie) ;
+2. **pourquoi la bonne réponse est juste** ;
+3. **« À retenir »** : la règle ou le sens du mot ;
+4. **toutes les propositions** (✓ / ✗) avec une raison pour chacune.
+
+| Épreuve | Contenu des explications |
+| --- | --- |
+| Attention | la différence exacte entre les deux suites (lettres inversées, substituée, doublée, omise) |
+| Codage | à quel numéro / mot est réellement associée chaque proposition |
+| Quadrillages | quelle transformation (autre rotation, miroir, case inversée) représente chaque grille |
+| Cubes | défaut précis de chaque faux cube (miroir, face échangée, symbole tourné ou inversé, symbole caché) |
+| Suites de cubes | règle de la suite + nature de l'erreur de chaque faux cube |
+| Numérique | calcul détaillé + erreur classique derrière chaque mauvaise valeur |
+| Raisonnement | règle + erreur de chaque mauvaise suite / classement |
+| Verbal | sens du mot concerné pour chaque proposition, groupe de l'intrus, sens du proverbe, écart de graphie, règle de grammaire |
+| Anglais | phrase complète avec la proposition, règle enfreinte, sens français des mots de vocabulaire |
+
+Les empreintes « golden » ne portent plus que sur la question (énoncé, propositions, bonne réponse) : améliorer une explication ne change donc pas l'identifiant d'une question. Le test `src/documentation.test.ts` exige une explication non vide pour chaque proposition de chaque question générée.
+
+Le questionnaire de personnalité n'a volontairement ni bonne réponse ni explication.
+
 ## Comment relire à votre tour
 1. Ouvrez `src/data/verbal.json` ou `src/data/anglais.json`.
 2. Pour chaque item, vérifiez qu'**une seule** proposition est juste.

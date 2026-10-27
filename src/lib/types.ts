@@ -113,7 +113,13 @@ export interface Item {
   stimulus: Stimulus;
   options: string[];
   bonneReponse: number;
+  /** « À retenir » : la règle ou la méthode, en une ou deux phrases. */
   explication: string;
+  /**
+   * Pourquoi chaque proposition est juste ou fausse, dans le même ordre que `options`.
+   * `pourquoi[bonneReponse]` explique pourquoi la bonne réponse est bonne.
+   */
+  pourquoi: string[];
 }
 
 export interface Generateur {

@@ -204,6 +204,8 @@ function miroirVue(v: Vue3): Vue3 {
 interface Candidat {
   vue: Vue3;
   nature: string;
+  /** Phrase complète expliquant pourquoi cette proposition est fausse */
+  pourquoi: string;
   /** Plus c'est haut, plus le piège est subtil */
   finesse: number;
 }
@@ -211,24 +213,34 @@ interface Candidat {
 function faussesReponses(rng: Prng, regle: Regle, suite: Vue3[], bonne: Vue3): Candidat[] {
   const dernier = suite[suite.length - 1];
   const c: Candidat[] = [];
-  c.push({ vue: dernier, nature: 'le dernier cube répété : la règle n’a pas été appliquée', finesse: 1 });
-  c.push({ vue: regle.f(bonne), nature: 'la règle appliquée une fois de trop', finesse: 1 });
-  c.push({ vue: regle.inverse(dernier), nature: 'la règle appliquée dans le mauvais sens (retour en arrière)', finesse: 2 });
-  c.push({ vue: miroirVue(bonne), nature: 'le cube miroir de la bonne réponse', finesse: 3 });
+  c.push({ vue: dernier, nature: 'le dernier cube répété : la règle n’a pas été appliquée', pourquoi: 'C’est le dernier cube de la suite, recopié tel quel : la règle n’a pas été appliquée une fois de plus, donc rien ne change alors que la suite évolue à chaque étape.', finesse: 1 });
+  c.push({ vue: regle.f(bonne), nature: 'la règle appliquée une fois de trop', pourquoi: 'Ce cube est trop avancé : il correspond à la règle appliquée deux fois de suite au dernier cube. Il faut l’appliquer une seule fois.', finesse: 1 });
+  c.push({ vue: regle.inverse(dernier), nature: 'la règle appliquée dans le mauvais sens (retour en arrière)', pourquoi: 'La règle est appliquée à l’envers : ce cube fait revenir en arrière dans la suite au lieu de la prolonger (mauvais sens de rotation ou d’échange).', finesse: 2 });
+  c.push({ vue: miroirVue(bonne), nature: 'le cube miroir de la bonne réponse', pourquoi: 'C’est le cube miroir de la bonne réponse : les mêmes symboles aux mêmes places, mais chacun est inversé gauche-droite. La règle ne produit jamais d’effet miroir.', finesse: 3 });
   for (let i = 0; i < 3; i++) {
     for (const d of [1, 2, 3]) {
       const v = copie(bonne);
       v[i].k = (v[i].k + d) % 4;
-      c.push({ vue: v, nature: `la bonne réponse, mais le symbole de la face ${NOM_EMP[EMPLACEMENTS[i]]} est mal orienté`, finesse: 3 });
+      c.push({
+        vue: v,
+        nature: `la bonne réponse, mais le symbole de la face ${NOM_EMP[EMPLACEMENTS[i]]} est mal orienté`,
+        pourquoi: `Presque bon, mais le symbole de la face ${NOM_EMP[EMPLACEMENTS[i]]} n’a pas la bonne orientation : la règle l’aurait fait tourner autrement. Compare l’orientation des symboles un par un.`,
+        finesse: 3,
+      });
     }
     const v = copie(bonne);
     v[i].sym = (v[i].sym + rng.entier(1, NB_SYMBOLES - 1)) % NB_SYMBOLES;
-    c.push({ vue: v, nature: `la bonne réponse, mais le symbole de la face ${NOM_EMP[EMPLACEMENTS[i]]} est faux`, finesse: 2 });
+    c.push({
+      vue: v,
+      nature: `la bonne réponse, mais le symbole de la face ${NOM_EMP[EMPLACEMENTS[i]]} est faux`,
+      pourquoi: `Le symbole de la face ${NOM_EMP[EMPLACEMENTS[i]]} n’est pas le bon : la règle ne change jamais un symbole en un autre, elle ne fait que les tourner ou les déplacer.`,
+      finesse: 2,
+    });
   }
   const [i, j] = rng.melanger([0, 1, 2]);
   const v = copie(bonne);
   [v[i], v[j]] = [v[j], v[i]];
-  c.push({ vue: v, nature: 'la bonne réponse, avec deux symboles échangés', finesse: 3 });
+  c.push({ vue: v, nature: 'la bonne réponse, avec deux symboles échangés', pourquoi: 'Deux symboles sont intervertis par rapport à la bonne réponse : les bons symboles sont présents, mais pas aux bonnes faces.', finesse: 3 });
   return c;
 }
 
@@ -271,14 +283,9 @@ function genererSuite(ref: ItemRef): Item {
     }
     if (faux.length < nbChoix - 1) continue;
 
-    const props = rng.melanger([{ vue: bonne, nature: '' }, ...faux]);
+    const props = rng.melanger([{ vue: bonne, nature: '', pourquoi: '' }, ...faux]);
     const lettres = ['A', 'B', 'C', 'D', 'E', 'F'].slice(0, props.length);
     const idxBonne = props.findIndex((p) => p.nature === '');
-    const detail = props
-      .map((p, i) => (p.nature ? `${lettres[i]} : ${p.nature}` : null))
-      .filter(Boolean)
-      .join(' ; ');
-
     return {
       id: `logique-v${ref.version}-d${ref.difficulte}-s${ref.seed}`,
       ref,
@@ -286,7 +293,12 @@ function genererSuite(ref: ItemRef): Item {
       stimulus: { type: 'suite-cubes', suite: affiches, propositions: props.map((p) => p.vue) },
       options: lettres,
       bonneReponse: idxBonne,
-      explication: `La règle : ${regle.description}. Elle s’applique de la même façon à chaque étape. Les autres propositions : ${detail}.`,
+      explication: `La règle : ${regle.description}. Elle s’applique de la même façon à chaque étape : pour la trouver, compare deux cubes qui se suivent, face par face, et vérifie qu’elle marche aussi entre les suivants.`,
+      pourquoi: props.map((p) =>
+        p.nature
+          ? p.pourquoi
+          : `C’est le résultat de la règle (${regle.description}) appliquée une fois au dernier cube de la suite, comme entre les cubes précédents.`,
+      ),
     };
   }
   throw new Error(`Aucune suite valide trouvée pour la graine ${ref.seed}`);

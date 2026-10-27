@@ -67,7 +67,7 @@ Aucune variable d'environnement n'est nécessaire.
 
 ### Ajouter ou corriger des questions
 
-- **Banques JSON** : ajoute un objet dans `src/data/verbal.json` ou `anglais.json` (`bonne`, au moins 3 `fausses`, `explication`, `niveau` 1 à 3, `relecture: null`). Les tests vérifient le schéma et l'absence de doublon.
+- **Banques JSON** : ajoute un objet dans `src/data/verbal.json` ou `anglais.json` (`bonne` et `pourquoiBonne`, au moins 3 `fausses` de la forme `{ texte, raison }` où `raison` explique pourquoi la proposition est fausse, `explication` = « à retenir », `niveau` 1 à 3, `relecture: null`). Les tests vérifient le schéma, l'absence de doublon et que chaque proposition est expliquée.
 - **Relecture** : une fois un item relu par un humain, renseigne `"relecture": {"par": "pseudo", "date": "AAAA-MM-JJ"}`. Avec `seulementRelus: 1` dans `src/config/epreuves.ts`, l'appli ne propose plus que ces items.
 - **Chaque item anglais** doit contenir un marqueur qui impose une seule réponse (since, yesterday, already…).
 

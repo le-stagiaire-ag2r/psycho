@@ -152,11 +152,19 @@ function genererAttention(ref: ItemRef): Item {
   const identique = rng.chance(0.5);
 
   let b = base;
-  let explication = `Les deux suites sont strictement identiques (${base}). Compare toujours lettre par lettre, sans te fier à l'allure générale.`;
+  const explication = `Compare toujours lettre par lettre, de gauche à droite, sans te fier à l'allure générale : l'œil « complète » facilement une suite qui ressemble à l'autre.`;
+  let pourquoi = [
+    `Juste : les deux suites sont exactement les mêmes (${base}). Lettre par lettre, aucune ne change de place ni de forme.`,
+    `Faux : aucune différence n'existe, ${base} se retrouve à l'identique dans la seconde suite. Ne cherche pas un défaut qui n'est pas là.`,
+  ];
   if (!identique) {
     const p = perturber(base, rng, ref.difficulte);
     b = p.resultat;
-    explication = `Elles sont différentes : dans la seconde suite, ${p.description}. (${base} / ${b})`;
+    // Dans l'ordre des options : « Identiques » (fausse), puis « Différentes » (juste).
+    pourquoi = [
+      `Faux : dans la seconde suite, ${p.description}. (${base} / ${b}) Les suites se ressemblent, mais elles ne sont pas identiques.`,
+      `Juste : dans la seconde suite, ${p.description}. (${base} / ${b})`,
+    ];
   }
 
   return {
@@ -167,6 +175,7 @@ function genererAttention(ref: ItemRef): Item {
     options: ['Identiques', 'Différentes'],
     bonneReponse: identique ? 0 : 1,
     explication,
+    pourquoi,
   };
 }
 

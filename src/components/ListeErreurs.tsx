@@ -1,4 +1,5 @@
 import type { EtatSeance } from '../lib/session';
+import Correction from './Correction';
 import { lienSignalement } from '../lib/signalement';
 
 /** Correction détaillée des questions ratées (avec lien de signalement). */
@@ -13,7 +14,7 @@ export default function ListeErreurs({ etat }: { etat: EtatSeance }) {
         <ul className="liste-erreurs">
           {erreurs.map((i) => {
             const item = etat.items[i];
-            const choix = etat.reponses[i] as number;
+            const choix = etat.reponses[i];
             const s = item.stimulus;
             return (
               <li key={item.id}>
@@ -26,11 +27,7 @@ export default function ListeErreurs({ etat }: { etat: EtatSeance }) {
                       </code>
                     )}
                   </summary>
-                  <p>
-                    Ta réponse : <strong>{item.options[choix]}</strong> · bonne réponse :{' '}
-                    <strong>{item.options[item.bonneReponse]}</strong>
-                  </p>
-                  <p>{item.explication}</p>
+                  <Correction item={item} choix={choix} />
                   <a href={lienSignalement(item)} target="_blank" rel="noopener noreferrer">
                     Signaler une erreur dans cette question
                   </a>

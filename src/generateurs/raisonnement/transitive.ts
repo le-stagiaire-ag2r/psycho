@@ -58,6 +58,10 @@ export interface Transitive {
   /** Noms apparaissant dans l'énoncé */
   personnes: string[];
   reponse: string;
+  /** Classement complet, du plus haut au plus bas */
+  classement: string[];
+  /** Adjectifs de la relation (« grand » / « petit ») */
+  relation: Relation;
   /** Pièges : noms plausibles mais faux */
   explication: string;
 }
@@ -97,6 +101,8 @@ export function genererTransitive(rng: Prng, diff: Difficulte): Transitive {
       enonce: `${phrases.join(' ')} ${question}`,
       personnes,
       reponse,
+      classement,
+      relation: rel,
       explication: `${detail} Attention au sens des comparaisons : « plus ${rel.bas} » inverse l'ordre de « plus ${rel.haut} ».`,
     };
   }

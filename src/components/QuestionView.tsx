@@ -1,6 +1,7 @@
 import type { Item } from '../lib/types';
 import CubeSvg, { PatronSvg } from './CubeSvg';
 import GrilleSvg from './GrilleSvg';
+import Correction from './Correction';
 
 interface Props {
   item: Item;
@@ -123,12 +124,7 @@ export default function QuestionView({ item, choix, onChoisir }: Props) {
           );
         })}
       </div>
-      {corrige && (
-        <p className={`correction ${choix === item.bonneReponse ? 'correction-ok' : 'correction-ko'}`} role="status">
-          <strong>{choix === item.bonneReponse ? 'Bonne réponse. ' : 'Raté. '}</strong>
-          {item.explication}
-        </p>
-      )}
+      {corrige && <Correction item={item} choix={choix} />}
     </div>
   );
 }

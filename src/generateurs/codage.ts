@@ -149,10 +149,16 @@ function genererCodage(ref: ItemRef): Item {
       ? `Quel mot correspond au numéro ${cible.numero} ?`
       : `Quel numéro correspond au mot « ${cible.mot} » ?`;
 
-  const pieges = idxDistracteurs
-    .map((i) => `${tableau[i].mot} (n° ${tableau[i].numero})`)
-    .join(', ');
-  const explication = `Dans le tableau, « ${cible.mot} » est associé au n° ${cible.numero}. Les autres propositions sont des couples voisins du tableau, faciles à confondre : ${pieges}.`;
+  const explication = `Repère la ligne du tableau qui contient la donnée demandée, puis lis l'autre ligne dans la même colonne. Les propositions fausses sont des couples voisins du tableau : vérifie toujours la colonne, pas seulement la proximité.`;
+  const pourquoi = idxOptions.map((i) => {
+    const e = tableau[i];
+    if (i === iCible) {
+      return `Dans le tableau, « ${cible.mot} » est associé au n° ${cible.numero} : c'est la bonne colonne.`;
+    }
+    return sens === 'numero-vers-mot'
+      ? `« ${e.mot} » est associé au n° ${e.numero}, pas au n° ${cible.numero}. C'est le mot d'une autre colonne.`
+      : `Le n° ${e.numero} est celui de « ${e.mot} », pas de « ${cible.mot} » (n° ${cible.numero}).`;
+  });
 
   const suffixe = params.tableSeed !== undefined ? `-t${tableSeed}` : '';
   return {
@@ -163,6 +169,7 @@ function genererCodage(ref: ItemRef): Item {
     options,
     bonneReponse,
     explication,
+    pourquoi,
   };
 }
 

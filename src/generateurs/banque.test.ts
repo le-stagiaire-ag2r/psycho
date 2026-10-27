@@ -28,7 +28,7 @@ describe.each(CAS)('banque %s', (nom, gen) => {
 
       // Au moins 3 fausses réponses, toutes différentes de la bonne et entre elles.
       expect(it.fausses.length).toBeGreaterThanOrEqual(3);
-      const toutes = [it.bonne, ...it.fausses].map((x) => x.trim().toLowerCase());
+      const toutes = [it.bonne, ...it.fausses.map((f) => f.texte)].map((x) => x.trim().toLowerCase());
       expect(new Set(toutes).size).toBe(toutes.length);
       for (const o of toutes) expect(o.length).toBeGreaterThan(0);
 
@@ -55,7 +55,7 @@ describe.each(CAS)('banque %s', (nom, gen) => {
       const brut = items.find((x) => x.id === ref.params!.item)!;
       expect(q.options[q.bonneReponse]).toBe(brut.bonne);
       // Les fausses réponses affichées viennent bien de l'item.
-      for (const o of q.options) expect([brut.bonne, ...brut.fausses]).toContain(o);
+      for (const o of q.options) expect([brut.bonne, ...brut.fausses.map((f) => f.texte)]).toContain(o);
     }
   });
 
@@ -91,7 +91,7 @@ describe.each(CAS)('banque %s', (nom, gen) => {
 describe('contrôles de qualité propres à l’anglais', () => {
   it('la bonne réponse ne figure jamais deux fois dans les propositions (insensible à la casse)', () => {
     for (const it of BANQUES.anglais!) {
-      const bas = it.fausses.map((x) => x.toLowerCase());
+      const bas = it.fausses.map((x) => x.texte.toLowerCase());
       expect(bas).not.toContain(it.bonne.toLowerCase());
     }
   });

@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "epreuve": "anglais",
  "items": [
   {
@@ -8,10 +8,20 @@
    "niveau": 1,
    "enonce": "She ___ to school every day.",
    "bonne": "goes",
+   "pourquoiBonne": "« She goes to school every day. » est correct. « every day » : habitude, donc présent simple à la 3e personne : goes.",
    "fausses": [
-    "go",
-    "going",
-    "are going"
+    {
+     "texte": "go",
+     "raison": "« She go to school every day. » ne convient pas : avec « she » (3e personne du singulier), le verbe prend un « -s » au présent simple : « goes »."
+    },
+    {
+     "texte": "going",
+     "raison": "« She going to school every day. » ne convient pas : « going » seul n'est pas un verbe conjugué : il lui manquerait « is »."
+    },
+    {
+     "texte": "are going",
+     "raison": "« She are going to school every day. » ne convient pas : « are » va avec you / we / they, pas avec « she » ; de plus « every day » exprime une habitude, donc le présent simple."
+    }
    ],
    "explication": "« every day » : habitude, donc présent simple à la 3e personne : goes.",
    "relecture": null
@@ -22,10 +32,20 @@
    "niveau": 1,
    "enonce": "Look! The children ___ in the garden right now.",
    "bonne": "are playing",
+   "pourquoiBonne": "« Look! The children are playing in the garden right now. » est correct. « Look! » et « right now » : action en cours, présent continu.",
    "fausses": [
-    "play",
-    "played",
-    "plays"
+    {
+     "texte": "play",
+     "raison": "« Look! The children play in the garden right now. » ne convient pas : le présent simple exprime une habitude ; « Look! » et « right now » demandent une action en cours (présent continu)."
+    },
+    {
+     "texte": "played",
+     "raison": "« Look! The children played in the garden right now. » ne convient pas : c'est un temps du passé, incompatible avec « right now »."
+    },
+    {
+     "texte": "plays",
+     "raison": "« Look! The children plays in the garden right now. » ne convient pas : c'est le présent simple (habitude), et le « -s » ne va pas avec le pluriel « the children »."
+    }
    ],
    "explication": "« Look! » et « right now » : action en cours, présent continu.",
    "relecture": null
@@ -36,10 +56,20 @@
    "niveau": 1,
    "enonce": "He ___ TV every evening.",
    "bonne": "watches",
+   "pourquoiBonne": "« He watches TV every evening. » est correct. « every evening » : habitude, présent simple à la 3e personne : watches.",
    "fausses": [
-    "watch",
-    "watching",
-    "is watch"
+    {
+     "texte": "watch",
+     "raison": "« He watch TV every evening. » ne convient pas : à la 3e personne du singulier (« he »), le présent simple prend « -es » : « watches »."
+    },
+    {
+     "texte": "watching",
+     "raison": "« He watching TV every evening. » ne convient pas : « watching » seul n'est pas un verbe conjugué : il lui manquerait « is »."
+    },
+    {
+     "texte": "is watch",
+     "raison": "« He is watch TV every evening. » ne convient pas : après « is », le verbe doit être en « -ing » (« is watching »), pas à la forme de base."
+    }
    ],
    "explication": "« every evening » : habitude, présent simple à la 3e personne : watches.",
    "relecture": null
@@ -50,10 +80,20 @@
    "niveau": 1,
    "enonce": "She doesn't ___ coffee.",
    "bonne": "like",
+   "pourquoiBonne": "« She doesn't like coffee. » est correct. Après « doesn't », le verbe est à l'infinitif sans « to » : like.",
    "fausses": [
-    "likes",
-    "liking",
-    "liked"
+    {
+     "texte": "likes",
+     "raison": "« She doesn't likes coffee. » ne convient pas : après « doesn't », le verbe reste à la forme de base : le « -s » est déjà porté par « does »."
+    },
+    {
+     "texte": "liking",
+     "raison": "« She doesn't liking coffee. » ne convient pas : après « doesn't », on met la forme de base, jamais le « -ing »."
+    },
+    {
+     "texte": "liked",
+     "raison": "« She doesn't liked coffee. » ne convient pas : après « doesn't », on met la forme de base, jamais le passé."
+    }
    ],
    "explication": "Après « doesn't », le verbe est à l'infinitif sans « to » : like.",
    "relecture": null
@@ -64,10 +104,20 @@
    "niveau": 1,
    "enonce": "Do you ___ a car?",
    "bonne": "have",
+   "pourquoiBonne": "« Do you have a car? » est correct. Après « do you », infinitif sans « to » : have.",
    "fausses": [
-    "has",
-    "having",
-    "had"
+    {
+     "texte": "has",
+     "raison": "« Do you has a car? » ne convient pas : après « do », le verbe reste à la forme de base ; « has » est la forme de « he / she / it »."
+    },
+    {
+     "texte": "having",
+     "raison": "« Do you having a car? » ne convient pas : après « do », on met la forme de base, jamais le « -ing »."
+    },
+    {
+     "texte": "had",
+     "raison": "« Do you had a car? » ne convient pas : après « do », on met la forme de base ; le passé « had » n'est pas possible."
+    }
    ],
    "explication": "Après « do you », infinitif sans « to » : have.",
    "relecture": null
@@ -78,10 +128,20 @@
    "niveau": 1,
    "enonce": "There ___ a lot of people in the street now.",
    "bonne": "are",
+   "pourquoiBonne": "« There are a lot of people in the street now. » est correct. « a lot of people » est pluriel ; « now » indique le présent : there are.",
    "fausses": [
-    "be",
-    "was",
-    "were"
+    {
+     "texte": "be",
+     "raison": "« There be a lot of people in the street now. » ne convient pas : « be » est un infinitif : il faut ici une forme conjuguée."
+    },
+    {
+     "texte": "was",
+     "raison": "« There was a lot of people in the street now. » ne convient pas : « was » est au passé et au singulier, alors que « now » indique le présent et que « people » est pluriel."
+    },
+    {
+     "texte": "were",
+     "raison": "« There were a lot of people in the street now. » ne convient pas : « were » est un temps du passé, alors que « now » indique le présent."
+    }
    ],
    "explication": "« a lot of people » est pluriel ; « now » indique le présent : there are.",
    "relecture": null
@@ -92,12 +152,22 @@
    "niveau": 1,
    "enonce": "I ___ going to the cinema tonight.",
    "bonne": "am",
+   "pourquoiBonne": "« I am going to the cinema tonight. » est correct. Le verbe « be » se conjugue : I am, you are, he/she/it is. « I am going to » exprime une intention proche (« je vais … »).",
    "fausses": [
-    "is",
-    "are",
-    "be"
+    {
+     "texte": "is",
+     "raison": "« I is going to the cinema tonight. » ne convient pas : « is » s'emploie avec he / she / it ; avec « I », on dit « I am »."
+    },
+    {
+     "texte": "are",
+     "raison": "« I are going to the cinema tonight. » ne convient pas : « are » s'emploie avec you / we / they ; avec « I », on dit « I am »."
+    },
+    {
+     "texte": "be",
+     "raison": "« I be going to the cinema tonight. » ne convient pas : « be » est un infinitif : il faut une forme conjuguée (« I am going to »)."
+    }
    ],
-   "explication": "Avec « I » : I am going to.",
+   "explication": "Le verbe « be » se conjugue : I am, you are, he/she/it is. « I am going to » exprime une intention proche (« je vais … »).",
    "relecture": null
   },
   {
@@ -106,10 +176,20 @@
    "niveau": 1,
    "enonce": "My sister ___ a teacher.",
    "bonne": "is",
+   "pourquoiBonne": "« My sister is a teacher. » est correct. Sujet à la 3e personne du singulier : is.",
    "fausses": [
-    "are",
-    "am",
-    "be"
+    {
+     "texte": "are",
+     "raison": "« My sister are a teacher. » ne convient pas : « are » s'emploie avec you / we / they, alors que « my sister » est singulier (3e personne)."
+    },
+    {
+     "texte": "am",
+     "raison": "« My sister am a teacher. » ne convient pas : « am » ne s'emploie qu'avec « I »."
+    },
+    {
+     "texte": "be",
+     "raison": "« My sister be a teacher. » ne convient pas : « be » est un infinitif : il faut une forme conjuguée (« is »)."
+    }
    ],
    "explication": "Sujet à la 3e personne du singulier : is.",
    "relecture": null
@@ -120,10 +200,20 @@
    "niveau": 1,
    "enonce": "Where ___ you live now?",
    "bonne": "do",
+   "pourquoiBonne": "« Where do you live now? » est correct. « now » : présent simple, question avec « you » : do you live ?",
    "fausses": [
-    "does",
-    "are",
-    "did"
+    {
+     "texte": "does",
+     "raison": "« Where does you live now? » ne convient pas : « does » s'emploie avec he / she / it ; avec « you », on utilise « do »."
+    },
+    {
+     "texte": "are",
+     "raison": "« Where are you live now? » ne convient pas : « are » demanderait un verbe en « -ing » (« are you living ») ; avec le verbe à la forme de base « live », on utilise « do »."
+    },
+    {
+     "texte": "did",
+     "raison": "« Where did you live now? » ne convient pas : « did » est au passé, alors que « now » indique le présent."
+    }
    ],
    "explication": "« now » : présent simple, question avec « you » : do you live ?",
    "relecture": null
@@ -134,10 +224,20 @@
    "niveau": 2,
    "enonce": "Be quiet! The baby ___ right now.",
    "bonne": "is sleeping",
+   "pourquoiBonne": "« Be quiet! The baby is sleeping right now. » est correct. « right now » : action en cours, présent continu.",
    "fausses": [
-    "sleeps",
-    "slept",
-    "has slept"
+    {
+     "texte": "sleeps",
+     "raison": "« Be quiet! The baby sleeps right now. » ne convient pas : le présent simple exprime une habitude ; « right now » demande l'action en cours (présent continu)."
+    },
+    {
+     "texte": "slept",
+     "raison": "« Be quiet! The baby slept right now. » ne convient pas : c'est le passé, alors que l'action se passe maintenant (« right now »)."
+    },
+    {
+     "texte": "has slept",
+     "raison": "« Be quiet! The baby has slept right now. » ne convient pas : le present perfect fait un bilan sur le passé ; ici le bébé est en train de dormir maintenant."
+    }
    ],
    "explication": "« right now » : action en cours, présent continu.",
    "relecture": null
@@ -148,10 +248,20 @@
    "niveau": 1,
    "enonce": "I ___ my homework yesterday.",
    "bonne": "did",
+   "pourquoiBonne": "« I did my homework yesterday. » est correct. « yesterday » : passé simple de do : did.",
    "fausses": [
-    "do",
-    "done",
-    "am doing"
+    {
+     "texte": "do",
+     "raison": "« I do my homework yesterday. » ne convient pas : « do » est au présent, alors que « yesterday » situe l'action dans le passé."
+    },
+    {
+     "texte": "done",
+     "raison": "« I done my homework yesterday. » ne convient pas : « done » est un participe passé : il lui faudrait « have » pour former un temps (« have done »)."
+    },
+    {
+     "texte": "am doing",
+     "raison": "« I am doing my homework yesterday. » ne convient pas : c'est le présent continu, incompatible avec « yesterday »."
+    }
    ],
    "explication": "« yesterday » : passé simple de do : did.",
    "relecture": null
@@ -162,10 +272,20 @@
    "niveau": 1,
    "enonce": "We ___ to Spain last summer.",
    "bonne": "went",
+   "pourquoiBonne": "« We went to Spain last summer. » est correct. « last summer » : passé simple de go : went.",
    "fausses": [
-    "go",
-    "have gone",
-    "gone"
+    {
+     "texte": "go",
+     "raison": "« We go to Spain last summer. » ne convient pas : « go » est au présent, alors que « last summer » situe l'action dans le passé."
+    },
+    {
+     "texte": "have gone",
+     "raison": "« We have gone to Spain last summer. » ne convient pas : le present perfect ne s'emploie pas avec une date précise comme « last summer » : on utilise le passé simple « went »."
+    },
+    {
+     "texte": "gone",
+     "raison": "« We gone to Spain last summer. » ne convient pas : « gone » est un participe passé : il lui faudrait « have » pour former un temps."
+    }
    ],
    "explication": "« last summer » : passé simple de go : went.",
    "relecture": null
@@ -176,10 +296,20 @@
    "niveau": 1,
    "enonce": "They ___ a new car last week.",
    "bonne": "bought",
+   "pourquoiBonne": "« They bought a new car last week. » est correct. « last week » : passé simple irrégulier de buy : bought.",
    "fausses": [
-    "buyed",
-    "have bought",
-    "buy"
+    {
+     "texte": "buyed",
+     "raison": "« They buyed a new car last week. » ne convient pas : « buy » est irrégulier : son passé est « bought », la forme « buyed » n'existe pas."
+    },
+    {
+     "texte": "have bought",
+     "raison": "« They have bought a new car last week. » ne convient pas : le present perfect ne s'emploie pas avec une date précise comme « last week » : on utilise le passé simple « bought »."
+    },
+    {
+     "texte": "buy",
+     "raison": "« They buy a new car last week. » ne convient pas : « buy » est au présent, alors que « last week » situe l'action dans le passé."
+    }
    ],
    "explication": "« last week » : passé simple irrégulier de buy : bought.",
    "relecture": null
@@ -190,10 +320,20 @@
    "niveau": 2,
    "enonce": "Yesterday at 7 pm, he ___ dinner in the kitchen.",
    "bonne": "was cooking",
+   "pourquoiBonne": "« Yesterday at 7 pm, he was cooking dinner in the kitchen. » est correct. « Yesterday at 7 pm » : action en cours à un moment précis du passé, donc passé continu.",
    "fausses": [
-    "cooks",
-    "has cooked",
-    "cooking"
+    {
+     "texte": "cooks",
+     "raison": "« Yesterday at 7 pm, he cooks dinner in the kitchen. » ne convient pas : « cooks » est au présent, alors que « Yesterday » situe l'action dans le passé."
+    },
+    {
+     "texte": "has cooked",
+     "raison": "« Yesterday at 7 pm, he has cooked dinner in the kitchen. » ne convient pas : le present perfect ne s'emploie pas avec « yesterday » ; de plus, l'action était en cours à 7 h précises."
+    },
+    {
+     "texte": "cooking",
+     "raison": "« Yesterday at 7 pm, he cooking dinner in the kitchen. » ne convient pas : « cooking » seul n'est pas un verbe conjugué : il lui manque « was »."
+    }
    ],
    "explication": "« Yesterday at 7 pm » : action en cours à un moment précis du passé, donc passé continu.",
    "relecture": null
@@ -204,10 +344,20 @@
    "niveau": 1,
    "enonce": "She ___ born in Paris.",
    "bonne": "was",
+   "pourquoiBonne": "« She was born in Paris. » est correct. Naissance : on emploie le passé simple de be : was born.",
    "fausses": [
-    "is",
-    "were",
-    "has been"
+    {
+     "texte": "is",
+     "raison": "« She is born in Paris. » ne convient pas : « is » est au présent, alors que la naissance est un fait passé : on dit « was born »."
+    },
+    {
+     "texte": "were",
+     "raison": "« She were born in Paris. » ne convient pas : « were » s'emploie avec you / we / they ; avec « she », on dit « was »."
+    },
+    {
+     "texte": "has been",
+     "raison": "« She has been born in Paris. » ne convient pas : « has been born » ne s'emploie pas : la naissance se dit toujours « was born »."
+    }
    ],
    "explication": "Naissance : on emploie le passé simple de be : was born.",
    "relecture": null
@@ -218,10 +368,20 @@
    "niveau": 2,
    "enonce": "At nine o'clock last night, she ___ a book.",
    "bonne": "was reading",
+   "pourquoiBonne": "« At nine o'clock last night, she was reading a book. » est correct. « At nine o'clock last night » : action en cours à un moment précis du passé, donc passé continu.",
    "fausses": [
-    "reads",
-    "has read",
-    "is reading"
+    {
+     "texte": "reads",
+     "raison": "« At nine o'clock last night, she reads a book. » ne convient pas : « reads » est au présent, alors que « last night » situe l'action dans le passé."
+    },
+    {
+     "texte": "has read",
+     "raison": "« At nine o'clock last night, she has read a book. » ne convient pas : le present perfect ne s'emploie pas avec un moment précis du passé (« at nine o'clock last night »)."
+    },
+    {
+     "texte": "is reading",
+     "raison": "« At nine o'clock last night, she is reading a book. » ne convient pas : c'est le présent continu, alors que l'action se passait hier soir."
+    }
    ],
    "explication": "« At nine o'clock last night » : action en cours à un moment précis du passé, donc passé continu.",
    "relecture": null
@@ -232,12 +392,22 @@
    "niveau": 2,
    "enonce": "When I was young, I ___ play football every day.",
    "bonne": "used to",
+   "pourquoiBonne": "« When I was young, I used to play football every day. » est correct. « used to + infinitif » exprime une habitude du passé qui n'existe plus : « I used to play football » = « je jouais (régulièrement) au football ». À ne pas confondre avec « be used to + -ing » (être habitué à).",
    "fausses": [
-    "use to",
-    "am used to",
-    "was use to"
+    {
+     "texte": "use to",
+     "raison": "« When I was young, I use to play football every day. » ne convient pas : à l'affirmatif, on écrit « used to » avec un « d » ; « use to » ne s'emploie qu'après « did / didn't »."
+    },
+    {
+     "texte": "am used to",
+     "raison": "« When I was young, I am used to play football every day. » ne convient pas : « am used to » veut dire « être habitué à » et se construit avec un verbe en « -ing » : on ne peut pas le faire suivre de « play »."
+    },
+    {
+     "texte": "was use to",
+     "raison": "« When I was young, I was use to play football every day. » ne convient pas : cette forme n'existe pas en anglais."
+    }
    ],
-   "explication": "Habitude passée : used to + infinitif.",
+   "explication": "« used to + infinitif » exprime une habitude du passé qui n'existe plus : « I used to play football » = « je jouais (régulièrement) au football ». À ne pas confondre avec « be used to + -ing » (être habitué à).",
    "relecture": null
   },
   {
@@ -246,10 +416,20 @@
    "niveau": 1,
    "enonce": "Last night, I ___ a strange noise.",
    "bonne": "heard",
+   "pourquoiBonne": "« Last night, I heard a strange noise. » est correct. « Last night » : passé simple irrégulier de hear : heard.",
    "fausses": [
-    "hear",
-    "hearded",
-    "have heard"
+    {
+     "texte": "hear",
+     "raison": "« Last night, I hear a strange noise. » ne convient pas : « hear » est au présent, alors que « last night » situe l'action dans le passé."
+    },
+    {
+     "texte": "hearded",
+     "raison": "« Last night, I hearded a strange noise. » ne convient pas : « hear » est irrégulier : son passé est « heard », la forme « hearded » n'existe pas."
+    },
+    {
+     "texte": "have heard",
+     "raison": "« Last night, I have heard a strange noise. » ne convient pas : le present perfect ne s'emploie pas avec un moment précis du passé comme « last night »."
+    }
    ],
    "explication": "« Last night » : passé simple irrégulier de hear : heard.",
    "relecture": null
@@ -260,12 +440,22 @@
    "niveau": 2,
    "enonce": "She ___ the door and went out.",
    "bonne": "opened",
+   "pourquoiBonne": "« She opened the door and went out. » est correct. Quand on raconte des actions qui s'enchaînent dans le passé (« opened … went out »), tous les verbes sont au passé simple.",
    "fausses": [
-    "opens",
-    "opening",
-    "has opened"
+    {
+     "texte": "opens",
+     "raison": "« She opens the door and went out. » ne convient pas : « opens » est au présent, alors que « went out » est au passé : les actions s'enchaînent au passé."
+    },
+    {
+     "texte": "opening",
+     "raison": "« She opening the door and went out. » ne convient pas : « opening » seul n'est pas un verbe conjugué."
+    },
+    {
+     "texte": "has opened",
+     "raison": "« She has opened the door and went out. » ne convient pas : le present perfect ne se mélange pas avec le passé simple « went » : la suite d'actions est au passé simple."
+    }
    ],
-   "explication": "Suite d'actions passées : passé simple.",
+   "explication": "Quand on raconte des actions qui s'enchaînent dans le passé (« opened … went out »), tous les verbes sont au passé simple.",
    "relecture": null
   },
   {
@@ -274,12 +464,22 @@
    "niveau": 2,
    "enonce": "They ___ in London since 2010.",
    "bonne": "have lived",
+   "pourquoiBonne": "« They have lived in London since 2010. » est correct. « since + date » : une action commencée dans le passé et toujours vraie maintenant se met au present perfect (have / has + participe passé) : « They have lived in London since 2010 ».",
    "fausses": [
-    "live",
-    "lived",
-    "are living"
+    {
+     "texte": "live",
+     "raison": "« They live in London since 2010. » ne convient pas : le présent simple ne s'emploie pas avec « since 2010 » : une action commencée dans le passé et toujours vraie demande le present perfect."
+    },
+    {
+     "texte": "lived",
+     "raison": "« They lived in London since 2010. » ne convient pas : le passé simple décrit une action terminée ; avec « since », l'action dure jusqu'à maintenant, donc present perfect."
+    },
+    {
+     "texte": "are living",
+     "raison": "« They are living in London since 2010. » ne convient pas : le présent continu ne s'emploie pas avec « since » : on utilise le present perfect."
+    }
    ],
-   "explication": "« since 2010 » : present perfect.",
+   "explication": "« since + date » : une action commencée dans le passé et toujours vraie maintenant se met au present perfect (have / has + participe passé) : « They have lived in London since 2010 ».",
    "relecture": null
   },
   {
@@ -288,10 +488,20 @@
    "niveau": 1,
    "enonce": "I have never ___ sushi.",
    "bonne": "eaten",
+   "pourquoiBonne": "« I have never eaten sushi. » est correct. Present perfect : have + participe passé (eaten).",
    "fausses": [
-    "ate",
-    "eat",
-    "eating"
+    {
+     "texte": "ate",
+     "raison": "« I have never ate sushi. » ne convient pas : « ate » est le passé simple ; après « have », on met le participe passé « eaten »."
+    },
+    {
+     "texte": "eat",
+     "raison": "« I have never eat sushi. » ne convient pas : « eat » est la forme de base ; après « have », on met le participe passé « eaten »."
+    },
+    {
+     "texte": "eating",
+     "raison": "« I have never eating sushi. » ne convient pas : « eating » est un participe présent ; après « have », on met le participe passé « eaten »."
+    }
    ],
    "explication": "Present perfect : have + participe passé (eaten).",
    "relecture": null
@@ -302,12 +512,22 @@
    "niveau": 1,
    "enonce": "She has been here ___ two hours.",
    "bonne": "for",
+   "pourquoiBonne": "« She has been here for two hours. » est correct. « for » + durée (for two hours, for three days) ; « since » + point de départ (since Monday, since 2010).",
    "fausses": [
-    "since",
-    "during",
-    "ago"
+    {
+     "texte": "since",
+     "raison": "« She has been here since two hours. » ne convient pas : « since » introduit un point de départ (une date, un jour) ; « two hours » est une durée, donc « for »."
+    },
+    {
+     "texte": "during",
+     "raison": "« She has been here during two hours. » ne convient pas : « during » introduit une période ou un événement (« during the film »), pas une durée chiffrée."
+    },
+    {
+     "texte": "ago",
+     "raison": "« She has been here ago two hours. » ne convient pas : « ago » s'emploie avec le passé simple (« two hours ago ») et jamais avec le present perfect."
+    }
    ],
-   "explication": "« for » + durée.",
+   "explication": "« for » + durée (for two hours, for three days) ; « since » + point de départ (since Monday, since 2010).",
    "relecture": null
   },
   {
@@ -316,10 +536,20 @@
    "niveau": 1,
    "enonce": "I have known him ___ 2015.",
    "bonne": "since",
+   "pourquoiBonne": "« I have known him since 2015. » est correct. « since » + point de départ dans le temps.",
    "fausses": [
-    "for",
-    "ago",
-    "during"
+    {
+     "texte": "for",
+     "raison": "« I have known him for 2015. » ne convient pas : « for » introduit une durée (« for ten years ») ; « 2015 » est une date de départ, donc « since »."
+    },
+    {
+     "texte": "ago",
+     "raison": "« I have known him ago 2015. » ne convient pas : « ago » s'emploie avec le passé simple et se place après une durée, pas devant une date."
+    },
+    {
+     "texte": "during",
+     "raison": "« I have known him during 2015. » ne convient pas : « during » introduit un événement ou une période, pas une date de départ."
+    }
    ],
    "explication": "« since » + point de départ dans le temps.",
    "relecture": null
@@ -330,10 +560,20 @@
    "niveau": 1,
    "enonce": "He left the house two hours ___.",
    "bonne": "ago",
+   "pourquoiBonne": "« He left the house two hours ago. » est correct. « ago » se place après une durée, avec le passé simple.",
    "fausses": [
-    "before",
-    "since",
-    "for"
+    {
+     "texte": "before",
+     "raison": "« He left the house two hours before. » ne convient pas : « before » demande un repère (« before noon ») ; pour une durée écoulée depuis un moment, on dit « ago »."
+    },
+    {
+     "texte": "since",
+     "raison": "« He left the house two hours since. » ne convient pas : « since » s'emploie avec le present perfect et un point de départ, pas avec le passé simple « left »."
+    },
+    {
+     "texte": "for",
+     "raison": "« He left the house two hours for. » ne convient pas : « for » s'emploie avec le present perfect ; avec le passé simple « left », on utilise « ago »."
+    }
    ],
    "explication": "« ago » se place après une durée, avec le passé simple.",
    "relecture": null
@@ -344,12 +584,22 @@
    "niveau": 1,
    "enonce": "I haven't seen him ___ Monday.",
    "bonne": "since",
+   "pourquoiBonne": "« I haven't seen him since Monday. » est correct. « since » + point de départ (since Monday, since 2015) ; « for » + durée (for two weeks). Ici « Monday » est un point de départ.",
    "fausses": [
-    "for",
-    "ago",
-    "during"
+    {
+     "texte": "for",
+     "raison": "« I haven't seen him for Monday. » ne convient pas : « for » introduit une durée (« for two weeks ») ; « Monday » est un point de départ, donc « since »."
+    },
+    {
+     "texte": "ago",
+     "raison": "« I haven't seen him ago Monday. » ne convient pas : « ago » s'emploie avec le passé simple et se place après une durée, pas devant un jour."
+    },
+    {
+     "texte": "during",
+     "raison": "« I haven't seen him during Monday. » ne convient pas : « during » introduit une période ou un événement, pas un point de départ."
+    }
    ],
-   "explication": "« since » + point de départ (Monday).",
+   "explication": "« since » + point de départ (since Monday, since 2015) ; « for » + durée (for two weeks). Ici « Monday » est un point de départ.",
    "relecture": null
   },
   {
@@ -358,10 +608,20 @@
    "niveau": 1,
    "enonce": "I have ___ the letter already.",
    "bonne": "written",
+   "pourquoiBonne": "« I have written the letter already. » est correct. have + participe passé irrégulier : written.",
    "fausses": [
-    "wrote",
-    "write",
-    "writing"
+    {
+     "texte": "wrote",
+     "raison": "« I have wrote the letter already. » ne convient pas : « wrote » est le passé simple ; après « have », on met le participe passé « written »."
+    },
+    {
+     "texte": "write",
+     "raison": "« I have write the letter already. » ne convient pas : « write » est la forme de base ; après « have », on met le participe passé « written »."
+    },
+    {
+     "texte": "writing",
+     "raison": "« I have writing the letter already. » ne convient pas : « writing » est un participe présent ; après « have », on met le participe passé « written »."
+    }
    ],
    "explication": "have + participe passé irrégulier : written.",
    "relecture": null
@@ -372,12 +632,22 @@
    "niveau": 1,
    "enonce": "She has already ___ the dishes.",
    "bonne": "washed",
+   "pourquoiBonne": "« She has already washed the dishes. » est correct. Le present perfect se forme avec have / has + participe passé. Les verbes réguliers prennent « -ed » : wash → washed. « already » se place entre l'auxiliaire et le participe.",
    "fausses": [
-    "wash",
-    "washing",
-    "washes"
+    {
+     "texte": "wash",
+     "raison": "« She has already wash the dishes. » ne convient pas : après « has », on met un participe passé (« washed »), pas la forme de base."
+    },
+    {
+     "texte": "washing",
+     "raison": "« She has already washing the dishes. » ne convient pas : « washing » est un participe présent ; après « has », on met un participe passé."
+    },
+    {
+     "texte": "washes",
+     "raison": "« She has already washes the dishes. » ne convient pas : « washes » est une forme du présent ; après « has », on met un participe passé."
+    }
    ],
-   "explication": "has + participe passé : washed.",
+   "explication": "Le present perfect se forme avec have / has + participe passé. Les verbes réguliers prennent « -ed » : wash → washed. « already » se place entre l'auxiliaire et le participe.",
    "relecture": null
   },
   {
@@ -386,10 +656,20 @@
    "niveau": 2,
    "enonce": "He has ___ to Paris twice.",
    "bonne": "been",
+   "pourquoiBonne": "« He has been to Paris twice. » est correct. Present perfect de be (expérience) : has been to.",
    "fausses": [
-    "was",
-    "going",
-    "went"
+    {
+     "texte": "was",
+     "raison": "« He has was to Paris twice. » ne convient pas : « was » est un passé simple ; après « has », on met le participe passé de « be » : « been »."
+    },
+    {
+     "texte": "going",
+     "raison": "« He has going to Paris twice. » ne convient pas : « going » est un participe présent ; l'expérience « twice » demande le participe passé « been »."
+    },
+    {
+     "texte": "went",
+     "raison": "« He has went to Paris twice. » ne convient pas : « went » est un passé simple ; après « has », on met un participe passé."
+    }
    ],
    "explication": "Present perfect de be (expérience) : has been to.",
    "relecture": null
@@ -400,10 +680,20 @@
    "niveau": 1,
    "enonce": "She has ___ her keys. She can't open the door.",
    "bonne": "lost",
+   "pourquoiBonne": "« She has lost her keys. She can't open the door. » est correct. Participe passé irrégulier de lose : lost.",
    "fausses": [
-    "lose",
-    "losed",
-    "loosed"
+    {
+     "texte": "lose",
+     "raison": "« She has lose her keys. She can't open the door. » ne convient pas : « lose » est la forme de base ; après « has », on met le participe passé « lost »."
+    },
+    {
+     "texte": "losed",
+     "raison": "« She has losed her keys. She can't open the door. » ne convient pas : « lose » est irrégulier : son participe passé est « lost », la forme « losed » n'existe pas."
+    },
+    {
+     "texte": "loosed",
+     "raison": "« She has loosed her keys. She can't open the door. » ne convient pas : « loosed » vient de « loose » (desserrer) : c'est un autre mot, qui n'a pas le sens de « perdre »."
+    }
    ],
    "explication": "Participe passé irrégulier de lose : lost.",
    "relecture": null
@@ -414,12 +704,22 @@
    "niveau": 2,
    "enonce": "I've lived here ___ five years.",
    "bonne": "for",
+   "pourquoiBonne": "« I've lived here for five years. » est correct. « for » + durée (for five years) ; « since » + date de départ. Ici « five years » est une durée : « for ».",
    "fausses": [
-    "since",
-    "ago",
-    "during"
+    {
+     "texte": "since",
+     "raison": "« I've lived here since five years. » ne convient pas : « since » introduit un point de départ (une date) ; « five years » est une durée, donc « for »."
+    },
+    {
+     "texte": "ago",
+     "raison": "« I've lived here ago five years. » ne convient pas : « ago » s'emploie avec le passé simple, pas avec « I've lived »."
+    },
+    {
+     "texte": "during",
+     "raison": "« I've lived here during five years. » ne convient pas : « during » introduit un événement ou une période, pas une durée chiffrée."
+    }
    ],
-   "explication": "« for » + durée (five years).",
+   "explication": "« for » + durée (for five years) ; « since » + date de départ. Ici « five years » est une durée : « for ».",
    "relecture": null
   },
   {
@@ -428,10 +728,20 @@
    "niveau": 1,
    "enonce": "If it rains tomorrow, we ___ at home.",
    "bonne": "will stay",
+   "pourquoiBonne": "« If it rains tomorrow, we will stay at home. » est correct. Condition réelle au présent : if + présent, will + infinitif.",
    "fausses": [
-    "stayed",
-    "staying",
-    "would stay"
+    {
+     "texte": "stayed",
+     "raison": "« If it rains tomorrow, we stayed at home. » ne convient pas : le passé simple est impossible après « if it rains » : la phrase parle d'un événement futur."
+    },
+    {
+     "texte": "staying",
+     "raison": "« If it rains tomorrow, we staying at home. » ne convient pas : « staying » seul n'est pas un verbe conjugué."
+    },
+    {
+     "texte": "would stay",
+     "raison": "« If it rains tomorrow, we would stay at home. » ne convient pas : « would » exprime une hypothèse irréelle ; avec « if + présent », la conséquence se met au futur : « will stay »."
+    }
    ],
    "explication": "Condition réelle au présent : if + présent, will + infinitif.",
    "relecture": null
@@ -442,10 +752,20 @@
    "niveau": 2,
    "enonce": "If I ___ rich, I would buy a boat.",
    "bonne": "were",
+   "pourquoiBonne": "« If I were rich, I would buy a boat. » est correct. Condition irréelle au présent : if + prétérit (were), would + infinitif.",
    "fausses": [
-    "am",
-    "will be",
-    "would be"
+    {
+     "texte": "am",
+     "raison": "« If I am rich, I would buy a boat. » ne convient pas : « if I am » appelle « will » dans la principale ; « would buy » exige « if + prétérit » (« were »)."
+    },
+    {
+     "texte": "will be",
+     "raison": "« If I will be rich, I would buy a boat. » ne convient pas : on ne met pas « will » après « if » ; avec « would buy », il faut le prétérit « were »."
+    },
+    {
+     "texte": "would be",
+     "raison": "« If I would be rich, I would buy a boat. » ne convient pas : on ne met pas « would » après « if » ; avec « would buy », il faut le prétérit « were »."
+    }
    ],
    "explication": "Condition irréelle au présent : if + prétérit (were), would + infinitif.",
    "relecture": null
@@ -456,10 +776,20 @@
    "niveau": 3,
    "enonce": "If she had studied, she ___ the exam.",
    "bonne": "would have passed",
+   "pourquoiBonne": "« If she had studied, she would have passed the exam. » est correct. Condition irréelle au passé : if + past perfect, would have + participe passé.",
    "fausses": [
-    "will pass",
-    "passed",
-    "has passed"
+    {
+     "texte": "will pass",
+     "raison": "« If she had studied, she will pass the exam. » ne convient pas : le futur ne convient pas : la condition « had studied » porte sur le passé, il faut « would have + participe »."
+    },
+    {
+     "texte": "passed",
+     "raison": "« If she had studied, she passed the exam. » ne convient pas : le passé simple ne convient pas : après « if + past perfect », la principale prend « would have + participe passé »."
+    },
+    {
+     "texte": "has passed",
+     "raison": "« If she had studied, she has passed the exam. » ne convient pas : le present perfect ne convient pas : après « if + past perfect », la principale prend « would have + participe passé »."
+    }
    ],
    "explication": "Condition irréelle au passé : if + past perfect, would have + participe passé.",
    "relecture": null
@@ -470,10 +800,20 @@
    "niveau": 2,
    "enonce": "By next year, he ___ his studies.",
    "bonne": "will have finished",
+   "pourquoiBonne": "« By next year, he will have finished his studies. » est correct. « By next year » : futur antérieur (will have + participe passé).",
    "fausses": [
-    "finishes",
-    "has finished",
-    "finished"
+    {
+     "texte": "finishes",
+     "raison": "« By next year, he finishes his studies. » ne convient pas : le présent simple ne convient pas : « By next year » annonce un futur accompli (« will have finished »)."
+    },
+    {
+     "texte": "has finished",
+     "raison": "« By next year, he has finished his studies. » ne convient pas : le present perfect ne convient pas pour un événement futur."
+    },
+    {
+     "texte": "finished",
+     "raison": "« By next year, he finished his studies. » ne convient pas : le passé simple ne convient pas pour un événement futur."
+    }
    ],
    "explication": "« By next year » : futur antérieur (will have + participe passé).",
    "relecture": null
@@ -484,12 +824,22 @@
    "niveau": 1,
    "enonce": "I ___ you tomorrow.",
    "bonne": "will call",
+   "pourquoiBonne": "« I will call you tomorrow. » est correct. « will + infinitif » exprime le futur (décision ou prévision) : « I will call you tomorrow » = « je t'appellerai demain ». « Tomorrow » situe l'action dans le futur.",
    "fausses": [
-    "called",
-    "have called",
-    "calling"
+    {
+     "texte": "called",
+     "raison": "« I called you tomorrow. » ne convient pas : le passé simple ne convient pas : « tomorrow » est dans le futur."
+    },
+    {
+     "texte": "have called",
+     "raison": "« I have called you tomorrow. » ne convient pas : le present perfect ne convient pas : « tomorrow » est dans le futur."
+    },
+    {
+     "texte": "calling",
+     "raison": "« I calling you tomorrow. » ne convient pas : « calling » seul n'est pas un verbe conjugué."
+    }
    ],
-   "explication": "« tomorrow » : futur, will + infinitif.",
+   "explication": "« will + infinitif » exprime le futur (décision ou prévision) : « I will call you tomorrow » = « je t'appellerai demain ». « Tomorrow » situe l'action dans le futur.",
    "relecture": null
   },
   {
@@ -498,10 +848,20 @@
    "niveau": 2,
    "enonce": "I wish I ___ more time.",
    "bonne": "had",
+   "pourquoiBonne": "« I wish I had more time. » est correct. Après « I wish » (regret au présent) : prétérit.",
    "fausses": [
-    "have",
-    "will have",
-    "would have"
+    {
+     "texte": "have",
+     "raison": "« I wish I have more time. » ne convient pas : après « I wish » (regret sur le présent), on met le prétérit : « I wish I had »."
+    },
+    {
+     "texte": "will have",
+     "raison": "« I wish I will have more time. » ne convient pas : « wish » n'est pas suivi de « will » : il faut le prétérit « had »."
+    },
+    {
+     "texte": "would have",
+     "raison": "« I wish I would have more time. » ne convient pas : « wish » n'est pas suivi de « would have » pour un regret au présent : il faut le prétérit « had »."
+    }
    ],
    "explication": "Après « I wish » (regret au présent) : prétérit.",
    "relecture": null
@@ -512,10 +872,20 @@
    "niveau": 2,
    "enonce": "What time ___ the film start tonight?",
    "bonne": "does",
+   "pourquoiBonne": "« What time does the film start tonight? » est correct. Question au présent simple (programme), 3e personne : does.",
    "fausses": [
-    "do",
-    "did",
-    "is"
+    {
+     "texte": "do",
+     "raison": "« What time do the film start tonight? » ne convient pas : « do » va avec I / you / we / they ; « the film » est à la 3e personne du singulier, donc « does »."
+    },
+    {
+     "texte": "did",
+     "raison": "« What time did the film start tonight? » ne convient pas : « did » est au passé, alors que « tonight » est dans le futur proche (programme)."
+    },
+    {
+     "texte": "is",
+     "raison": "« What time is the film start tonight? » ne convient pas : « is » ne peut pas être suivi de « start » : on aurait « is starting » ; pour une question de programme, on utilise « does »."
+    }
    ],
    "explication": "Question au présent simple (programme), 3e personne : does.",
    "relecture": null
@@ -526,10 +896,20 @@
    "niveau": 2,
    "enonce": "Look at those dark clouds! It ___ soon.",
    "bonne": "is going to rain",
+   "pourquoiBonne": "« Look at those dark clouds! It is going to rain soon. » est correct. Prévision fondée sur un indice visible : be going to + infinitif.",
    "fausses": [
-    "rained",
-    "has rain",
-    "rains"
+    {
+     "texte": "rained",
+     "raison": "« Look at those dark clouds! It rained soon. » ne convient pas : le passé simple ne convient pas : « soon » et les nuages annoncent un événement à venir."
+    },
+    {
+     "texte": "has rain",
+     "raison": "« Look at those dark clouds! It has rain soon. » ne convient pas : « has rain » n'existe pas (le participe serait « has rained »), et le sens est futur."
+    },
+    {
+     "texte": "rains",
+     "raison": "« Look at those dark clouds! It rains soon. » ne convient pas : le présent simple exprime une habitude ; ici on prévoit la pluie d'après un indice visible, donc « be going to »."
+    }
    ],
    "explication": "Prévision fondée sur un indice visible : be going to + infinitif.",
    "relecture": null
@@ -540,10 +920,20 @@
    "niveau": 1,
    "enonce": "He is ___ than his brother.",
    "bonne": "taller",
+   "pourquoiBonne": "« He is taller than his brother. » est correct. Comparatif de supériorité d'un adjectif court : -er than.",
    "fausses": [
-    "tall",
-    "the tallest",
-    "more tall"
+    {
+     "texte": "tall",
+     "raison": "« He is tall than his brother. » ne convient pas : « tall » est la forme de base ; « than » demande un comparatif (« taller »)."
+    },
+    {
+     "texte": "the tallest",
+     "raison": "« He is the tallest than his brother. » ne convient pas : le superlatif ne s'emploie pas avec « than » : il faut le comparatif « taller »."
+    },
+    {
+     "texte": "more tall",
+     "raison": "« He is more tall than his brother. » ne convient pas : « tall » est un adjectif court : son comparatif se fait en « -er » (« taller »)."
+    }
    ],
    "explication": "Comparatif de supériorité d'un adjectif court : -er than.",
    "relecture": null
@@ -554,10 +944,20 @@
    "niveau": 1,
    "enonce": "This is the ___ film I have ever seen.",
    "bonne": "best",
+   "pourquoiBonne": "« This is the best film I have ever seen. » est correct. Superlatif irrégulier de good : the best.",
    "fausses": [
-    "better",
-    "good",
-    "most good"
+    {
+     "texte": "better",
+     "raison": "« This is the better film I have ever seen. » ne convient pas : « better » est un comparatif ; avec « the … ever » on emploie le superlatif « the best »."
+    },
+    {
+     "texte": "good",
+     "raison": "« This is the good film I have ever seen. » ne convient pas : « good » est la forme de base ; avec « the … ever » on emploie le superlatif « best »."
+    },
+    {
+     "texte": "most good",
+     "raison": "« This is the most good film I have ever seen. » ne convient pas : « good » est irrégulier : son superlatif est « best », pas « most good »."
+    }
    ],
    "explication": "Superlatif irrégulier de good : the best.",
    "relecture": null
@@ -568,10 +968,20 @@
    "niveau": 1,
    "enonce": "She is ___ intelligent than her sister.",
    "bonne": "more",
+   "pourquoiBonne": "« She is more intelligent than her sister. » est correct. Comparatif d'un adjectif long : more ... than.",
    "fausses": [
-    "most",
-    "the more",
-    "as"
+    {
+     "texte": "most",
+     "raison": "« She is most intelligent than her sister. » ne convient pas : « most » est un superlatif ; avec « than » on emploie le comparatif « more »."
+    },
+    {
+     "texte": "the more",
+     "raison": "« She is the more intelligent than her sister. » ne convient pas : on n'ajoute pas « the » devant « more … than »."
+    },
+    {
+     "texte": "as",
+     "raison": "« She is as intelligent than her sister. » ne convient pas : « as … as » exprime l'égalité ; avec « than », on emploie « more »."
+    }
    ],
    "explication": "Comparatif d'un adjectif long : more ... than.",
    "relecture": null
@@ -582,12 +992,22 @@
    "niveau": 1,
    "enonce": "He runs as ___ as his friend.",
    "bonne": "fast",
+   "pourquoiBonne": "« He runs as fast as his friend. » est correct. Dans « as … as » (aussi … que), l'adjectif ou l'adverbe reste à la forme de base : as fast as, as tall as. Pas de -er, pas de more.",
    "fausses": [
-    "faster",
-    "fastest",
-    "more fast"
+    {
+     "texte": "faster",
+     "raison": "« He runs as faster as his friend. » ne convient pas : « as … as » demande l'adjectif à la forme de base, pas au comparatif."
+    },
+    {
+     "texte": "fastest",
+     "raison": "« He runs as fastest as his friend. » ne convient pas : « as … as » demande l'adjectif à la forme de base, pas au superlatif."
+    },
+    {
+     "texte": "more fast",
+     "raison": "« He runs as more fast as his friend. » ne convient pas : « fast » est un adjectif court (comparatif « faster »), et « as … as » demande de toute façon la forme de base."
+    }
    ],
-   "explication": "as + adjectif/adverbe de base + as.",
+   "explication": "Dans « as … as » (aussi … que), l'adjectif ou l'adverbe reste à la forme de base : as fast as, as tall as. Pas de -er, pas de more.",
    "relecture": null
   },
   {
@@ -596,10 +1016,20 @@
    "niveau": 1,
    "enonce": "He is the ___ boy in the class.",
    "bonne": "tallest",
+   "pourquoiBonne": "« He is the tallest boy in the class. » est correct. Superlatif d'un adjectif court : the -est.",
    "fausses": [
-    "most tall",
-    "taller",
-    "tall"
+    {
+     "texte": "most tall",
+     "raison": "« He is the most tall boy in the class. » ne convient pas : « tall » est un adjectif court : son superlatif se fait en « -est » (« the tallest »)."
+    },
+    {
+     "texte": "taller",
+     "raison": "« He is the taller boy in the class. » ne convient pas : « taller » est un comparatif ; après « the … boy in the class », on emploie le superlatif."
+    },
+    {
+     "texte": "tall",
+     "raison": "« He is the tall boy in the class. » ne convient pas : « tall » est la forme de base ; après « the … boy in the class », on emploie le superlatif."
+    }
    ],
    "explication": "Superlatif d'un adjectif court : the -est.",
    "relecture": null
@@ -610,12 +1040,22 @@
    "niveau": 1,
    "enonce": "This exercise is ___ than the last one.",
    "bonne": "easier",
+   "pourquoiBonne": "« This exercise is easier than the last one. » est correct. Les adjectifs courts se terminant par « -y » forment leur comparatif en « -ier » : easy → easier, happy → happier. Avec « than », on utilise le comparatif.",
    "fausses": [
-    "more easy",
-    "easiest",
-    "easy"
+    {
+     "texte": "more easy",
+     "raison": "« This exercise is more easy than the last one. » ne convient pas : « easy » finit en « -y » : son comparatif se fait en « -ier » (« easier »)."
+    },
+    {
+     "texte": "easiest",
+     "raison": "« This exercise is easiest than the last one. » ne convient pas : « easiest » est un superlatif ; avec « than the last one », on emploie le comparatif."
+    },
+    {
+     "texte": "easy",
+     "raison": "« This exercise is easy than the last one. » ne convient pas : « easy » est la forme de base ; « than » demande un comparatif."
+    }
    ],
-   "explication": "Adjectif en -y : easier than.",
+   "explication": "Les adjectifs courts se terminant par « -y » forment leur comparatif en « -ier » : easy → easier, happy → happier. Avec « than », on utilise le comparatif.",
    "relecture": null
   },
   {
@@ -624,12 +1064,22 @@
    "niveau": 1,
    "enonce": "My car is as ___ as yours.",
    "bonne": "expensive",
+   "pourquoiBonne": "« My car is as expensive as yours. » est correct. Dans « as … as » (aussi … que), l'adjectif reste à la forme de base : as expensive as, même pour un adjectif long.",
    "fausses": [
-    "more expensive",
-    "the most expensive",
-    "expensiver"
+    {
+     "texte": "more expensive",
+     "raison": "« My car is as more expensive as yours. » ne convient pas : « as … as » demande l'adjectif à la forme de base, pas au comparatif."
+    },
+    {
+     "texte": "the most expensive",
+     "raison": "« My car is as the most expensive as yours. » ne convient pas : « as … as » demande l'adjectif à la forme de base, pas au superlatif."
+    },
+    {
+     "texte": "expensiver",
+     "raison": "« My car is as expensiver as yours. » ne convient pas : « expensive » est un adjectif long : son comparatif se fait avec « more », « expensiver » n'existe pas."
+    }
    ],
-   "explication": "as + adjectif de base + as.",
+   "explication": "Dans « as … as » (aussi … que), l'adjectif reste à la forme de base : as expensive as, même pour un adjectif long.",
    "relecture": null
   },
   {
@@ -638,10 +1088,20 @@
    "niveau": 2,
    "enonce": "The more you practise, ___ you become.",
    "bonne": "the better",
+   "pourquoiBonne": "« The more you practise, the better you become. » est correct. Structure « the + comparatif, the + comparatif ».",
    "fausses": [
-    "better",
-    "the best",
-    "best"
+    {
+     "texte": "better",
+     "raison": "« The more you practise, better you become. » ne convient pas : dans « the more …, the … », les deux parties sont précédées de « the » : il faut « the better »."
+    },
+    {
+     "texte": "the best",
+     "raison": "« The more you practise, the best you become. » ne convient pas : « the best » est un superlatif ; la structure demande le comparatif « the better »."
+    },
+    {
+     "texte": "best",
+     "raison": "« The more you practise, best you become. » ne convient pas : « best » est un superlatif, et il manque « the » : la structure demande « the better »."
+    }
    ],
    "explication": "Structure « the + comparatif, the + comparatif ».",
    "relecture": null
@@ -652,10 +1112,20 @@
    "niveau": 2,
    "enonce": "Today is ___ day of my life!",
    "bonne": "the happiest",
+   "pourquoiBonne": "« Today is the happiest day of my life! » est correct. Superlatif d'un adjectif en -y : the happiest.",
    "fausses": [
-    "happier",
-    "the most happy",
-    "more happy"
+    {
+     "texte": "happier",
+     "raison": "« Today is happier day of my life! » ne convient pas : « happier » est un comparatif ; avec « of my life », on emploie le superlatif « the happiest »."
+    },
+    {
+     "texte": "the most happy",
+     "raison": "« Today is the most happy day of my life! » ne convient pas : « happy » finit en « -y » : son superlatif se fait en « -iest » (« the happiest »)."
+    },
+    {
+     "texte": "more happy",
+     "raison": "« Today is more happy day of my life! » ne convient pas : « more happy » est un comparatif incorrect ; avec « of my life », on emploie le superlatif « the happiest »."
+    }
    ],
    "explication": "Superlatif d'un adjectif en -y : the happiest.",
    "relecture": null
@@ -666,10 +1136,20 @@
    "niveau": 1,
    "enonce": "I don't have ___ money.",
    "bonne": "any",
+   "pourquoiBonne": "« I don't have any money. » est correct. Phrase négative avec un nom indénombrable : any.",
    "fausses": [
-    "some",
-    "a",
-    "many"
+    {
+     "texte": "some",
+     "raison": "« I don't have some money. » ne convient pas : « some » s'emploie surtout dans les phrases affirmatives ; dans une phrase négative, on emploie « any »."
+    },
+    {
+     "texte": "a",
+     "raison": "« I don't have a money. » ne convient pas : « money » est indénombrable : on ne peut pas mettre « a » devant."
+    },
+    {
+     "texte": "many",
+     "raison": "« I don't have many money. » ne convient pas : « many » s'emploie avec un nom dénombrable ; « money » est indénombrable."
+    }
    ],
    "explication": "Phrase négative avec un nom indénombrable : any.",
    "relecture": null
@@ -680,10 +1160,20 @@
    "niveau": 1,
    "enonce": "There are ___ students in the room.",
    "bonne": "many",
+   "pourquoiBonne": "« There are many students in the room. » est correct. Nom dénombrable pluriel affirmatif : many (ou a lot of).",
    "fausses": [
-    "much",
-    "a little",
-    "any"
+    {
+     "texte": "much",
+     "raison": "« There are much students in the room. » ne convient pas : « much » s'emploie avec un nom indénombrable ; « students » est dénombrable (pluriel)."
+    },
+    {
+     "texte": "a little",
+     "raison": "« There are a little students in the room. » ne convient pas : « a little » s'emploie avec un nom indénombrable ; « students » est dénombrable."
+    },
+    {
+     "texte": "any",
+     "raison": "« There are any students in the room. » ne convient pas : « any » s'emploie dans les phrases négatives ou les questions ; ici la phrase est affirmative."
+    }
    ],
    "explication": "Nom dénombrable pluriel affirmatif : many (ou a lot of).",
    "relecture": null
@@ -694,12 +1184,22 @@
    "niveau": 1,
    "enonce": "How ___ water do you drink every day?",
    "bonne": "much",
+   "pourquoiBonne": "« How much water do you drink every day? » est correct. « water » est indénombrable (on ne le compte pas) : on dit « how much water ». Pour des noms comptables, on dit « how many » (how many books).",
    "fausses": [
-    "many",
-    "few",
-    "some"
+    {
+     "texte": "many",
+     "raison": "« How many water do you drink every day? » ne convient pas : « many » s'emploie avec un nom dénombrable ; « water » est indénombrable."
+    },
+    {
+     "texte": "few",
+     "raison": "« How few water do you drink every day? » ne convient pas : « few » s'emploie avec un nom dénombrable et ne se place pas après « how »."
+    },
+    {
+     "texte": "some",
+     "raison": "« How some water do you drink every day? » ne convient pas : « some » ne s'emploie pas après « how » pour poser une question de quantité."
+    }
    ],
-   "explication": "Nom indénombrable (water) : how much.",
+   "explication": "« water » est indénombrable (on ne le compte pas) : on dit « how much water ». Pour des noms comptables, on dit « how many » (how many books).",
    "relecture": null
   },
   {
@@ -708,10 +1208,20 @@
    "niveau": 2,
    "enonce": "She has ___ friends, so she feels lonely.",
    "bonne": "few",
+   "pourquoiBonne": "« She has few friends, so she feels lonely. » est correct. few + nom dénombrable pluriel, sens négatif (très peu).",
    "fausses": [
-    "little",
-    "a little",
-    "much"
+    {
+     "texte": "little",
+     "raison": "« She has little friends, so she feels lonely. » ne convient pas : « little » s'emploie avec un nom indénombrable ; « friends » est dénombrable."
+    },
+    {
+     "texte": "a little",
+     "raison": "« She has a little friends, so she feels lonely. » ne convient pas : « a little » s'emploie avec un nom indénombrable ; « friends » est dénombrable."
+    },
+    {
+     "texte": "much",
+     "raison": "« She has much friends, so she feels lonely. » ne convient pas : « much » s'emploie avec un nom indénombrable ; « friends » est dénombrable."
+    }
    ],
    "explication": "few + nom dénombrable pluriel, sens négatif (très peu).",
    "relecture": null
@@ -722,10 +1232,20 @@
    "niveau": 2,
    "enonce": "I have ___ time, so I can help you.",
    "bonne": "a little",
+   "pourquoiBonne": "« I have a little time, so I can help you. » est correct. a little + nom indénombrable, sens positif (un peu de).",
    "fausses": [
-    "a few",
-    "many",
-    "any"
+    {
+     "texte": "a few",
+     "raison": "« I have a few time, so I can help you. » ne convient pas : « a few » s'emploie avec un nom dénombrable pluriel ; « time » est indénombrable."
+    },
+    {
+     "texte": "many",
+     "raison": "« I have many time, so I can help you. » ne convient pas : « many » s'emploie avec un nom dénombrable ; « time » est indénombrable."
+    },
+    {
+     "texte": "any",
+     "raison": "« I have any time, so I can help you. » ne convient pas : « any » s'emploie dans les phrases négatives ou les questions ; ici la phrase est affirmative."
+    }
    ],
    "explication": "a little + nom indénombrable, sens positif (un peu de).",
    "relecture": null
@@ -736,12 +1256,22 @@
    "niveau": 1,
    "enonce": "There isn't ___ milk in the fridge.",
    "bonne": "any",
+   "pourquoiBonne": "« There isn't any milk in the fridge. » est correct. Dans une phrase négative (isn't / don't …), on emploie « any » devant un nom (« milk » est indénombrable) : there isn't any milk.",
    "fausses": [
-    "some",
-    "a",
-    "many"
+    {
+     "texte": "some",
+     "raison": "« There isn't some milk in the fridge. » ne convient pas : dans une phrase négative (« isn't »), on emploie « any » et non « some »."
+    },
+    {
+     "texte": "a",
+     "raison": "« There isn't a milk in the fridge. » ne convient pas : « milk » est indénombrable : on ne peut pas mettre « a » devant."
+    },
+    {
+     "texte": "many",
+     "raison": "« There isn't many milk in the fridge. » ne convient pas : « many » s'emploie avec un nom dénombrable ; « milk » est indénombrable."
+    }
    ],
-   "explication": "Négation + indénombrable : any.",
+   "explication": "Dans une phrase négative (isn't / don't …), on emploie « any » devant un nom (« milk » est indénombrable) : there isn't any milk.",
    "relecture": null
   },
   {
@@ -750,12 +1280,22 @@
    "niveau": 1,
    "enonce": "How ___ does it cost?",
    "bonne": "much",
+   "pourquoiBonne": "« How much does it cost? » est correct. Pour demander un prix, on dit « How much does it cost? » (combien ça coûte). « How long » = durée, « How old » = âge.",
    "fausses": [
-    "many",
-    "long",
-    "old"
+    {
+     "texte": "many",
+     "raison": "« How many does it cost? » ne convient pas : « many » s'emploie avec un nom dénombrable ; pour demander un prix, on dit « how much »."
+    },
+    {
+     "texte": "long",
+     "raison": "« How long does it cost? » ne convient pas : « how long » demande une durée ou une longueur, pas un prix."
+    },
+    {
+     "texte": "old",
+     "raison": "« How old does it cost? » ne convient pas : « how old » demande un âge, pas un prix."
+    }
    ],
-   "explication": "Prix : how much.",
+   "explication": "Pour demander un prix, on dit « How much does it cost? » (combien ça coûte). « How long » = durée, « How old » = âge.",
    "relecture": null
   },
   {
@@ -764,12 +1304,22 @@
    "niveau": 2,
    "enonce": "___ of my friends live in Paris. Only two live elsewhere.",
    "bonne": "Most",
+   "pourquoiBonne": "« Most of my friends live in Paris. Only two live elsewhere. » est correct. « Most of + pluriel » = la plupart de. « Most of my friends live in Paris » : la plupart de mes amis habitent à Paris (seuls deux habitent ailleurs).",
    "fausses": [
-    "Much",
-    "Every",
-    "Any"
+    {
+     "texte": "Much",
+     "raison": "« Much of my friends live in Paris. Only two live elsewhere. » ne convient pas : « much » s'emploie avec un nom indénombrable ; « friends » est dénombrable et la suite parle de « two » seulement."
+    },
+    {
+     "texte": "Every",
+     "raison": "« Every of my friends live in Paris. Only two live elsewhere. » ne convient pas : « every » est suivi d'un nom singulier, pas de « of my friends »."
+    },
+    {
+     "texte": "Any",
+     "raison": "« Any of my friends live in Paris. Only two live elsewhere. » ne convient pas : « any » s'emploie dans les phrases négatives ou les questions, pas pour dire « la plupart »."
+    }
    ],
-   "explication": "« Most of + pluriel » : la plupart.",
+   "explication": "« Most of + pluriel » = la plupart de. « Most of my friends live in Paris » : la plupart de mes amis habitent à Paris (seuls deux habitent ailleurs).",
    "relecture": null
   },
   {
@@ -778,12 +1328,22 @@
    "niveau": 1,
    "enonce": "The book ___ I bought is great.",
    "bonne": "which",
+   "pourquoiBonne": "« The book which I bought is great. » est correct. « which » remplace une chose, « who » une personne. « The book which I bought » = le livre que j'ai acheté.",
    "fausses": [
-    "who",
-    "whose",
-    "where"
+    {
+     "texte": "who",
+     "raison": "« The book who I bought is great. » ne convient pas : « who » ne s'emploie que pour des personnes ; « the book » est une chose."
+    },
+    {
+     "texte": "whose",
+     "raison": "« The book whose I bought is great. » ne convient pas : « whose » exprime la possession (« dont ») ; ici on relie simplement un livre et l'action « I bought »."
+    },
+    {
+     "texte": "where",
+     "raison": "« The book where I bought is great. » ne convient pas : « where » ne s'emploie que pour un lieu ; « the book » n'en est pas un."
+    }
    ],
-   "explication": "Antécédent chose (the book) : which.",
+   "explication": "« which » remplace une chose, « who » une personne. « The book which I bought » = le livre que j'ai acheté.",
    "relecture": null
   },
   {
@@ -792,10 +1352,20 @@
    "niveau": 1,
    "enonce": "The man ___ lives next door is a doctor.",
    "bonne": "who",
+   "pourquoiBonne": "« The man who lives next door is a doctor. » est correct. Antécédent personne, sujet du verbe : who.",
    "fausses": [
-    "which",
-    "whose",
-    "whom"
+    {
+     "texte": "which",
+     "raison": "« The man which lives next door is a doctor. » ne convient pas : « which » ne s'emploie que pour des choses ; « the man » est une personne."
+    },
+    {
+     "texte": "whose",
+     "raison": "« The man whose lives next door is a doctor. » ne convient pas : « whose » exprime la possession ; ici « the man » est le sujet du verbe « lives »."
+    },
+    {
+     "texte": "whom",
+     "raison": "« The man whom lives next door is a doctor. » ne convient pas : « whom » est un complément d'objet ; ici « the man » est le sujet de « lives », il faut « who »."
+    }
    ],
    "explication": "Antécédent personne, sujet du verbe : who.",
    "relecture": null
@@ -806,12 +1376,22 @@
    "niveau": 2,
    "enonce": "That's the girl ___ bag was stolen.",
    "bonne": "whose",
+   "pourquoiBonne": "« That's the girl whose bag was stolen. » est correct. « whose » + nom exprime la possession (dont, de qui) : « the girl whose bag was stolen » = la fille dont le sac a été volé.",
    "fausses": [
-    "who",
-    "which",
-    "whom"
+    {
+     "texte": "who",
+     "raison": "« That's the girl who bag was stolen. » ne convient pas : « who » ne marque pas la possession ; ici le sac appartient à la fille, il faut « whose »."
+    },
+    {
+     "texte": "which",
+     "raison": "« That's the girl which bag was stolen. » ne convient pas : « which » s'emploie pour des choses ; « the girl » est une personne, et on veut exprimer la possession."
+    },
+    {
+     "texte": "whom",
+     "raison": "« That's the girl whom bag was stolen. » ne convient pas : « whom » est un complément d'objet et ne marque pas la possession."
+    }
    ],
-   "explication": "Possession : whose + nom.",
+   "explication": "« whose » + nom exprime la possession (dont, de qui) : « the girl whose bag was stolen » = la fille dont le sac a été volé.",
    "relecture": null
   },
   {
@@ -820,12 +1400,22 @@
    "niveau": 1,
    "enonce": "This is the town ___ I was born.",
    "bonne": "where",
+   "pourquoiBonne": "« This is the town where I was born. » est correct. « where » remplace un lieu (town, city, house) : « the town where I was born » = la ville où je suis né.",
    "fausses": [
-    "which",
-    "who",
-    "when"
+    {
+     "texte": "which",
+     "raison": "« This is the town which I was born. » ne convient pas : « which » désigne une chose ; pour un lieu comme « the town », on emploie « where »."
+    },
+    {
+     "texte": "who",
+     "raison": "« This is the town who I was born. » ne convient pas : « who » ne s'emploie que pour des personnes ; « the town » est un lieu."
+    },
+    {
+     "texte": "when",
+     "raison": "« This is the town when I was born. » ne convient pas : « when » s'emploie pour un moment ; « the town » est un lieu."
+    }
    ],
-   "explication": "Antécédent lieu : where.",
+   "explication": "« where » remplace un lieu (town, city, house) : « the town where I was born » = la ville où je suis né.",
    "relecture": null
   },
   {
@@ -834,12 +1424,22 @@
    "niveau": 2,
    "enonce": "I remember the day ___ we met.",
    "bonne": "when",
+   "pourquoiBonne": "« I remember the day when we met. » est correct. « when » remplace un moment (day, year, time) : « the day when we met » = le jour où nous nous sommes rencontrés.",
    "fausses": [
-    "which",
-    "who",
-    "whose"
+    {
+     "texte": "which",
+     "raison": "« I remember the day which we met. » ne convient pas : « which » désigne une chose ; pour un moment comme « the day », on emploie « when »."
+    },
+    {
+     "texte": "who",
+     "raison": "« I remember the day who we met. » ne convient pas : « who » ne s'emploie que pour des personnes ; « the day » est un moment."
+    },
+    {
+     "texte": "whose",
+     "raison": "« I remember the day whose we met. » ne convient pas : « whose » exprime la possession ; « we met » ne parle d'aucun possesseur."
+    }
    ],
-   "explication": "Antécédent temps : when.",
+   "explication": "« when » remplace un moment (day, year, time) : « the day when we met » = le jour où nous nous sommes rencontrés.",
    "relecture": null
   },
   {
@@ -848,12 +1448,22 @@
    "niveau": 1,
    "enonce": "I'm interested ___ music.",
    "bonne": "in",
+   "pourquoiBonne": "« I'm interested in music. » est correct. On dit « be interested in » (s'intéresser à). Les prépositions des verbes et adjectifs anglais sont à apprendre par cœur.",
    "fausses": [
-    "on",
-    "at",
-    "of"
+    {
+     "texte": "on",
+     "raison": "« I'm interested on music. » ne convient pas : on dit « interested in » ; « on » ne convient pas après « interested »."
+    },
+    {
+     "texte": "at",
+     "raison": "« I'm interested at music. » ne convient pas : on dit « interested in » ; « at » ne convient pas après « interested »."
+    },
+    {
+     "texte": "of",
+     "raison": "« I'm interested of music. » ne convient pas : on dit « interested in » ; « of » ne convient pas après « interested »."
+    }
    ],
-   "explication": "interested in.",
+   "explication": "On dit « be interested in » (s'intéresser à). Les prépositions des verbes et adjectifs anglais sont à apprendre par cœur.",
    "relecture": null
   },
   {
@@ -862,12 +1472,22 @@
    "niveau": 1,
    "enonce": "She is afraid ___ spiders.",
    "bonne": "of",
+   "pourquoiBonne": "« She is afraid of spiders. » est correct. On dit « be afraid of » (avoir peur de) : afraid of spiders = avoir peur des araignées.",
    "fausses": [
-    "from",
-    "to",
-    "at"
+    {
+     "texte": "from",
+     "raison": "« She is afraid from spiders. » ne convient pas : on dit « afraid of » ; « from » ne convient pas après « afraid »."
+    },
+    {
+     "texte": "to",
+     "raison": "« She is afraid to spiders. » ne convient pas : on dit « afraid of » ; « to » ne convient pas après « afraid »."
+    },
+    {
+     "texte": "at",
+     "raison": "« She is afraid at spiders. » ne convient pas : on dit « afraid of » ; « at » ne convient pas après « afraid »."
+    }
    ],
-   "explication": "afraid of.",
+   "explication": "On dit « be afraid of » (avoir peur de) : afraid of spiders = avoir peur des araignées.",
    "relecture": null
   },
   {
@@ -876,10 +1496,20 @@
    "niveau": 1,
    "enonce": "We arrived ___ the airport at noon.",
    "bonne": "at",
+   "pourquoiBonne": "« We arrived at the airport at noon. » est correct. arrive at + lieu précis (airport, station).",
    "fausses": [
-    "on",
-    "to",
-    "by"
+    {
+     "texte": "on",
+     "raison": "« We arrived on the airport at noon. » ne convient pas : pour un lieu précis comme l'aéroport, on dit « at » ; « on » s'emploie pour un jour ou une surface."
+    },
+    {
+     "texte": "to",
+     "raison": "« We arrived to the airport at noon. » ne convient pas : le verbe « arrive » ne prend pas « to » : on dit « arrive at » ou « arrive in »."
+    },
+    {
+     "texte": "by",
+     "raison": "« We arrived by the airport at noon. » ne convient pas : « by » signifie « par » ou « avant » ; il ne convient pas après « arrived »."
+    }
    ],
    "explication": "arrive at + lieu précis (airport, station).",
    "relecture": null
@@ -890,12 +1520,22 @@
    "niveau": 1,
    "enonce": "He was born ___ 1990.",
    "bonne": "in",
+   "pourquoiBonne": "« He was born in 1990. » est correct. « in » + année, mois ou saison (in 1990, in May, in winter). « on » + jour, « at » + heure.",
    "fausses": [
-    "on",
-    "at",
-    "of"
+    {
+     "texte": "on",
+     "raison": "« He was born on 1990. » ne convient pas : « on » s'emploie avec un jour précis (« on Monday ») ; devant une année, on dit « in »."
+    },
+    {
+     "texte": "at",
+     "raison": "« He was born at 1990. » ne convient pas : « at » s'emploie avec une heure (« at 7 ») ; devant une année, on dit « in »."
+    },
+    {
+     "texte": "of",
+     "raison": "« He was born of 1990. » ne convient pas : « of » ne s'emploie pas pour situer dans le temps."
+    }
    ],
-   "explication": "in + année.",
+   "explication": "« in » + année, mois ou saison (in 1990, in May, in winter). « on » + jour, « at » + heure.",
    "relecture": null
   },
   {
@@ -904,12 +1544,22 @@
    "niveau": 1,
    "enonce": "The meeting is ___ Monday.",
    "bonne": "on",
+   "pourquoiBonne": "« The meeting is on Monday. » est correct. « on » + jour de la semaine ou date (on Monday, on 5 May). « in » + mois ou année, « at » + heure.",
    "fausses": [
-    "in",
-    "at",
-    "by"
+    {
+     "texte": "in",
+     "raison": "« The meeting is in Monday. » ne convient pas : « in » s'emploie avec un mois, une année ou une saison ; devant un jour de la semaine, on dit « on »."
+    },
+    {
+     "texte": "at",
+     "raison": "« The meeting is at Monday. » ne convient pas : « at » s'emploie avec une heure ; devant un jour de la semaine, on dit « on »."
+    },
+    {
+     "texte": "by",
+     "raison": "« The meeting is by Monday. » ne convient pas : « by » signifie « avant » ou « par » ; il ne convient pas pour situer une réunion un jour donné."
+    }
    ],
-   "explication": "on + jour de la semaine.",
+   "explication": "« on » + jour de la semaine ou date (on Monday, on 5 May). « in » + mois ou année, « at » + heure.",
    "relecture": null
   },
   {
@@ -918,12 +1568,22 @@
    "niveau": 1,
    "enonce": "I get up ___ 7 o'clock.",
    "bonne": "at",
+   "pourquoiBonne": "« I get up at 7 o'clock. » est correct. « at » + heure précise (at 7 o'clock, at noon). « in » + mois ou année, « on » + jour.",
    "fausses": [
-    "in",
-    "on",
-    "by"
+    {
+     "texte": "in",
+     "raison": "« I get up in 7 o'clock. » ne convient pas : « in » s'emploie avec un mois, une année ou une saison ; devant une heure, on dit « at »."
+    },
+    {
+     "texte": "on",
+     "raison": "« I get up on 7 o'clock. » ne convient pas : « on » s'emploie avec un jour ; devant une heure, on dit « at »."
+    },
+    {
+     "texte": "by",
+     "raison": "« I get up by 7 o'clock. » ne convient pas : « by » signifie « avant, au plus tard » ; pour une heure précise on dit « at »."
+    }
    ],
-   "explication": "at + heure.",
+   "explication": "« at » + heure précise (at 7 o'clock, at noon). « in » + mois ou année, « on » + jour.",
    "relecture": null
   },
   {
@@ -932,12 +1592,22 @@
    "niveau": 1,
    "enonce": "She is good ___ maths.",
    "bonne": "at",
+   "pourquoiBonne": "« She is good at maths. » est correct. On dit « be good at » (être bon en) une matière ou une activité : good at maths.",
    "fausses": [
-    "of",
-    "on",
-    "to"
+    {
+     "texte": "of",
+     "raison": "« She is good of maths. » ne convient pas : on dit « good at » une matière ou une activité ; « of » ne convient pas."
+    },
+    {
+     "texte": "on",
+     "raison": "« She is good on maths. » ne convient pas : on dit « good at » ; « on » ne convient pas après « good »."
+    },
+    {
+     "texte": "to",
+     "raison": "« She is good to maths. » ne convient pas : on dit « good at » ; « to » ne convient pas après « good »."
+    }
    ],
-   "explication": "good at + matière / activité.",
+   "explication": "On dit « be good at » (être bon en) une matière ou une activité : good at maths.",
    "relecture": null
   },
   {
@@ -946,12 +1616,22 @@
    "niveau": 1,
    "enonce": "I'm looking ___ my keys. I can't find them.",
    "bonne": "for",
+   "pourquoiBonne": "« I'm looking for my keys. I can't find them. » est correct. « look for » = chercher (qqch qu'on a perdu). « look at » = regarder, « look after » = s'occuper de.",
    "fausses": [
-    "at",
-    "after",
-    "to"
+    {
+     "texte": "at",
+     "raison": "« I'm looking at my keys. I can't find them. » ne convient pas : « look at » veut dire « regarder » ; ici on cherche ses clés, il faut « look for »."
+    },
+    {
+     "texte": "after",
+     "raison": "« I'm looking after my keys. I can't find them. » ne convient pas : « look after » veut dire « s'occuper de » ; ici on cherche ses clés."
+    },
+    {
+     "texte": "to",
+     "raison": "« I'm looking to my keys. I can't find them. » ne convient pas : « look to » ne veut pas dire « chercher » ; pour chercher, on dit « look for »."
+    }
    ],
-   "explication": "look for = chercher.",
+   "explication": "« look for » = chercher (qqch qu'on a perdu). « look at » = regarder, « look after » = s'occuper de.",
    "relecture": null
   },
   {
@@ -960,12 +1640,22 @@
    "niveau": 2,
    "enonce": "He depends ___ his parents.",
    "bonne": "on",
+   "pourquoiBonne": "« He depends on his parents. » est correct. On dit « depend on » (dépendre de) : he depends on his parents = il dépend de ses parents.",
    "fausses": [
-    "of",
-    "from",
-    "to"
+    {
+     "texte": "of",
+     "raison": "« He depends of his parents. » ne convient pas : on dit « depend on » ; « of » ne convient pas après « depend »."
+    },
+    {
+     "texte": "from",
+     "raison": "« He depends from his parents. » ne convient pas : on dit « depend on » ; « from » ne convient pas après « depend »."
+    },
+    {
+     "texte": "to",
+     "raison": "« He depends to his parents. » ne convient pas : on dit « depend on » ; « to » ne convient pas après « depend »."
+    }
    ],
-   "explication": "depend on.",
+   "explication": "On dit « depend on » (dépendre de) : he depends on his parents = il dépend de ses parents.",
    "relecture": null
   },
   {
@@ -974,12 +1664,22 @@
    "niveau": 2,
    "enonce": "She arrived ___ Paris yesterday morning.",
    "bonne": "in",
+   "pourquoiBonne": "« She arrived in Paris yesterday morning. » est correct. « arrive in » + ville ou pays (arrive in Paris, in France) ; « arrive at » + lieu précis (at the airport, at the station). On ne dit jamais « arrive to ».",
    "fausses": [
-    "to",
-    "on",
-    "by"
+    {
+     "texte": "to",
+     "raison": "« She arrived to Paris yesterday morning. » ne convient pas : le verbe « arrive » ne prend pas « to » : on dit « arrive in » une ville ou un pays."
+    },
+    {
+     "texte": "on",
+     "raison": "« She arrived on Paris yesterday morning. » ne convient pas : « on » ne s'emploie pas avec une ville après « arrive » ; on dit « arrive in Paris »."
+    },
+    {
+     "texte": "by",
+     "raison": "« She arrived by Paris yesterday morning. » ne convient pas : « by » ne s'emploie pas après « arrived » devant un lieu ; on dit « arrived in Paris »."
+    }
    ],
-   "explication": "arrive in + ville ou pays.",
+   "explication": "« arrive in » + ville ou pays (arrive in Paris, in France) ; « arrive at » + lieu précis (at the airport, at the station). On ne dit jamais « arrive to ».",
    "relecture": null
   },
   {
@@ -988,10 +1688,20 @@
    "niveau": 1,
    "enonce": "The cat is sitting ___ the table. I can see it underneath.",
    "bonne": "under",
+   "pourquoiBonne": "« The cat is sitting under the table. I can see it underneath. » est correct. « underneath » : sous la table, donc under.",
    "fausses": [
-    "on",
-    "above",
-    "between"
+    {
+     "texte": "on",
+     "raison": "« The cat is sitting on the table. I can see it underneath. » ne convient pas : « underneath » veut dire « en dessous » ; « on » voudrait dire « dessus »."
+    },
+    {
+     "texte": "above",
+     "raison": "« The cat is sitting above the table. I can see it underneath. » ne convient pas : « above » veut dire « au-dessus », alors que « underneath » dit « en dessous »."
+    },
+    {
+     "texte": "between",
+     "raison": "« The cat is sitting between the table. I can see it underneath. » ne convient pas : « between » veut dire « entre deux choses », ce qui n'est pas le sens de « underneath »."
+    }
    ],
    "explication": "« underneath » : sous la table, donc under.",
    "relecture": null
@@ -1002,10 +1712,20 @@
    "niveau": 2,
    "enonce": "We travelled ___ train from Lyon to Paris.",
    "bonne": "by",
+   "pourquoiBonne": "« We travelled by train from Lyon to Paris. » est correct. by + moyen de transport sans article (by train).",
    "fausses": [
-    "with",
-    "at",
-    "through"
+    {
+     "texte": "with",
+     "raison": "« We travelled with train from Lyon to Paris. » ne convient pas : on dit « by train » pour le moyen de transport ; « with train » n'existe pas."
+    },
+    {
+     "texte": "at",
+     "raison": "« We travelled at train from Lyon to Paris. » ne convient pas : on dit « by train » pour le moyen de transport ; « at » ne convient pas."
+    },
+    {
+     "texte": "through",
+     "raison": "« We travelled through train from Lyon to Paris. » ne convient pas : « through » veut dire « à travers » (un tunnel, par exemple) ; ce n'est pas le moyen de transport."
+    }
    ],
    "explication": "by + moyen de transport sans article (by train).",
    "relecture": null
@@ -1016,12 +1736,22 @@
    "niveau": 2,
    "enonce": "He has lived here ___ 2005.",
    "bonne": "since",
+   "pourquoiBonne": "« He has lived here since 2005. » est correct. « since » + point de départ (since 2005) avec le present perfect. « for » + durée (for ten years).",
    "fausses": [
-    "for",
-    "from",
-    "during"
+    {
+     "texte": "for",
+     "raison": "« He has lived here for 2005. » ne convient pas : « for » introduit une durée (« for ten years ») ; « 2005 » est une date de départ, donc « since »."
+    },
+    {
+     "texte": "from",
+     "raison": "« He has lived here from 2005. » ne convient pas : « from 2005 » s'emploie avec « to » (« from 2005 to 2010 ») ; avec le present perfect on emploie « since »."
+    },
+    {
+     "texte": "during",
+     "raison": "« He has lived here during 2005. » ne convient pas : « during » introduit un événement ou une période, pas une date de départ."
+    }
    ],
-   "explication": "since + point de départ.",
+   "explication": "« since » + point de départ (since 2005) avec le present perfect. « for » + durée (for ten years).",
    "relecture": null
   },
   {
@@ -1030,12 +1760,22 @@
    "niveau": 2,
    "enonce": "I will wait here ___ you come back.",
    "bonne": "until",
+   "pourquoiBonne": "« I will wait here until you come back. » est correct. « until » = jusqu'à ce que : « I will wait here until you come back » = j'attendrai ici jusqu'à ce que tu reviennes.",
    "fausses": [
-    "during",
-    "since",
-    "for"
+    {
+     "texte": "during",
+     "raison": "« I will wait here during you come back. » ne convient pas : « during » s'emploie avec un événement ou une période, pas pour dire « jusqu'à ce que »."
+    },
+    {
+     "texte": "since",
+     "raison": "« I will wait here since you come back. » ne convient pas : « since » introduit un point de départ dans le passé, pas la fin d'une attente future."
+    },
+    {
+     "texte": "for",
+     "raison": "« I will wait here for you come back. » ne convient pas : « for » introduit une durée (« for an hour »), pas le moment où l'attente s'arrête."
+    }
    ],
-   "explication": "until + moment où l'attente s'arrête.",
+   "explication": "« until » = jusqu'à ce que : « I will wait here until you come back » = j'attendrai ici jusqu'à ce que tu reviennes.",
    "relecture": null
   },
   {
@@ -1044,12 +1784,22 @@
    "niveau": 1,
    "enonce": "You ___ wear a seat belt. It's the law.",
    "bonne": "must",
+   "pourquoiBonne": "« You must wear a seat belt. It's the law. » est correct. « must » exprime une obligation forte (loi, règle) : « You must wear a seat belt » = vous devez attacher votre ceinture.",
    "fausses": [
-    "can",
-    "may",
-    "would"
+    {
+     "texte": "can",
+     "raison": "« You can wear a seat belt. It's the law. » ne convient pas : « can » exprime une possibilité ou une capacité, pas l'obligation imposée par la loi."
+    },
+    {
+     "texte": "may",
+     "raison": "« You may wear a seat belt. It's the law. » ne convient pas : « may » exprime une permission ou une possibilité, pas l'obligation imposée par la loi."
+    },
+    {
+     "texte": "would",
+     "raison": "« You would wear a seat belt. It's the law. » ne convient pas : « would » exprime une hypothèse ou une politesse, pas une obligation."
+    }
    ],
-   "explication": "Obligation légale : must.",
+   "explication": "« must » exprime une obligation forte (loi, règle) : « You must wear a seat belt » = vous devez attacher votre ceinture.",
    "relecture": null
   },
   {
@@ -1058,12 +1808,22 @@
    "niveau": 2,
    "enonce": "You ___ smoke here. It's forbidden.",
    "bonne": "mustn't",
+   "pourquoiBonne": "« You mustn't smoke here. It's forbidden. » est correct. « mustn't » exprime une interdiction (il ne faut pas). Ne le confonds pas avec « don't have to » (pas obligé).",
    "fausses": [
-    "needn't",
-    "may",
-    "can"
+    {
+     "texte": "needn't",
+     "raison": "« You needn't smoke here. It's forbidden. » ne convient pas : « needn't » signifie « il n'est pas nécessaire de » ; ici, l'interdiction est explicite (« forbidden »)."
+    },
+    {
+     "texte": "may",
+     "raison": "« You may smoke here. It's forbidden. » ne convient pas : « may » exprime une permission ou une possibilité, ce qui contredit « It's forbidden »."
+    },
+    {
+     "texte": "can",
+     "raison": "« You can smoke here. It's forbidden. » ne convient pas : « can » exprime une permission ou une capacité, ce qui contredit « It's forbidden »."
+    }
    ],
-   "explication": "Interdiction : mustn't.",
+   "explication": "« mustn't » exprime une interdiction (il ne faut pas). Ne le confonds pas avec « don't have to » (pas obligé).",
    "relecture": null
   },
   {
@@ -1072,12 +1832,22 @@
    "niveau": 2,
    "enonce": "You ___ come if you don't want to.",
    "bonne": "don't have to",
+   "pourquoiBonne": "« You don't have to come if you don't want to. » est correct. « don't have to » = ce n'est pas obligatoire, tu es libre de ne pas le faire. « mustn't » serait une interdiction.",
    "fausses": [
-    "mustn't",
-    "can't",
-    "must"
+    {
+     "texte": "mustn't",
+     "raison": "« You mustn't come if you don't want to. » ne convient pas : « mustn't » exprime une interdiction, alors que la phrase parle d'une absence d'obligation (« if you don't want to »)."
+    },
+    {
+     "texte": "can't",
+     "raison": "« You can't come if you don't want to. » ne convient pas : « can't » exprime une impossibilité ou une interdiction, pas une absence d'obligation."
+    },
+    {
+     "texte": "must",
+     "raison": "« You must come if you don't want to. » ne convient pas : « must » exprime une obligation, ce qui contredit « if you don't want to »."
+    }
    ],
-   "explication": "Absence d'obligation : don't have to.",
+   "explication": "« don't have to » = ce n'est pas obligatoire, tu es libre de ne pas le faire. « mustn't » serait une interdiction.",
    "relecture": null
   },
   {
@@ -1086,12 +1856,22 @@
    "niveau": 1,
    "enonce": "___ you help me, please?",
    "bonne": "Could",
+   "pourquoiBonne": "« Could you help me, please? » est correct. « Could you …? » est la manière polie de demander un service (« pourriez-vous … ? »). « Would you …? » marche aussi.",
    "fausses": [
-    "Must",
-    "Shall",
-    "Ought"
+    {
+     "texte": "Must",
+     "raison": "« Must you help me, please? » ne convient pas : « Must » exprime une obligation ; pour une demande polie, on emploie « Could »."
+    },
+    {
+     "texte": "Shall",
+     "raison": "« Shall you help me, please? » ne convient pas : « Shall » sert à proposer (« Shall we go? »), pas à demander un service à quelqu'un."
+    },
+    {
+     "texte": "Ought",
+     "raison": "« Ought you help me, please? » ne convient pas : « ought » est toujours suivi de « to » et ne sert pas à demander un service."
+    }
    ],
-   "explication": "Demande polie : could you...?",
+   "explication": "« Could you …? » est la manière polie de demander un service (« pourriez-vous … ? »). « Would you …? » marche aussi.",
    "relecture": null
   },
   {
@@ -1100,12 +1880,22 @@
    "niveau": 1,
    "enonce": "He ___ swim when he was five.",
    "bonne": "could",
+   "pourquoiBonne": "« He could swim when he was five. » est correct. « could » est le passé de « can » pour une capacité : « He could swim when he was five » = il savait nager à cinq ans.",
    "fausses": [
-    "can",
-    "must",
-    "may"
+    {
+     "texte": "can",
+     "raison": "« He can swim when he was five. » ne convient pas : « can » est au présent, alors que « when he was five » situe la capacité dans le passé."
+    },
+    {
+     "texte": "must",
+     "raison": "« He must swim when he was five. » ne convient pas : « must » exprime une obligation, pas une capacité passée."
+    },
+    {
+     "texte": "may",
+     "raison": "« He may swim when he was five. » ne convient pas : « may » exprime une permission ou une possibilité, pas une capacité passée."
+    }
    ],
-   "explication": "Capacité passée : could.",
+   "explication": "« could » est le passé de « can » pour une capacité : « He could swim when he was five » = il savait nager à cinq ans.",
    "relecture": null
   },
   {
@@ -1114,12 +1904,22 @@
    "niveau": 2,
    "enonce": "She ___ be at home. Her lights are on.",
    "bonne": "must",
+   "pourquoiBonne": "« She must be at home. Her lights are on. » est correct. « must be » exprime une déduction quasi certaine (« elle doit être là, les lumières sont allumées »). « can't be » exprime une quasi-certitude inverse.",
    "fausses": [
-    "can't",
-    "mustn't",
-    "needn't"
+    {
+     "texte": "can't",
+     "raison": "« She can't be at home. Her lights are on. » ne convient pas : « can't » exprimerait l'impossibilité, ce qui contredit « Her lights are on » (indice qu'elle est là)."
+    },
+    {
+     "texte": "mustn't",
+     "raison": "« She mustn't be at home. Her lights are on. » ne convient pas : « mustn't » exprime une interdiction, pas une déduction."
+    },
+    {
+     "texte": "needn't",
+     "raison": "« She needn't be at home. Her lights are on. » ne convient pas : « needn't » signifie « il n'est pas nécessaire de », pas une déduction."
+    }
    ],
-   "explication": "Déduction presque certaine : must be.",
+   "explication": "« must be » exprime une déduction quasi certaine (« elle doit être là, les lumières sont allumées »). « can't be » exprime une quasi-certitude inverse.",
    "relecture": null
   },
   {
@@ -1128,12 +1928,22 @@
    "niveau": 2,
    "enonce": "She ___ be at home. Her car isn't here and all the lights are off.",
    "bonne": "can't",
+   "pourquoiBonne": "« She can't be at home. Her car isn't here and all the lights are off. » est correct. « can't be » exprime la quasi-certitude que quelque chose est faux : sa voiture est absente, les lumières sont éteintes, donc « elle ne peut pas être chez elle ».",
    "fausses": [
-    "must",
-    "will",
-    "shall"
+    {
+     "texte": "must",
+     "raison": "« She must be at home. Her car isn't here and all the lights are off. » ne convient pas : « must » exprimerait la quasi-certitude qu'elle est là, ce qui contredit les indices (voiture absente, lumières éteintes)."
+    },
+    {
+     "texte": "will",
+     "raison": "« She will be at home. Her car isn't here and all the lights are off. » ne convient pas : « will » exprime une prévision ou une décision, pas une déduction sur le présent."
+    },
+    {
+     "texte": "shall",
+     "raison": "« She shall be at home. Her car isn't here and all the lights are off. » ne convient pas : « shall » sert à proposer ou à suggérer, pas à déduire."
+    }
    ],
-   "explication": "Déduction négative : can't be.",
+   "explication": "« can't be » exprime la quasi-certitude que quelque chose est faux : sa voiture est absente, les lumières sont éteintes, donc « elle ne peut pas être chez elle ».",
    "relecture": null
   },
   {
@@ -1142,10 +1952,20 @@
    "niveau": 2,
    "enonce": "You look very ill. You ___ to see a doctor.",
    "bonne": "ought",
+   "pourquoiBonne": "« You look very ill. You ought to see a doctor. » est correct. « ought to » + infinitif exprime le conseil ; « should », « must » et « can » ne prennent pas « to ».",
    "fausses": [
-    "should",
-    "must",
-    "can"
+    {
+     "texte": "should",
+     "raison": "« You look very ill. You should to see a doctor. » ne convient pas : « should » est correct pour un conseil mais ne se construit pas avec « to » ; ici la phrase contient « to », donc c'est « ought to »."
+    },
+    {
+     "texte": "must",
+     "raison": "« You look very ill. You must to see a doctor. » ne convient pas : « must » ne se construit pas avec « to » ; la phrase contient « to »."
+    },
+    {
+     "texte": "can",
+     "raison": "« You look very ill. You can to see a doctor. » ne convient pas : « can » ne se construit pas avec « to » et n'exprime pas un conseil."
+    }
    ],
    "explication": "« ought to » + infinitif exprime le conseil ; « should », « must » et « can » ne prennent pas « to ».",
    "relecture": null
@@ -1156,12 +1976,22 @@
    "niveau": 1,
    "enonce": "I'd like ___ a coffee, please.",
    "bonne": "to have",
+   "pourquoiBonne": "« I'd like to have a coffee, please. » est correct. « would like » (ou « I'd like ») est suivi de « to + infinitif » : I'd like to have a coffee = je voudrais un café.",
    "fausses": [
-    "having",
-    "have",
-    "had"
+    {
+     "texte": "having",
+     "raison": "« I'd like having a coffee, please. » ne convient pas : après « I'd like » (would like), on met « to + infinitif » : « to have »."
+    },
+    {
+     "texte": "have",
+     "raison": "« I'd like have a coffee, please. » ne convient pas : après « would like », il faut « to » devant l'infinitif : « to have »."
+    },
+    {
+     "texte": "had",
+     "raison": "« I'd like had a coffee, please. » ne convient pas : après « would like », on met « to + infinitif », jamais le passé."
+    }
    ],
-   "explication": "would like + to + infinitif.",
+   "explication": "« would like » (ou « I'd like ») est suivi de « to + infinitif » : I'd like to have a coffee = je voudrais un café.",
    "relecture": null
   },
   {
@@ -1170,12 +2000,22 @@
    "niveau": 1,
    "enonce": "Let's ___ to the park.",
    "bonne": "go",
+   "pourquoiBonne": "« Let's go to the park. » est correct. « Let's » (= let us) est suivi de l'infinitif sans « to » : Let's go = allons-y.",
    "fausses": [
-    "to go",
-    "going",
-    "goes"
+    {
+     "texte": "to go",
+     "raison": "« Let's to go to the park. » ne convient pas : après « Let's », l'infinitif s'emploie sans « to » : « Let's go »."
+    },
+    {
+     "texte": "going",
+     "raison": "« Let's going to the park. » ne convient pas : après « Let's », on met l'infinitif sans « to », pas le « -ing »."
+    },
+    {
+     "texte": "goes",
+     "raison": "« Let's goes to the park. » ne convient pas : après « Let's », on met l'infinitif sans « to », jamais une forme avec « -s »."
+    }
    ],
-   "explication": "Let's + infinitif sans to.",
+   "explication": "« Let's » (= let us) est suivi de l'infinitif sans « to » : Let's go = allons-y.",
    "relecture": null
   },
   {
@@ -1184,12 +2024,22 @@
    "niveau": 1,
    "enonce": "She can ___ French.",
    "bonne": "speak",
+   "pourquoiBonne": "« She can speak French. » est correct. Après un verbe modal (can, must, should, will …), le verbe reste à l'infinitif sans « to » et sans « -s » : she can speak French.",
    "fausses": [
-    "speaks",
-    "speaking",
-    "to speak"
+    {
+     "texte": "speaks",
+     "raison": "« She can speaks French. » ne convient pas : après un modal comme « can », le verbe reste à la forme de base, sans « -s »."
+    },
+    {
+     "texte": "speaking",
+     "raison": "« She can speaking French. » ne convient pas : après un modal comme « can », on met l'infinitif sans « to », pas le « -ing »."
+    },
+    {
+     "texte": "to speak",
+     "raison": "« She can to speak French. » ne convient pas : après un modal comme « can », on met l'infinitif sans « to »."
+    }
    ],
-   "explication": "Après un modal, infinitif sans to.",
+   "explication": "Après un verbe modal (can, must, should, will …), le verbe reste à l'infinitif sans « to » et sans « -s » : she can speak French.",
    "relecture": null
   },
   {
@@ -1198,10 +2048,20 @@
    "niveau": 1,
    "enonce": "She is ___ honest woman.",
    "bonne": "an",
+   "pourquoiBonne": "« She is an honest woman. » est correct. « honest » commence par un son voyelle (le h est muet) : an.",
    "fausses": [
-    "a",
-    "any",
-    "many"
+    {
+     "texte": "a",
+     "raison": "« She is a honest woman. » ne convient pas : « honest » commence par un son voyelle (le « h » est muet) : on dit « an honest woman »."
+    },
+    {
+     "texte": "any",
+     "raison": "« She is any honest woman. » ne convient pas : « any » n'est pas un article : « any honest woman » ne convient pas pour parler d'une seule personne précise."
+    },
+    {
+     "texte": "many",
+     "raison": "« She is many honest woman. » ne convient pas : « many » s'emploie avec un pluriel ; « woman » est au singulier."
+    }
    ],
    "explication": "« honest » commence par un son voyelle (le h est muet) : an.",
    "relecture": null
@@ -1212,10 +2072,20 @@
    "niveau": 1,
    "enonce": "I ___ the guitar every evening.",
    "bonne": "play",
+   "pourquoiBonne": "« I play the guitar every evening. » est correct. On « joue » d'un instrument : play the guitar.",
    "fausses": [
-    "do",
-    "go",
-    "say"
+    {
+     "texte": "do",
+     "raison": "« I do the guitar every evening. » ne convient pas : on « joue » d'un instrument avec le verbe « play », pas avec « do »."
+    },
+    {
+     "texte": "go",
+     "raison": "« I go the guitar every evening. » ne convient pas : « go » n'a pas le sens de « jouer » d'un instrument."
+    },
+    {
+     "texte": "say",
+     "raison": "« I say the guitar every evening. » ne convient pas : « say » veut dire « dire », pas « jouer »."
+    }
    ],
    "explication": "On « joue » d'un instrument : play the guitar.",
    "relecture": null
@@ -1226,12 +2096,22 @@
    "niveau": 1,
    "enonce": "___ sun rises in the east.",
    "bonne": "The",
+   "pourquoiBonne": "« The sun rises in the east. » est correct. « the » devant ce qui est unique (the sun, the moon, the sky). Les phrases anglaises sur un élément unique prennent « the ».",
    "fausses": [
-    "An",
-    "Any",
-    "Many"
+    {
+     "texte": "An",
+     "raison": "« An sun rises in the east. » ne convient pas : « an » s'emploie devant un son voyelle ; « sun » commence par le son [s]."
+    },
+    {
+     "texte": "Any",
+     "raison": "« Any sun rises in the east. » ne convient pas : « any » ne s'emploie pas pour désigner l'unique soleil."
+    },
+    {
+     "texte": "Many",
+     "raison": "« Many sun rises in the east. » ne convient pas : « many » s'emploie avec un pluriel ; « sun » est au singulier."
+    }
    ],
-   "explication": "Élément unique : the sun.",
+   "explication": "« the » devant ce qui est unique (the sun, the moon, the sky). Les phrases anglaises sur un élément unique prennent « the ».",
    "relecture": null
   },
   {
@@ -1240,10 +2120,20 @@
    "niveau": 1,
    "enonce": "She wants to be ___ engineer.",
    "bonne": "an",
+   "pourquoiBonne": "« She wants to be an engineer. » est correct. Profession : a/an ; « engineer » commence par une voyelle : an.",
    "fausses": [
-    "a",
-    "any",
-    "many"
+    {
+     "texte": "a",
+     "raison": "« She wants to be a engineer. » ne convient pas : « engineer » commence par un son voyelle : on dit « an engineer »."
+    },
+    {
+     "texte": "any",
+     "raison": "« She wants to be any engineer. » ne convient pas : « any » ne s'emploie pas pour désigner un métier exercé par une personne."
+    },
+    {
+     "texte": "many",
+     "raison": "« She wants to be many engineer. » ne convient pas : « many » s'emploie avec un pluriel ; « engineer » est au singulier."
+    }
    ],
    "explication": "Profession : a/an ; « engineer » commence par une voyelle : an.",
    "relecture": null
@@ -1254,10 +2144,20 @@
    "niveau": 2,
    "enonce": "Everybody ___ happy today.",
    "bonne": "is",
+   "pourquoiBonne": "« Everybody is happy today. » est correct. everybody se construit avec le singulier.",
    "fausses": [
-    "are",
-    "be",
-    "am"
+    {
+     "texte": "are",
+     "raison": "« Everybody are happy today. » ne convient pas : « everybody » se construit avec un verbe au singulier : « is »."
+    },
+    {
+     "texte": "be",
+     "raison": "« Everybody be happy today. » ne convient pas : « be » est un infinitif : il faut une forme conjuguée."
+    },
+    {
+     "texte": "am",
+     "raison": "« Everybody am happy today. » ne convient pas : « am » ne s'emploie qu'avec « I »."
+    }
    ],
    "explication": "everybody se construit avec le singulier.",
    "relecture": null
@@ -1268,10 +2168,20 @@
    "niveau": 2,
    "enonce": "The news ___ very good today.",
    "bonne": "is",
+   "pourquoiBonne": "« The news is very good today. » est correct. « news » est indénombrable, verbe au singulier.",
    "fausses": [
-    "are",
-    "were",
-    "been"
+    {
+     "texte": "are",
+     "raison": "« The news are very good today. » ne convient pas : « news » est un nom indénombrable : le verbe est au singulier (« is »)."
+    },
+    {
+     "texte": "were",
+     "raison": "« The news were very good today. » ne convient pas : « were » est au passé et au pluriel, alors que « today » situe la phrase au présent."
+    },
+    {
+     "texte": "been",
+     "raison": "« The news been very good today. » ne convient pas : « been » est un participe passé : il lui faudrait « have » pour former un temps."
+    }
    ],
    "explication": "« news » est indénombrable, verbe au singulier.",
    "relecture": null
@@ -1282,10 +2192,20 @@
    "niveau": 1,
    "enonce": "I have ___ umbrella in my bag, so I'm ready for the rain.",
    "bonne": "an",
+   "pourquoiBonne": "« I have an umbrella in my bag, so I'm ready for the rain. » est correct. « umbrella » commence par un son voyelle : an.",
    "fausses": [
-    "a",
-    "many",
-    "few"
+    {
+     "texte": "a",
+     "raison": "« I have a umbrella in my bag, so I'm ready for the rain. » ne convient pas : « umbrella » commence par un son voyelle : on dit « an umbrella »."
+    },
+    {
+     "texte": "many",
+     "raison": "« I have many umbrella in my bag, so I'm ready for the rain. » ne convient pas : « many » s'emploie avec un pluriel ; « umbrella » est au singulier."
+    },
+    {
+     "texte": "few",
+     "raison": "« I have few umbrella in my bag, so I'm ready for the rain. » ne convient pas : « few » s'emploie avec un pluriel ; « umbrella » est au singulier."
+    }
    ],
    "explication": "« umbrella » commence par un son voyelle : an.",
    "relecture": null
@@ -1296,10 +2216,20 @@
    "niveau": 2,
    "enonce": "The cake ___ by my mother yesterday.",
    "bonne": "was made",
+   "pourquoiBonne": "« The cake was made by my mother yesterday. » est correct. Passif au prétérit : was + participe passé.",
    "fausses": [
-    "made",
-    "is making",
-    "has make"
+    {
+     "texte": "made",
+     "raison": "« The cake made by my mother yesterday. » ne convient pas : « made » seul n'est pas un passif : il manque l'auxiliaire « was »."
+    },
+    {
+     "texte": "is making",
+     "raison": "« The cake is making by my mother yesterday. » ne convient pas : c'est le présent continu à la voix active ; ici le gâteau subit l'action (« by my mother ») et « yesterday » impose le passé."
+    },
+    {
+     "texte": "has make",
+     "raison": "« The cake has make by my mother yesterday. » ne convient pas : « has make » n'existe pas (le participe serait « made »), et « yesterday » impose le passé simple."
+    }
    ],
    "explication": "Passif au prétérit : was + participe passé.",
    "relecture": null
@@ -1310,10 +2240,20 @@
    "niveau": 1,
    "enonce": "English ___ all over the world.",
    "bonne": "is spoken",
+   "pourquoiBonne": "« English is spoken all over the world. » est correct. Passif au présent : is + participe passé.",
    "fausses": [
-    "speaks",
-    "is speaking",
-    "spoke"
+    {
+     "texte": "speaks",
+     "raison": "« English speaks all over the world. » ne convient pas : « speaks » est à la voix active ; ici l'anglais subit l'action, il faut le passif."
+    },
+    {
+     "texte": "is speaking",
+     "raison": "« English is speaking all over the world. » ne convient pas : « is speaking » est un présent continu à la voix active, qui ne convient pas pour « English »."
+    },
+    {
+     "texte": "spoke",
+     "raison": "« English spoke all over the world. » ne convient pas : « spoke » est un passé actif ; la phrase est au présent et au passif."
+    }
    ],
    "explication": "Passif au présent : is + participe passé.",
    "relecture": null
@@ -1324,10 +2264,20 @@
    "niveau": 2,
    "enonce": "The letters ___ yesterday.",
    "bonne": "were sent",
+   "pourquoiBonne": "« The letters were sent yesterday. » est correct. « yesterday » + sujet pluriel : were sent.",
    "fausses": [
-    "are sent",
-    "sent",
-    "have sent"
+    {
+     "texte": "are sent",
+     "raison": "« The letters are sent yesterday. » ne convient pas : « are sent » est au présent, alors que « yesterday » impose le passé : « were sent »."
+    },
+    {
+     "texte": "sent",
+     "raison": "« The letters sent yesterday. » ne convient pas : « sent » seul n'est pas un passif : il manque l'auxiliaire « were »."
+    },
+    {
+     "texte": "have sent",
+     "raison": "« The letters have sent yesterday. » ne convient pas : « have sent » est un actif ; ici les lettres subissent l'action."
+    }
    ],
    "explication": "« yesterday » + sujet pluriel : were sent.",
    "relecture": null
@@ -1338,12 +2288,22 @@
    "niveau": 2,
    "enonce": "This house ___ in 1900.",
    "bonne": "was built",
+   "pourquoiBonne": "« This house was built in 1900. » est correct. Passif au passé : was / were + participe passé. « This house was built in 1900 » = cette maison a été construite en 1900.",
    "fausses": [
-    "is built",
-    "built",
-    "has built"
+    {
+     "texte": "is built",
+     "raison": "« This house is built in 1900. » ne convient pas : « is built » est au présent, alors que « in 1900 » impose le passé : « was built »."
+    },
+    {
+     "texte": "built",
+     "raison": "« This house built in 1900. » ne convient pas : « built » seul n'est pas un passif : il manque l'auxiliaire « was »."
+    },
+    {
+     "texte": "has built",
+     "raison": "« This house has built in 1900. » ne convient pas : « has built » est un actif ; ici la maison subit l'action."
+    }
    ],
-   "explication": "Date passée : passif au prétérit.",
+   "explication": "Passif au passé : was / were + participe passé. « This house was built in 1900 » = cette maison a été construite en 1900.",
    "relecture": null
   },
   {
@@ -1352,10 +2312,20 @@
    "niveau": 3,
    "enonce": "The new bridge ___ by the president next year.",
    "bonne": "will be opened",
+   "pourquoiBonne": "« The new bridge will be opened by the president next year. » est correct. « by the president » (complément d'agent) impose le passif au futur : will be + participe passé.",
    "fausses": [
-    "will open",
-    "opens",
-    "opened"
+    {
+     "texte": "will open",
+     "raison": "« The new bridge will open by the president next year. » ne convient pas : « will open » est à la voix active ; avec « by the president », le pont subit l'action : passif."
+    },
+    {
+     "texte": "opens",
+     "raison": "« The new bridge opens by the president next year. » ne convient pas : « opens » est un présent actif ; il faut le futur passif à cause de « next year » et de « by the president »."
+    },
+    {
+     "texte": "opened",
+     "raison": "« The new bridge opened by the president next year. » ne convient pas : « opened » est un passé ; « next year » situe l'action dans le futur."
+    }
    ],
    "explication": "« by the president » (complément d'agent) impose le passif au futur : will be + participe passé.",
    "relecture": null
@@ -1366,12 +2336,22 @@
    "niveau": 2,
    "enonce": "I enjoy ___ to music.",
    "bonne": "listening",
+   "pourquoiBonne": "« I enjoy listening to music. » est correct. Après « enjoy », le verbe se met en « -ing » : enjoy listening to music = aimer écouter de la musique.",
    "fausses": [
-    "to listen",
-    "listen",
-    "listened"
+    {
+     "texte": "to listen",
+     "raison": "« I enjoy to listen to music. » ne convient pas : après « enjoy », on met le verbe en « -ing », jamais « to + infinitif »."
+    },
+    {
+     "texte": "listen",
+     "raison": "« I enjoy listen to music. » ne convient pas : après « enjoy », on met le verbe en « -ing », pas l'infinitif."
+    },
+    {
+     "texte": "listened",
+     "raison": "« I enjoy listened to music. » ne convient pas : après « enjoy », on met le verbe en « -ing », pas le passé."
+    }
    ],
-   "explication": "enjoy + verbe en -ing.",
+   "explication": "Après « enjoy », le verbe se met en « -ing » : enjoy listening to music = aimer écouter de la musique.",
    "relecture": null
   },
   {
@@ -1380,12 +2360,22 @@
    "niveau": 2,
    "enonce": "She decided ___ a new job.",
    "bonne": "to find",
+   "pourquoiBonne": "« She decided to find a new job. » est correct. Après « decide », on met « to + infinitif » : she decided to find a new job = elle a décidé de trouver un nouvel emploi.",
    "fausses": [
-    "finding",
-    "find",
-    "found"
+    {
+     "texte": "finding",
+     "raison": "« She decided finding a new job. » ne convient pas : après « decide », on met « to + infinitif », jamais le « -ing »."
+    },
+    {
+     "texte": "find",
+     "raison": "« She decided find a new job. » ne convient pas : après « decide », il faut « to » devant l'infinitif."
+    },
+    {
+     "texte": "found",
+     "raison": "« She decided found a new job. » ne convient pas : après « decide », on met « to + infinitif », jamais le passé."
+    }
    ],
-   "explication": "decide + to + infinitif.",
+   "explication": "Après « decide », on met « to + infinitif » : she decided to find a new job = elle a décidé de trouver un nouvel emploi.",
    "relecture": null
   },
   {
@@ -1394,10 +2384,20 @@
    "niveau": 3,
    "enonce": "He is used to ___ early.",
    "bonne": "getting up",
+   "pourquoiBonne": "« He is used to getting up early. » est correct. be used to + verbe en -ing (être habitué à).",
    "fausses": [
-    "get up",
-    "got up",
-    "gets up"
+    {
+     "texte": "get up",
+     "raison": "« He is used to get up early. » ne convient pas : après « be used to » (être habitué à), on met le verbe en « -ing »."
+    },
+    {
+     "texte": "got up",
+     "raison": "« He is used to got up early. » ne convient pas : après « be used to », on met le verbe en « -ing », pas le passé."
+    },
+    {
+     "texte": "gets up",
+     "raison": "« He is used to gets up early. » ne convient pas : après « be used to », on met le verbe en « -ing », pas une forme conjuguée."
+    }
    ],
    "explication": "be used to + verbe en -ing (être habitué à).",
    "relecture": null
@@ -1408,12 +2408,22 @@
    "niveau": 3,
    "enonce": "I look forward to ___ you.",
    "bonne": "seeing",
+   "pourquoiBonne": "« I look forward to seeing you. » est correct. Dans « look forward to », « to » est une préposition : il est suivi du « -ing » : I look forward to seeing you = j'ai hâte de te voir.",
    "fausses": [
-    "see",
-    "saw",
-    "seen"
+    {
+     "texte": "see",
+     "raison": "« I look forward to see you. » ne convient pas : « to » dans « look forward to » est une préposition : elle est suivie d'un verbe en « -ing »."
+    },
+    {
+     "texte": "saw",
+     "raison": "« I look forward to saw you. » ne convient pas : « to » dans « look forward to » est une préposition : elle est suivie d'un verbe en « -ing », pas du passé."
+    },
+    {
+     "texte": "seen",
+     "raison": "« I look forward to seen you. » ne convient pas : « to » dans « look forward to » est une préposition : elle est suivie d'un verbe en « -ing », pas d'un participe passé."
+    }
    ],
-   "explication": "look forward to + verbe en -ing.",
+   "explication": "Dans « look forward to », « to » est une préposition : il est suivi du « -ing » : I look forward to seeing you = j'ai hâte de te voir.",
    "relecture": null
   },
   {
@@ -1422,12 +2432,22 @@
    "niveau": 2,
    "enonce": "He suggested ___ to the beach.",
    "bonne": "going",
+   "pourquoiBonne": "« He suggested going to the beach. » est correct. Après « suggest », on met le verbe en « -ing » : he suggested going to the beach = il a proposé d'aller à la plage.",
    "fausses": [
-    "to go",
-    "go",
-    "goes"
+    {
+     "texte": "to go",
+     "raison": "« He suggested to go to the beach. » ne convient pas : après « suggest », on met le verbe en « -ing », jamais « to + infinitif »."
+    },
+    {
+     "texte": "go",
+     "raison": "« He suggested go to the beach. » ne convient pas : après « suggest », on met le verbe en « -ing », pas l'infinitif."
+    },
+    {
+     "texte": "goes",
+     "raison": "« He suggested goes to the beach. » ne convient pas : après « suggest », on met le verbe en « -ing », pas une forme conjuguée."
+    }
    ],
-   "explication": "suggest + verbe en -ing.",
+   "explication": "Après « suggest », on met le verbe en « -ing » : he suggested going to the beach = il a proposé d'aller à la plage.",
    "relecture": null
   },
   {
@@ -1436,10 +2456,20 @@
    "niveau": 2,
    "enonce": "She is ___ tired to work today.",
    "bonne": "too",
+   "pourquoiBonne": "« She is too tired to work today. » est correct. too + adjectif + to + infinitif : trop... pour.",
    "fausses": [
-    "very",
-    "so",
-    "enough"
+    {
+     "texte": "very",
+     "raison": "« She is very tired to work today. » ne convient pas : « very » ne se construit pas avec « to + infinitif » pour exprimer la conséquence ; la structure est « too + adjectif + to »."
+    },
+    {
+     "texte": "so",
+     "raison": "« She is so tired to work today. » ne convient pas : « so tired to work » n'existe pas : la structure est « too tired to work » ou « so tired that … »."
+    },
+    {
+     "texte": "enough",
+     "raison": "« She is enough tired to work today. » ne convient pas : « enough » se place après l'adjectif (« tired enough ») et son sens est positif, ce qui ne convient pas ici."
+    }
    ],
    "explication": "too + adjectif + to + infinitif : trop... pour.",
    "relecture": null
@@ -1450,12 +2480,22 @@
    "niveau": 2,
    "enonce": "He isn't old ___ to drive.",
    "bonne": "enough",
+   "pourquoiBonne": "« He isn't old enough to drive. » est correct. Structure : adjectif + enough + to + infinitif : old enough to drive = assez âgé pour conduire. « too » se place avant l'adjectif et a un sens négatif (trop … pour).",
    "fausses": [
-    "too",
-    "very",
-    "so"
+    {
+     "texte": "too",
+     "raison": "« He isn't old too to drive. » ne convient pas : « too » se place avant l'adjectif (« too old »), alors que « enough » se place après lui ; ici « old ___ » donne « old enough »."
+    },
+    {
+     "texte": "very",
+     "raison": "« He isn't old very to drive. » ne convient pas : « very » ne se construit pas avec « to + infinitif » : la structure est « adjectif + enough + to »."
+    },
+    {
+     "texte": "so",
+     "raison": "« He isn't old so to drive. » ne convient pas : « so » ne se construit pas avec « to + infinitif » : la structure est « adjectif + enough + to »."
+    }
    ],
-   "explication": "adjectif + enough + to + infinitif.",
+   "explication": "Structure : adjectif + enough + to + infinitif : old enough to drive = assez âgé pour conduire. « too » se place avant l'adjectif et a un sens négatif (trop … pour).",
    "relecture": null
   },
   {
@@ -1464,12 +2504,22 @@
    "niveau": 2,
    "enonce": "I'm tired of ___ the same thing every day.",
    "bonne": "doing",
+   "pourquoiBonne": "« I'm tired of doing the same thing every day. » est correct. Après une préposition (of, in, at, about …), le verbe se met en « -ing » : tired of doing = fatigué de faire.",
    "fausses": [
-    "do",
-    "to do",
-    "done"
+    {
+     "texte": "do",
+     "raison": "« I'm tired of do the same thing every day. » ne convient pas : « of » est une préposition : elle est suivie d'un verbe en « -ing », pas de l'infinitif."
+    },
+    {
+     "texte": "to do",
+     "raison": "« I'm tired of to do the same thing every day. » ne convient pas : après une préposition (« of »), on met le verbe en « -ing », jamais « to + infinitif »."
+    },
+    {
+     "texte": "done",
+     "raison": "« I'm tired of done the same thing every day. » ne convient pas : après une préposition (« of »), on met le verbe en « -ing », pas un participe passé."
+    }
    ],
-   "explication": "Après une préposition, verbe en -ing.",
+   "explication": "Après une préposition (of, in, at, about …), le verbe se met en « -ing » : tired of doing = fatigué de faire.",
    "relecture": null
   },
   {
@@ -1478,12 +2528,22 @@
    "niveau": 1,
    "enonce": "I like tea, ___ I don't like coffee.",
    "bonne": "but",
+   "pourquoiBonne": "« I like tea, but I don't like coffee. » est correct. « but » (mais) relie deux idées opposées : I like tea, but I don't like coffee.",
    "fausses": [
-    "so",
-    "because",
-    "or"
+    {
+     "texte": "so",
+     "raison": "« I like tea, so I don't like coffee. » ne convient pas : « so » exprime la conséquence ; ici les deux propositions s'opposent (« I like tea / I don't like coffee »)."
+    },
+    {
+     "texte": "because",
+     "raison": "« I like tea, because I don't like coffee. » ne convient pas : « because » exprime la cause ; ici les deux propositions s'opposent."
+    },
+    {
+     "texte": "or",
+     "raison": "« I like tea, or I don't like coffee. » ne convient pas : « or » exprime un choix ; ici les deux propositions s'opposent."
+    }
    ],
-   "explication": "Opposition : but.",
+   "explication": "« but » (mais) relie deux idées opposées : I like tea, but I don't like coffee.",
    "relecture": null
   },
   {
@@ -1492,12 +2552,22 @@
    "niveau": 1,
    "enonce": "I was late ___ the bus was late.",
    "bonne": "because",
+   "pourquoiBonne": "« I was late because the bus was late. » est correct. « because » (parce que) introduit la cause : I was late because the bus was late = j'étais en retard parce que le bus l'était.",
    "fausses": [
-    "so",
-    "but",
-    "although"
+    {
+     "texte": "so",
+     "raison": "« I was late so the bus was late. » ne convient pas : « so » exprime la conséquence ; ici « the bus was late » est la cause de « I was late »."
+    },
+    {
+     "texte": "but",
+     "raison": "« I was late but the bus was late. » ne convient pas : « but » exprime une opposition ; ici « the bus was late » est la cause du retard."
+    },
+    {
+     "texte": "although",
+     "raison": "« I was late although the bus was late. » ne convient pas : « although » exprime une concession ; ici « the bus was late » est la cause du retard."
+    }
    ],
-   "explication": "Cause : because.",
+   "explication": "« because » (parce que) introduit la cause : I was late because the bus was late = j'étais en retard parce que le bus l'était.",
    "relecture": null
   },
   {
@@ -1506,12 +2576,22 @@
    "niveau": 1,
    "enonce": "He was tired, ___ he went to bed.",
    "bonne": "so",
+   "pourquoiBonne": "« He was tired, so he went to bed. » est correct. « so » (donc, alors) introduit la conséquence : he was tired, so he went to bed = il était fatigué, alors il est allé se coucher.",
    "fausses": [
-    "because",
-    "although",
-    "unless"
+    {
+     "texte": "because",
+     "raison": "« He was tired, because he went to bed. » ne convient pas : « because » introduit une cause ; ici « he went to bed » est la conséquence de « he was tired »."
+    },
+    {
+     "texte": "although",
+     "raison": "« He was tired, although he went to bed. » ne convient pas : « although » exprime une concession ; ici la fatigue est la raison d'aller se coucher."
+    },
+    {
+     "texte": "unless",
+     "raison": "« He was tired, unless he went to bed. » ne convient pas : « unless » exprime une condition négative ; ici la phrase décrit un fait."
+    }
    ],
-   "explication": "Conséquence : so.",
+   "explication": "« so » (donc, alors) introduit la conséquence : he was tired, so he went to bed = il était fatigué, alors il est allé se coucher.",
    "relecture": null
   },
   {
@@ -1520,10 +2600,20 @@
    "niveau": 2,
    "enonce": "___ it was raining heavily, we went out without umbrellas.",
    "bonne": "Although",
+   "pourquoiBonne": "« Although it was raining heavily, we went out without umbrellas. » est correct. Concession (malgré la pluie) : although.",
    "fausses": [
-    "Because",
-    "So",
-    "Unless"
+    {
+     "texte": "Because",
+     "raison": "« Because it was raining heavily, we went out without umbrellas. » ne convient pas : « because » exprime une cause ; ici on sort malgré la pluie, donc une concession (« although »)."
+    },
+    {
+     "texte": "So",
+     "raison": "« So it was raining heavily, we went out without umbrellas. » ne convient pas : « so » exprime la conséquence ; ici on sort malgré la pluie."
+    },
+    {
+     "texte": "Unless",
+     "raison": "« Unless it was raining heavily, we went out without umbrellas. » ne convient pas : « unless » exprime une condition négative ; ici la phrase décrit un fait passé."
+    }
    ],
    "explication": "Concession (malgré la pluie) : although.",
    "relecture": null
@@ -1534,12 +2624,22 @@
    "niveau": 2,
    "enonce": "You won't pass ___ you work harder.",
    "bonne": "unless",
+   "pourquoiBonne": "« You won't pass unless you work harder. » est correct. « unless » = « if … not » (à moins que, sauf si) : you won't pass unless you work harder = vous ne réussirez pas si vous ne travaillez pas plus.",
    "fausses": [
-    "if",
-    "when",
-    "because"
+    {
+     "texte": "if",
+     "raison": "« You won't pass if you work harder. » ne convient pas : « if » est grammaticalement possible mais change le sens : « You won't pass if you work harder » dirait que travailler plus fait échouer."
+    },
+    {
+     "texte": "when",
+     "raison": "« You won't pass when you work harder. » ne convient pas : « when » indique un moment, pas une condition négative."
+    },
+    {
+     "texte": "because",
+     "raison": "« You won't pass because you work harder. » ne convient pas : « because » exprime une cause, pas une condition."
+    }
    ],
-   "explication": "unless = if not.",
+   "explication": "« unless » = « if … not » (à moins que, sauf si) : you won't pass unless you work harder = vous ne réussirez pas si vous ne travaillez pas plus.",
    "relecture": null
   },
   {
@@ -1548,12 +2648,22 @@
    "niveau": 2,
    "enonce": "Neither Tom ___ Mary came to the party.",
    "bonne": "nor",
+   "pourquoiBonne": "« Neither Tom nor Mary came to the party. » est correct. « neither … nor » (ni … ni) : neither Tom nor Mary came = ni Tom ni Mary ne sont venus. À ne pas confondre avec « either … or » (soit … soit).",
    "fausses": [
-    "and",
-    "but",
-    "either"
+    {
+     "texte": "and",
+     "raison": "« Neither Tom and Mary came to the party. » ne convient pas : « neither » va avec « nor » ; « and » ne s'emploie pas dans cette structure."
+    },
+    {
+     "texte": "but",
+     "raison": "« Neither Tom but Mary came to the party. » ne convient pas : « neither » va avec « nor » ; « but » ne s'emploie pas dans cette structure."
+    },
+    {
+     "texte": "either",
+     "raison": "« Neither Tom either Mary came to the party. » ne convient pas : « either » va avec « or » (« either … or »), pas avec « neither »."
+    }
    ],
-   "explication": "neither ... nor.",
+   "explication": "« neither … nor » (ni … ni) : neither Tom nor Mary came = ni Tom ni Mary ne sont venus. À ne pas confondre avec « either … or » (soit … soit).",
    "relecture": null
   },
   {
@@ -1562,12 +2672,22 @@
    "niveau": 2,
    "enonce": "She asked me ___ I wanted some tea.",
    "bonne": "if",
+   "pourquoiBonne": "« She asked me if I wanted some tea. » est correct. Pour rapporter une question à réponse oui / non, on utilise « if » (ou « whether ») : she asked me if I wanted some tea.",
    "fausses": [
-    "that",
-    "what",
-    "who"
+    {
+     "texte": "that",
+     "raison": "« She asked me that I wanted some tea. » ne convient pas : dans une question fermée rapportée (oui / non), on emploie « if » ; « that » introduit une affirmation."
+    },
+    {
+     "texte": "what",
+     "raison": "« She asked me what I wanted some tea. » ne convient pas : « what » introduit une question ouverte sur une chose ; ici la question est oui / non."
+    },
+    {
+     "texte": "who",
+     "raison": "« She asked me who I wanted some tea. » ne convient pas : « who » introduit une question sur une personne ; ici la question est oui / non."
+    }
    ],
-   "explication": "Question fermée rapportée : if.",
+   "explication": "Pour rapporter une question à réponse oui / non, on utilise « if » (ou « whether ») : she asked me if I wanted some tea.",
    "relecture": null
   },
   {
@@ -1576,12 +2696,22 @@
    "niveau": 3,
    "enonce": "He speaks English ___ he were English.",
    "bonne": "as if",
+   "pourquoiBonne": "« He speaks English as if he were English. » est correct. « as if » (comme si) est suivi du prétérit pour une situation irréelle ; avec « be », on emploie « were » : he speaks as if he were English = il parle comme s'il était anglais.",
    "fausses": [
-    "as",
-    "so",
-    "than"
+    {
+     "texte": "as",
+     "raison": "« He speaks English as he were English. » ne convient pas : « as » seul ne marque pas la comparaison irréelle ; l'expression est « as if » (comme si)."
+    },
+    {
+     "texte": "so",
+     "raison": "« He speaks English so he were English. » ne convient pas : « so » ne convient pas pour exprimer « comme si »."
+    },
+    {
+     "texte": "than",
+     "raison": "« He speaks English than he were English. » ne convient pas : « than » s'emploie dans les comparatifs (« taller than »), pas pour dire « comme si »."
+    }
    ],
-   "explication": "as if + prétérit (were) : comme si.",
+   "explication": "« as if » (comme si) est suivi du prétérit pour une situation irréelle ; avec « be », on emploie « were » : he speaks as if he were English = il parle comme s'il était anglais.",
    "relecture": null
   },
   {
@@ -1590,10 +2720,20 @@
    "niveau": 3,
    "enonce": "Hardly ___ he arrived when the phone rang.",
    "bonne": "had",
+   "pourquoiBonne": "« Hardly had he arrived when the phone rang. » est correct. Hardly + had + sujet + participe passé + when.",
    "fausses": [
-    "has",
-    "did",
-    "was"
+    {
+     "texte": "has",
+     "raison": "« Hardly has he arrived when the phone rang. » ne convient pas : après « Hardly », on utilise le past perfect avec inversion : « Hardly had he arrived »."
+    },
+    {
+     "texte": "did",
+     "raison": "« Hardly did he arrived when the phone rang. » ne convient pas : « did » donnerait « Hardly did he arrive » (passé simple) ; la structure avec « when » appelle le past perfect : « had »."
+    },
+    {
+     "texte": "was",
+     "raison": "« Hardly was he arrived when the phone rang. » ne convient pas : « was » ne forme pas de past perfect ; la structure est « Hardly had … when ». "
+    }
    ],
    "explication": "Hardly + had + sujet + participe passé + when.",
    "relecture": null
@@ -1604,12 +2744,22 @@
    "niveau": 1,
    "enonce": "___ do you live?",
    "bonne": "Where",
+   "pourquoiBonne": "« Where do you live? » est correct. « Where » demande un lieu (où), « When » un moment (quand), « Who » une personne (qui), « Why » une raison (pourquoi).",
    "fausses": [
-    "Who",
-    "Which",
-    "Whose"
+    {
+     "texte": "Who",
+     "raison": "« Who do you live? » ne convient pas : « who » demande l'identité d'une personne ; ici on demande le lieu où l'on habite."
+    },
+    {
+     "texte": "Which",
+     "raison": "« Which do you live? » ne convient pas : « which » demande de choisir parmi plusieurs possibilités ; ici on demande le lieu."
+    },
+    {
+     "texte": "Whose",
+     "raison": "« Whose do you live? » ne convient pas : « whose » demande à qui appartient quelque chose ; ici on demande le lieu."
+    }
    ],
-   "explication": "Question sur le lieu : where.",
+   "explication": "« Where » demande un lieu (où), « When » un moment (quand), « Who » une personne (qui), « Why » une raison (pourquoi).",
    "relecture": null
   },
   {
@@ -1618,12 +2768,22 @@
    "niveau": 1,
    "enonce": "___ is your birthday? It's in May.",
    "bonne": "When",
+   "pourquoiBonne": "« When is your birthday? It's in May. » est correct. « When » demande un moment (quand). La réponse « in May » est un moment.",
    "fausses": [
-    "Where",
-    "Who",
-    "Why"
+    {
+     "texte": "Where",
+     "raison": "« Where is your birthday? It's in May. » ne convient pas : « where » demande un lieu ; la réponse « in May » donne un moment."
+    },
+    {
+     "texte": "Who",
+     "raison": "« Who is your birthday? It's in May. » ne convient pas : « who » demande l'identité d'une personne ; la réponse donne un mois."
+    },
+    {
+     "texte": "Why",
+     "raison": "« Why is your birthday? It's in May. » ne convient pas : « why » demande une raison ; la réponse « in May » donne un moment."
+    }
    ],
-   "explication": "Question sur le moment : when.",
+   "explication": "« When » demande un moment (quand). La réponse « in May » est un moment.",
    "relecture": null
   },
   {
@@ -1632,10 +2792,20 @@
    "niveau": 2,
    "enonce": "You like football, ___ you?",
    "bonne": "don't",
+   "pourquoiBonne": "« You like football, don't you? » est correct. Question tag : phrase positive, tag négatif avec l'auxiliaire du présent simple.",
    "fausses": [
-    "didn't",
-    "are",
-    "aren't"
+    {
+     "texte": "didn't",
+     "raison": "« You like football, didn't you? » ne convient pas : le tag reprend l'auxiliaire du verbe : « You like » est au présent simple, donc « don't you »."
+    },
+    {
+     "texte": "are",
+     "raison": "« You like football, are you? » ne convient pas : le tag reprend l'auxiliaire du verbe et doit être négatif pour une phrase positive ; « are » est positif et ne correspond pas à « like »."
+    },
+    {
+     "texte": "aren't",
+     "raison": "« You like football, aren't you? » ne convient pas : « aren't » ne correspond pas au verbe « like » (présent simple) : le tag est « don't »."
+    }
    ],
    "explication": "Question tag : phrase positive, tag négatif avec l'auxiliaire du présent simple.",
    "relecture": null
@@ -1646,10 +2816,20 @@
    "niveau": 2,
    "enonce": "She isn't coming, ___ she?",
    "bonne": "is",
+   "pourquoiBonne": "« She isn't coming, is she? » est correct. Phrase négative : tag positif avec le même auxiliaire.",
    "fausses": [
-    "isn't",
-    "does",
-    "doesn't"
+    {
+     "texte": "isn't",
+     "raison": "« She isn't coming, isn't she? » ne convient pas : après une phrase négative (« isn't coming »), le tag est positif."
+    },
+    {
+     "texte": "does",
+     "raison": "« She isn't coming, does she? » ne convient pas : le tag reprend l'auxiliaire de la phrase : « isn't coming » utilise « is », pas « does »."
+    },
+    {
+     "texte": "doesn't",
+     "raison": "« She isn't coming, doesn't she? » ne convient pas : après une phrase négative, le tag est positif, et il reprend l'auxiliaire « is »."
+    }
    ],
    "explication": "Phrase négative : tag positif avec le même auxiliaire.",
    "relecture": null
@@ -1660,10 +2840,20 @@
    "niveau": 1,
    "enonce": "___ is that man? He is my uncle.",
    "bonne": "Who",
+   "pourquoiBonne": "« Who is that man? He is my uncle. » est correct. Question sur l'identité d'une personne : who.",
    "fausses": [
-    "Where",
-    "Why",
-    "Whose"
+    {
+     "texte": "Where",
+     "raison": "« Where is that man? He is my uncle. » ne convient pas : « where » demande un lieu ; la réponse « He is my uncle » donne une identité."
+    },
+    {
+     "texte": "Why",
+     "raison": "« Why is that man? He is my uncle. » ne convient pas : « why » demande une raison ; la réponse donne une identité."
+    },
+    {
+     "texte": "Whose",
+     "raison": "« Whose is that man? He is my uncle. » ne convient pas : « whose » demande à qui appartient quelque chose ; la réponse donne une identité."
+    }
    ],
    "explication": "Question sur l'identité d'une personne : who.",
    "relecture": null
@@ -1674,12 +2864,22 @@
    "niveau": 2,
    "enonce": "She gave ___ smoking last year.",
    "bonne": "up",
+   "pourquoiBonne": "« She gave up smoking last year. » est correct. « give up » = abandonner, arrêter : she gave up smoking = elle a arrêté de fumer. Un verbe à particule change de sens avec la particule.",
    "fausses": [
-    "out",
-    "off",
-    "away"
+    {
+     "texte": "out",
+     "raison": "« She gave out smoking last year. » ne convient pas : « give out » veut dire « distribuer » ; « arrêter » se dit « give up »."
+    },
+    {
+     "texte": "off",
+     "raison": "« She gave off smoking last year. » ne convient pas : « give off » veut dire « dégager » (une odeur, de la chaleur) ; « arrêter » se dit « give up »."
+    },
+    {
+     "texte": "away",
+     "raison": "« She gave away smoking last year. » ne convient pas : « give away » veut dire « offrir, distribuer » ; « arrêter » se dit « give up »."
+    }
    ],
-   "explication": "give up = arrêter.",
+   "explication": "« give up » = abandonner, arrêter : she gave up smoking = elle a arrêté de fumer. Un verbe à particule change de sens avec la particule.",
    "relecture": null
   },
   {
@@ -1688,12 +2888,22 @@
    "niveau": 2,
    "enonce": "Can you look ___ my cat while I'm away? It needs feeding every day.",
    "bonne": "after",
+   "pourquoiBonne": "« Can you look after my cat while I'm away? It needs feeding every day. » est correct. « look after » = s'occuper de, garder. À ne pas confondre avec « look at » (regarder) et « look for » (chercher).",
    "fausses": [
-    "at",
-    "for",
-    "up"
+    {
+     "texte": "at",
+     "raison": "« Can you look at my cat while I'm away? It needs feeding every day. » ne convient pas : « look at » veut dire « regarder » ; s'occuper d'un animal se dit « look after »."
+    },
+    {
+     "texte": "for",
+     "raison": "« Can you look for my cat while I'm away? It needs feeding every day. » ne convient pas : « look for » veut dire « chercher » ; s'occuper d'un animal se dit « look after »."
+    },
+    {
+     "texte": "up",
+     "raison": "« Can you look up my cat while I'm away? It needs feeding every day. » ne convient pas : « look up » veut dire « chercher dans un dictionnaire » ; s'occuper d'un animal se dit « look after »."
+    }
    ],
-   "explication": "look after = s'occuper de.",
+   "explication": "« look after » = s'occuper de, garder. À ne pas confondre avec « look at » (regarder) et « look for » (chercher).",
    "relecture": null
   },
   {
@@ -1702,12 +2912,22 @@
    "niveau": 2,
    "enonce": "I'm trying to find ___ what time the train leaves.",
    "bonne": "out",
+   "pourquoiBonne": "« I'm trying to find out what time the train leaves. » est correct. « find out » = découvrir, se renseigner : I'm trying to find out what time the train leaves = j'essaie de savoir à quelle heure part le train.",
    "fausses": [
-    "off",
-    "up",
-    "at"
+    {
+     "texte": "off",
+     "raison": "« I'm trying to find off what time the train leaves. » ne convient pas : « find off » n'existe pas ; se renseigner se dit « find out »."
+    },
+    {
+     "texte": "up",
+     "raison": "« I'm trying to find up what time the train leaves. » ne convient pas : « find up » n'existe pas ; se renseigner se dit « find out »."
+    },
+    {
+     "texte": "at",
+     "raison": "« I'm trying to find at what time the train leaves. » ne convient pas : « find at » n'existe pas ; se renseigner se dit « find out »."
+    }
    ],
-   "explication": "find out = découvrir, se renseigner.",
+   "explication": "« find out » = découvrir, se renseigner : I'm trying to find out what time the train leaves = j'essaie de savoir à quelle heure part le train.",
    "relecture": null
   },
   {
@@ -1716,12 +2936,22 @@
    "niveau": 2,
    "enonce": "Please fill ___ this form.",
    "bonne": "in",
+   "pourquoiBonne": "« Please fill in this form. » est correct. « fill in a form » = remplir un formulaire (en anglais américain : fill out).",
    "fausses": [
-    "on",
-    "at",
-    "by"
+    {
+     "texte": "on",
+     "raison": "« Please fill on this form. » ne convient pas : on dit « fill in a form » ; « fill on » ne s'emploie pas."
+    },
+    {
+     "texte": "at",
+     "raison": "« Please fill at this form. » ne convient pas : on dit « fill in a form » ; « fill at » ne s'emploie pas."
+    },
+    {
+     "texte": "by",
+     "raison": "« Please fill by this form. » ne convient pas : on dit « fill in a form » ; « fill by » ne s'emploie pas."
+    }
    ],
-   "explication": "fill in a form = remplir un formulaire.",
+   "explication": "« fill in a form » = remplir un formulaire (en anglais américain : fill out).",
    "relecture": null
   },
   {
@@ -1730,12 +2960,22 @@
    "niveau": 2,
    "enonce": "He put ___ his coat because it was cold.",
    "bonne": "on",
+   "pourquoiBonne": "« He put on his coat because it was cold. » est correct. « put on » = enfiler, mettre un vêtement ; « take off » est l'inverse (enlever). He put on his coat = il a mis son manteau.",
    "fausses": [
-    "at",
-    "in",
-    "with"
+    {
+     "texte": "at",
+     "raison": "« He put at his coat because it was cold. » ne convient pas : « put at » ne s'emploie pas pour un vêtement ; « enfiler » se dit « put on »."
+    },
+    {
+     "texte": "in",
+     "raison": "« He put in his coat because it was cold. » ne convient pas : « put in » veut dire « mettre dedans » ; « enfiler » se dit « put on »."
+    },
+    {
+     "texte": "with",
+     "raison": "« He put with his coat because it was cold. » ne convient pas : « put with » ne s'emploie pas pour un vêtement ; « enfiler » se dit « put on »."
+    }
    ],
-   "explication": "put on = enfiler.",
+   "explication": "« put on » = enfiler, mettre un vêtement ; « take off » est l'inverse (enlever). He put on his coat = il a mis son manteau.",
    "relecture": null
   },
   {
@@ -1744,12 +2984,22 @@
    "niveau": 2,
    "enonce": "The plane took ___ at six o'clock.",
    "bonne": "off",
+   "pourquoiBonne": "« The plane took off at six o'clock. » est correct. « take off » = décoller (pour un avion) ; c'est aussi enlever un vêtement. The plane took off at six o'clock.",
    "fausses": [
-    "out",
-    "up",
-    "away"
+    {
+     "texte": "out",
+     "raison": "« The plane took out at six o'clock. » ne convient pas : « take out » veut dire « sortir » ; pour un avion qui décolle, on dit « take off »."
+    },
+    {
+     "texte": "up",
+     "raison": "« The plane took up at six o'clock. » ne convient pas : « take up » veut dire « se mettre à » ; pour un avion qui décolle, on dit « take off »."
+    },
+    {
+     "texte": "away",
+     "raison": "« The plane took away at six o'clock. » ne convient pas : « take away » veut dire « emporter » ; pour un avion qui décolle, on dit « take off »."
+    }
    ],
-   "explication": "take off = décoller.",
+   "explication": "« take off » = décoller (pour un avion) ; c'est aussi enlever un vêtement. The plane took off at six o'clock.",
    "relecture": null
   },
   {
@@ -1758,10 +3008,20 @@
    "niveau": 1,
    "enonce": "The opposite of 'cheap' is ___.",
    "bonne": "expensive",
+   "pourquoiBonne": "« The opposite of 'cheap' is expensive. » est correct. Cheap (bon marché) et expensive (cher) sont des contraires.",
    "fausses": [
-    "small",
-    "quick",
-    "weak"
+    {
+     "texte": "small",
+     "raison": "« The opposite of 'cheap' is small. » ne convient pas : « small » veut dire « petit » ; le contraire de « cheap » (bon marché) est « expensive » (cher)."
+    },
+    {
+     "texte": "quick",
+     "raison": "« The opposite of 'cheap' is quick. » ne convient pas : « quick » veut dire « rapide », sans rapport avec le prix."
+    },
+    {
+     "texte": "weak",
+     "raison": "« The opposite of 'cheap' is weak. » ne convient pas : « weak » veut dire « faible », sans rapport avec le prix."
+    }
    ],
    "explication": "Cheap (bon marché) et expensive (cher) sont des contraires.",
    "relecture": null
@@ -1772,12 +3032,22 @@
    "niveau": 1,
    "enonce": "A person who teaches is a ___.",
    "bonne": "teacher",
+   "pourquoiBonne": "« A person who teaches is a teacher. » est correct. « teacher » = professeur, enseignant (il enseigne). « doctor » = médecin, « driver » = conducteur, « baker » = boulanger.",
    "fausses": [
-    "doctor",
-    "driver",
-    "baker"
+    {
+     "texte": "doctor",
+     "raison": "« A person who teaches is a doctor. » ne convient pas : un « doctor » soigne les malades, il n'enseigne pas."
+    },
+    {
+     "texte": "driver",
+     "raison": "« A person who teaches is a driver. » ne convient pas : un « driver » conduit un véhicule, il n'enseigne pas."
+    },
+    {
+     "texte": "baker",
+     "raison": "« A person who teaches is a baker. » ne convient pas : un « baker » fait le pain, il n'enseigne pas."
+    }
    ],
-   "explication": "Teacher = professeur.",
+   "explication": "« teacher » = professeur, enseignant (il enseigne). « doctor » = médecin, « driver » = conducteur, « baker » = boulanger.",
    "relecture": null
   },
   {
@@ -1786,10 +3056,20 @@
    "niveau": 1,
    "enonce": "You use ___ to cut paper.",
    "bonne": "a pair of scissors",
+   "pourquoiBonne": "« You use a pair of scissors to cut paper. » est correct. Scissors = ciseaux (on dit « a pair of scissors »).",
    "fausses": [
-    "a spoon",
-    "a brush",
-    "a pillow"
+    {
+     "texte": "a spoon",
+     "raison": "« You use a spoon to cut paper. » ne convient pas : « a spoon » est une cuillère : on ne coupe pas du papier avec."
+    },
+    {
+     "texte": "a brush",
+     "raison": "« You use a brush to cut paper. » ne convient pas : « a brush » est une brosse ou un pinceau : on ne coupe pas du papier avec."
+    },
+    {
+     "texte": "a pillow",
+     "raison": "« You use a pillow to cut paper. » ne convient pas : « a pillow » est un oreiller : on ne coupe pas du papier avec."
+    }
    ],
    "explication": "Scissors = ciseaux (on dit « a pair of scissors »).",
    "relecture": null
@@ -1800,12 +3080,22 @@
    "niveau": 1,
    "enonce": "Which word means 'begin'?",
    "bonne": "start",
+   "pourquoiBonne": "« start » est correct. « start » = commencer, comme « begin ». Les contraires sont « finish », « end » et « stop ».",
    "fausses": [
-    "finish",
-    "stop",
-    "end"
+    {
+     "texte": "finish",
+     "raison": "« finish » ne convient pas : « finish » veut dire « terminer », le contraire de « begin »."
+    },
+    {
+     "texte": "stop",
+     "raison": "« stop » ne convient pas : « stop » veut dire « arrêter », pas « commencer »."
+    },
+    {
+     "texte": "end",
+     "raison": "« end » ne convient pas : « end » veut dire « finir », le contraire de « begin »."
+    }
    ],
-   "explication": "start = begin.",
+   "explication": "« start » = commencer, comme « begin ». Les contraires sont « finish », « end » et « stop ».",
    "relecture": null
   },
   {
@@ -1814,12 +3104,22 @@
    "niveau": 1,
    "enonce": "'Enormous' means very ___.",
    "bonne": "big",
+   "pourquoiBonne": "« 'Enormous' means very big. » est correct. « enormous » = énorme, donc « very big » (très grand). Un mot en « -ous » comme « enormous » ressemble au français.",
    "fausses": [
-    "small",
-    "old",
-    "fast"
+    {
+     "texte": "small",
+     "raison": "« 'Enormous' means very small. » ne convient pas : « small » veut dire « petit », le contraire de « enormous »."
+    },
+    {
+     "texte": "old",
+     "raison": "« 'Enormous' means very old. » ne convient pas : « old » veut dire « vieux » ; « enormous » parle de la taille, pas de l'âge."
+    },
+    {
+     "texte": "fast",
+     "raison": "« 'Enormous' means very fast. » ne convient pas : « fast » veut dire « rapide » ; « enormous » parle de la taille, pas de la vitesse."
+    }
    ],
-   "explication": "enormous = very big.",
+   "explication": "« enormous » = énorme, donc « very big » (très grand). Un mot en « -ous » comme « enormous » ressemble au français.",
    "relecture": null
   },
   {
@@ -1828,12 +3128,22 @@
    "niveau": 1,
    "enonce": "I'm hungry. I need something to ___.",
    "bonne": "eat",
+   "pourquoiBonne": "« I'm hungry. I need something to eat. » est correct. « eat » = manger. Quand on a faim (hungry), on mange (eat). « wear » = porter, « read » = lire, « drive » = conduire.",
    "fausses": [
-    "wear",
-    "read",
-    "drive"
+    {
+     "texte": "wear",
+     "raison": "« I'm hungry. I need something to wear. » ne convient pas : « wear » veut dire « porter un vêtement » : on ne porte pas quand on a faim."
+    },
+    {
+     "texte": "read",
+     "raison": "« I'm hungry. I need something to read. » ne convient pas : « read » veut dire « lire » : la lecture ne calme pas la faim."
+    },
+    {
+     "texte": "drive",
+     "raison": "« I'm hungry. I need something to drive. » ne convient pas : « drive » veut dire « conduire » : cela ne calme pas la faim."
+    }
    ],
-   "explication": "On mange quand on a faim.",
+   "explication": "« eat » = manger. Quand on a faim (hungry), on mange (eat). « wear » = porter, « read » = lire, « drive » = conduire.",
    "relecture": null
   },
   {
@@ -1842,12 +3152,22 @@
    "niveau": 1,
    "enonce": "What's the ___ of this word?",
    "bonne": "meaning",
+   "pourquoiBonne": "« What's the meaning of this word? » est correct. « meaning » (nom) = signification, sens d'un mot. Le verbe est « mean » (signifier). Après « the », on attend un nom.",
    "fausses": [
-    "mean",
-    "means",
-    "meant"
+    {
+     "texte": "mean",
+     "raison": "« What's the mean of this word? » ne convient pas : « mean » est un verbe (« signifier ») ; après « the », il faut un nom : « meaning »."
+    },
+    {
+     "texte": "means",
+     "raison": "« What's the means of this word? » ne convient pas : « means » est un verbe conjugué ou un nom pluriel (« les moyens ») ; il faut le nom « meaning » (la signification)."
+    },
+    {
+     "texte": "meant",
+     "raison": "« What's the meant of this word? » ne convient pas : « meant » est le passé du verbe « mean » ; il faut le nom « meaning »."
+    }
    ],
-   "explication": "meaning = signification (nom).",
+   "explication": "« meaning » (nom) = signification, sens d'un mot. Le verbe est « mean » (signifier). Après « the », on attend un nom.",
    "relecture": null
   },
   {
@@ -1856,12 +3176,22 @@
    "niveau": 1,
    "enonce": "She speaks very ___.",
    "bonne": "well",
+   "pourquoiBonne": "« She speaks very well. » est correct. L'adjectif « good » (bon) a pour adverbe « well » (bien) : she speaks very well = elle parle très bien. Les adverbes modifient un verbe.",
    "fausses": [
-    "goods",
-    "best",
-    "better"
+    {
+     "texte": "goods",
+     "raison": "« She speaks very goods. » ne convient pas : « goods » est un nom pluriel (« des marchandises ») ; l'adverbe de « good » est « well »."
+    },
+    {
+     "texte": "best",
+     "raison": "« She speaks very best. » ne convient pas : « best » est le superlatif de « good » ; il manque « the » et le sens n'est pas celui d'un adverbe simple."
+    },
+    {
+     "texte": "better",
+     "raison": "« She speaks very better. » ne convient pas : « better » est un comparatif ; la phrase ne compare rien, il faut « well »."
+    }
    ],
-   "explication": "Adverbe de good : well.",
+   "explication": "L'adjectif « good » (bon) a pour adverbe « well » (bien) : she speaks very well = elle parle très bien. Les adverbes modifient un verbe.",
    "relecture": null
   },
   {
@@ -1870,10 +3200,20 @@
    "niveau": 1,
    "enonce": "He drives very ___.",
    "bonne": "carefully",
+   "pourquoiBonne": "« He drives very carefully. » est correct. Adverbe en -ly pour modifier le verbe drives.",
    "fausses": [
-    "carefulness",
-    "caring",
-    "cared"
+    {
+     "texte": "carefulness",
+     "raison": "« He drives very carefulness. » ne convient pas : « carefulness » est un nom (« le soin ») ; pour modifier le verbe « drives », il faut un adverbe."
+    },
+    {
+     "texte": "caring",
+     "raison": "« He drives very caring. » ne convient pas : « caring » veut dire « attentionné » ; ce n'est pas l'adverbe de « careful »."
+    },
+    {
+     "texte": "cared",
+     "raison": "« He drives very cared. » ne convient pas : « cared » est le passé du verbe « care » ; ce n'est pas un adverbe."
+    }
    ],
    "explication": "Adverbe en -ly pour modifier le verbe drives.",
    "relecture": null
@@ -1884,12 +3224,22 @@
    "niveau": 1,
    "enonce": "He's a very ___ driver. He never has accidents.",
    "bonne": "careful",
+   "pourquoiBonne": "« He's a very careful driver. He never has accidents. » est correct. « careful » = prudent, attentif. Devant un nom (« driver »), on met un adjectif ; pour modifier un verbe (drives), on met l'adverbe « carefully ».",
    "fausses": [
-    "carefully",
-    "carefulness",
-    "cared"
+    {
+     "texte": "carefully",
+     "raison": "« He's a very carefully driver. He never has accidents. » ne convient pas : « carefully » est un adverbe ; devant un nom (« driver »), il faut un adjectif : « careful »."
+    },
+    {
+     "texte": "carefulness",
+     "raison": "« He's a very carefulness driver. He never has accidents. » ne convient pas : « carefulness » est un nom ; devant un autre nom, il faut un adjectif."
+    },
+    {
+     "texte": "cared",
+     "raison": "« He's a very cared driver. He never has accidents. » ne convient pas : « cared » est le passé du verbe « care » ; devant « driver » il faut un adjectif."
+    }
    ],
-   "explication": "Adjectif devant un nom : careful.",
+   "explication": "« careful » = prudent, attentif. Devant un nom (« driver »), on met un adjectif ; pour modifier un verbe (drives), on met l'adverbe « carefully ».",
    "relecture": null
   },
   {
@@ -1898,10 +3248,20 @@
    "niveau": 2,
    "enonce": "She is very ___ about her exams. She can't sleep.",
    "bonne": "worried",
+   "pourquoiBonne": "« She is very worried about her exams. She can't sleep. » est correct. -ed décrit ce que ressent la personne : worried.",
    "fausses": [
-    "worrying",
-    "worry",
-    "worries"
+    {
+     "texte": "worrying",
+     "raison": "« She is very worrying about her exams. She can't sleep. » ne convient pas : « worrying » décrit ce qui cause l'inquiétude (« une nouvelle inquiétante ») ; ici on décrit celle qui la ressent : « worried »."
+    },
+    {
+     "texte": "worry",
+     "raison": "« She is very worry about her exams. She can't sleep. » ne convient pas : « worry » est un verbe ou un nom ; après « very », il faut un adjectif."
+    },
+    {
+     "texte": "worries",
+     "raison": "« She is very worries about her exams. She can't sleep. » ne convient pas : « worries » est un verbe conjugué ou un nom pluriel ; après « very », il faut un adjectif."
+    }
    ],
    "explication": "-ed décrit ce que ressent la personne : worried.",
    "relecture": null
@@ -1912,10 +3272,20 @@
    "niveau": 2,
    "enonce": "The film was really ___. I almost fell asleep.",
    "bonne": "boring",
+   "pourquoiBonne": "« The film was really boring. I almost fell asleep. » est correct. -ing décrit la cause : the film was boring.",
    "fausses": [
-    "bored",
-    "bore",
-    "bores"
+    {
+     "texte": "bored",
+     "raison": "« The film was really bored. I almost fell asleep. » ne convient pas : « bored » décrit celui qui s'ennuie ; ici on décrit le film, qui est la cause de l'ennui : « boring »."
+    },
+    {
+     "texte": "bore",
+     "raison": "« The film was really bore. I almost fell asleep. » ne convient pas : « bore » est un verbe ou un nom (« un raseur ») ; après « really », il faut un adjectif."
+    },
+    {
+     "texte": "bores",
+     "raison": "« The film was really bores. I almost fell asleep. » ne convient pas : « bores » est un verbe conjugué ou un nom pluriel ; après « really », il faut un adjectif."
+    }
    ],
    "explication": "-ing décrit la cause : the film was boring.",
    "relecture": null
@@ -1926,12 +3296,22 @@
    "niveau": 2,
    "enonce": "I was really ___ by the news.",
    "bonne": "shocked",
+   "pourquoiBonne": "« I was really shocked by the news. » est correct. Les adjectifs en « -ed » décrivent ce que ressent la personne (shocked = choqué) ; ceux en « -ing » décrivent la chose qui provoque l'effet (shocking = choquant).",
    "fausses": [
-    "shocking",
-    "shock",
-    "shocks"
+    {
+     "texte": "shocking",
+     "raison": "« I was really shocking by the news. » ne convient pas : « shocking » décrit ce qui choque ; ici la personne ressent le choc : « shocked »."
+    },
+    {
+     "texte": "shock",
+     "raison": "« I was really shock by the news. » ne convient pas : « shock » est un nom ou un verbe ; après « was really », il faut un adjectif."
+    },
+    {
+     "texte": "shocks",
+     "raison": "« I was really shocks by the news. » ne convient pas : « shocks » est un verbe conjugué ou un nom pluriel ; après « was really », il faut un adjectif."
+    }
    ],
-   "explication": "-ed décrit le ressenti : I was shocked.",
+   "explication": "Les adjectifs en « -ed » décrivent ce que ressent la personne (shocked = choqué) ; ceux en « -ing » décrivent la chose qui provoque l'effet (shocking = choquant).",
    "relecture": null
   },
   {
@@ -1940,12 +3320,22 @@
    "niveau": 1,
    "enonce": "Winter is the ___ season of the year.",
    "bonne": "coldest",
+   "pourquoiBonne": "« Winter is the coldest season of the year. » est correct. Le superlatif de « cold » (adjectif court) est « the coldest » : the coldest season = la saison la plus froide.",
    "fausses": [
-    "colder",
-    "more cold",
-    "coldly"
+    {
+     "texte": "colder",
+     "raison": "« Winter is the colder season of the year. » ne convient pas : « colder » est un comparatif ; avec « the … season of the year », on emploie le superlatif « coldest »."
+    },
+    {
+     "texte": "more cold",
+     "raison": "« Winter is the more cold season of the year. » ne convient pas : « cold » est un adjectif court : son comparatif est « colder », et le superlatif est « the coldest »."
+    },
+    {
+     "texte": "coldly",
+     "raison": "« Winter is the coldly season of the year. » ne convient pas : « coldly » est un adverbe (« froidement ») ; ici il faut un adjectif."
+    }
    ],
-   "explication": "Superlatif de cold : the coldest.",
+   "explication": "Le superlatif de « cold » (adjectif court) est « the coldest » : the coldest season = la saison la plus froide.",
    "relecture": null
   },
   {
@@ -1954,12 +3344,22 @@
    "niveau": 1,
    "enonce": "Monday, Tuesday and Wednesday are days of the ___.",
    "bonne": "week",
+   "pourquoiBonne": "« Monday, Tuesday and Wednesday are days of the week. » est correct. « week » = semaine (7 jours) ; « month » = mois ; « year » = année ; « season » = saison.",
    "fausses": [
-    "month",
-    "year",
-    "season"
+    {
+     "texte": "month",
+     "raison": "« Monday, Tuesday and Wednesday are days of the month. » ne convient pas : un mois contient des dizaines de jours ; lundi, mardi et mercredi sont trois jours de la semaine."
+    },
+    {
+     "texte": "year",
+     "raison": "« Monday, Tuesday and Wednesday are days of the year. » ne convient pas : une année contient douze mois ; lundi, mardi et mercredi sont trois jours de la semaine."
+    },
+    {
+     "texte": "season",
+     "raison": "« Monday, Tuesday and Wednesday are days of the season. » ne convient pas : une saison dure trois mois ; lundi, mardi et mercredi sont trois jours de la semaine."
+    }
    ],
-   "explication": "Les jours forment la semaine : week.",
+   "explication": "« week » = semaine (7 jours) ; « month » = mois ; « year » = année ; « season » = saison.",
    "relecture": null
   },
   {
@@ -1968,12 +3368,22 @@
    "niveau": 1,
    "enonce": "You can buy bread at the ___.",
    "bonne": "bakery",
+   "pourquoiBonne": "« You can buy bread at the bakery. » est correct. « bakery » = boulangerie (où l'on achète du pain). « library » = bibliothèque, « pharmacy » = pharmacie, « bank » = banque.",
    "fausses": [
-    "library",
-    "pharmacy",
-    "bank"
+    {
+     "texte": "library",
+     "raison": "« You can buy bread at the library. » ne convient pas : « library » est une bibliothèque, on n'y achète pas de pain."
+    },
+    {
+     "texte": "pharmacy",
+     "raison": "« You can buy bread at the pharmacy. » ne convient pas : « pharmacy » est une pharmacie, on n'y achète pas de pain."
+    },
+    {
+     "texte": "bank",
+     "raison": "« You can buy bread at the bank. » ne convient pas : « bank » est une banque, on n'y achète pas de pain."
+    }
    ],
-   "explication": "Bakery = boulangerie.",
+   "explication": "« bakery » = boulangerie (où l'on achète du pain). « library » = bibliothèque, « pharmacy » = pharmacie, « bank » = banque.",
    "relecture": null
   },
   {
@@ -1982,12 +3392,22 @@
    "niveau": 1,
    "enonce": "I need to buy medicine. I'm going to the ___.",
    "bonne": "pharmacy",
+   "pourquoiBonne": "« I need to buy medicine. I'm going to the pharmacy. » est correct. « pharmacy » = pharmacie (où l'on achète des médicaments : medicine). « bakery » = boulangerie, « butcher » = boucher, « library » = bibliothèque.",
    "fausses": [
-    "bakery",
-    "butcher",
-    "library"
+    {
+     "texte": "bakery",
+     "raison": "« I need to buy medicine. I'm going to the bakery. » ne convient pas : « bakery » est une boulangerie : on n'y achète pas de médicaments."
+    },
+    {
+     "texte": "butcher",
+     "raison": "« I need to buy medicine. I'm going to the butcher. » ne convient pas : « butcher » est un boucher : on n'y achète pas de médicaments."
+    },
+    {
+     "texte": "library",
+     "raison": "« I need to buy medicine. I'm going to the library. » ne convient pas : « library » est une bibliothèque : on n'y achète pas de médicaments."
+    }
    ],
-   "explication": "Pharmacy = pharmacie.",
+   "explication": "« pharmacy » = pharmacie (où l'on achète des médicaments : medicine). « bakery » = boulangerie, « butcher » = boucher, « library » = bibliothèque.",
    "relecture": null
   },
   {
@@ -1996,12 +3416,22 @@
    "niveau": 1,
    "enonce": "A ___ is a person who looks after sick animals.",
    "bonne": "vet",
+   "pourquoiBonne": "« A vet is a person who looks after sick animals. » est correct. « vet » = vétérinaire (le médecin des animaux). « nurse » = infirmier, « pilot » = pilote, « waiter » = serveur.",
    "fausses": [
-    "nurse",
-    "pilot",
-    "waiter"
+    {
+     "texte": "nurse",
+     "raison": "« A nurse is a person who looks after sick animals. » ne convient pas : « nurse » est un(e) infirmier(ère), qui soigne des personnes, pas des animaux."
+    },
+    {
+     "texte": "pilot",
+     "raison": "« A pilot is a person who looks after sick animals. » ne convient pas : « pilot » est un pilote d'avion, il ne soigne pas."
+    },
+    {
+     "texte": "waiter",
+     "raison": "« A waiter is a person who looks after sick animals. » ne convient pas : « waiter » est un serveur, il ne soigne pas."
+    }
    ],
-   "explication": "vet = vétérinaire.",
+   "explication": "« vet » = vétérinaire (le médecin des animaux). « nurse » = infirmier, « pilot » = pilote, « waiter » = serveur.",
    "relecture": null
   },
   {
@@ -2010,12 +3440,22 @@
    "niveau": 2,
    "enonce": "He didn't tell the truth. He ___.",
    "bonne": "lied",
+   "pourquoiBonne": "« He didn't tell the truth. He lied. » est correct. « lie » (lied) = mentir ; « lay » (laid) = poser ; « lie » (lay) = être allongé. Les trois verbes se ressemblent, mais « He didn't tell the truth » = il a menti = « lied ».",
    "fausses": [
-    "lay",
-    "laid",
-    "lend"
+    {
+     "texte": "lay",
+     "raison": "« He didn't tell the truth. He lay. » ne convient pas : « lay » est le passé de « lie » au sens « être allongé » ; pour « mentir », le passé est « lied »."
+    },
+    {
+     "texte": "laid",
+     "raison": "« He didn't tell the truth. He laid. » ne convient pas : « laid » est le passé de « lay » (poser) ; il ne veut pas dire « mentir »."
+    },
+    {
+     "texte": "lend",
+     "raison": "« He didn't tell the truth. He lend. » ne convient pas : « lend » veut dire « prêter » ; il ne veut pas dire « mentir »."
+    }
    ],
-   "explication": "lie (lied) = mentir.",
+   "explication": "« lie » (lied) = mentir ; « lay » (laid) = poser ; « lie » (lay) = être allongé. Les trois verbes se ressemblent, mais « He didn't tell the truth » = il a menti = « lied ».",
    "relecture": null
   },
   {
@@ -2024,12 +3464,22 @@
    "niveau": 2,
    "enonce": "Can you ___ me some money until Friday? I'll pay you back.",
    "bonne": "lend",
+   "pourquoiBonne": "« Can you lend me some money until Friday? I'll pay you back. » est correct. « lend » = prêter (je te prête de l'argent) ; « borrow » = emprunter (j'emprunte de l'argent à quelqu'un).",
    "fausses": [
-    "borrow",
-    "rent",
-    "win"
+    {
+     "texte": "borrow",
+     "raison": "« Can you borrow me some money until Friday? I'll pay you back. » ne convient pas : « borrow » veut dire « emprunter » : celui qui demande l'argent emprunte, celui qui le donne prête (« lend »)."
+    },
+    {
+     "texte": "rent",
+     "raison": "« Can you rent me some money until Friday? I'll pay you back. » ne convient pas : « rent » veut dire « louer » (un logement, une voiture), pas prêter de l'argent."
+    },
+    {
+     "texte": "win",
+     "raison": "« Can you win me some money until Friday? I'll pay you back. » ne convient pas : « win » veut dire « gagner » ; ce n'est pas ce que l'on demande à quelqu'un qu'on remboursera."
+    }
    ],
-   "explication": "lend = prêter (à quelqu'un).",
+   "explication": "« lend » = prêter (je te prête de l'argent) ; « borrow » = emprunter (j'emprunte de l'argent à quelqu'un).",
    "relecture": null
   },
   {
@@ -2038,12 +3488,22 @@
    "niveau": 2,
    "enonce": "Can I ___ your pen, please? I forgot mine.",
    "bonne": "borrow",
+   "pourquoiBonne": "« Can I borrow your pen, please? I forgot mine. » est correct. « borrow » = emprunter (je prends pour un temps) ; « lend » = prêter (je donne pour un temps).",
    "fausses": [
-    "lend",
-    "give",
-    "lose"
+    {
+     "texte": "lend",
+     "raison": "« Can I lend your pen, please? I forgot mine. » ne convient pas : « lend » veut dire « prêter » : c'est celui qui possède le stylo qui prête ; celui qui le demande emprunte (« borrow »)."
+    },
+    {
+     "texte": "give",
+     "raison": "« Can I give your pen, please? I forgot mine. » ne convient pas : « give » veut dire « donner » : « Can I give your pen? » n'a pas de sens, on demande à emprunter."
+    },
+    {
+     "texte": "lose",
+     "raison": "« Can I lose your pen, please? I forgot mine. » ne convient pas : « lose » veut dire « perdre », ce n'est pas ce qu'on demande."
+    }
    ],
-   "explication": "borrow = emprunter.",
+   "explication": "« borrow » = emprunter (je prends pour un temps) ; « lend » = prêter (je donne pour un temps).",
    "relecture": null
   },
   {
@@ -2052,12 +3512,22 @@
    "niveau": 2,
    "enonce": "The train was ___. It arrived thirty minutes late.",
    "bonne": "delayed",
+   "pourquoiBonne": "« The train was delayed. It arrived thirty minutes late. » est correct. « delayed » = retardé, en retard (un train, un avion). « early » = en avance.",
    "fausses": [
-    "early",
-    "fast",
-    "empty"
+    {
+     "texte": "early",
+     "raison": "« The train was early. It arrived thirty minutes late. » ne convient pas : « early » veut dire « en avance », alors que le train est arrivé avec trente minutes de retard."
+    },
+    {
+     "texte": "fast",
+     "raison": "« The train was fast. It arrived thirty minutes late. » ne convient pas : « fast » veut dire « rapide », ce qui contredit « thirty minutes late »."
+    },
+    {
+     "texte": "empty",
+     "raison": "« The train was empty. It arrived thirty minutes late. » ne convient pas : « empty » veut dire « vide » ; cela ne dit rien sur l'horaire."
+    }
    ],
-   "explication": "delayed = en retard.",
+   "explication": "« delayed » = retardé, en retard (un train, un avion). « early » = en avance.",
    "relecture": null
   },
   {
@@ -2066,12 +3536,22 @@
    "niveau": 2,
    "enonce": "It was a very ___ day. The sun was shining and it was 30 degrees.",
    "bonne": "hot",
+   "pourquoiBonne": "« It was a very hot day. The sun was shining and it was 30 degrees. » est correct. « hot » = très chaud (30 degrés, soleil) ; « cold » = froid ; « rainy » = pluvieux ; « foggy » = brumeux.",
    "fausses": [
-    "cold",
-    "rainy",
-    "foggy"
+    {
+     "texte": "cold",
+     "raison": "« It was a very cold day. The sun was shining and it was 30 degrees. » ne convient pas : « cold » veut dire « froid », ce qui contredit « the sun was shining and it was 30 degrees »."
+    },
+    {
+     "texte": "rainy",
+     "raison": "« It was a very rainy day. The sun was shining and it was 30 degrees. » ne convient pas : « rainy » veut dire « pluvieux », ce qui contredit « the sun was shining »."
+    },
+    {
+     "texte": "foggy",
+     "raison": "« It was a very foggy day. The sun was shining and it was 30 degrees. » ne convient pas : « foggy » veut dire « brumeux », ce qui contredit « the sun was shining »."
+    }
    ],
-   "explication": "Soleil et 30 degrés : hot.",
+   "explication": "« hot » = très chaud (30 degrés, soleil) ; « cold » = froid ; « rainy » = pluvieux ; « foggy » = brumeux.",
    "relecture": null
   },
   {
@@ -2080,12 +3560,22 @@
    "niveau": 2,
    "enonce": "My brother is a ___. He plays the violin in an orchestra.",
    "bonne": "musician",
+   "pourquoiBonne": "« My brother is a musician. He plays the violin in an orchestra. » est correct. « musician » = musicien (il joue de la musique). Ne le confonds pas avec « magician » (magicien), « technician » (technicien) ou « politician » (homme politique).",
    "fausses": [
-    "magician",
-    "technician",
-    "politician"
+    {
+     "texte": "magician",
+     "raison": "« My brother is a magician. He plays the violin in an orchestra. » ne convient pas : un « magician » est un magicien : il ne joue pas dans un orchestre."
+    },
+    {
+     "texte": "technician",
+     "raison": "« My brother is a technician. He plays the violin in an orchestra. » ne convient pas : un « technician » est un technicien : il ne joue pas dans un orchestre."
+    },
+    {
+     "texte": "politician",
+     "raison": "« My brother is a politician. He plays the violin in an orchestra. » ne convient pas : un « politician » est un homme ou une femme politique : il ne joue pas dans un orchestre."
+    }
    ],
-   "explication": "musician = musicien.",
+   "explication": "« musician » = musicien (il joue de la musique). Ne le confonds pas avec « magician » (magicien), « technician » (technicien) ou « politician » (homme politique).",
    "relecture": null
   },
   {
@@ -2094,10 +3584,20 @@
    "niveau": 2,
    "enonce": "Please speak ___. I can't hear you.",
    "bonne": "louder",
+   "pourquoiBonne": "« Please speak louder. I can't hear you. » est correct. On ne l'entend pas : il faut parler plus fort.",
    "fausses": [
-    "quieter",
-    "slower",
-    "lower"
+    {
+     "texte": "quieter",
+     "raison": "« Please speak quieter. I can't hear you. » ne convient pas : « quieter » veut dire « plus silencieux » : si on n'entend pas, il faut parler plus fort, pas plus bas."
+    },
+    {
+     "texte": "slower",
+     "raison": "« Please speak slower. I can't hear you. » ne convient pas : « slower » veut dire « plus lentement » ; le problème est le volume de la voix, pas la vitesse."
+    },
+    {
+     "texte": "lower",
+     "raison": "« Please speak lower. I can't hear you. » ne convient pas : « lower » veut dire « plus bas » : parler plus bas aggraverait le problème."
+    }
    ],
    "explication": "On ne l'entend pas : il faut parler plus fort.",
    "relecture": null
@@ -2108,12 +3608,22 @@
    "niveau": 2,
    "enonce": "She's wearing a ___ because it's snowing and cold.",
    "bonne": "coat",
+   "pourquoiBonne": "« She's wearing a coat because it's snowing and cold. » est correct. « coat » = manteau ; on en met quand il neige. « swimsuit » = maillot de bain, « sandal » = sandale.",
    "fausses": [
-    "swimsuit",
-    "sandal",
-    "T-shirt"
+    {
+     "texte": "swimsuit",
+     "raison": "« She's wearing a swimsuit because it's snowing and cold. » ne convient pas : « swimsuit » est un maillot de bain, absurde par temps de neige et de froid."
+    },
+    {
+     "texte": "sandal",
+     "raison": "« She's wearing a sandal because it's snowing and cold. » ne convient pas : « sandal » est une sandale, absurde par temps de neige et de froid."
+    },
+    {
+     "texte": "T-shirt",
+     "raison": "« She's wearing a T-shirt because it's snowing and cold. » ne convient pas : « T-shirt » est un vêtement léger, absurde par temps de neige et de froid."
+    }
    ],
-   "explication": "coat = manteau.",
+   "explication": "« coat » = manteau ; on en met quand il neige. « swimsuit » = maillot de bain, « sandal » = sandale.",
    "relecture": null
   },
   {
@@ -2122,12 +3632,22 @@
    "niveau": 2,
    "enonce": "We stayed in a hotel near the sea. We could hear the ___ from our room.",
    "bonne": "waves",
+   "pourquoiBonne": "« We stayed in a hotel near the sea. We could hear the waves from our room. » est correct. « waves » = vagues. On entend les vagues quand on est près de la mer. « shops » = magasins, « forest » = forêt, « mountain » = montagne.",
    "fausses": [
-    "shops",
-    "forest",
-    "mountain"
+    {
+     "texte": "shops",
+     "raison": "« We stayed in a hotel near the sea. We could hear the shops from our room. » ne convient pas : « shops » veut dire « magasins » : on n'entend pas les magasins depuis un hôtel près de la mer ; l'indice est « near the sea »."
+    },
+    {
+     "texte": "forest",
+     "raison": "« We stayed in a hotel near the sea. We could hear the forest from our room. » ne convient pas : « forest » veut dire « forêt » ; l'indice est « near the sea » (près de la mer)."
+    },
+    {
+     "texte": "mountain",
+     "raison": "« We stayed in a hotel near the sea. We could hear the mountain from our room. » ne convient pas : « mountain » veut dire « montagne » ; l'indice est « near the sea » (près de la mer)."
+    }
    ],
-   "explication": "waves = vagues.",
+   "explication": "« waves » = vagues. On entend les vagues quand on est près de la mer. « shops » = magasins, « forest » = forêt, « mountain » = montagne.",
    "relecture": null
   },
   {
@@ -2136,12 +3656,22 @@
    "niveau": 3,
    "enonce": "He was so ___ that he forgot his own birthday.",
    "bonne": "absent-minded",
+   "pourquoiBonne": "« He was so absent-minded that he forgot his own birthday. » est correct. « absent-minded » = distrait, qui oublie les choses. « well-known » = célèbre, « hard-working » = travailleur, « self-confident » = sûr de soi.",
    "fausses": [
-    "well-known",
-    "hard-working",
-    "self-confident"
+    {
+     "texte": "well-known",
+     "raison": "« He was so well-known that he forgot his own birthday. » ne convient pas : « well-known » veut dire « célèbre » ; cela n'explique pas qu'on oublie son anniversaire."
+    },
+    {
+     "texte": "hard-working",
+     "raison": "« He was so hard-working that he forgot his own birthday. » ne convient pas : « hard-working » veut dire « travailleur » ; cela n'explique pas qu'on oublie son anniversaire."
+    },
+    {
+     "texte": "self-confident",
+     "raison": "« He was so self-confident that he forgot his own birthday. » ne convient pas : « self-confident » veut dire « sûr de soi » ; cela n'explique pas qu'on oublie son anniversaire."
+    }
    ],
-   "explication": "absent-minded = distrait.",
+   "explication": "« absent-minded » = distrait, qui oublie les choses. « well-known » = célèbre, « hard-working » = travailleur, « self-confident » = sûr de soi.",
    "relecture": null
   },
   {
@@ -2150,12 +3680,22 @@
    "niveau": 3,
    "enonce": "The company was ___ last year; it had to close all its shops.",
    "bonne": "bankrupt",
+   "pourquoiBonne": "« The company was bankrupt last year; it had to close all its shops. » est correct. « bankrupt » = en faillite (une entreprise qui n'a plus d'argent et ferme). « successful » = qui réussit, « famous » = célèbre.",
    "fausses": [
-    "famous",
-    "generous",
-    "successful"
+    {
+     "texte": "famous",
+     "raison": "« The company was famous last year; it had to close all its shops. » ne convient pas : « famous » veut dire « célèbre » ; une entreprise célèbre ne ferme pas forcément tous ses magasins."
+    },
+    {
+     "texte": "generous",
+     "raison": "« The company was generous last year; it had to close all its shops. » ne convient pas : « generous » veut dire « généreux » ; cela ne s'applique pas à une faillite."
+    },
+    {
+     "texte": "successful",
+     "raison": "« The company was successful last year; it had to close all its shops. » ne convient pas : « successful » veut dire « prospère » : cela contredit le fait de fermer tous les magasins."
+    }
    ],
-   "explication": "bankrupt = en faillite.",
+   "explication": "« bankrupt » = en faillite (une entreprise qui n'a plus d'argent et ferme). « successful » = qui réussit, « famous » = célèbre.",
    "relecture": null
   },
   {
@@ -2164,12 +3704,22 @@
    "niveau": 3,
    "enonce": "The thief was ___ to five years in prison.",
    "bonne": "sentenced",
+   "pourquoiBonne": "« The thief was sentenced to five years in prison. » est correct. « to be sentenced to » = être condamné à (une peine). « arrested » = arrêté par la police, « accused » = accusé, « punished » = puni.",
    "fausses": [
-    "arrested",
-    "accused",
-    "punished"
+    {
+     "texte": "arrested",
+     "raison": "« The thief was arrested to five years in prison. » ne convient pas : « arrested » veut dire « arrêté » (par la police) ; ce n'est pas la peine prononcée par un tribunal avec « to five years »."
+    },
+    {
+     "texte": "accused",
+     "raison": "« The thief was accused to five years in prison. » ne convient pas : « accused » veut dire « accusé » ; il faut « accused of » (accusé de), pas « to five years »."
+    },
+    {
+     "texte": "punished",
+     "raison": "« The thief was punished to five years in prison. » ne convient pas : « punished » veut dire « puni » ; on dit « punished for », la peine « to five years » se dit « sentenced »."
+    }
    ],
-   "explication": "be sentenced to = être condamné à.",
+   "explication": "« to be sentenced to » = être condamné à (une peine). « arrested » = arrêté par la police, « accused » = accusé, « punished » = puni.",
    "relecture": null
   },
   {
@@ -2178,10 +3728,20 @@
    "niveau": 3,
    "enonce": "Don't ___ your time! We only have ten minutes.",
    "bonne": "waste",
+   "pourquoiBonne": "« Don't waste your time! We only have ten minutes. » est correct. waste time = perdre son temps ; l'urgence l'impose.",
    "fausses": [
-    "win",
-    "borrow",
-    "lend"
+    {
+     "texte": "win",
+     "raison": "« Don't win your time! We only have ten minutes. » ne convient pas : « win » veut dire « gagner » : « win your time » n'a aucun sens."
+    },
+    {
+     "texte": "borrow",
+     "raison": "« Don't borrow your time! We only have ten minutes. » ne convient pas : « borrow » veut dire « emprunter » ; on n'emprunte pas son propre temps."
+    },
+    {
+     "texte": "lend",
+     "raison": "« Don't lend your time! We only have ten minutes. » ne convient pas : « lend » veut dire « prêter » ; on ne prête pas son propre temps."
+    }
    ],
    "explication": "waste time = perdre son temps ; l'urgence l'impose.",
    "relecture": null
@@ -2192,10 +3752,20 @@
    "niveau": 3,
    "enonce": "The doctor ___ me to stop eating sugar.",
    "bonne": "advised",
+   "pourquoiBonne": "« The doctor advised me to stop eating sugar. » est correct. advise someone to do something ; « suggested », « said » et « explained » ne se construisent pas ainsi.",
    "fausses": [
-    "suggested",
-    "said",
-    "explained"
+    {
+     "texte": "suggested",
+     "raison": "« The doctor suggested me to stop eating sugar. » ne convient pas : « suggest » ne se construit pas avec « someone + to do » : on dit « suggested that … » ou « suggested doing »."
+    },
+    {
+     "texte": "said",
+     "raison": "« The doctor said me to stop eating sugar. » ne convient pas : « say » ne se construit pas avec « someone + to do » : on dirait « said that … »."
+    },
+    {
+     "texte": "explained",
+     "raison": "« The doctor explained me to stop eating sugar. » ne convient pas : « explain » ne se construit pas avec « someone + to do » : on dirait « explained that … »."
+    }
    ],
    "explication": "advise someone to do something ; « suggested », « said » et « explained » ne se construisent pas ainsi.",
    "relecture": null
@@ -2206,12 +3776,22 @@
    "niveau": 3,
    "enonce": "I'm sorry, I can't ___ my keys. I've looked everywhere.",
    "bonne": "find",
+   "pourquoiBonne": "« I'm sorry, I can't find my keys. I've looked everywhere. » est correct. Après un modal ou une forme négative comme « can't », le verbe est à l'infinitif sans « to » : I can't find my keys = je ne trouve pas mes clés.",
    "fausses": [
-    "found",
-    "finding",
-    "finds"
+    {
+     "texte": "found",
+     "raison": "« I'm sorry, I can't found my keys. I've looked everywhere. » ne convient pas : « found » est le passé de « find » ; après « can't », le verbe est à l'infinitif sans « to »."
+    },
+    {
+     "texte": "finding",
+     "raison": "« I'm sorry, I can't finding my keys. I've looked everywhere. » ne convient pas : après un modal comme « can't », on met l'infinitif sans « to », pas le « -ing »."
+    },
+    {
+     "texte": "finds",
+     "raison": "« I'm sorry, I can't finds my keys. I've looked everywhere. » ne convient pas : après un modal comme « can't », on met l'infinitif sans « to », pas une forme avec « -s »."
+    }
    ],
-   "explication": "can't + infinitif sans to.",
+   "explication": "Après un modal ou une forme négative comme « can't », le verbe est à l'infinitif sans « to » : I can't find my keys = je ne trouve pas mes clés.",
    "relecture": null
   }
  ]

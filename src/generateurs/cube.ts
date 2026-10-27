@@ -89,44 +89,65 @@ const DEFAUTS: Record<Difficulte, Defaut[]> = {
   3: ['miroirCube', 'miroirSymbole', 'rotation90', 'echange'],
 };
 
-const NATURE: Record<Defaut, string> = {
-  miroirCube: 'le cube miroir (tous les symboles sont inversés gauche-droite)',
-  echange: 'deux faces dont les symboles ont été échangés',
-  rotation90: 'un symbole pivoté d’un quart de tour',
-  rotation180: 'un symbole retourné à l’envers (demi-tour)',
-  miroirSymbole: 'un symbole en miroir',
-  symboleCache: 'un symbole qui appartient à une face cachée',
-};
-
 function copier(v: Vue3): Vue3 {
   return v.map((f) => ({ ...f })) as Vue3;
 }
 
-function appliquerDefaut(rng: Prng, faces: readonly Face3D[], depart: Vue3, R: M3, defaut: Defaut): Vue3 | null {
-  if (defaut === 'miroirCube') return vue(faces, R, true);
+/** Nom des trois faces visibles, tel que le candidat les voit à l'écran. */
+const FACE_VISIBLE = ['du dessus', 'de gauche', 'de droite'] as const;
+
+interface FauxCube {
+  vue: Vue3;
+  /** Explication précise du défaut, pour la correction */
+  pourquoi: string;
+}
+
+function appliquerDefaut(rng: Prng, faces: readonly Face3D[], depart: Vue3, R: M3, defaut: Defaut): FauxCube | null {
+  if (defaut === 'miroirCube') {
+    return {
+      vue: vue(faces, R, true),
+      pourquoi:
+        'C’est le cube miroir : les trois symboles sont les bons et à la bonne place, mais chacun est inversé gauche-droite, comme vu dans une glace. Aucune rotation du cube ne peut produire ce résultat.',
+    };
+  }
   const v = copier(depart);
   const i = rng.entier(0, 2);
   switch (defaut) {
     case 'echange': {
       const j = (i + rng.entier(1, 2)) % 3;
       [v[i], v[j]] = [v[j], v[i]];
-      return v;
+      return {
+        vue: v,
+        pourquoi: `Cette vue est impossible : les symboles des faces ${FACE_VISIBLE[i]} et ${FACE_VISIBLE[j]} sont à la place l'un de l'autre. Sur le vrai cube, l'ordre dans lequel les trois symboles se suivent autour d'un coin est imposé.`,
+      };
     }
     case 'rotation90':
       v[i].k = (v[i].k + (rng.chance(0.5) ? 1 : 3)) % 4;
-      return v;
+      return {
+        vue: v,
+        pourquoi: `Cette vue est impossible : le symbole de la face ${FACE_VISIBLE[i]} est tourné d'un quart de tour par rapport à ses voisins. Sur le vrai cube, l'orientation de chaque symbole est imposée par celle des faces voisines.`,
+      };
     case 'rotation180':
       v[i].k = (v[i].k + 2) % 4;
-      return v;
+      return {
+        vue: v,
+        pourquoi: `Cette vue est impossible : le symbole de la face ${FACE_VISIBLE[i]} est à l'envers (demi-tour) par rapport à ses voisins. Sur le vrai cube, l'orientation de chaque symbole est imposée par celle des faces voisines.`,
+      };
     case 'miroirSymbole':
       v[i].mir = !v[i].mir;
-      return v;
+      return {
+        vue: v,
+        pourquoi: `Cette vue est impossible : le symbole de la face ${FACE_VISIBLE[i]} est dessiné en miroir (inversé gauche-droite). Retourner un cube ne peut jamais inverser un symbole.`,
+      };
     case 'symboleCache': {
       const visibles = new Set(v.map((f) => f.sym));
       const caches = faces.map((f) => f.sym).filter((s) => !visibles.has(s));
       if (caches.length === 0) return null;
       v[i].sym = rng.choisir(caches);
-      return v;
+      return {
+        vue: v,
+        pourquoi: `Cette vue est impossible : le symbole de la face ${FACE_VISIBLE[i]} appartient à une face cachée du cube, et cette combinaison de trois symboles n'existe en aucun coin du vrai cube.`,
+      };
     }
   }
 }
@@ -153,7 +174,7 @@ function genererCube(ref: ItemRef): Item {
   const bonne = vue(faces, R);
 
   const defauts = DEFAUTS[ref.difficulte];
-  const faux: { vue: Vue3; defaut: Defaut }[] = [];
+  const faux: (FauxCube & { defaut: Defaut })[] = [];
   const vues = new Set<string>([cleVue(bonne)]);
   for (let essai = 0; essai < 500 && faux.length < nbChoix - 1; essai++) {
     // On alterne les types de défauts pour varier les pièges.
@@ -161,22 +182,17 @@ function genererCube(ref: ItemRef): Item {
     const base = vue(faces, rng.choisir(rotationsPossibles));
     const candidat = appliquerDefaut(rng, faces, base, R, defaut);
     if (!candidat) continue;
-    const c = cleVue(candidat);
+    const c = cleVue(candidat.vue);
     // Le faux cube ne doit correspondre à AUCUNE des 24 orientations du vrai cube.
     if (possibles.has(c) || vues.has(c)) continue;
     vues.add(c);
-    faux.push({ vue: candidat, defaut });
+    faux.push({ ...candidat, defaut });
   }
   if (faux.length < nbChoix - 1) throw new Error('Pas assez de faux cubes valides');
 
-  const props = rng.melanger([{ vue: bonne, defaut: null as Defaut | null }, ...faux]);
+  const props = rng.melanger([{ vue: bonne, defaut: null as Defaut | null, pourquoi: '' }, ...faux]);
   const lettres = ['A', 'B', 'C', 'D', 'E', 'F'].slice(0, props.length);
   const idxBonne = props.findIndex((p) => p.defaut === null);
-  const detail = props
-    .map((p, i) => (p.defaut ? `${lettres[i]} : ${NATURE[p.defaut]}` : null))
-    .filter(Boolean)
-    .join(' ; ');
-
   const modele: StimulusCube['modele'] =
     forme === 'patron'
       ? { forme: 'patron', patron }
@@ -195,7 +211,12 @@ function genererCube(ref: ItemRef): Item {
     explication:
       `Choisis deux faces voisines visibles dans la proposition et retrouve leur position relative dans le ${forme === 'patron' ? 'patron' : 'modèle'} : ` +
       `si l'une des deux est à gauche de l'autre dans le cube, elle doit l'être aussi dans la réponse, avec le même sens de rotation du symbole. ` +
-      `Les autres propositions montrent : ${detail}.`,
+      `Méfie-toi du cube miroir : il utilise les bons symboles, mais tous inversés.`,
+    pourquoi: props.map((p) =>
+      p.defaut
+        ? p.pourquoi
+        : `Les trois symboles visibles sont bien ceux de faces voisines du cube, chacun dans le bon sens et à la bonne place : on obtient exactement cette vue en tournant le ${forme === 'patron' ? 'cube plié' : 'cube du modèle'}.`,
+    ),
   };
 }
 

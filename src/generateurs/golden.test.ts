@@ -10,6 +10,8 @@ import type { Difficulte, EpreuveId } from '../lib/types';
  * change sans que sa version soit incrémentée, les questions enregistrées dans l'historique des
  * candidats (et les liens de signalement) ne redonneraient plus la même question.
  *
+ * Seule la question est empreinte, pas son explication (texte de correction modifiable librement).
+ *
  * Si ce test échoue après une modification VOULUE d'un générateur :
  *   1. incrémente sa constante VERSION_… (le test ci-dessous t'y oblige) ;
  *   2. mets à jour l'empreinte attendue ci-dessous (la valeur reçue est affichée dans l'erreur).
@@ -29,7 +31,16 @@ const DIFFICULTE: Difficulte = 2;
 function empreinteEpreuve(id: EpreuveId): string {
   const gen = GENERATEURS[id]!;
   const refs = gen.construireRefs({ graineBase: 20261027, nb: 24, difficulte: DIFFICULTE, config: EPREUVES[id] });
-  return empreinte(JSON.stringify(refs.map((r) => gen.generer(r))));
+  // On n'empreint que la QUESTION (énoncé, propositions, bonne réponse) : améliorer une explication
+  // ou la raison d'une proposition ne change pas l'identité de la question.
+  return empreinte(
+    JSON.stringify(
+      refs.map((r) => {
+        const { explication: _e, pourquoi: _p, ...question } = gen.generer(r) as unknown as Record<string, unknown>;
+        return question;
+      }),
+    ),
+  );
 }
 
 /**
@@ -37,12 +48,12 @@ function empreinteEpreuve(id: EpreuveId): string {
  * une question ne doit pas imposer de changer de version (l'item est identifié par son id).
  */
 const ATTENDUES: Partial<Record<EpreuveId, { version: number; empreinte: string }>> = {
-  attention: { version: 1, empreinte: '87c171b1' },
-  codage: { version: 1, empreinte: 'e0a6ea11' },
-  numerique: { version: 1, empreinte: '69558e3c' },
-  spatial: { version: 1, empreinte: 'a3d73446' },
-  logique: { version: 1, empreinte: '2d9b064f' },
-  raisonnement: { version: 1, empreinte: '7fd9a5ed' },
+  attention: { version: 1, empreinte: '84120b39' },
+  codage: { version: 1, empreinte: 'b331a9be' },
+  numerique: { version: 1, empreinte: '3e59ecef' },
+  spatial: { version: 1, empreinte: 'ecfea223' },
+  logique: { version: 1, empreinte: '363c75e8' },
+  raisonnement: { version: 1, empreinte: '9c04fb66' },
 };
 
 describe('golden : sortie des générateurs pour des graines fixes', () => {

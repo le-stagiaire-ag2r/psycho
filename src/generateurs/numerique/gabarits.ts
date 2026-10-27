@@ -299,7 +299,7 @@ const gabarits: Gabarit[] = [
             p(q(ht * 112, 100), 'taux de 12 % au lieu de 20 %'),
           ],
           format: eur,
-          explication: `Prix TTC = ${ht} × 1,20 = ${ttc} €.`,
+          explication: `Prix TTC = prix HT × 1,20 (TVA à 20 %) = ${ht} × 1,20 = ${ttc} €.`,
           verifier: () => ht + ht / 5 === ttc,
         };
       }

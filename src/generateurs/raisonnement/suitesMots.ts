@@ -25,6 +25,10 @@ export interface SuiteMots {
   suivant: string;
   /** Mots plausibles mais faux, du plus au moins tentant */
   voisins: string[];
+  /** Écart (en rangs) de chaque voisin avec le bon mot, dans le même ordre que `voisins` */
+  ecartsVoisins: number[];
+  /** Nom de la liste (jours, mois, saisons) */
+  nomListe: string;
   explication: string;
 }
 
@@ -44,14 +48,14 @@ export function genererSuiteMots(rng: Prng, diff: Difficulte): SuiteMots {
     const pas0 = pasCompatible(affiches, n);
     if (pas0.length !== 1 || mod(affiches[nbAffiches - 1] + pas0[0], n) !== suivant) continue;
 
-    const voisins = [1, -1, 2, -2, 3]
-      .map((d) => mod(suivant + d, n))
-      .filter((i) => i !== suivant)
-      .map((i) => liste[i]);
+    const ecarts = [1, -1, 2, -2, 3].filter((d) => mod(suivant + d, n) !== suivant);
+    const voisins = ecarts.map((d) => liste[mod(suivant + d, n)]);
     return {
       mots: affiches.map((i) => liste[i]),
       suivant: liste[suivant],
       voisins,
+      ecartsVoisins: ecarts,
+      nomListe,
       explication: `On ${pas > 0 ? 'avance' : 'recule'} de ${Math.abs(pas)} ${Math.abs(pas) > 1 ? 'rangs' : 'rang'} dans la liste (${nomListe}) ; la liste est circulaire. Le suivant est ${liste[suivant]}.`,
     };
   }

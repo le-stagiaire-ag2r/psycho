@@ -18,7 +18,11 @@ export interface ItemBanque {
   niveau: 1 | 2 | 3;
   enonce: string;
   bonne: string;
-  fausses: string[];
+  /** Pourquoi la bonne réponse est juste */
+  pourquoiBonne: string;
+  /** Mauvaises réponses, chacune avec la raison pour laquelle elle est fausse */
+  fausses: { texte: string; raison: string }[];
+  /** « À retenir » : la règle ou le sens, en une phrase */
   explication: string;
   relecture: { par: string; date: string } | null;
 }
@@ -60,7 +64,8 @@ export function itemDepuisBanque(epreuve: EpreuveId, ref: ItemRef): Item {
 
   // Sous-ensemble de fausses réponses (si la banque en fournit plus que nécessaire), puis mélange.
   const fausses = rng.melanger(brut.fausses).slice(0, nbChoix - 1);
-  const options = rng.melanger([brut.bonne, ...fausses]);
+  const toutes = rng.melanger([{ texte: brut.bonne, raison: brut.pourquoiBonne }, ...fausses]);
+  const options = toutes.map((o) => o.texte);
 
   return {
     id: `${epreuve}-v${ref.version}-${brut.id}-s${ref.seed}`,
@@ -70,6 +75,7 @@ export function itemDepuisBanque(epreuve: EpreuveId, ref: ItemRef): Item {
     options,
     bonneReponse: options.indexOf(brut.bonne),
     explication: brut.explication,
+    pourquoi: toutes.map((o) => o.raison),
   };
 }
 

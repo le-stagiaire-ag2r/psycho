@@ -578,3 +578,25 @@ progress {
 .entete nav {
   row-gap: 0.25rem;
 }
+
+.correction p {
+  margin: 0.35rem 0;
+}
+.correction-toutes {
+  margin-top: 0.5rem;
+}
+.correction-toutes ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem 0 0;
+}
+.correction-toutes li {
+  padding: 0.3rem 0;
+  border-top: 1px solid var(--bordure, rgba(128, 128, 128, 0.3));
+}
+.prop-bonne span[aria-hidden] {
+  color: var(--bon);
+}
+.prop-fausse span[aria-hidden] {
+  color: var(--mauvais);
+}

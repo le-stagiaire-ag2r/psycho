@@ -73,6 +73,8 @@ interface Proposition {
   grille: Grille;
   /** Description du piège, pour la correction */
   nature: string;
+  /** Détail précis pour la correction (case inversée, etc.) */
+  detail?: string;
 }
 
 function genererGrille(ref: ItemRef): Item {
@@ -106,7 +108,13 @@ function genererGrille(ref: ItemRef): Item {
     const c = i % n;
     const g = bonne.map((l) => [...l]);
     g[r][c] = !g[r][c];
-    if (!clesGroupe.has(cle(g))) presque.push({ grille: g, nature: 'la bonne rotation, avec une case inversée' });
+    if (!clesGroupe.has(cle(g))) {
+      presque.push({
+        grille: g,
+        nature: 'la bonne rotation, avec une case inversée',
+        detail: `Elle ressemble beaucoup à la bonne grille, mais la case de la ligne ${r + 1}, colonne ${c + 1} est ${g[r][c] ? 'noire' : 'blanche'} alors qu'elle devrait être ${g[r][c] ? 'blanche' : 'noire'}. Une seule case fausse suffit à rendre la grille fausse.`,
+      });
+    }
     if (presque.length >= 3) break;
   }
 
@@ -123,14 +131,23 @@ function genererGrille(ref: ItemRef): Item {
   const lettres = LETTRES.slice(0, props.length);
 
   const sens = antiHoraire ? 'anti-horaire' : 'horaire';
-  const detail = props
-    .map((p, i) => (i === idxBonne ? null : `${lettres[i]} : ${p.nature}`))
-    .filter(Boolean)
-    .join(' ; ');
   const explication =
     `Rotation de ${angle}° dans le sens ${sens}. Repère une case caractéristique (un coin, une case isolée) et suis-la : ` +
     `à chaque quart de tour horaire, la première ligne devient la dernière colonne. ` +
-    `Les autres propositions : ${detail}.`;
+    `Un miroir (grille « retournée ») n'est jamais une rotation : vérifie que les motifs gardent le même sens.`;
+  const pourquoi = props.map((p, i) => {
+    if (i === idxBonne) {
+      return `C'est la grille de départ tournée de ${angle}° dans le sens ${sens} : chaque case a suivi la rotation, et aucune autre transformation n'est utilisée.`;
+    }
+    if (p.detail) return p.detail;
+    if (p.nature.startsWith('la grille de départ')) {
+      return `C'est la grille de départ telle quelle : aucune rotation n'a été appliquée, alors que la consigne en demande une de ${angle}°.`;
+    }
+    if (p.nature.includes('miroir')) {
+      return `C'est ${p.nature} de la grille de départ : la grille est retournée comme dans un miroir. Une rotation ne retourne pas la grille, elle la fait tourner, donc cette proposition n'est jamais la bonne.`;
+    }
+    return `C'est ${p.nature}, mais la consigne demande ${angle}° dans le sens ${sens} : ce n'est pas le bon angle ou le bon sens.`;
+  });
 
   return {
     id: `spatial-grille-v${ref.version}-d${ref.difficulte}-s${ref.seed}`,
@@ -140,6 +157,7 @@ function genererGrille(ref: ItemRef): Item {
     options: lettres,
     bonneReponse: idxBonne,
     explication,
+    pourquoi,
   };
 }
 

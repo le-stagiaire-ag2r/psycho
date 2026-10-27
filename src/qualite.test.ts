@@ -23,7 +23,7 @@ describe('banques verbal et anglais : typographie', () => {
     it(`${nom} : énoncés, réponses et explications sans défaut typographique`, () => {
       for (const it of items!) {
         // Les énoncés d'anglais sont en anglais ; leurs explications sont en français.
-        const textes = nom === 'anglais' ? [it.enonce, it.bonne, ...it.fausses] : [it.enonce, it.explication, it.bonne, ...it.fausses];
+        const textes = nom === 'anglais' ? [it.enonce, it.bonne, ...it.fausses.map((f) => f.texte)] : [it.enonce, it.explication, it.bonne, ...it.fausses.map((f) => f.texte)];
         // En anglais, 'mot' entre apostrophes est normal : on ne teste pas la règle de l'apostrophe sur les énoncés.
         const regles = nom === 'anglais' ? [...TYPO_COMMUN.filter((r) => !r.nom.startsWith('apostrophe')), ...TYPO_ANGLAIS] : TYPO_COMMUN;
         for (const t of textes) {
@@ -44,7 +44,7 @@ describe('banques verbal et anglais : typographie', () => {
 
   it('chaque proverbe est reconstitué proprement dans son explication', () => {
     for (const it of BANQUES.verbal!.filter((x) => x.type === 'proverbe')) {
-      expect(it.explication.endsWith(`${it.bonne}. »`)).toBe(true);
+      expect(it.explication.includes(`${it.bonne}. »`)).toBe(true);
     }
   });
 
@@ -64,7 +64,7 @@ describe('anglais : aucun indice involontaire dans les propositions', () => {
       if (!m) continue;
       // Items dont le but est justement de choisir l'article : les propositions SONT les articles.
       if (['a', 'an'].includes(it.bonne.toLowerCase())) continue;
-      for (const o of [it.bonne, ...it.fausses]) {
+      for (const o of [it.bonne, ...it.fausses.map((f) => f.texte)]) {
         const attendu = VOYELLES.test(o) ? 'an' : 'a';
         expect(`${it.id} « ${m[1]} ${o} » : ${m[1] === attendu}`).toBe(`${it.id} « ${m[1]} ${o} » : true`);
       }
@@ -73,7 +73,7 @@ describe('anglais : aucun indice involontaire dans les propositions', () => {
   it('aucun pluriel ne se glisse après « a ___ » (« a shorts »)', () => {
     for (const it of items) {
       if (!/\ba ___/.test(it.enonce) || ['a', 'an'].includes(it.bonne.toLowerCase())) continue;
-      for (const o of [it.bonne, ...it.fausses]) expect(`${it.id} ${o} : ${/[^s]s$/.test(o) && !/(ss|us|is)$/.test(o)}`).toBe(`${it.id} ${o} : false`);
+      for (const o of [it.bonne, ...it.fausses.map((f) => f.texte)]) expect(`${it.id} ${o} : ${/[^s]s$/.test(o) && !/(ss|us|is)$/.test(o)}`).toBe(`${it.id} ${o} : false`);
     }
   });
   it('les trous « ___ » sont bien présents exactement une fois dans les phrases à compléter', () => {
