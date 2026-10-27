@@ -1,0 +1,256 @@
+{
+ "version": 1,
+ "epreuve": "personnalite",
+ "items": [
+  {
+   "id": "PER-EXT-01",
+   "dimension": "extraversion",
+   "texte": "Je suis le boute-en-train des soirées."
+  },
+  {
+   "id": "PER-EXT-02",
+   "dimension": "extraversion",
+   "texte": "Je ne parle pas beaucoup."
+  },
+  {
+   "id": "PER-EXT-03",
+   "dimension": "extraversion",
+   "texte": "Je me sens à l'aise au milieu des gens."
+  },
+  {
+   "id": "PER-EXT-04",
+   "dimension": "extraversion",
+   "texte": "Je reste volontiers en retrait."
+  },
+  {
+   "id": "PER-EXT-05",
+   "dimension": "extraversion",
+   "texte": "J'engage facilement la conversation."
+  },
+  {
+   "id": "PER-EXT-06",
+   "dimension": "extraversion",
+   "texte": "J'ai peu de choses à dire."
+  },
+  {
+   "id": "PER-EXT-07",
+   "dimension": "extraversion",
+   "texte": "Dans les soirées, je parle à beaucoup de personnes différentes."
+  },
+  {
+   "id": "PER-EXT-08",
+   "dimension": "extraversion",
+   "texte": "Je n'aime pas attirer l'attention sur moi."
+  },
+  {
+   "id": "PER-EXT-09",
+   "dimension": "extraversion",
+   "texte": "Cela ne me dérange pas d'être le centre de l'attention."
+  },
+  {
+   "id": "PER-EXT-10",
+   "dimension": "extraversion",
+   "texte": "Je suis réservé(e) avec les inconnus."
+  },
+  {
+   "id": "PER-AGR-01",
+   "dimension": "agreabilite",
+   "texte": "Je me soucie peu des autres."
+  },
+  {
+   "id": "PER-AGR-02",
+   "dimension": "agreabilite",
+   "texte": "Je m'intéresse aux gens."
+  },
+  {
+   "id": "PER-AGR-03",
+   "dimension": "agreabilite",
+   "texte": "Il m'arrive de blesser les gens par mes paroles."
+  },
+  {
+   "id": "PER-AGR-04",
+   "dimension": "agreabilite",
+   "texte": "Je comprends ce que ressentent les autres."
+  },
+  {
+   "id": "PER-AGR-05",
+   "dimension": "agreabilite",
+   "texte": "Les problèmes des autres ne m'intéressent pas vraiment."
+  },
+  {
+   "id": "PER-AGR-06",
+   "dimension": "agreabilite",
+   "texte": "J'ai le cœur tendre."
+  },
+  {
+   "id": "PER-AGR-07",
+   "dimension": "agreabilite",
+   "texte": "Je ne m'intéresse pas vraiment aux autres."
+  },
+  {
+   "id": "PER-AGR-08",
+   "dimension": "agreabilite",
+   "texte": "Je prends du temps pour les autres."
+  },
+  {
+   "id": "PER-AGR-09",
+   "dimension": "agreabilite",
+   "texte": "Je ressens les émotions des autres."
+  },
+  {
+   "id": "PER-AGR-10",
+   "dimension": "agreabilite",
+   "texte": "Je mets les gens à l'aise."
+  },
+  {
+   "id": "PER-CON-01",
+   "dimension": "conscience",
+   "texte": "Je suis toujours préparé(e)."
+  },
+  {
+   "id": "PER-CON-02",
+   "dimension": "conscience",
+   "texte": "Je laisse traîner mes affaires."
+  },
+  {
+   "id": "PER-CON-03",
+   "dimension": "conscience",
+   "texte": "Je fais attention aux détails."
+  },
+  {
+   "id": "PER-CON-04",
+   "dimension": "conscience",
+   "texte": "Je sème le désordre autour de moi."
+  },
+  {
+   "id": "PER-CON-05",
+   "dimension": "conscience",
+   "texte": "Je m'occupe des corvées sans attendre."
+  },
+  {
+   "id": "PER-CON-06",
+   "dimension": "conscience",
+   "texte": "J'oublie souvent de remettre les choses à leur place."
+  },
+  {
+   "id": "PER-CON-07",
+   "dimension": "conscience",
+   "texte": "J'aime l'ordre."
+  },
+  {
+   "id": "PER-CON-08",
+   "dimension": "conscience",
+   "texte": "Je me dérobe à mes obligations."
+  },
+  {
+   "id": "PER-CON-09",
+   "dimension": "conscience",
+   "texte": "Je suis un emploi du temps."
+  },
+  {
+   "id": "PER-CON-10",
+   "dimension": "conscience",
+   "texte": "Je suis exigeant(e) dans mon travail."
+  },
+  {
+   "id": "PER-STA-01",
+   "dimension": "stabilite",
+   "texte": "Je me stresse facilement."
+  },
+  {
+   "id": "PER-STA-02",
+   "dimension": "stabilite",
+   "texte": "Je suis détendu(e) la plupart du temps."
+  },
+  {
+   "id": "PER-STA-03",
+   "dimension": "stabilite",
+   "texte": "Je me fais du souci pour beaucoup de choses."
+  },
+  {
+   "id": "PER-STA-04",
+   "dimension": "stabilite",
+   "texte": "Je me sens rarement abattu(e)."
+  },
+  {
+   "id": "PER-STA-05",
+   "dimension": "stabilite",
+   "texte": "Je suis facilement perturbé(e)."
+  },
+  {
+   "id": "PER-STA-06",
+   "dimension": "stabilite",
+   "texte": "Je suis facilement contrarié(e)."
+  },
+  {
+   "id": "PER-STA-07",
+   "dimension": "stabilite",
+   "texte": "Mon humeur change beaucoup."
+  },
+  {
+   "id": "PER-STA-08",
+   "dimension": "stabilite",
+   "texte": "J'ai de fréquents changements d'humeur."
+  },
+  {
+   "id": "PER-STA-09",
+   "dimension": "stabilite",
+   "texte": "Je m'irrite facilement."
+  },
+  {
+   "id": "PER-STA-10",
+   "dimension": "stabilite",
+   "texte": "Je me sens souvent triste."
+  },
+  {
+   "id": "PER-OUV-01",
+   "dimension": "ouverture",
+   "texte": "J'ai un vocabulaire riche."
+  },
+  {
+   "id": "PER-OUV-02",
+   "dimension": "ouverture",
+   "texte": "J'ai du mal à comprendre les idées abstraites."
+  },
+  {
+   "id": "PER-OUV-03",
+   "dimension": "ouverture",
+   "texte": "J'ai une imagination vive."
+  },
+  {
+   "id": "PER-OUV-04",
+   "dimension": "ouverture",
+   "texte": "Les idées abstraites ne m'intéressent pas."
+  },
+  {
+   "id": "PER-OUV-05",
+   "dimension": "ouverture",
+   "texte": "J'ai d'excellentes idées."
+  },
+  {
+   "id": "PER-OUV-06",
+   "dimension": "ouverture",
+   "texte": "Je n'ai pas une bonne imagination."
+  },
+  {
+   "id": "PER-OUV-07",
+   "dimension": "ouverture",
+   "texte": "Je comprends vite les choses."
+  },
+  {
+   "id": "PER-OUV-08",
+   "dimension": "ouverture",
+   "texte": "J'utilise des mots difficiles."
+  },
+  {
+   "id": "PER-OUV-09",
+   "dimension": "ouverture",
+   "texte": "Je prends le temps de réfléchir aux choses."
+  },
+  {
+   "id": "PER-OUV-10",
+   "dimension": "ouverture",
+   "texte": "Je suis plein(e) d'idées."
+  }
+ ]
+}

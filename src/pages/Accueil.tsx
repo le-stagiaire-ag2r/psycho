@@ -103,13 +103,15 @@ export default function Accueil() {
                 {c.disponible ? (
                   <>
                     <p className="discret">
-                      {mode === 'examen'
+                      {id === 'personnalite'
+                        ? 'Mode découverte : sans score, sans bonne réponse, rien n’est enregistré'
+                        : mode === 'examen'
                         ? `${c.nbQuestions} questions en ${formatDuree(c.dureeSecondes * 1000)} (indicatif)`
                         : `${c.nbQuestionsEntrainement} questions, chrono souple`}
                       {objectif && mode === 'examen' && ` · objectif indicatif : ${Math.round(objectif.precisionMin * 100)} % de précision`}
                     </p>
-                    <Link className="bouton" to={`/epreuve/${id}/${mode}`}>
-                      {mode === 'examen' ? 'Lancer l’examen blanc' : 'S’entraîner'}
+                    <Link className="bouton" to={id === 'personnalite' ? '/personnalite' : `/epreuve/${id}/${mode}`}>
+                      {id === 'personnalite' ? 'Découvrir' : mode === 'examen' ? 'Lancer l’examen blanc' : 'S’entraîner'}
                     </Link>
                   </>
                 ) : (

@@ -192,7 +192,7 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
     id: 'personnalite',
     titre: 'Personnalité (mode découverte)',
     description: 'Questionnaire de type Big Five, sans score ni bonne réponse.',
-    disponible: false,
+    disponible: true,
     nbQuestions: 100,
     dureeSecondes: 0,
     nbChoix: 5,

@@ -2,6 +2,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import { DEPOT_GITHUB, NOM_APP, NON_AFFILIATION } from './config/app';
 import Accueil from './pages/Accueil';
 import Confidentialite from './pages/Confidentialite';
+import Personnalite from './pages/Personnalite';
 import Progression from './pages/Progression';
 import Seance from './pages/Seance';
 import { useStockage } from './state/Stockage';
@@ -47,6 +48,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Accueil />} />
           <Route path="/epreuve/:epreuve/:mode" element={<Seance />} />
+          <Route path="/personnalite" element={<Personnalite />} />
           <Route path="/progression" element={<Progression />} />
           <Route path="/confidentialite" element={<Confidentialite />} />
           <Route path="*" element={<p>Page introuvable. <Link to="/">Retour à l’accueil</Link></p>} />
