@@ -25,7 +25,7 @@
   --mauvais-fond: #fbe7e4;
   --alerte-fond: #fff3cd;
   /* Gabarit */
-  --rayon: 16px;
+  --rayon: 14px;
   --rayon-petit: 10px;
   --espace: 1.25rem;
   color-scheme: light;
@@ -42,24 +42,24 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='clair']) {
-    --marque: #9fb87f;
-    --marque-fonce: #b9d09a;
-    --marque-clair: #263020;
-    --marque-texte: #14180e;
-    --fond: #11140d;
-    --carte: #1b2015;
-    --bordure: #2f3727;
-    --ombre: 0 1px 2px rgba(0, 0, 0, 0.4), 0 6px 20px rgba(0, 0, 0, 0.35);
-    --texte: #ecebdf;
-    --texte-doux: #a2a894;
+    --marque: #c6da6c;
+    --marque-fonce: #dcec92;
+    --marque-clair: #1b2113;
+    --marque-texte: #0a0c08;
+    --fond: #0a0c08;
+    --carte: #12150e;
+    --bordure: #262b1f;
+    --ombre: none;
+    --texte: #f1f2ea;
+    --texte-doux: #99a08b;
     --bon: #7ad494;
-    --bon-fond: #1b3324;
-    --mauvais: #ff9a90;
-    --mauvais-fond: #3d1d1a;
+    --bon-fond: #10261a;
+    --mauvais: #ff9488;
+    --mauvais-fond: #2e1512;
     --alerte-fond: #3d3515;
     color-scheme: dark;
-    --grille-noir: #ecebdf;
-    --grille-blanc: #11140d;
+    --grille-noir: #f1f2ea;
+    --grille-blanc: #0a0c08;
     --grille-trait: #5b6354;
     --cube-dessus: #4a5140;
     --cube-avant: #384030;
@@ -69,24 +69,24 @@
 }
 
 :root[data-theme='sombre'] {
-  --marque: #9fb87f;
-  --marque-fonce: #b9d09a;
-  --marque-clair: #263020;
-  --marque-texte: #14180e;
-  --fond: #11140d;
-  --carte: #1b2015;
-  --bordure: #2f3727;
-  --ombre: 0 1px 2px rgba(0, 0, 0, 0.4), 0 6px 20px rgba(0, 0, 0, 0.35);
-  --texte: #ecebdf;
-  --texte-doux: #a2a894;
+  --marque: #c6da6c;
+  --marque-fonce: #dcec92;
+  --marque-clair: #1b2113;
+  --marque-texte: #0a0c08;
+  --fond: #0a0c08;
+  --carte: #12150e;
+  --bordure: #262b1f;
+  --ombre: none;
+  --texte: #f1f2ea;
+  --texte-doux: #99a08b;
   --bon: #7ad494;
-  --bon-fond: #1b3324;
-  --mauvais: #ff9a90;
-  --mauvais-fond: #3d1d1a;
+  --bon-fond: #10261a;
+  --mauvais: #ff9488;
+  --mauvais-fond: #2e1512;
   --alerte-fond: #3d3515;
   color-scheme: dark;
-  --grille-noir: #ecebdf;
-  --grille-blanc: #11140d;
+  --grille-noir: #f1f2ea;
+  --grille-blanc: #0a0c08;
   --grille-trait: #5b6354;
   --cube-dessus: #4a5140;
   --cube-avant: #384030;
@@ -117,12 +117,21 @@ h3 {
   letter-spacing: -0.01em;
 }
 h1 {
-  font-size: clamp(1.6rem, 4vw, 2.1rem);
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
   margin: 0.5rem 0 0.75rem;
 }
+/* Titres de section : petite étiquette en majuscules, comme un index */
 h2 {
-  font-size: 1.3rem;
-  margin: 2.5rem 0 1rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--texte-doux);
+  margin: 3rem 0 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--bordure);
 }
 h3 {
   margin: 0 0 0.35rem;
@@ -163,32 +172,35 @@ p {
   align-items: center;
   flex-wrap: wrap;
   gap: 0.5rem 1.5rem;
-  padding: 0.85rem 1.25rem;
-  background: var(--marque);
-  color: var(--marque-texte);
+  padding: 1rem 1.5rem;
+  background: var(--fond);
+  color: var(--texte);
+  border-bottom: 1px solid var(--bordure);
 }
 .entete a,
 .entete .bouton-lien {
-  color: var(--marque-texte);
+  color: var(--texte-doux);
   text-decoration: none;
-  opacity: 0.92;
 }
 .entete a:hover,
 .entete .bouton-lien:hover {
-  opacity: 1;
-  text-decoration: underline;
+  color: var(--texte);
 }
 .entete nav {
   display: flex;
-  gap: 0.35rem 1.25rem;
+  gap: 0.35rem 1.5rem;
   align-items: center;
   flex-wrap: wrap;
-  font-size: 0.95rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
-.marque {
+.entete .marque {
+  color: var(--texte);
   font-weight: 800;
-  font-size: 1.25rem;
-  letter-spacing: 0.01em;
+  font-size: 1.05rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
 }
 
 .contenu {
@@ -313,6 +325,18 @@ p {
   border-radius: var(--rayon);
   padding: 1.5rem;
   box-shadow: var(--ombre);
+  transition: border-color 0.15s ease;
+}
+.carte-epreuve:hover {
+  border-color: var(--marque);
+}
+.indice {
+  display: block;
+  margin-bottom: 1.5rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  color: var(--texte-doux);
+  font-variant-numeric: tabular-nums;
 }
 .carte p {
   margin: 0.25rem 0 0.75rem;
@@ -323,7 +347,14 @@ p {
 
 /* ----- Accueil ----- */
 .hero {
-  padding: 1rem 0 0.5rem;
+  padding: 3rem 0 1.5rem;
+}
+.hero h1 {
+  font-size: clamp(2.4rem, 8vw, 4.6rem);
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+  max-width: 14ch;
+  margin-bottom: 1.25rem;
 }
 .mention {
   display: inline-block;
@@ -744,7 +775,11 @@ progress::-moz-progress-bar {
 }
 .modale-tete h2 {
   margin: 0;
+  padding: 0;
+  border: none;
   font-size: 1.4rem;
+  letter-spacing: -0.01em;
+  text-transform: none;
 }
 .titre-ko {
   color: var(--mauvais);

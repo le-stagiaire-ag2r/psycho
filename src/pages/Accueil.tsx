@@ -114,12 +114,15 @@ export default function Accueil() {
       <section aria-labelledby="titre-epreuves">
         <h2 id="titre-epreuves">Épreuves</h2>
         <ul className="grille-epreuves">
-          {ORDRE_EPREUVES.map((id) => {
+          {ORDRE_EPREUVES.filter((id) => EPREUVES[id].disponible).map((id, rang, liste) => {
             const c = EPREUVES[id];
             const objectif = OBJECTIFS[id]?.[niveau];
             if (!c.disponible) return null;
             return (
               <li key={id} className="carte carte-epreuve">
+                <span className="indice">
+                  {String(rang + 1).padStart(2, '0')} / {String(liste.length).padStart(2, '0')}
+                </span>
                 <h3>{c.titre}</h3>
                 <p className="description">{c.description}</p>
                 <p className="discret">
