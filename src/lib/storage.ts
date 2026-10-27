@@ -38,19 +38,26 @@ export interface ResultatSeance {
   precisionDebut: number | null;
   precisionFin: number | null;
   erreurs: ItemRef[];
+  /** Présent si la séance fait partie d'un examen blanc enchaîné */
+  examenId?: string;
 }
 
 export interface Donnees {
   version: 1;
   prefs: Prefs;
   historique: ResultatSeance[];
+  /** Identifiants des questions ratées puis réussies en révision : elles ne sont plus proposées */
+  erreursResolues: string[];
 }
+
+export const MAX_RESOLUES = 2000;
 
 export function donneesParDefaut(): Donnees {
   return {
     version: 1,
     prefs: { niveau: 'militaire-du-rang', mode: 'entrainement', difficulte: 2, theme: 'auto' },
     historique: [],
+    erreursResolues: [],
   };
 }
 
@@ -117,7 +124,8 @@ function estResultat(x: unknown): x is ResultatSeance {
     estNombreOuNull(r.precisionDebut) &&
     estNombreOuNull(r.precisionFin) &&
     Array.isArray(r.erreurs) &&
-    r.erreurs.every(estRef)
+    r.erreurs.every(estRef) &&
+    (r.examenId === undefined || typeof r.examenId === 'string')
   );
 }
 
@@ -138,7 +146,15 @@ export function normaliser(brut: unknown): Donnees | null {
     theme: THEMES_VALIDES.includes(p.theme as string) ? (p.theme as ThemePref) : defaut.prefs.theme,
   };
   const historique = Array.isArray(b.historique) ? b.historique.filter(estResultat) : [];
-  return { version: 1, prefs, historique: historique.slice(-MAX_HISTORIQUE) };
+  const resolues = Array.isArray(b.erreursResolues)
+    ? b.erreursResolues.filter((x): x is string => typeof x === 'string')
+    : [];
+  return {
+    version: 1,
+    prefs,
+    historique: historique.slice(-MAX_HISTORIQUE),
+    erreursResolues: resolues.slice(-MAX_RESOLUES),
+  };
 }
 
 export function charger(st: StorageLike | null): Donnees {
@@ -182,5 +198,6 @@ export function fusionner(actuelles: Donnees, importees: Donnees): Donnees {
   const historique = [...parId.values()]
     .sort((a, b) => a.date.localeCompare(b.date))
     .slice(-MAX_HISTORIQUE);
-  return { ...actuelles, historique };
+  const resolues = [...new Set([...actuelles.erreursResolues, ...importees.erreursResolues])].slice(-MAX_RESOLUES);
+  return { ...actuelles, historique, erreursResolues: resolues };
 }

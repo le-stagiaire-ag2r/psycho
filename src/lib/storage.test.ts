@@ -92,6 +92,21 @@ describe('stockage local', () => {
     expect(d?.prefs.niveau).toBe('militaire-du-rang');
   });
 
+  it('conserve les erreurs résolues à l’export/import et les fusionne', () => {
+    const a = { ...donneesParDefaut(), erreursResolues: ['x', 'y'] };
+    const b = { ...donneesParDefaut(), erreursResolues: ['y', 'z'] };
+    expect(analyserImport(exporter(a))?.erreursResolues).toEqual(['x', 'y']);
+    expect(fusionner(a, b).erreursResolues).toEqual(['x', 'y', 'z']);
+    // Un export plus ancien, sans ce champ, reste lisible.
+    expect(analyserImport('{"version":1,"prefs":{},"historique":[]}')?.erreursResolues).toEqual([]);
+  });
+
+  it('accepte un identifiant d’examen optionnel', () => {
+    const r = { ...resultat('a', '2026-01-01'), examenId: 'ex-1' };
+    const d = analyserImport(JSON.stringify({ ...donneesParDefaut(), historique: [r] }));
+    expect(d?.historique[0].examenId).toBe('ex-1');
+  });
+
   it('fusionne sans doublon et trie par date', () => {
     const a = { ...donneesParDefaut(), historique: [resultat('2', '2026-02-01'), resultat('1', '2026-01-01')] };
     const b = { ...donneesParDefaut(), historique: [resultat('2', '2026-02-01'), resultat('3', '2026-03-01')] };

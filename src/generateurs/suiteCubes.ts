@@ -99,7 +99,7 @@ function rotationCube(sens: 1 | -1): Regle {
   };
   return {
     id: `cube-120-${sens}`,
-    description: `le cube pivote d’un tiers de tour autour de l’axe qui part du coin le plus proche de toi (${sens === 1 ? 'sens 1' : 'sens inverse'}) : les trois faces visibles se remplacent circulairement et chaque symbole tourne avec sa face`,
+    description: `le cube pivote d’un tiers de tour autour de l’axe qui part du coin le plus proche de toi (${sens === 1 ? 'dans un sens' : 'dans l’autre sens'}) : les trois faces visibles se remplacent circulairement et chaque symbole tourne avec sa face`,
     f: (v) => appliquer(v, sens === 1 ? ROT_AXE_DE_VUE : transposee(ROT_AXE_DE_VUE)),
     inverse: (v) => appliquer(v, sens === 1 ? transposee(ROT_AXE_DE_VUE) : ROT_AXE_DE_VUE),
   };

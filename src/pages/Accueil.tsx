@@ -1,8 +1,10 @@
+import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { MENTION_ENTRAINEMENT, NON_AFFILIATION } from '../config/app';
 import { EPREUVES, ORDRE_EPREUVES } from '../config/epreuves';
 import { NIVEAUX, OBJECTIFS } from '../config/niveaux';
 import { formatDuree } from '../lib/format';
+import { erreursARevoir } from '../lib/revision';
 import type { Difficulte, Mode, NiveauId } from '../lib/types';
 import { useStockage } from '../state/Stockage';
 
@@ -15,6 +17,10 @@ const DIFFICULTES: { id: Difficulte; libelle: string }[] = [
 export default function Accueil() {
   const { donnees, majPrefs } = useStockage();
   const { niveau, mode, difficulte } = donnees.prefs;
+  const nbErreurs = useMemo(
+    () => erreursARevoir(donnees.historique, new Set(donnees.erreursResolues)).length,
+    [donnees.historique, donnees.erreursResolues],
+  );
 
   return (
     <>
@@ -27,6 +33,34 @@ export default function Accueil() {
           100 % gratuit, sans compte, sans pub. Les questions sont générées dans ton navigateur et ta progression reste
           sur ton appareil. {MENTION_ENTRAINEMENT}
         </p>
+      </section>
+
+      <section aria-label="Raccourcis" className="mis-en-avant">
+        <div className="carte">
+          <h3>Examen blanc complet</h3>
+          <p>Enchaîne les épreuves avec un chrono strict, comme un vrai test sur ordinateur.</p>
+          <Link className="bouton" to="/examen">
+            Préparer l’examen
+          </Link>
+        </div>
+        <div className="carte">
+          <h3>Révision des erreurs</h3>
+          <p>
+            {nbErreurs > 0
+              ? `${nbErreurs} question${nbErreurs > 1 ? 's' : ''} ratée${nbErreurs > 1 ? 's' : ''} à refaire.`
+              : 'Refais tes questions ratées : elles apparaîtront ici.'}
+          </p>
+          <Link className="bouton bouton-secondaire" to="/revision">
+            Réviser
+          </Link>
+        </div>
+        <div className="carte">
+          <h3>Fiches méthode</h3>
+          <p>Démarche, pièges classiques et gestion du temps pour chaque épreuve.</p>
+          <Link className="bouton bouton-secondaire" to="/methode">
+            Lire les fiches
+          </Link>
+        </div>
       </section>
 
       <section aria-labelledby="titre-reglages" className="reglages">

@@ -4,11 +4,13 @@ import { MENTION_ENTRAINEMENT } from '../config/app';
 import type { ConfigEpreuve } from '../config/epreuves';
 import { AVERTISSEMENT_OBJECTIFS, OBJECTIFS, libelleNiveau } from '../config/niveaux';
 import { decimal, formatDuree, pourcent } from '../lib/format';
+import { creerResultat } from '../lib/resultat';
 import { calculerBilan, comparerObjectif } from '../lib/scoring';
 import type { EtatSeance } from '../lib/session';
 import { lienSignalement } from '../lib/signalement';
 import type { Difficulte, Mode, NiveauId } from '../lib/types';
 import { useStockage } from '../state/Stockage';
+import ListeErreurs from '../components/ListeErreurs';
 
 interface Props {
   config: ConfigEpreuve;
@@ -17,10 +19,27 @@ interface Props {
   niveau: NiveauId;
   difficulte: Difficulte;
   dureeMs: number;
-  onRejouer(): void;
+  onRejouer?: () => void;
+  /** false pour une séance de révision : rien n'est ajouté à l'historique */
+  sauvegarder?: boolean;
+  /** Appelé une fois, à l'affichage des résultats (ex. marquer des erreurs comme résolues) */
+  onTermine?: (etat: EtatSeance) => void;
+  /** Contenu complémentaire affiché sous les boutons (ex. lien vers la fiche méthode) */
+  actionsSupplementaires?: React.ReactNode;
 }
 
-export default function Resultats({ config, etat, mode, niveau, difficulte, dureeMs, onRejouer }: Props) {
+export default function Resultats({
+  config,
+  etat,
+  mode,
+  niveau,
+  difficulte,
+  dureeMs,
+  onRejouer,
+  sauvegarder = true,
+  onTermine,
+  actionsSupplementaires,
+}: Props) {
   const { ajouterResultat } = useStockage();
   const bilan = useMemo(
     () => calculerBilan(etat.items, etat.reponses, etat.ordre, dureeMs, config.penaliteErreur),
@@ -28,38 +47,18 @@ export default function Resultats({ config, etat, mode, niveau, difficulte, dure
   );
 
   // Sauvegarde unique de la séance dans l'historique local.
-  const sauve = useRef(false);
+  const fait = useRef(false);
   useEffect(() => {
-    if (sauve.current) return;
-    sauve.current = true;
-    const date = new Date().toISOString();
-    ajouterResultat({
-      id: `${date}-${Math.random().toString(36).slice(2, 8)}`,
-      date,
-      epreuve: config.id,
-      mode,
-      niveau,
-      difficulte,
-      nbItems: bilan.nbItems,
-      nbRepondues: bilan.nbRepondues,
-      nbCorrectes: bilan.nbCorrectes,
-      precision: bilan.precision,
-      vitesse: bilan.vitesse,
-      vitesseCorrectes: bilan.vitesseCorrectes,
-      score: bilan.score,
-      dureeMs,
-      precisionDebut: bilan.precisionDebut,
-      precisionFin: bilan.precisionFin,
-      erreurs: bilan.erreurs,
-    });
-  }, [ajouterResultat, bilan, config.id, difficulte, dureeMs, mode, niveau]);
+    if (fait.current) return;
+    fait.current = true;
+    if (sauvegarder) ajouterResultat(creerResultat(bilan, { epreuve: config.id, mode, niveau, difficulte, dureeMs }));
+    onTermine?.(etat);
+  }, [ajouterResultat, bilan, config.id, difficulte, dureeMs, etat, mode, niveau, onTermine, sauvegarder]);
 
   const objectif = OBJECTIFS[config.id]?.[niveau];
   const comparaison = objectif ? comparerObjectif(bilan, objectif) : null;
   const baisse =
     bilan.precisionDebut !== null && bilan.precisionFin !== null && bilan.precisionFin < bilan.precisionDebut - 0.1;
-
-  const erreurs = etat.ordre.filter((i) => etat.reponses[i] !== etat.items[i].bonneReponse);
 
   return (
     <section aria-labelledby="titre-resultats">
@@ -67,6 +66,7 @@ export default function Resultats({ config, etat, mode, niveau, difficulte, dure
       <p className="discret">
         {mode === 'examen' ? 'Examen blanc' : 'Entraînement'} · niveau visé : {libelleNiveau(niveau)} · durée{' '}
         {formatDuree(dureeMs)}
+        {!sauvegarder && ' · révision (non ajoutée à l’historique)'}
       </p>
 
       <ul className="tuiles">
@@ -123,51 +123,28 @@ export default function Resultats({ config, etat, mode, niveau, difficulte, dure
       )}
 
       <div className="actions">
-        <button type="button" className="bouton" onClick={onRejouer}>
-          Rejouer
-        </button>
+        {onRejouer && (
+          <button type="button" className="bouton" onClick={onRejouer}>
+            Rejouer
+          </button>
+        )}
         <Link className="bouton bouton-secondaire" to="/">
           Accueil
         </Link>
         <Link className="bouton bouton-secondaire" to="/progression">
           Ma progression
         </Link>
+        <Link className="bouton bouton-secondaire" to={`/methode/${config.id}`}>
+          Fiche méthode
+        </Link>
+        {actionsSupplementaires}
       </div>
 
-      <h2>Correction des erreurs ({erreurs.length})</h2>
-      {erreurs.length === 0 ? (
-        <p>Aucune erreur sur les questions auxquelles tu as répondu. Bravo.</p>
-      ) : (
-        <ul className="liste-erreurs">
-          {erreurs.map((i) => {
-            const item = etat.items[i];
-            const choix = etat.reponses[i] as number;
-            return (
-              <li key={item.id}>
-                <details>
-                  <summary>
-                    {item.consigne}{' '}
-                    {item.stimulus.type === 'attention' && (
-                      <code>
-                        {item.stimulus.a} / {item.stimulus.b}
-                      </code>
-                    )}
-                  </summary>
-                  <p>
-                    Ta réponse : <strong>{item.options[choix]}</strong> · bonne réponse :{' '}
-                    <strong>{item.options[item.bonneReponse]}</strong>
-                  </p>
-                  <p>{item.explication}</p>
-                  <a href={lienSignalement(item)} target="_blank" rel="noopener noreferrer">
-                    Signaler une erreur dans cette question
-                  </a>
-                </details>
-              </li>
-            );
-          })}
-        </ul>
-      )}
+      <ListeErreurs etat={etat} />
       <p className="discret">{MENTION_ENTRAINEMENT}</p>
     </section>
   );
 }
+
+// Réexporté pour les pages qui affichent un lien de signalement hors de la liste d'erreurs.
+export { lienSignalement };

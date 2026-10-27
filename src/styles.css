@@ -547,3 +547,34 @@ progress {
   font-size: 0.95rem;
   padding: 0.75rem 0.4rem;
 }
+
+/* ----- Examen blanc, révision, méthode ----- */
+.bandeau-examen {
+  margin: 0 0 0.5rem;
+  padding: 0.35rem 0.75rem;
+  background: var(--accent);
+  color: var(--accent-texte);
+  border-radius: 6px;
+  font-weight: 600;
+  display: inline-block;
+}
+.detail-epreuve {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--bordure);
+  border-radius: 6px;
+  background: var(--fond-carte);
+}
+.detail-epreuve > summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.mis-en-avant {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.entete nav {
+  row-gap: 0.25rem;
+}

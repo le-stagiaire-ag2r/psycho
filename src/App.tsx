@@ -2,8 +2,11 @@ import { Link, Route, Routes } from 'react-router-dom';
 import { DEPOT_GITHUB, NOM_APP, NON_AFFILIATION } from './config/app';
 import Accueil from './pages/Accueil';
 import Confidentialite from './pages/Confidentialite';
+import Examen from './pages/Examen';
+import Methode from './pages/Methode';
 import Personnalite from './pages/Personnalite';
 import Progression from './pages/Progression';
+import Revision from './pages/Revision';
 import Seance from './pages/Seance';
 import { useStockage } from './state/Stockage';
 import type { ThemePref } from './lib/types';
@@ -30,6 +33,9 @@ export default function App() {
         </Link>
         <nav aria-label="Navigation principale">
           <Link to="/">Épreuves</Link>
+          <Link to="/examen">Examen blanc</Link>
+          <Link to="/revision">Révision</Link>
+          <Link to="/methode">Méthode</Link>
           <Link to="/progression">Progression</Link>
           <button type="button" className="bouton-lien" onClick={() => majPrefs({ theme: SUIVANT[theme] })}>
             {LIBELLE_THEME[theme]}
@@ -48,6 +54,10 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Accueil />} />
           <Route path="/epreuve/:epreuve/:mode" element={<Seance />} />
+          <Route path="/examen" element={<Examen />} />
+          <Route path="/revision" element={<Revision />} />
+          <Route path="/methode" element={<Methode />} />
+          <Route path="/methode/:id" element={<Methode />} />
           <Route path="/personnalite" element={<Personnalite />} />
           <Route path="/progression" element={<Progression />} />
           <Route path="/confidentialite" element={<Confidentialite />} />

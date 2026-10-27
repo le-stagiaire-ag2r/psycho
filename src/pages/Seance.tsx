@@ -1,8 +1,8 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import QuestionView from '../components/QuestionView';
-import { EPREUVES, type ConfigEpreuve } from '../config/epreuves';
 import { NON_AFFILIATION } from '../config/app';
+import { EPREUVES, type ConfigEpreuve } from '../config/epreuves';
 import { libelleNiveau } from '../config/niveaux';
 import { GENERATEURS, genererItem } from '../generateurs';
 import { formatDuree } from '../lib/format';
@@ -17,7 +17,7 @@ import {
   type EtatSeance,
 } from '../lib/session';
 import { lienSignalement } from '../lib/signalement';
-import type { Difficulte, EpreuveId, Mode, NiveauId } from '../lib/types';
+import type { Difficulte, EpreuveId, ItemRef, Mode, NiveauId } from '../lib/types';
 import { useStockage } from '../state/Stockage';
 import Resultats from './Resultats';
 
@@ -47,25 +47,55 @@ export default function Seance() {
   );
 }
 
-interface InnerProps {
+export interface SeanceProps {
   config: ConfigEpreuve;
   mode: Mode;
   niveau: NiveauId;
   difficulteChoisie: Difficulte;
-  onRejouer(): void;
+  /** Questions imposées (révision des erreurs) : remplacent le tirage aléatoire */
+  refs?: ItemRef[];
+  onRejouer?: () => void;
+  /**
+   * Enchaînement (examen blanc) : si fourni, la séance n'affiche pas ses résultats, elle appelle
+   * ce callback une seule fois à la fin et laisse l'appelant continuer.
+   */
+  onFin?: (etat: EtatSeance, dureeMs: number, difficulte: Difficulte) => void;
+  /** false pour une révision : le résultat n'est pas ajouté à l'historique */
+  sauvegarder?: boolean;
+  onResultats?: (etat: EtatSeance) => void;
+  /** Bandeau affiché au-dessus de la séance (ex. « Épreuve 2 / 6 ») */
+  bandeau?: ReactNode;
+  /** Texte du bouton de départ (par défaut « Commencer ») */
+  libelleDepart?: string;
+  /** Actions complémentaires sur l'écran de résultats */
+  actionsResultats?: ReactNode;
 }
 
-function SeanceInner({ config, mode, niveau, difficulteChoisie, onRejouer }: InnerProps) {
+export function SeanceInner({
+  config,
+  mode,
+  niveau,
+  difficulteChoisie,
+  refs: refsImposees,
+  onRejouer,
+  onFin,
+  sauvegarder = true,
+  onResultats,
+  bandeau,
+  libelleDepart = 'Commencer',
+  actionsResultats,
+}: SeanceProps) {
   const examen = mode === 'examen';
-  const difficulte: Difficulte = examen ? config.difficulteExamen : difficulteChoisie;
-  const nbQuestions = examen ? config.nbQuestions : config.nbQuestionsEntrainement;
+  const difficulte: Difficulte = refsImposees?.[0]?.difficulte ?? (examen ? config.difficulteExamen : difficulteChoisie);
+  const nbQuestions = refsImposees?.length ?? (examen ? config.nbQuestions : config.nbQuestionsEntrainement);
 
   // Les questions sont dérivées d'une graine de séance : reproductibles et signalables.
   const [graineBase] = useState(graineAleatoire);
   const items = useMemo(() => {
-    const gen = GENERATEURS[config.id]!;
-    return gen.construireRefs({ graineBase, nb: nbQuestions, difficulte, config }).map(genererItem);
-  }, [config, graineBase, nbQuestions, difficulte]);
+    const refs =
+      refsImposees ?? GENERATEURS[config.id]!.construireRefs({ graineBase, nb: nbQuestions, difficulte, config });
+    return refs.map(genererItem);
+  }, [config, graineBase, nbQuestions, difficulte, refsImposees]);
 
   const [etat, setEtat] = useState<EtatSeance | null>(null);
   const [maintenant, setMaintenant] = useState(() => Date.now());
@@ -142,11 +172,19 @@ function SeanceInner({ config, mode, niveau, difficulteChoisie, onRejouer }: Inn
     return () => window.removeEventListener('keydown', onKey);
   });
 
-  // ---------- Écran de fin ----------
+  // ---------- Fin de séance ----------
+  const dejaSignale = useRef(false);
+  const fini = etat?.fini ?? false;
+  const duree = etat ? Math.min((etat.finMs ?? maintenant) - etat.debutMs, examen ? dureeMaxMs : Infinity) : 0;
+  useEffect(() => {
+    if (fini && etat && onFin && !dejaSignale.current) {
+      dejaSignale.current = true;
+      onFin(etat, duree, difficulte);
+    }
+  }, [fini, etat, onFin, duree, difficulte]);
+
   if (etat?.fini) {
-    const fin = etat.finMs ?? maintenant;
-    let dureeMs = fin - etat.debutMs;
-    if (examen) dureeMs = Math.min(dureeMs, dureeMaxMs);
+    if (onFin) return <p role="status">Épreuve terminée…</p>;
     return (
       <Resultats
         config={config}
@@ -154,8 +192,11 @@ function SeanceInner({ config, mode, niveau, difficulteChoisie, onRejouer }: Inn
         mode={mode}
         niveau={niveau}
         difficulte={difficulte}
-        dureeMs={dureeMs}
+        dureeMs={duree}
         onRejouer={onRejouer}
+        sauvegarder={sauvegarder}
+        onTermine={onResultats}
+        actionsSupplementaires={actionsResultats}
       />
     );
   }
@@ -164,6 +205,7 @@ function SeanceInner({ config, mode, niveau, difficulteChoisie, onRejouer }: Inn
   if (!etat || !item) {
     return (
       <section aria-labelledby="titre-depart">
+        {bandeau}
         <h1 id="titre-depart">{config.titre}</h1>
         <p>{config.description}</p>
         <ul className="infos">
@@ -174,7 +216,11 @@ function SeanceInner({ config, mode, niveau, difficulteChoisie, onRejouer }: Inn
             {examen ? `, chrono strict de ${formatDuree(dureeMaxMs)}` : ', chrono souple (il ne coupe pas la séance)'}
           </li>
           {!examen && <li>Correction détaillée après chaque réponse</li>}
-          <li>Raccourcis : touches 1 à {config.nbChoix}{config.nbChoix === 2 ? ' ou ← / →' : ''}{config.passerAutorise ? ', P pour passer' : ''}</li>
+          <li>
+            Raccourcis : touches 1 à {Math.min(config.nbChoix, 9)}
+            {config.nbChoix === 2 ? ' ou ← / →' : ''}
+            {config.passerAutorise ? ', P pour passer' : ''}
+          </li>
         </ul>
         <h2>Conseils</h2>
         <ul>
@@ -192,10 +238,15 @@ function SeanceInner({ config, mode, niveau, difficulteChoisie, onRejouer }: Inn
         </p>
         <div className="actions">
           <button type="button" className="bouton" onClick={commencer} autoFocus>
-            Commencer
+            {libelleDepart}
           </button>
-          <Link className="bouton bouton-secondaire" to="/">
-            Retour
+          {!onFin && (
+            <Link className="bouton bouton-secondaire" to="/">
+              Retour
+            </Link>
+          )}
+          <Link className="bouton-lien" to={`/methode/${config.id}`} target="_blank">
+            Fiche méthode
           </Link>
         </div>
       </section>
@@ -210,6 +261,7 @@ function SeanceInner({ config, mode, niveau, difficulteChoisie, onRejouer }: Inn
 
   return (
     <section aria-label={`Séance ${config.titre}`}>
+      {bandeau}
       <div className="barre-seance">
         <span>
           Question {faites + 1} / {etat.items.length}

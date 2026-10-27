@@ -13,12 +13,22 @@ Le brief complet du projet est dans [`CLAUDE.md`](CLAUDE.md).
 | Étape | Contenu | État |
 | --- | --- | --- |
 | 1 | Socle : PRNG à graine, schéma d'item, moteur chronométré, sauvegarde locale, export/import, signalement d'erreur | fait |
-| 2 | Épreuves **attention** et **codage** | fait |
-| 3 | Quadrillages tournés + numérique | à venir |
-| 4 | Cubes (retournés, puis suites logiques) | à venir |
-| 5 | Verbal + anglais | à venir |
-| 6 | Personnalité (mode découverte) | à venir |
-| 7 | Examen blanc enchaîné, révision des erreurs, fiches méthode | à venir |
+| 2 | Attention, codage | fait |
+| 3 | Quadrillages tournés (contrôle des 8 symétries), numérique (40 gabarits, arithmétique exacte) | fait |
+| 4 | Cubes à plier / retournés (24 orientations), suites logiques (solveur d'unicité) | fait |
+| 5 | Verbal (153 items) et anglais (158 items), banques JSON avec champ de relecture | fait, **relecture humaine à faire** |
+| 6 | Personnalité en mode découverte (sans score, rien d'enregistré) | fait |
+| 7 | Examen blanc enchaîné, révision des erreurs, fiches méthode, statistiques | fait |
+| 8 | Bêta (20 à 50 testeurs), ajustement des chronos et de la difficulté | à faire |
+| 9 | Ouverture publique et appel à contributions | à faire |
+
+## Ce que fait l'appli
+
+- 8 épreuves : logique, spatial, verbal, numérique, codage, attention, anglais, personnalité (découverte).
+- Mode **entraînement** (chrono souple, correction détaillée) et **examen blanc** (chrono strict, enchaînement des épreuves).
+- **Révision des erreurs** : les questions ratées sont régénérées à l'identique à partir de leur graine.
+- **Fiches méthode**, objectifs indicatifs par niveau visé (non officiels), progression locale, export/import JSON.
+- Aucune donnée collectée : tout reste dans le navigateur (un test vérifie l'absence d'appel réseau dans le code).
 
 ## Lancer en local
 
@@ -47,10 +57,19 @@ Aucune variable d'environnement n'est nécessaire.
 - `src/lib/types.ts` : un **item = générateur + version + graine + difficulté** (`ItemRef`), sérialisable en JSON.
   Identifiant stable : `épreuve-vVERSION-dDIFF-sGRAINE`.
 - `src/generateurs/` : un fichier par épreuve + `index.ts` (registre). Un nouveau générateur arrive avec ses tests.
+  Les épreuves générées par code : attention, codage, grille/cube/suiteCubes (spatial, logique), numérique.
+  Les épreuves à banque JSON (`src/data/verbal.json`, `anglais.json`) passent par `banque.ts`.
 - `src/config/epreuves.ts` : **formats paramétrables** (questions, durée, choix, sens du codage…). Rien n'est figé dans le code.
 - `src/config/niveaux.ts` : objectifs indicatifs par niveau visé (non officiels).
 - `src/lib/session.ts` : moteur de passation (fonctions pures, temps injecté), `scoring.ts` : bilan.
 - `src/lib/storage.ts` : localStorage protégé par try/catch, export/import JSON validé.
+- `src/pages/` : accueil, séance (réutilisée par l'examen enchaîné et la révision), examen, révision, méthode, progression, personnalité.
+
+### Ajouter ou corriger des questions
+
+- **Banques JSON** : ajoute un objet dans `src/data/verbal.json` ou `anglais.json` (`bonne`, au moins 3 `fausses`, `explication`, `niveau` 1 à 3, `relecture: null`). Les tests vérifient le schéma et l'absence de doublon.
+- **Relecture** : une fois un item relu par un humain, renseigne `"relecture": {"par": "pseudo", "date": "AAAA-MM-JJ"}`. Avec `seulementRelus: 1` dans `src/config/epreuves.ts`, l'appli ne propose plus que ces items.
+- **Chaque item anglais** doit contenir un marqueur qui impose une seule réponse (since, yesterday, already…).
 
 Si l'algorithme d'un générateur change, incrémenter sa `VERSION_*` : les anciennes graines ne redonnent
 plus la même question.

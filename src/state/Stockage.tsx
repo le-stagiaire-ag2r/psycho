@@ -8,6 +8,7 @@ import {
   sauver,
   stockageNavigateur,
   MAX_HISTORIQUE,
+  MAX_RESOLUES,
   type Donnees,
   type Prefs,
   type ResultatSeance,
@@ -19,6 +20,8 @@ interface ContexteStockage {
   stockageDispo: boolean;
   majPrefs(p: Partial<Prefs>): void;
   ajouterResultat(r: ResultatSeance): void;
+  /** Marque des questions comme maîtrisées (réussies en révision) */
+  marquerResolues(ids: string[]): void;
   exporterJson(): string;
   /** Fusionne un export dans l'historique ; retourne false si le fichier est invalide */
   importerJson(texte: string): boolean;
@@ -53,6 +56,11 @@ export function StockageProvider({ children }: { children: ReactNode }) {
       majPrefs: (p) => maj((d) => ({ ...d, prefs: { ...d.prefs, ...p } })),
       ajouterResultat: (r) =>
         maj((d) => ({ ...d, historique: [...d.historique, r].slice(-MAX_HISTORIQUE) })),
+      marquerResolues: (ids) =>
+        maj((d) => ({
+          ...d,
+          erreursResolues: [...new Set([...d.erreursResolues, ...ids])].slice(-MAX_RESOLUES),
+        })),
       exporterJson: () => exporter(donnees),
       importerJson: (texte) => {
         const importees = analyserImport(texte);
