@@ -1,0 +1,2218 @@
+{
+ "version": 1,
+ "epreuve": "anglais",
+ "items": [
+  {
+   "id": "ANG-GRA-001",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "She ___ to school every day.",
+   "bonne": "goes",
+   "fausses": [
+    "go",
+    "going",
+    "is going"
+   ],
+   "explication": "« every day » : habitude, donc présent simple à la 3e personne : goes.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-002",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "Look! The children ___ in the garden.",
+   "bonne": "are playing",
+   "fausses": [
+    "play",
+    "played",
+    "plays"
+   ],
+   "explication": "« Look! » : action en cours, présent continu.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-003",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "He ___ TV every evening.",
+   "bonne": "watches",
+   "fausses": [
+    "watch",
+    "watching",
+    "is watch"
+   ],
+   "explication": "« every evening » : habitude, présent simple à la 3e personne : watches.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-004",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "She doesn't ___ coffee.",
+   "bonne": "like",
+   "fausses": [
+    "likes",
+    "liking",
+    "liked"
+   ],
+   "explication": "Après « doesn't », le verbe est à l'infinitif sans « to » : like.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-005",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "Do you ___ a car?",
+   "bonne": "have",
+   "fausses": [
+    "has",
+    "having",
+    "had"
+   ],
+   "explication": "Après « do you », infinitif sans « to » : have.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-006",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "There ___ a lot of people in the street now.",
+   "bonne": "are",
+   "fausses": [
+    "is",
+    "was",
+    "were"
+   ],
+   "explication": "« a lot of people » est pluriel ; « now » indique le présent : there are.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-007",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "I ___ going to the cinema tonight.",
+   "bonne": "am",
+   "fausses": [
+    "is",
+    "are",
+    "be"
+   ],
+   "explication": "Avec « I » : I am going to.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-008",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "My sister ___ a teacher.",
+   "bonne": "is",
+   "fausses": [
+    "are",
+    "am",
+    "be"
+   ],
+   "explication": "Sujet à la 3e personne du singulier : is.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-009",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "Where ___ you live now?",
+   "bonne": "do",
+   "fausses": [
+    "does",
+    "are",
+    "did"
+   ],
+   "explication": "« now » : présent simple, question avec « you » : do you live ?",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-010",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "Be quiet! The baby ___ .",
+   "bonne": "is sleeping",
+   "fausses": [
+    "sleeps",
+    "slept",
+    "has slept"
+   ],
+   "explication": "« Be quiet! » : action en cours, présent continu.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-011",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "I ___ my homework yesterday.",
+   "bonne": "did",
+   "fausses": [
+    "do",
+    "done",
+    "am doing"
+   ],
+   "explication": "« yesterday » : passé simple de do : did.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-012",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "We ___ to Spain last summer.",
+   "bonne": "went",
+   "fausses": [
+    "go",
+    "have gone",
+    "gone"
+   ],
+   "explication": "« last summer » : passé simple de go : went.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-013",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "They ___ a new car last week.",
+   "bonne": "bought",
+   "fausses": [
+    "buyed",
+    "have bought",
+    "buy"
+   ],
+   "explication": "« last week » : passé simple irrégulier de buy : bought.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-014",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "He ___ dinner when the phone rang.",
+   "bonne": "was cooking",
+   "fausses": [
+    "cooked",
+    "cooks",
+    "has cooked"
+   ],
+   "explication": "Action en cours (passé continu) interrompue par une autre action (passé simple).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-015",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "She ___ born in Paris.",
+   "bonne": "was",
+   "fausses": [
+    "is",
+    "were",
+    "has been"
+   ],
+   "explication": "Naissance : on emploie le passé simple de be : was born.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-016",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "While I ___ TV, the lights went out.",
+   "bonne": "was watching",
+   "fausses": [
+    "watched",
+    "watch",
+    "have watched"
+   ],
+   "explication": "« While » : action de fond au passé continu.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-017",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "When I was young, I ___ play football every day.",
+   "bonne": "used to",
+   "fausses": [
+    "use to",
+    "am used to",
+    "was use to"
+   ],
+   "explication": "Habitude passée : used to + infinitif.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-018",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "Last night, I ___ a strange noise.",
+   "bonne": "heard",
+   "fausses": [
+    "hear",
+    "hearded",
+    "have heard"
+   ],
+   "explication": "« Last night » : passé simple irrégulier de hear : heard.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-019",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "She ___ the door and went out.",
+   "bonne": "opened",
+   "fausses": [
+    "opens",
+    "opening",
+    "has opened"
+   ],
+   "explication": "Suite d'actions passées : passé simple.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-020",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "They ___ in London since 2010.",
+   "bonne": "have lived",
+   "fausses": [
+    "live",
+    "lived",
+    "are living"
+   ],
+   "explication": "« since 2010 » : present perfect.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-021",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "I have never ___ sushi.",
+   "bonne": "eaten",
+   "fausses": [
+    "ate",
+    "eat",
+    "eating"
+   ],
+   "explication": "Present perfect : have + participe passé (eaten).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-022",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "She has been here ___ two hours.",
+   "bonne": "for",
+   "fausses": [
+    "since",
+    "during",
+    "ago"
+   ],
+   "explication": "« for » + durée.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-023",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "I have known him ___ 2015.",
+   "bonne": "since",
+   "fausses": [
+    "for",
+    "ago",
+    "during"
+   ],
+   "explication": "« since » + point de départ dans le temps.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-024",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "He left the house two hours ___ .",
+   "bonne": "ago",
+   "fausses": [
+    "before",
+    "since",
+    "for"
+   ],
+   "explication": "« ago » se place après une durée, avec le passé simple.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-025",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "I haven't seen him ___ Monday.",
+   "bonne": "since",
+   "fausses": [
+    "for",
+    "ago",
+    "during"
+   ],
+   "explication": "« since » + point de départ (Monday).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-026",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "I have ___ the letter already.",
+   "bonne": "written",
+   "fausses": [
+    "wrote",
+    "write",
+    "writing"
+   ],
+   "explication": "have + participe passé irrégulier : written.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-027",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "She has already ___ the dishes.",
+   "bonne": "washed",
+   "fausses": [
+    "wash",
+    "washing",
+    "washes"
+   ],
+   "explication": "has + participe passé : washed.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-028",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "He has ___ to Paris twice.",
+   "bonne": "been",
+   "fausses": [
+    "gone",
+    "was",
+    "going"
+   ],
+   "explication": "« been » exprime un aller-retour (expérience) ; « gone » signifie qu'il est parti et n'est pas revenu.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-029",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "She has ___ her keys. She can't open the door.",
+   "bonne": "lost",
+   "fausses": [
+    "lose",
+    "losed",
+    "loosed"
+   ],
+   "explication": "Participe passé irrégulier de lose : lost.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-030",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "I've lived here ___ five years.",
+   "bonne": "for",
+   "fausses": [
+    "since",
+    "ago",
+    "during"
+   ],
+   "explication": "« for » + durée (five years).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-031",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "If it rains tomorrow, we ___ at home.",
+   "bonne": "will stay",
+   "fausses": [
+    "stay",
+    "stayed",
+    "would stay"
+   ],
+   "explication": "Condition réelle au présent : if + présent, will + infinitif.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-032",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "If I ___ rich, I would buy a boat.",
+   "bonne": "were",
+   "fausses": [
+    "am",
+    "will be",
+    "would be"
+   ],
+   "explication": "Condition irréelle au présent : if + prétérit (were), would + infinitif.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-033",
+   "type": "grammaire",
+   "niveau": 3,
+   "enonce": "If she had studied, she ___ the exam.",
+   "bonne": "would have passed",
+   "fausses": [
+    "would pass",
+    "will pass",
+    "passed"
+   ],
+   "explication": "Condition irréelle au passé : if + past perfect, would have + participe passé.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-034",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "By next year, he ___ his studies.",
+   "bonne": "will have finished",
+   "fausses": [
+    "finishes",
+    "has finished",
+    "finished"
+   ],
+   "explication": "« By next year » : futur antérieur (will have + participe passé).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-035",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "I ___ you tomorrow.",
+   "bonne": "will call",
+   "fausses": [
+    "called",
+    "call",
+    "have called"
+   ],
+   "explication": "« tomorrow » : futur, will + infinitif.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-036",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "I wish I ___ more time.",
+   "bonne": "had",
+   "fausses": [
+    "have",
+    "will have",
+    "would have"
+   ],
+   "explication": "Après « I wish » (regret au présent) : prétérit.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-037",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "What time ___ the film start tonight?",
+   "bonne": "does",
+   "fausses": [
+    "do",
+    "did",
+    "is"
+   ],
+   "explication": "Question au présent simple (programme), 3e personne : does.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-038",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "Look at those dark clouds! It ___ soon.",
+   "bonne": "is going to rain",
+   "fausses": [
+    "rained",
+    "has rain",
+    "rains"
+   ],
+   "explication": "Prévision fondée sur un indice visible : be going to + infinitif.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-039",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "He is ___ than his brother.",
+   "bonne": "taller",
+   "fausses": [
+    "tall",
+    "the tallest",
+    "more tall"
+   ],
+   "explication": "Comparatif de supériorité d'un adjectif court : -er than.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-040",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "This is the ___ film I have ever seen.",
+   "bonne": "best",
+   "fausses": [
+    "better",
+    "good",
+    "most good"
+   ],
+   "explication": "Superlatif irrégulier de good : the best.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-041",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "She is ___ intelligent than her sister.",
+   "bonne": "more",
+   "fausses": [
+    "most",
+    "the more",
+    "as"
+   ],
+   "explication": "Comparatif d'un adjectif long : more ... than.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-042",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "He runs as ___ as his friend.",
+   "bonne": "fast",
+   "fausses": [
+    "faster",
+    "fastest",
+    "more fast"
+   ],
+   "explication": "as + adjectif/adverbe de base + as.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-043",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "He is the ___ boy in the class.",
+   "bonne": "tallest",
+   "fausses": [
+    "most tall",
+    "taller",
+    "tall"
+   ],
+   "explication": "Superlatif d'un adjectif court : the -est.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-044",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "This exercise is ___ than the last one.",
+   "bonne": "easier",
+   "fausses": [
+    "more easy",
+    "easiest",
+    "easy"
+   ],
+   "explication": "Adjectif en -y : easier than.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-045",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "My car is as ___ as yours.",
+   "bonne": "expensive",
+   "fausses": [
+    "more expensive",
+    "the most expensive",
+    "expensiver"
+   ],
+   "explication": "as + adjectif de base + as.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-046",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "The more you practise, ___ you become.",
+   "bonne": "the better",
+   "fausses": [
+    "better",
+    "the best",
+    "best"
+   ],
+   "explication": "Structure « the + comparatif, the + comparatif ».",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-047",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "Today is ___ day of my life!",
+   "bonne": "the happiest",
+   "fausses": [
+    "happier",
+    "the most happy",
+    "more happy"
+   ],
+   "explication": "Superlatif d'un adjectif en -y : the happiest.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-048",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "I don't have ___ money.",
+   "bonne": "any",
+   "fausses": [
+    "some",
+    "a",
+    "many"
+   ],
+   "explication": "Phrase négative avec un nom indénombrable : any.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-049",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "There are ___ students in the room.",
+   "bonne": "many",
+   "fausses": [
+    "much",
+    "a little",
+    "any"
+   ],
+   "explication": "Nom dénombrable pluriel affirmatif : many (ou a lot of).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-050",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "How ___ water do you drink every day?",
+   "bonne": "much",
+   "fausses": [
+    "many",
+    "few",
+    "some"
+   ],
+   "explication": "Nom indénombrable (water) : how much.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-051",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "She has ___ friends, so she feels lonely.",
+   "bonne": "few",
+   "fausses": [
+    "little",
+    "a little",
+    "much"
+   ],
+   "explication": "few + nom dénombrable pluriel, sens négatif (très peu).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-052",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "I have ___ time, so I can help you.",
+   "bonne": "a little",
+   "fausses": [
+    "a few",
+    "many",
+    "any"
+   ],
+   "explication": "a little + nom indénombrable, sens positif (un peu de).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-053",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "There isn't ___ milk in the fridge.",
+   "bonne": "any",
+   "fausses": [
+    "some",
+    "a",
+    "many"
+   ],
+   "explication": "Négation + indénombrable : any.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-054",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "How ___ does it cost?",
+   "bonne": "much",
+   "fausses": [
+    "many",
+    "long",
+    "old"
+   ],
+   "explication": "Prix : how much.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-055",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "___ of my friends live in Paris. Only two live elsewhere.",
+   "bonne": "Most",
+   "fausses": [
+    "Much",
+    "Every",
+    "Any"
+   ],
+   "explication": "« Most of + pluriel » : la plupart.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-056",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "The book ___ I bought is great.",
+   "bonne": "which",
+   "fausses": [
+    "who",
+    "whose",
+    "where"
+   ],
+   "explication": "Antécédent chose (the book) : which.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-057",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "The man ___ lives next door is a doctor.",
+   "bonne": "who",
+   "fausses": [
+    "which",
+    "whose",
+    "whom"
+   ],
+   "explication": "Antécédent personne, sujet du verbe : who.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-058",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "That's the girl ___ bag was stolen.",
+   "bonne": "whose",
+   "fausses": [
+    "who",
+    "which",
+    "whom"
+   ],
+   "explication": "Possession : whose + nom.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-059",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "This is the town ___ I was born.",
+   "bonne": "where",
+   "fausses": [
+    "which",
+    "who",
+    "when"
+   ],
+   "explication": "Antécédent lieu : where.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-060",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "I remember the day ___ we met.",
+   "bonne": "when",
+   "fausses": [
+    "where",
+    "who",
+    "whose"
+   ],
+   "explication": "Antécédent temps : when.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-061",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "I'm interested ___ music.",
+   "bonne": "in",
+   "fausses": [
+    "on",
+    "at",
+    "of"
+   ],
+   "explication": "interested in.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-062",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "She is afraid ___ spiders.",
+   "bonne": "of",
+   "fausses": [
+    "from",
+    "about",
+    "at"
+   ],
+   "explication": "afraid of.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-063",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "We arrived ___ the airport at noon.",
+   "bonne": "at",
+   "fausses": [
+    "in",
+    "on",
+    "to"
+   ],
+   "explication": "arrive at + lieu précis (airport, station).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-064",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "He was born ___ 1990.",
+   "bonne": "in",
+   "fausses": [
+    "on",
+    "at",
+    "of"
+   ],
+   "explication": "in + année.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-065",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "The meeting is ___ Monday.",
+   "bonne": "on",
+   "fausses": [
+    "in",
+    "at",
+    "by"
+   ],
+   "explication": "on + jour de la semaine.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-066",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "I get up ___ 7 o'clock.",
+   "bonne": "at",
+   "fausses": [
+    "in",
+    "on",
+    "by"
+   ],
+   "explication": "at + heure.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-067",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "She is good ___ maths.",
+   "bonne": "at",
+   "fausses": [
+    "in",
+    "on",
+    "for"
+   ],
+   "explication": "good at + matière / activité.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-068",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "I'm looking ___ my keys. I can't find them.",
+   "bonne": "for",
+   "fausses": [
+    "at",
+    "after",
+    "to"
+   ],
+   "explication": "look for = chercher.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-069",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "He depends ___ his parents.",
+   "bonne": "on",
+   "fausses": [
+    "of",
+    "from",
+    "to"
+   ],
+   "explication": "depend on.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-070",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "She arrived ___ Paris yesterday morning.",
+   "bonne": "in",
+   "fausses": [
+    "at",
+    "on",
+    "to"
+   ],
+   "explication": "arrive in + ville ou pays.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-071",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "The cat is sitting ___ the table. I can see it underneath.",
+   "bonne": "under",
+   "fausses": [
+    "on",
+    "above",
+    "between"
+   ],
+   "explication": "« underneath » : sous la table, donc under.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-072",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "We travelled ___ train from Lyon to Paris.",
+   "bonne": "by",
+   "fausses": [
+    "with",
+    "in",
+    "at"
+   ],
+   "explication": "by + moyen de transport sans article (by train).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-073",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "He has lived here ___ 2005.",
+   "bonne": "since",
+   "fausses": [
+    "for",
+    "from",
+    "during"
+   ],
+   "explication": "since + point de départ.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-074",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "I will wait here ___ you come back.",
+   "bonne": "until",
+   "fausses": [
+    "during",
+    "since",
+    "by the"
+   ],
+   "explication": "until + moment où l'attente s'arrête.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-075",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "You ___ wear a seat belt. It's the law.",
+   "bonne": "must",
+   "fausses": [
+    "can",
+    "may",
+    "would"
+   ],
+   "explication": "Obligation légale : must.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-076",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "You ___ smoke here. It's forbidden.",
+   "bonne": "mustn't",
+   "fausses": [
+    "needn't",
+    "may",
+    "can"
+   ],
+   "explication": "Interdiction : mustn't.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-077",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "You ___ come if you don't want to.",
+   "bonne": "don't have to",
+   "fausses": [
+    "mustn't",
+    "can't",
+    "must"
+   ],
+   "explication": "Absence d'obligation : don't have to.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-078",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "___ you help me, please?",
+   "bonne": "Could",
+   "fausses": [
+    "Must",
+    "Shall",
+    "Might"
+   ],
+   "explication": "Demande polie : could you...?",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-079",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "He ___ swim when he was five.",
+   "bonne": "could",
+   "fausses": [
+    "can",
+    "must",
+    "may"
+   ],
+   "explication": "Capacité passée : could.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-080",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "She ___ be at home. Her lights are on.",
+   "bonne": "must",
+   "fausses": [
+    "can't",
+    "mustn't",
+    "needn't"
+   ],
+   "explication": "Déduction presque certaine : must be.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-081",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "She ___ be at home. Her car isn't here and all the lights are off.",
+   "bonne": "can't",
+   "fausses": [
+    "must",
+    "will",
+    "should"
+   ],
+   "explication": "Déduction négative : can't be.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-082",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "You look very ill. You ___ see a doctor.",
+   "bonne": "should",
+   "fausses": [
+    "can",
+    "will",
+    "may"
+   ],
+   "explication": "Conseil : should.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-083",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "I'd like ___ a coffee, please.",
+   "bonne": "to have",
+   "fausses": [
+    "having",
+    "have",
+    "had"
+   ],
+   "explication": "would like + to + infinitif.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-084",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "Let's ___ to the park.",
+   "bonne": "go",
+   "fausses": [
+    "to go",
+    "going",
+    "goes"
+   ],
+   "explication": "Let's + infinitif sans to.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-085",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "She can ___ French.",
+   "bonne": "speak",
+   "fausses": [
+    "speaks",
+    "speaking",
+    "to speak"
+   ],
+   "explication": "Après un modal, infinitif sans to.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-086",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "She is ___ honest woman.",
+   "bonne": "an",
+   "fausses": [
+    "a",
+    "any",
+    "some"
+   ],
+   "explication": "« honest » commence par un son voyelle : an.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-087",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "I play ___ guitar.",
+   "bonne": "the",
+   "fausses": [
+    "an",
+    "some",
+    "any"
+   ],
+   "explication": "play the + instrument.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-088",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "___ sun rises in the east.",
+   "bonne": "The",
+   "fausses": [
+    "A",
+    "An",
+    "Some"
+   ],
+   "explication": "Élément unique : the sun.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-089",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "She wants to be ___ engineer.",
+   "bonne": "an",
+   "fausses": [
+    "a",
+    "any",
+    "some"
+   ],
+   "explication": "Profession : a/an ; « engineer » commence par une voyelle : an.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-090",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "Everybody ___ happy today.",
+   "bonne": "is",
+   "fausses": [
+    "are",
+    "be",
+    "am"
+   ],
+   "explication": "everybody se construit avec le singulier.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-091",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "The news ___ very good today.",
+   "bonne": "is",
+   "fausses": [
+    "are",
+    "were",
+    "been"
+   ],
+   "explication": "« news » est indénombrable, verbe au singulier.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-092",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "I have ___ umbrella in my bag, so I'm ready for the rain.",
+   "bonne": "an",
+   "fausses": [
+    "a",
+    "some",
+    "any"
+   ],
+   "explication": "« umbrella » commence par un son voyelle : an.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-093",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "The cake ___ by my mother yesterday.",
+   "bonne": "was made",
+   "fausses": [
+    "made",
+    "is making",
+    "has make"
+   ],
+   "explication": "Passif au prétérit : was + participe passé.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-094",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "English ___ all over the world.",
+   "bonne": "is spoken",
+   "fausses": [
+    "speaks",
+    "is speaking",
+    "spoke"
+   ],
+   "explication": "Passif au présent : is + participe passé.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-095",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "The letters ___ yesterday.",
+   "bonne": "were sent",
+   "fausses": [
+    "are sent",
+    "sent",
+    "have sent"
+   ],
+   "explication": "« yesterday » + sujet pluriel : were sent.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-096",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "This house ___ in 1900.",
+   "bonne": "was built",
+   "fausses": [
+    "is built",
+    "built",
+    "has built"
+   ],
+   "explication": "Date passée : passif au prétérit.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-097",
+   "type": "grammaire",
+   "niveau": 3,
+   "enonce": "The new bridge ___ by the president next year.",
+   "bonne": "will be opened",
+   "fausses": [
+    "will open",
+    "opens",
+    "opened"
+   ],
+   "explication": "« by the president » (complément d'agent) impose le passif au futur : will be + participe passé.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-098",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "I enjoy ___ to music.",
+   "bonne": "listening",
+   "fausses": [
+    "to listen",
+    "listen",
+    "listened"
+   ],
+   "explication": "enjoy + verbe en -ing.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-099",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "She decided ___ a new job.",
+   "bonne": "to find",
+   "fausses": [
+    "finding",
+    "find",
+    "found"
+   ],
+   "explication": "decide + to + infinitif.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-100",
+   "type": "grammaire",
+   "niveau": 3,
+   "enonce": "He is used to ___ early.",
+   "bonne": "getting up",
+   "fausses": [
+    "get up",
+    "got up",
+    "gets up"
+   ],
+   "explication": "be used to + verbe en -ing (être habitué à).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-101",
+   "type": "grammaire",
+   "niveau": 3,
+   "enonce": "I look forward to ___ you.",
+   "bonne": "seeing",
+   "fausses": [
+    "see",
+    "saw",
+    "seen"
+   ],
+   "explication": "look forward to + verbe en -ing.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-102",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "He suggested ___ to the beach.",
+   "bonne": "going",
+   "fausses": [
+    "to go",
+    "go",
+    "goes"
+   ],
+   "explication": "suggest + verbe en -ing.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-103",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "She is ___ tired to work today.",
+   "bonne": "too",
+   "fausses": [
+    "very",
+    "so",
+    "enough"
+   ],
+   "explication": "too + adjectif + to + infinitif : trop... pour.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-104",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "He isn't old ___ to drive.",
+   "bonne": "enough",
+   "fausses": [
+    "too",
+    "very",
+    "so"
+   ],
+   "explication": "adjectif + enough + to + infinitif.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-105",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "I'm tired of ___ the same thing every day.",
+   "bonne": "doing",
+   "fausses": [
+    "do",
+    "to do",
+    "done"
+   ],
+   "explication": "Après une préposition, verbe en -ing.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-106",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "I like tea, ___ I don't like coffee.",
+   "bonne": "but",
+   "fausses": [
+    "so",
+    "because",
+    "or"
+   ],
+   "explication": "Opposition : but.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-107",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "I was late ___ the bus was late.",
+   "bonne": "because",
+   "fausses": [
+    "so",
+    "but",
+    "although"
+   ],
+   "explication": "Cause : because.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-108",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "He was tired, ___ he went to bed.",
+   "bonne": "so",
+   "fausses": [
+    "because",
+    "but",
+    "although"
+   ],
+   "explication": "Conséquence : so.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-109",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "___ it was raining, we went out.",
+   "bonne": "Although",
+   "fausses": [
+    "Because",
+    "So",
+    "Unless"
+   ],
+   "explication": "Concession : although.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-110",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "You won't pass ___ you work harder.",
+   "bonne": "unless",
+   "fausses": [
+    "if",
+    "when",
+    "because"
+   ],
+   "explication": "unless = if not.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-111",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "Neither Tom ___ Mary came to the party.",
+   "bonne": "nor",
+   "fausses": [
+    "or",
+    "and",
+    "but"
+   ],
+   "explication": "neither ... nor.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-112",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "She asked me ___ I wanted some tea.",
+   "bonne": "if",
+   "fausses": [
+    "that",
+    "what",
+    "who"
+   ],
+   "explication": "Question fermée rapportée : if.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-113",
+   "type": "grammaire",
+   "niveau": 3,
+   "enonce": "He speaks English ___ he were English.",
+   "bonne": "as if",
+   "fausses": [
+    "as",
+    "so",
+    "than"
+   ],
+   "explication": "as if + prétérit (were) : comme si.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-114",
+   "type": "grammaire",
+   "niveau": 3,
+   "enonce": "Hardly ___ he arrived when the phone rang.",
+   "bonne": "had",
+   "fausses": [
+    "has",
+    "did",
+    "was"
+   ],
+   "explication": "Hardly + had + sujet + participe passé + when.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-115",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "___ do you live?",
+   "bonne": "Where",
+   "fausses": [
+    "Who",
+    "Which",
+    "Whose"
+   ],
+   "explication": "Question sur le lieu : where.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-116",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "___ is your birthday? It's in May.",
+   "bonne": "When",
+   "fausses": [
+    "Where",
+    "Who",
+    "Why"
+   ],
+   "explication": "Question sur le moment : when.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-117",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "You like football, ___ you?",
+   "bonne": "don't",
+   "fausses": [
+    "do",
+    "are",
+    "aren't"
+   ],
+   "explication": "Question tag : phrase positive, tag négatif avec l'auxiliaire du présent simple.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-118",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "She isn't coming, ___ she?",
+   "bonne": "is",
+   "fausses": [
+    "isn't",
+    "does",
+    "doesn't"
+   ],
+   "explication": "Phrase négative : tag positif avec le même auxiliaire.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-119",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "___ is that man? He is my uncle.",
+   "bonne": "Who",
+   "fausses": [
+    "What",
+    "Which",
+    "Whose"
+   ],
+   "explication": "Question sur l'identité d'une personne : who.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-120",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "She gave ___ smoking last year.",
+   "bonne": "up",
+   "fausses": [
+    "out",
+    "off",
+    "away"
+   ],
+   "explication": "give up = arrêter.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-121",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "Can you look ___ my cat while I'm away?",
+   "bonne": "after",
+   "fausses": [
+    "at",
+    "for",
+    "up"
+   ],
+   "explication": "look after = s'occuper de.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-122",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "I'm trying to find ___ what time the train leaves.",
+   "bonne": "out",
+   "fausses": [
+    "off",
+    "up",
+    "at"
+   ],
+   "explication": "find out = découvrir, se renseigner.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-123",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "Please fill ___ this form.",
+   "bonne": "in",
+   "fausses": [
+    "on",
+    "at",
+    "by"
+   ],
+   "explication": "fill in a form = remplir un formulaire.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-124",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "He put ___ his coat because it was cold.",
+   "bonne": "on",
+   "fausses": [
+    "at",
+    "in",
+    "with"
+   ],
+   "explication": "put on = enfiler.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-125",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "The plane took ___ at six o'clock.",
+   "bonne": "off",
+   "fausses": [
+    "out",
+    "up",
+    "away"
+   ],
+   "explication": "take off = décoller.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-001",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "The opposite of 'cheap' is ___.",
+   "bonne": "expensive",
+   "fausses": [
+    "small",
+    "quick",
+    "weak"
+   ],
+   "explication": "Cheap (bon marché) et expensive (cher) sont des contraires.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-002",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "A person who teaches is a ___.",
+   "bonne": "teacher",
+   "fausses": [
+    "doctor",
+    "driver",
+    "baker"
+   ],
+   "explication": "Teacher = professeur.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-003",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "You use ___ to cut paper.",
+   "bonne": "scissors",
+   "fausses": [
+    "a spoon",
+    "a brush",
+    "a pillow"
+   ],
+   "explication": "Scissors = ciseaux.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-004",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Which word means 'begin'?",
+   "bonne": "start",
+   "fausses": [
+    "finish",
+    "stop",
+    "end"
+   ],
+   "explication": "start = begin.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-005",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "'Enormous' means very ___.",
+   "bonne": "big",
+   "fausses": [
+    "small",
+    "old",
+    "fast"
+   ],
+   "explication": "enormous = very big.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-006",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "I'm hungry. I need something to ___.",
+   "bonne": "eat",
+   "fausses": [
+    "wear",
+    "read",
+    "drive"
+   ],
+   "explication": "On mange quand on a faim.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-007",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "What's the ___ of this word?",
+   "bonne": "meaning",
+   "fausses": [
+    "mean",
+    "means",
+    "meant"
+   ],
+   "explication": "meaning = signification (nom).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-008",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "She speaks very ___.",
+   "bonne": "well",
+   "fausses": [
+    "good",
+    "goodly",
+    "best"
+   ],
+   "explication": "Adverbe de good : well.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-009",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "He drives very ___.",
+   "bonne": "carefully",
+   "fausses": [
+    "careful",
+    "care",
+    "cared"
+   ],
+   "explication": "Adverbe en -ly pour modifier le verbe drives.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-010",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "He's a very ___ driver. He never has accidents.",
+   "bonne": "careful",
+   "fausses": [
+    "carefully",
+    "carefulness",
+    "cared"
+   ],
+   "explication": "Adjectif devant un nom : careful.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-011",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "She is very ___ about her exams. She can't sleep.",
+   "bonne": "worried",
+   "fausses": [
+    "worrying",
+    "worry",
+    "worries"
+   ],
+   "explication": "-ed décrit ce que ressent la personne : worried.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-012",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "The film was really ___. I almost fell asleep.",
+   "bonne": "boring",
+   "fausses": [
+    "bored",
+    "bore",
+    "bores"
+   ],
+   "explication": "-ing décrit la cause : the film was boring.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-013",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "I was really ___ by the news.",
+   "bonne": "shocked",
+   "fausses": [
+    "shocking",
+    "shock",
+    "shocks"
+   ],
+   "explication": "-ed décrit le ressenti : I was shocked.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-014",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Winter is the ___ season of the year.",
+   "bonne": "coldest",
+   "fausses": [
+    "colder",
+    "more cold",
+    "cold"
+   ],
+   "explication": "Superlatif de cold : the coldest.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-015",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Monday, Tuesday and Wednesday are days of the ___.",
+   "bonne": "week",
+   "fausses": [
+    "month",
+    "year",
+    "season"
+   ],
+   "explication": "Les jours forment la semaine : week.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-016",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "You can buy bread at the ___.",
+   "bonne": "bakery",
+   "fausses": [
+    "library",
+    "pharmacy",
+    "bank"
+   ],
+   "explication": "Bakery = boulangerie.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-017",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "I need to buy medicine. I'm going to the ___.",
+   "bonne": "pharmacy",
+   "fausses": [
+    "bakery",
+    "butcher",
+    "library"
+   ],
+   "explication": "Pharmacy = pharmacie.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-018",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "A ___ is a person who looks after sick animals.",
+   "bonne": "vet",
+   "fausses": [
+    "nurse",
+    "pilot",
+    "waiter"
+   ],
+   "explication": "vet = vétérinaire.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-019",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "He didn't tell the truth. He ___.",
+   "bonne": "lied",
+   "fausses": [
+    "lay",
+    "laid",
+    "lend"
+   ],
+   "explication": "lie (lied) = mentir.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-020",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Can you ___ me some money until Friday? I'll pay you back.",
+   "bonne": "lend",
+   "fausses": [
+    "borrow",
+    "rent",
+    "win"
+   ],
+   "explication": "lend = prêter (à quelqu'un).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-021",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Can I ___ your pen, please? I forgot mine.",
+   "bonne": "borrow",
+   "fausses": [
+    "lend",
+    "give",
+    "lose"
+   ],
+   "explication": "borrow = emprunter.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-022",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "The train was ___. It arrived thirty minutes late.",
+   "bonne": "delayed",
+   "fausses": [
+    "early",
+    "fast",
+    "empty"
+   ],
+   "explication": "delayed = en retard.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-023",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "It was a very ___ weather. The sun was shining and it was 30 degrees.",
+   "bonne": "hot",
+   "fausses": [
+    "cold",
+    "rainy",
+    "foggy"
+   ],
+   "explication": "Soleil et 30 degrés : hot.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-024",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "My brother is a ___. He plays the violin in an orchestra.",
+   "bonne": "musician",
+   "fausses": [
+    "magician",
+    "electrician",
+    "politician"
+   ],
+   "explication": "musician = musicien.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-025",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Please speak ___. I can't hear you.",
+   "bonne": "louder",
+   "fausses": [
+    "quieter",
+    "slower",
+    "lower"
+   ],
+   "explication": "On ne l'entend pas : il faut parler plus fort.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-026",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "She's wearing a ___ because it's snowing and cold.",
+   "bonne": "coat",
+   "fausses": [
+    "swimsuit",
+    "sandal",
+    "shorts"
+   ],
+   "explication": "coat = manteau.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-027",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "We stayed in a hotel near the sea. We could hear the ___ from our room.",
+   "bonne": "waves",
+   "fausses": [
+    "shops",
+    "forest",
+    "mountain"
+   ],
+   "explication": "waves = vagues.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-028",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "He was so ___ that he forgot his own birthday.",
+   "bonne": "absent-minded",
+   "fausses": [
+    "well-known",
+    "hard-working",
+    "self-confident"
+   ],
+   "explication": "absent-minded = distrait.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-029",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "The company was ___ last year; it had to close all its shops.",
+   "bonne": "bankrupt",
+   "fausses": [
+    "famous",
+    "generous",
+    "successful"
+   ],
+   "explication": "bankrupt = en faillite.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-030",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "The thief was ___ to five years in prison.",
+   "bonne": "sentenced",
+   "fausses": [
+    "arrested",
+    "accused",
+    "punished"
+   ],
+   "explication": "be sentenced to = être condamné à.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-031",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Don't ___ your time! We only have ten minutes.",
+   "bonne": "waste",
+   "fausses": [
+    "save",
+    "spend",
+    "borrow"
+   ],
+   "explication": "waste time = perdre son temps ; l'urgence l'impose.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-032",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "The doctor ___ me to stop eating sugar.",
+   "bonne": "advised",
+   "fausses": [
+    "suggested",
+    "said",
+    "explained"
+   ],
+   "explication": "advise someone to do something ; « suggested », « said » et « explained » ne se construisent pas ainsi.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-033",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "I'm sorry, I can't ___ my keys. I've looked everywhere.",
+   "bonne": "find",
+   "fausses": [
+    "found",
+    "finding",
+    "finds"
+   ],
+   "explication": "can't + infinitif sans to.",
+   "relecture": null
+  }
+ ]
+}

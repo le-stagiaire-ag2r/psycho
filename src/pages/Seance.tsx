@@ -182,6 +182,11 @@ function SeanceInner({ config, mode, niveau, difficulteChoisie, onRejouer }: Inn
             <li key={c}>{c}</li>
           ))}
         </ul>
+        {config.avertissement && (
+          <p className="encadre" role="note">
+            {config.avertissement}
+          </p>
+        )}
         <p className="discret">
           Formats indicatifs, reconstitués à partir d’informations publiques. {NON_AFFILIATION}
         </p>

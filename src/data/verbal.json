@@ -1,0 +1,2168 @@
+{
+ "version": 1,
+ "epreuve": "verbal",
+ "items": [
+  {
+   "id": "VER-SYN-001",
+   "type": "synonyme",
+   "niveau": 1,
+   "enonce": "Quel mot est un synonyme de « rapide » ?",
+   "bonne": "véloce",
+   "fausses": [
+    "lent",
+    "tardif",
+    "lourd"
+   ],
+   "explication": "« rapide » et « véloce » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-002",
+   "type": "synonyme",
+   "niveau": 1,
+   "enonce": "Quel mot est un synonyme de « énorme » ?",
+   "bonne": "gigantesque",
+   "fausses": [
+    "minuscule",
+    "banal",
+    "soudain"
+   ],
+   "explication": "« énorme » et « gigantesque » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-003",
+   "type": "synonyme",
+   "niveau": 1,
+   "enonce": "Quel mot est un synonyme de « tranquille » ?",
+   "bonne": "paisible",
+   "fausses": [
+    "bruyant",
+    "pressé",
+    "fragile"
+   ],
+   "explication": "« tranquille » et « paisible » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-004",
+   "type": "synonyme",
+   "niveau": 1,
+   "enonce": "Quel mot est un synonyme de « commencer » ?",
+   "bonne": "débuter",
+   "fausses": [
+    "terminer",
+    "hésiter",
+    "reculer"
+   ],
+   "explication": "« commencer » et « débuter » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-005",
+   "type": "synonyme",
+   "niveau": 1,
+   "enonce": "Quel mot est un synonyme de « fatigué » ?",
+   "bonne": "épuisé",
+   "fausses": [
+    "réveillé",
+    "affamé",
+    "pressé"
+   ],
+   "explication": "« fatigué » et « épuisé » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-006",
+   "type": "synonyme",
+   "niveau": 1,
+   "enonce": "Quel mot est un synonyme de « courageux » ?",
+   "bonne": "vaillant",
+   "fausses": [
+    "peureux",
+    "rusé",
+    "modeste"
+   ],
+   "explication": "« courageux » et « vaillant » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-007",
+   "type": "synonyme",
+   "niveau": 1,
+   "enonce": "Quel mot est un synonyme de « un but » ?",
+   "bonne": "un objectif",
+   "fausses": [
+    "un obstacle",
+    "un retard",
+    "un détour"
+   ],
+   "explication": "« un but » et « un objectif » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-008",
+   "type": "synonyme",
+   "niveau": 1,
+   "enonce": "Quel mot est un synonyme de « terminer » ?",
+   "bonne": "achever",
+   "fausses": [
+    "débuter",
+    "suspendre",
+    "retarder"
+   ],
+   "explication": "« terminer » et « achever » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-009",
+   "type": "synonyme",
+   "niveau": 1,
+   "enonce": "Quel mot est un synonyme de « un échec » ?",
+   "bonne": "un revers",
+   "fausses": [
+    "un succès",
+    "un exploit",
+    "une victoire"
+   ],
+   "explication": "« un échec » et « un revers » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-010",
+   "type": "synonyme",
+   "niveau": 1,
+   "enonce": "Quel mot est un synonyme de « fréquent » ?",
+   "bonne": "habituel",
+   "fausses": [
+    "rare",
+    "unique",
+    "inattendu"
+   ],
+   "explication": "« fréquent » et « habituel » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-011",
+   "type": "synonyme",
+   "niveau": 1,
+   "enonce": "Quel mot est un synonyme de « important » ?",
+   "bonne": "capital",
+   "fausses": [
+    "secondaire",
+    "minime",
+    "léger"
+   ],
+   "explication": "« important » et « capital » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-012",
+   "type": "synonyme",
+   "niveau": 1,
+   "enonce": "Quel mot est un synonyme de « une erreur » ?",
+   "bonne": "une faute",
+   "fausses": [
+    "une règle",
+    "une preuve",
+    "un conseil"
+   ],
+   "explication": "« une erreur » et « une faute » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-013",
+   "type": "synonyme",
+   "niveau": 1,
+   "enonce": "Quel mot est un synonyme de « se plaindre » ?",
+   "bonne": "se lamenter",
+   "fausses": [
+    "se réjouir",
+    "se taire",
+    "s'excuser"
+   ],
+   "explication": "« se plaindre » et « se lamenter » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-014",
+   "type": "synonyme",
+   "niveau": 1,
+   "enonce": "Quel mot est un synonyme de « craindre » ?",
+   "bonne": "redouter",
+   "fausses": [
+    "désirer",
+    "braver",
+    "ignorer"
+   ],
+   "explication": "« craindre » et « redouter » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-015",
+   "type": "synonyme",
+   "niveau": 1,
+   "enonce": "Quel mot est un synonyme de « ancien » ?",
+   "bonne": "antique",
+   "fausses": [
+    "récent",
+    "nouveau",
+    "futur"
+   ],
+   "explication": "« ancien » et « antique » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-016",
+   "type": "synonyme",
+   "niveau": 2,
+   "enonce": "Quel mot est un synonyme de « éphémère » ?",
+   "bonne": "fugace",
+   "fausses": [
+    "durable",
+    "éternel",
+    "constant"
+   ],
+   "explication": "« éphémère » et « fugace » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-017",
+   "type": "synonyme",
+   "niveau": 2,
+   "enonce": "Quel mot est un synonyme de « sagace » ?",
+   "bonne": "perspicace",
+   "fausses": [
+    "naïf",
+    "bavard",
+    "timide"
+   ],
+   "explication": "« sagace » et « perspicace » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-018",
+   "type": "synonyme",
+   "niveau": 2,
+   "enonce": "Quel mot est un synonyme de « minutieux » ?",
+   "bonne": "méticuleux",
+   "fausses": [
+    "négligent",
+    "pressé",
+    "hautain"
+   ],
+   "explication": "« minutieux » et « méticuleux » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-019",
+   "type": "synonyme",
+   "niveau": 2,
+   "enonce": "Quel mot est un synonyme de « véridique » ?",
+   "bonne": "exact",
+   "fausses": [
+    "mensonger",
+    "fictif",
+    "douteux"
+   ],
+   "explication": "« véridique » et « exact » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-020",
+   "type": "synonyme",
+   "niveau": 2,
+   "enonce": "Quel mot est un synonyme de « lucide » ?",
+   "bonne": "clairvoyant",
+   "fausses": [
+    "aveuglé",
+    "distrait",
+    "confus"
+   ],
+   "explication": "« lucide » et « clairvoyant » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-021",
+   "type": "synonyme",
+   "niveau": 2,
+   "enonce": "Quel mot est un synonyme de « obstiné » ?",
+   "bonne": "têtu",
+   "fausses": [
+    "docile",
+    "indécis",
+    "souple"
+   ],
+   "explication": "« obstiné » et « têtu » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-022",
+   "type": "synonyme",
+   "niveau": 2,
+   "enonce": "Quel mot est un synonyme de « scrupuleux » ?",
+   "bonne": "consciencieux",
+   "fausses": [
+    "négligent",
+    "bavard",
+    "effronté"
+   ],
+   "explication": "« scrupuleux » et « consciencieux » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-023",
+   "type": "synonyme",
+   "niveau": 2,
+   "enonce": "Quel mot est un synonyme de « se hâter » ?",
+   "bonne": "se dépêcher",
+   "fausses": [
+    "flâner",
+    "hésiter",
+    "stagner"
+   ],
+   "explication": "« se hâter » et « se dépêcher » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-024",
+   "type": "synonyme",
+   "niveau": 2,
+   "enonce": "Quel mot est un synonyme de « un vestige » ?",
+   "bonne": "une trace",
+   "fausses": [
+    "une invention",
+    "un trésor",
+    "un cadeau"
+   ],
+   "explication": "« un vestige » et « une trace » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-025",
+   "type": "synonyme",
+   "niveau": 2,
+   "enonce": "Quel mot est un synonyme de « vétuste » ?",
+   "bonne": "délabré",
+   "fausses": [
+    "solide",
+    "moderne",
+    "luxueux"
+   ],
+   "explication": "« vétuste » et « délabré » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-026",
+   "type": "synonyme",
+   "niveau": 2,
+   "enonce": "Quel mot est un synonyme de « inéluctable » ?",
+   "bonne": "inévitable",
+   "fausses": [
+    "improbable",
+    "réversible",
+    "facultatif"
+   ],
+   "explication": "« inéluctable » et « inévitable » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-027",
+   "type": "synonyme",
+   "niveau": 2,
+   "enonce": "Quel mot est un synonyme de « dissimuler » ?",
+   "bonne": "cacher",
+   "fausses": [
+    "révéler",
+    "exposer",
+    "avouer"
+   ],
+   "explication": "« dissimuler » et « cacher » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-028",
+   "type": "synonyme",
+   "niveau": 2,
+   "enonce": "Quel mot est un synonyme de « perplexe » ?",
+   "bonne": "indécis",
+   "fausses": [
+    "certain",
+    "furieux",
+    "confiant"
+   ],
+   "explication": "« perplexe » et « indécis » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-029",
+   "type": "synonyme",
+   "niveau": 3,
+   "enonce": "Quel mot est un synonyme de « mitiger » ?",
+   "bonne": "atténuer",
+   "fausses": [
+    "aggraver",
+    "imiter",
+    "entraver"
+   ],
+   "explication": "« mitiger » et « atténuer » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-SYN-030",
+   "type": "synonyme",
+   "niveau": 3,
+   "enonce": "Quel mot est un synonyme de « s'émerveiller » ?",
+   "bonne": "s'extasier",
+   "fausses": [
+    "se lasser",
+    "s'ennuyer",
+    "s'indigner"
+   ],
+   "explication": "« s'émerveiller » et « s'extasier » ont un sens très proche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-001",
+   "type": "contraire",
+   "niveau": 1,
+   "enonce": "Quel mot est le contraire de « généreux » ?",
+   "bonne": "avare",
+   "fausses": [
+    "honnête",
+    "rapide",
+    "doux"
+   ],
+   "explication": "Le contraire de « généreux » est « avare ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-002",
+   "type": "contraire",
+   "niveau": 1,
+   "enonce": "Quel mot est le contraire de « amont » ?",
+   "bonne": "aval",
+   "fausses": [
+    "rive",
+    "source",
+    "courant"
+   ],
+   "explication": "Le contraire de « amont » est « aval ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-003",
+   "type": "contraire",
+   "niveau": 1,
+   "enonce": "Quel mot est le contraire de « croissant » ?",
+   "bonne": "décroissant",
+   "fausses": [
+    "ascendant",
+    "régulier",
+    "cyclique"
+   ],
+   "explication": "Le contraire de « croissant » est « décroissant ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-004",
+   "type": "contraire",
+   "niveau": 1,
+   "enonce": "Quel mot est le contraire de « fragile » ?",
+   "bonne": "robuste",
+   "fausses": [
+    "léger",
+    "mince",
+    "précieux"
+   ],
+   "explication": "Le contraire de « fragile » est « robuste ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-005",
+   "type": "contraire",
+   "niveau": 1,
+   "enonce": "Quel mot est le contraire de « victoire » ?",
+   "bonne": "défaite",
+   "fausses": [
+    "combat",
+    "trophée",
+    "épreuve"
+   ],
+   "explication": "Le contraire de « victoire » est « défaite ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-006",
+   "type": "contraire",
+   "niveau": 1,
+   "enonce": "Quel mot est le contraire de « accepter » ?",
+   "bonne": "refuser",
+   "fausses": [
+    "permettre",
+    "attendre",
+    "proposer"
+   ],
+   "explication": "Le contraire de « accepter » est « refuser ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-007",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « téméraire » ?",
+   "bonne": "prudent",
+   "fausses": [
+    "audacieux",
+    "hardi",
+    "intrépide"
+   ],
+   "explication": "Le contraire de « téméraire » est « prudent ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-008",
+   "type": "contraire",
+   "niveau": 1,
+   "enonce": "Quel mot est le contraire de « diminuer » ?",
+   "bonne": "augmenter",
+   "fausses": [
+    "réduire",
+    "amoindrir",
+    "baisser"
+   ],
+   "explication": "Le contraire de « diminuer » est « augmenter ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-009",
+   "type": "contraire",
+   "niveau": 1,
+   "enonce": "Quel mot est le contraire de « transparent » ?",
+   "bonne": "opaque",
+   "fausses": [
+    "clair",
+    "limpide",
+    "net"
+   ],
+   "explication": "Le contraire de « transparent » est « opaque ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-010",
+   "type": "contraire",
+   "niveau": 1,
+   "enonce": "Quel mot est le contraire de « tôt » ?",
+   "bonne": "tard",
+   "fausses": [
+    "vite",
+    "bientôt",
+    "jamais"
+   ],
+   "explication": "Le contraire de « tôt » est « tard ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-011",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « humble » ?",
+   "bonne": "orgueilleux",
+   "fausses": [
+    "modeste",
+    "discret",
+    "effacé"
+   ],
+   "explication": "Le contraire de « humble » est « orgueilleux ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-012",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « abondance » ?",
+   "bonne": "pénurie",
+   "fausses": [
+    "richesse",
+    "excès",
+    "profusion"
+   ],
+   "explication": "Le contraire de « abondance » est « pénurie ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-013",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « hostile » ?",
+   "bonne": "bienveillant",
+   "fausses": [
+    "méfiant",
+    "rancunier",
+    "agressif"
+   ],
+   "explication": "Le contraire de « hostile » est « bienveillant ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-014",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « volontaire » ?",
+   "bonne": "contraint",
+   "fausses": [
+    "décidé",
+    "résolu",
+    "spontané"
+   ],
+   "explication": "Le contraire de « volontaire » est « contraint ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-015",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « éloge » ?",
+   "bonne": "critique",
+   "fausses": [
+    "compliment",
+    "louange",
+    "hommage"
+   ],
+   "explication": "Le contraire de « éloge » est « critique ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-001",
+   "type": "intrus",
+   "niveau": 1,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "carotte",
+   "fausses": [
+    "pomme",
+    "poire",
+    "cerise",
+    "fraise"
+   ],
+   "explication": "Pomme, poire, cerise et fraise sont des fruits ; la carotte est un légume.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-002",
+   "type": "intrus",
+   "niveau": 1,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "flûte",
+   "fausses": [
+    "violon",
+    "guitare",
+    "harpe",
+    "violoncelle"
+   ],
+   "explication": "Violon, guitare, harpe et violoncelle sont des instruments à cordes ; la flûte est un instrument à vent.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-003",
+   "type": "intrus",
+   "niveau": 2,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "requin",
+   "fausses": [
+    "dauphin",
+    "baleine",
+    "chauve-souris",
+    "chien"
+   ],
+   "explication": "Le dauphin, la baleine, la chauve-souris et le chien sont des mammifères ; le requin est un poisson.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-004",
+   "type": "intrus",
+   "niveau": 1,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "Lune",
+   "fausses": [
+    "Mars",
+    "Vénus",
+    "Saturne",
+    "Jupiter"
+   ],
+   "explication": "Mars, Vénus, Saturne et Jupiter sont des planètes ; la Lune est un satellite naturel de la Terre.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-005",
+   "type": "intrus",
+   "niveau": 1,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "argile",
+   "fausses": [
+    "fer",
+    "cuivre",
+    "plomb",
+    "zinc"
+   ],
+   "explication": "Fer, cuivre, plomb et zinc sont des métaux ; l'argile est une roche.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-006",
+   "type": "intrus",
+   "niveau": 2,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "Corse",
+   "fausses": [
+    "Loire",
+    "Seine",
+    "Rhône",
+    "Garonne"
+   ],
+   "explication": "Loire, Seine, Rhône et Garonne sont des fleuves ; la Corse est une île.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-007",
+   "type": "intrus",
+   "niveau": 1,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "dormir",
+   "fausses": [
+    "courir",
+    "marcher",
+    "sauter",
+    "nager"
+   ],
+   "explication": "Courir, marcher, sauter et nager sont des verbes de mouvement ; dormir est un verbe de repos.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-008",
+   "type": "intrus",
+   "niveau": 1,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "boulanger",
+   "fausses": [
+    "infirmier",
+    "chirurgien",
+    "pharmacien",
+    "médecin"
+   ],
+   "explication": "Infirmier, chirurgien, pharmacien et médecin sont des métiers de la santé ; boulanger est un métier de l'alimentation.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-009",
+   "type": "intrus",
+   "niveau": 1,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "cube",
+   "fausses": [
+    "cercle",
+    "triangle",
+    "carré",
+    "losange"
+   ],
+   "explication": "Cercle, triangle, carré et losange sont des figures planes ; le cube est un solide.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-010",
+   "type": "intrus",
+   "niveau": 1,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "décembre",
+   "fausses": [
+    "été",
+    "hiver",
+    "printemps",
+    "automne"
+   ],
+   "explication": "Été, hiver, printemps et automne sont des saisons ; décembre est un mois.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-011",
+   "type": "intrus",
+   "niveau": 1,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "Danemark",
+   "fausses": [
+    "espagnol",
+    "italien",
+    "portugais",
+    "allemand"
+   ],
+   "explication": "Espagnol, italien, portugais et allemand sont des langues ; le Danemark est un pays.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-012",
+   "type": "intrus",
+   "niveau": 1,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "natation",
+   "fausses": [
+    "football",
+    "tennis",
+    "basket",
+    "rugby"
+   ],
+   "explication": "Football, tennis, basket et rugby se jouent avec un ballon ou une balle ; la natation, non.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-013",
+   "type": "intrus",
+   "niveau": 2,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "chauve-souris",
+   "fausses": [
+    "aigle",
+    "moineau",
+    "hirondelle",
+    "pigeon"
+   ],
+   "explication": "Aigle, moineau, hirondelle et pigeon sont des oiseaux ; la chauve-souris est un mammifère.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-014",
+   "type": "intrus",
+   "niveau": 1,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "litre",
+   "fausses": [
+    "mètre",
+    "kilomètre",
+    "centimètre",
+    "millimètre"
+   ],
+   "explication": "Mètre, kilomètre, centimètre et millimètre sont des unités de longueur ; le litre mesure un volume.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-015",
+   "type": "intrus",
+   "niveau": 2,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "terrible",
+   "fausses": [
+    "terrain",
+    "terrestre",
+    "enterrer",
+    "terrasse"
+   ],
+   "explication": "Terrain, terrestre, enterrer et terrasse sont de la famille du mot « terre » ; « terrible » vient d'un autre mot (du latin « terrere », effrayer).",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-016",
+   "type": "intrus",
+   "niveau": 2,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "portrait",
+   "fausses": [
+    "porteur",
+    "portable",
+    "transporter",
+    "support"
+   ],
+   "explication": "Porteur, portable, transporter et support sont de la famille de « porter » ; « portrait » vient de « portraire ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-017",
+   "type": "intrus",
+   "niveau": 1,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "triste",
+   "fausses": [
+    "joyeux",
+    "gai",
+    "enjoué",
+    "content"
+   ],
+   "explication": "Joyeux, gai, enjoué et content expriment la joie ; triste exprime le contraire.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-018",
+   "type": "intrus",
+   "niveau": 2,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "plateau",
+   "fausses": [
+    "océan",
+    "golfe",
+    "détroit",
+    "baie"
+   ],
+   "explication": "Océan, golfe, détroit et baie désignent des étendues d'eau salée ; un plateau est une étendue de terre.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-019",
+   "type": "intrus",
+   "niveau": 2,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "lentille",
+   "fausses": [
+    "blé",
+    "avoine",
+    "orge",
+    "seigle"
+   ],
+   "explication": "Blé, avoine, orge et seigle sont des céréales ; la lentille est une légumineuse.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-020",
+   "type": "intrus",
+   "niveau": 3,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "syllabe",
+   "fausses": [
+    "virgule",
+    "point",
+    "tiret",
+    "guillemets"
+   ],
+   "explication": "Virgule, point, tiret et guillemets sont des signes de ponctuation ou de typographie ; la syllabe est une unité sonore.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-001",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui ne laisse passer ni la lumière ni les regards » ?",
+   "bonne": "opaque",
+   "fausses": [
+    "translucide",
+    "diaphane",
+    "limpide"
+   ],
+   "explication": "Un corps opaque arrête la lumière ; « translucide » et « diaphane » la laissent passer.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-002",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Personne qui aime l'humanité et cherche à lui faire du bien » ?",
+   "bonne": "philanthrope",
+   "fausses": [
+    "misanthrope",
+    "mélomane",
+    "bibliophile"
+   ],
+   "explication": "Le philanthrope aime l'humanité ; le misanthrope la fuit ; le mélomane aime la musique ; le bibliophile les livres.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-003",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Collectionneur de livres rares » ?",
+   "bonne": "bibliophile",
+   "fausses": [
+    "philatéliste",
+    "numismate",
+    "cartophile"
+   ],
+   "explication": "Le bibliophile collectionne les livres ; le philatéliste les timbres ; le numismate les monnaies ; le cartophile les cartes postales.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-004",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui se produit une fois par an » ?",
+   "bonne": "annuel",
+   "fausses": [
+    "biennal",
+    "mensuel",
+    "hebdomadaire"
+   ],
+   "explication": "Annuel : tous les ans ; biennal : tous les deux ans ; mensuel : tous les mois ; hebdomadaire : toutes les semaines.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-005",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Accord conclu pour cesser les combats entre des armées en guerre » ?",
+   "bonne": "armistice",
+   "fausses": [
+    "ultimatum",
+    "embargo",
+    "blocus"
+   ],
+   "explication": "Un armistice suspend les combats ; un ultimatum est une exigence finale ; un embargo interdit des échanges ; un blocus isole un lieu.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-006",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Quel mot correspond à la définition suivante : « Étude des êtres vivants » ?",
+   "bonne": "biologie",
+   "fausses": [
+    "géologie",
+    "astronomie",
+    "sociologie"
+   ],
+   "explication": "La biologie étudie le vivant ; la géologie la Terre ; l'astronomie les astres ; la sociologie les sociétés.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-007",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Lieu où l'on élève des abeilles » ?",
+   "bonne": "rucher",
+   "fausses": [
+    "étable",
+    "bergerie",
+    "volière"
+   ],
+   "explication": "Un rucher abrite des ruches ; l'étable abrite des bovins, la bergerie des moutons, la volière des oiseaux.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-008",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Mettre fin à un contrat » ?",
+   "bonne": "résilier",
+   "fausses": [
+    "reconduire",
+    "conclure",
+    "parapher"
+   ],
+   "explication": "Résilier un contrat, c'est y mettre fin ; le reconduire, c'est le prolonger ; le conclure, le signer ; le parapher, y apposer ses initiales.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-009",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui est présent partout à la fois » ?",
+   "bonne": "omniprésent",
+   "fausses": [
+    "éphémère",
+    "itinérant",
+    "sédentaire"
+   ],
+   "explication": "Omniprésent : présent en tous lieux.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-010",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Quantité en trop, qui dépasse le nécessaire » ?",
+   "bonne": "excédent",
+   "fausses": [
+    "déficit",
+    "manque",
+    "quota"
+   ],
+   "explication": "Un excédent est un surplus ; un déficit est un manque.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-011",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui peut être mangé sans danger » ?",
+   "bonne": "comestible",
+   "fausses": [
+    "combustible",
+    "potable",
+    "soluble"
+   ],
+   "explication": "Comestible : qui peut se manger ; potable : qui peut se boire ; combustible : qui peut brûler ; soluble : qui peut se dissoudre.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-012",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui se rapporte aux reins » ?",
+   "bonne": "rénal",
+   "fausses": [
+    "hépatique",
+    "cardiaque",
+    "pulmonaire"
+   ],
+   "explication": "Rénal : relatif aux reins ; hépatique : au foie ; cardiaque : au cœur ; pulmonaire : aux poumons.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-013",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Remplacer quelqu'un dans ses fonctions de façon provisoire » ?",
+   "bonne": "suppléer",
+   "fausses": [
+    "supplier",
+    "suspendre",
+    "supputer"
+   ],
+   "explication": "Suppléer quelqu'un, c'est le remplacer provisoirement ; supplier, c'est prier avec insistance ; supputer, c'est évaluer par déduction.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-014",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui ne varie pas, qui reste identique » ?",
+   "bonne": "constant",
+   "fausses": [
+    "fluctuant",
+    "ondoyant",
+    "volatil"
+   ],
+   "explication": "Constant : qui ne change pas ; fluctuant, ondoyant et volatil : qui changent.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-015",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Ne pas tenir compte de quelque chose » ?",
+   "bonne": "ignorer",
+   "fausses": [
+    "remarquer",
+    "consulter",
+    "signaler"
+   ],
+   "explication": "Ignorer : ne pas prendre en compte.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-016",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Convaincre quelqu'un de renoncer à un projet » ?",
+   "bonne": "dissuader",
+   "fausses": [
+    "persuader",
+    "inciter",
+    "exhorter"
+   ],
+   "explication": "Dissuader : détourner de ; persuader, inciter et exhorter poussent à agir.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-017",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui a lieu pendant la nuit » ?",
+   "bonne": "nocturne",
+   "fausses": [
+    "diurne",
+    "quotidien",
+    "estival"
+   ],
+   "explication": "Nocturne : de la nuit ; diurne : du jour ; quotidien : de chaque jour ; estival : de l'été.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-018",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui parle peu » ?",
+   "bonne": "taciturne",
+   "fausses": [
+    "loquace",
+    "volubile",
+    "disert"
+   ],
+   "explication": "Taciturne : silencieux ; loquace, volubile et disert : qui parlent beaucoup ou facilement.",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-001",
+   "type": "proverbe",
+   "niveau": 1,
+   "enonce": "Complète le proverbe : « Qui sème le vent récolte la … »",
+   "bonne": "tempête",
+   "fausses": [
+    "pluie",
+    "moisson",
+    "fumée"
+   ],
+   "explication": "Le proverbe complet est : « Qui sème le vent récolte la tempête. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-002",
+   "type": "proverbe",
+   "niveau": 1,
+   "enonce": "Complète le proverbe : « Petit à petit, l'oiseau fait son … »",
+   "bonne": "nid",
+   "fausses": [
+    "chant",
+    "ciel",
+    "vol"
+   ],
+   "explication": "Le proverbe complet est : « Petit à petit, l'oiseau fait son nid. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-003",
+   "type": "proverbe",
+   "niveau": 1,
+   "enonce": "Complète le proverbe : « Pierre qui roule n'amasse pas … »",
+   "bonne": "mousse",
+   "fausses": [
+    "poussière",
+    "sable",
+    "neige"
+   ],
+   "explication": "Le proverbe complet est : « Pierre qui roule n'amasse pas mousse. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-004",
+   "type": "proverbe",
+   "niveau": 1,
+   "enonce": "Complète le proverbe : « L'habit ne fait pas le … »",
+   "bonne": "moine",
+   "fausses": [
+    "roi",
+    "soldat",
+    "maître"
+   ],
+   "explication": "Le proverbe complet est : « L'habit ne fait pas le moine. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-005",
+   "type": "proverbe",
+   "niveau": 1,
+   "enonce": "Complète le proverbe : « Il n'y a pas de fumée sans … »",
+   "bonne": "feu",
+   "fausses": [
+    "vent",
+    "cendre",
+    "nuage"
+   ],
+   "explication": "Le proverbe complet est : « Il n'y a pas de fumée sans feu. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-006",
+   "type": "proverbe",
+   "niveau": 2,
+   "enonce": "Complète le proverbe : « Chat échaudé craint l'eau … »",
+   "bonne": "froide",
+   "fausses": [
+    "chaude",
+    "bouillante",
+    "sale"
+   ],
+   "explication": "Le proverbe complet est : « Chat échaudé craint l'eau froide. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-007",
+   "type": "proverbe",
+   "niveau": 1,
+   "enonce": "Complète le proverbe : « Tel père, tel … »",
+   "bonne": "fils",
+   "fausses": [
+    "frère",
+    "oncle",
+    "voisin"
+   ],
+   "explication": "Le proverbe complet est : « Tel père, tel fils. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-008",
+   "type": "proverbe",
+   "niveau": 2,
+   "enonce": "Complète le proverbe : « À cœur vaillant, rien d' … »",
+   "bonne": "impossible",
+   "fausses": [
+    "facile",
+    "inutile",
+    "léger"
+   ],
+   "explication": "Le proverbe complet est : « À cœur vaillant, rien d' impossible. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-009",
+   "type": "proverbe",
+   "niveau": 1,
+   "enonce": "Complète le proverbe : « Rien ne sert de courir, il faut partir à … »",
+   "bonne": "point",
+   "fausses": [
+    "pied",
+    "l'aube",
+    "droite"
+   ],
+   "explication": "Le proverbe complet est : « Rien ne sert de courir, il faut partir à point. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-010",
+   "type": "proverbe",
+   "niveau": 2,
+   "enonce": "Complète le proverbe : « Les chiens aboient, la caravane … »",
+   "bonne": "passe",
+   "fausses": [
+    "s'arrête",
+    "s'endort",
+    "recule"
+   ],
+   "explication": "Le proverbe complet est : « Les chiens aboient, la caravane passe. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-011",
+   "type": "proverbe",
+   "niveau": 2,
+   "enonce": "Complète le proverbe : « Qui trop embrasse mal … »",
+   "bonne": "étreint",
+   "fausses": [
+    "pense",
+    "mange",
+    "parle"
+   ],
+   "explication": "Le proverbe complet est : « Qui trop embrasse mal étreint. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-012",
+   "type": "proverbe",
+   "niveau": 1,
+   "enonce": "Complète le proverbe : « Qui va à la chasse perd sa … »",
+   "bonne": "place",
+   "fausses": [
+    "proie",
+    "chance",
+    "route"
+   ],
+   "explication": "Le proverbe complet est : « Qui va à la chasse perd sa place. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-013",
+   "type": "proverbe",
+   "niveau": 1,
+   "enonce": "Complète le proverbe : « L'appétit vient en … »",
+   "bonne": "mangeant",
+   "fausses": [
+    "dormant",
+    "courant",
+    "parlant"
+   ],
+   "explication": "Le proverbe complet est : « L'appétit vient en mangeant. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-014",
+   "type": "proverbe",
+   "niveau": 2,
+   "enonce": "Complète le proverbe : « Qui s'y frotte s'y … »",
+   "bonne": "pique",
+   "fausses": [
+    "brûle",
+    "perd",
+    "noie"
+   ],
+   "explication": "Le proverbe complet est : « Qui s'y frotte s'y pique. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-015",
+   "type": "proverbe",
+   "niveau": 1,
+   "enonce": "Complète le proverbe : « La nuit, tous les chats sont … »",
+   "bonne": "gris",
+   "fausses": [
+    "noirs",
+    "blancs",
+    "perdus"
+   ],
+   "explication": "Le proverbe complet est : « La nuit, tous les chats sont gris. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-016",
+   "type": "proverbe",
+   "niveau": 1,
+   "enonce": "Complète le proverbe : « C'est en forgeant qu'on devient … »",
+   "bonne": "forgeron",
+   "fausses": [
+    "soldat",
+    "artisan",
+    "maître"
+   ],
+   "explication": "Le proverbe complet est : « C'est en forgeant qu'on devient forgeron. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-017",
+   "type": "proverbe",
+   "niveau": 1,
+   "enonce": "Complète le proverbe : « Mieux vaut tard que … »",
+   "bonne": "jamais",
+   "fausses": [
+    "trop tôt",
+    "rien",
+    "plus"
+   ],
+   "explication": "Le proverbe complet est : « Mieux vaut tard que jamais. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-018",
+   "type": "proverbe",
+   "niveau": 2,
+   "enonce": "Complète le proverbe : « Un tiens vaut mieux que deux tu … »",
+   "bonne": "l'auras",
+   "fausses": [
+    "perds",
+    "vois",
+    "cherches"
+   ],
+   "explication": "Le proverbe complet est : « Un tiens vaut mieux que deux tu l'auras. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-019",
+   "type": "proverbe",
+   "niveau": 1,
+   "enonce": "Complète le proverbe : « Aide-toi, le ciel t' … »",
+   "bonne": "aidera",
+   "fausses": [
+    "entendra",
+    "sauvera",
+    "protégera"
+   ],
+   "explication": "Le proverbe complet est : « Aide-toi, le ciel t' aidera. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-020",
+   "type": "proverbe",
+   "niveau": 1,
+   "enonce": "Complète le proverbe : « Les petits ruisseaux font les grandes … »",
+   "bonne": "rivières",
+   "fausses": [
+    "mers",
+    "cascades",
+    "vagues"
+   ],
+   "explication": "Le proverbe complet est : « Les petits ruisseaux font les grandes rivières. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-021",
+   "type": "proverbe",
+   "niveau": 2,
+   "enonce": "Complète le proverbe : « Qui aime bien châtie … »",
+   "bonne": "bien",
+   "fausses": [
+    "mal",
+    "fort",
+    "souvent"
+   ],
+   "explication": "Le proverbe complet est : « Qui aime bien châtie bien. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-022",
+   "type": "proverbe",
+   "niveau": 2,
+   "enonce": "Complète le proverbe : « Quand le chat n'est pas là, les souris … »",
+   "bonne": "dansent",
+   "fausses": [
+    "dorment",
+    "fuient",
+    "chantent"
+   ],
+   "explication": "Le proverbe complet est : « Quand le chat n'est pas là, les souris dansent. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-PRO-023",
+   "type": "proverbe",
+   "niveau": 1,
+   "enonce": "Complète le proverbe : « L'argent ne fait pas le … »",
+   "bonne": "bonheur",
+   "fausses": [
+    "succès",
+    "courage",
+    "travail"
+   ],
+   "explication": "Le proverbe complet est : « L'argent ne fait pas le bonheur. »",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-001",
+   "type": "orthographe",
+   "niveau": 1,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "rythme",
+   "fausses": [
+    "rithme",
+    "rhytme",
+    "rytme"
+   ],
+   "explication": "L'orthographe correcte est « rythme ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-002",
+   "type": "orthographe",
+   "niveau": 2,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "développement",
+   "fausses": [
+    "dévelopement",
+    "développment",
+    "dévellopement"
+   ],
+   "explication": "L'orthographe correcte est « développement ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-003",
+   "type": "orthographe",
+   "niveau": 2,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "apparition",
+   "fausses": [
+    "aparition",
+    "apparision",
+    "appariton"
+   ],
+   "explication": "L'orthographe correcte est « apparition ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-004",
+   "type": "orthographe",
+   "niveau": 2,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "accueillir",
+   "fausses": [
+    "acceuillir",
+    "accueuillir",
+    "aqueillir"
+   ],
+   "explication": "L'orthographe correcte est « accueillir ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-005",
+   "type": "orthographe",
+   "niveau": 2,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "exigence",
+   "fausses": [
+    "éxigence",
+    "exigeance",
+    "exiguence"
+   ],
+   "explication": "L'orthographe correcte est « exigence ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-006",
+   "type": "orthographe",
+   "niveau": 1,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "cauchemar",
+   "fausses": [
+    "cauchemard",
+    "cochemar",
+    "caushemar"
+   ],
+   "explication": "L'orthographe correcte est « cauchemar ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-007",
+   "type": "orthographe",
+   "niveau": 2,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "dilemme",
+   "fausses": [
+    "dilème",
+    "dilemne",
+    "dillemme"
+   ],
+   "explication": "L'orthographe correcte est « dilemme ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-008",
+   "type": "orthographe",
+   "niveau": 1,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "occasion",
+   "fausses": [
+    "ocasion",
+    "occassion",
+    "ocassion"
+   ],
+   "explication": "L'orthographe correcte est « occasion ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-009",
+   "type": "orthographe",
+   "niveau": 1,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "nécessaire",
+   "fausses": [
+    "nécésaire",
+    "necessaire",
+    "nécessère"
+   ],
+   "explication": "L'orthographe correcte est « nécessaire ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-010",
+   "type": "orthographe",
+   "niveau": 2,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "correspondance",
+   "fausses": [
+    "correspondence",
+    "corespondance",
+    "corrèspondance"
+   ],
+   "explication": "L'orthographe correcte est « correspondance ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-011",
+   "type": "orthographe",
+   "niveau": 1,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "connaissance",
+   "fausses": [
+    "connaisance",
+    "conaissance",
+    "connaissence"
+   ],
+   "explication": "L'orthographe correcte est « connaissance ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-012",
+   "type": "orthographe",
+   "niveau": 1,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "appartement",
+   "fausses": [
+    "apartement",
+    "appartemment",
+    "appartemant"
+   ],
+   "explication": "L'orthographe correcte est « appartement ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-013",
+   "type": "orthographe",
+   "niveau": 2,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "adolescent",
+   "fausses": [
+    "adollescent",
+    "adolessent",
+    "adolescant"
+   ],
+   "explication": "L'orthographe correcte est « adolescent ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-014",
+   "type": "orthographe",
+   "niveau": 2,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "parallèle",
+   "fausses": [
+    "paralèle",
+    "parrallèle",
+    "paralelle"
+   ],
+   "explication": "L'orthographe correcte est « parallèle ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-015",
+   "type": "orthographe",
+   "niveau": 1,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "intelligence",
+   "fausses": [
+    "inteligence",
+    "intelligance",
+    "intellegence"
+   ],
+   "explication": "L'orthographe correcte est « intelligence ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-016",
+   "type": "orthographe",
+   "niveau": 2,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "gouvernement",
+   "fausses": [
+    "gouvernemment",
+    "gouverment",
+    "gouvernemant"
+   ],
+   "explication": "L'orthographe correcte est « gouvernement ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-017",
+   "type": "orthographe",
+   "niveau": 1,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "souhaiter",
+   "fausses": [
+    "souhaitter",
+    "souaiter",
+    "souhèter"
+   ],
+   "explication": "L'orthographe correcte est « souhaiter ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-018",
+   "type": "orthographe",
+   "niveau": 1,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "chaussure",
+   "fausses": [
+    "chausure",
+    "chaussur",
+    "chossure"
+   ],
+   "explication": "L'orthographe correcte est « chaussure ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-019",
+   "type": "orthographe",
+   "niveau": 2,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "agressif",
+   "fausses": [
+    "agrésif",
+    "aggressif",
+    "agressiv"
+   ],
+   "explication": "L'orthographe correcte est « agressif ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-020",
+   "type": "orthographe",
+   "niveau": 2,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "éphémère",
+   "fausses": [
+    "éfémère",
+    "éphémaire",
+    "éphèmère"
+   ],
+   "explication": "L'orthographe correcte est « éphémère ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-021",
+   "type": "orthographe",
+   "niveau": 3,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "privilège",
+   "fausses": [
+    "privilége",
+    "privillège",
+    "privilaige"
+   ],
+   "explication": "L'orthographe correcte est « privilège ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-022",
+   "type": "orthographe",
+   "niveau": 3,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "baccalauréat",
+   "fausses": [
+    "bacalauréat",
+    "baccalaureat",
+    "baccaloréat"
+   ],
+   "explication": "L'orthographe correcte est « baccalauréat ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-023",
+   "type": "orthographe",
+   "niveau": 2,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "interrogation",
+   "fausses": [
+    "interogation",
+    "intérrogation",
+    "interrogacion"
+   ],
+   "explication": "L'orthographe correcte est « interrogation ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-ORT-024",
+   "type": "orthographe",
+   "niveau": 2,
+   "enonce": "Quelle est la bonne orthographe ?",
+   "bonne": "embarrasser",
+   "fausses": [
+    "embarasser",
+    "embarrasé",
+    "enbarrasser"
+   ],
+   "explication": "L'orthographe correcte est « embarrasser ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-GRA-001",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "Il faut que tu … plus attentif.",
+   "bonne": "sois",
+   "fausses": [
+    "es",
+    "soit",
+    "seras"
+   ],
+   "explication": "Après « il faut que », on emploie le subjonctif : que tu sois.",
+   "relecture": null
+  },
+  {
+   "id": "VER-GRA-002",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "Les fleurs que j'ai … sont fanées.",
+   "bonne": "cueillies",
+   "fausses": [
+    "cueillis",
+    "cueillir",
+    "cueillie"
+   ],
+   "explication": "Le participe passé s'accorde avec le COD placé avant l'auxiliaire avoir : « que » reprend « les fleurs » (féminin pluriel).",
+   "relecture": null
+  },
+  {
+   "id": "VER-GRA-003",
+   "type": "grammaire",
+   "niveau": 3,
+   "enonce": "Elle s'est … la main.",
+   "bonne": "coupé",
+   "fausses": [
+    "coupée",
+    "coupés",
+    "couper"
+   ],
+   "explication": "Le COD (« la main ») est placé après le verbe : le participe passé reste invariable.",
+   "relecture": null
+  },
+  {
+   "id": "VER-GRA-004",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "Nous … allés au marché ce matin.",
+   "bonne": "sommes",
+   "fausses": [
+    "avons",
+    "êtes",
+    "sont"
+   ],
+   "explication": "Aller se conjugue avec être ; avec « nous » : nous sommes allés.",
+   "relecture": null
+  },
+  {
+   "id": "VER-GRA-005",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "Il … deux frères.",
+   "bonne": "a",
+   "fausses": [
+    "à",
+    "as",
+    "ah"
+   ],
+   "explication": "« a » est le verbe avoir (il avait deux frères) ; « à » est une préposition.",
+   "relecture": null
+  },
+  {
+   "id": "VER-GRA-006",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "Je vais … Lyon demain.",
+   "bonne": "à",
+   "fausses": [
+    "a",
+    "as",
+    "ah"
+   ],
+   "explication": "« à » est une préposition : on ne peut pas le remplacer par « avait ».",
+   "relecture": null
+  },
+  {
+   "id": "VER-GRA-007",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "Voici la maison … j'ai grandi.",
+   "bonne": "où",
+   "fausses": [
+    "ou",
+    "ouh",
+    "houx"
+   ],
+   "explication": "« où » indique le lieu ; « ou » exprime le choix (ou bien).",
+   "relecture": null
+  },
+  {
+   "id": "VER-GRA-008",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "Elle … lève tôt.",
+   "bonne": "se",
+   "fausses": [
+    "ce",
+    "ceux",
+    "ça"
+   ],
+   "explication": "« se » est le pronom réfléchi du verbe se lever.",
+   "relecture": null
+  },
+  {
+   "id": "VER-GRA-009",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "Les lettres qu'elle a … sont arrivées.",
+   "bonne": "écrites",
+   "fausses": [
+    "écrit",
+    "écrite",
+    "écrits"
+   ],
+   "explication": "COD placé avant (« que » = les lettres, féminin pluriel) : le participe s'accorde.",
+   "relecture": null
+  },
+  {
+   "id": "VER-GRA-010",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "Si j'avais su, je ne … pas venu.",
+   "bonne": "serais",
+   "fausses": [
+    "suis",
+    "serai",
+    "étais"
+   ],
+   "explication": "Après « si + plus-que-parfait », on emploie le conditionnel passé : je ne serais pas venu.",
+   "relecture": null
+  },
+  {
+   "id": "VER-GRA-011",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "Il faut que nous … tôt.",
+   "bonne": "partions",
+   "fausses": [
+    "partons",
+    "partirons",
+    "partîmes"
+   ],
+   "explication": "Après « il faut que », subjonctif présent : que nous partions.",
+   "relecture": null
+  },
+  {
+   "id": "VER-GRA-012",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "Bien qu'il …, il continue de marcher.",
+   "bonne": "pleuve",
+   "fausses": [
+    "pleut",
+    "pleuvait",
+    "pleuvra"
+   ],
+   "explication": "« Bien que » est suivi du subjonctif : bien qu'il pleuve.",
+   "relecture": null
+  },
+  {
+   "id": "VER-GRA-013",
+   "type": "grammaire",
+   "niveau": 3,
+   "enonce": "C'est la plus belle ville que j'… jamais vue.",
+   "bonne": "aie",
+   "fausses": [
+    "ai",
+    "avais",
+    "aurai"
+   ],
+   "explication": "Après un superlatif suivi d'une relative exprimant une expérience, on emploie le subjonctif : que j'aie jamais vue.",
+   "relecture": null
+  },
+  {
+   "id": "VER-ANA-001",
+   "type": "analogie",
+   "niveau": 1,
+   "enonce": "Chaud est à froid ce que jour est à …",
+   "bonne": "nuit",
+   "fausses": [
+    "soleil",
+    "lumière",
+    "matin"
+   ],
+   "explication": "Chaud / froid et jour / nuit entretiennent le même rapport.",
+   "relecture": null
+  },
+  {
+   "id": "VER-ANA-002",
+   "type": "analogie",
+   "niveau": 2,
+   "enonce": "Marin est à bateau ce que cavalier est à …",
+   "bonne": "cheval",
+   "fausses": [
+    "selle",
+    "écurie",
+    "galop"
+   ],
+   "explication": "Marin / bateau et cavalier / cheval entretiennent le même rapport.",
+   "relecture": null
+  },
+  {
+   "id": "VER-ANA-003",
+   "type": "analogie",
+   "niveau": 1,
+   "enonce": "Fourchette est à manger ce que crayon est à …",
+   "bonne": "écrire",
+   "fausses": [
+    "gommer",
+    "tailler",
+    "peindre"
+   ],
+   "explication": "Fourchette / manger et crayon / écrire entretiennent le même rapport.",
+   "relecture": null
+  },
+  {
+   "id": "VER-ANA-004",
+   "type": "analogie",
+   "niveau": 1,
+   "enonce": "Page est à livre ce que pétale est à …",
+   "bonne": "fleur",
+   "fausses": [
+    "tige",
+    "arbre",
+    "jardin"
+   ],
+   "explication": "Page / livre et pétale / fleur entretiennent le même rapport.",
+   "relecture": null
+  },
+  {
+   "id": "VER-ANA-005",
+   "type": "analogie",
+   "niveau": 2,
+   "enonce": "Chat est à miauler ce que cheval est à …",
+   "bonne": "hennir",
+   "fausses": [
+    "rugir",
+    "beugler",
+    "bêler"
+   ],
+   "explication": "Chat / miauler et cheval / hennir entretiennent le même rapport.",
+   "relecture": null
+  },
+  {
+   "id": "VER-ANA-006",
+   "type": "analogie",
+   "niveau": 1,
+   "enonce": "Médecin est à hôpital ce que professeur est à …",
+   "bonne": "école",
+   "fausses": [
+    "usine",
+    "tribunal",
+    "mairie"
+   ],
+   "explication": "Médecin / hôpital et professeur / école entretiennent le même rapport.",
+   "relecture": null
+  },
+  {
+   "id": "VER-ANA-007",
+   "type": "analogie",
+   "niveau": 1,
+   "enonce": "1 est à 10 ce que 5 est à …",
+   "bonne": "50",
+   "fausses": [
+    "15",
+    "25",
+    "500"
+   ],
+   "explication": "1 / 10 et 5 / 50 entretiennent le même rapport.",
+   "relecture": null
+  },
+  {
+   "id": "VER-ANA-008",
+   "type": "analogie",
+   "niveau": 1,
+   "enonce": "Main est à gant ce que pied est à …",
+   "bonne": "chaussure",
+   "fausses": [
+    "ceinture",
+    "bague",
+    "chapeau"
+   ],
+   "explication": "Main / gant et pied / chaussure entretiennent le même rapport.",
+   "relecture": null
+  },
+  {
+   "id": "VER-ANA-009",
+   "type": "analogie",
+   "niveau": 1,
+   "enonce": "Lent est à vite ce que faible est à …",
+   "bonne": "fort",
+   "fausses": [
+    "mou",
+    "lourd",
+    "petit"
+   ],
+   "explication": "Lent / vite et faible / fort entretiennent le même rapport.",
+   "relecture": null
+  },
+  {
+   "id": "VER-ANA-010",
+   "type": "analogie",
+   "niveau": 2,
+   "enonce": "Peintre est à tableau ce que sculpteur est à …",
+   "bonne": "statue",
+   "fausses": [
+    "pinceau",
+    "palette",
+    "toile"
+   ],
+   "explication": "Peintre / tableau et sculpteur / statue entretiennent le même rapport.",
+   "relecture": null
+  }
+ ]
+}

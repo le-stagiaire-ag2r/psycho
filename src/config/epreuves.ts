@@ -30,6 +30,8 @@ export interface ConfigEpreuve {
   parametres: Record<string, string | number>;
   /** Conseils courts affichés avant de commencer */
   conseils: string[];
+  /** Mise en garde affichée avant de commencer (statut de la banque, limites…) */
+  avertissement?: string;
 }
 
 const CONSEIL_VITESSE =
@@ -127,8 +129,8 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
   verbal: {
     id: 'verbal',
     titre: 'Aptitude verbale',
-    description: 'Synonymes, intrus, vocabulaire, proverbes, orthographe.',
-    disponible: false,
+    description: 'Synonymes, contraires, intrus, vocabulaire, proverbes, orthographe, analogies.',
+    disponible: true,
     nbQuestions: 31,
     dureeSecondes: 480,
     nbChoix: 4,
@@ -136,8 +138,15 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
     passerAutorise: true,
     penaliteErreur: 0,
     difficulteExamen: 2,
-    parametres: {},
-    conseils: [],
+    // seulementRelus: 1 = ne proposer que les items relus par un humain (champ « relecture » du JSON)
+    parametres: { seulementRelus: 0 },
+    conseils: [
+      'Écarte d’abord les propositions que tu sais fausses : la bonne réponse apparaît souvent par élimination.',
+      'Pour un intrus, cherche la catégorie commune aux autres mots avant de regarder le mot isolé.',
+      'Si deux réponses te semblent possibles, choisis celle dont le sens est le plus courant, puis passe à la suite.',
+    ],
+    avertissement:
+      'Banque de questions rédigées pour ce projet, pas encore relues par un humain : si une question te paraît ambiguë ou fausse, utilise « Signaler une erreur ».',
   },
   numerique: {
     id: 'numerique',
@@ -162,7 +171,7 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
     id: 'anglais',
     titre: 'Anglais',
     description: 'QCM de grammaire et de vocabulaire, niveau collège-lycée.',
-    disponible: false,
+    disponible: true,
     nbQuestions: 100,
     dureeSecondes: 3300,
     nbChoix: 4,
@@ -170,8 +179,14 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
     passerAutorise: true,
     penaliteErreur: 0,
     difficulteExamen: 2,
-    parametres: {},
-    conseils: [],
+    parametres: { seulementRelus: 0 },
+    conseils: [
+      'Cherche le marqueur de temps (yesterday, since, already, every day…) : il impose presque toujours la bonne forme.',
+      'Lis la phrase entière avant de choisir : la fin de la phrase donne souvent la structure attendue.',
+      'La banque actuelle compte environ 160 questions : au-delà, certaines reviennent.',
+    ],
+    avertissement:
+      'Banque de questions rédigées pour ce projet, pas encore relues par un humain : si une question te paraît ambiguë ou fausse, utilise « Signaler une erreur ».',
   },
   personnalite: {
     id: 'personnalite',
