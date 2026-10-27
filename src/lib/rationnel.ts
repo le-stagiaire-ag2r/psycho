@@ -53,10 +53,22 @@ export function formatable(a: Q, f: Format): boolean {
   return true;
 }
 
+/** Sépare les milliers par une espace fine insécable (usage français) : 22400 → 22 400. */
+export function grouperMilliers(entiere: string): string {
+  return entiere.replace(/\B(?=(\d{3})+(?!\d))/g, '\u202f');
+}
+
+/** « jour|jours » : singulier jusqu'à 1 inclus, pluriel au-delà. Sans « | », l'unité est invariable. */
+function uniteAccordee(unite: string, a: Q): string {
+  if (!unite.includes('|')) return unite;
+  const [singulier, pluriel] = unite.split('|');
+  return Math.abs(a.n) / a.d > 1 ? pluriel : singulier;
+}
+
 export function formater(a: Q, f: Format): string {
   let s: string;
   if (f.type === 'fraction') {
-    s = a.d === 1 ? String(a.n) : `${a.n}/${a.d}`;
+    s = a.d === 1 ? grouperMilliers(String(a.n)) : `${a.n}/${a.d}`;
   } else {
     if (!formatable(a, f)) throw new Error(`Valeur ${a.n}/${a.d} non représentable en ${f.type}`);
     const centiemes = (a.n * 100) / a.d;
@@ -64,8 +76,8 @@ export function formater(a: Q, f: Format): string {
     const abs = Math.abs(centiemes);
     const entiere = Math.floor(abs / 100);
     const frac = abs % 100;
-    s = `${signe}${entiere}`;
+    s = `${signe}${grouperMilliers(String(entiere))}`;
     if (frac !== 0) s += ',' + String(frac).padStart(2, '0').replace(/0$/, '');
   }
-  return f.unite ? `${s} ${f.unite}` : s;
+  return f.unite ? `${s}\u00a0${uniteAccordee(f.unite, a)}` : s;
 }

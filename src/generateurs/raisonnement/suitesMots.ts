@@ -52,7 +52,7 @@ export function genererSuiteMots(rng: Prng, diff: Difficulte): SuiteMots {
       mots: affiches.map((i) => liste[i]),
       suivant: liste[suivant],
       voisins,
-      explication: `On avance de ${pas > 0 ? '+' : ''}${pas} dans la liste (${nomListe}) ; la liste est circulaire. Le suivant est ${liste[suivant]}.`,
+      explication: `On ${pas > 0 ? 'avance' : 'recule'} de ${Math.abs(pas)} ${Math.abs(pas) > 1 ? 'rangs' : 'rang'} dans la liste (${nomListe}) ; la liste est circulaire. Le suivant est ${liste[suivant]}.`,
     };
   }
   throw new Error('Aucune suite de mots valide trouvée');

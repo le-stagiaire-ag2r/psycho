@@ -42,7 +42,7 @@ témoignages de candidats. Pour l'officiel : sengager.fr ou un CIRFA.
 - [ ] Épreuve de **mémoire / observation** (« quels objets étaient affichés ? ») : non implémentée, à décider
 
 ## Verbal et anglais
-- [ ] **Relecture humaine obligatoire** des 159 items verbaux et des 158 items d'anglais (rédigés pour ce projet avec l'aide d'une IA, donc `relecture: null`)
+- [ ] **Relecture humaine obligatoire** (une passe IA a déjà eu lieu, voir `RELECTURE.md` avec la liste des questions encore discutables) des 159 items verbaux et des 158 items d'anglais (rédigés pour ce projet avec l'aide d'une IA, donc `relecture: null`)
 - [ ] Types d'items verbaux réellement rencontrés (synonymes, intrus, vocabulaire, proverbes, orthographe : confirmés par le brief ; analogies et grammaire : ajoutés)
 - [ ] Nombre de propositions : 4 (config `nbChoix`)
 

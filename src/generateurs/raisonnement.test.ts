@@ -6,7 +6,7 @@ import { FAMILLES_RAISONNEMENT, generateurRaisonnement } from './raisonnement';
 import { genererSuiteLettres, predictionsSuiteLettres } from './raisonnement/suitesLettres';
 import { genererSuiteMots, pasCompatible } from './raisonnement/suitesMots';
 import { genererSuiteNombres, predictionsSuiteNombres } from './raisonnement/suitesNombres';
-import { classementsCompatibles, genererTransitive } from './raisonnement/transitive';
+import { classementsCompatibles, genererTransitive, que } from './raisonnement/transitive';
 
 const DIFFS: Difficulte[] = [1, 2, 3];
 const prochains = (termes: number[]) => new Set(predictionsSuiteNombres(termes).map((p) => `${p.prochain.n}/${p.prochain.d}`));
@@ -90,6 +90,25 @@ describe('logique de comparaison', () => {
       expect(t.personnes).toContain(t.reponse);
       expect(t.personnes.length).toBe(d === 3 ? 4 : 3);
       expect(t.enonce).toMatch(/Qui est/);
+    }
+  });
+});
+
+describe('langue des énoncés de raisonnement', () => {
+  it('l’élision est respectée (« qu’Adam », jamais « que Adam »)', () => {
+    expect(que('Adam')).toBe("qu'Adam");
+    expect(que('Éric')).toBe("qu'Éric");
+    expect(que('Paul')).toBe('que Paul');
+    for (let s = 1; s <= 1500; s++) {
+      const t = genererTransitive(creerPrng(s), 3);
+      expect(t.enonce).not.toMatch(/que [AEIOUÉ]/);
+    }
+  });
+  it('les suites de mots disent « recule de » pour un pas négatif', () => {
+    for (let s = 1; s <= 600; s++) {
+      const r = genererSuiteMots(creerPrng(s), 3);
+      expect(r.explication).not.toMatch(/avance de -|de -\d/);
+      expect(r.explication).toMatch(/(avance|recule) de \d/);
     }
   });
 });

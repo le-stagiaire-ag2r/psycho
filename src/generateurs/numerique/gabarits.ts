@@ -101,7 +101,7 @@ const gabarits: Gabarit[] = [
       const n = pieces + billets;
       const somme = 2 * pieces + 5 * billets;
       return {
-        enonce: `Une caisse contient ${n} pièces de 2 € et billets de 5 €, pour un total de ${somme} €. Combien y a-t-il de billets de 5 € ?`,
+        enonce: `Une caisse contient ${n} éléments : des pièces de 2 € et des billets de 5 €. Le total est de ${somme} €. Combien y a-t-il de billets de 5 € ?`,
         solution: q(billets),
         pieges: [
           p(q(pieces), 'le nombre de pièces au lieu des billets'),
@@ -122,7 +122,7 @@ const gabarits: Gabarit[] = [
     tirer(rng) {
       const pct = rng.choisir([5, 10, 15, 20, 25, 30, 40, 60, 75]);
       const total = entre(rng, 2, 40) * 20;
-      const sujet = rng.choisir(['élèves', 'soldats', 'candidats', 'livres']);
+      const sujet = rng.choisir(['élèves', 'soldats', 'candidats', 'participants']);
       return {
         enonce: `Une salle compte ${total} ${sujet}. ${pct} % d'entre eux portent des lunettes. Combien de ${sujet} portent des lunettes ?`,
         solution: q(pct * total, 100),
@@ -152,7 +152,6 @@ const gabarits: Gabarit[] = [
           p(q(prix - r), `${r} € de remise au lieu de ${r} %`),
           p(q(prix * r, 100), 'le montant de la remise, pas le prix final'),
           p(q(prix * (100 + r), 100), 'une majoration au lieu d’une remise'),
-          p(q(prix * r, 10), 'virgule décalée'),
         ],
         format: eur,
         explication: `Remise : ${prix} × ${r} ÷ 100 = ${(prix * r) / 100} €. Prix final : ${prix} − ${(prix * r) / 100} = ${(prix * (100 - r)) / 100} €.`,
@@ -252,7 +251,6 @@ const gabarits: Gabarit[] = [
           p(q(r1 + r2), 'additionner les deux taux'),
           p(q(Math.abs(r1 - r2)), 'soustraire les taux'),
           p(q(r1 + r2, 2), 'moyenne des taux'),
-          p(q(total - 1), 'proche, mais faux'),
         ],
         format: { type: 'decimal', unite: '%' },
         explication: `Coefficient global : ${(100 - r1) / 100} × ${(100 - r2) / 100} = ${((100 - r1) * (100 - r2)) / 10000}. La remise totale vaut 1 − ce coefficient, soit ${total} %.`,
@@ -444,7 +442,7 @@ const gabarits: Gabarit[] = [
       return {
         enonce: 'Parmi les fractions proposées, laquelle est la plus grande ?',
         solution: max,
-        pieges: vus.filter((v) => v !== max).map((v) => p(v, 'fraction plus petite, piégeuse par son numérateur ou son dénominateur')),
+        pieges: vus.filter((v) => v !== max).map((v) => p(v, '')),
         format: { type: 'fraction' },
         explication: `Mets toutes les fractions au même dénominateur (ou compare-les à 1/2). La plus grande est ${max.n}/${max.d} ≈ ${(max.n / max.d).toFixed(2).replace('.', ',')}.`,
         verifier: () => vus.every((v) => v === max || v.n * max.d < max.n * v.d),
@@ -459,7 +457,7 @@ const gabarits: Gabarit[] = [
       let v = 60;
       let minutes = 90;
       for (let i = 0; i < 100; i++) {
-        v = rng.choisir([30, 40, 45, 50, 60, 75, 80, 90, 120]);
+        v = rng.choisir([30, 40, 45, 50, 75, 80, 90, 120]);
         minutes = rng.choisir([20, 30, 40, 45, 50, 75, 80, 90, 100, 105, 120, 135]);
         if ((v * minutes) % 60 === 0) break;
       }
@@ -471,7 +469,6 @@ const gabarits: Gabarit[] = [
           p(q(d * 100, v), 'durée convertie en base 100 (1,5 h devient « 150 min »)'),
           p(q(d, v), 'la durée en heures prise pour des minutes'),
           p(q(d * v, 60), 'distance × vitesse'),
-          p(q(d * 60 + v), 'distance × 60 + vitesse : opérations mal associées'),
         ],
         format: { type: 'entier', unite: 'min' },
         explication: `Durée = distance ÷ vitesse = ${d} ÷ ${v} h. En minutes : ${d} ÷ ${v} × 60 = ${minutes} min.`,
@@ -610,7 +607,7 @@ const gabarits: Gabarit[] = [
           p(q((h2 - h1) * 60 + m2 + m1), 'minutes additionnées'),
         ],
         format: { type: 'entier', unite: 'min' },
-        explication: `De ${fmt(h1, m1)} à ${h2} h 00 : ${60 - m1} min (jusqu'à l'heure pleine) ; puis jusqu'à ${fmt(h2, m2)}, en passant par ${h2 - h1 - 1} h pleine(s) : au total ${minutes} min.`,
+        explication: `De ${fmt(h1, m1)} à ${h1 + 1} h 00 : ${60 - m1} min ; puis ${h2 - h1 - 1} h (${(h2 - h1 - 1) * 60} min) jusqu'à ${h2} h 00 ; puis ${m2} min jusqu'à ${fmt(h2, m2)}. Total : ${60 - m1} + ${(h2 - h1 - 1) * 60} + ${m2} = ${minutes} min.`,
         verifier: () => (h2 - h1) * 60 - (m1 - m2) === minutes,
       };
     },
@@ -633,9 +630,8 @@ const gabarits: Gabarit[] = [
           p(q(j1 * o2, o1), 'proportionnalité directe au lieu d’inverse'),
           p(q(j1 + (o1 - o2)), 'raisonnement additif'),
           p(q(produit), 'le nombre de « jours-ouvriers » total'),
-          p(q(j1 * o1, o2 + 1), 'calcul approximatif'),
         ],
-        format: { type: 'decimal', unite: 'jours' },
+        format: { type: 'decimal', unite: 'jour|jours' },
         explication: `Plus il y a d'ouvriers, moins il faut de jours : le produit reste constant. ${o1} × ${j1} = ${produit} jours-ouvriers, donc ${produit} ÷ ${o2} = ${j2} jours.`,
         verifier: () => o2 * j2 === o1 * j1,
       };
@@ -684,7 +680,6 @@ const gabarits: Gabarit[] = [
             p(q(moy), 'la moyenne visée prise pour la note manquante'),
             p(q(somme, n - 1), 'la moyenne des notes déjà obtenues'),
             p(q(moy * (n - 1) - somme), 'moyenne × (n − 1) au lieu de × n'),
-            p(q(2 * moy - Math.round(somme / (n - 1))), 'symétrie approximative autour de la moyenne'),
           ],
           format: entier,
           explication: `Total nécessaire : ${moy} × ${n} = ${moy * n}. Déjà obtenu : ${somme}. Il manque ${moy * n} − ${somme} = ${x}.`,
@@ -736,7 +731,6 @@ const gabarits: Gabarit[] = [
             p(q(pere - k * fils), 'on oublie que l’âge du père augmente aussi'),
             p(q(pere - fils), 'la différence d’âge'),
             p(q(Math.round(pere / k) - fils), 'âge du père ÷ ' + k + ' − âge du fils'),
-            p(q(x + 2), 'proche, mais faux'),
           ].filter((e) => e.valeur.n >= 0),
           format: { type: 'entier', unite: 'ans' },
           explication: `Dans x ans : ${pere} + x = ${k} × (${fils} + x), donc ${pere} + x = ${k * fils} + ${k}x, soit ${pere - k * fils} = ${k - 1}x, donc x = ${x}. Les deux âges augmentent du même nombre d'années.`,
@@ -791,7 +785,6 @@ const gabarits: Gabarit[] = [
         pieges: [
           p(q(total, 3), 'partage égal'),
           p(q(unite), 'la valeur d’une seule part'),
-          p(q(total * max, parts.length * 10), 'proportion approximative'),
           p(q(total, max), 'total divisé par la plus grosse part'),
         ],
         format: eur,
@@ -900,7 +893,6 @@ const gabarits: Gabarit[] = [
             p(q(a + b), 'somme des deux côtés'),
             p(q(a * a + b * b), 'oubli de la racine carrée'),
             p(q(Math.abs(b - a)), 'différence des deux côtés'),
-            p(q(b + 1 === c ? c + 1 : c - 1), 'proche, mais faux'),
           ],
           format: { type: 'entier', unite: 'cm' },
           explication: `Pythagore : hypoténuse² = ${a}² + ${b}² = ${a * a + b * b}, donc hypoténuse = √${a * a + b * b} = ${c} cm.`,
@@ -914,7 +906,6 @@ const gabarits: Gabarit[] = [
           p(q(c - a), 'différence hypoténuse − côté'),
           p(q(c * c - a * a), 'oubli de la racine carrée'),
           p(q(c + a), 'somme'),
-          p(q(a + 1 === b ? b + 1 : b - 1), 'proche, mais faux'),
         ],
         format: { type: 'entier', unite: 'cm' },
         explication: `Pythagore : côté² = ${c}² − ${a}² = ${c * c - a * a}, donc côté = √${c * c - a * a} = ${b} cm.`,
@@ -958,11 +949,11 @@ const gabarits: Gabarit[] = [
       ] as const);
       const v100 = Math.round(val * 10);
       const sol = q(v100 * facteur, 10);
-      const faux = [10, 100, 1000, 10000, 1000000].filter((f) => f !== facteur);
+      const faux = [10, 100, 1000, 10000].filter((f) => f !== facteur);
       return {
         enonce: `Convertir ${String(val).replace('.', ',')} m² en ${cible}.`,
         solution: sol,
-        pieges: faux.slice(0, 4).map((f) => p(q(v100 * f, 10), `facteur ${f} au lieu de ${facteur} (les surfaces se convertissent de 100 en 100)`)),
+        pieges: faux.slice(0, 4).map((f) => p(q(v100 * f, 10), `facteur ${f} au lieu de ${facteur}`)),
         format: { type: 'decimal', unite: cible },
         explication: `Pour les surfaces, chaque changement d'unité multiplie par 100 (1 m² = 100 dm² = 10 000 cm²). ${String(val).replace('.', ',')} × ${facteur} = ${(v100 * facteur) / 10}.`,
         verifier: () => Math.abs(val * facteur - (v100 * facteur) / 10) < 1e-9,
@@ -1070,7 +1061,6 @@ const gabarits: Gabarit[] = [
           pieges: [
             p(q(sol + r), 'un pas de trop'),
             p(q(t[3]), 'le dernier terme répété'),
-            p(q(sol + 1), 'proche, mais faux'),
             p(q(t[3] + t[3] - t[1]), 'régularité mal comprise'),
           ],
           format: entier,
@@ -1089,7 +1079,6 @@ const gabarits: Gabarit[] = [
           p(q(t[3] + (t[3] - t[2])), 'on suppose une progression additive'),
           p(q(t[3]), 'le dernier terme répété'),
           p(q(sol * r), 'un cran de trop'),
-          p(q(sol - 1), 'proche, mais faux'),
         ],
         format: entier,
         explication: `Chaque terme est le précédent multiplié par ${r} : ${t[3]} × ${r} = ${sol}.`,
@@ -1170,7 +1159,6 @@ const gabarits: Gabarit[] = [
         enonce: `Un sac contient ${r} boules rouges et ${b} boules bleues. On tire une boule au hasard. Quelle est la probabilité qu'elle soit rouge ? (réponse sous forme de fraction)`,
         solution: sol,
         pieges: [
-          p(q(r, b), 'rouges par rapport aux bleues (et non au total)'),
           p(q(b, n), 'la probabilité d’obtenir une bleue'),
           p(q(1, n), 'une chance parmi toutes les boules'),
           p(q(r, n + 1), 'total mal compté'),

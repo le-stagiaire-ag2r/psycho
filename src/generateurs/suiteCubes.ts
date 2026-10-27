@@ -20,8 +20,11 @@ export const VERSION_SUITE_CUBES = 1;
  *
  * Un cube est représenté par ses trois faces visibles (dessus, avant, droite).
  * Une règle est une transformation de cette vue, appliquée à l'identique à chaque étape.
- * Les règles qui feraient apparaître des faces cachées sont exclues : tout ce qui est
- * nécessaire à la déduction est visible à l'écran.
+ * Les règles qui feraient apparaître des faces cachées sont exclues, ainsi que toute règle qui
+ * demanderait de connaître une information absente de l'écran (par exemple « le symbole suivant
+ * dans une série » dont l'ordre ne serait jamais montré) : tout ce qui est nécessaire à la
+ * déduction est visible. Le « cycle de symboles » est couvert par la permutation circulaire
+ * des trois symboles visibles.
  */
 
 export const cleV = (v: Vue3): string => v.map((f) => `${f.sym}:${cleImage(f.sym, f.k, f.mir)}`).join('|');
@@ -121,25 +124,6 @@ function echanger(a: Emplacement, b: Emplacement): Regle {
   };
 }
 
-function symboleSuivant(e: Emplacement | 'tous', sens: 1 | -1): Regle {
-  const appliquer = (v: Vue3, s: number): Vue3 => {
-    const r = copie(v);
-    r.forEach((f, i) => {
-      if (e === 'tous' || EMPLACEMENTS[i] === e) f.sym = (((f.sym + s) % NB_SYMBOLES) + NB_SYMBOLES) % NB_SYMBOLES;
-    });
-    return r;
-  };
-  return {
-    id: `symbole-${e}-${sens}`,
-    description:
-      e === 'tous'
-        ? `chaque symbole est remplacé par ${sens === 1 ? 'le suivant' : 'le précédent'} dans l’ordre fixe de la série de symboles`
-        : `le symbole de la face ${NOM_EMP[e]} est remplacé par ${sens === 1 ? 'le suivant' : 'le précédent'} dans l’ordre fixe de la série de symboles`,
-    f: (v) => appliquer(v, sens),
-    inverse: (v) => appliquer(v, -sens),
-  };
-}
-
 function composer(a: Regle, b: Regle): Regle {
   return {
     id: `${a.id}+${b.id}`,
@@ -157,8 +141,6 @@ export function reglesElementaires(): Regle[] {
   r.push(permuter(1), permuter(-1));
   r.push(rotationCube(1), rotationCube(-1));
   r.push(echanger('dessus', 'avant'), echanger('dessus', 'droite'), echanger('avant', 'droite'));
-  for (const e of EMPLACEMENTS) r.push(symboleSuivant(e, 1), symboleSuivant(e, -1));
-  r.push(symboleSuivant('tous', 1), symboleSuivant('tous', -1));
   return r;
 }
 
@@ -198,7 +180,7 @@ export function predictionsCompatibles(regles: readonly Regle[], suite: readonly
 function tirerRegle(rng: Prng, diff: Difficulte): Regle {
   const base = reglesElementaires();
   if (diff === 1) {
-    const simples = base.filter((r) => !r.id.startsWith('cube-120') && !r.id.startsWith('symbole-tous'));
+    const simples = base.filter((r) => !r.id.startsWith('cube-120'));
     return rng.choisir(simples);
   }
   if (diff === 2 && rng.chance(0.5)) return rng.choisir(base);

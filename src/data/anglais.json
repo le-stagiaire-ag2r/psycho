@@ -132,7 +132,7 @@
    "id": "ANG-GRA-010",
    "type": "grammaire",
    "niveau": 2,
-   "enonce": "Be quiet! The baby ___ .",
+   "enonce": "Be quiet! The baby ___.",
    "bonne": "is sleeping",
    "fausses": [
     "sleeps",
@@ -188,14 +188,14 @@
    "id": "ANG-GRA-014",
    "type": "grammaire",
    "niveau": 2,
-   "enonce": "He ___ dinner when the phone rang.",
+   "enonce": "Yesterday at 7 pm, he ___ dinner in the kitchen.",
    "bonne": "was cooking",
    "fausses": [
-    "cooked",
     "cooks",
-    "has cooked"
+    "has cooked",
+    "cooking"
    ],
-   "explication": "Action en cours (passé continu) interrompue par une autre action (passé simple).",
+   "explication": "« Yesterday at 7 pm » : action en cours à un moment précis du passé, donc passé continu.",
    "relecture": null
   },
   {
@@ -216,14 +216,14 @@
    "id": "ANG-GRA-016",
    "type": "grammaire",
    "niveau": 2,
-   "enonce": "While I ___ TV, the lights went out.",
-   "bonne": "was watching",
+   "enonce": "At nine o'clock last night, she ___ a book.",
+   "bonne": "was reading",
    "fausses": [
-    "watched",
-    "watch",
-    "have watched"
+    "reads",
+    "has read",
+    "is reading"
    ],
-   "explication": "« While » : action de fond au passé continu.",
+   "explication": "« At nine o'clock last night » : action en cours à un moment précis du passé, donc passé continu.",
    "relecture": null
   },
   {
@@ -328,7 +328,7 @@
    "id": "ANG-GRA-024",
    "type": "grammaire",
    "niveau": 1,
-   "enonce": "He left the house two hours ___ .",
+   "enonce": "He left the house two hours ___.",
    "bonne": "ago",
    "fausses": [
     "before",
@@ -1785,13 +1785,13 @@
    "type": "vocabulaire",
    "niveau": 1,
    "enonce": "You use ___ to cut paper.",
-   "bonne": "scissors",
+   "bonne": "a pair of scissors",
    "fausses": [
     "a spoon",
     "a brush",
     "a pillow"
    ],
-   "explication": "Scissors = ciseaux.",
+   "explication": "Scissors = ciseaux (on dit « a pair of scissors »).",
    "relecture": null
   },
   {
@@ -2064,7 +2064,7 @@
    "id": "ANG-VOC-023",
    "type": "vocabulaire",
    "niveau": 2,
-   "enonce": "It was a very ___ weather. The sun was shining and it was 30 degrees.",
+   "enonce": "It was a very ___ day. The sun was shining and it was 30 degrees.",
    "bonne": "hot",
    "fausses": [
     "cold",

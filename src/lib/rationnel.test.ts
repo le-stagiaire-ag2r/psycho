@@ -24,6 +24,16 @@ describe('rationnels exacts', () => {
     expect(formater(q(-3, 2), { type: 'decimal' })).toBe('-1,5');
   });
 
+  it('sépare les milliers et accorde les unités', () => {
+    expect(formater(q(22400), { type: 'entier' })).toBe('22\u202f400');
+    expect(formater(q(1100), { type: 'decimal', unite: '€' })).toBe('1\u202f100\u00a0€');
+    expect(formater(q(999), { type: 'entier' })).toBe('999');
+    expect(formater(q(1), { type: 'entier', unite: 'jour|jours' })).toBe('1\u00a0jour');
+    expect(formater(q(5), { type: 'entier', unite: 'jour|jours' })).toBe('5\u00a0jours');
+    expect(formater(q(3, 2), { type: 'decimal', unite: 'jour|jours' })).toBe('1,5\u00a0jours');
+    expect(formater(q(1, 2), { type: 'decimal', unite: 'jour|jours' })).toBe('0,5\u00a0jour');
+  });
+
   it('détecte ce qui n’est pas représentable', () => {
     expect(formatable(q(1, 3), { type: 'decimal' })).toBe(false);
     expect(formatable(q(1, 8), { type: 'decimal' })).toBe(false);

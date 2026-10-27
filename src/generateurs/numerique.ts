@@ -1,5 +1,5 @@
 import { creerPrng, melangerGraines, type Prng } from '../lib/prng';
-import { add, egal, formatable, formater, q, type Format, type Q } from '../lib/rationnel';
+import { add, egal, formatable, formater, grouperMilliers, q, type Format, type Q } from '../lib/rationnel';
 import type { Difficulte, Generateur, Item, ItemRef } from '../lib/types';
 import { GABARITS, gabaritParId, type Gabarit, type Piege } from './numerique/gabarits';
 
@@ -23,10 +23,14 @@ export function completerDistracteurs(
 ): Piege[] {
   const vus = new Set<string>([formater(solution, format)]);
   const res: Piege[] = [];
+  // Une fraction « de quelque chose » reste comprise entre 0 et 1 si la bonne réponse l'est
+  // (une probabilité de 3 ou de 7/4 serait absurde et trop facile à éliminer).
+  const bornee = format.type === 'fraction' && solution.n > 0 && solution.n <= solution.d;
   const essayer = (pg: Piege): boolean => {
     if (!formatable(pg.valeur, format)) return false;
     // Une réponse négative n'a pas de sens si la bonne réponse ne l'est pas.
     if (pg.valeur.n < 0 && solution.n >= 0) return false;
+    if (bornee && (pg.valeur.n <= 0 || pg.valeur.n > pg.valeur.d)) return false;
     const txt = formater(pg.valeur, format);
     if (vus.has(txt)) return false;
     vus.add(txt);
@@ -43,7 +47,8 @@ export function completerDistracteurs(
   const candidats: Piege[] = [];
   for (const k of [1, -1, 2, -2, 3, -3, 5, -5, 10, -10]) {
     candidats.push({ valeur: add(solution, mulPetit(un, k)), piege: '' });
-    if (format.type === 'decimal') candidats.push({ valeur: add(solution, mulPetit(dixieme, k)), piege: '' });
+    // Les pas d'un dixième n'ont de sens que si la bonne réponse a elle-même une décimale.
+    if (format.type === 'decimal' && solution.d !== 1) candidats.push({ valeur: add(solution, mulPetit(dixieme, k)), piege: '' });
   }
   for (const pg of rng.melanger(candidats)) {
     if (res.length >= nb) break;
@@ -97,9 +102,11 @@ function genererNumerique(ref: ItemRef): Item {
   };
 }
 
-/** Écrit les décimales à la française (1.25 → 1,25). */
+/** Écrit les nombres à la française : décimales avec virgule (1.25 → 1,25) et milliers séparés (22400 → 22 400). */
 export function virguleFr(texte: string): string {
-  return texte.replace(/(\d)\.(\d)/g, '$1,$2');
+  return texte
+    .replace(/(\d)\.(\d)/g, '$1,$2')
+    .replace(/(?<![\d,.])(\d{4,})(?!\d)/g, (_, n: string) => grouperMilliers(n));
 }
 
 export const generateurNumerique: Generateur = {

@@ -90,14 +90,14 @@
    "id": "VER-SYN-007",
    "type": "synonyme",
    "niveau": 1,
-   "enonce": "Quel mot est un synonyme de « un but » ?",
-   "bonne": "un objectif",
+   "enonce": "Quel mot est un synonyme de « but » ?",
+   "bonne": "objectif",
    "fausses": [
-    "un obstacle",
-    "un retard",
-    "un détour"
+    "obstacle",
+    "retard",
+    "détour"
    ],
-   "explication": "« un but » et « un objectif » ont un sens très proche.",
+   "explication": "« but » et « objectif » ont un sens très proche.",
    "relecture": null
   },
   {
@@ -118,14 +118,14 @@
    "id": "VER-SYN-009",
    "type": "synonyme",
    "niveau": 1,
-   "enonce": "Quel mot est un synonyme de « un échec » ?",
-   "bonne": "un revers",
+   "enonce": "Quel mot est un synonyme de « échec » ?",
+   "bonne": "fiasco",
    "fausses": [
-    "un succès",
-    "un exploit",
-    "une victoire"
+    "succès",
+    "exploit",
+    "victoire"
    ],
-   "explication": "« un échec » et « un revers » ont un sens très proche.",
+   "explication": "« échec » et « fiasco » ont un sens très proche.",
    "relecture": null
   },
   {
@@ -160,14 +160,14 @@
    "id": "VER-SYN-012",
    "type": "synonyme",
    "niveau": 1,
-   "enonce": "Quel mot est un synonyme de « une erreur » ?",
-   "bonne": "une faute",
+   "enonce": "Quel mot est un synonyme de « erreur » ?",
+   "bonne": "faute",
    "fausses": [
-    "une règle",
-    "une preuve",
-    "un conseil"
+    "règle",
+    "preuve",
+    "conseil"
    ],
-   "explication": "« une erreur » et « une faute » ont un sens très proche.",
+   "explication": "« erreur » et « faute » ont un sens très proche.",
    "relecture": null
   },
   {
@@ -259,13 +259,13 @@
    "type": "synonyme",
    "niveau": 2,
    "enonce": "Quel mot est un synonyme de « véridique » ?",
-   "bonne": "exact",
+   "bonne": "sincère",
    "fausses": [
     "mensonger",
     "fictif",
     "douteux"
    ],
-   "explication": "« véridique » et « exact » ont un sens très proche.",
+   "explication": "« véridique » et « sincère » ont un sens très proche.",
    "relecture": null
   },
   {
@@ -328,14 +328,14 @@
    "id": "VER-SYN-024",
    "type": "synonyme",
    "niveau": 2,
-   "enonce": "Quel mot est un synonyme de « un vestige » ?",
-   "bonne": "une trace",
+   "enonce": "Quel mot est un synonyme de « vestige » ?",
+   "bonne": "trace",
    "fausses": [
-    "une invention",
-    "un trésor",
-    "un cadeau"
+    "invention",
+    "trésor",
+    "cadeau"
    ],
-   "explication": "« un vestige » et « une trace » ont un sens très proche.",
+   "explication": "« vestige » et « trace » ont un sens très proche.",
    "relecture": null
   },
   {
@@ -1286,14 +1286,14 @@
    "id": "VER-PRO-008",
    "type": "proverbe",
    "niveau": 2,
-   "enonce": "Complète le proverbe : « À cœur vaillant, rien d' … »",
+   "enonce": "Complète le proverbe : « À cœur vaillant, rien d'… »",
    "bonne": "impossible",
    "fausses": [
     "facile",
     "inutile",
     "léger"
    ],
-   "explication": "Le proverbe complet est : « À cœur vaillant, rien d' impossible. »",
+   "explication": "Le proverbe complet est : « À cœur vaillant, rien d'impossible. »",
    "relecture": null
   },
   {
@@ -1440,14 +1440,14 @@
    "id": "VER-PRO-019",
    "type": "proverbe",
    "niveau": 1,
-   "enonce": "Complète le proverbe : « Aide-toi, le ciel t' … »",
+   "enonce": "Complète le proverbe : « Aide-toi, le ciel t'… »",
    "bonne": "aidera",
    "fausses": [
     "entendra",
     "sauvera",
     "protégera"
    ],
-   "explication": "Le proverbe complet est : « Aide-toi, le ciel t' aidera. »",
+   "explication": "Le proverbe complet est : « Aide-toi, le ciel t'aidera. »",
    "relecture": null
   },
   {
@@ -2013,22 +2013,22 @@
   {
    "id": "VER-GRA-013",
    "type": "grammaire",
-   "niveau": 3,
-   "enonce": "C'est la plus belle ville que j'… jamais vue.",
-   "bonne": "aie",
+   "niveau": 2,
+   "enonce": "Je veux que tu … avec moi.",
+   "bonne": "viennes",
    "fausses": [
-    "ai",
-    "avais",
-    "aurai"
+    "viens",
+    "viendras",
+    "venais"
    ],
-   "explication": "Après un superlatif suivi d'une relative exprimant une expérience, on emploie le subjonctif : que j'aie jamais vue.",
+   "explication": "« Je veux que » est suivi du subjonctif présent : que tu viennes.",
    "relecture": null
   },
   {
    "id": "VER-ANA-001",
    "type": "analogie",
    "niveau": 1,
-   "enonce": "Chaud est à froid ce que jour est à …",
+   "enonce": "Chaud est à froid comme jour est à …",
    "bonne": "nuit",
    "fausses": [
     "soleil",
@@ -2042,7 +2042,7 @@
    "id": "VER-ANA-002",
    "type": "analogie",
    "niveau": 2,
-   "enonce": "Marin est à bateau ce que cavalier est à …",
+   "enonce": "Marin est à bateau comme cavalier est à …",
    "bonne": "cheval",
    "fausses": [
     "selle",
@@ -2056,7 +2056,7 @@
    "id": "VER-ANA-003",
    "type": "analogie",
    "niveau": 1,
-   "enonce": "Fourchette est à manger ce que crayon est à …",
+   "enonce": "Fourchette est à manger comme crayon est à …",
    "bonne": "écrire",
    "fausses": [
     "gommer",
@@ -2070,7 +2070,7 @@
    "id": "VER-ANA-004",
    "type": "analogie",
    "niveau": 1,
-   "enonce": "Page est à livre ce que pétale est à …",
+   "enonce": "Page est à livre comme pétale est à …",
    "bonne": "fleur",
    "fausses": [
     "tige",
@@ -2084,7 +2084,7 @@
    "id": "VER-ANA-005",
    "type": "analogie",
    "niveau": 2,
-   "enonce": "Chat est à miauler ce que cheval est à …",
+   "enonce": "Chat est à miauler comme cheval est à …",
    "bonne": "hennir",
    "fausses": [
     "rugir",
@@ -2098,7 +2098,7 @@
    "id": "VER-ANA-006",
    "type": "analogie",
    "niveau": 1,
-   "enonce": "Médecin est à hôpital ce que professeur est à …",
+   "enonce": "Médecin est à hôpital comme professeur est à …",
    "bonne": "école",
    "fausses": [
     "usine",
@@ -2112,7 +2112,7 @@
    "id": "VER-ANA-007",
    "type": "analogie",
    "niveau": 1,
-   "enonce": "1 est à 10 ce que 5 est à …",
+   "enonce": "1 est à 10 comme 5 est à …",
    "bonne": "50",
    "fausses": [
     "15",
@@ -2126,7 +2126,7 @@
    "id": "VER-ANA-008",
    "type": "analogie",
    "niveau": 1,
-   "enonce": "Main est à gant ce que pied est à …",
+   "enonce": "Main est à gant comme pied est à …",
    "bonne": "chaussure",
    "fausses": [
     "ceinture",
@@ -2140,7 +2140,7 @@
    "id": "VER-ANA-009",
    "type": "analogie",
    "niveau": 1,
-   "enonce": "Lent est à vite ce que faible est à …",
+   "enonce": "Lent est à vite comme faible est à …",
    "bonne": "fort",
    "fausses": [
     "mou",
@@ -2154,7 +2154,7 @@
    "id": "VER-ANA-010",
    "type": "analogie",
    "niveau": 2,
-   "enonce": "Peintre est à tableau ce que sculpteur est à …",
+   "enonce": "Peintre est à tableau comme sculpteur est à …",
    "bonne": "statue",
    "fausses": [
     "pinceau",
@@ -2168,7 +2168,7 @@
    "id": "VER-ANA-011",
    "type": "analogie",
    "niveau": 1,
-   "enonce": "Chat est à chaton ce que chien est à …",
+   "enonce": "Chat est à chaton comme chien est à …",
    "bonne": "chiot",
    "fausses": [
     "chienne",
@@ -2182,7 +2182,7 @@
    "id": "VER-ANA-012",
    "type": "analogie",
    "niveau": 1,
-   "enonce": "Vache est à veau ce que cheval est à …",
+   "enonce": "Vache est à veau comme cheval est à …",
    "bonne": "poulain",
    "fausses": [
     "étalon",
@@ -2196,7 +2196,7 @@
    "id": "VER-ANA-013",
    "type": "analogie",
    "niveau": 1,
-   "enonce": "Brebis est à agneau ce que poule est à …",
+   "enonce": "Brebis est à agneau comme poule est à …",
    "bonne": "poussin",
    "fausses": [
     "coq",
@@ -2210,7 +2210,7 @@
    "id": "VER-ANA-014",
    "type": "analogie",
    "niveau": 2,
-   "enonce": "Chèvre est à chevreau ce que biche est à …",
+   "enonce": "Chèvre est à chevreau comme biche est à …",
    "bonne": "faon",
    "fausses": [
     "cerf",
@@ -2224,7 +2224,7 @@
    "id": "VER-ANA-015",
    "type": "analogie",
    "niveau": 2,
-   "enonce": "Cygne est à cygneau ce que oie est à …",
+   "enonce": "Cygne est à cygneau comme oie est à …",
    "bonne": "oison",
    "fausses": [
     "canard",
@@ -2238,7 +2238,7 @@
    "id": "VER-ANA-016",
    "type": "analogie",
    "niveau": 1,
-   "enonce": "Lundi est à mardi ce que jeudi est à …",
+   "enonce": "Lundi est à mardi comme jeudi est à …",
    "bonne": "vendredi",
    "fausses": [
     "mercredi",

@@ -22,6 +22,11 @@ const RELATIONS: Relation[] = [
   { haut: 'fort', bas: 'faible' },
 ];
 
+/** « que Paul » mais « qu'Adam » : élision devant une voyelle. */
+export function que(nom: string): string {
+  return /^[AEIOUÉÈÊ]/.test(nom) ? `qu'${nom}` : `que ${nom}`;
+}
+
 /** Énoncé élémentaire : `plus` est classé au-dessus de `moins`. */
 interface Enonce {
   plus: string;
@@ -68,7 +73,7 @@ export function genererTransitive(rng: Prng, diff: Difficulte): Transitive {
     for (let i = 0; i + 1 < nb; i++) enonces.push({ plus: ordre[i], moins: ordre[i + 1] });
     const phrases = rng.melanger(enonces).map((e) => {
       // Une fois sur deux, on formule la relation à l'envers (« B est plus petit que A »).
-      return rng.chance(0.5) ? `${e.plus} est plus ${rel.haut} que ${e.moins}.` : `${e.moins} est plus ${rel.bas} que ${e.plus}.`;
+      return rng.chance(0.5) ? `${e.plus} est plus ${rel.haut} ${que(e.moins)}.` : `${e.moins} est plus ${rel.bas} ${que(e.plus)}.`;
     });
 
     // Question : le plus haut, le plus bas, ou (à 4 personnes) le deuxième.
@@ -92,7 +97,7 @@ export function genererTransitive(rng: Prng, diff: Difficulte): Transitive {
       enonce: `${phrases.join(' ')} ${question}`,
       personnes,
       reponse,
-      explication: `${detail} Attention au sens des comparaisons : « plus ${rel.bas} que » inverse l'ordre.`,
+      explication: `${detail} Attention au sens des comparaisons : « plus ${rel.bas} » inverse l'ordre de « plus ${rel.haut} ».`,
     };
   }
   throw new Error('Aucune logique de comparaison valide trouvée');

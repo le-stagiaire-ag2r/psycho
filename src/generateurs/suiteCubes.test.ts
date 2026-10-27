@@ -44,9 +44,11 @@ describe('règles de la grammaire', () => {
     expect(cleV(r.f(depart))).not.toBe(cleV(depart));
   });
 
-  it('il y a 27 règles élémentaires', () => {
-    expect(regles).toHaveLength(27);
-    expect(reglesProfondeur2().length).toBe(27 + 27 * 27);
+  it('il y a 19 règles élémentaires, toutes déductibles de ce qui est affiché', () => {
+    expect(regles).toHaveLength(19);
+    expect(reglesProfondeur2().length).toBe(19 + 19 * 19);
+    // Aucune règle ne dépend d'une « série de symboles » invisible pour le candidat.
+    for (const r of regles) expect(r.id).not.toMatch(/^symbole/);
   });
 });
 
