@@ -18,6 +18,7 @@ import {
 import { generateurSpatial } from './spatial';
 
 const DIFFS: Difficulte[] = [1, 2, 3];
+const CONFIG_GRILLE = { ...EPREUVES.spatial, parametres: { ...EPREUVES.spatial.parametres, variantes: 'grille' } };
 
 const exemple: Grille = [
   [true, false, false],
@@ -74,7 +75,7 @@ describe('générateur spatial (grilles)', () => {
       graineBase: 31,
       nb: 2000,
       difficulte: d,
-      config: EPREUVES.spatial,
+      config: CONFIG_GRILLE,
     });
     for (const ref of refs) {
       const item = generateurSpatial.generer(ref);
@@ -103,13 +104,13 @@ describe('générateur spatial (grilles)', () => {
   });
 
   it('est déterministe', () => {
-    const [ref] = generateurSpatial.construireRefs({ graineBase: 4, nb: 1, difficulte: 3, config: EPREUVES.spatial });
+    const [ref] = generateurSpatial.construireRefs({ graineBase: 4, nb: 1, difficulte: 3, config: CONFIG_GRILLE });
     expect(generateurSpatial.generer(ref)).toEqual(generateurSpatial.generer(ref));
   });
 
   it('respecte le sens configuré', () => {
     for (const sens of ['horaire', 'antihoraire']) {
-      const config = { ...EPREUVES.spatial, parametres: { ...EPREUVES.spatial.parametres, sensRotation: sens } };
+      const config = { ...CONFIG_GRILLE, parametres: { ...CONFIG_GRILLE.parametres, sensRotation: sens } };
       const refs = generateurSpatial.construireRefs({ graineBase: 8, nb: 100, difficulte: 2, config });
       for (const ref of refs) {
         const item = generateurSpatial.generer(ref);
