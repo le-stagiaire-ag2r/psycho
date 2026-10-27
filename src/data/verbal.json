@@ -2163,6 +2163,90 @@
    ],
    "explication": "Peintre / tableau et sculpteur / statue entretiennent le même rapport.",
    "relecture": null
+  },
+  {
+   "id": "VER-ANA-011",
+   "type": "analogie",
+   "niveau": 1,
+   "enonce": "Chat est à chaton ce que chien est à …",
+   "bonne": "chiot",
+   "fausses": [
+    "chienne",
+    "caniche",
+    "chenil"
+   ],
+   "explication": "Chat / chaton et chien / chiot entretiennent le même rapport.",
+   "relecture": null
+  },
+  {
+   "id": "VER-ANA-012",
+   "type": "analogie",
+   "niveau": 1,
+   "enonce": "Vache est à veau ce que cheval est à …",
+   "bonne": "poulain",
+   "fausses": [
+    "étalon",
+    "cavalier",
+    "écurie"
+   ],
+   "explication": "Vache / veau et cheval / poulain entretiennent le même rapport.",
+   "relecture": null
+  },
+  {
+   "id": "VER-ANA-013",
+   "type": "analogie",
+   "niveau": 1,
+   "enonce": "Brebis est à agneau ce que poule est à …",
+   "bonne": "poussin",
+   "fausses": [
+    "coq",
+    "œuf",
+    "plume"
+   ],
+   "explication": "Brebis / agneau et poule / poussin entretiennent le même rapport.",
+   "relecture": null
+  },
+  {
+   "id": "VER-ANA-014",
+   "type": "analogie",
+   "niveau": 2,
+   "enonce": "Chèvre est à chevreau ce que biche est à …",
+   "bonne": "faon",
+   "fausses": [
+    "cerf",
+    "forêt",
+    "bois"
+   ],
+   "explication": "Chèvre / chevreau et biche / faon entretiennent le même rapport.",
+   "relecture": null
+  },
+  {
+   "id": "VER-ANA-015",
+   "type": "analogie",
+   "niveau": 2,
+   "enonce": "Cygne est à cygneau ce que oie est à …",
+   "bonne": "oison",
+   "fausses": [
+    "canard",
+    "plume",
+    "étang"
+   ],
+   "explication": "Cygne / cygneau et oie / oison entretiennent le même rapport.",
+   "relecture": null
+  },
+  {
+   "id": "VER-ANA-016",
+   "type": "analogie",
+   "niveau": 1,
+   "enonce": "Lundi est à mardi ce que jeudi est à …",
+   "bonne": "vendredi",
+   "fausses": [
+    "mercredi",
+    "samedi",
+    "dimanche"
+   ],
+   "explication": "Lundi / mardi et jeudi / vendredi entretiennent le même rapport.",
+   "relecture": null
   }
  ]
 }

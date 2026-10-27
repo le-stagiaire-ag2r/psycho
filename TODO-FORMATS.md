@@ -35,8 +35,14 @@ témoignages de candidats. Pour l'officiel : sengager.fr ou un CIRFA.
 - [ ] Types de règles réellement rencontrés (ici : rotation d'un symbole, échange, décalage circulaire, symbole suivant, tiers de tour du cube autour de l'axe de vue, combinaisons de deux règles)
 - [ ] Nombre de cubes affichés : 3 (facile, moyen) ou 4 (difficile) ici
 
+## Raisonnement général (épreuve complémentaire)
+- [ ] **Existe-t-elle au test Terre, et sous quelle forme ?** Les types (suites de nombres, de lettres, de mots, logique de comparaison) ont été ajoutés à partir d'une fiche d'exemples trouvée en ligne (Armée de l'air) et d'un témoignage de candidat : présence exacte non confirmée
+- [ ] Rattachement : épreuve à part (actuel, option de l'examen blanc) ou intégrée à « logique » / « numérique » ?
+- [ ] Format : 20 questions en 8 min (valeur de départ arbitraire), 4 propositions
+- [ ] Épreuve de **mémoire / observation** (« quels objets étaient affichés ? ») : non implémentée, à décider
+
 ## Verbal et anglais
-- [ ] **Relecture humaine obligatoire** des 153 items verbaux et des 158 items d'anglais (rédigés pour ce projet avec l'aide d'une IA, donc `relecture: null`)
+- [ ] **Relecture humaine obligatoire** des 159 items verbaux et des 158 items d'anglais (rédigés pour ce projet avec l'aide d'une IA, donc `relecture: null`)
 - [ ] Types d'items verbaux réellement rencontrés (synonymes, intrus, vocabulaire, proverbes, orthographe : confirmés par le brief ; analogies et grammaire : ajoutés)
 - [ ] Nombre de propositions : 4 (config `nbChoix`)
 

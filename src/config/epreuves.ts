@@ -82,6 +82,29 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
       CONSEIL_VITESSE,
     ],
   },
+  raisonnement: {
+    id: 'raisonnement',
+    titre: 'Raisonnement général (complémentaire)',
+    description: 'Suites de nombres, de lettres et de mots, logique de comparaison.',
+    disponible: true,
+    nbQuestions: 20,
+    dureeSecondes: 480,
+    nbChoix: 4,
+    nbQuestionsEntrainement: 15,
+    passerAutorise: true,
+    penaliteErreur: 0,
+    difficulteExamen: 2,
+    // Familles tirées en alternance : suite-nombres, suite-lettres, suite-mots, transitive
+    parametres: { familles: 'suite-nombres,suite-lettres,suite-mots,transitive' },
+    conseils: [
+      'Suites de nombres : calcule les écarts entre termes ; si les écarts changent, regarde les écarts des écarts ; pense aussi aux carrés, aux produits et aux sommes des deux termes précédents.',
+      'Suites de lettres : convertis les lettres en rangs (A = 1, B = 2…) et traite-les comme des nombres ; après Z, on revient à A.',
+      'Logique de comparaison : écris les relations sous forme de chaîne (Pierre > Paul > Jean) en remettant toutes les phrases dans le même sens.',
+      'Si tu bloques plus de quelques secondes, passe (touche P) et reviens-y.',
+    ],
+    avertissement:
+      'Épreuve complémentaire : ces types de questions sont inspirés d’exemples trouvés en ligne et de témoignages, mais leur présence exacte dans le test réel n’est pas confirmée. Elle est proposée en option dans l’examen blanc.',
+  },
   logique: {
     id: 'logique',
     titre: 'Raisonnement logique',
@@ -212,6 +235,7 @@ export const ORDRE_EPREUVES: EpreuveId[] = [
   'numerique',
   'codage',
   'attention',
+  'raisonnement',
   'anglais',
   'personnalite',
 ];

@@ -5,7 +5,7 @@ Ce fichier liste les sources externes utilisées dans le projet. Il doit être t
 
 ## Contenus actuellement dans le dépôt
 
-- **Attention, codage, quadrillages, cubes, suites logiques, numérique** : générés par du code, aucune source externe.
+- **Attention, codage, quadrillages, cubes, suites logiques, numérique, raisonnement général** : générés par du code, aucune source externe. Les types de questions du raisonnement général (suites de nombres, de lettres, logique de comparaison) s'inspirent de types d'exercices courants ; aucune question n'a été copiée.
   La liste de mots du codage (`src/data/mots.ts`) a été rédigée à la main pour ce projet.
 - **Verbal et anglais** (`src/data/verbal.json`, `src/data/anglais.json`) : items rédigés pour ce projet, avec l'aide
   d'une IA, **à l'avance** (jamais à l'exécution) ; aucun contenu copié d'un test réel ni d'un site de préparation.

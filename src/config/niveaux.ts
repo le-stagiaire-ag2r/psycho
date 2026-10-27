@@ -52,6 +52,11 @@ export const OBJECTIFS: Partial<Record<EpreuveId, Record<NiveauId, Objectif>>> =
     'sous-officier': { precisionMin: 0.7, correctesParMinute: 0.8 },
     officier: { precisionMin: 0.8, correctesParMinute: 1.0 },
   },
+  raisonnement: {
+    'militaire-du-rang': { precisionMin: 0.65, correctesParMinute: 1.5 },
+    'sous-officier': { precisionMin: 0.75, correctesParMinute: 2.0 },
+    officier: { precisionMin: 0.85, correctesParMinute: 2.5 },
+  },
   anglais: {
     'militaire-du-rang': { precisionMin: 0.55, correctesParMinute: 0.9 },
     'sous-officier': { precisionMin: 0.65, correctesParMinute: 1.3 },

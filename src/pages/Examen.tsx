@@ -66,7 +66,7 @@ export default function Examen() {
               <label key={id} className="choix">
                 <input type="checkbox" checked={choisies.includes(id)} onChange={() => basculer(id)} />
                 {c.titre} : {c.nbQuestions} questions, {formatDuree(c.dureeSecondes * 1000)}
-                {EPREUVES_OPTIONNELLES_EXAMEN.includes(id) ? ' (option : test distinct)' : ''}
+                {EPREUVES_OPTIONNELLES_EXAMEN.includes(id) ? ' (option)' : ''}
               </label>
             );
           })}

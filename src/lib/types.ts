@@ -7,6 +7,7 @@ export type EpreuveId =
   | 'numerique'
   | 'codage'
   | 'attention'
+  | 'raisonnement'
   | 'anglais'
   | 'personnalite';
 

@@ -81,6 +81,7 @@ const EPREUVES_VALIDES = [
   'numerique',
   'codage',
   'attention',
+  'raisonnement',
   'anglais',
   'personnalite',
 ];

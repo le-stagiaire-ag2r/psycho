@@ -247,6 +247,45 @@ export const FICHES: FicheMethode[] = [
     ],
   },
   {
+    id: 'raisonnement',
+    titre: 'Raisonnement général (complémentaire)',
+    resume: 'Suites de nombres, de lettres et de mots, logique de comparaison.',
+    sections: [
+      {
+        titre: 'Suites de nombres',
+        points: [
+          'Calcule d’abord les écarts entre termes consécutifs. Constants : suite arithmétique. Qui changent régulièrement (+2, +3, +4…) : regarde les écarts des écarts.',
+          'Teste ensuite les rapports (×2, ×3), puis « × a + b » (1, 3, 7, 15 : on double et on ajoute 1).',
+          'Reconnais les suites classiques : carrés (1, 4, 9, 16, 25), cubes (1, 8, 27, 64), nombres triangulaires (1, 3, 6, 10, 15), somme des deux termes précédents (1, 1, 2, 3, 5, 8).',
+          'Si les termes pairs et impairs semblent suivre deux logiques différentes, sépare-les en deux suites.',
+        ],
+      },
+      {
+        titre: 'Suites de lettres et de mots',
+        points: [
+          'Convertis les lettres en rangs (A = 1 … Z = 26) et traite-les comme des nombres. Après Z, on revient à A.',
+          'A – C – F – J – O : les écarts sont +2, +3, +4, +5, donc le suivant est O + 6 = U.',
+          'Suites de mots (jours, mois, saisons) : repère le pas (de 1 en 1, de 2 en 2…) et le sens (avant ou arrière). La liste est circulaire : après dimanche, on revient à lundi.',
+        ],
+      },
+      {
+        titre: 'Logique de comparaison',
+        points: [
+          'Remets toutes les phrases dans le même sens avant de les assembler : « B est plus petit que A » équivaut à « A est plus grand que B ».',
+          'Construis une chaîne : Pierre > Paul > Jean. Lis alors la réponse au bout de la chaîne.',
+          'Attention au piège du « plus petit » quand toutes les phrases parlent du « plus grand » (et inversement).',
+        ],
+      },
+      {
+        titre: 'Gestion du temps',
+        points: [
+          'Ces questions sont rapides si on trouve la règle, et longues sinon : au bout de quelques secondes sans idée, passe et reviens-y.',
+          'Vérifie ta règle sur TOUS les termes affichés avant de répondre, pas seulement sur les deux premiers.',
+        ],
+      },
+    ],
+  },
+  {
     id: 'anglais',
     titre: 'Anglais',
     resume: 'Grammaire et vocabulaire, niveau collège-lycée.',

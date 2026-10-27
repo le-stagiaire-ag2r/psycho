@@ -14,9 +14,9 @@ Le brief complet du projet est dans [`CLAUDE.md`](CLAUDE.md).
 | --- | --- | --- |
 | 1 | Socle : PRNG à graine, schéma d'item, moteur chronométré, sauvegarde locale, export/import, signalement d'erreur | fait |
 | 2 | Attention, codage | fait |
-| 3 | Quadrillages tournés (contrôle des 8 symétries), numérique (40 gabarits, arithmétique exacte) | fait |
+| 3 | Quadrillages tournés (contrôle des 8 symétries), numérique (44 gabarits, arithmétique exacte) | fait |
 | 4 | Cubes à plier / retournés (24 orientations), suites logiques (solveur d'unicité) | fait |
-| 5 | Verbal (153 items) et anglais (158 items), banques JSON avec champ de relecture | fait, **relecture humaine à faire** |
+| 5 | Verbal (159 items) et anglais (158 items), banques JSON avec champ de relecture | fait, **relecture humaine à faire** |
 | 6 | Personnalité en mode découverte (sans score, rien d'enregistré) | fait |
 | 7 | Examen blanc enchaîné, révision des erreurs, fiches méthode, statistiques | fait |
 | 8 | Bêta (20 à 50 testeurs), ajustement des chronos et de la difficulté | à faire |
@@ -24,7 +24,7 @@ Le brief complet du projet est dans [`CLAUDE.md`](CLAUDE.md).
 
 ## Ce que fait l'appli
 
-- 8 épreuves : logique, spatial, verbal, numérique, codage, attention, anglais, personnalité (découverte).
+- 9 épreuves : logique, spatial, verbal, numérique, codage, attention, anglais, personnalité (découverte) et **raisonnement général** (épreuve complémentaire : suites de nombres, de lettres et de mots, logique de comparaison ; proposée en option dans l'examen blanc).
 - Mode **entraînement** (chrono souple, correction détaillée) et **examen blanc** (chrono strict, enchaînement des épreuves).
 - **Révision des erreurs** : les questions ratées sont régénérées à l'identique à partir de leur graine.
 - **Fiches méthode**, objectifs indicatifs par niveau visé (non officiels), progression locale, export/import JSON.
@@ -57,7 +57,7 @@ Aucune variable d'environnement n'est nécessaire.
 - `src/lib/types.ts` : un **item = générateur + version + graine + difficulté** (`ItemRef`), sérialisable en JSON.
   Identifiant stable : `épreuve-vVERSION-dDIFF-sGRAINE`.
 - `src/generateurs/` : un fichier par épreuve + `index.ts` (registre). Un nouveau générateur arrive avec ses tests.
-  Les épreuves générées par code : attention, codage, grille/cube/suiteCubes (spatial, logique), numérique.
+  Les épreuves générées par code : attention, codage, grille/cube/suiteCubes (spatial, logique), numérique, raisonnement général (`raisonnement/`, chaque famille a son solveur d'unicité).
   Les épreuves à banque JSON (`src/data/verbal.json`, `anglais.json`) passent par `banque.ts`.
 - `src/config/epreuves.ts` : **formats paramétrables** (questions, durée, choix, sens du codage…). Rien n'est figé dans le code.
 - `src/config/niveaux.ts` : objectifs indicatifs par niveau visé (non officiels).

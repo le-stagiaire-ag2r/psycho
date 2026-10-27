@@ -1203,6 +1203,106 @@ const gabarits: Gabarit[] = [
       };
     },
   },
+  {
+    id: 'vitesse-calcul',
+    theme: 'Vitesse',
+    niveau: 1,
+    tirer(rng) {
+      const v = rng.choisir([40, 45, 50, 60, 80, 90, 100, 120]);
+      const h = entre(rng, 2, 5);
+      const d = v * h;
+      return {
+        enonce: `Une voiture parcourt ${d} km en ${h} h à vitesse constante. Quelle est sa vitesse, en km/h ?`,
+        solution: q(v),
+        pieges: [
+          p(q(d * h), 'distance × durée'),
+          p(q(d + h), 'distance + durée'),
+          p(q(d, h + 1), 'durée mal comptée'),
+          p(q(h, d), 'durée ÷ distance (rapport inversé)'),
+        ],
+        format: { type: 'entier', unite: 'km/h' },
+        explication: `Vitesse = distance ÷ durée = ${d} ÷ ${h} = ${v} km/h.`,
+        verifier: () => v * h === d,
+      };
+    },
+  },
+  {
+    id: 'division-boites',
+    theme: 'Calcul',
+    niveau: 1,
+    tirer(rng) {
+      const par = rng.choisir([4, 5, 6, 8, 9, 12]);
+      const nbBoites = entre(rng, 3, 15);
+      const total = par * nbBoites;
+      const objet = rng.choisir(['balles', 'stylos', 'bouteilles', 'cartouches']);
+      return {
+        enonce: `Une caisse contient ${total} ${objet}. Chaque boîte contient ${par} ${objet}. Combien de boîtes peut-on remplir ?`,
+        solution: q(nbBoites),
+        pieges: [
+          p(q(total - par), 'une soustraction au lieu d’une division'),
+          p(q(total + par), 'une addition au lieu d’une division'),
+          p(q(nbBoites + 1), 'une boîte de trop'),
+          p(q(nbBoites - 1), 'une boîte de moins'),
+        ],
+        format: entier,
+        explication: `${total} ÷ ${par} = ${nbBoites} boîtes.`,
+        verifier: () => nbBoites * par === total,
+      };
+    },
+  },
+  {
+    id: 'proportion-prix',
+    theme: 'Proportionnalité',
+    niveau: 1,
+    tirer(rng) {
+      const unitaire2 = rng.choisir([1, 2, 3, 4, 5, 6, 8, 10]); // prix unitaire en demi-euros
+      const a = rng.choisir([2, 4, 6, 8, 10]);
+      let b = a;
+      while (b === a) b = entre(rng, 2, 16);
+      const prixA = q(a * unitaire2, 2);
+      const sol = q(b * unitaire2, 2);
+      const nombre = (x: Q) => (x.d === 1 ? String(x.n) : String(x.n / x.d));
+      return {
+        enonce: `${a} stylos coûtent ${nombre(prixA)} €. Combien coûtent ${b} stylos au même prix ?`,
+        solution: sol,
+        pieges: [
+          p(add(prixA, q(b - a)), 'raisonnement additif : on ajoute 1 € par stylo en plus'),
+          p(q(b * a * unitaire2, 2), 'prix de ' + a + ' stylos multiplié par le nombre de stylos'),
+          p(q(a * unitaire2, 2 * b), 'proportion inversée'),
+          p(q(b * unitaire2, 4), 'prix unitaire divisé une fois de trop'),
+        ],
+        format: eur,
+        explication: `1 stylo coûte ${nombre(prixA)} ÷ ${a} = ${nombre(q(unitaire2, 2))} €. Donc ${b} stylos coûtent ${b} × ${nombre(q(unitaire2, 2))} = ${nombre(sol)} €.`,
+        verifier: () => egal(mul(div(prixA, q(a)), q(b)), sol),
+      };
+    },
+  },
+  {
+    id: 'multiples',
+    theme: 'Calcul',
+    niveau: 2,
+    tirer(rng) {
+      const k = rng.choisir([3, 4, 5, 6, 7]);
+      const debut = entre(rng, 5, 30);
+      const fin = debut + entre(rng, 4 * k, 12 * k);
+      // On compte à la main, pour recouper la formule.
+      let nb = 0;
+      for (let x = debut; x <= fin; x++) if (x % k === 0) nb++;
+      return {
+        enonce: `Combien y a-t-il de multiples de ${k} entre ${debut} et ${fin} (bornes incluses) ?`,
+        solution: q(nb),
+        pieges: [
+          p(q(Math.floor((fin - debut) / k)), 'écart ÷ pas, sans compter les deux extrémités'),
+          p(q(Math.floor((fin - debut) / k) + 1), 'on ajoute 1 sans vérifier les bornes'),
+          p(q(Math.floor(fin / k)), 'tous les multiples depuis 0'),
+          p(q(Math.ceil((fin - debut) / k)), 'arrondi au mauvais sens'),
+        ],
+        format: entier,
+        explication: `Premier multiple ≥ ${debut} : ${Math.ceil(debut / k) * k} ; dernier multiple ≤ ${fin} : ${Math.floor(fin / k) * k}. Il y en a ${Math.floor(fin / k)} − ${Math.ceil(debut / k)} + 1 = ${nb}.`,
+        verifier: () => Math.floor(fin / k) - Math.ceil(debut / k) + 1 === nb,
+      };
+    },
+  },
 ];
 
 export const GABARITS: readonly Gabarit[] = gabarits;
