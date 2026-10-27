@@ -20,14 +20,14 @@
    "id": "ANG-GRA-002",
    "type": "grammaire",
    "niveau": 1,
-   "enonce": "Look! The children ___ in the garden.",
+   "enonce": "Look! The children ___ in the garden right now.",
    "bonne": "are playing",
    "fausses": [
     "play",
     "played",
     "plays"
    ],
-   "explication": "« Look! » : action en cours, présent continu.",
+   "explication": "« Look! » et « right now » : action en cours, présent continu.",
    "relecture": null
   },
   {
@@ -132,14 +132,14 @@
    "id": "ANG-GRA-010",
    "type": "grammaire",
    "niveau": 2,
-   "enonce": "Be quiet! The baby ___.",
+   "enonce": "Be quiet! The baby ___ right now.",
    "bonne": "is sleeping",
    "fausses": [
     "sleeps",
     "slept",
     "has slept"
    ],
-   "explication": "« Be quiet! » : action en cours, présent continu.",
+   "explication": "« right now » : action en cours, présent continu.",
    "relecture": null
   },
   {
@@ -429,8 +429,8 @@
    "enonce": "If it rains tomorrow, we ___ at home.",
    "bonne": "will stay",
    "fausses": [
-    "stay",
     "stayed",
+    "staying",
     "would stay"
    ],
    "explication": "Condition réelle au présent : if + présent, will + infinitif.",
@@ -457,9 +457,9 @@
    "enonce": "If she had studied, she ___ the exam.",
    "bonne": "would have passed",
    "fausses": [
-    "would pass",
     "will pass",
-    "passed"
+    "passed",
+    "has passed"
    ],
    "explication": "Condition irréelle au passé : if + past perfect, would have + participe passé.",
    "relecture": null
@@ -864,7 +864,7 @@
    "bonne": "of",
    "fausses": [
     "from",
-    "about",
+    "to",
     "at"
    ],
    "explication": "afraid of.",
@@ -877,9 +877,9 @@
    "enonce": "We arrived ___ the airport at noon.",
    "bonne": "at",
    "fausses": [
-    "in",
     "on",
-    "to"
+    "to",
+    "by"
    ],
    "explication": "arrive at + lieu précis (airport, station).",
    "relecture": null
@@ -933,9 +933,9 @@
    "enonce": "She is good ___ maths.",
    "bonne": "at",
    "fausses": [
-    "in",
+    "of",
     "on",
-    "for"
+    "to"
    ],
    "explication": "good at + matière / activité.",
    "relecture": null
@@ -1004,8 +1004,8 @@
    "bonne": "by",
    "fausses": [
     "with",
-    "in",
-    "at"
+    "at",
+    "through"
    ],
    "explication": "by + moyen de transport sans article (by train).",
    "relecture": null
@@ -1214,8 +1214,8 @@
    "bonne": "play",
    "fausses": [
     "do",
-    "make",
-    "have"
+    "go",
+    "say"
    ],
    "explication": "On « joue » d'un instrument : play the guitar.",
    "relecture": null
@@ -1508,8 +1508,8 @@
    "bonne": "so",
    "fausses": [
     "because",
-    "but",
-    "although"
+    "although",
+    "unless"
    ],
    "explication": "Conséquence : so.",
    "relecture": null
@@ -1518,14 +1518,14 @@
    "id": "ANG-GRA-109",
    "type": "grammaire",
    "niveau": 2,
-   "enonce": "___ it was raining, we went out.",
+   "enonce": "___ it was raining heavily, we went out without umbrellas.",
    "bonne": "Although",
    "fausses": [
     "Because",
     "So",
     "Unless"
    ],
-   "explication": "Concession : although.",
+   "explication": "Concession (malgré la pluie) : although.",
    "relecture": null
   },
   {
@@ -1549,9 +1549,9 @@
    "enonce": "Neither Tom ___ Mary came to the party.",
    "bonne": "nor",
    "fausses": [
-    "or",
     "and",
-    "but"
+    "but",
+    "either"
    ],
    "explication": "neither ... nor.",
    "relecture": null
@@ -1661,8 +1661,8 @@
    "enonce": "___ is that man? He is my uncle.",
    "bonne": "Who",
    "fausses": [
-    "What",
-    "Which",
+    "Where",
+    "Why",
     "Whose"
    ],
    "explication": "Question sur l'identité d'une personne : who.",
@@ -1857,9 +1857,9 @@
    "enonce": "She speaks very ___.",
    "bonne": "well",
    "fausses": [
-    "good",
-    "goodly",
-    "best"
+    "goods",
+    "best",
+    "better"
    ],
    "explication": "Adverbe de good : well.",
    "relecture": null
@@ -1871,8 +1871,8 @@
    "enonce": "He drives very ___.",
    "bonne": "carefully",
    "fausses": [
-    "careful",
-    "care",
+    "carefulness",
+    "caring",
     "cared"
    ],
    "explication": "Adverbe en -ly pour modifier le verbe drives.",
@@ -1943,7 +1943,7 @@
    "fausses": [
     "colder",
     "more cold",
-    "cold"
+    "coldly"
    ],
    "explication": "Superlatif de cold : the coldest.",
    "relecture": null
@@ -2179,9 +2179,9 @@
    "enonce": "Don't ___ your time! We only have ten minutes.",
    "bonne": "waste",
    "fausses": [
-    "save",
-    "spend",
-    "borrow"
+    "win",
+    "borrow",
+    "lend"
    ],
    "explication": "waste time = perdre son temps ; l'urgence l'impose.",
    "relecture": null

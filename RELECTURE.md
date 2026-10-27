@@ -71,6 +71,13 @@ Chaque phrase a été reconstituée avec chacune de ses 4 propositions pour juge
 
 Les 159 questions de verbal ont subi le même contrôle (chaque proposition testée) sans nouvelle correction.
 
+### Passe 3 : critère strict sur les mauvaises réponses d'anglais
+Règle appliquée à chacune des 158 questions (4 propositions = 1 bonne + 3 fausses) : **chaque mauvaise réponse doit être impossible pour un anglophone**, soit parce que la forme n'existe pas (« she go », « more tall », « I do the guitar »), soit parce qu'un marqueur explicite la contredit (« yesterday », « right now », « since 2010 », « by the president »). Une réponse « grammaticale mais à un autre sens » est remplacée, ou l'énoncé est renforcé par un marqueur sans appel (« right now », « without umbrellas »).
+
+17 questions supplémentaires ont été retouchées dans ce sens (ex. : « Look! The children ___ right now », « He was tired, ___ he went to bed » sans « but » plausible, plus de « good in maths », « arrived in the airport », « Neither… or »).
+
+Limite : aucun outil ne peut prouver qu'une phrase est impossible en anglais. Ce critère a été appliqué à la main, et seul un anglophone peut le confirmer.
+
 ### Points que je juge encore discutables (à trancher par un humain)
 Aucun n'est faux à mon avis, mais un relecteur pourrait légitimement hésiter :
 
