@@ -37,10 +37,10 @@ describe('confidentialité : rien ne quitte l’appareil', () => {
 });
 
 describe('questionnaire de personnalité (mode découverte)', () => {
-  const items = (personnalite as { items: { id: string; dimension: string; texte: string }[] }).items;
+  const items = (personnalite as { items: { id: string; dimension: string; texte: string; source: string }[] }).items;
 
-  it('contient au moins 150 affirmations, équilibrées entre les 5 dimensions, sans doublon', () => {
-    expect(items.length).toBeGreaterThanOrEqual(150);
+  it('contient au moins 250 affirmations, équilibrées entre les 5 dimensions, sans doublon', () => {
+    expect(items.length).toBeGreaterThanOrEqual(250);
     expect(new Set(items.map((i) => i.id)).size).toBe(items.length);
     expect(new Set(items.map((i) => i.texte)).size).toBe(items.length);
     const parDim = new Map<string, number>();
@@ -50,6 +50,6 @@ describe('questionnaire de personnalité (mode découverte)', () => {
   });
 
   it('ne contient aucune information de cotation (pas de score possible)', () => {
-    for (const i of items) expect(Object.keys(i).sort()).toEqual(['dimension', 'id', 'texte']);
+    for (const i of items) expect(Object.keys(i).sort()).toEqual(['dimension', 'id', 'source', 'texte']);
   });
 });

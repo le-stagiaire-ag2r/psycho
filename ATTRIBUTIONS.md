@@ -10,11 +10,13 @@ Ce fichier liste les sources externes utilisées dans le projet. Il doit être t
 - **Verbal et anglais** (`src/data/verbal.json`, `src/data/anglais.json`) : items rédigés pour ce projet, avec l'aide
   d'une IA, **à l'avance** (jamais à l'exécution) ; aucun contenu copié d'un test réel ni d'un site de préparation.
   Les proverbes sont des proverbes traditionnels du domaine public. Statut de relecture : voir le champ `relecture` de chaque item.
-- **Personnalité** (`src/data/personnalite.json`) : 200 affirmations. Les 50 premières (identifiants `01` à `10` de chaque
-  dimension) sont adaptées en français des « Big-Five Factor Markers » de l'IPIP (International Personality Item Pool,
-  domaine public, <https://ipip.ori.org>) ; les 150 autres (`11` à `40`) ont été écrites pour ce projet, dans le même
-  esprit (reformulations des mêmes idées). Rien n'est la version française validée de l'IPIP ni n'a été validé
-  psychométriquement ; le tout n'est utilisé qu'en mode découverte, sans score.
+- **Personnalité** (`src/data/personnalite.json`) : 250 affirmations (50 par dimension), toutes tirées de la liste des
+  3 320 items de l'IPIP (International Personality Item Pool, domaine public, <https://ipip.ori.org>). Chacune porte le
+  code de l'item d'origine dans son champ `source` (par exemple `IPIP H1131`). Les items ont été sélectionnés à la main
+  dans la liste, traduits ou repris de la traduction automatique de la page, puis reformulés à la première personne.
+  Le rattachement à une dimension (extraversion, agréabilité, conscience, stabilité émotionnelle, ouverture) est fait
+  d'après le sens de l'item : ce n'est pas la clé de cotation officielle de l'IPIP et rien n'a été validé
+  psychométriquement. Le tout n'est utilisé qu'en mode découverte, sans score.
 
 ## Sources envisagées (pas encore utilisées)
 

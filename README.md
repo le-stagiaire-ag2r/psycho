@@ -16,7 +16,7 @@ Le brief complet du projet est dans [`CLAUDE.md`](CLAUDE.md).
 | 2 | Attention, codage | fait |
 | 3 | Quadrillages tournés (contrôle des 8 symétries), numérique (45 gabarits, arithmétique exacte) | fait |
 | 4 | Cubes à plier / retournés (24 orientations), suites logiques (solveur d'unicité) | fait |
-| 5 | Verbal (159 items) et anglais (158 items), banques JSON avec champ de relecture | fait, relu une fois par IA (voir `RELECTURE.md`), **relecture humaine à faire** |
+| 5 | Verbal (159 items) et anglais (293 items, dont 143 de vocabulaire), banques JSON avec champ de relecture | fait, relu une fois par IA (voir `RELECTURE.md`), **relecture humaine à faire** |
 | 6 | Personnalité en mode découverte (sans score, rien d'enregistré) | fait |
 | 7 | Examen blanc enchaîné, révision des erreurs, fiches méthode, statistiques | fait |
 | 8 | Bêta (20 à 50 testeurs), ajustement des chronos et de la difficulté | à faire |

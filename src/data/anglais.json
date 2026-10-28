@@ -3793,6 +3793,3246 @@
    ],
    "explication": "Après un modal ou une forme négative comme « can't », le verbe est à l'infinitif sans « to » : I can't find my keys = je ne trouve pas mes clés.",
    "relecture": null
+  },
+  {
+   "id": "ANG-VOC-034",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "The opposite of 'full' is ___.",
+   "bonne": "empty",
+   "pourquoiBonne": "« The opposite of 'full' is empty. » est correct. Full (plein) et empty (vide) sont des contraires.",
+   "fausses": [
+    {
+     "texte": "clean",
+     "raison": "« clean » veut dire « propre » : ce n'est pas le contraire de « full » (plein)."
+    },
+    {
+     "texte": "quiet",
+     "raison": "« quiet » veut dire « calme, silencieux » : rien à voir avec « full » (plein)."
+    },
+    {
+     "texte": "deep",
+     "raison": "« deep » veut dire « profond » : ce n'est pas le contraire de « full » (plein)."
+    }
+   ],
+   "explication": "Full (plein) et empty (vide) sont des contraires.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-035",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "The opposite of 'noisy' is ___.",
+   "bonne": "quiet",
+   "pourquoiBonne": "« The opposite of 'noisy' is quiet. » est correct. Noisy (bruyant) et quiet (silencieux) sont des contraires.",
+   "fausses": [
+    {
+     "texte": "loud",
+     "raison": "« loud » veut dire « fort, bruyant » : c'est un synonyme de « noisy », pas un contraire."
+    },
+    {
+     "texte": "angry",
+     "raison": "« angry » veut dire « en colère » : ce n'est pas le contraire de « noisy » (bruyant)."
+    },
+    {
+     "texte": "heavy",
+     "raison": "« heavy » veut dire « lourd » : rien à voir avec « noisy » (bruyant)."
+    }
+   ],
+   "explication": "Noisy (bruyant) et quiet (silencieux) sont des contraires.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-036",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "The opposite of 'always' is ___.",
+   "bonne": "never",
+   "pourquoiBonne": "« The opposite of 'always' is never. » est correct. Always (toujours) et never (jamais) sont des contraires.",
+   "fausses": [
+    {
+     "texte": "often",
+     "raison": "« often » veut dire « souvent » : c'est proche de « always », pas son contraire."
+    },
+    {
+     "texte": "sometimes",
+     "raison": "« sometimes » veut dire « parfois » : c'est une fréquence intermédiaire, pas le contraire de « always »."
+    },
+    {
+     "texte": "usually",
+     "raison": "« usually » veut dire « d'habitude » : c'est proche de « always », pas son contraire."
+    }
+   ],
+   "explication": "Always (toujours) et never (jamais) sont des contraires.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-037",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "The opposite of 'strong' is ___.",
+   "bonne": "weak",
+   "pourquoiBonne": "« The opposite of 'strong' is weak. » est correct. Strong (fort) et weak (faible) sont des contraires.",
+   "fausses": [
+    {
+     "texte": "tall",
+     "raison": "« tall » veut dire « grand » : ce n'est pas le contraire de « strong » (fort)."
+    },
+    {
+     "texte": "fast",
+     "raison": "« fast » veut dire « rapide » : ce n'est pas le contraire de « strong » (fort)."
+    },
+    {
+     "texte": "rich",
+     "raison": "« rich » veut dire « riche » : ce n'est pas le contraire de « strong » (fort)."
+    }
+   ],
+   "explication": "Strong (fort) et weak (faible) sont des contraires.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-038",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "The opposite of 'arrive' is ___.",
+   "bonne": "leave",
+   "pourquoiBonne": "« The opposite of 'arrive' is leave. » est correct. Arrive (arriver) et leave (partir) sont des contraires.",
+   "fausses": [
+    {
+     "texte": "stay",
+     "raison": "« stay » veut dire « rester » : ce n'est pas le contraire d'« arrive » (arriver), c'est plutôt « ne pas partir »."
+    },
+    {
+     "texte": "come",
+     "raison": "« come » veut dire « venir » : c'est proche d'« arrive », pas son contraire."
+    },
+    {
+     "texte": "enter",
+     "raison": "« enter » veut dire « entrer » : ce n'est pas le contraire d'« arrive » (arriver)."
+    }
+   ],
+   "explication": "Arrive (arriver) et leave (partir) sont des contraires.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-039",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "The opposite of 'generous' is ___.",
+   "bonne": "selfish",
+   "pourquoiBonne": "« The opposite of 'generous' is selfish. » est correct. Generous (généreux) et selfish (égoïste) sont des contraires.",
+   "fausses": [
+    {
+     "texte": "kind",
+     "raison": "« kind » veut dire « gentil » : c'est proche de « generous », pas son contraire."
+    },
+    {
+     "texte": "honest",
+     "raison": "« honest » veut dire « honnête » : ce n'est pas le contraire de « generous » (généreux)."
+    },
+    {
+     "texte": "polite",
+     "raison": "« polite » veut dire « poli » : ce n'est pas le contraire de « generous » (généreux)."
+    }
+   ],
+   "explication": "Generous (généreux) et selfish (égoïste) sont des contraires.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-040",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "The opposite of 'thick' is ___.",
+   "bonne": "thin",
+   "pourquoiBonne": "« The opposite of 'thick' is thin. » est correct. Thick (épais) et thin (mince, fin) sont des contraires.",
+   "fausses": [
+    {
+     "texte": "wide",
+     "raison": "« wide » veut dire « large » : son contraire est « narrow », pas « thick » (épais)."
+    },
+    {
+     "texte": "tall",
+     "raison": "« tall » veut dire « grand » : ce n'est pas le contraire de « thick » (épais)."
+    },
+    {
+     "texte": "short",
+     "raison": "« short » veut dire « court, petit » : ce n'est pas le contraire de « thick » (épais)."
+    }
+   ],
+   "explication": "Thick (épais) et thin (mince, fin) sont des contraires.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-041",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "The opposite of 'increase' is ___.",
+   "bonne": "decrease",
+   "pourquoiBonne": "« The opposite of 'increase' is decrease. » est correct. Increase (augmenter) et decrease (diminuer) sont des contraires.",
+   "fausses": [
+    {
+     "texte": "continue",
+     "raison": "« continue » veut dire « continuer » : ce n'est pas le contraire d'« increase » (augmenter)."
+    },
+    {
+     "texte": "collect",
+     "raison": "« collect » veut dire « collectionner, ramasser » : ce n'est pas le contraire d'« increase » (augmenter)."
+    },
+    {
+     "texte": "improve",
+     "raison": "« improve » veut dire « améliorer » : ce n'est pas le contraire d'« increase » (augmenter)."
+    }
+   ],
+   "explication": "Increase (augmenter) et decrease (diminuer) sont des contraires.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-042",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "The opposite of 'victory' is ___.",
+   "bonne": "defeat",
+   "pourquoiBonne": "« The opposite of 'victory' is defeat. » est correct. Victory (victoire) et defeat (défaite) sont des contraires.",
+   "fausses": [
+    {
+     "texte": "battle",
+     "raison": "« battle » veut dire « bataille » : on peut gagner ou perdre une bataille, ce n'est pas le contraire de « victory »."
+    },
+    {
+     "texte": "team",
+     "raison": "« team » veut dire « équipe » : rien à voir avec « victory » (victoire)."
+    },
+    {
+     "texte": "prize",
+     "raison": "« prize » veut dire « prix, récompense » : c'est plutôt une conséquence de la victoire."
+    }
+   ],
+   "explication": "Victory (victoire) et defeat (défaite) sont des contraires.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-043",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "The opposite of 'safe' is ___.",
+   "bonne": "dangerous",
+   "pourquoiBonne": "« The opposite of 'safe' is dangerous. » est correct. Safe (sûr) et dangerous (dangereux) sont des contraires.",
+   "fausses": [
+    {
+     "texte": "careful",
+     "raison": "« careful » veut dire « prudent » : ce n'est pas le contraire de « safe » (sûr)."
+    },
+    {
+     "texte": "secret",
+     "raison": "« secret » veut dire « secret » : ce n'est pas le contraire de « safe » (sûr)."
+    },
+    {
+     "texte": "calm",
+     "raison": "« calm » veut dire « calme » : ce n'est pas le contraire de « safe » (sûr)."
+    }
+   ],
+   "explication": "Safe (sûr) et dangerous (dangereux) sont des contraires.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-044",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "The opposite of 'rarely' is ___.",
+   "bonne": "often",
+   "pourquoiBonne": "« The opposite of 'rarely' is often. » est correct. Rarely (rarement) et often (souvent) sont des contraires.",
+   "fausses": [
+    {
+     "texte": "never",
+     "raison": "« never » veut dire « jamais » : c'est encore plus faible que « rarely » (rarement), pas son contraire."
+    },
+    {
+     "texte": "hardly",
+     "raison": "« hardly » veut dire « à peine » : c'est proche de « rarely », pas son contraire."
+    },
+    {
+     "texte": "seldom",
+     "raison": "« seldom » veut dire « rarement » : c'est un synonyme de « rarely », pas un contraire."
+    }
+   ],
+   "explication": "Rarely (rarement) et often (souvent) sont des contraires.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-045",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "The opposite of 'expand' is ___.",
+   "bonne": "shrink",
+   "pourquoiBonne": "« The opposite of 'expand' is shrink. » est correct. Expand (s'étendre) et shrink (rétrécir) sont des contraires.",
+   "fausses": [
+    {
+     "texte": "stretch",
+     "raison": "« stretch » veut dire « étirer » : c'est proche d'« expand » (s'étendre), pas son contraire."
+    },
+    {
+     "texte": "grow",
+     "raison": "« grow » veut dire « grandir » : c'est proche d'« expand », pas son contraire."
+    },
+    {
+     "texte": "spread",
+     "raison": "« spread » veut dire « se répandre » : c'est proche d'« expand », pas son contraire."
+    }
+   ],
+   "explication": "Expand (s'étendre) et shrink (rétrécir) sont des contraires.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-046",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "The opposite of 'inside' is ___.",
+   "bonne": "outside",
+   "pourquoiBonne": "« The opposite of 'inside' is outside. » est correct. Inside (à l'intérieur) et outside (à l'extérieur) sont des contraires.",
+   "fausses": [
+    {
+     "texte": "beside",
+     "raison": "« beside » veut dire « à côté de » : ce n'est pas le contraire de « inside » (à l'intérieur)."
+    },
+    {
+     "texte": "behind",
+     "raison": "« behind » veut dire « derrière » : ce n'est pas le contraire de « inside » (à l'intérieur)."
+    },
+    {
+     "texte": "under",
+     "raison": "« under » veut dire « sous » : ce n'est pas le contraire de « inside » (à l'intérieur)."
+    }
+   ],
+   "explication": "Inside (à l'intérieur) et outside (à l'extérieur) sont des contraires.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-047",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "The opposite of 'wide' is ___.",
+   "bonne": "narrow",
+   "pourquoiBonne": "« The opposite of 'wide' is narrow. » est correct. Wide (large) et narrow (étroit) sont des contraires.",
+   "fausses": [
+    {
+     "texte": "short",
+     "raison": "« short » veut dire « court, petit » : le contraire de « wide » (large) est « narrow » (étroit)."
+    },
+    {
+     "texte": "heavy",
+     "raison": "« heavy » veut dire « lourd » : rien à voir avec « wide » (large)."
+    },
+    {
+     "texte": "flat",
+     "raison": "« flat » veut dire « plat » : ce n'est pas le contraire de « wide » (large)."
+    }
+   ],
+   "explication": "Wide (large) et narrow (étroit) sont des contraires.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-048",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "The opposite of 'win' is ___.",
+   "bonne": "lose",
+   "pourquoiBonne": "« The opposite of 'win' is lose. » est correct. Win (gagner) et lose (perdre) sont des contraires.",
+   "fausses": [
+    {
+     "texte": "play",
+     "raison": "« play » veut dire « jouer » : on joue avant de gagner ou de perdre, ce n'est pas un contraire."
+    },
+    {
+     "texte": "finish",
+     "raison": "« finish » veut dire « terminer » : ce n'est pas le contraire de « win » (gagner)."
+    },
+    {
+     "texte": "draw",
+     "raison": "« draw » veut dire « faire match nul » ou « dessiner » : ce n'est pas le contraire de « win » (gagner)."
+    }
+   ],
+   "explication": "Win (gagner) et lose (perdre) sont des contraires.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-049",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Which word means 'big'?",
+   "bonne": "huge",
+   "pourquoiBonne": "« huge » est correct. Huge (énorme) est un synonyme renforcé de big (grand).",
+   "fausses": [
+    {
+     "texte": "tiny",
+     "raison": "« tiny » veut dire « minuscule » : c'est le contraire de « big » (grand)."
+    },
+    {
+     "texte": "narrow",
+     "raison": "« narrow » veut dire « étroit » : ce n'est pas un synonyme de « big »."
+    },
+    {
+     "texte": "light",
+     "raison": "« light » veut dire « léger » : ce n'est pas un synonyme de « big »."
+    }
+   ],
+   "explication": "Huge (énorme) est un synonyme renforcé de big (grand).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-050",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Which word means 'happy'?",
+   "bonne": "delighted",
+   "pourquoiBonne": "« delighted » est correct. Delighted (ravi) est un synonyme fort de happy (heureux).",
+   "fausses": [
+    {
+     "texte": "upset",
+     "raison": "« upset » veut dire « contrarié » : c'est le contraire de « happy » (heureux)."
+    },
+    {
+     "texte": "tired",
+     "raison": "« tired » veut dire « fatigué » : ce n'est pas un synonyme de « happy »."
+    },
+    {
+     "texte": "nervous",
+     "raison": "« nervous » veut dire « nerveux, anxieux » : ce n'est pas un synonyme de « happy »."
+    }
+   ],
+   "explication": "Delighted (ravi) est un synonyme fort de happy (heureux).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-051",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Which word means 'quick'?",
+   "bonne": "fast",
+   "pourquoiBonne": "« fast » est correct. Quick et fast veulent tous deux dire « rapide ».",
+   "fausses": [
+    {
+     "texte": "late",
+     "raison": "« late » veut dire « en retard, tard » : ce n'est pas un synonyme de « quick » (rapide)."
+    },
+    {
+     "texte": "loud",
+     "raison": "« loud » veut dire « fort (bruyant) » : ce n'est pas un synonyme de « quick » (rapide)."
+    },
+    {
+     "texte": "early",
+     "raison": "« early » veut dire « tôt » : ce n'est pas un synonyme de « quick » (rapide)."
+    }
+   ],
+   "explication": "Quick et fast veulent tous deux dire « rapide ».",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-052",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Which word means 'buy'?",
+   "bonne": "purchase",
+   "pourquoiBonne": "« purchase » est correct. Purchase est un synonyme plus formel de buy (acheter).",
+   "fausses": [
+    {
+     "texte": "sell",
+     "raison": "« sell » veut dire « vendre » : c'est le contraire de « buy » (acheter)."
+    },
+    {
+     "texte": "pay",
+     "raison": "« pay » veut dire « payer » : on paie en achetant, mais ce n'est pas un synonyme de « buy »."
+    },
+    {
+     "texte": "borrow",
+     "raison": "« borrow » veut dire « emprunter » : ce n'est pas un synonyme de « buy » (acheter)."
+    }
+   ],
+   "explication": "Purchase est un synonyme plus formel de buy (acheter).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-053",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Which word means 'ill'?",
+   "bonne": "sick",
+   "pourquoiBonne": "« sick » est correct. Ill et sick veulent tous deux dire « malade ».",
+   "fausses": [
+    {
+     "texte": "thin",
+     "raison": "« thin » veut dire « mince » : ce n'est pas un synonyme de « ill » (malade)."
+    },
+    {
+     "texte": "angry",
+     "raison": "« angry » veut dire « en colère » : ce n'est pas un synonyme de « ill » (malade)."
+    },
+    {
+     "texte": "bored",
+     "raison": "« bored » veut dire « qui s'ennuie » : ce n'est pas un synonyme de « ill » (malade)."
+    }
+   ],
+   "explication": "Ill et sick veulent tous deux dire « malade ».",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-054",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Which word means 'finish'?",
+   "bonne": "complete",
+   "pourquoiBonne": "« complete » est correct. Complete (achever) est un synonyme de finish (terminer).",
+   "fausses": [
+    {
+     "texte": "continue",
+     "raison": "« continue » veut dire « continuer » : c'est presque le contraire de « finish » (terminer)."
+    },
+    {
+     "texte": "repeat",
+     "raison": "« repeat » veut dire « répéter » : ce n'est pas un synonyme de « finish » (terminer)."
+    },
+    {
+     "texte": "delay",
+     "raison": "« delay » veut dire « retarder » : ce n'est pas un synonyme de « finish » (terminer)."
+    }
+   ],
+   "explication": "Complete (achever) est un synonyme de finish (terminer).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-055",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Which word means 'repair'?",
+   "bonne": "fix",
+   "pourquoiBonne": "« fix » est correct. Repair et fix veulent tous deux dire « réparer ».",
+   "fausses": [
+    {
+     "texte": "break",
+     "raison": "« break » veut dire « casser » : c'est le contraire de « repair » (réparer)."
+    },
+    {
+     "texte": "buy",
+     "raison": "« buy » veut dire « acheter » : ce n'est pas un synonyme de « repair » (réparer)."
+    },
+    {
+     "texte": "paint",
+     "raison": "« paint » veut dire « peindre » : ce n'est pas un synonyme de « repair » (réparer)."
+    }
+   ],
+   "explication": "Repair et fix veulent tous deux dire « réparer ».",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-056",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Which word means 'angry'?",
+   "bonne": "furious",
+   "pourquoiBonne": "« furious » est correct. Furious (furieux) est un synonyme fort d'angry (en colère).",
+   "fausses": [
+    {
+     "texte": "calm",
+     "raison": "« calm » veut dire « calme » : c'est le contraire de « angry » (en colère)."
+    },
+    {
+     "texte": "pleased",
+     "raison": "« pleased » veut dire « content » : c'est le contraire de « angry » (en colère)."
+    },
+    {
+     "texte": "shy",
+     "raison": "« shy » veut dire « timide » : ce n'est pas un synonyme de « angry » (en colère)."
+    }
+   ],
+   "explication": "Furious (furieux) est un synonyme fort d'angry (en colère).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-057",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Which word means 'rich'?",
+   "bonne": "wealthy",
+   "pourquoiBonne": "« wealthy » est correct. Rich et wealthy veulent tous deux dire « riche ».",
+   "fausses": [
+    {
+     "texte": "poor",
+     "raison": "« poor » veut dire « pauvre » : c'est le contraire de « rich » (riche)."
+    },
+    {
+     "texte": "famous",
+     "raison": "« famous » veut dire « célèbre » : on peut être célèbre sans être riche."
+    },
+    {
+     "texte": "clever",
+     "raison": "« clever » veut dire « intelligent » : ce n'est pas un synonyme de « rich » (riche)."
+    }
+   ],
+   "explication": "Rich et wealthy veulent tous deux dire « riche ».",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-058",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Which word means 'tired'?",
+   "bonne": "exhausted",
+   "pourquoiBonne": "« exhausted » est correct. Exhausted (épuisé) est un synonyme fort de tired (fatigué).",
+   "fausses": [
+    {
+     "texte": "hungry",
+     "raison": "« hungry » veut dire « affamé » : ce n'est pas un synonyme de « tired » (fatigué)."
+    },
+    {
+     "texte": "bored",
+     "raison": "« bored » veut dire « qui s'ennuie » : ce n'est pas un synonyme de « tired » (fatigué)."
+    },
+    {
+     "texte": "lazy",
+     "raison": "« lazy » veut dire « paresseux » : c'est un trait de caractère, pas un état de fatigue."
+    }
+   ],
+   "explication": "Exhausted (épuisé) est un synonyme fort de tired (fatigué).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-059",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Which word means 'smart'?",
+   "bonne": "clever",
+   "pourquoiBonne": "« clever » est correct. Smart et clever veulent tous deux dire « intelligent ».",
+   "fausses": [
+    {
+     "texte": "rude",
+     "raison": "« rude » veut dire « impoli » : ce n'est pas un synonyme de « smart » (intelligent)."
+    },
+    {
+     "texte": "silly",
+     "raison": "« silly » veut dire « idiot » : c'est presque le contraire de « smart » (intelligent)."
+    },
+    {
+     "texte": "shy",
+     "raison": "« shy » veut dire « timide » : ce n'est pas un synonyme de « smart » (intelligent)."
+    }
+   ],
+   "explication": "Smart et clever veulent tous deux dire « intelligent ».",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-060",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Which word means 'choose'?",
+   "bonne": "select",
+   "pourquoiBonne": "« select » est correct. Select est un synonyme de choose (choisir).",
+   "fausses": [
+    {
+     "texte": "refuse",
+     "raison": "« refuse » veut dire « refuser » : ce n'est pas un synonyme de « choose » (choisir)."
+    },
+    {
+     "texte": "forget",
+     "raison": "« forget » veut dire « oublier » : ce n'est pas un synonyme de « choose » (choisir)."
+    },
+    {
+     "texte": "lose",
+     "raison": "« lose » veut dire « perdre » : ce n'est pas un synonyme de « choose » (choisir)."
+    }
+   ],
+   "explication": "Select est un synonyme de choose (choisir).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-061",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Which word means 'enormous'?",
+   "bonne": "gigantic",
+   "pourquoiBonne": "« gigantic » est correct. Gigantic (gigantesque) et enormous (énorme) sont synonymes.",
+   "fausses": [
+    {
+     "texte": "tiny",
+     "raison": "« tiny » veut dire « minuscule » : c'est le contraire d'« enormous » (énorme)."
+    },
+    {
+     "texte": "average",
+     "raison": "« average » veut dire « moyen » : ce n'est pas un synonyme d'« enormous » (énorme)."
+    },
+    {
+     "texte": "narrow",
+     "raison": "« narrow » veut dire « étroit » : ce n'est pas un synonyme d'« enormous » (énorme)."
+    }
+   ],
+   "explication": "Gigantic (gigantesque) et enormous (énorme) sont synonymes.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-062",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Which word means 'silent'?",
+   "bonne": "quiet",
+   "pourquoiBonne": "« quiet » est correct. Silent et quiet veulent tous deux dire « silencieux, calme ».",
+   "fausses": [
+    {
+     "texte": "loud",
+     "raison": "« loud » veut dire « fort » : c'est le contraire de « silent » (silencieux)."
+    },
+    {
+     "texte": "rude",
+     "raison": "« rude » veut dire « impoli » : ce n'est pas un synonyme de « silent » (silencieux)."
+    },
+    {
+     "texte": "busy",
+     "raison": "« busy » veut dire « occupé » : ce n'est pas un synonyme de « silent » (silencieux)."
+    }
+   ],
+   "explication": "Silent et quiet veulent tous deux dire « silencieux, calme ».",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-063",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Which word means 'difficult'?",
+   "bonne": "hard",
+   "pourquoiBonne": "« hard » est correct. Difficult et hard veulent dire « difficile » (hard veut aussi dire « dur »).",
+   "fausses": [
+    {
+     "texte": "easy",
+     "raison": "« easy » veut dire « facile » : c'est le contraire de « difficult » (difficile)."
+    },
+    {
+     "texte": "simple",
+     "raison": "« simple » veut dire « simple » : c'est le contraire de « difficult » (difficile)."
+    },
+    {
+     "texte": "clear",
+     "raison": "« clear » veut dire « clair » : ce n'est pas un synonyme de « difficult » (difficile)."
+    }
+   ],
+   "explication": "Difficult et hard veulent dire « difficile » (hard veut aussi dire « dur »).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-064",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Which word means 'help'?",
+   "bonne": "assist",
+   "pourquoiBonne": "« assist » est correct. Assist (assister, aider) est un synonyme de help (aider).",
+   "fausses": [
+    {
+     "texte": "ask",
+     "raison": "« ask » veut dire « demander » : ce n'est pas un synonyme de « help » (aider)."
+    },
+    {
+     "texte": "allow",
+     "raison": "« allow » veut dire « permettre » : ce n'est pas un synonyme de « help » (aider)."
+    },
+    {
+     "texte": "answer",
+     "raison": "« answer » veut dire « répondre » : ce n'est pas un synonyme de « help » (aider)."
+    }
+   ],
+   "explication": "Assist (assister, aider) est un synonyme de help (aider).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-065",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Which word means 'trip'?",
+   "bonne": "journey",
+   "pourquoiBonne": "« journey » est correct. Trip et journey veulent dire « voyage, trajet ».",
+   "fausses": [
+    {
+     "texte": "meal",
+     "raison": "« meal » veut dire « repas » : ce n'est pas un synonyme de « trip » (voyage)."
+    },
+    {
+     "texte": "rule",
+     "raison": "« rule » veut dire « règle » : ce n'est pas un synonyme de « trip » (voyage)."
+    },
+    {
+     "texte": "gift",
+     "raison": "« gift » veut dire « cadeau » : ce n'est pas un synonyme de « trip » (voyage)."
+    }
+   ],
+   "explication": "Trip et journey veulent dire « voyage, trajet ».",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-066",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "A place where you can borrow books is a ___.",
+   "bonne": "library",
+   "pourquoiBonne": "« A place where you can borrow books is a library. » est correct. Library = bibliothèque (à ne pas confondre avec « librairie » = bookshop).",
+   "fausses": [
+    {
+     "texte": "bank",
+     "raison": "« bank » veut dire « banque » : on y gère de l'argent, pas des livres."
+    },
+    {
+     "texte": "stadium",
+     "raison": "« stadium » veut dire « stade » : on y regarde du sport, on n'y emprunte pas de livres."
+    },
+    {
+     "texte": "pharmacy",
+     "raison": "« pharmacy » veut dire « pharmacie » : on y achète des médicaments."
+    }
+   ],
+   "explication": "Library = bibliothèque (à ne pas confondre avec « librairie » = bookshop).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-067",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "A person who writes books is an ___.",
+   "bonne": "author",
+   "pourquoiBonne": "« A person who writes books is an author. » est correct. Author = auteur, celui qui écrit des livres.",
+   "fausses": [
+    {
+     "texte": "actor",
+     "raison": "« actor » veut dire « acteur » : il joue dans des films ou des pièces."
+    },
+    {
+     "texte": "architect",
+     "raison": "« architect » veut dire « architecte » : il dessine des bâtiments."
+    },
+    {
+     "texte": "athlete",
+     "raison": "« athlete » veut dire « sportif » : il pratique un sport."
+    }
+   ],
+   "explication": "Author = auteur, celui qui écrit des livres.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-068",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "You wear ___ on your hands when it is cold.",
+   "bonne": "gloves",
+   "pourquoiBonne": "« You wear gloves on your hands when it is cold. » est correct. Gloves = gants.",
+   "fausses": [
+    {
+     "texte": "shoes",
+     "raison": "« shoes » veut dire « chaussures » : on les porte aux pieds."
+    },
+    {
+     "texte": "hats",
+     "raison": "« hats » veut dire « chapeaux » : on les porte sur la tête."
+    },
+    {
+     "texte": "socks",
+     "raison": "« socks » veut dire « chaussettes » : on les porte aux pieds."
+    }
+   ],
+   "explication": "Gloves = gants.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-069",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "A ___ is a person who flies a plane.",
+   "bonne": "pilot",
+   "pourquoiBonne": "« A pilot is a person who flies a plane. » est correct. Pilot = pilote.",
+   "fausses": [
+    {
+     "texte": "sailor",
+     "raison": "« sailor » veut dire « marin » : il navigue sur un bateau."
+    },
+    {
+     "texte": "driver",
+     "raison": "« driver » veut dire « conducteur » : il conduit un véhicule au sol."
+    },
+    {
+     "texte": "guard",
+     "raison": "« guard » veut dire « gardien » : il surveille un lieu."
+    }
+   ],
+   "explication": "Pilot = pilote.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-070",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "You cook your meals in the ___.",
+   "bonne": "kitchen",
+   "pourquoiBonne": "« You cook your meals in the kitchen. » est correct. Kitchen = cuisine.",
+   "fausses": [
+    {
+     "texte": "bedroom",
+     "raison": "« bedroom » veut dire « chambre » : on y dort."
+    },
+    {
+     "texte": "garage",
+     "raison": "« garage » veut dire « garage » : on y range la voiture."
+    },
+    {
+     "texte": "bathroom",
+     "raison": "« bathroom » veut dire « salle de bains » : on s'y lave."
+    }
+   ],
+   "explication": "Kitchen = cuisine.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-071",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "You use ___ when it rains.",
+   "bonne": "an umbrella",
+   "pourquoiBonne": "« You use an umbrella when it rains. » est correct. Umbrella = parapluie.",
+   "fausses": [
+    {
+     "texte": "an iron",
+     "raison": "« an iron » est un fer à repasser : il ne protège pas de la pluie."
+    },
+    {
+     "texte": "an oven",
+     "raison": "« an oven » est un four : il ne protège pas de la pluie."
+    },
+    {
+     "texte": "an envelope",
+     "raison": "« an envelope » est une enveloppe : elle ne protège pas de la pluie."
+    }
+   ],
+   "explication": "Umbrella = parapluie.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-072",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "A person who looks after your teeth is a ___.",
+   "bonne": "dentist",
+   "pourquoiBonne": "« A person who looks after your teeth is a dentist. » est correct. Dentist = dentiste.",
+   "fausses": [
+    {
+     "texte": "pharmacist",
+     "raison": "« pharmacist » veut dire « pharmacien » : il vend des médicaments."
+    },
+    {
+     "texte": "vet",
+     "raison": "« vet » veut dire « vétérinaire » : il soigne les animaux."
+    },
+    {
+     "texte": "plumber",
+     "raison": "« plumber » veut dire « plombier » : il répare les tuyaux."
+    }
+   ],
+   "explication": "Dentist = dentiste.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-073",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Water becomes ___ when it is very cold.",
+   "bonne": "ice",
+   "pourquoiBonne": "« Water becomes ice when it is very cold. » est correct. Ice = glace (eau gelée).",
+   "fausses": [
+    {
+     "texte": "steam",
+     "raison": "« steam » veut dire « vapeur » : l'eau en produit quand elle est très chaude."
+    },
+    {
+     "texte": "smoke",
+     "raison": "« smoke » veut dire « fumée » : elle vient d'un feu, pas de l'eau."
+    },
+    {
+     "texte": "fog",
+     "raison": "« fog » veut dire « brouillard » : ce n'est pas de l'eau qui gèle."
+    }
+   ],
+   "explication": "Ice = glace (eau gelée).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-074",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "You can buy stamps at the ___.",
+   "bonne": "post office",
+   "pourquoiBonne": "« You can buy stamps at the post office. » est correct. Stamp = timbre ; post office = bureau de poste.",
+   "fausses": [
+    {
+     "texte": "airport",
+     "raison": "« airport » veut dire « aéroport » : on n'y vend pas de timbres."
+    },
+    {
+     "texte": "town hall",
+     "raison": "« town hall » veut dire « mairie » : ce n'est pas là qu'on achète des timbres."
+    },
+    {
+     "texte": "cinema",
+     "raison": "« cinema » veut dire « cinéma » : on n'y vend pas de timbres."
+    }
+   ],
+   "explication": "Stamp = timbre ; post office = bureau de poste.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-075",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "A ___ is a book of maps.",
+   "bonne": "atlas",
+   "pourquoiBonne": "« A atlas is a book of maps. » est correct. Atlas = recueil de cartes géographiques.",
+   "fausses": [
+    {
+     "texte": "novel",
+     "raison": "« novel » veut dire « roman » : c'est une histoire, pas un recueil de cartes."
+    },
+    {
+     "texte": "diary",
+     "raison": "« diary » veut dire « journal intime » : on y écrit sa vie quotidienne."
+    },
+    {
+     "texte": "dictionary",
+     "raison": "« dictionary » veut dire « dictionnaire » : il explique des mots, il n'a pas de cartes."
+    }
+   ],
+   "explication": "Atlas = recueil de cartes géographiques.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-076",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "A person who cuts your hair is a ___.",
+   "bonne": "hairdresser",
+   "pourquoiBonne": "« A person who cuts your hair is a hairdresser. » est correct. Hairdresser = coiffeur.",
+   "fausses": [
+    {
+     "texte": "butcher",
+     "raison": "« butcher » veut dire « boucher » : il vend de la viande."
+    },
+    {
+     "texte": "lawyer",
+     "raison": "« lawyer » veut dire « avocat » : il défend des clients en justice."
+    },
+    {
+     "texte": "waiter",
+     "raison": "« waiter » veut dire « serveur » : il sert les clients d'un restaurant."
+    }
+   ],
+   "explication": "Hairdresser = coiffeur.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-077",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Your ___ is the money you receive every month for your work.",
+   "bonne": "salary",
+   "pourquoiBonne": "« Your salary is the money you receive every month for your work. » est correct. Salary = salaire.",
+   "fausses": [
+    {
+     "texte": "fare",
+     "raison": "« fare » veut dire « prix d'un billet de transport » : ce n'est pas un revenu."
+    },
+    {
+     "texte": "tax",
+     "raison": "« tax » veut dire « impôt » : c'est de l'argent qu'on paie, pas qu'on reçoit."
+    },
+    {
+     "texte": "price",
+     "raison": "« price » veut dire « prix d'un produit » : ce n'est pas l'argent reçu pour son travail."
+    }
+   ],
+   "explication": "Salary = salaire.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-078",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "You go to a ___ to see a play.",
+   "bonne": "theatre",
+   "pourquoiBonne": "« You go to a theatre to see a play. » est correct. Theatre = théâtre ; play = pièce de théâtre.",
+   "fausses": [
+    {
+     "texte": "museum",
+     "raison": "« museum » veut dire « musée » : on y voit des œuvres ou des objets."
+    },
+    {
+     "texte": "library",
+     "raison": "« library » veut dire « bibliothèque » : on y lit ou emprunte des livres."
+    },
+    {
+     "texte": "stadium",
+     "raison": "« stadium » veut dire « stade » : on y regarde du sport."
+    }
+   ],
+   "explication": "Theatre = théâtre ; play = pièce de théâtre.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-079",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "The opposite of a friend is an ___.",
+   "bonne": "enemy",
+   "pourquoiBonne": "« The opposite of a friend is an enemy. » est correct. Enemy = ennemi.",
+   "fausses": [
+    {
+     "texte": "uncle",
+     "raison": "« uncle » veut dire « oncle » : ce n'est pas le contraire d'un ami."
+    },
+    {
+     "texte": "owner",
+     "raison": "« owner » veut dire « propriétaire » : ce n'est pas le contraire d'un ami."
+    },
+    {
+     "texte": "audience",
+     "raison": "« audience » veut dire « public » : ce n'est pas le contraire d'un ami."
+    }
+   ],
+   "explication": "Enemy = ennemi.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-080",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "A baby cat is called a ___.",
+   "bonne": "kitten",
+   "pourquoiBonne": "« A baby cat is called a kitten. » est correct. Kitten = chaton (le petit du chat).",
+   "fausses": [
+    {
+     "texte": "puppy",
+     "raison": "« puppy » veut dire « chiot » : c'est le petit du chien."
+    },
+    {
+     "texte": "calf",
+     "raison": "« calf » veut dire « veau » : c'est le petit de la vache."
+    },
+    {
+     "texte": "lamb",
+     "raison": "« lamb » veut dire « agneau » : c'est le petit du mouton."
+    }
+   ],
+   "explication": "Kitten = chaton (le petit du chat).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-081",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "The part of the day after midday and before the evening is the ___.",
+   "bonne": "afternoon",
+   "pourquoiBonne": "« The part of the day after midday and before the evening is the afternoon. » est correct. Afternoon = après-midi.",
+   "fausses": [
+    {
+     "texte": "morning",
+     "raison": "« morning » veut dire « matin » : c'est avant midi."
+    },
+    {
+     "texte": "midnight",
+     "raison": "« midnight » veut dire « minuit » : c'est au milieu de la nuit."
+    },
+    {
+     "texte": "dawn",
+     "raison": "« dawn » veut dire « aube » : c'est le tout début du jour."
+    }
+   ],
+   "explication": "Afternoon = après-midi.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-082",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "The doctor gave me a ___ for my cough.",
+   "bonne": "prescription",
+   "pourquoiBonne": "« The doctor gave me a prescription for my cough. » est correct. Prescription = ordonnance (attention à « recipe » = recette).",
+   "fausses": [
+    {
+     "texte": "receipt",
+     "raison": "« receipt » veut dire « reçu, ticket de caisse » : le médecin ne donne pas de reçu pour la toux."
+    },
+    {
+     "texte": "recipe",
+     "raison": "« recipe » veut dire « recette de cuisine » : ce n'est pas ce que donne un médecin."
+    },
+    {
+     "texte": "review",
+     "raison": "« review » veut dire « critique, compte rendu » : ce n'est pas ce que donne un médecin."
+    }
+   ],
+   "explication": "Prescription = ordonnance (attention à « recipe » = recette).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-083",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Please fasten your ___ before the plane takes off.",
+   "bonne": "seat belt",
+   "pourquoiBonne": "« Please fasten your seat belt before the plane takes off. » est correct. Seat belt = ceinture de sécurité.",
+   "fausses": [
+    {
+     "texte": "wallet",
+     "raison": "« wallet » veut dire « portefeuille » : on ne l'attache pas avant le décollage."
+    },
+    {
+     "texte": "passport",
+     "raison": "« passport » veut dire « passeport » : on le présente, on ne l'attache pas."
+    },
+    {
+     "texte": "menu",
+     "raison": "« menu » veut dire « carte (du restaurant) » : on ne l'attache pas."
+    }
+   ],
+   "explication": "Seat belt = ceinture de sécurité.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-084",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "I'm trying to ___ money to buy a bike, so I don't spend it.",
+   "bonne": "save",
+   "pourquoiBonne": "« I'm trying to save money to buy a bike, so I don't spend it. » est correct. Save money = économiser, mettre de l'argent de côté.",
+   "fausses": [
+    {
+     "texte": "waste",
+     "raison": "« waste » veut dire « gaspiller » : c'est l'inverse de ce que fait quelqu'un qui veut acheter un vélo."
+    },
+    {
+     "texte": "lend",
+     "raison": "« lend » veut dire « prêter » : on ne prête pas son argent pour s'acheter un vélo."
+    },
+    {
+     "texte": "borrow",
+     "raison": "« borrow » veut dire « emprunter » : ici on met de l'argent de côté, on n'en emprunte pas."
+    }
+   ],
+   "explication": "Save money = économiser, mettre de l'argent de côté.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-085",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "It's hot. Could you open the ___, please?",
+   "bonne": "window",
+   "pourquoiBonne": "« It's hot. Could you open the window, please? » est correct. Window = fenêtre.",
+   "fausses": [
+    {
+     "texte": "floor",
+     "raison": "« floor » veut dire « sol, plancher » : on ne l'ouvre pas pour avoir de l'air."
+    },
+    {
+     "texte": "ceiling",
+     "raison": "« ceiling » veut dire « plafond » : on ne l'ouvre pas pour avoir de l'air."
+    },
+    {
+     "texte": "carpet",
+     "raison": "« carpet » veut dire « tapis, moquette » : on ne l'ouvre pas pour avoir de l'air."
+    }
+   ],
+   "explication": "Window = fenêtre.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-086",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "I need a ___ to open the door.",
+   "bonne": "key",
+   "pourquoiBonne": "« I need a key to open the door. » est correct. Key = clé (on ouvre une porte avec une clé).",
+   "fausses": [
+    {
+     "texte": "fork",
+     "raison": "« fork » veut dire « fourchette » : elle ne sert pas à ouvrir une porte."
+    },
+    {
+     "texte": "pencil",
+     "raison": "« pencil » veut dire « crayon » : il ne sert pas à ouvrir une porte."
+    },
+    {
+     "texte": "towel",
+     "raison": "« towel » veut dire « serviette de toilette » : elle ne sert pas à ouvrir une porte."
+    }
+   ],
+   "explication": "Key = clé (on ouvre une porte avec une clé).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-087",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "I wash my hands with ___ and water.",
+   "bonne": "soap",
+   "pourquoiBonne": "« I wash my hands with soap and water. » est correct. Soap = savon (on se lave avec du savon).",
+   "fausses": [
+    {
+     "texte": "sugar",
+     "raison": "« sugar » veut dire « sucre » : on ne se lave pas les mains avec."
+    },
+    {
+     "texte": "salt",
+     "raison": "« salt » veut dire « sel » : on ne se lave pas les mains avec."
+    },
+    {
+     "texte": "paper",
+     "raison": "« paper » veut dire « papier » : on ne se lave pas les mains avec."
+    }
+   ],
+   "explication": "Soap = savon (on se lave avec du savon).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-088",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "She put the milk in the ___ to keep it cold.",
+   "bonne": "fridge",
+   "pourquoiBonne": "« She put the milk in the fridge to keep it cold. » est correct. Fridge = réfrigérateur.",
+   "fausses": [
+    {
+     "texte": "oven",
+     "raison": "« oven » veut dire « four » : il chauffe, il ne garde pas au froid."
+    },
+    {
+     "texte": "cupboard",
+     "raison": "« cupboard » veut dire « placard » : il ne garde pas au froid."
+    },
+    {
+     "texte": "sofa",
+     "raison": "« sofa » veut dire « canapé » : on ne range pas du lait dedans."
+    }
+   ],
+   "explication": "Fridge = réfrigérateur.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-089",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "You need a ___ to take photos.",
+   "bonne": "camera",
+   "pourquoiBonne": "« You need a camera to take photos. » est correct. Camera = appareil photo.",
+   "fausses": [
+    {
+     "texte": "scale",
+     "raison": "« scale » veut dire « balance » : elle sert à peser."
+    },
+    {
+     "texte": "ruler",
+     "raison": "« ruler » veut dire « règle » : elle sert à mesurer."
+    },
+    {
+     "texte": "compass",
+     "raison": "« compass » veut dire « boussole » : elle sert à s'orienter."
+    }
+   ],
+   "explication": "Camera = appareil photo.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-090",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "I'm cold. Can I borrow your ___?",
+   "bonne": "sweater",
+   "pourquoiBonne": "« I'm cold. Can I borrow your sweater? » est correct. Sweater = pull.",
+   "fausses": [
+    {
+     "texte": "sunglasses",
+     "raison": "« sunglasses » veut dire « lunettes de soleil » : elles ne réchauffent pas."
+    },
+    {
+     "texte": "swimsuit",
+     "raison": "« swimsuit » veut dire « maillot de bain » : il ne réchauffe pas."
+    },
+    {
+     "texte": "sandals",
+     "raison": "« sandals » veut dire « sandales » : elles ne réchauffent pas le corps."
+    }
+   ],
+   "explication": "Sweater = pull.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-091",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "People wear ___ to see better.",
+   "bonne": "glasses",
+   "pourquoiBonne": "« People wear glasses to see better. » est correct. Glasses = lunettes de vue.",
+   "fausses": [
+    {
+     "texte": "gloves",
+     "raison": "« gloves » veut dire « gants » : on les porte aux mains."
+    },
+    {
+     "texte": "boots",
+     "raison": "« boots » veut dire « bottes » : on les porte aux pieds."
+    },
+    {
+     "texte": "belts",
+     "raison": "« belts » veut dire « ceintures » : elles se portent à la taille."
+    }
+   ],
+   "explication": "Glasses = lunettes de vue.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-092",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "The person who lives next to you is your ___.",
+   "bonne": "neighbour",
+   "pourquoiBonne": "« The person who lives next to you is your neighbour. » est correct. Neighbour = voisin.",
+   "fausses": [
+    {
+     "texte": "relative",
+     "raison": "« relative » veut dire « membre de la famille » : un voisin n'est pas forcément de la famille."
+    },
+    {
+     "texte": "colleague",
+     "raison": "« colleague » veut dire « collègue » : c'est quelqu'un avec qui on travaille."
+    },
+    {
+     "texte": "guest",
+     "raison": "« guest » veut dire « invité » : ce n'est pas la personne qui habite à côté."
+    }
+   ],
+   "explication": "Neighbour = voisin.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-093",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "He was so ___ that he drank three glasses of water.",
+   "bonne": "thirsty",
+   "pourquoiBonne": "« He was so thirsty that he drank three glasses of water. » est correct. Thirsty = qui a soif.",
+   "fausses": [
+    {
+     "texte": "hungry",
+     "raison": "« hungry » veut dire « affamé » : on mange, on ne boit pas, quand on a faim."
+    },
+    {
+     "texte": "angry",
+     "raison": "« angry » veut dire « en colère » : cela n'explique pas qu'on boive de l'eau."
+    },
+    {
+     "texte": "lazy",
+     "raison": "« lazy » veut dire « paresseux » : cela n'explique pas qu'on boive de l'eau."
+    }
+   ],
+   "explication": "Thirsty = qui a soif.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-094",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Take your umbrella: it's ___ today.",
+   "bonne": "rainy",
+   "pourquoiBonne": "« Take your umbrella: it's rainy today. » est correct. Rainy = pluvieux.",
+   "fausses": [
+    {
+     "texte": "sunny",
+     "raison": "« sunny » veut dire « ensoleillé » : on n'a pas besoin de parapluie."
+    },
+    {
+     "texte": "windy",
+     "raison": "« windy » veut dire « venteux » : un parapluie sert contre la pluie, pas contre le vent."
+    },
+    {
+     "texte": "foggy",
+     "raison": "« foggy » veut dire « brumeux » : le brouillard ne demande pas de parapluie."
+    }
+   ],
+   "explication": "Rainy = pluvieux.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-095",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "The opposite of 'north' is ___.",
+   "bonne": "south",
+   "pourquoiBonne": "« The opposite of 'north' is south. » est correct. North (nord) et south (sud) sont opposés.",
+   "fausses": [
+    {
+     "texte": "east",
+     "raison": "« east » veut dire « est » : c'est perpendiculaire au nord, pas son contraire."
+    },
+    {
+     "texte": "west",
+     "raison": "« west » veut dire « ouest » : c'est perpendiculaire au nord, pas son contraire."
+    },
+    {
+     "texte": "centre",
+     "raison": "« centre » veut dire « centre » : ce n'est pas un point cardinal."
+    }
+   ],
+   "explication": "North (nord) et south (sud) sont opposés.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-096",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "My birthday is in ___, the last month of the year.",
+   "bonne": "December",
+   "pourquoiBonne": "« My birthday is in December, the last month of the year. » est correct. December = décembre.",
+   "fausses": [
+    {
+     "texte": "November",
+     "raison": "« November » est le onzième mois, pas le dernier."
+    },
+    {
+     "texte": "January",
+     "raison": "« January » est le premier mois de l'année."
+    },
+    {
+     "texte": "October",
+     "raison": "« October » est le dixième mois, pas le dernier."
+    }
+   ],
+   "explication": "December = décembre.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-097",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Today is Monday, so tomorrow is ___.",
+   "bonne": "Tuesday",
+   "pourquoiBonne": "« Today is Monday, so tomorrow is Tuesday. » est correct. Monday = lundi, Tuesday = mardi.",
+   "fausses": [
+    {
+     "texte": "Sunday",
+     "raison": "« Sunday » (dimanche) est la veille de lundi, pas le lendemain."
+    },
+    {
+     "texte": "Friday",
+     "raison": "« Friday » (vendredi) est trois jours avant lundi."
+    },
+    {
+     "texte": "Wednesday",
+     "raison": "« Wednesday » (mercredi) est après-demain, pas demain."
+    }
+   ],
+   "explication": "Monday = lundi, Tuesday = mardi.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-098",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "My mother's brother is my ___.",
+   "bonne": "uncle",
+   "pourquoiBonne": "« My mother's brother is my uncle. » est correct. Uncle = oncle (le frère de la mère ou du père).",
+   "fausses": [
+    {
+     "texte": "cousin",
+     "raison": "« cousin » veut dire « cousin » : c'est l'enfant de l'oncle ou de la tante."
+    },
+    {
+     "texte": "nephew",
+     "raison": "« nephew » veut dire « neveu » : c'est le fils du frère ou de la sœur."
+    },
+    {
+     "texte": "grandfather",
+     "raison": "« grandfather » veut dire « grand-père » : c'est le père de la mère, pas son frère."
+    }
+   ],
+   "explication": "Uncle = oncle (le frère de la mère ou du père).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-099",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "February is the ___ month of the year.",
+   "bonne": "second",
+   "pourquoiBonne": "« February is the second month of the year. » est correct. First = premier, second = deuxième.",
+   "fausses": [
+    {
+     "texte": "first",
+     "raison": "« first » (premier) : c'est janvier, pas février."
+    },
+    {
+     "texte": "third",
+     "raison": "« third » (troisième) : c'est mars, pas février."
+    },
+    {
+     "texte": "twelfth",
+     "raison": "« twelfth » (douzième) : c'est décembre."
+    }
+   ],
+   "explication": "First = premier, second = deuxième.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-100",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "A ___ is the person who serves you in a restaurant.",
+   "bonne": "waiter",
+   "pourquoiBonne": "« A waiter is the person who serves you in a restaurant. » est correct. Waiter = serveur.",
+   "fausses": [
+    {
+     "texte": "customer",
+     "raison": "« customer » veut dire « client » : c'est celui qui est servi."
+    },
+    {
+     "texte": "neighbour",
+     "raison": "« neighbour » veut dire « voisin » : ce n'est pas un métier de restaurant."
+    },
+    {
+     "texte": "pilot",
+     "raison": "« pilot » veut dire « pilote » : il conduit un avion."
+    }
+   ],
+   "explication": "Waiter = serveur.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-101",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "A ___ has four legs and you sit on it.",
+   "bonne": "chair",
+   "pourquoiBonne": "« A chair has four legs and you sit on it. » est correct. Chair = chaise.",
+   "fausses": [
+    {
+     "texte": "window",
+     "raison": "« window » veut dire « fenêtre » : elle n'a pas de pieds."
+    },
+    {
+     "texte": "shelf",
+     "raison": "« shelf » veut dire « étagère » : on ne s'assoit pas dessus."
+    },
+    {
+     "texte": "mirror",
+     "raison": "« mirror » veut dire « miroir » : on ne s'assoit pas dessus."
+    }
+   ],
+   "explication": "Chair = chaise.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-102",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "I want to ___ a shower, because I feel dirty.",
+   "bonne": "take",
+   "pourquoiBonne": "« I want to take a shower, because I feel dirty. » est correct. On dit take a shower (prendre une douche).",
+   "fausses": [
+    {
+     "texte": "do",
+     "raison": "« do a shower » n'existe pas en anglais : on dit « take a shower »."
+    },
+    {
+     "texte": "make",
+     "raison": "« make a shower » n'existe pas en anglais : on dit « take a shower »."
+    },
+    {
+     "texte": "put",
+     "raison": "« put a shower » n'existe pas en anglais : on dit « take a shower »."
+    }
+   ],
+   "explication": "On dit take a shower (prendre une douche).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-103",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Everyone can ___ a mistake.",
+   "bonne": "make",
+   "pourquoiBonne": "« Everyone can make a mistake. » est correct. On dit make a mistake (faire une erreur).",
+   "fausses": [
+    {
+     "texte": "do",
+     "raison": "« do a mistake » est une faute : on dit « make a mistake »."
+    },
+    {
+     "texte": "take",
+     "raison": "« take a mistake » n'existe pas en anglais : on dit « make a mistake »."
+    },
+    {
+     "texte": "have",
+     "raison": "« have a mistake » n'est pas la tournure usuelle : on dit « make a mistake »."
+    }
+   ],
+   "explication": "On dit make a mistake (faire une erreur).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-104",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "I have to ___ my homework before dinner.",
+   "bonne": "do",
+   "pourquoiBonne": "« I have to do my homework before dinner. » est correct. On dit do homework (faire ses devoirs).",
+   "fausses": [
+    {
+     "texte": "make",
+     "raison": "« make my homework » est incorrect : les devoirs se « font » avec « do »."
+    },
+    {
+     "texte": "take",
+     "raison": "« take my homework » est incorrect : on dit « do my homework »."
+    },
+    {
+     "texte": "get",
+     "raison": "« get my homework » veut dire « recevoir, obtenir » ses devoirs, pas les faire."
+    }
+   ],
+   "explication": "On dit do homework (faire ses devoirs).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-105",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Can you ___ a photo of us?",
+   "bonne": "take",
+   "pourquoiBonne": "« Can you take a photo of us? » est correct. On dit take a photo (prendre une photo).",
+   "fausses": [
+    {
+     "texte": "do",
+     "raison": "« do a photo » est incorrect : on dit « take a photo »."
+    },
+    {
+     "texte": "make",
+     "raison": "« make a photo » est incorrect : on dit « take a photo »."
+    },
+    {
+     "texte": "put",
+     "raison": "« put a photo » veut dire « poser une photo » quelque part, pas en prendre une."
+    }
+   ],
+   "explication": "On dit take a photo (prendre une photo).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-106",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Could you ___ the washing-up after dinner?",
+   "bonne": "do",
+   "pourquoiBonne": "« Could you do the washing-up after dinner? » est correct. On dit do the washing-up (faire la vaisselle).",
+   "fausses": [
+    {
+     "texte": "make",
+     "raison": "« make the washing-up » est incorrect : on dit « do the washing-up »."
+    },
+    {
+     "texte": "have",
+     "raison": "« have the washing-up » est incorrect : on dit « do the washing-up »."
+    },
+    {
+     "texte": "take",
+     "raison": "« take the washing-up » est incorrect : on dit « do the washing-up »."
+    }
+   ],
+   "explication": "On dit do the washing-up (faire la vaisselle).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-107",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Please ___ attention to the teacher.",
+   "bonne": "pay",
+   "pourquoiBonne": "« Please pay attention to the teacher. » est correct. On dit pay attention (faire attention).",
+   "fausses": [
+    {
+     "texte": "make",
+     "raison": "« make attention » est incorrect : on dit « pay attention »."
+    },
+    {
+     "texte": "do",
+     "raison": "« do attention » est incorrect : on dit « pay attention »."
+    },
+    {
+     "texte": "put",
+     "raison": "« put attention » est incorrect : on dit « pay attention »."
+    }
+   ],
+   "explication": "On dit pay attention (faire attention).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-108",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Wear a coat or you'll ___ a cold.",
+   "bonne": "catch",
+   "pourquoiBonne": "« Wear a coat or you'll catch a cold. » est correct. On dit catch a cold (attraper un rhume).",
+   "fausses": [
+    {
+     "texte": "take",
+     "raison": "« take a cold » est incorrect : on dit « catch a cold »."
+    },
+    {
+     "texte": "make",
+     "raison": "« make a cold » est incorrect : on dit « catch a cold »."
+    },
+    {
+     "texte": "hold",
+     "raison": "« hold a cold » est incorrect : on dit « catch a cold »."
+    }
+   ],
+   "explication": "On dit catch a cold (attraper un rhume).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-109",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "It is easy to ___ friends at university.",
+   "bonne": "make",
+   "pourquoiBonne": "« It is easy to make friends at university. » est correct. On dit make friends (se faire des amis).",
+   "fausses": [
+    {
+     "texte": "do",
+     "raison": "« do friends » est incorrect : on dit « make friends »."
+    },
+    {
+     "texte": "get",
+     "raison": "« get friends » est incorrect : on dit « make friends »."
+    },
+    {
+     "texte": "take",
+     "raison": "« take friends » est incorrect : on dit « make friends »."
+    }
+   ],
+   "explication": "On dit make friends (se faire des amis).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-110",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Never ___ a promise.",
+   "bonne": "break",
+   "pourquoiBonne": "« Never break a promise. » est correct. On dit break a promise (ne pas tenir une promesse).",
+   "fausses": [
+    {
+     "texte": "cut",
+     "raison": "« cut a promise » est incorrect : on dit « break a promise »."
+    },
+    {
+     "texte": "tear",
+     "raison": "« tear a promise » est incorrect : on dit « break a promise »."
+    },
+    {
+     "texte": "crack",
+     "raison": "« crack a promise » est incorrect : on dit « break a promise »."
+    }
+   ],
+   "explication": "On dit break a promise (ne pas tenir une promesse).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-111",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Can you ___ a secret?",
+   "bonne": "keep",
+   "pourquoiBonne": "« Can you keep a secret? » est correct. On dit keep a secret (garder un secret).",
+   "fausses": [
+    {
+     "texte": "hold",
+     "raison": "« hold a secret » est incorrect : on dit « keep a secret »."
+    },
+    {
+     "texte": "save",
+     "raison": "« save a secret » est incorrect : on dit « keep a secret »."
+    },
+    {
+     "texte": "stay",
+     "raison": "« stay a secret » est incorrect : on dit « keep a secret »."
+    }
+   ],
+   "explication": "On dit keep a secret (garder un secret).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-112",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Can you ___ me a favour?",
+   "bonne": "do",
+   "pourquoiBonne": "« Can you do me a favour? » est correct. On dit do someone a favour (rendre un service).",
+   "fausses": [
+    {
+     "texte": "make",
+     "raison": "« make me a favour » est incorrect : on dit « do me a favour »."
+    },
+    {
+     "texte": "give",
+     "raison": "« give me a favour » est incorrect : on dit « do me a favour »."
+    },
+    {
+     "texte": "take",
+     "raison": "« take me a favour » est incorrect : on dit « do me a favour »."
+    }
+   ],
+   "explication": "On dit do someone a favour (rendre un service).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-113",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Please ___ your shoes before you enter the house.",
+   "bonne": "take off",
+   "pourquoiBonne": "« Please take off your shoes before you enter the house. » est correct. Take off = enlever (un vêtement) ; aussi « décoller » pour un avion.",
+   "fausses": [
+    {
+     "texte": "put off",
+     "raison": "« put off » veut dire « repousser, reporter » : on n'enlève pas ses chaussures ainsi."
+    },
+    {
+     "texte": "turn off",
+     "raison": "« turn off » veut dire « éteindre » : on ne l'emploie pas pour des chaussures."
+    },
+    {
+     "texte": "look off",
+     "raison": "« look off » n'existe pas en anglais."
+    }
+   ],
+   "explication": "Take off = enlever (un vêtement) ; aussi « décoller » pour un avion.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-114",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Could you ___ the music? It's too loud.",
+   "bonne": "turn down",
+   "pourquoiBonne": "« Could you turn down the music? It's too loud. » est correct. Turn down = baisser (le son).",
+   "fausses": [
+    {
+     "texte": "turn up",
+     "raison": "« turn up » veut dire « monter le son » : ce serait pire."
+    },
+    {
+     "texte": "turn on",
+     "raison": "« turn on » veut dire « allumer » : la musique joue déjà."
+    },
+    {
+     "texte": "turn into",
+     "raison": "« turn into » veut dire « se transformer en » : ce n'est pas le sens voulu."
+    }
+   ],
+   "explication": "Turn down = baisser (le son).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-115",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "She ___ her grandmother: she has the same smile.",
+   "bonne": "takes after",
+   "pourquoiBonne": "« She takes after her grandmother: she has the same smile. » est correct. Take after = ressembler à (un parent).",
+   "fausses": [
+    {
+     "texte": "takes off",
+     "raison": "« takes off » veut dire « enlève, décolle » : ce n'est pas le sens voulu."
+    },
+    {
+     "texte": "takes over",
+     "raison": "« takes over » veut dire « prend le contrôle » : ce n'est pas le sens voulu."
+    },
+    {
+     "texte": "takes up",
+     "raison": "« takes up » veut dire « se mettre à (une activité) » : ce n'est pas le sens voulu."
+    }
+   ],
+   "explication": "Take after = ressembler à (un parent).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-116",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "The plane ___ at six in the morning.",
+   "bonne": "took off",
+   "pourquoiBonne": "« The plane took off at six in the morning. » est correct. Take off = décoller (avion).",
+   "fausses": [
+    {
+     "texte": "took out",
+     "raison": "« took out » veut dire « a sorti » : ce n'est pas le sens voulu pour un avion."
+    },
+    {
+     "texte": "took up",
+     "raison": "« took up » veut dire « s'est mis à » : ce n'est pas le sens voulu."
+    },
+    {
+     "texte": "took after",
+     "raison": "« took after » veut dire « ressemblait à » : ce n'est pas le sens voulu."
+    }
+   ],
+   "explication": "Take off = décoller (avion).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-117",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "I can't ___ his rude behaviour any longer.",
+   "bonne": "put up with",
+   "pourquoiBonne": "« I can't put up with his rude behaviour any longer. » est correct. Put up with = supporter, tolérer.",
+   "fausses": [
+    {
+     "texte": "put off",
+     "raison": "« put off » veut dire « repousser » : ce n'est pas le sens voulu."
+    },
+    {
+     "texte": "put on",
+     "raison": "« put on » veut dire « mettre (un vêtement) » : ce n'est pas le sens voulu."
+    },
+    {
+     "texte": "put away",
+     "raison": "« put away » veut dire « ranger » : ce n'est pas le sens voulu."
+    }
+   ],
+   "explication": "Put up with = supporter, tolérer.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-118",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Please ___ the form and sign it at the bottom.",
+   "bonne": "fill in",
+   "pourquoiBonne": "« Please fill in the form and sign it at the bottom. » est correct. Fill in a form = remplir un formulaire.",
+   "fausses": [
+    {
+     "texte": "fill up",
+     "raison": "« fill up » veut dire « remplir complètement » (un réservoir), pas un formulaire."
+    },
+    {
+     "texte": "fill off",
+     "raison": "« fill off » n'existe pas en anglais."
+    },
+    {
+     "texte": "fill with",
+     "raison": "« fill with » demande un complément (« fill with water ») : ce n'est pas la forme voulue pour un formulaire."
+    }
+   ],
+   "explication": "Fill in a form = remplir un formulaire.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-119",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "The meeting was ___ because the manager was ill.",
+   "bonne": "called off",
+   "pourquoiBonne": "« The meeting was called off because the manager was ill. » est correct. Call off = annuler.",
+   "fausses": [
+    {
+     "texte": "called in",
+     "raison": "« called in » veut dire « fait venir » : ce n'est pas le sens voulu."
+    },
+    {
+     "texte": "called up",
+     "raison": "« called up » veut dire « appelé au téléphone » ou « mobilisé » : ce n'est pas le sens voulu."
+    },
+    {
+     "texte": "called on",
+     "raison": "« called on » veut dire « rendre visite à » : ce n'est pas le sens voulu."
+    }
+   ],
+   "explication": "Call off = annuler.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-120",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "I'll ___ you at the station at five.",
+   "bonne": "pick up",
+   "pourquoiBonne": "« I'll pick up you at the station at five. » est correct. Pick someone up = aller chercher quelqu'un.",
+   "fausses": [
+    {
+     "texte": "pick out",
+     "raison": "« pick out » veut dire « choisir » : ce n'est pas le sens voulu."
+    },
+    {
+     "texte": "pick on",
+     "raison": "« pick on » veut dire « harceler » : ce n'est pas le sens voulu."
+    },
+    {
+     "texte": "pick at",
+     "raison": "« pick at » veut dire « chipoter dans son assiette » : ce n'est pas le sens voulu."
+    }
+   ],
+   "explication": "Pick someone up = aller chercher quelqu'un.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-121",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "He ___ smoking last year, and he feels better.",
+   "bonne": "gave up",
+   "pourquoiBonne": "« He gave up smoking last year, and he feels better. » est correct. Give up = abandonner, arrêter (une habitude).",
+   "fausses": [
+    {
+     "texte": "gave away",
+     "raison": "« gave away » veut dire « a donné » : ce n'est pas le sens voulu."
+    },
+    {
+     "texte": "gave in",
+     "raison": "« gave in » veut dire « a cédé » : ce n'est pas le sens voulu ici."
+    },
+    {
+     "texte": "gave out",
+     "raison": "« gave out » veut dire « a distribué » : ce n'est pas le sens voulu."
+    }
+   ],
+   "explication": "Give up = abandonner, arrêter (une habitude).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-122",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Can you ___ the baby while I cook?",
+   "bonne": "look after",
+   "pourquoiBonne": "« Can you look after the baby while I cook? » est correct. Look after = s'occuper de, garder.",
+   "fausses": [
+    {
+     "texte": "look for",
+     "raison": "« look for » veut dire « chercher » : ce n'est pas le sens voulu."
+    },
+    {
+     "texte": "look up",
+     "raison": "« look up » veut dire « chercher (dans un livre) » : ce n'est pas le sens voulu."
+    },
+    {
+     "texte": "look like",
+     "raison": "« look like » veut dire « ressembler à » : ce n'est pas le sens voulu."
+    }
+   ],
+   "explication": "Look after = s'occuper de, garder.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-123",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "She sings very ___.",
+   "bonne": "beautifully",
+   "pourquoiBonne": "« She sings very beautifully. » est correct. Un verbe se complète par un adverbe en -ly : beautifully.",
+   "fausses": [
+    {
+     "texte": "beautiful",
+     "raison": "« beautiful » est un adjectif : après un verbe d'action il faut un adverbe."
+    },
+    {
+     "texte": "beauty",
+     "raison": "« beauty » est un nom (la beauté) : il ne convient pas après « sings »."
+    },
+    {
+     "texte": "beautify",
+     "raison": "« beautify » est un verbe (embellir) : il ne convient pas après « sings »."
+    }
+   ],
+   "explication": "Un verbe se complète par un adverbe en -ly : beautifully.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-124",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Thank you for your ___; it was very useful.",
+   "bonne": "advice",
+   "pourquoiBonne": "« Thank you for your advice; it was very useful. » est correct. Advice (nom, conseil) / advise (verbe, conseiller).",
+   "fausses": [
+    {
+     "texte": "advise",
+     "raison": "« advise » est un verbe (conseiller) : il faut un nom après « your »."
+    },
+    {
+     "texte": "advices",
+     "raison": "« advices » est incorrect : « advice » est indénombrable et n'a pas de pluriel."
+    },
+    {
+     "texte": "advised",
+     "raison": "« advised » est un verbe au passé : il faut un nom après « your »."
+    }
+   ],
+   "explication": "Advice (nom, conseil) / advise (verbe, conseiller).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-125",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "There is a big ___ between the two teams.",
+   "bonne": "difference",
+   "pourquoiBonne": "« There is a big difference between the two teams. » est correct. Difference (nom) / different (adjectif).",
+   "fausses": [
+    {
+     "texte": "different",
+     "raison": "« different » est un adjectif : après « big » il faut un nom."
+    },
+    {
+     "texte": "differently",
+     "raison": "« differently » est un adverbe : il ne convient pas après « a big »."
+    },
+    {
+     "texte": "differ",
+     "raison": "« differ » est un verbe : il ne convient pas après « a big »."
+    }
+   ],
+   "explication": "Difference (nom) / different (adjectif).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-126",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "He answered the question ___.",
+   "bonne": "correctly",
+   "pourquoiBonne": "« He answered the question correctly. » est correct. Adverbe : correct → correctly.",
+   "fausses": [
+    {
+     "texte": "correct",
+     "raison": "« correct » est un adjectif : pour décrire comment il répond, il faut l'adverbe."
+    },
+    {
+     "texte": "correction",
+     "raison": "« correction » est un nom : il ne décrit pas la façon de répondre."
+    },
+    {
+     "texte": "correcting",
+     "raison": "« correcting » est un participe : il ne convient pas ici."
+    }
+   ],
+   "explication": "Adverbe : correct → correctly.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-127",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "I like her: she has a lot of ___.",
+   "bonne": "patience",
+   "pourquoiBonne": "« I like her: she has a lot of patience. » est correct. Patience (nom) / patient (adjectif ou malade).",
+   "fausses": [
+    {
+     "texte": "patient",
+     "raison": "« patient » est un adjectif (patient) ou un nom (malade) : ici il faut le nom abstrait."
+    },
+    {
+     "texte": "patiently",
+     "raison": "« patiently » est un adverbe : il ne convient pas après « a lot of »."
+    },
+    {
+     "texte": "patients",
+     "raison": "« patients » veut dire « les malades » : ce n'est pas le sens voulu."
+    }
+   ],
+   "explication": "Patience (nom) / patient (adjectif ou malade).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-128",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "She is very ___: she paints and writes poems.",
+   "bonne": "creative",
+   "pourquoiBonne": "« She is very creative: she paints and writes poems. » est correct. Creative (adjectif) / create (verbe).",
+   "fausses": [
+    {
+     "texte": "create",
+     "raison": "« create » est un verbe (créer) : il faut un adjectif après « is very »."
+    },
+    {
+     "texte": "creation",
+     "raison": "« creation » est un nom (une création) : il faut un adjectif après « is very »."
+    },
+    {
+     "texte": "creatively",
+     "raison": "« creatively » est un adverbe : il ne se place pas après « is very »."
+    }
+   ],
+   "explication": "Creative (adjectif) / create (verbe).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-129",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "We were all ___ when we heard the news.",
+   "bonne": "surprised",
+   "pourquoiBonne": "« We were all surprised when we heard the news. » est correct. -ed décrit la personne qui ressent ; -ing décrit ce qui provoque l'émotion.",
+   "fausses": [
+    {
+     "texte": "surprising",
+     "raison": "« surprising » décrit ce qui surprend : on dit « the news was surprising », pas « we were surprising »."
+    },
+    {
+     "texte": "surprise",
+     "raison": "« surprise » est un nom ou un verbe : après « were all » il faut un adjectif."
+    },
+    {
+     "texte": "surprisingly",
+     "raison": "« surprisingly » est un adverbe : il ne convient pas après « were all »."
+    }
+   ],
+   "explication": "-ed décrit la personne qui ressent ; -ing décrit ce qui provoque l'émotion.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-130",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "The film was ___, so I didn't enjoy it.",
+   "bonne": "disappointing",
+   "pourquoiBonne": "« The film was disappointing, so I didn't enjoy it. » est correct. -ing décrit ce qui provoque l'émotion (the film) ; -ed la personne qui la ressent.",
+   "fausses": [
+    {
+     "texte": "disappointed",
+     "raison": "« disappointed » décrit la personne déçue : on dit « I was disappointed », pas « the film was disappointed »."
+    },
+    {
+     "texte": "disappointment",
+     "raison": "« disappointment » est un nom (une déception) : il ne convient pas après « was »."
+    },
+    {
+     "texte": "disappoint",
+     "raison": "« disappoint » est un verbe : il ne convient pas après « was »."
+    }
+   ],
+   "explication": "-ing décrit ce qui provoque l'émotion (the film) ; -ed la personne qui la ressent.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-131",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "I'd like to ___ you a question.",
+   "bonne": "ask",
+   "pourquoiBonne": "« I'd like to ask you a question. » est correct. On dit ask a question (poser une question).",
+   "fausses": [
+    {
+     "texte": "say",
+     "raison": "« say you a question » est incorrect : « say » ne s'emploie pas pour poser une question."
+    },
+    {
+     "texte": "tell",
+     "raison": "« tell you a question » est incorrect : on dit « ask a question »."
+    },
+    {
+     "texte": "speak",
+     "raison": "« speak you a question » est incorrect : « speak » ne s'emploie pas ainsi."
+    }
+   ],
+   "explication": "On dit ask a question (poser une question).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-132",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Can you ___ me the way to the station?",
+   "bonne": "tell",
+   "pourquoiBonne": "« Can you tell me the way to the station? » est correct. Tell someone something (dire à quelqu'un) ; say se construit autrement.",
+   "fausses": [
+    {
+     "texte": "say",
+     "raison": "« say me the way » est incorrect : après « say » on ne met pas de personne directement."
+    },
+    {
+     "texte": "speak",
+     "raison": "« speak me the way » est incorrect : on dit « tell me the way »."
+    },
+    {
+     "texte": "talk",
+     "raison": "« talk me the way » est incorrect : on dit « tell me the way »."
+    }
+   ],
+   "explication": "Tell someone something (dire à quelqu'un) ; say se construit autrement.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-133",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Please ___ to me: it's important.",
+   "bonne": "listen",
+   "pourquoiBonne": "« Please listen to me: it's important. » est correct. Listen to = écouter volontairement ; hear = entendre.",
+   "fausses": [
+    {
+     "texte": "hear",
+     "raison": "« hear to me » est incorrect : « hear » n'est pas suivi de « to »."
+    },
+    {
+     "texte": "look",
+     "raison": "« look to me » est incorrect : on dit « look at » pour regarder."
+    },
+    {
+     "texte": "watch",
+     "raison": "« watch to me » est incorrect : « watch » veut dire regarder."
+    }
+   ],
+   "explication": "Listen to = écouter volontairement ; hear = entendre.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-134",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "I like to ___ football on TV.",
+   "bonne": "watch",
+   "pourquoiBonne": "« I like to watch football on TV. » est correct. Watch = regarder (ce qui bouge : TV, match).",
+   "fausses": [
+    {
+     "texte": "look",
+     "raison": "« look football » est incorrect : on dit « look at » pour un objet précis."
+    },
+    {
+     "texte": "listen",
+     "raison": "« listen football » est incorrect : « listen » concerne les sons."
+    },
+    {
+     "texte": "notice",
+     "raison": "« notice » veut dire « remarquer » : ce n'est pas regarder un match."
+    }
+   ],
+   "explication": "Watch = regarder (ce qui bouge : TV, match).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-135",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "I ___ him at a party last night, and we talked for an hour.",
+   "bonne": "met",
+   "pourquoiBonne": "« I met him at a party last night, and we talked for an hour. » est correct. Meet (met au passé) = rencontrer.",
+   "fausses": [
+    {
+     "texte": "knew",
+     "raison": "« knew » veut dire « connaissais » : on ne connaît pas quelqu'un « à une soirée hier soir » pour la première fois."
+    },
+    {
+     "texte": "joined",
+     "raison": "« joined » veut dire « a rejoint » : ce n'est pas le sens voulu ici."
+    },
+    {
+     "texte": "found",
+     "raison": "« found » veut dire « a trouvé » : ce n'est pas le sens voulu pour une rencontre."
+    }
+   ],
+   "explication": "Meet (met au passé) = rencontrer.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-136",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "I ___ my keys: I can't find them anywhere.",
+   "bonne": "lost",
+   "pourquoiBonne": "« I lost my keys: I can't find them anywhere. » est correct. Lose (lost) = perdre.",
+   "fausses": [
+    {
+     "texte": "missed",
+     "raison": "« missed » veut dire « a raté, manqué » : ce n'est pas le sens voulu pour des clés."
+    },
+    {
+     "texte": "won",
+     "raison": "« won » veut dire « a gagné » : ce n'est pas le sens voulu."
+    },
+    {
+     "texte": "hid",
+     "raison": "« hid » veut dire « a caché » : cela suppose qu'on sait où elles sont."
+    }
+   ],
+   "explication": "Lose (lost) = perdre.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-137",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "I ___ the bus, so I was late.",
+   "bonne": "missed",
+   "pourquoiBonne": "« I missed the bus, so I was late. » est correct. Miss the bus = rater le bus.",
+   "fausses": [
+    {
+     "texte": "lost",
+     "raison": "« lost the bus » est incorrect : on dit « missed the bus »."
+    },
+    {
+     "texte": "lacked",
+     "raison": "« lacked » veut dire « manquait de » : ce n'est pas le sens voulu."
+    },
+    {
+     "texte": "failed",
+     "raison": "« failed » veut dire « a échoué » : on ne l'emploie pas pour un bus."
+    }
+   ],
+   "explication": "Miss the bus = rater le bus.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-138",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "The ___ between Paris and Lyon is about 460 km.",
+   "bonne": "distance",
+   "pourquoiBonne": "« The distance between Paris and Lyon is about 460 km. » est correct. Distance = distance.",
+   "fausses": [
+    {
+     "texte": "weight",
+     "raison": "« weight » veut dire « poids » : il ne se mesure pas en kilomètres."
+    },
+    {
+     "texte": "height",
+     "raison": "« height » veut dire « hauteur, taille » : cela ne décrit pas l'éloignement entre deux villes."
+    },
+    {
+     "texte": "speed",
+     "raison": "« speed » veut dire « vitesse » : elle ne se mesure pas en kilomètres."
+    }
+   ],
+   "explication": "Distance = distance.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-139",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "I'd like a ___ of water, please.",
+   "bonne": "glass",
+   "pourquoiBonne": "« I'd like a glass of water, please. » est correct. A glass of water = un verre d'eau.",
+   "fausses": [
+    {
+     "texte": "piece",
+     "raison": "« a piece of water » est incorrect : l'eau se sert dans un verre."
+    },
+    {
+     "texte": "slice",
+     "raison": "« a slice of water » est incorrect : « slice » est une tranche."
+    },
+    {
+     "texte": "pair",
+     "raison": "« a pair of water » est incorrect : « pair » est une paire."
+    }
+   ],
+   "explication": "A glass of water = un verre d'eau.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-140",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Would you like a ___ of bread?",
+   "bonne": "slice",
+   "pourquoiBonne": "« Would you like a slice of bread? » est correct. A slice of bread = une tranche de pain.",
+   "fausses": [
+    {
+     "texte": "pair",
+     "raison": "« a pair of bread » est incorrect : « pair » est une paire."
+    },
+    {
+     "texte": "bottle",
+     "raison": "« a bottle of bread » est incorrect : on met un liquide dans une bouteille."
+    },
+    {
+     "texte": "glass",
+     "raison": "« a glass of bread » est incorrect : « glass » est un verre."
+    }
+   ],
+   "explication": "A slice of bread = une tranche de pain.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-141",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "She gave me a ___ of good advice.",
+   "bonne": "piece",
+   "pourquoiBonne": "« She gave me a piece of good advice. » est correct. Advice est indénombrable : on dit a piece of advice.",
+   "fausses": [
+    {
+     "texte": "pair",
+     "raison": "« a pair of advice » est incorrect : « pair » est une paire."
+    },
+    {
+     "texte": "slice",
+     "raison": "« a slice of advice » est incorrect : « slice » est une tranche."
+    },
+    {
+     "texte": "glass",
+     "raison": "« a glass of advice » est incorrect : « glass » est un verre."
+    }
+   ],
+   "explication": "Advice est indénombrable : on dit a piece of advice.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-142",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "I need to buy a new ___ of jeans.",
+   "bonne": "pair",
+   "pourquoiBonne": "« I need to buy a new pair of jeans. » est correct. Jeans, trousers, scissors : a pair of.",
+   "fausses": [
+    {
+     "texte": "piece",
+     "raison": "« a piece of jeans » est incorrect : on dit « a pair of jeans »."
+    },
+    {
+     "texte": "set",
+     "raison": "« a set of jeans » est incorrect : on dit « a pair of jeans »."
+    },
+    {
+     "texte": "couple",
+     "raison": "« a couple of jeans » est incorrect : on dit « a pair of jeans »."
+    }
+   ],
+   "explication": "Jeans, trousers, scissors : a pair of.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-VOC-143",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "She studied hard, so she ___ the exam easily.",
+   "bonne": "passed",
+   "pourquoiBonne": "« She studied hard, so she passed the exam easily. » est correct. Pass an exam = réussir un examen (take = le passer).",
+   "fausses": [
+    {
+     "texte": "succeeded",
+     "raison": "« succeeded the exam » est incorrect : on dit « succeeded in » ou « passed »."
+    },
+    {
+     "texte": "won",
+     "raison": "« won the exam » est incorrect : on ne « gagne » pas un examen."
+    },
+    {
+     "texte": "took",
+     "raison": "« took the exam easily » ne dit pas qu'elle a réussi ; ici on parle du résultat."
+    }
+   ],
+   "explication": "Pass an exam = réussir un examen (take = le passer).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-126",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "If it rains tomorrow afternoon, we ___ at home.",
+   "bonne": "will stay",
+   "pourquoiBonne": "« If it rains tomorrow afternoon, we will stay at home. » est correct. Condition réelle : if + présent, will + infinitif.",
+   "fausses": [
+    {
+     "texte": "stayed",
+     "raison": "« If it rains tomorrow afternoon, we stayed » est incorrect : « tomorrow » demande le futur."
+    },
+    {
+     "texte": "would stay",
+     "raison": "« would stay » s'emploie avec « if + passé » ; ici « rains » est au présent : il faut « will »."
+    },
+    {
+     "texte": "have stayed",
+     "raison": "« have stayed » est un present perfect : il ne convient pas avec « tomorrow »."
+    }
+   ],
+   "explication": "Condition réelle : if + présent, will + infinitif.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-127",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "If I ___ rich, I would travel the world.",
+   "bonne": "were",
+   "pourquoiBonne": "« If I were rich, I would travel the world. » est correct. Condition irréelle : if + passé (were), would + infinitif.",
+   "fausses": [
+    {
+     "texte": "am",
+     "raison": "« If I am rich, I would » est incorrect : « would » appelle « if + passé »."
+    },
+    {
+     "texte": "will be",
+     "raison": "« If I will be rich, I would » est incorrect : on ne met pas « will » après « if »."
+    },
+    {
+     "texte": "have been",
+     "raison": "« If I have been rich, I would » est incorrect : « would » appelle « if + passé »."
+    }
+   ],
+   "explication": "Condition irréelle : if + passé (were), would + infinitif.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-128",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "The letter ___ yesterday by the secretary.",
+   "bonne": "was written",
+   "pourquoiBonne": "« The letter was written yesterday by the secretary. » est correct. Passif au passé : was/were + participe passé.",
+   "fausses": [
+    {
+     "texte": "wrote",
+     "raison": "« The letter wrote » est incorrect : la lettre ne peut pas écrire, c'est un passif."
+    },
+    {
+     "texte": "is written",
+     "raison": "« is written » est au présent : « yesterday » demande le passé."
+    },
+    {
+     "texte": "has written",
+     "raison": "« has written » est actif : la lettre ne peut pas écrire."
+    }
+   ],
+   "explication": "Passif au passé : was/were + participe passé.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-129",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "English ___ in many countries.",
+   "bonne": "is spoken",
+   "pourquoiBonne": "« English is spoken in many countries. » est correct. Passif au présent : is/are + participe passé.",
+   "fausses": [
+    {
+     "texte": "speaks",
+     "raison": "« English speaks » est incorrect : l'anglais ne parle pas, il est parlé."
+    },
+    {
+     "texte": "is speaking",
+     "raison": "« is speaking » est actif et continu : ce n'est pas un passif."
+    },
+    {
+     "texte": "spoke",
+     "raison": "« English spoke » est actif et au passé : il faut un passif."
+    }
+   ],
+   "explication": "Passif au présent : is/are + participe passé.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-130",
+   "type": "grammaire",
+   "niveau": 3,
+   "enonce": "She told me that she ___ ill the day before.",
+   "bonne": "had been",
+   "pourquoiBonne": "« She told me that she had been ill the day before. » est correct. Discours indirect : le temps recule (was → had been) avec « the day before ».",
+   "fausses": [
+    {
+     "texte": "is",
+     "raison": "« is » est au présent : « the day before » renvoie à un moment passé."
+    },
+    {
+     "texte": "has been",
+     "raison": "« has been » est un present perfect : il ne se combine pas avec « the day before »."
+    },
+    {
+     "texte": "will be",
+     "raison": "« will be » est futur : « the day before » renvoie au passé."
+    }
+   ],
+   "explication": "Discours indirect : le temps recule (was → had been) avec « the day before ».",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-131",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "You're coming to the party, ___?",
+   "bonne": "aren't you",
+   "pourquoiBonne": "« You're coming to the party, aren't you? » est correct. Question tag : on reprend l'auxiliaire en inversant la forme (are → aren't).",
+   "fausses": [
+    {
+     "texte": "don't you",
+     "raison": "« don't you » est incorrect : le verbe de la phrase est « are », on reprend « are »."
+    },
+    {
+     "texte": "won't you",
+     "raison": "« won't you » est incorrect : le verbe de la phrase est « are », pas un futur."
+    },
+    {
+     "texte": "didn't you",
+     "raison": "« didn't you » est incorrect : le verbe de la phrase est « are », pas un passé."
+    }
+   ],
+   "explication": "Question tag : on reprend l'auxiliaire en inversant la forme (are → aren't).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-132",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "He's very rich, ___?",
+   "bonne": "isn't he",
+   "pourquoiBonne": "« He's very rich, isn't he? » est correct. Question tag : he is → isn't he ?",
+   "fausses": [
+    {
+     "texte": "doesn't he",
+     "raison": "« doesn't he » est incorrect : la phrase contient « is », on reprend « is »."
+    },
+    {
+     "texte": "hasn't he",
+     "raison": "« hasn't he » est incorrect : « He's » ici veut dire « he is »."
+    },
+    {
+     "texte": "wasn't he",
+     "raison": "« wasn't he » est incorrect : la phrase est au présent."
+    }
+   ],
+   "explication": "Question tag : he is → isn't he ?",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-133",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "I wish I ___ more free time.",
+   "bonne": "had",
+   "pourquoiBonne": "« I wish I had more free time. » est correct. Wish + passé pour un regret ou un souhait irréel dans le présent.",
+   "fausses": [
+    {
+     "texte": "have",
+     "raison": "« I wish I have » est incorrect : après « wish » on recule d'un temps."
+    },
+    {
+     "texte": "will have",
+     "raison": "« I wish I will have » est incorrect : après « wish » on n'emploie pas « will »."
+    },
+    {
+     "texte": "having",
+     "raison": "« I wish I having » est incorrect : il manque un verbe conjugué."
+    }
+   ],
+   "explication": "Wish + passé pour un regret ou un souhait irréel dans le présent.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-134",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "She enjoys ___ novels.",
+   "bonne": "reading",
+   "pourquoiBonne": "« She enjoys reading novels. » est correct. Enjoy + verbe en -ing.",
+   "fausses": [
+    {
+     "texte": "read",
+     "raison": "« enjoys read » est incorrect : après « enjoy » on met un verbe en -ing."
+    },
+    {
+     "texte": "to read",
+     "raison": "« enjoys to read » est incorrect : « enjoy » est suivi de -ing."
+    },
+    {
+     "texte": "reads",
+     "raison": "« enjoys reads » est incorrect : après « enjoy » on met un verbe en -ing."
+    }
+   ],
+   "explication": "Enjoy + verbe en -ing.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-135",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "He decided ___ abroad.",
+   "bonne": "to study",
+   "pourquoiBonne": "« He decided to study abroad. » est correct. Decide + to + infinitif.",
+   "fausses": [
+    {
+     "texte": "studying",
+     "raison": "« decided studying » est incorrect : « decide » est suivi de « to »."
+    },
+    {
+     "texte": "study",
+     "raison": "« decided study » est incorrect : « decide » est suivi de « to » + infinitif."
+    },
+    {
+     "texte": "studied",
+     "raison": "« decided studied » est incorrect : on ne met pas deux verbes conjugués."
+    }
+   ],
+   "explication": "Decide + to + infinitif.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-136",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "The woman ___ lives upstairs is a nurse.",
+   "bonne": "who",
+   "pourquoiBonne": "« The woman who lives upstairs is a nurse. » est correct. Pronom relatif sujet pour une personne : who.",
+   "fausses": [
+    {
+     "texte": "which",
+     "raison": "« which » ne s'emploie pas pour une personne."
+    },
+    {
+     "texte": "whose",
+     "raison": "« whose » exprime la possession : « the man whose house… »."
+    },
+    {
+     "texte": "whom",
+     "raison": "« whom » est un complément ; ici le pronom est sujet de « lives »."
+    }
+   ],
+   "explication": "Pronom relatif sujet pour une personne : who.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-137",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "This is the book ___ I told you about.",
+   "bonne": "that",
+   "pourquoiBonne": "« This is the book that I told you about. » est correct. Pour une chose : that (ou which).",
+   "fausses": [
+    {
+     "texte": "whose",
+     "raison": "« whose » exprime la possession : ce n'est pas le sens voulu."
+    },
+    {
+     "texte": "who",
+     "raison": "« who » ne s'emploie que pour des personnes ; ici il s'agit d'un livre."
+    },
+    {
+     "texte": "where",
+     "raison": "« where » renvoie à un lieu : un livre n'est pas un lieu."
+    }
+   ],
+   "explication": "Pour une chose : that (ou which).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-138",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "We don't have ___ sugar left.",
+   "bonne": "any",
+   "pourquoiBonne": "« We don't have any sugar left. » est correct. Phrase négative + nom indénombrable : any.",
+   "fausses": [
+    {
+     "texte": "some",
+     "raison": "« some » s'emploie dans une phrase affirmative ; la phrase est négative."
+    },
+    {
+     "texte": "a",
+     "raison": "« a » ne va pas devant un nom indénombrable comme « sugar »."
+    },
+    {
+     "texte": "many",
+     "raison": "« many » ne va pas avec un nom indénombrable comme « sugar »."
+    }
+   ],
+   "explication": "Phrase négative + nom indénombrable : any.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-139",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "There are ___ people in the room: it's almost empty.",
+   "bonne": "few",
+   "pourquoiBonne": "« There are few people in the room: it's almost empty. » est correct. Few + nom dénombrable pluriel = peu de.",
+   "fausses": [
+    {
+     "texte": "little",
+     "raison": "« little » s'emploie avec un nom indénombrable ; « people » est dénombrable."
+    },
+    {
+     "texte": "much",
+     "raison": "« much » s'emploie avec un nom indénombrable ; « people » est dénombrable."
+    },
+    {
+     "texte": "a lot",
+     "raison": "« a lot » veut dire « beaucoup » : c'est le contraire de « almost empty »."
+    }
+   ],
+   "explication": "Few + nom dénombrable pluriel = peu de.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-140",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "I'd rather ___ at home tonight.",
+   "bonne": "stay",
+   "pourquoiBonne": "« I'd rather stay at home tonight. » est correct. Would rather + infinitif sans to.",
+   "fausses": [
+    {
+     "texte": "to stay",
+     "raison": "« I'd rather to stay » est incorrect : après « would rather » on met l'infinitif sans « to »."
+    },
+    {
+     "texte": "staying",
+     "raison": "« I'd rather staying » est incorrect : après « would rather » on met l'infinitif sans « to »."
+    },
+    {
+     "texte": "stayed",
+     "raison": "« I'd rather stayed » est incorrect : ici on parle de ce soir, donc l'infinitif."
+    }
+   ],
+   "explication": "Would rather + infinitif sans to.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-141",
+   "type": "grammaire",
+   "niveau": 1,
+   "enonce": "She is ___ than her brother.",
+   "bonne": "taller",
+   "pourquoiBonne": "« She is taller than her brother. » est correct. Adjectif court + -er + than.",
+   "fausses": [
+    {
+     "texte": "tall",
+     "raison": "« tall » est au positif : « than » demande un comparatif."
+    },
+    {
+     "texte": "tallest",
+     "raison": "« tallest » est un superlatif : « than » demande un comparatif."
+    },
+    {
+     "texte": "more tall",
+     "raison": "« more tall » est incorrect : « tall » est court, on ajoute -er."
+    }
+   ],
+   "explication": "Adjectif court + -er + than.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-142",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "It's the ___ film I've ever seen.",
+   "bonne": "best",
+   "pourquoiBonne": "« It's the best film I've ever seen. » est correct. Superlatif irrégulier : good → better → best.",
+   "fausses": [
+    {
+     "texte": "better",
+     "raison": "« better » est un comparatif : « the … ever » demande un superlatif."
+    },
+    {
+     "texte": "good",
+     "raison": "« good » est au positif : il faut un superlatif."
+    },
+    {
+     "texte": "most good",
+     "raison": "« most good » est incorrect : le superlatif de « good » est « best »."
+    }
+   ],
+   "explication": "Superlatif irrégulier : good → better → best.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-143",
+   "type": "grammaire",
+   "niveau": 3,
+   "enonce": "He is used to ___ up early.",
+   "bonne": "getting",
+   "pourquoiBonne": "« He is used to getting up early. » est correct. Be used to + -ing = être habitué à ; used to + infinitif = avoir l'habitude de (passé).",
+   "fausses": [
+    {
+     "texte": "get",
+     "raison": "« used to get » exprime une habitude passée, mais « is used to » demande -ing."
+    },
+    {
+     "texte": "got",
+     "raison": "« is used to got » est incorrect : après « used to » (habitué) on met -ing."
+    },
+    {
+     "texte": "to get",
+     "raison": "« is used to to get » est incorrect : après « is used to » on met -ing."
+    }
+   ],
+   "explication": "Be used to + -ing = être habitué à ; used to + infinitif = avoir l'habitude de (passé).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-144",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "You ___ smoke here: it's forbidden.",
+   "bonne": "mustn't",
+   "pourquoiBonne": "« You mustn't smoke here: it's forbidden. » est correct. Mustn't = interdit ; don't have to = pas obligé.",
+   "fausses": [
+    {
+     "texte": "don't have to",
+     "raison": "« don't have to » veut dire « ce n'est pas obligatoire » : ici c'est interdit."
+    },
+    {
+     "texte": "needn't",
+     "raison": "« needn't » veut dire « pas besoin de » : ici c'est interdit."
+    },
+    {
+     "texte": "may",
+     "raison": "« may » exprime la permission ou la possibilité : ici c'est une interdiction."
+    }
+   ],
+   "explication": "Mustn't = interdit ; don't have to = pas obligé.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-145",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "We ___ to leave now: the train goes in five minutes.",
+   "bonne": "have",
+   "pourquoiBonne": "« We have to leave now: the train goes in five minutes. » est correct. Have to + infinitif = devoir.",
+   "fausses": [
+    {
+     "texte": "can",
+     "raison": "« can to leave » est incorrect : « can » n'est pas suivi de « to »."
+    },
+    {
+     "texte": "may",
+     "raison": "« may to leave » est incorrect : « may » n'est pas suivi de « to »."
+    },
+    {
+     "texte": "would",
+     "raison": "« would to leave » est incorrect : « would » n'est pas suivi de « to »."
+    }
+   ],
+   "explication": "Have to + infinitif = devoir.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-146",
+   "type": "grammaire",
+   "niveau": 3,
+   "enonce": "By the time we arrived, the film ___.",
+   "bonne": "had started",
+   "pourquoiBonne": "« By the time we arrived, the film had started. » est correct. Antériorité dans le passé : past perfect (had + participe passé).",
+   "fausses": [
+    {
+     "texte": "started",
+     "raison": "« started » ne montre pas que le film avait déjà commencé avant notre arrivée."
+    },
+    {
+     "texte": "has started",
+     "raison": "« has started » est un present perfect : « By the time we arrived » est au passé."
+    },
+    {
+     "texte": "was starting",
+     "raison": "« was starting » dit que le film commençait au moment de l'arrivée, pas avant."
+    }
+   ],
+   "explication": "Antériorité dans le passé : past perfect (had + participe passé).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-147",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "I ___ lunch when the phone rang.",
+   "bonne": "was having",
+   "pourquoiBonne": "« I was having lunch when the phone rang. » est correct. Action en cours interrompue : past continuous + past simple.",
+   "fausses": [
+    {
+     "texte": "had",
+     "raison": "« had » ne montre pas l'action en cours quand le téléphone a sonné."
+    },
+    {
+     "texte": "have had",
+     "raison": "« have had » est un present perfect : « rang » est au passé."
+    },
+    {
+     "texte": "am having",
+     "raison": "« am having » est au présent : « rang » est au passé."
+    }
+   ],
+   "explication": "Action en cours interrompue : past continuous + past simple.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-148",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "I ___ him for ten years, so I trust him.",
+   "bonne": "have known",
+   "pourquoiBonne": "« I have known him for ten years, so I trust him. » est correct. For + durée avec un état qui continue : present perfect.",
+   "fausses": [
+    {
+     "texte": "know",
+     "raison": "« I know him for ten years » est incorrect : « for + durée » demande le present perfect."
+    },
+    {
+     "texte": "knew",
+     "raison": "« knew » parle d'une période terminée ; ici la relation continue."
+    },
+    {
+     "texte": "am knowing",
+     "raison": "« know » ne s'emploie pas en forme continue."
+    }
+   ],
+   "explication": "For + durée avec un état qui continue : present perfect.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-149",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "Neither Tom ___ Anna came to the party.",
+   "bonne": "nor",
+   "pourquoiBonne": "« Neither Tom nor Anna came to the party. » est correct. Neither … nor = ni … ni.",
+   "fausses": [
+    {
+     "texte": "or",
+     "raison": "« neither … or » est incorrect : « neither » va avec « nor »."
+    },
+    {
+     "texte": "and",
+     "raison": "« neither … and » est incorrect : « neither » va avec « nor »."
+    },
+    {
+     "texte": "but",
+     "raison": "« neither … but » est incorrect : « neither » va avec « nor »."
+    }
+   ],
+   "explication": "Neither … nor = ni … ni.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-150",
+   "type": "grammaire",
+   "niveau": 2,
+   "enonce": "He worked hard ___ he could pass the exam.",
+   "bonne": "so that",
+   "pourquoiBonne": "« He worked hard so that he could pass the exam. » est correct. So that = afin que (but).",
+   "fausses": [
+    {
+     "texte": "because",
+     "raison": "« because » donne une cause, pas un but ; ici on veut dire « afin de »."
+    },
+    {
+     "texte": "although",
+     "raison": "« although » exprime l'opposition : ce n'est pas le sens voulu."
+    },
+    {
+     "texte": "unless",
+     "raison": "« unless » veut dire « à moins que » : ce n'est pas le sens voulu."
+    }
+   ],
+   "explication": "So that = afin que (but).",
+   "relecture": null
   }
  ]
 }

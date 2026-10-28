@@ -34,9 +34,9 @@ const DIMENSIONS: { nom: string; texte: string }[] = [
   { nom: 'Ouverture', texte: 'La curiosité intellectuelle, l’imagination et le goût des idées nouvelles ou abstraites.' },
 ];
 
-// Tailles proposées : le vrai questionnaire est annoncé long (100 à 250 affirmations), on permet donc de s'entraîner à l'endurance.
+// Tailles proposées : le vrai questionnaire est annoncé long (100 à 250 affirmations, environ 251 en 50 minutes selon des témoignages), on permet donc de s'entraîner à l'endurance.
 const TOTAL = AFFIRMATIONS.length;
-const TAILLES = [25, 50, 100, 150, TOTAL];
+const TAILLES = [25, 50, 100, 150, 200, TOTAL];
 
 export default function Personnalite() {
   const [etape, setEtape] = useState<'intro' | 'questionnaire' | 'fin'>('intro');
@@ -113,9 +113,10 @@ export default function Personnalite() {
           ))}
         </fieldset>
         <p className="discret">
-          Le vrai questionnaire est annoncé comme long (de 100 à 250 affirmations selon les témoignages, à valider) et
-          reformule plusieurs fois les mêmes idées : c’est aussi le cas ici, avec {TOTAL} affirmations. Elles sont
-          adaptées d’un inventaire en accès libre ou écrites pour ce projet (voir ATTRIBUTIONS.md).
+          Le vrai questionnaire est annoncé comme long (de 100 à 250 affirmations selon les témoignages, par exemple 251
+          en 50 minutes, soit environ 12 secondes par affirmation : à valider) et reformule plusieurs fois les mêmes
+          idées : c’est aussi le cas ici, avec {TOTAL} affirmations tirées de l’inventaire en accès libre IPIP
+          (traduites et reformulées, voir ATTRIBUTIONS.md). Cet inventaire n’est pas le test réel.
         </p>
         <div className="actions">
           <button type="button" className="bouton" onClick={commencer} autoFocus>

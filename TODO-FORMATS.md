@@ -42,12 +42,12 @@ témoignages de candidats. Pour l'officiel : sengager.fr ou un CIRFA.
 - [ ] Épreuve de **mémoire / observation** (« quels objets étaient affichés ? ») : non implémentée, à décider
 
 ## Verbal et anglais
-- [ ] **Relecture humaine obligatoire** (une passe IA a déjà eu lieu, voir `RELECTURE.md` avec la liste des questions encore discutables) des 159 items verbaux et des 158 items d'anglais (rédigés pour ce projet avec l'aide d'une IA, donc `relecture: null`)
+- [ ] **Relecture humaine obligatoire** (une passe IA a déjà eu lieu, voir `RELECTURE.md` avec la liste des questions encore discutables) des 159 items verbaux et des 293 items d’anglais (rédigés pour ce projet avec l'aide d'une IA, donc `relecture: null`)
 - [ ] Types d'items verbaux réellement rencontrés (synonymes, intrus, vocabulaire, proverbes, orthographe : confirmés par le brief ; analogies et grammaire : ajoutés)
 - [ ] Nombre de propositions : 4 (config `nbChoix`)
 
 ## Personnalité
-- [ ] Nombre d'affirmations réel (100 à 250) ; ici 200 affirmations (40 par dimension) : 50 adaptées des « Big-Five Factor Markers » de l'IPIP et 150 écrites pour ce projet dans le même esprit, **non validées psychométriquement** (le site ipip.ori.org n'était pas joignable pour récupérer la version française officielle)
+- [ ] Nombre d'affirmations réel (100 à 250 ; une source de préparation parle de 251 affirmations en 50 minutes) ; ici 250 affirmations (50 par dimension), toutes issues de l'IPIP (code d'origine dans le champ `source`), traduites et reformulées, **non validées psychométriquement**
 
 ## Pénalité d'erreur
 - [ ] Une mauvaise réponse retire-t-elle des points ? (actuellement : non, `penaliteErreur: 0`)
