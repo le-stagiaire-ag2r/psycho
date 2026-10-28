@@ -6,12 +6,12 @@
 
 :root {
   /* Marque */
-  --marque: #44532f;
-  --marque-fonce: #2f3b21;
-  --marque-clair: #e8ecdf;
+  --marque: #c93d00;
+  --marque-fonce: #9c2f00;
+  --marque-clair: #fdece3;
   --marque-texte: #ffffff;
   /* Surfaces */
-  --fond: #f5f4ee;
+  --fond: #f4f4f2;
   --carte: #ffffff;
   --bordure: #e2e0d3;
   --ombre: 0 1px 2px rgba(30, 38, 20, 0.06), 0 6px 20px rgba(30, 38, 20, 0.07);
@@ -42,56 +42,56 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='clair']) {
-    --marque: #c6da6c;
-    --marque-fonce: #dcec92;
-    --marque-clair: #1b2113;
-    --marque-texte: #0a0c08;
-    --fond: #0a0c08;
-    --carte: #12150e;
-    --bordure: #262b1f;
+    --marque: #fc4f00;
+    --marque-fonce: #ff7a3d;
+    --marque-clair: #1c120c;
+    --marque-texte: #050505;
+    --fond: #050505;
+    --carte: #0d0d0d;
+    --bordure: #262626;
     --ombre: none;
-    --texte: #f1f2ea;
-    --texte-doux: #99a08b;
+    --texte: #ddd;
+    --texte-doux: #8c8c8c;
     --bon: #7ad494;
     --bon-fond: #10261a;
     --mauvais: #ff9488;
     --mauvais-fond: #2e1512;
     --alerte-fond: #3d3515;
     color-scheme: dark;
-    --grille-noir: #f1f2ea;
-    --grille-blanc: #0a0c08;
-    --grille-trait: #5b6354;
-    --cube-dessus: #4a5140;
-    --cube-avant: #384030;
-    --cube-droite: #2a3024;
-    --cube-trait: #a7ab9a;
+    --grille-noir: #ddd;
+    --grille-blanc: #050505;
+    --grille-trait: #555;
+    --cube-dessus: #444;
+    --cube-avant: #2f2f2f;
+    --cube-droite: #202020;
+    --cube-trait: #aaa;
   }
 }
 
 :root[data-theme='sombre'] {
-  --marque: #c6da6c;
-  --marque-fonce: #dcec92;
-  --marque-clair: #1b2113;
-  --marque-texte: #0a0c08;
-  --fond: #0a0c08;
-  --carte: #12150e;
-  --bordure: #262b1f;
+  --marque: #fc4f00;
+  --marque-fonce: #ff7a3d;
+  --marque-clair: #1c120c;
+  --marque-texte: #050505;
+  --fond: #050505;
+  --carte: #0d0d0d;
+  --bordure: #262626;
   --ombre: none;
-  --texte: #f1f2ea;
-  --texte-doux: #99a08b;
+  --texte: #ddd;
+  --texte-doux: #8c8c8c;
   --bon: #7ad494;
   --bon-fond: #10261a;
   --mauvais: #ff9488;
   --mauvais-fond: #2e1512;
   --alerte-fond: #3d3515;
   color-scheme: dark;
-  --grille-noir: #f1f2ea;
-  --grille-blanc: #0a0c08;
-  --grille-trait: #5b6354;
-  --cube-dessus: #4a5140;
-  --cube-avant: #384030;
-  --cube-droite: #2a3024;
-  --cube-trait: #a7ab9a;
+  --grille-noir: #ddd;
+  --grille-blanc: #050505;
+  --grille-trait: #555;
+  --cube-dessus: #444;
+  --cube-avant: #2f2f2f;
+  --cube-droite: #202020;
+  --cube-trait: #aaa;
 }
 
 * {
@@ -1192,4 +1192,76 @@ progress::-moz-progress-bar {
   * {
     transition: none !important;
   }
+}
+
+
+/* ----- Style « terminal » : étiquettes mono, coins, repères ----- */
+h2,
+.indice,
+.chrono,
+.mention,
+.entete nav a,
+kbd,
+.sous-titre {
+  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+}
+h2::before {
+  content: '// ';
+  color: var(--marque);
+}
+.bouton,
+.option,
+.carte {
+  border-radius: 2px;
+  position: relative;
+}
+/* Coins en équerre sur les boutons principaux et les cartes d’épreuve */
+.bouton:not(.bouton-secondaire):not(.bouton-lien)::before,
+.carte-epreuve::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid var(--texte);
+  border-left: 2px solid var(--texte);
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+.bouton:hover::before,
+.carte-epreuve:hover::before {
+  opacity: 1;
+}
+.bouton {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+}
+.bouton-grand {
+  font-size: 0.95rem;
+}
+.carte-epreuve {
+  border-radius: 2px;
+}
+.mention::before {
+  content: '[ i ] ';
+  color: var(--marque);
+}
+/* Barre de progression en graduations */
+progress {
+  border-radius: 0;
+  height: 0.6rem;
+  -webkit-mask: repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 5px);
+  mask: repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 5px);
+}
+progress::-webkit-progress-bar,
+progress::-webkit-progress-value {
+  border-radius: 0;
+}
+.raccourci,
+.reglages,
+.mention,
+.segmente span {
+  border-radius: 2px;
 }
