@@ -59,10 +59,10 @@ export default function App() {
           <Link to="/revision">Révision</Link>
           <Link to="/methode">Méthode</Link>
           <Link to="/progression">Progression</Link>
-          <button type="button" className="bouton-lien" onClick={ouvrirGuide}>
+          <button type="button" className="bouton-lien" onClick={ouvrirGuide} data-guide="nav-guide">
             Guide
           </button>
-          <button type="button" className="bouton-lien" onClick={() => majPrefs({ theme: SUIVANT[theme] })}>
+          <button type="button" className="bouton-lien" onClick={() => majPrefs({ theme: SUIVANT[theme] })} data-guide="nav-theme">
             {LIBELLE_THEME[theme]}
           </button>
         </nav>

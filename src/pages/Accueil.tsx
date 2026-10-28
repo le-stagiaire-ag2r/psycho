@@ -32,26 +32,26 @@ export default function Accueil() {
         </p>
       </section>
 
-      <section aria-label="Raccourcis" className="raccourcis" data-guide="raccourcis">
-        <Link className="raccourci" to="/examen">
+      <section aria-label="Raccourcis" className="raccourcis">
+        <Link className="raccourci" to="/examen" data-guide="raccourci-examen">
           <strong>Examen blanc</strong>
           <span>Enchaîne les épreuves, chrono strict</span>
         </Link>
-        <Link className="raccourci" to="/revision">
+        <Link className="raccourci" to="/revision" data-guide="raccourci-revision">
           <strong>Réviser mes erreurs</strong>
           <span>{nbErreurs > 0 ? `${nbErreurs} à refaire` : 'Rien à refaire pour l’instant'}</span>
         </Link>
-        <Link className="raccourci" to="/methode">
+        <Link className="raccourci" to="/methode" data-guide="raccourci-methode">
           <strong>Fiches méthode</strong>
           <span>Astuces et pièges, épreuve par épreuve</span>
         </Link>
       </section>
 
-      <section aria-labelledby="titre-reglages" className="carte reglages" data-guide="reglages">
+      <section aria-labelledby="titre-reglages" className="carte reglages">
         <h2 id="titre-reglages" className="visuellement-cache">
           Réglages
         </h2>
-        <fieldset className="segmente">
+        <fieldset className="segmente" data-guide="reglage-niveau">
           <legend>Objectif de score</legend>
           {NIVEAUX.map((n) => (
             <label key={n.id}>
@@ -64,12 +64,12 @@ export default function Accueil() {
               <span>{n.libelle}</span>
             </label>
           ))}
-          <p className="discret reglages-aide">
-            Les questions sont les mêmes pour tous : ce choix change seulement le score cible affiché à la fin (indicatif, non officiel).
-          </p>
         </fieldset>
+        <p className="discret reglages-aide">
+          Les questions sont les mêmes pour tous : ce choix change seulement le score cible affiché à la fin (indicatif, non officiel).
+        </p>
 
-        <fieldset className="segmente">
+        <fieldset className="segmente" data-guide="reglage-mode">
           <legend>Mode</legend>
           <label>
             <input
@@ -92,25 +92,28 @@ export default function Accueil() {
         </fieldset>
 
         {mode === 'entrainement' && (
-          <fieldset className="segmente">
-            <legend>Difficulté</legend>
-            {DIFFICULTES.map((d) => (
-              <label key={d.id}>
-                <input
-                  type="radio"
-                  name="difficulte"
-                  checked={difficulte === d.id}
-                  onChange={() => majPrefs({ difficulte: d.id })}
-                />
-                <span>{d.libelle}</span>
-              </label>
-            ))}
+          <>
+            <fieldset className="segmente" data-guide="reglage-difficulte">
+              <legend>Difficulté</legend>
+              {DIFFICULTES.map((d) => (
+                <label key={d.id}>
+                  <input
+                    type="radio"
+                    name="difficulte"
+                    checked={difficulte === d.id}
+                    onChange={() => majPrefs({ difficulte: d.id })}
+                  />
+                  <span>{d.libelle}</span>
+                </label>
+              ))}
+            </fieldset>
             <p className="discret reglages-aide">
               Les questions sont toujours nouvelles. <strong>Facile</strong> : pour découvrir une épreuve et comprendre sa logique.{' '}
               <strong>Moyen</strong> : le bon réglage pour s’entraîner (on vise 60 à 75 % de réussite).{' '}
               <strong>Difficile</strong> : plus de pièges, à prendre quand le moyen devient trop facile. Si tu réussis plus de 85 %, monte d’un cran ; sous 50 %, redescends.
             </p>
-          </fieldset>
+
+          </>
         )}
         <p className="discret reglages-aide">
           {mode === 'entrainement'
@@ -127,7 +130,7 @@ export default function Accueil() {
             const objectif = OBJECTIFS[id]?.[niveau];
             if (!c.disponible) return null;
             return (
-              <li key={id} className="carte carte-epreuve" data-guide={rang === 0 ? 'epreuve' : undefined}>
+              <li key={id} className="carte carte-epreuve" data-guide={rang === 0 ? 'epreuve' : id === 'personnalite' ? 'personnalite' : undefined}>
                 <span className="indice">
                   {String(rang + 1).padStart(2, '0')} / {String(liste.length).padStart(2, '0')}
                 </span>
