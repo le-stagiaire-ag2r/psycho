@@ -1265,3 +1265,112 @@ progress::-webkit-progress-value {
 .segmente span {
   border-radius: 2px;
 }
+
+/* ----- Guide de départ ----- */
+.guide {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+}
+.guide-fond {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.72);
+}
+.guide-halo {
+  position: fixed;
+  border-radius: 4px;
+  outline: 2px solid var(--marque);
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.72);
+  pointer-events: none;
+}
+.guide-carte {
+  position: fixed;
+  max-height: calc(100vh - 24px);
+  overflow: auto;
+  background: var(--carte);
+  color: var(--texte);
+  border: 1px solid var(--marque);
+  border-radius: 4px;
+  padding: 1.1rem 1.25rem;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+}
+.guide-carte-large {
+  width: min(640px, calc(100vw - 24px)) !important;
+  left: 50% !important;
+  top: 12px !important;
+  transform: translateX(-50%);
+}
+.guide-carte p {
+  margin: 0.35rem 0;
+  font-size: 0.95rem;
+}
+.guide-compteur {
+  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  font-size: 0.72rem !important;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--texte-doux);
+}
+.guide-titre {
+  margin: 0 0 0.4rem;
+  padding: 0;
+  border: none;
+  font-size: 1.1rem;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--texte);
+}
+.guide-titre::before {
+  content: none;
+}
+.guide-fleche {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: var(--carte);
+  border: 1px solid var(--marque);
+  transform: translateX(-50%) rotate(45deg);
+}
+.guide-fleche-haut {
+  top: -8px;
+  border-right: none;
+  border-bottom: none;
+}
+.guide-fleche-bas {
+  bottom: -8px;
+  border-left: none;
+  border-top: none;
+}
+.guide-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.guide-nav {
+  display: inline-flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.guide-question {
+  margin-top: 0.5rem;
+}
+.guide-question .question {
+  margin-top: 0.5rem;
+}
+.guide-bravo {
+  color: var(--bon);
+  font-weight: 700;
+}
+.guide-oups {
+  color: var(--mauvais);
+  font-weight: 700;
+}
+@media (max-width: 600px) {
+  .guide-carte-large {
+    top: 8px !important;
+  }
+}

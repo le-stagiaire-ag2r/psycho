@@ -32,7 +32,7 @@ export default function Accueil() {
         </p>
       </section>
 
-      <section aria-label="Raccourcis" className="raccourcis">
+      <section aria-label="Raccourcis" className="raccourcis" data-guide="raccourcis">
         <Link className="raccourci" to="/examen">
           <strong>Examen blanc</strong>
           <span>Enchaîne les épreuves, chrono strict</span>
@@ -47,7 +47,7 @@ export default function Accueil() {
         </Link>
       </section>
 
-      <section aria-labelledby="titre-reglages" className="carte reglages">
+      <section aria-labelledby="titre-reglages" className="carte reglages" data-guide="reglages">
         <h2 id="titre-reglages" className="visuellement-cache">
           Réglages
         </h2>
@@ -127,7 +127,7 @@ export default function Accueil() {
             const objectif = OBJECTIFS[id]?.[niveau];
             if (!c.disponible) return null;
             return (
-              <li key={id} className="carte carte-epreuve">
+              <li key={id} className="carte carte-epreuve" data-guide={rang === 0 ? 'epreuve' : undefined}>
                 <span className="indice">
                   {String(rang + 1).padStart(2, '0')} / {String(liste.length).padStart(2, '0')}
                 </span>
