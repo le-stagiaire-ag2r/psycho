@@ -26,7 +26,7 @@ describe('confidentialité : rien ne quitte l’appareil', () => {
     expect(texte).not.toMatch(/localStorage|sessionStorage|indexedDB|useStockage|ajouterResultat/);
   });
 
-  it('les seuls liens externes sont le dépôt GitHub (signalement et code)', () => {
+  it('les seuls liens externes sont le dépôt GitHub (code)', () => {
     for (const f of SOURCES) {
       const hotes = [...readFileSync(f, 'utf8').matchAll(/https?:\/\/([a-z0-9.-]+)/gi)].map((m) => m[1]);
       for (const h of hotes) {

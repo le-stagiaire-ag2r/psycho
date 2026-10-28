@@ -17,7 +17,6 @@ import {
   terminer,
   type EtatSeance,
 } from '../lib/session';
-import { lienSignalement } from '../lib/signalement';
 import type { Difficulte, EpreuveId, ItemRef, Mode, NiveauId } from '../lib/types';
 import { useStockage } from '../state/Stockage';
 import Resultats from './Resultats';
@@ -315,9 +314,7 @@ export function SeanceInner({
           Terminer maintenant
         </button>
         {(choixAffiche !== null || !examen) && (
-          <a className="discret" href={lienSignalement(item)} target="_blank" rel="noopener noreferrer">
-            Signaler une erreur
-          </a>
+          <span className="discret">Réf. {item.id}</span>
         )}
       </div>
 

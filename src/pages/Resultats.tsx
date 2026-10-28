@@ -7,7 +7,6 @@ import { decimal, formatDuree, pourcent } from '../lib/format';
 import { creerResultat } from '../lib/resultat';
 import { calculerBilan, comparerObjectif } from '../lib/scoring';
 import type { EtatSeance } from '../lib/session';
-import { lienSignalement } from '../lib/signalement';
 import type { Difficulte, Mode, NiveauId } from '../lib/types';
 import { useStockage } from '../state/Stockage';
 import ListeErreurs from '../components/ListeErreurs';
@@ -146,5 +145,3 @@ export default function Resultats({
   );
 }
 
-// Réexporté pour les pages qui affichent un lien de signalement hors de la liste d'erreurs.
-export { lienSignalement };

@@ -1,8 +1,7 @@
 import type { EtatSeance } from '../lib/session';
 import Correction from './Correction';
-import { lienSignalement } from '../lib/signalement';
 
-/** Correction détaillée des questions ratées (avec lien de signalement). */
+/** Correction détaillée des questions ratées. */
 export default function ListeErreurs({ etat }: { etat: EtatSeance }) {
   const erreurs = etat.ordre.filter((i) => etat.reponses[i] !== etat.items[i].bonneReponse);
   return (
@@ -28,9 +27,7 @@ export default function ListeErreurs({ etat }: { etat: EtatSeance }) {
                     )}
                   </summary>
                   <Correction item={item} choix={choix} />
-                  <a href={lienSignalement(item)} target="_blank" rel="noopener noreferrer">
-                    Signaler une erreur dans cette question
-                  </a>
+                  <p className="discret">Réf. {item.id}</p>
                 </details>
               </li>
             );
