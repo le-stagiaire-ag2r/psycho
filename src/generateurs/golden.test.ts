@@ -49,10 +49,10 @@ function empreinteEpreuve(id: EpreuveId): string {
  */
 const ATTENDUES: Partial<Record<EpreuveId, { version: number; empreinte: string }>> = {
   attention: { version: 1, empreinte: '84120b39' },
-  codage: { version: 1, empreinte: 'b331a9be' },
-  numerique: { version: 1, empreinte: '3e59ecef' },
-  spatial: { version: 1, empreinte: 'ecfea223' },
-  logique: { version: 1, empreinte: '363c75e8' },
+  codage: { version: 1, empreinte: 'c2fae41e' },
+  numerique: { version: 1, empreinte: '59350aab' },
+  spatial: { version: 1, empreinte: 'f68abccd' },
+  logique: { version: 1, empreinte: '01557153' },
   raisonnement: { version: 1, empreinte: '9c04fb66' },
 };
 

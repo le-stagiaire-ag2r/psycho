@@ -1,7 +1,6 @@
 import type { Item } from '../lib/types';
 import CubeSvg, { PatronSvg } from './CubeSvg';
 import GrilleSvg from './GrilleSvg';
-import Correction from './Correction';
 
 interface Props {
   item: Item;
@@ -80,6 +79,29 @@ function Stimulus({ item }: { item: Item }) {
   }
 }
 
+/** Miniature d'une proposition (image pour les épreuves graphiques, texte sinon) : réutilisée dans la correction. */
+export function Miniature({ item, index }: { item: Item; index: number }) {
+  const s = item.stimulus;
+  const o = item.options[index];
+  if (s.type === 'grille') {
+    return (
+      <span className="miniature">
+        <strong>{o}</strong>
+        <GrilleSvg grille={s.propositions[index]} cellule={16} libelle={`Proposition ${o}`} />
+      </span>
+    );
+  }
+  if (s.type === 'cube' || s.type === 'suite-cubes') {
+    return (
+      <span className="miniature">
+        <strong>{o}</strong>
+        <CubeSvg vue={s.propositions[index]} libelle={`Proposition ${o}`} />
+      </span>
+    );
+  }
+  return <span>{o}</span>;
+}
+
 export default function QuestionView({ item, choix, onChoisir }: Props) {
   const corrige = choix !== null;
   const graphique = ['grille', 'cube', 'suite-cubes'].includes(item.stimulus.type);
@@ -106,7 +128,7 @@ export default function QuestionView({ item, choix, onChoisir }: Props) {
               onClick={() => onChoisir(i)}
               aria-label={graphique ? `Proposition ${o}` : undefined}
             >
-              <kbd>{i + 1}</kbd>{' '}
+              <kbd>{i + 1}</kbd>
               {s.type === 'grille' ? (
                 <>
                   <strong>{o}</strong>
@@ -118,13 +140,14 @@ export default function QuestionView({ item, choix, onChoisir }: Props) {
                   <CubeSvg vue={s.propositions[i]} libelle={`Proposition ${o}`} />
                 </>
               ) : (
-                o
+                <span className="option-texte">{o}</span>
               )}
+              {corrige && i === item.bonneReponse && <span className="option-marque" aria-hidden="true">✓</span>}
+              {corrige && i === choix && i !== item.bonneReponse && <span className="option-marque" aria-hidden="true">✗</span>}
             </button>
           );
         })}
       </div>
-      {corrige && <Correction item={item} choix={choix} />}
     </div>
   );
 }

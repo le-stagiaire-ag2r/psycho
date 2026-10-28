@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import ModalCorrection from '../components/ModalCorrection';
 import QuestionView from '../components/QuestionView';
 import { NON_AFFILIATION } from '../config/app';
 import { EPREUVES, type ConfigEpreuve } from '../config/epreuves';
@@ -101,6 +102,9 @@ export function SeanceInner({
   const [maintenant, setMaintenant] = useState(() => Date.now());
   /** Mode entraînement : choix affiché pendant la correction, avant de passer à la suite */
   const [choixAffiche, setChoixAffiche] = useState<number | null>(null);
+  /** Fenêtre de correction ouverte, et position (dans `ordre`) de la question qu'elle affiche */
+  const [modale, setModale] = useState(false);
+  const [vue, setVue] = useState(0);
 
   // Horloge : tant que la séance tourne.
   const enCours = etat !== null && !etat.fini;
@@ -137,6 +141,11 @@ export function SeanceInner({
     else {
       setEtat(apres);
       setChoixAffiche(choix);
+      // Une erreur ouvre tout de suite la correction ; une bonne réponse laisse avancer sans interruption.
+      if (choix !== etat.items[indexCourant(etat) ?? 0].bonneReponse) {
+        setVue(apres.ordre.length - 1);
+        setModale(true);
+      }
     }
   };
 
@@ -144,6 +153,7 @@ export function SeanceInner({
     if (!etat) return;
     setEtat(avancer(etat, Date.now()));
     setChoixAffiche(null);
+    setModale(false);
   };
 
   const passerQuestion = () => {
@@ -155,13 +165,14 @@ export function SeanceInner({
     if (!etat) return;
     setEtat(terminer(etat, Date.now()));
     setChoixAffiche(null);
+    setModale(false);
   };
 
   // Raccourcis clavier : 1-9 pour répondre, ← / → pour les questions à deux choix, P pour passer.
   useEffect(() => {
     if (!etat || etat.fini || !item) return;
     const onKey = (e: KeyboardEvent) => {
-      if (e.ctrlKey || e.metaKey || e.altKey || choixAffiche !== null) return;
+      if (e.ctrlKey || e.metaKey || e.altKey || choixAffiche !== null || modale) return;
       const n = Number(e.key);
       if (Number.isInteger(n) && n >= 1 && n <= item.options.length) repondre(n - 1);
       else if (item.options.length === 2 && e.key === 'ArrowLeft') repondre(0);
@@ -204,44 +215,39 @@ export function SeanceInner({
   // ---------- Écran de départ ----------
   if (!etat || !item) {
     return (
-      <section aria-labelledby="titre-depart">
+      <section aria-labelledby="titre-depart" className="depart">
         {bandeau}
         <h1 id="titre-depart">{config.titre}</h1>
-        <p>{config.description}</p>
-        <ul className="infos">
-          <li>Mode : {examen ? 'examen blanc' : 'entraînement'}</li>
-          <li>Niveau visé : {libelleNiveau(niveau)}</li>
-          <li>
-            {nbQuestions} questions
-            {examen ? `, chrono strict de ${formatDuree(dureeMaxMs)}` : ', chrono souple (il ne coupe pas la séance)'}
-          </li>
-          {!examen && <li>Correction détaillée après chaque réponse</li>}
-          <li>
-            Raccourcis : touches 1 à {Math.min(config.nbChoix, 9)}
-            {config.nbChoix === 2 ? ' ou ← / →' : ''}
-            {config.passerAutorise ? ', P pour passer' : ''}
-          </li>
+        <p className="sous-titre">{config.description}</p>
+        <ul className="puces">
+          <li>{examen ? 'Examen blanc' : 'Entraînement'}</li>
+          <li>{nbQuestions} questions</li>
+          <li>{examen ? `Chrono strict ${formatDuree(dureeMaxMs)}` : 'Chrono souple'}</li>
+          <li>Niveau : {libelleNiveau(niveau)}</li>
         </ul>
-        <h2>Conseils</h2>
-        <ul>
-          {config.conseils.map((c) => (
-            <li key={c}>{c}</li>
-          ))}
-        </ul>
-        {config.avertissement && (
-          <p className="encadre" role="note">
-            {config.avertissement}
-          </p>
-        )}
-        <p className="discret">
-          Formats indicatifs, reconstitués à partir d’informations publiques. {NON_AFFILIATION}
-        </p>
-        <div className="actions">
-          <button type="button" className="bouton" onClick={commencer} autoFocus>
+        <div className="actions actions-centre">
+          <button type="button" className="bouton bouton-grand" onClick={commencer} autoFocus>
             {libelleDepart}
           </button>
+        </div>
+        <p className="discret centre">
+          Touches 1 à {Math.min(config.nbChoix, 9)}
+          {config.nbChoix === 2 ? ' ou ← / →' : ''} pour répondre
+          {config.passerAutorise ? ', P pour passer' : ''}.
+        </p>
+        <details className="repli">
+          <summary>Conseils pour cette épreuve</summary>
+          <ul>
+            {config.conseils.map((c) => (
+              <li key={c}>{c}</li>
+            ))}
+          </ul>
+          {config.avertissement && <p className="discret">{config.avertissement}</p>}
+          <p className="discret">Formats indicatifs. {NON_AFFILIATION}</p>
+        </details>
+        <div className="actions actions-centre">
           {!onFin && (
-            <Link className="bouton bouton-secondaire" to="/">
+            <Link className="bouton-lien" to="/">
               Retour
             </Link>
           )}
@@ -259,12 +265,15 @@ export function SeanceInner({
   const ecouleMs = maintenant - etat.debutMs;
   const alerte = restantMs !== null && restantMs < 30000;
 
+  const correct = choixAffiche !== null && choixAffiche === item.bonneReponse;
+  const libelleSuivant = restantes <= 1 ? 'Voir le résultat' : 'Question suivante';
+
   return (
-    <section aria-label={`Séance ${config.titre}`}>
+    <section aria-label={`Séance ${config.titre}`} className="seance">
       {bandeau}
       <div className="barre-seance">
         <span>
-          Question {faites + 1} / {etat.items.length}
+          Question {faites + 1} <span className="discret">/ {etat.items.length}</span>
         </span>
         <span
           className={`chrono ${alerte ? 'chrono-alerte' : ''}`}
@@ -278,10 +287,19 @@ export function SeanceInner({
 
       <QuestionView key={item.id + faites} item={item} choix={choixAffiche} onChoisir={repondre} />
 
-      <div className="actions">
+      {choixAffiche !== null && (
+        <div className={`retour ${correct ? 'retour-ok' : 'retour-ko'}`} role="status">
+          <strong>{correct ? '✓ Bonne réponse' : '✗ Raté'}</strong>
+          <button type="button" className="bouton-lien" onClick={() => { setVue(etat.ordre.length - 1); setModale(true); }}>
+            {correct ? 'Pourquoi ?' : 'Voir l’explication'}
+          </button>
+        </div>
+      )}
+
+      <div className="actions actions-centre">
         {choixAffiche !== null ? (
-          <button type="button" className="bouton" onClick={suivant} autoFocus>
-            {restantes <= 1 ? 'Voir le résultat' : 'Question suivante'}
+          <button type="button" className="bouton bouton-grand" onClick={suivant} autoFocus={!modale}>
+            {libelleSuivant}
           </button>
         ) : (
           config.passerAutorise &&
@@ -291,6 +309,8 @@ export function SeanceInner({
             </button>
           )
         )}
+      </div>
+      <div className="actions actions-centre actions-discretes">
         <button type="button" className="bouton-lien" onClick={abandonner}>
           Terminer maintenant
         </button>
@@ -300,6 +320,19 @@ export function SeanceInner({
           </a>
         )}
       </div>
+
+      {modale && !examen && (
+        <ModalCorrection
+          items={etat.items}
+          reponses={etat.reponses}
+          ordre={etat.ordre}
+          vue={Math.min(vue, etat.ordre.length - 1)}
+          onVue={setVue}
+          onFermer={() => setModale(false)}
+          onSuivant={suivant}
+          libelleSuivant={libelleSuivant}
+        />
+      )}
     </section>
   );
 }
