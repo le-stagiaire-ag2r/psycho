@@ -18,10 +18,6 @@ export default function Confidentialite() {
           Tu peux l’exporter en fichier JSON pour changer d’appareil, l’importer ailleurs, ou tout effacer depuis la
           page Progression.
         </li>
-        <li>
-          Le bouton « Signaler une erreur » ouvre simplement un lien GitHub pré-rempli (épreuve et graine de la
-          question). Rien n’est envoyé sans que tu valides toi-même sur GitHub.
-        </li>
       </ul>
     </article>
   );

@@ -55,7 +55,7 @@ export const MAX_RESOLUES = 2000;
 export function donneesParDefaut(): Donnees {
   return {
     version: 1,
-    prefs: { niveau: 'militaire-du-rang', mode: 'entrainement', difficulte: 2, theme: 'sombre' },
+    prefs: { niveau: 'militaire-du-rang', mode: 'entrainement', difficulte: 2, theme: 'clair' },
     historique: [],
     erreursResolues: [],
   };

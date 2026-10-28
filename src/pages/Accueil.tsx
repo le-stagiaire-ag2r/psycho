@@ -52,7 +52,7 @@ export default function Accueil() {
           Réglages
         </h2>
         <fieldset className="segmente">
-          <legend>Niveau visé</legend>
+          <legend>Objectif de score</legend>
           {NIVEAUX.map((n) => (
             <label key={n.id}>
               <input
@@ -64,6 +64,9 @@ export default function Accueil() {
               <span>{n.libelle}</span>
             </label>
           ))}
+          <p className="discret reglages-aide">
+            Les questions sont les mêmes pour tous : ce choix change seulement le score cible affiché à la fin (indicatif, non officiel).
+          </p>
         </fieldset>
 
         <fieldset className="segmente">
@@ -102,6 +105,11 @@ export default function Accueil() {
                 <span>{d.libelle}</span>
               </label>
             ))}
+            <p className="discret reglages-aide">
+              Les questions sont toujours nouvelles. <strong>Facile</strong> : pour découvrir une épreuve et comprendre sa logique.{' '}
+              <strong>Moyen</strong> : le bon réglage pour s’entraîner (on vise 60 à 75 % de réussite).{' '}
+              <strong>Difficile</strong> : plus de pièges, à prendre quand le moyen devient trop facile. Si tu réussis plus de 85 %, monte d’un cran ; sous 50 %, redescends.
+            </p>
           </fieldset>
         )}
         <p className="discret reglages-aide">

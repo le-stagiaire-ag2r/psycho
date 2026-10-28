@@ -110,8 +110,8 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
     titre: 'Raisonnement logique',
     description: 'Suites de cubes à symboles : quel cube suit la même logique ?',
     disponible: true,
-    nbQuestions: 20,
-    dureeSecondes: 600,
+    nbQuestions: 25,
+    dureeSecondes: 840,
     nbChoix: 4,
     nbQuestionsEntrainement: 10,
     passerAutorise: true,
@@ -169,7 +169,7 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
       'Si deux réponses te semblent possibles, choisis celle dont le sens est le plus courant, puis passe à la suite.',
     ],
     avertissement:
-      'Banque de questions rédigées pour ce projet, pas encore relues par un humain : si une question te paraît ambiguë ou fausse, utilise « Signaler une erreur ».',
+      'Banque de questions rédigées pour ce projet, pas encore relues par un humain : si une question te paraît ambiguë ou fausse, signale-la sur le forum en citant sa référence (affichée sous la question).',
   },
   numerique: {
     id: 'numerique',
@@ -209,7 +209,7 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
       'La banque actuelle compte environ 160 questions : au-delà, certaines reviennent.',
     ],
     avertissement:
-      'Banque de questions rédigées pour ce projet, pas encore relues par un humain : si une question te paraît ambiguë ou fausse, utilise « Signaler une erreur ».',
+      'Banque de questions rédigées pour ce projet, pas encore relues par un humain : si une question te paraît ambiguë ou fausse, signale-la sur le forum en citant sa référence (affichée sous la question).',
   },
   personnalite: {
     id: 'personnalite',

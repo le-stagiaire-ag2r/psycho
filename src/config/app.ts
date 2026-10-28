@@ -6,5 +6,5 @@ export const NON_AFFILIATION =
 export const MENTION_ENTRAINEMENT =
   "S'entraîner sur des questions générées améliore la familiarité avec les formats et la vitesse, mais ne garantit pas la correspondance exacte avec la difficulté des vraies épreuves.";
 
-/** Dépôt GitHub utilisé pour le signalement d'erreurs (liens pré-remplis, sans backend). */
+/** Dépôt GitHub du projet (code source). */
 export const DEPOT_GITHUB = 'https://github.com/le-stagiaire-ag2r/psycho';
