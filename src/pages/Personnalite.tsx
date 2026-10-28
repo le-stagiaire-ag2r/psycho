@@ -114,8 +114,9 @@ export default function Personnalite() {
         </fieldset>
         <p className="discret">
           Le vrai questionnaire est annoncé comme long (de 100 à 250 affirmations selon les témoignages, à valider) et
-          reformule plusieurs fois les mêmes idées : c’est aussi le cas ici, avec {TOTAL} affirmations. Elles sont
-          adaptées d’un inventaire en accès libre ou écrites pour ce projet (voir ATTRIBUTIONS.md).
+          reformule plusieurs fois les mêmes idées : c’est aussi le cas ici, avec {TOTAL} affirmations. Seules 50 sont
+          adaptées de l’inventaire en accès libre IPIP ; les autres sont écrites pour ce projet et n’ont pas de validation
+          psychométrique (voir ATTRIBUTIONS.md).
         </p>
         <div className="actions">
           <button type="button" className="bouton" onClick={commencer} autoFocus>

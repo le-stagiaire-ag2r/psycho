@@ -11,7 +11,7 @@ faute de langue, explication fausse, distracteur absurde, règle impossible à d
 
 ### Ce qui a été vérifié
 - **Verbal (159 items)** et **anglais (158 items)** : chaque énoncé, chaque proposition, chaque explication.
-- **Personnalité (50 affirmations)** : formulation et contresens possibles.
+- **Personnalité (200 affirmations)** : formulation et contresens possibles.
 - **Numérique (45 gabarits)** : 2 exemples par gabarit relus à la main (énoncé, réponse, pièges, explication), mathématiques recoupées.
 - **Raisonnement général, cubes, grilles, attention, codage** : explications générées relues sur des échantillons de chaque difficulté.
 - **Liste de mots du codage** (215 mots).
