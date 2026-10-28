@@ -5,1002 +5,1502 @@
   {
    "id": "PER-EXT-01",
    "dimension": "extraversion",
-   "texte": "Je suis le boute-en-train des soirées."
+   "texte": "Je me fais facilement des amis.",
+   "source": "IPIP H29"
   },
   {
    "id": "PER-EXT-02",
    "dimension": "extraversion",
-   "texte": "Je ne parle pas beaucoup."
+   "texte": "Je parle à beaucoup de personnes différentes lors des soirées.",
+   "source": "IPIP X83"
   },
   {
    "id": "PER-EXT-03",
    "dimension": "extraversion",
-   "texte": "Je me sens à l'aise au milieu des gens."
+   "texte": "J'adore les grandes fêtes.",
+   "source": "IPIP H33"
   },
   {
    "id": "PER-EXT-04",
    "dimension": "extraversion",
-   "texte": "Je reste volontiers en retrait."
+   "texte": "J'engage facilement la conversation.",
+   "source": "IPIP H16"
   },
   {
    "id": "PER-EXT-05",
    "dimension": "extraversion",
-   "texte": "J'engage facilement la conversation."
+   "texte": "Je me sens à l'aise avec les gens.",
+   "source": "IPIP H1"
   },
   {
    "id": "PER-EXT-06",
    "dimension": "extraversion",
-   "texte": "J'ai peu de choses à dire."
+   "texte": "Je plaisante beaucoup.",
+   "source": "IPIP H86"
   },
   {
    "id": "PER-EXT-07",
    "dimension": "extraversion",
-   "texte": "Dans les soirées, je parle à beaucoup de personnes différentes."
+   "texte": "Je ris à voix haute.",
+   "source": "IPIP H12"
   },
   {
    "id": "PER-EXT-08",
    "dimension": "extraversion",
-   "texte": "Je n'aime pas attirer l'attention sur moi."
+   "texte": "J'adore bavarder.",
+   "source": "IPIP H1095"
   },
   {
    "id": "PER-EXT-09",
    "dimension": "extraversion",
-   "texte": "Cela ne me dérange pas d'être le centre de l'attention."
+   "texte": "J'aime être seul(e).",
+   "source": "IPIP H1092"
   },
   {
    "id": "PER-EXT-10",
    "dimension": "extraversion",
-   "texte": "Je suis réservé(e) avec les inconnus."
-  },
-  {
-   "id": "PER-AGR-01",
-   "dimension": "agreabilite",
-   "texte": "Je me soucie peu des autres."
-  },
-  {
-   "id": "PER-AGR-02",
-   "dimension": "agreabilite",
-   "texte": "Je m'intéresse aux gens."
-  },
-  {
-   "id": "PER-AGR-03",
-   "dimension": "agreabilite",
-   "texte": "Il m'arrive de blesser les gens par mes paroles."
-  },
-  {
-   "id": "PER-AGR-04",
-   "dimension": "agreabilite",
-   "texte": "Je comprends ce que ressentent les autres."
-  },
-  {
-   "id": "PER-AGR-05",
-   "dimension": "agreabilite",
-   "texte": "Les problèmes des autres ne m'intéressent pas vraiment."
-  },
-  {
-   "id": "PER-AGR-06",
-   "dimension": "agreabilite",
-   "texte": "J'ai le cœur tendre."
-  },
-  {
-   "id": "PER-AGR-07",
-   "dimension": "agreabilite",
-   "texte": "Je ne m'intéresse pas vraiment aux autres."
-  },
-  {
-   "id": "PER-AGR-08",
-   "dimension": "agreabilite",
-   "texte": "Je prends du temps pour les autres."
-  },
-  {
-   "id": "PER-AGR-09",
-   "dimension": "agreabilite",
-   "texte": "Je ressens les émotions des autres."
-  },
-  {
-   "id": "PER-AGR-10",
-   "dimension": "agreabilite",
-   "texte": "Je mets les gens à l'aise."
-  },
-  {
-   "id": "PER-CON-01",
-   "dimension": "conscience",
-   "texte": "Je suis toujours préparé(e)."
-  },
-  {
-   "id": "PER-CON-02",
-   "dimension": "conscience",
-   "texte": "Je laisse traîner mes affaires."
-  },
-  {
-   "id": "PER-CON-03",
-   "dimension": "conscience",
-   "texte": "Je fais attention aux détails."
-  },
-  {
-   "id": "PER-CON-04",
-   "dimension": "conscience",
-   "texte": "Je sème le désordre autour de moi."
-  },
-  {
-   "id": "PER-CON-05",
-   "dimension": "conscience",
-   "texte": "Je m'occupe des corvées sans attendre."
-  },
-  {
-   "id": "PER-CON-06",
-   "dimension": "conscience",
-   "texte": "J'oublie souvent de remettre les choses à leur place."
-  },
-  {
-   "id": "PER-CON-07",
-   "dimension": "conscience",
-   "texte": "J'aime l'ordre."
-  },
-  {
-   "id": "PER-CON-08",
-   "dimension": "conscience",
-   "texte": "Je me dérobe à mes obligations."
-  },
-  {
-   "id": "PER-CON-09",
-   "dimension": "conscience",
-   "texte": "Je respecte un emploi du temps."
-  },
-  {
-   "id": "PER-CON-10",
-   "dimension": "conscience",
-   "texte": "Je suis exigeant(e) dans mon travail."
-  },
-  {
-   "id": "PER-STA-01",
-   "dimension": "stabilite",
-   "texte": "Je me stresse facilement."
-  },
-  {
-   "id": "PER-STA-02",
-   "dimension": "stabilite",
-   "texte": "Je suis détendu(e) la plupart du temps."
-  },
-  {
-   "id": "PER-STA-03",
-   "dimension": "stabilite",
-   "texte": "Je me fais du souci pour beaucoup de choses."
-  },
-  {
-   "id": "PER-STA-04",
-   "dimension": "stabilite",
-   "texte": "Je me sens rarement abattu(e)."
-  },
-  {
-   "id": "PER-STA-05",
-   "dimension": "stabilite",
-   "texte": "Je suis facilement perturbé(e)."
-  },
-  {
-   "id": "PER-STA-06",
-   "dimension": "stabilite",
-   "texte": "Je suis facilement contrarié(e)."
-  },
-  {
-   "id": "PER-STA-07",
-   "dimension": "stabilite",
-   "texte": "Mon humeur change beaucoup."
-  },
-  {
-   "id": "PER-STA-08",
-   "dimension": "stabilite",
-   "texte": "J'ai de fréquents changements d'humeur."
-  },
-  {
-   "id": "PER-STA-09",
-   "dimension": "stabilite",
-   "texte": "Je m'irrite facilement."
-  },
-  {
-   "id": "PER-STA-10",
-   "dimension": "stabilite",
-   "texte": "Je me sens souvent triste."
-  },
-  {
-   "id": "PER-OUV-01",
-   "dimension": "ouverture",
-   "texte": "J'ai un vocabulaire riche."
-  },
-  {
-   "id": "PER-OUV-02",
-   "dimension": "ouverture",
-   "texte": "J'ai du mal à comprendre les idées abstraites."
-  },
-  {
-   "id": "PER-OUV-03",
-   "dimension": "ouverture",
-   "texte": "J'ai une imagination vive."
-  },
-  {
-   "id": "PER-OUV-04",
-   "dimension": "ouverture",
-   "texte": "Les idées abstraites ne m'intéressent pas."
-  },
-  {
-   "id": "PER-OUV-05",
-   "dimension": "ouverture",
-   "texte": "J'ai d'excellentes idées."
-  },
-  {
-   "id": "PER-OUV-06",
-   "dimension": "ouverture",
-   "texte": "Je n'ai pas une bonne imagination."
-  },
-  {
-   "id": "PER-OUV-07",
-   "dimension": "ouverture",
-   "texte": "Je comprends vite les choses."
-  },
-  {
-   "id": "PER-OUV-08",
-   "dimension": "ouverture",
-   "texte": "J'utilise des mots difficiles."
-  },
-  {
-   "id": "PER-OUV-09",
-   "dimension": "ouverture",
-   "texte": "Je prends le temps de réfléchir aux choses."
-  },
-  {
-   "id": "PER-OUV-10",
-   "dimension": "ouverture",
-   "texte": "Je suis plein(e) d'idées."
+   "texte": "Je préfère être seul(e).",
+   "source": "IPIP H587"
   },
   {
    "id": "PER-EXT-11",
    "dimension": "extraversion",
-   "texte": "J'aime être entouré(e) de beaucoup de monde."
+   "texte": "Je reste dans mon coin.",
+   "source": "IPIP V183"
   },
   {
    "id": "PER-EXT-12",
    "dimension": "extraversion",
-   "texte": "Je préfère les moments tranquilles, seul(e), aux grandes réunions."
+   "texte": "Je dis peu de choses.",
+   "source": "IPIP H584"
   },
   {
    "id": "PER-EXT-13",
    "dimension": "extraversion",
-   "texte": "Je prends facilement la parole en groupe."
+   "texte": "Je ne parle que lorsqu'on m'adresse la parole.",
+   "source": "IPIP H2037"
   },
   {
    "id": "PER-EXT-14",
    "dimension": "extraversion",
-   "texte": "Je me sens épuisé(e) après une longue journée passée avec des inconnus."
+   "texte": "Je me tiens à l'écart des autres.",
+   "source": "IPIP H649"
   },
   {
    "id": "PER-EXT-15",
    "dimension": "extraversion",
-   "texte": "Je fais rapidement connaissance avec de nouvelles personnes."
+   "texte": "J'évite la compagnie des autres.",
+   "source": "IPIP H598"
   },
   {
    "id": "PER-EXT-16",
    "dimension": "extraversion",
-   "texte": "J'attends qu'on vienne me parler avant de m'exprimer."
+   "texte": "J'évite tout contact avec les autres.",
+   "source": "IPIP H648"
   },
   {
    "id": "PER-EXT-17",
    "dimension": "extraversion",
-   "texte": "Je dégage beaucoup d'énergie."
+   "texte": "Je parle trop.",
+   "source": "IPIP H1138"
   },
   {
    "id": "PER-EXT-18",
    "dimension": "extraversion",
-   "texte": "J'aime les activités animées et pleines de monde."
+   "texte": "Je n'arrête jamais de parler.",
+   "source": "IPIP H536"
   },
   {
    "id": "PER-EXT-19",
    "dimension": "extraversion",
-   "texte": "Je me présente spontanément aux personnes que je ne connais pas."
+   "texte": "Je parle beaucoup.",
+   "source": "IPIP R11"
   },
   {
    "id": "PER-EXT-20",
    "dimension": "extraversion",
-   "texte": "Je suis plutôt discret(e) dans les réunions."
+   "texte": "J'aime généralement parler beaucoup.",
+   "source": "IPIP D45"
   },
   {
    "id": "PER-EXT-21",
    "dimension": "extraversion",
-   "texte": "J'aime prendre les devants dans un groupe."
+   "texte": "J'apprécie généralement la compagnie des gens.",
+   "source": "IPIP D3"
   },
   {
    "id": "PER-EXT-22",
    "dimension": "extraversion",
-   "texte": "Je trouve facile de me faire entendre."
+   "texte": "J'aime généralement passer mon temps libre avec d'autres personnes.",
+   "source": "IPIP D70"
   },
   {
    "id": "PER-EXT-23",
    "dimension": "extraversion",
-   "texte": "Je préfère rester à l'écart quand il y a beaucoup de monde."
+   "texte": "J'apprécie rarement d'être avec les gens.",
+   "source": "IPIP D82"
   },
   {
    "id": "PER-EXT-24",
    "dimension": "extraversion",
-   "texte": "J'ai souvent envie de sortir et de voir du monde."
+   "texte": "Je prends du plaisir en compagnie des autres.",
+   "source": "IPIP H14"
   },
   {
    "id": "PER-EXT-25",
    "dimension": "extraversion",
-   "texte": "Je suis à l'aise pour parler devant un public."
+   "texte": "J'aime être le centre de l'attention lors d'une soirée ou d'une réunion.",
+   "source": "IPIP S29"
   },
   {
    "id": "PER-EXT-26",
    "dimension": "extraversion",
-   "texte": "Je suis mal à l'aise quand je dois parler en public."
+   "texte": "Cela ne me dérange pas d'être le centre de l'attention.",
+   "source": "IPIP X78"
   },
   {
    "id": "PER-EXT-27",
    "dimension": "extraversion",
-   "texte": "Je suis souvent le premier à proposer une activité."
+   "texte": "Je n'aime pas être le centre de l'attention.",
+   "source": "IPIP X169"
   },
   {
    "id": "PER-EXT-28",
    "dimension": "extraversion",
-   "texte": "J'aime plaisanter et faire rire autour de moi."
+   "texte": "Je déteste être le centre de l'attention.",
+   "source": "IPIP P434"
   },
   {
    "id": "PER-EXT-29",
    "dimension": "extraversion",
-   "texte": "Je me sens plus vivant(e) quand je suis avec d'autres personnes."
+   "texte": "J'aime attirer l'attention.",
+   "source": "IPIP H1150"
   },
   {
    "id": "PER-EXT-30",
    "dimension": "extraversion",
-   "texte": "Je m'exprime peu, même avec des personnes que je connais."
+   "texte": "J'adore être le centre de l'attention.",
+   "source": "IPIP P393"
   },
   {
    "id": "PER-EXT-31",
    "dimension": "extraversion",
-   "texte": "Je me lance volontiers dans une discussion avec un inconnu."
+   "texte": "Je suis l'âme de la fête.",
+   "source": "IPIP V124"
   },
   {
    "id": "PER-EXT-32",
    "dimension": "extraversion",
-   "texte": "J'ai besoin de longs moments de solitude pour me ressourcer."
+   "texte": "J'adore rencontrer de nouvelles personnes.",
+   "source": "IPIP T1984"
   },
   {
    "id": "PER-EXT-33",
    "dimension": "extraversion",
-   "texte": "Je me sens à l'aise pour animer un groupe."
+   "texte": "Je m'entends bien avec des personnes que je viens de rencontrer.",
+   "source": "IPIP V191"
   },
   {
    "id": "PER-EXT-34",
    "dimension": "extraversion",
-   "texte": "Je préfère laisser les autres mener la conversation."
+   "texte": "J'aime rassembler les gens.",
+   "source": "IPIP X161"
   },
   {
    "id": "PER-EXT-35",
    "dimension": "extraversion",
-   "texte": "Les ambiances animées me stimulent."
+   "texte": "J'aime faire partie d'un groupe.",
+   "source": "IPIP E56"
   },
   {
    "id": "PER-EXT-36",
    "dimension": "extraversion",
-   "texte": "Je me mets facilement en avant."
+   "texte": "J'aime aller à des réunions sociales.",
+   "source": "IPIP T1048"
   },
   {
    "id": "PER-EXT-37",
    "dimension": "extraversion",
-   "texte": "Je trouve les longues conversations fatigantes."
+   "texte": "Je ne suis jamais à court de mots.",
+   "source": "IPIP H1302"
   },
   {
    "id": "PER-EXT-38",
    "dimension": "extraversion",
-   "texte": "Je cherche souvent la compagnie des autres."
+   "texte": "Je m'exprime facilement.",
+   "source": "IPIP H17"
   },
   {
    "id": "PER-EXT-39",
    "dimension": "extraversion",
-   "texte": "J'ai de l'enthousiasme à raconter ce que je vis."
+   "texte": "Je prends l'initiative.",
+   "source": "IPIP H64"
   },
   {
    "id": "PER-EXT-40",
    "dimension": "extraversion",
-   "texte": "Je garde mes pensées pour moi."
+   "texte": "Je prends les choses en main.",
+   "source": "IPIP H325"
+  },
+  {
+   "id": "PER-EXT-41",
+   "dimension": "extraversion",
+   "texte": "J'aime être celui ou celle qui dirige.",
+   "source": "IPIP H793"
+  },
+  {
+   "id": "PER-EXT-42",
+   "dimension": "extraversion",
+   "texte": "Je préfère assumer le rôle de leader dans un groupe.",
+   "source": "IPIP W218"
+  },
+  {
+   "id": "PER-EXT-43",
+   "dimension": "extraversion",
+   "texte": "Je préfère laisser les autres être le centre de l'attention.",
+   "source": "IPIP R17"
+  },
+  {
+   "id": "PER-EXT-44",
+   "dimension": "extraversion",
+   "texte": "Je recherche le calme.",
+   "source": "IPIP H602"
+  },
+  {
+   "id": "PER-EXT-45",
+   "dimension": "extraversion",
+   "texte": "Je veux qu'on me laisse tranquille.",
+   "source": "IPIP H660"
+  },
+  {
+   "id": "PER-EXT-46",
+   "dimension": "extraversion",
+   "texte": "Je ne suis à l'aise qu'avec mes amis.",
+   "source": "IPIP H656"
+  },
+  {
+   "id": "PER-EXT-47",
+   "dimension": "extraversion",
+   "texte": "Je me sens souvent mal à l'aise en présence des autres.",
+   "source": "IPIP H909"
+  },
+  {
+   "id": "PER-EXT-48",
+   "dimension": "extraversion",
+   "texte": "J'aime me démarquer dans la foule.",
+   "source": "IPIP V68"
+  },
+  {
+   "id": "PER-EXT-49",
+   "dimension": "extraversion",
+   "texte": "Je suis très timide en société.",
+   "source": "IPIP V91"
+  },
+  {
+   "id": "PER-EXT-50",
+   "dimension": "extraversion",
+   "texte": "Je suis timide.",
+   "source": "IPIP S25"
+  },
+  {
+   "id": "PER-AGR-01",
+   "dimension": "agreabilite",
+   "texte": "Je m'intéresse aux gens.",
+   "source": "IPIP H21"
+  },
+  {
+   "id": "PER-AGR-02",
+   "dimension": "agreabilite",
+   "texte": "J'ai tendance à pardonner aux autres.",
+   "source": "IPIP H137"
+  },
+  {
+   "id": "PER-AGR-03",
+   "dimension": "agreabilite",
+   "texte": "J'adore aider les autres.",
+   "source": "IPIP H1108"
+  },
+  {
+   "id": "PER-AGR-04",
+   "dimension": "agreabilite",
+   "texte": "J'aime aider les autres.",
+   "source": "IPIP M14"
+  },
+  {
+   "id": "PER-AGR-05",
+   "dimension": "agreabilite",
+   "texte": "Je prends soin des autres.",
+   "source": "IPIP Q128"
+  },
+  {
+   "id": "PER-AGR-06",
+   "dimension": "agreabilite",
+   "texte": "Je fais du bien aux autres.",
+   "source": "IPIP H26"
+  },
+  {
+   "id": "PER-AGR-07",
+   "dimension": "agreabilite",
+   "texte": "Je mets les gens à l'aise.",
+   "source": "IPIP H107"
+  },
+  {
+   "id": "PER-AGR-08",
+   "dimension": "agreabilite",
+   "texte": "J'accueille chaleureusement les gens.",
+   "source": "IPIP H30"
+  },
+  {
+   "id": "PER-AGR-09",
+   "dimension": "agreabilite",
+   "texte": "Je respecte les sentiments des autres.",
+   "source": "IPIP H159"
+  },
+  {
+   "id": "PER-AGR-10",
+   "dimension": "agreabilite",
+   "texte": "Je respecte les autres.",
+   "source": "IPIP H105"
   },
   {
    "id": "PER-AGR-11",
    "dimension": "agreabilite",
-   "texte": "J'essaie de traiter chacun avec respect."
+   "texte": "Je respecte l'opinion des autres.",
+   "source": "IPIP H174"
   },
   {
    "id": "PER-AGR-12",
    "dimension": "agreabilite",
-   "texte": "Je pense d'abord à mes intérêts avant ceux des autres."
+   "texte": "Je compatis aux sentiments des autres.",
+   "source": "IPIP H1130"
   },
   {
    "id": "PER-AGR-13",
    "dimension": "agreabilite",
-   "texte": "Je suis prêt(e) à rendre service même quand cela me dérange."
+   "texte": "Je suis sensible aux besoins des autres.",
+   "source": "IPIP Q256"
   },
   {
    "id": "PER-AGR-14",
    "dimension": "agreabilite",
-   "texte": "Je me méfie facilement des intentions des autres."
+   "texte": "Je tiens compte des intérêts des autres.",
+   "source": "IPIP H183"
   },
   {
    "id": "PER-AGR-15",
    "dimension": "agreabilite",
-   "texte": "J'accorde facilement ma confiance."
+   "texte": "Je prends le temps de me rendre disponible pour les autres.",
+   "source": "IPIP H160"
   },
   {
    "id": "PER-AGR-16",
    "dimension": "agreabilite",
-   "texte": "Je cherche un compromis plutôt que d'imposer mon point de vue."
+   "texte": "Je pense aux autres d'abord.",
+   "source": "IPIP H126"
   },
   {
    "id": "PER-AGR-17",
    "dimension": "agreabilite",
-   "texte": "Je critique facilement les gens."
+   "texte": "J'essaie d'éviter les disputes.",
+   "source": "IPIP H131"
   },
   {
    "id": "PER-AGR-18",
    "dimension": "agreabilite",
-   "texte": "Je suis patient(e) avec les gens qui ont du mal à comprendre."
+   "texte": "Je cherche à maintenir une atmosphère agréable.",
+   "source": "IPIP H129"
   },
   {
    "id": "PER-AGR-19",
    "dimension": "agreabilite",
-   "texte": "Je trouve que les autres sont souvent égoïstes."
+   "texte": "Je suis profondément touché(e) par les malheurs des autres.",
+   "source": "IPIP X253"
   },
   {
    "id": "PER-AGR-20",
    "dimension": "agreabilite",
-   "texte": "J'aime aider quelqu'un qui a un problème."
+   "texte": "Je fais tout pour remonter le moral des personnes qui semblent déprimées.",
+   "source": "IPIP V88"
   },
   {
    "id": "PER-AGR-21",
    "dimension": "agreabilite",
-   "texte": "Je suis touché(e) par les difficultés des autres."
+   "texte": "Je fais tout pour aider les personnes qui souffrent.",
+   "source": "IPIP W96"
   },
   {
    "id": "PER-AGR-22",
    "dimension": "agreabilite",
-   "texte": "J'ai du mal à pardonner quand on m'a blessé(e)."
+   "texte": "Je me mets en quatre pour les autres.",
+   "source": "IPIP H1179"
   },
   {
    "id": "PER-AGR-23",
    "dimension": "agreabilite",
-   "texte": "Je dis ce que je pense, même si cela peut vexer."
+   "texte": "Je sais garder un secret.",
+   "source": "IPIP H150"
   },
   {
    "id": "PER-AGR-24",
    "dimension": "agreabilite",
-   "texte": "Je prends en compte l'avis de chacun avant de décider."
+   "texte": "Je dis la vérité.",
+   "source": "IPIP H145"
   },
   {
    "id": "PER-AGR-25",
    "dimension": "agreabilite",
-   "texte": "Je suis généreux(se) de mon temps."
+   "texte": "J'insulte les gens.",
+   "source": "IPIP H1103"
   },
   {
    "id": "PER-AGR-26",
    "dimension": "agreabilite",
-   "texte": "Je trouve que les gens ont généralement de bonnes intentions."
+   "texte": "Je mets les gens mal à l'aise.",
+   "source": "IPIP H607"
   },
   {
    "id": "PER-AGR-27",
    "dimension": "agreabilite",
-   "texte": "Je me moque des soucis des autres."
+   "texte": "Je réponds sèchement aux gens.",
+   "source": "IPIP H1085"
   },
   {
    "id": "PER-AGR-28",
    "dimension": "agreabilite",
-   "texte": "Je reste calme et courtois(e) même quand quelqu'un m'énerve."
+   "texte": "Je harcèle les autres de reproches.",
+   "source": "IPIP H1199"
   },
   {
    "id": "PER-AGR-29",
    "dimension": "agreabilite",
-   "texte": "Je coopère volontiers avec les autres."
+   "texte": "Je critique les défauts des autres.",
+   "source": "IPIP H279"
   },
   {
    "id": "PER-AGR-30",
    "dimension": "agreabilite",
-   "texte": "Je cherche à gagner même si cela se fait au détriment des autres."
+   "texte": "Je relève les erreurs des autres.",
+   "source": "IPIP H269"
   },
   {
    "id": "PER-AGR-31",
    "dimension": "agreabilite",
-   "texte": "J'écoute attentivement quand quelqu'un me confie un souci."
+   "texte": "Je me moque des autres.",
+   "source": "IPIP H1178"
   },
   {
    "id": "PER-AGR-32",
    "dimension": "agreabilite",
-   "texte": "Je me réjouis de la réussite des autres."
+   "texte": "Je ridiculise les gens.",
+   "source": "IPIP H2035"
   },
   {
    "id": "PER-AGR-33",
    "dimension": "agreabilite",
-   "texte": "Je remarque quand quelqu'un ne va pas bien."
+   "texte": "J'impose ma volonté aux autres.",
+   "source": "IPIP H721"
   },
   {
    "id": "PER-AGR-34",
    "dimension": "agreabilite",
-   "texte": "J'ai tendance à juger sévèrement les erreurs des autres."
+   "texte": "Je donne des ordres aux gens.",
+   "source": "IPIP H724"
   },
   {
    "id": "PER-AGR-35",
    "dimension": "agreabilite",
-   "texte": "Je fais passer l'équipe avant moi."
+   "texte": "Je vois les autres comme des concurrents.",
+   "source": "IPIP H791"
   },
   {
    "id": "PER-AGR-36",
    "dimension": "agreabilite",
-   "texte": "Je suis irrité(e) par ceux qui demandent de l'aide."
+   "texte": "Je donne la priorité à mes propres intérêts.",
+   "source": "IPIP H703"
   },
   {
    "id": "PER-AGR-37",
    "dimension": "agreabilite",
-   "texte": "Je m'efforce de ne froisser personne."
+   "texte": "Je ne pense qu'à mon propre intérêt.",
+   "source": "IPIP H1325"
   },
   {
    "id": "PER-AGR-38",
    "dimension": "agreabilite",
-   "texte": "Je pense que chacun doit se débrouiller seul."
+   "texte": "Je m'occupe d'abord de mes propres besoins.",
+   "source": "IPIP H701"
   },
   {
    "id": "PER-AGR-39",
    "dimension": "agreabilite",
-   "texte": "J'accepte volontiers de céder pour garder la bonne entente."
+   "texte": "Je tire un avantage injuste des autres.",
+   "source": "IPIP V279"
   },
   {
    "id": "PER-AGR-40",
    "dimension": "agreabilite",
-   "texte": "Je suis attentif(ve) aux besoins des autres avant qu'ils les expriment."
+   "texte": "J'essaie de tromper les autres.",
+   "source": "IPIP H705"
+  },
+  {
+   "id": "PER-AGR-41",
+   "dimension": "agreabilite",
+   "texte": "Je trompe les gens.",
+   "source": "IPIP H1096"
+  },
+  {
+   "id": "PER-AGR-42",
+   "dimension": "agreabilite",
+   "texte": "Je fais confiance aux gens.",
+   "source": "IPIP H118"
+  },
+  {
+   "id": "PER-AGR-43",
+   "dimension": "agreabilite",
+   "texte": "Je fais confiance aux autres.",
+   "source": "IPIP E157"
+  },
+  {
+   "id": "PER-AGR-44",
+   "dimension": "agreabilite",
+   "texte": "Je me méfie des autres.",
+   "source": "IPIP H1001"
+  },
+  {
+   "id": "PER-AGR-45",
+   "dimension": "agreabilite",
+   "texte": "Je soupçonne des motivations cachées chez les autres.",
+   "source": "IPIP H604"
+  },
+  {
+   "id": "PER-AGR-46",
+   "dimension": "agreabilite",
+   "texte": "Je tolère beaucoup de choses de la part des autres.",
+   "source": "IPIP H1170"
+  },
+  {
+   "id": "PER-AGR-47",
+   "dimension": "agreabilite",
+   "texte": "Je comprends les gens qui pensent différemment de moi.",
+   "source": "IPIP H175"
+  },
+  {
+   "id": "PER-AGR-48",
+   "dimension": "agreabilite",
+   "texte": "Je préfère donner plutôt que prendre.",
+   "source": "IPIP H121"
+  },
+  {
+   "id": "PER-AGR-49",
+   "dimension": "agreabilite",
+   "texte": "Je ne ferais pas de mal à une mouche.",
+   "source": "IPIP H142"
+  },
+  {
+   "id": "PER-AGR-50",
+   "dimension": "agreabilite",
+   "texte": "Je laisse les autres finir ce qu'ils disent.",
+   "source": "IPIP H162"
+  },
+  {
+   "id": "PER-CON-01",
+   "dimension": "conscience",
+   "texte": "J'accomplis mon travail à temps.",
+   "source": "IPIP H230"
+  },
+  {
+   "id": "PER-CON-02",
+   "dimension": "conscience",
+   "texte": "J'arrive à l'heure.",
+   "source": "IPIP H229"
+  },
+  {
+   "id": "PER-CON-03",
+   "dimension": "conscience",
+   "texte": "Je respecte mes rendez-vous.",
+   "source": "IPIP H144"
+  },
+  {
+   "id": "PER-CON-04",
+   "dimension": "conscience",
+   "texte": "Je fais les choses selon un plan.",
+   "source": "IPIP H1351"
+  },
+  {
+   "id": "PER-CON-05",
+   "dimension": "conscience",
+   "texte": "Je fais les choses dans un ordre logique.",
+   "source": "IPIP H1350"
+  },
+  {
+   "id": "PER-CON-06",
+   "dimension": "conscience",
+   "texte": "Je garde mes affaires en ordre.",
+   "source": "IPIP Q104"
+  },
+  {
+   "id": "PER-CON-07",
+   "dimension": "conscience",
+   "texte": "J'aime organiser les choses.",
+   "source": "IPIP H1161"
+  },
+  {
+   "id": "PER-CON-08",
+   "dimension": "conscience",
+   "texte": "Je fais des listes de choses à faire.",
+   "source": "IPIP H237"
+  },
+  {
+   "id": "PER-CON-09",
+   "dimension": "conscience",
+   "texte": "Je prends bien soin de mes affaires.",
+   "source": "IPIP H243"
+  },
+  {
+   "id": "PER-CON-10",
+   "dimension": "conscience",
+   "texte": "Je mène à bien mes projets.",
+   "source": "IPIP X196"
   },
   {
    "id": "PER-CON-11",
    "dimension": "conscience",
-   "texte": "Je termine ce que j'ai commencé."
+   "texte": "Je tiens mes engagements.",
+   "source": "IPIP X146"
   },
   {
    "id": "PER-CON-12",
    "dimension": "conscience",
-   "texte": "J'ai tendance à remettre les choses au lendemain."
+   "texte": "Je termine ce que je commence.",
+   "source": "IPIP H254"
   },
   {
    "id": "PER-CON-13",
    "dimension": "conscience",
-   "texte": "Je prépare mes affaires la veille."
+   "texte": "Je n'abandonne pas une tâche avant qu'elle soit terminée.",
+   "source": "IPIP V12"
   },
   {
    "id": "PER-CON-14",
    "dimension": "conscience",
-   "texte": "Je fais mes tâches dans l'ordre, sans me disperser."
+   "texte": "Je n'abandonne jamais.",
+   "source": "IPIP H556"
   },
   {
    "id": "PER-CON-15",
    "dimension": "conscience",
-   "texte": "Je me laisse facilement distraire de mon travail."
+   "texte": "Je n'abandonne pas facilement, même quand les choses deviennent difficiles.",
+   "source": "IPIP W318"
   },
   {
    "id": "PER-CON-16",
    "dimension": "conscience",
-   "texte": "Je suis rigoureux(se) dans ce que je fais."
+   "texte": "Je suis un(e) travailleur(se) acharné(e).",
+   "source": "IPIP V161"
   },
   {
    "id": "PER-CON-17",
    "dimension": "conscience",
-   "texte": "Je laisse parfois les choses à moitié faites."
+   "texte": "Je suis une personne très disciplinée.",
+   "source": "IPIP V98"
   },
   {
    "id": "PER-CON-18",
    "dimension": "conscience",
-   "texte": "J'aime avoir un plan avant de me lancer."
+   "texte": "Je remplis mes devoirs sans me plaindre.",
+   "source": "IPIP H311"
   },
   {
    "id": "PER-CON-19",
    "dimension": "conscience",
-   "texte": "Je tiens mes promesses."
+   "texte": "J'aime être bien préparé(e).",
+   "source": "IPIP H1191"
   },
   {
    "id": "PER-CON-20",
    "dimension": "conscience",
-   "texte": "Je suis souvent en retard."
+   "texte": "J'aime planifier à l'avance.",
+   "source": "IPIP X171"
   },
   {
    "id": "PER-CON-21",
    "dimension": "conscience",
-   "texte": "Je vérifie mon travail avant de le rendre."
+   "texte": "Je pense à l'avance.",
+   "source": "IPIP H1256"
   },
   {
    "id": "PER-CON-22",
    "dimension": "conscience",
-   "texte": "Je me fixe des objectifs précis."
+   "texte": "Je tiens compte de l'avenir.",
+   "source": "IPIP H1258"
   },
   {
    "id": "PER-CON-23",
    "dimension": "conscience",
-   "texte": "Je fais les choses à la dernière minute."
+   "texte": "Je prends des décisions réfléchies.",
+   "source": "IPIP H377"
   },
   {
    "id": "PER-CON-24",
    "dimension": "conscience",
-   "texte": "Je range mes affaires après les avoir utilisées."
+   "texte": "Je réfléchis avant d'agir.",
+   "source": "IPIP H1202"
   },
   {
    "id": "PER-CON-25",
    "dimension": "conscience",
-   "texte": "Je persévère même quand la tâche devient pénible."
+   "texte": "Je réfléchis avant de parler.",
+   "source": "IPIP V100"
   },
   {
    "id": "PER-CON-26",
    "dimension": "conscience",
-   "texte": "J'abandonne facilement quand c'est difficile."
+   "texte": "Je réfléchis à deux fois avant d'agir.",
+   "source": "IPIP H213"
   },
   {
    "id": "PER-CON-27",
    "dimension": "conscience",
-   "texte": "Je suis organisé(e) dans mon travail."
+   "texte": "Je prends des décisions hâtives.",
+   "source": "IPIP H853"
   },
   {
    "id": "PER-CON-28",
    "dimension": "conscience",
-   "texte": "Je suis ponctuel(le)."
+   "texte": "Je me lance dans les choses sans réfléchir.",
+   "source": "IPIP E46"
   },
   {
    "id": "PER-CON-29",
    "dimension": "conscience",
-   "texte": "Je fais preuve d'autodiscipline."
+   "texte": "J'agis sans réfléchir.",
+   "source": "IPIP H846"
   },
   {
    "id": "PER-CON-30",
    "dimension": "conscience",
-   "texte": "Je perds souvent mes affaires."
+   "texte": "J'agis sans planifier.",
+   "source": "IPIP H848"
   },
   {
    "id": "PER-CON-31",
    "dimension": "conscience",
-   "texte": "Je réfléchis avant d'agir."
+   "texte": "Je laisse les choses inachevées.",
+   "source": "IPIP H928"
   },
   {
    "id": "PER-CON-32",
    "dimension": "conscience",
-   "texte": "J'agis souvent sur un coup de tête."
+   "texte": "Je laisse mon travail inachevé.",
+   "source": "IPIP H625"
   },
   {
    "id": "PER-CON-33",
    "dimension": "conscience",
-   "texte": "Je note ce que j'ai à faire pour ne rien oublier."
+   "texte": "Je néglige mes devoirs.",
+   "source": "IPIP H1189"
   },
   {
    "id": "PER-CON-34",
    "dimension": "conscience",
-   "texte": "Je ne supporte pas le travail bâclé."
+   "texte": "J'évite les responsabilités.",
+   "source": "IPIP H827"
   },
   {
    "id": "PER-CON-35",
    "dimension": "conscience",
-   "texte": "Je me contente de faire le minimum."
+   "texte": "J'oublie mes rendez-vous.",
+   "source": "IPIP H835"
   },
   {
    "id": "PER-CON-36",
    "dimension": "conscience",
-   "texte": "Je suis fiable."
+   "texte": "J'arrive souvent en retard.",
+   "source": "IPIP H819"
   },
   {
    "id": "PER-CON-37",
    "dimension": "conscience",
-   "texte": "Je planifie mes journées."
+   "texte": "Je laisse ma chambre en désordre.",
+   "source": "IPIP H823"
   },
   {
    "id": "PER-CON-38",
    "dimension": "conscience",
-   "texte": "Je néglige parfois les détails."
+   "texte": "Je perds mes affaires.",
+   "source": "IPIP H841"
   },
   {
    "id": "PER-CON-39",
    "dimension": "conscience",
-   "texte": "Je prends mes responsabilités au sérieux."
+   "texte": "Je mets tout en désordre.",
+   "source": "IPIP H1467"
   },
   {
    "id": "PER-CON-40",
    "dimension": "conscience",
-   "texte": "Je garde mon espace de travail en ordre."
+   "texte": "Je fais les choses à moitié.",
+   "source": "IPIP H1413"
+  },
+  {
+   "id": "PER-CON-41",
+   "dimension": "conscience",
+   "texte": "Je fais les choses à la dernière minute.",
+   "source": "IPIP H858"
+  },
+  {
+   "id": "PER-CON-42",
+   "dimension": "conscience",
+   "texte": "Je ne me donne même pas la peine de faire un effort.",
+   "source": "IPIP H838"
+  },
+  {
+   "id": "PER-CON-43",
+   "dimension": "conscience",
+   "texte": "Je laisse les autres faire le travail.",
+   "source": "IPIP H831"
+  },
+  {
+   "id": "PER-CON-44",
+   "dimension": "conscience",
+   "texte": "J'ai besoin d'un coup de pouce pour me mettre au travail.",
+   "source": "IPIP H969"
+  },
+  {
+   "id": "PER-CON-45",
+   "dimension": "conscience",
+   "texte": "J'ai du mal à me mettre au travail.",
+   "source": "IPIP H1171"
+  },
+  {
+   "id": "PER-CON-46",
+   "dimension": "conscience",
+   "texte": "J'ai du mal à commencer les tâches.",
+   "source": "IPIP H621"
+  },
+  {
+   "id": "PER-CON-47",
+   "dimension": "conscience",
+   "texte": "Je commence mes tâches tout de suite.",
+   "source": "IPIP H511"
+  },
+  {
+   "id": "PER-CON-48",
+   "dimension": "conscience",
+   "texte": "Je termine mes tâches rapidement.",
+   "source": "IPIP H251"
+  },
+  {
+   "id": "PER-CON-49",
+   "dimension": "conscience",
+   "texte": "Je fais attention aux détails.",
+   "source": "IPIP X127"
+  },
+  {
+   "id": "PER-CON-50",
+   "dimension": "conscience",
+   "texte": "Je prends les tâches trop à la légère.",
+   "source": "IPIP H836"
+  },
+  {
+   "id": "PER-STA-01",
+   "dimension": "stabilite",
+   "texte": "Je m'inquiète pour tout.",
+   "source": "IPIP P420"
+  },
+  {
+   "id": "PER-STA-02",
+   "dimension": "stabilite",
+   "texte": "Je m'inquiète rarement.",
+   "source": "IPIP D79"
+  },
+  {
+   "id": "PER-STA-03",
+   "dimension": "stabilite",
+   "texte": "Je me laisse facilement contrarier.",
+   "source": "IPIP X95"
+  },
+  {
+   "id": "PER-STA-04",
+   "dimension": "stabilite",
+   "texte": "Je suis facilement stressé(e).",
+   "source": "IPIP X107"
+  },
+  {
+   "id": "PER-STA-05",
+   "dimension": "stabilite",
+   "texte": "Je m'irrite facilement.",
+   "source": "IPIP H761"
+  },
+  {
+   "id": "PER-STA-06",
+   "dimension": "stabilite",
+   "texte": "Je m'agace à la moindre provocation.",
+   "source": "IPIP H1118"
+  },
+  {
+   "id": "PER-STA-07",
+   "dimension": "stabilite",
+   "texte": "Je perds mon sang-froid.",
+   "source": "IPIP H755"
+  },
+  {
+   "id": "PER-STA-08",
+   "dimension": "stabilite",
+   "texte": "Je deviens furieux(se).",
+   "source": "IPIP H759"
+  },
+  {
+   "id": "PER-STA-09",
+   "dimension": "stabilite",
+   "texte": "Je rougis de colère.",
+   "source": "IPIP H811"
+  },
+  {
+   "id": "PER-STA-10",
+   "dimension": "stabilite",
+   "texte": "Je suis rarement irrité(e).",
+   "source": "IPIP X265"
   },
   {
    "id": "PER-STA-11",
    "dimension": "stabilite",
-   "texte": "Je garde mon calme sous la pression."
+   "texte": "Je m'emporte rarement.",
+   "source": "IPIP X231"
   },
   {
    "id": "PER-STA-12",
    "dimension": "stabilite",
-   "texte": "Je panique facilement quand les choses vont mal."
+   "texte": "Je ne me frustre pas facilement.",
+   "source": "IPIP X59"
   },
   {
    "id": "PER-STA-13",
    "dimension": "stabilite",
-   "texte": "Je me remets vite d'un contretemps."
+   "texte": "Je garde mon sang-froid.",
+   "source": "IPIP X191"
   },
   {
    "id": "PER-STA-14",
    "dimension": "stabilite",
-   "texte": "Je rumine longtemps après une critique."
+   "texte": "Je garde le contrôle de mes émotions.",
+   "source": "IPIP H381"
   },
   {
    "id": "PER-STA-15",
    "dimension": "stabilite",
-   "texte": "Je reste serein(e) face à l'imprévu."
+   "texte": "Je peux contrôler mes émotions.",
+   "source": "IPIP V137"
   },
   {
    "id": "PER-STA-16",
    "dimension": "stabilite",
-   "texte": "Je m'inquiète à l'avance pour des choses qui ne se produiront peut-être pas."
+   "texte": "Je me sens submergé(e) par mes émotions.",
+   "source": "IPIP H950"
   },
   {
    "id": "PER-STA-17",
    "dimension": "stabilite",
-   "texte": "Je dors bien même quand j'ai des soucis."
+   "texte": "Je perds le contrôle.",
+   "source": "IPIP H925"
   },
   {
    "id": "PER-STA-18",
    "dimension": "stabilite",
-   "texte": "Je me sens souvent tendu(e)."
+   "texte": "Je suis détendu(e) la plupart du temps.",
+   "source": "IPIP E141"
   },
   {
    "id": "PER-STA-19",
    "dimension": "stabilite",
-   "texte": "Je supporte bien les situations stressantes."
+   "texte": "Je me sens rarement cafardeux(se).",
+   "source": "IPIP X156"
   },
   {
    "id": "PER-STA-20",
    "dimension": "stabilite",
-   "texte": "Je doute souvent de moi."
+   "texte": "Je me sens souvent cafardeux(se).",
+   "source": "IPIP X74"
   },
   {
    "id": "PER-STA-21",
    "dimension": "stabilite",
-   "texte": "Je garde mon sang-froid dans les situations d'urgence."
+   "texte": "Je suis souvent déprimé(e).",
+   "source": "IPIP H640"
   },
   {
    "id": "PER-STA-22",
    "dimension": "stabilite",
-   "texte": "Je m'énerve pour des détails."
+   "texte": "Je me sens rarement déprimé(e).",
+   "source": "IPIP D87"
   },
   {
    "id": "PER-STA-23",
    "dimension": "stabilite",
-   "texte": "Je prends les critiques sans me laisser abattre."
+   "texte": "Je vois du danger partout.",
+   "source": "IPIP H958"
   },
   {
    "id": "PER-STA-24",
    "dimension": "stabilite",
-   "texte": "Je me sens facilement dépassé(e) par les événements."
+   "texte": "Je vois des difficultés partout.",
+   "source": "IPIP H633"
   },
   {
    "id": "PER-STA-25",
    "dimension": "stabilite",
-   "texte": "Je suis rarement anxieux(se)."
+   "texte": "Je grossis les problèmes.",
+   "source": "IPIP H1411"
   },
   {
    "id": "PER-STA-26",
    "dimension": "stabilite",
-   "texte": "Mes émotions sont stables d'un jour à l'autre."
+   "texte": "Je panique facilement.",
+   "source": "IPIP T2171"
   },
   {
    "id": "PER-STA-27",
    "dimension": "stabilite",
-   "texte": "Je me laisse envahir par mes soucis."
+   "texte": "Je suis facilement effrayé(e).",
+   "source": "IPIP H945"
   },
   {
    "id": "PER-STA-28",
    "dimension": "stabilite",
-   "texte": "Je dédramatise facilement les problèmes."
+   "texte": "J'ai peur de beaucoup de choses.",
+   "source": "IPIP H968"
   },
   {
    "id": "PER-STA-29",
    "dimension": "stabilite",
-   "texte": "Je me sens facilement coupable."
+   "texte": "J'ai peur de faire une erreur.",
+   "source": "IPIP H905"
   },
   {
    "id": "PER-STA-30",
    "dimension": "stabilite",
-   "texte": "Je suis sûr(e) de moi dans les moments difficiles."
+   "texte": "J'invente des choses qui pourraient mal tourner.",
+   "source": "IPIP H1000"
   },
   {
    "id": "PER-STA-31",
    "dimension": "stabilite",
-   "texte": "Je me mets facilement en colère."
+   "texte": "Je m'invente des problèmes.",
+   "source": "IPIP H1005"
   },
   {
    "id": "PER-STA-32",
    "dimension": "stabilite",
-   "texte": "Je relativise quand quelque chose ne se passe pas comme prévu."
+   "texte": "Je surmonte facilement les revers.",
+   "source": "IPIP H44"
   },
   {
    "id": "PER-STA-33",
    "dimension": "stabilite",
-   "texte": "Je suis souvent nerveux(se) avant une épreuve importante."
+   "texte": "Je suis abattu(e) par les revers.",
+   "source": "IPIP H643"
   },
   {
    "id": "PER-STA-34",
    "dimension": "stabilite",
-   "texte": "Je reste de bonne humeur même quand la journée est difficile."
+   "texte": "Je me décourage facilement.",
+   "source": "IPIP H911"
   },
   {
    "id": "PER-STA-35",
    "dimension": "stabilite",
-   "texte": "Les imprévus me déstabilisent."
+   "texte": "Je me sens capable de relever n'importe quel défi.",
+   "source": "IPIP H1116"
   },
   {
    "id": "PER-STA-36",
    "dimension": "stabilite",
-   "texte": "Je me sens bien dans ma peau."
+   "texte": "Je me sens facilement menacé(e).",
+   "source": "IPIP H612"
   },
   {
    "id": "PER-STA-37",
    "dimension": "stabilite",
-   "texte": "J'ai du mal à me calmer après une contrariété."
+   "texte": "Mes humeurs changent souvent.",
+   "source": "IPIP E92"
   },
   {
    "id": "PER-STA-38",
    "dimension": "stabilite",
-   "texte": "Je ne me laisse pas facilement impressionner."
+   "texte": "Mon humeur change beaucoup.",
+   "source": "IPIP H926"
   },
   {
    "id": "PER-STA-39",
    "dimension": "stabilite",
-   "texte": "Je me sens vite découragé(e) après un échec."
+   "texte": "Mon humeur fluctue facilement.",
+   "source": "IPIP R1"
   },
   {
    "id": "PER-STA-40",
    "dimension": "stabilite",
-   "texte": "Je gère bien mes émotions."
+   "texte": "Les événements ne me perturbent pas.",
+   "source": "IPIP H386"
+  },
+  {
+   "id": "PER-STA-41",
+   "dimension": "stabilite",
+   "texte": "Je ne suis pas facilement perturbé(e) par les événements.",
+   "source": "IPIP H1113"
+  },
+  {
+   "id": "PER-STA-42",
+   "dimension": "stabilite",
+   "texte": "Les événements inattendus me déstabilisent.",
+   "source": "IPIP H957"
+  },
+  {
+   "id": "PER-STA-43",
+   "dimension": "stabilite",
+   "texte": "Je suis facilement blessé(e).",
+   "source": "IPIP H987"
+  },
+  {
+   "id": "PER-STA-44",
+   "dimension": "stabilite",
+   "texte": "Je me vexe facilement.",
+   "source": "IPIP H762"
+  },
+  {
+   "id": "PER-STA-45",
+   "dimension": "stabilite",
+   "texte": "Je pleure facilement.",
+   "source": "IPIP H2012"
+  },
+  {
+   "id": "PER-STA-46",
+   "dimension": "stabilite",
+   "texte": "Je pleure devant les films.",
+   "source": "IPIP H2011"
+  },
+  {
+   "id": "PER-STA-47",
+   "dimension": "stabilite",
+   "texte": "Je suis facilement troublé(e).",
+   "source": "IPIP H843"
+  },
+  {
+   "id": "PER-STA-48",
+   "dimension": "stabilite",
+   "texte": "Il faut beaucoup de choses pour que je me sente frustré(e) ou irrité(e).",
+   "source": "IPIP D111"
+  },
+  {
+   "id": "PER-STA-49",
+   "dimension": "stabilite",
+   "texte": "Il faut beaucoup de choses pour que je me mette en colère contre quelqu'un.",
+   "source": "IPIP D68"
+  },
+  {
+   "id": "PER-STA-50",
+   "dimension": "stabilite",
+   "texte": "Je reste calme sous la pression.",
+   "source": "IPIP X79"
+  },
+  {
+   "id": "PER-OUV-01",
+   "dimension": "ouverture",
+   "texte": "J'ai une très bonne imagination.",
+   "source": "IPIP W265"
+  },
+  {
+   "id": "PER-OUV-02",
+   "dimension": "ouverture",
+   "texte": "J'ai une imagination débordante.",
+   "source": "IPIP X14"
+  },
+  {
+   "id": "PER-OUV-03",
+   "dimension": "ouverture",
+   "texte": "Je déborde d'idées.",
+   "source": "IPIP H53"
+  },
+  {
+   "id": "PER-OUV-04",
+   "dimension": "ouverture",
+   "texte": "Les idées nouvelles m'enthousiasment.",
+   "source": "IPIP H5"
+  },
+  {
+   "id": "PER-OUV-05",
+   "dimension": "ouverture",
+   "texte": "J'aime entendre de nouvelles idées.",
+   "source": "IPIP X166"
+  },
+  {
+   "id": "PER-OUV-06",
+   "dimension": "ouverture",
+   "texte": "J'aime apprendre de nouvelles choses.",
+   "source": "IPIP H1271"
+  },
+  {
+   "id": "PER-OUV-07",
+   "dimension": "ouverture",
+   "texte": "J'adore apprendre de nouvelles choses.",
+   "source": "IPIP H1265"
+  },
+  {
+   "id": "PER-OUV-08",
+   "dimension": "ouverture",
+   "texte": "Je suis ravi(e) d'apprendre quelque chose de nouveau.",
+   "source": "IPIP V75"
+  },
+  {
+   "id": "PER-OUV-09",
+   "dimension": "ouverture",
+   "texte": "J'essaie de nouvelles choses.",
+   "source": "IPIP H1269"
+  },
+  {
+   "id": "PER-OUV-10",
+   "dimension": "ouverture",
+   "texte": "J'aime visiter de nouveaux endroits.",
+   "source": "IPIP X104"
   },
   {
    "id": "PER-OUV-11",
    "dimension": "ouverture",
-   "texte": "J'aime découvrir des idées nouvelles."
+   "texte": "J'adore voyager vers des endroits que je ne connais pas.",
+   "source": "IPIP W61"
   },
   {
    "id": "PER-OUV-12",
    "dimension": "ouverture",
-   "texte": "Je préfère les habitudes aux nouveautés."
+   "texte": "J'adore goûter des plats que je n'ai jamais mangés.",
+   "source": "IPIP W62"
   },
   {
    "id": "PER-OUV-13",
    "dimension": "ouverture",
-   "texte": "Je suis curieux(se) de tout."
+   "texte": "J'aime la variété.",
+   "source": "IPIP H456"
   },
   {
    "id": "PER-OUV-14",
    "dimension": "ouverture",
-   "texte": "J'aime lire des livres qui font réfléchir."
+   "texte": "Je préfère la variété à la routine.",
+   "source": "IPIP X204"
   },
   {
    "id": "PER-OUV-15",
    "dimension": "ouverture",
-   "texte": "Je m'ennuie quand on parle de théories."
+   "texte": "Je n'aime pas la routine.",
+   "source": "IPIP X122"
   },
   {
    "id": "PER-OUV-16",
    "dimension": "ouverture",
-   "texte": "J'aime imaginer des solutions originales."
+   "texte": "Je n'aime pas l'inconnu.",
+   "source": "IPIP H1458"
   },
   {
    "id": "PER-OUV-17",
    "dimension": "ouverture",
-   "texte": "Je trouve les débats d'idées passionnants."
+   "texte": "Je préfère m'en tenir à ce que je connais.",
+   "source": "IPIP X30"
   },
   {
    "id": "PER-OUV-18",
    "dimension": "ouverture",
-   "texte": "J'aime visiter des endroits que je ne connais pas."
+   "texte": "Je n'aime pas l'idée du changement.",
+   "source": "IPIP H910"
   },
   {
    "id": "PER-OUV-19",
    "dimension": "ouverture",
-   "texte": "Je me méfie des changements."
+   "texte": "Je suis ouvert(e) au changement.",
+   "source": "IPIP X62"
   },
   {
    "id": "PER-OUV-20",
    "dimension": "ouverture",
-   "texte": "J'aime l'art, la musique ou la poésie."
+   "texte": "Je suis ouvert(e) aux idées.",
+   "source": "IPIP H1142"
   },
   {
    "id": "PER-OUV-21",
    "dimension": "ouverture",
-   "texte": "Je me pose souvent des questions sur le monde."
+   "texte": "Je suis ouvert(e) aux nouvelles expériences.",
+   "source": "IPIP Q61"
   },
   {
    "id": "PER-OUV-22",
    "dimension": "ouverture",
-   "texte": "Je préfère faire les choses comme on les a toujours faites."
+   "texte": "Je suis attaché(e) aux méthodes traditionnelles.",
+   "source": "IPIP H312"
   },
   {
    "id": "PER-OUV-23",
    "dimension": "ouverture",
-   "texte": "J'aime apprendre de nouvelles choses."
+   "texte": "Je suis les sentiers battus.",
+   "source": "IPIP H1383"
   },
   {
    "id": "PER-OUV-24",
    "dimension": "ouverture",
-   "texte": "Je m'intéresse peu à la culture."
+   "texte": "Je perpétue les vieilles traditions.",
+   "source": "IPIP H1061"
   },
   {
    "id": "PER-OUV-25",
    "dimension": "ouverture",
-   "texte": "J'essaie volontiers des activités inhabituelles."
+   "texte": "Je crois en l'importance de la tradition.",
+   "source": "IPIP X207"
   },
   {
    "id": "PER-OUV-26",
    "dimension": "ouverture",
-   "texte": "Je trouve facilement des moyens inventifs de résoudre un problème."
+   "texte": "Je crois en l'importance de l'art.",
+   "source": "IPIP X123"
   },
   {
    "id": "PER-OUV-27",
    "dimension": "ouverture",
-   "texte": "Je me perds facilement dans mes pensées et mon imagination."
+   "texte": "Je crois que l'art est très important.",
+   "source": "IPIP W13"
   },
   {
    "id": "PER-OUV-28",
    "dimension": "ouverture",
-   "texte": "Je trouve la philosophie ennuyeuse."
+   "texte": "J'apprécie toutes les formes d'art.",
+   "source": "IPIP V243"
   },
   {
    "id": "PER-OUV-29",
    "dimension": "ouverture",
-   "texte": "Je suis attiré(e) par ce qui sort de l'ordinaire."
+   "texte": "Je n'aime pas l'art.",
+   "source": "IPIP X86"
   },
   {
    "id": "PER-OUV-30",
    "dimension": "ouverture",
-   "texte": "Je cherche à comprendre le fonctionnement des choses."
+   "texte": "Je n'aime pas la poésie.",
+   "source": "IPIP X45"
   },
   {
    "id": "PER-OUV-31",
    "dimension": "ouverture",
-   "texte": "Je n'aime pas qu'on bouscule mes habitudes."
+   "texte": "Je n'aime pas les concerts.",
+   "source": "IPIP X144"
   },
   {
    "id": "PER-OUV-32",
    "dimension": "ouverture",
-   "texte": "J'ai plaisir à jouer avec les mots et les idées."
+   "texte": "Je vois la beauté dans les choses du quotidien.",
+   "source": "IPIP W14"
   },
   {
    "id": "PER-OUV-33",
    "dimension": "ouverture",
-   "texte": "Je m'adapte facilement à une nouvelle façon de faire."
+   "texte": "Je vois de la beauté là où d'autres ne la remarquent pas.",
+   "source": "IPIP E105"
   },
   {
    "id": "PER-OUV-34",
    "dimension": "ouverture",
-   "texte": "Je ne vois pas l'intérêt de se poser des questions sur tout."
+   "texte": "Je ressens de profondes émotions devant de belles choses.",
+   "source": "IPIP V102"
   },
   {
    "id": "PER-OUV-35",
    "dimension": "ouverture",
-   "texte": "J'aime regarder les choses sous un angle différent."
+   "texte": "Je fabrique de belles choses.",
+   "source": "IPIP H1245"
   },
   {
    "id": "PER-OUV-36",
    "dimension": "ouverture",
-   "texte": "Je m'intéresse à des cultures différentes de la mienne."
+   "texte": "Je crée quelque chose de valeur à partir de rien.",
+   "source": "IPIP H1236"
   },
   {
    "id": "PER-OUV-37",
    "dimension": "ouverture",
-   "texte": "Je préfère les tâches simples et répétitives aux tâches inventives."
+   "texte": "J'ai d'excellentes idées.",
+   "source": "IPIP H1313"
   },
   {
    "id": "PER-OUV-38",
    "dimension": "ouverture",
-   "texte": "Je suis fasciné(e) par les sciences et les découvertes."
+   "texte": "Je trouve de nouvelles façons de faire les choses.",
+   "source": "IPIP V155"
   },
   {
    "id": "PER-OUV-39",
    "dimension": "ouverture",
-   "texte": "J'aime réfléchir à des problèmes compliqués."
+   "texte": "J'adore imaginer de nouvelles façons de faire les choses.",
+   "source": "IPIP X225"
   },
   {
    "id": "PER-OUV-40",
    "dimension": "ouverture",
-   "texte": "Je trouve peu d'intérêt aux discussions abstraites."
+   "texte": "J'aime inventer de nouvelles façons de faire les choses.",
+   "source": "IPIP V71"
+  },
+  {
+   "id": "PER-OUV-41",
+   "dimension": "ouverture",
+   "texte": "Je trouve quelque chose de nouveau.",
+   "source": "IPIP H1230"
+  },
+  {
+   "id": "PER-OUV-42",
+   "dimension": "ouverture",
+   "texte": "J'adore réfléchir aux choses.",
+   "source": "IPIP H1210"
+  },
+  {
+   "id": "PER-OUV-43",
+   "dimension": "ouverture",
+   "texte": "Je réfléchis en profondeur aux choses.",
+   "source": "IPIP H1212"
+  },
+  {
+   "id": "PER-OUV-44",
+   "dimension": "ouverture",
+   "texte": "J'aime résoudre des problèmes complexes.",
+   "source": "IPIP X201"
+  },
+  {
+   "id": "PER-OUV-45",
+   "dimension": "ouverture",
+   "texte": "Je sais résoudre des problèmes complexes.",
+   "source": "IPIP H470"
+  },
+  {
+   "id": "PER-OUV-46",
+   "dimension": "ouverture",
+   "texte": "Je raisonne logiquement.",
+   "source": "IPIP H1223"
+  },
+  {
+   "id": "PER-OUV-47",
+   "dimension": "ouverture",
+   "texte": "Les idées abstraites ne m'intéressent pas.",
+   "source": "IPIP X228"
+  },
+  {
+   "id": "PER-OUV-48",
+   "dimension": "ouverture",
+   "texte": "Les discussions théoriques ne m'intéressent pas.",
+   "source": "IPIP X239"
+  },
+  {
+   "id": "PER-OUV-49",
+   "dimension": "ouverture",
+   "texte": "J'ai du mal à comprendre les idées abstraites.",
+   "source": "IPIP X176"
+  },
+  {
+   "id": "PER-OUV-50",
+   "dimension": "ouverture",
+   "texte": "Je manque d'imagination.",
+   "source": "IPIP X272"
   }
  ]
 }
