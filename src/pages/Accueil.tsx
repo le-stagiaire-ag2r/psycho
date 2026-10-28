@@ -106,7 +106,9 @@ export default function Accueil() {
               </label>
             ))}
             <p className="discret reglages-aide">
-              Les questions sont toujours nouvelles (tirées au hasard). La difficulté règle leur complexité : plus difficile = plus de pièges.
+              Les questions sont toujours nouvelles. <strong>Facile</strong> : pour découvrir une épreuve et comprendre sa logique.{' '}
+              <strong>Moyen</strong> : le bon réglage pour s’entraîner (on vise 60 à 75 % de réussite).{' '}
+              <strong>Difficile</strong> : plus de pièges, à prendre quand le moyen devient trop facile. Si tu réussis plus de 85 %, monte d’un cran ; sous 50 %, redescends.
             </p>
           </fieldset>
         )}
