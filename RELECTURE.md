@@ -10,7 +10,7 @@ Tout le contenu a été relu question par question, en cherchant : deux réponse
 faute de langue, explication fausse, distracteur absurde, règle impossible à déduire.
 
 ### Ce qui a été vérifié
-- **Verbal (159 items)** et **anglais (158 items)** : chaque énoncé, chaque proposition, chaque explication.
+- **Verbal (159 items)** et **anglais (293 items)** : chaque énoncé, chaque proposition, chaque explication.
 - **Personnalité (200 affirmations)** : formulation et contresens possibles.
 - **Numérique (45 gabarits)** : 2 exemples par gabarit relus à la main (énoncé, réponse, pièges, explication), mathématiques recoupées.
 - **Raisonnement général, cubes, grilles, attention, codage** : explications générées relues sur des échantillons de chaque difficulté.
@@ -151,3 +151,9 @@ Résultat : **316 réponses sur 317** identiques à la clé. Seul écart : ANG-G
 3. Si c'est le cas, remplacez `"relecture": null` par `"relecture": {"par": "votre pseudo", "date": "AAAA-MM-JJ"}`.
 4. Pour n'afficher que les questions relues, mettez `seulementRelus: 1` dans `src/config/epreuves.ts`.
 5. Si une question est fautive, ouvrez une issue avec le bouton « Signaler une erreur » (il pré-remplit l'identifiant et la graine).
+
+### Passe 6 : extension de la banque d'anglais (158 → 293 items)
+
+135 items ajoutés (110 de vocabulaire : contraires, synonymes, définitions, mots du quotidien, collocations, verbes à particule, familles de mots, mots qu'on confond ; 25 de grammaire : conditionnels, passif, discours indirect, question tags, gérondif/infinitif, pronoms relatifs, quantifieurs, modaux, temps). La banque passe à 150 items de grammaire et 143 de vocabulaire. Chaque proposition est expliquée.
+
+**Test à l'aveugle** : un sous-agent IA n'ayant accès qu'à l'énoncé et aux propositions mélangées (sans clé ni explication) a retrouvé la bonne réponse des 135 items, sans en juger aucun ambigu. Comme pour le reste de la banque, `relecture: null` : la relecture humaine reste à faire.
