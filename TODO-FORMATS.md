@@ -57,7 +57,7 @@ témoignages de candidats. Pour l'officiel : sengager.fr ou un CIRFA.
   sur chaque épreuve : à ajuster avec des retours de candidats
 
 ## Autres épreuves (valeurs de départ dans la config)
-- [ ] Logique : 14 à 25 questions, 7 à 14 min (ici 20 en 10 min)
+- [ ] Logique : 14 à 25 questions, 7 à 14 min selon les sources (ici 25 en 14 min, valeurs de l’oct. 2026 d’un site de préparation, non officielles)
 - [ ] Spatial : ~25 questions en 7 min
 - [ ] Verbal : ~31 questions en 8 min
 - [ ] Numérique : ~25 questions en 18 min
