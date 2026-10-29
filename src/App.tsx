@@ -45,6 +45,8 @@ export default function App() {
   // Un titre d'onglet propre à chaque page (historique, favoris, lecteurs d'écran).
   useEffect(() => {
     document.title = titreDePage(pathname);
+    // Chaque page s'ouvre en haut (sans cela, un focus automatique plus bas pouvait faire défiler la page).
+    window.scrollTo(0, 0);
   }, [pathname]);
 
   const ouvrirGuide = () => {
