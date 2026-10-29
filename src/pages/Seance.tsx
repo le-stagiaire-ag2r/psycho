@@ -18,6 +18,7 @@ import {
   type EtatSeance,
 } from '../lib/session';
 import type { Difficulte, EpreuveId, ItemRef, Mode, NiveauId } from '../lib/types';
+import { dureeEffectiveSecondes } from '../lib/chrono';
 import { useStockage } from '../state/Stockage';
 import Resultats from './Resultats';
 
@@ -85,6 +86,7 @@ export function SeanceInner({
   libelleDepart = 'Commencer',
   actionsResultats,
 }: SeanceProps) {
+  const { donnees: donneesChrono } = useStockage();
   const examen = mode === 'examen';
   const difficulte: Difficulte = refsImposees?.[0]?.difficulte ?? (examen ? config.difficulteExamen : difficulteChoisie);
   const nbQuestions = refsImposees?.length ?? (examen ? config.nbQuestions : config.nbQuestionsEntrainement);
@@ -114,8 +116,9 @@ export function SeanceInner({
   }, [enCours]);
 
   // Fin automatique du chrono strict en examen blanc.
-  const dureeMaxMs = config.dureeSecondes * 1000;
-  const restantMs = examen && etat ? dureeMaxMs - (maintenant - etat.debutMs) : null;
+  const dureeMaxMs = dureeEffectiveSecondes(config.dureeSecondes, donneesChrono.prefs.chrono) * 1000;
+  const chronoLimite = Number.isFinite(dureeMaxMs);
+  const restantMs = examen && chronoLimite && etat ? dureeMaxMs - (maintenant - etat.debutMs) : null;
   useEffect(() => {
     if (etat && !etat.fini && restantMs !== null && restantMs <= 0) {
       setEtat(terminer(etat, etat.debutMs + dureeMaxMs));
@@ -221,7 +224,7 @@ export function SeanceInner({
         <ul className="puces">
           <li>{examen ? 'Examen blanc' : 'Entraînement'}</li>
           <li>{nbQuestions} questions</li>
-          <li>{examen ? `Chrono strict ${formatDuree(dureeMaxMs)}` : 'Chrono souple'}</li>
+          <li>{examen ? (chronoLimite ? `Chrono ${formatDuree(dureeMaxMs)}` : 'Sans limite de temps') : 'Chrono souple'}</li>
           <li>Niveau : {libelleNiveau(niveau)}</li>
         </ul>
         <div className="actions actions-centre">
@@ -277,9 +280,9 @@ export function SeanceInner({
         <span
           className={`chrono ${alerte ? 'chrono-alerte' : ''}`}
           role="timer"
-          aria-label={examen ? 'Temps restant' : 'Temps écoulé'}
+          aria-label={restantMs !== null ? 'Temps restant' : 'Temps écoulé'}
         >
-          {examen ? formatDuree(Math.max(0, restantMs ?? 0)) : formatDuree(ecouleMs)}
+          {restantMs !== null ? formatDuree(Math.max(0, restantMs)) : formatDuree(ecouleMs)}
         </span>
       </div>
       <progress max={etat.items.length} value={faites} aria-label="Progression" />

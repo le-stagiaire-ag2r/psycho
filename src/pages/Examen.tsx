@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import ChoixChrono from '../components/ChoixChrono';
 import ListeErreurs from '../components/ListeErreurs';
 import { EPREUVES_EXAMEN, EPREUVES_OPTIONNELLES_EXAMEN } from '../config/examen';
 import { EPREUVES, type ConfigEpreuve } from '../config/epreuves';
 import { AVERTISSEMENT_OBJECTIFS, OBJECTIFS, libelleNiveau } from '../config/niveaux';
+import { dureeEffectiveSecondes } from '../lib/chrono';
 import { decimal, formatDuree, pourcent } from '../lib/format';
 import { creerResultat } from '../lib/resultat';
 import { calculerBilan, comparerObjectif, type Bilan } from '../lib/scoring';
@@ -29,7 +31,8 @@ export default function Examen() {
   const [manche, setManche] = useState(0);
 
   const configs = choisies.map((id) => EPREUVES[id]);
-  const dureeTotale = configs.reduce((s, c) => s + c.dureeSecondes, 0) * 1000;
+  const chrono = donnees.prefs.chrono;
+  const dureeTotale = configs.reduce((s, c) => s + dureeEffectiveSecondes(c.dureeSecondes, chrono), 0) * 1000;
 
   const demarrer = () => {
     setExamenId(`ex-${new Date().toISOString()}-${Math.random().toString(36).slice(2, 6)}`);
@@ -51,7 +54,7 @@ export default function Examen() {
       <section aria-labelledby="titre-examen">
         <h1 id="titre-examen">Examen blanc complet</h1>
         <p>
-          Enchaîne les épreuves comme un vrai test sur ordinateur : chrono strict, correction à la fin. Chaque épreuve
+          Enchaîne les épreuves comme un vrai test sur ordinateur : avec un chrono, correction à la fin. Chaque épreuve
           est enregistrée dans ta progression.
         </p>
         <p className="encadre" role="note">
@@ -65,14 +68,20 @@ export default function Examen() {
             return (
               <label key={id} className="choix">
                 <input type="checkbox" checked={choisies.includes(id)} onChange={() => basculer(id)} />
-                {c.titre} : {c.nbQuestions} questions, {formatDuree(c.dureeSecondes * 1000)}
+                {c.titre} : {c.nbQuestions} questions,{' '}
+                {Number.isFinite(dureeEffectiveSecondes(c.dureeSecondes, chrono))
+                  ? formatDuree(dureeEffectiveSecondes(c.dureeSecondes, chrono) * 1000)
+                  : 'sans limite de temps'}
                 {EPREUVES_OPTIONNELLES_EXAMEN.includes(id) ? ' (option)' : ''}
               </label>
             );
           })}
         </fieldset>
+        <ChoixChrono />
         <p>
-          Durée totale : <strong>{formatDuree(dureeTotale)}</strong> (hors lecture des consignes).
+          Durée totale :{' '}
+          <strong>{Number.isFinite(dureeTotale) ? formatDuree(dureeTotale) : 'sans limite de temps'}</strong> (hors lecture
+          des consignes).
         </p>
         <div className="actions">
           <button type="button" className="bouton" onClick={demarrer} disabled={choisies.length === 0}>

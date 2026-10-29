@@ -15,6 +15,8 @@ export type Mode = 'entrainement' | 'examen';
 export type NiveauId = 'militaire-du-rang' | 'sous-officier' | 'officier';
 export type Difficulte = 1 | 2 | 3;
 export type ThemePref = 'auto' | 'clair' | 'sombre';
+/** Réglage du chrono de l'examen blanc : durées indicatives, rallongées de 50 %, ou sans limite */
+export type ChronoPref = 'indicatif' | 'souple' | 'libre';
 
 /** Référence sérialisable d'un item : suffit à le régénérer à l'identique. */
 export interface ItemRef {
