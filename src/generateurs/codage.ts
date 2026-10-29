@@ -2,7 +2,10 @@ import { MOTS } from '../data/mots';
 import { creerPrng, melangerGraines, type Prng } from '../lib/prng';
 import type { Difficulte, EntreeCodage, Generateur, Item, ItemRef } from '../lib/types';
 
-export const VERSION_CODAGE = 1;
+/** Version 1 : numéros à 2 ou 3 chiffres, propositions tirées du tableau. Conservée pour rejouer l'historique. */
+export const VERSION_CODAGE_V1 = 1;
+/** Version 2 : codes à 4 chiffres, tableau de 12 mots visible en permanence, 4 codes très proches (format décrit par les candidats). */
+export const VERSION_CODAGE = 2;
 
 type Sens = 'numero-vers-mot' | 'mot-vers-numero';
 
@@ -123,8 +126,8 @@ function ordreDistracteurs(tableau: EntreeCodage[], cible: number): number[] {
   return ordre;
 }
 
-function genererCodage(ref: ItemRef): Item {
-  if (ref.version !== VERSION_CODAGE) {
+function genererCodageV1(ref: ItemRef): Item {
+  if (ref.version !== VERSION_CODAGE_V1) {
     throw new Error(`Version de générateur non supportée : codage v${ref.version}`);
   }
   const params = ref.params ?? {};
@@ -173,13 +176,118 @@ function genererCodage(ref: ItemRef): Item {
   };
 }
 
+// ---------------------------------------------------------------------------
+// Version 2 : mot affiché, code à 4 chiffres à retrouver parmi 4 codes très proches
+// ---------------------------------------------------------------------------
+
+/** Tableau de la version 2 : mots choisis comme avant, codes à 4 chiffres tous différents. */
+export function genererTableauV2(tableSeed: number, taille: number, diff: Difficulte): EntreeCodage[] {
+  const rng = creerPrng(tableSeed);
+  const mots = choisirMots(rng, taille, diff);
+  const pris = new Set<number>();
+  const codes: number[] = [];
+  while (codes.length < taille) {
+    const x = rng.entier(1000, 9999);
+    if (pris.has(x)) continue;
+    pris.add(x);
+    codes.push(x);
+  }
+  return mots.map((mot, i) => ({ mot, numero: codes[i] }));
+}
+
+/** Positions (1 à 4) où deux codes diffèrent. */
+export function positionsDifferentes(a: string, b: string): number[] {
+  return [...a].map((c, i) => (c !== b[i] ? i + 1 : 0)).filter((i) => i > 0);
+}
+
+/**
+ * Code voisin d'un code : `n` chiffres modifiés (jamais le premier à zéro), ou deux chiffres voisins échangés.
+ * Le résultat est toujours différent de la base.
+ */
+export function codeVoisin(base: string, rng: Prng, n: 1 | 2 | 3, transposition = false): string {
+  const c = [...base];
+  if (transposition) {
+    const choix: number[] = [];
+    for (let i = 0; i < 3; i++) if (c[i] !== c[i + 1] && !(i === 0 && c[1] === '0')) choix.push(i);
+    if (choix.length > 0) {
+      const i = rng.choisir(choix);
+      [c[i], c[i + 1]] = [c[i + 1], c[i]];
+      return c.join('');
+    }
+  }
+  const positions = rng.melanger([0, 1, 2, 3]).slice(0, n);
+  for (const i of positions) {
+    const possibles = [...'0123456789'].filter((d) => d !== base[i] && !(i === 0 && d === '0'));
+    c[i] = rng.choisir(possibles);
+  }
+  return c.join('');
+}
+
+function genererCodageV2(ref: ItemRef): Item {
+  const params = ref.params ?? {};
+  const taille = Number(params.taille ?? 12);
+  const nbChoix = Number(params.nbChoix ?? 4);
+  const tableSeed = Number(params.tableSeed ?? ref.seed);
+  const tableau = genererTableauV2(tableSeed, taille, ref.difficulte);
+  const rng = creerPrng(ref.seed);
+  const cible = tableau[rng.entier(0, tableau.length - 1)];
+  const code = String(cible.numero);
+  const dejaPris = new Set(tableau.map((e) => String(e.numero)));
+
+  // Difficulté : de plus en plus de codes qui ne diffèrent que par un seul chiffre ou deux chiffres échangés.
+  const distracteurs: string[] = [];
+  let essais = 0;
+  while (distracteurs.length < nbChoix - 1 && essais < 500) {
+    essais++;
+    const k = distracteurs.length;
+    let candidat: string;
+    if (ref.difficulte === 1) candidat = codeVoisin(code, rng, rng.chance(0.5) ? 2 : 3);
+    else if (ref.difficulte === 2) candidat = k === 0 ? codeVoisin(code, rng, 1) : codeVoisin(code, rng, rng.chance(0.5) ? 1 : 2);
+    else candidat = k === 1 ? codeVoisin(code, rng, 1, true) : codeVoisin(code, rng, 1);
+    if (candidat === code || dejaPris.has(candidat) || distracteurs.includes(candidat)) continue;
+    distracteurs.push(candidat);
+  }
+  if (distracteurs.length < nbChoix - 1) throw new Error('Impossible de fabriquer assez de codes voisins');
+
+  const options = rng.melanger([code, ...distracteurs]);
+  const bonneReponse = options.indexOf(code);
+  const explication =
+    'Retrouve le mot dans le tableau, lis son code en entier, puis cherche exactement ce code : les mauvaises propositions ne diffèrent que d’un ou deux chiffres.';
+  const pourquoi = options.map((o) => {
+    if (o === code) return `Juste : dans le tableau, « ${cible.mot} » est associé au code ${code}.`;
+    const diff = positionsDifferentes(code, o);
+    const detail = diff
+      .map((i) => `le chiffre ${i} vaut ${o[i - 1]} au lieu de ${code[i - 1]}`)
+      .join(', ');
+    return `Faux : ${o} ressemble à ${code}, mais ${detail}. Ce n'est pas le code de « ${cible.mot} ».`;
+  });
+
+  const suffixe = params.tableSeed !== undefined ? `-t${tableSeed}` : '';
+  return {
+    id: `codage-v${ref.version}-d${ref.difficulte}-s${ref.seed}${suffixe}`,
+    ref,
+    consigne: `Quel est le code du mot « ${cible.mot} » ?`,
+    stimulus: { type: 'codage', tableau, sens: 'mot-vers-numero', cible },
+    options,
+    bonneReponse,
+    explication,
+    pourquoi,
+  };
+}
+
+function genererCodage(ref: ItemRef): Item {
+  if (ref.version === VERSION_CODAGE_V1) return genererCodageV1(ref);
+  if (ref.version === VERSION_CODAGE) return genererCodageV2(ref);
+  throw new Error(`Version de générateur non supportée : codage v${ref.version}`);
+}
+
 export const generateurCodage: Generateur = {
   version: VERSION_CODAGE,
   generer: genererCodage,
   construireRefs({ graineBase, nb, difficulte, config }) {
-    const groupe = Number(config.parametres.questionsParTableau ?? 15);
+    // Comme au vrai test, le tableau reste le même pendant toute la séance (par défaut).
+    const groupe = Number(config.parametres.questionsParTableau ?? 1000);
     const taille = Number(config.parametres.tailleTableau ?? 12);
-    const sens = String(config.parametres.sens ?? 'numero-vers-mot');
     return Array.from({ length: nb }, (_, i) => ({
       epreuve: 'codage' as const,
       version: VERSION_CODAGE,
@@ -187,7 +295,6 @@ export const generateurCodage: Generateur = {
       difficulte,
       params: {
         tableSeed: melangerGraines(graineBase, 7919, Math.floor(i / groupe)),
-        sens,
         taille,
         nbChoix: config.nbChoix,
       },

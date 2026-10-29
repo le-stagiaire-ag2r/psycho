@@ -2096,7 +2096,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « Qui sème le vent récolte la tempête. » Sens : celui qui provoque des troubles en subira de grandes conséquences.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-002",
@@ -2120,7 +2121,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « Petit à petit, l'oiseau fait son nid. » Sens : on réussit par de petits efforts répétés.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-003",
@@ -2144,7 +2146,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « Pierre qui roule n'amasse pas mousse. » Sens : celui qui change sans cesse de lieu ou de métier ne s'installe pas et ne s'enrichit pas.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-004",
@@ -2168,7 +2171,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « L'habit ne fait pas le moine. » Sens : il ne faut pas juger sur les apparences.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-005",
@@ -2192,7 +2196,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « Il n'y a pas de fumée sans feu. » Sens : une rumeur ou un effet a toujours une cause.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-006",
@@ -2216,7 +2221,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « Chat échaudé craint l'eau froide. » Sens : après une mauvaise expérience, on se méfie même de ce qui est inoffensif (le chat brûlé par l'eau chaude craint même l'eau froide).",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-007",
@@ -2240,7 +2246,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « Tel père, tel fils. » Sens : les enfants ressemblent à leurs parents.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-008",
@@ -2264,7 +2271,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « À cœur vaillant, rien d'impossible. » Sens : avec du courage, on vient à bout de tout.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-009",
@@ -2288,7 +2296,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « Rien ne sert de courir, il faut partir à point. » Sens : il vaut mieux agir au bon moment que se presser en retard (fable « Le Lièvre et la Tortue »).",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-010",
@@ -2312,7 +2321,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « Les chiens aboient, la caravane passe. » Sens : il ne faut pas se laisser arrêter par les critiques.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-011",
@@ -2336,7 +2346,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « Qui trop embrasse mal étreint. » Sens : celui qui entreprend trop de choses n'en réussit aucune.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-012",
@@ -2360,7 +2371,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « Qui va à la chasse perd sa place. » Sens : quand on quitte un endroit, quelqu'un d'autre peut le prendre.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-013",
@@ -2384,7 +2396,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « L'appétit vient en mangeant. » Sens : le désir grandit quand on a commencé.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-014",
@@ -2408,7 +2421,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « Qui s'y frotte s'y pique. » Sens : qui s'attaque à plus fort ou à quelque chose de dangereux s'expose à être blessé.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-015",
@@ -2432,7 +2446,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « La nuit, tous les chats sont gris. » Sens : dans l'obscurité, on ne distingue plus les différences.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-016",
@@ -2456,7 +2471,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « C'est en forgeant qu'on devient forgeron. » Sens : c'est en pratiquant qu'on devient bon.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-017",
@@ -2480,7 +2496,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « Mieux vaut tard que jamais. » Sens : faire une chose en retard vaut mieux que ne pas la faire du tout.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-018",
@@ -2504,7 +2521,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « Un tiens vaut mieux que deux tu l'auras. » Sens : ce que l'on possède déjà vaut mieux qu'une promesse incertaine (« tiens » = ce qu'on tient, « tu l'auras » = la promesse).",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-019",
@@ -2528,7 +2546,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « Aide-toi, le ciel t'aidera. » Sens : il faut d'abord agir soi-même pour espérer être aidé.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-020",
@@ -2552,7 +2571,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « Les petits ruisseaux font les grandes rivières. » Sens : beaucoup de petites quantités finissent par faire beaucoup.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-021",
@@ -2576,7 +2596,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « Qui aime bien châtie bien. » Sens : celui qui aime vraiment corrige aussi, parce qu'il veut le bien de l'autre.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-022",
@@ -2600,7 +2621,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « Quand le chat n'est pas là, les souris dansent. » Sens : sans surveillance, on profite de l'absence du chef.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-PRO-023",
@@ -2624,7 +2646,8 @@
     }
    ],
    "explication": "Le proverbe complet est : « L'argent ne fait pas le bonheur. » Sens : la richesse ne garantit pas d'être heureux.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-001",
@@ -2648,7 +2671,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « rythme ». Le mot vient du grec « rhuthmos » : il garde le « h » et le « y ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-002",
@@ -2672,7 +2696,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « développement ». Comme « développer » : un seul « l », deux « p », puis le suffixe « -ement ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-003",
@@ -2696,7 +2721,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « apparition ». Comme « apparaître » : deux « p », puis la terminaison « -ition ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-004",
@@ -2720,7 +2746,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « accueillir ». Comme « cueillir » : après « c », on met « ue » pour garder le son [k] devant « eil ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-005",
@@ -2744,7 +2771,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « exigence ». Comme « exiger » : le mot commence par « ex- » sans accent et finit par « -ence ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-006",
@@ -2768,7 +2796,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « cauchemar ». Le mot finit par « -ar », sans « d » muet.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-007",
@@ -2792,7 +2821,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « dilemme ». Mot d'origine grecque : un seul « l », deux « m », fin en « -emme ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-008",
@@ -2816,7 +2846,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « occasion ». Deux « c », un seul « s ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-009",
@@ -2840,7 +2871,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « nécessaire ». Un seul accent (sur le premier « e »), deux « s », fin en « -aire ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-010",
@@ -2864,7 +2896,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « correspondance ». Deux « r » après « co- », et la fin « -ance » (comme « correspondant »).",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-011",
@@ -2888,7 +2921,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « connaissance ». Deux « n » et deux « s », comme « connaître → connaissance ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-012",
@@ -2912,7 +2946,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « appartement ». Deux « p », un seul « t », puis « -ement ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-013",
@@ -2936,7 +2971,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « adolescent ». Un seul « l », puis « -sc- » et la fin « -ent » (comme « innocent »).",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-014",
@@ -2960,7 +2996,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « parallèle ». Un seul « r » mais deux « l » au milieu, puis l'accent grave sur le « è ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-015",
@@ -2984,7 +3021,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « intelligence ». Deux « l » au milieu, et la fin « -ence ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-016",
@@ -3008,7 +3046,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « gouvernement ». Comme « gouverner » : un seul « m », puis « -ement ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-017",
@@ -3032,7 +3071,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « souhaiter ». Le « h » muet se place entre « sou » et « aiter ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-018",
@@ -3056,7 +3096,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « chaussure ». Deux « s » (comme « chausser ») et la fin « -ure ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-019",
@@ -3080,7 +3121,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « agressif ». Un seul « g » et deux « s », comme « agresser ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-020",
@@ -3104,7 +3146,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « éphémère ». Mot d'origine grecque : « ph » pour le son [f], accents aigu, aigu, grave.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-021",
@@ -3128,7 +3171,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « privilège ». Un seul « l » et l'accent grave sur le dernier « è » (devant « ge »).",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-022",
@@ -3152,7 +3196,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « baccalauréat ». Deux « c », un seul « l », puis « -auréat » avec accent aigu.",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-023",
@@ -3176,7 +3221,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « interrogation ». Comme « interroger » : deux « r » et la fin « -ation ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-ORT-024",
@@ -3200,7 +3246,8 @@
     }
    ],
    "explication": "L'orthographe correcte est « embarrasser ». Deux « r », deux « s », et « -em » devant « b ».",
-   "relecture": null
+   "relecture": null,
+   "actif": false
   },
   {
    "id": "VER-GRA-001",
@@ -3896,6 +3943,1614 @@
     }
    ],
    "explication": "Lundi / mardi et jeudi / vendredi entretiennent le même rapport : le jour suivant.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-016",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « prodigue » ?",
+   "bonne": "économe",
+   "pourquoiBonne": "« économe » signifie « qui dépense avec mesure et évite le gaspillage » : c'est l'opposé de « prodigue » (« qui dépense sans compter »).",
+   "fausses": [
+    {
+     "texte": "gaspilleur",
+     "raison": "« gaspilleur » signifie « qui dépense à tort et à travers » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "tendre",
+     "raison": "« tendre » signifie « doux et affectueux » : cela n'a pas de rapport avec la façon de dépenser."
+    },
+    {
+     "texte": "bruyant",
+     "raison": "« bruyant » signifie « qui fait beaucoup de bruit » : cela n'a pas de rapport avec la façon de dépenser."
+    }
+   ],
+   "explication": "« prodigue » signifie « qui dépense sans compter » ; son contraire « économe » signifie « qui dépense avec mesure et évite le gaspillage ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-017",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « sédentaire » ?",
+   "bonne": "nomade",
+   "pourquoiBonne": "« nomade » signifie « qui se déplace de lieu en lieu » : c'est l'opposé de « sédentaire » (« qui reste au même endroit »).",
+   "fausses": [
+    {
+     "texte": "casanier",
+     "raison": "« casanier » signifie « qui aime rester chez lui » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "tranquille",
+     "raison": "« tranquille » signifie « calme et paisible » : cela décrit le caractère, pas la façon de vivre dans un lieu."
+    },
+    {
+     "texte": "rural",
+     "raison": "« rural » signifie « de la campagne » : cela décrit un milieu, pas un déplacement."
+    }
+   ],
+   "explication": "« sédentaire » signifie « qui reste au même endroit » ; son contraire « nomade » signifie « qui se déplace de lieu en lieu ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-018",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « hardi » ?",
+   "bonne": "timoré",
+   "pourquoiBonne": "« timoré » signifie « qui manque d'audace et craint de s'engager » : c'est l'opposé de « hardi » (« qui ose, audacieux »).",
+   "fausses": [
+    {
+     "texte": "audacieux",
+     "raison": "« audacieux » signifie « qui ose et prend des risques » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "brave",
+     "raison": "« brave » signifie « qui n'a pas peur » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "rapide",
+     "raison": "« rapide » signifie « qui va vite » : cela décrit une vitesse, pas le courage."
+    }
+   ],
+   "explication": "« hardi » signifie « qui ose, audacieux » ; son contraire « timoré » signifie « qui manque d'audace et craint de s'engager ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-019",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « volubile » ?",
+   "bonne": "taciturne",
+   "pourquoiBonne": "« taciturne » signifie « qui parle très peu » : c'est l'opposé de « volubile » (« qui parle beaucoup et facilement »).",
+   "fausses": [
+    {
+     "texte": "bavard",
+     "raison": "« bavard » signifie « qui parle beaucoup » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "joyeux",
+     "raison": "« joyeux » signifie « de bonne humeur » : cela décrit l'humeur, pas la quantité de paroles."
+    },
+    {
+     "texte": "poli",
+     "raison": "« poli » signifie « qui respecte les règles de politesse » : cela n'a pas de rapport avec la quantité de paroles."
+    }
+   ],
+   "explication": "« volubile » signifie « qui parle beaucoup et facilement » ; son contraire « taciturne » signifie « qui parle très peu ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-020",
+   "type": "contraire",
+   "niveau": 3,
+   "enonce": "Quel mot est le contraire de « lucide » ?",
+   "bonne": "confus",
+   "pourquoiBonne": "« confus » signifie « qui manque de clarté et de netteté » : c'est l'opposé de « lucide » (« qui voit les choses clairement »).",
+   "fausses": [
+    {
+     "texte": "clairvoyant",
+     "raison": "« clairvoyant » signifie « qui voit clair » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "brillant",
+     "raison": "« brillant » signifie « très intelligent ou très éclatant » : cela n'exprime pas le manque de clarté."
+    },
+    {
+     "texte": "rapide",
+     "raison": "« rapide » signifie « qui va vite » : cela n'a pas de rapport avec la clarté d'esprit."
+    }
+   ],
+   "explication": "« lucide » signifie « qui voit les choses clairement » ; son contraire « confus » signifie « qui manque de clarté et de netteté ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-021",
+   "type": "contraire",
+   "niveau": 1,
+   "enonce": "Quel mot est le contraire de « éphémère » ?",
+   "bonne": "durable",
+   "pourquoiBonne": "« durable » signifie « qui dure longtemps » : c'est l'opposé de « éphémère » (« qui ne dure qu'un moment »).",
+   "fausses": [
+    {
+     "texte": "bref",
+     "raison": "« bref » signifie « de courte durée » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "fugace",
+     "raison": "« fugace » signifie « qui disparaît très vite » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "lointain",
+     "raison": "« lointain » signifie « éloigné dans l'espace ou le temps » : cela ne décrit pas la durée de ce qui existe."
+    }
+   ],
+   "explication": "« éphémère » signifie « qui ne dure qu'un moment » ; son contraire « durable » signifie « qui dure longtemps ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-022",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « antérieur » ?",
+   "bonne": "postérieur",
+   "pourquoiBonne": "« postérieur » signifie « qui vient après » : c'est l'opposé de « antérieur » (« qui vient avant »).",
+   "fausses": [
+    {
+     "texte": "précédent",
+     "raison": "« précédent » signifie « qui vient juste avant » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "ancien",
+     "raison": "« ancien » signifie « qui date d'il y a longtemps » : c'est proche de « antérieur » plutôt que son opposé."
+    },
+    {
+     "texte": "voisin",
+     "raison": "« voisin » signifie « qui est tout près » : cela décrit la proximité, pas l'ordre dans le temps."
+    }
+   ],
+   "explication": "« antérieur » signifie « qui vient avant » ; son contraire « postérieur » signifie « qui vient après ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-023",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « concave » ?",
+   "bonne": "convexe",
+   "pourquoiBonne": "« convexe » signifie « bombé, courbé vers l'extérieur » : c'est l'opposé de « concave » (« creux, courbé vers l'intérieur »).",
+   "fausses": [
+    {
+     "texte": "creux",
+     "raison": "« creux » signifie « qui présente un vide » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "plat",
+     "raison": "« plat » signifie « sans relief » : un objet plat n'est ni creux ni bombé : ce n'est pas l'opposé exact."
+    },
+    {
+     "texte": "courbe",
+     "raison": "« courbe » signifie « qui n'est pas droit » : cela décrit les deux formes : ce n'est pas un contraire."
+    }
+   ],
+   "explication": "« concave » signifie « creux, courbé vers l'intérieur » ; son contraire « convexe » signifie « bombé, courbé vers l'extérieur ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-024",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « licite » ?",
+   "bonne": "interdit",
+   "pourquoiBonne": "« interdit » signifie « qu'on n'a pas le droit de faire » : c'est l'opposé de « licite » (« permis par la loi »).",
+   "fausses": [
+    {
+     "texte": "permis",
+     "raison": "« permis » signifie « autorisé » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "légal",
+     "raison": "« légal » signifie « conforme à la loi » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "facultatif",
+     "raison": "« facultatif » signifie « qu'on peut faire ou ne pas faire » : ce qui est facultatif n'est pas défendu, ce n'est donc pas un contraire."
+    }
+   ],
+   "explication": "« licite » signifie « permis par la loi » ; son contraire « interdit » signifie « qu'on n'a pas le droit de faire ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-025",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « hostile » ?",
+   "bonne": "favorable",
+   "pourquoiBonne": "« favorable » signifie « qui soutient et approuve » : c'est l'opposé de « hostile » (« qui se montre contre quelqu'un »).",
+   "fausses": [
+    {
+     "texte": "ennemi",
+     "raison": "« ennemi » signifie « adversaire » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "agressif",
+     "raison": "« agressif » signifie « qui attaque ou menace » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "prudent",
+     "raison": "« prudent » signifie « qui évite les risques » : cela décrit une attitude de précaution, pas l'opposition."
+    }
+   ],
+   "explication": "« hostile » signifie « qui se montre contre quelqu'un » ; son contraire « favorable » signifie « qui soutient et approuve ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-026",
+   "type": "contraire",
+   "niveau": 1,
+   "enonce": "Quel mot est le contraire de « ardu » ?",
+   "bonne": "aisé",
+   "pourquoiBonne": "« aisé » signifie « facile à faire » : c'est l'opposé de « ardu » (« difficile à faire »).",
+   "fausses": [
+    {
+     "texte": "difficile",
+     "raison": "« difficile » signifie « qui demande beaucoup d'efforts » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "pénible",
+     "raison": "« pénible » signifie « qui fatigue ou demande de la peine » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "court",
+     "raison": "« court » signifie « de faible longueur » : cela décrit une longueur, pas une difficulté."
+    }
+   ],
+   "explication": "« ardu » signifie « difficile à faire » ; son contraire « aisé » signifie « facile à faire ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-027",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « prolixe » ?",
+   "bonne": "concis",
+   "pourquoiBonne": "« concis » signifie « qui s'exprime en peu de mots précis » : c'est l'opposé de « prolixe » (« qui s'exprime avec trop de mots »).",
+   "fausses": [
+    {
+     "texte": "bavard",
+     "raison": "« bavard » signifie « qui parle beaucoup » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "clair",
+     "raison": "« clair » signifie « facile à comprendre » : on peut être prolixe et clair : ce n'est pas l'opposé."
+    },
+    {
+     "texte": "poli",
+     "raison": "« poli » signifie « respectueux » : cela n'a pas de rapport avec le nombre de mots."
+    }
+   ],
+   "explication": "« prolixe » signifie « qui s'exprime avec trop de mots » ; son contraire « concis » signifie « qui s'exprime en peu de mots précis ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-028",
+   "type": "contraire",
+   "niveau": 1,
+   "enonce": "Quel mot est le contraire de « accélérer » ?",
+   "bonne": "ralentir",
+   "pourquoiBonne": "« ralentir » signifie « aller moins vite » : c'est l'opposé de « accélérer » (« aller plus vite »).",
+   "fausses": [
+    {
+     "texte": "hâter",
+     "raison": "« hâter » signifie « rendre plus rapide » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "pousser",
+     "raison": "« pousser » signifie « exercer une force vers l'avant » : cela n'exprime pas une baisse de vitesse."
+    },
+    {
+     "texte": "tourner",
+     "raison": "« tourner » signifie « changer de direction » : cela concerne la direction, pas la vitesse."
+    }
+   ],
+   "explication": "« accélérer » signifie « aller plus vite » ; son contraire « ralentir » signifie « aller moins vite ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-029",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « triomphe » ?",
+   "bonne": "échec",
+   "pourquoiBonne": "« échec » signifie « résultat contraire à ce qu'on voulait » : c'est l'opposé de « triomphe » (« grand succès, victoire éclatante »).",
+   "fausses": [
+    {
+     "texte": "succès",
+     "raison": "« succès » signifie « réussite » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "gloire",
+     "raison": "« gloire » signifie « grande renommée » : cela découle plutôt d'un triomphe : ce n'est pas un contraire."
+    },
+    {
+     "texte": "combat",
+     "raison": "« combat » signifie « lutte » : cela décrit l'affrontement, pas son résultat."
+    }
+   ],
+   "explication": "« triomphe » signifie « grand succès, victoire éclatante » ; son contraire « échec » signifie « résultat contraire à ce qu'on voulait ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-030",
+   "type": "contraire",
+   "niveau": 3,
+   "enonce": "Quel mot est le contraire de « ambigu » ?",
+   "bonne": "explicite",
+   "pourquoiBonne": "« explicite » signifie « exprimé clairement et sans ambiguïté » : c'est l'opposé de « ambigu » (« qui peut se comprendre de plusieurs façons »).",
+   "fausses": [
+    {
+     "texte": "équivoque",
+     "raison": "« équivoque » signifie « qui prête à plusieurs sens » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "vague",
+     "raison": "« vague » signifie « imprécis » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "simple",
+     "raison": "« simple » signifie « qui n'est pas compliqué » : un message peut être simple et ambigu : ce n'est pas l'opposé."
+    }
+   ],
+   "explication": "« ambigu » signifie « qui peut se comprendre de plusieurs façons » ; son contraire « explicite » signifie « exprimé clairement et sans ambiguïté ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-031",
+   "type": "contraire",
+   "niveau": 1,
+   "enonce": "Quel mot est le contraire de « fertile » ?",
+   "bonne": "stérile",
+   "pourquoiBonne": "« stérile » signifie « qui ne produit rien » : c'est l'opposé de « fertile » (« qui produit beaucoup »).",
+   "fausses": [
+    {
+     "texte": "fécond",
+     "raison": "« fécond » signifie « qui produit beaucoup » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "riche",
+     "raison": "« riche » signifie « qui possède beaucoup » : cela décrit la fortune ou la qualité, pas la capacité de produire."
+    },
+    {
+     "texte": "humide",
+     "raison": "« humide » signifie « légèrement mouillé » : cela décrit l'état d'humidité, pas la fertilité."
+    }
+   ],
+   "explication": "« fertile » signifie « qui produit beaucoup » ; son contraire « stérile » signifie « qui ne produit rien ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-032",
+   "type": "contraire",
+   "niveau": 3,
+   "enonce": "Quel mot est le contraire de « frugal » ?",
+   "bonne": "glouton",
+   "pourquoiBonne": "« glouton » signifie « qui mange beaucoup et avidement » : c'est l'opposé de « frugal » (« qui mange simplement et peu »).",
+   "fausses": [
+    {
+     "texte": "sobre",
+     "raison": "« sobre » signifie « qui mange ou boit avec mesure » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "maigre",
+     "raison": "« maigre » signifie « peu gras » : cela décrit un corps, pas une façon de manger."
+    },
+    {
+     "texte": "rapide",
+     "raison": "« rapide » signifie « qui va vite » : cela décrit une vitesse, pas la quantité mangée."
+    }
+   ],
+   "explication": "« frugal » signifie « qui mange simplement et peu » ; son contraire « glouton » signifie « qui mange beaucoup et avidement ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-033",
+   "type": "contraire",
+   "niveau": 3,
+   "enonce": "Quel mot est le contraire de « sporadique » ?",
+   "bonne": "continu",
+   "pourquoiBonne": "« continu » signifie « qui dure sans interruption » : c'est l'opposé de « sporadique » (« qui arrive de temps en temps »).",
+   "fausses": [
+    {
+     "texte": "occasionnel",
+     "raison": "« occasionnel » signifie « qui arrive de temps en temps » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "rare",
+     "raison": "« rare » signifie « qui arrive peu souvent » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "violent",
+     "raison": "« violent » signifie « très fort et brutal » : cela décrit l'intensité, pas la régularité."
+    }
+   ],
+   "explication": "« sporadique » signifie « qui arrive de temps en temps » ; son contraire « continu » signifie « qui dure sans interruption ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-034",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « introverti » ?",
+   "bonne": "extraverti",
+   "pourquoiBonne": "« extraverti » signifie « qui se tourne vers les autres et l'extérieur » : c'est l'opposé de « introverti » (« qui se tourne vers son monde intérieur »).",
+   "fausses": [
+    {
+     "texte": "timide",
+     "raison": "« timide » signifie « qui manque d'assurance en société » : c'est proche d'introverti plutôt que son opposé."
+    },
+    {
+     "texte": "calme",
+     "raison": "« calme » signifie « paisible » : cela décrit le tempérament, pas l'orientation vers les autres."
+    },
+    {
+     "texte": "solitaire",
+     "raison": "« solitaire » signifie « qui aime être seul » : c'est un synonyme (même sens), pas un contraire."
+    }
+   ],
+   "explication": "« introverti » signifie « qui se tourne vers son monde intérieur » ; son contraire « extraverti » signifie « qui se tourne vers les autres et l'extérieur ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-035",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « véridique » ?",
+   "bonne": "mensonger",
+   "pourquoiBonne": "« mensonger » signifie « qui contient des mensonges » : c'est l'opposé de « véridique » (« qui dit la vérité »).",
+   "fausses": [
+    {
+     "texte": "sincère",
+     "raison": "« sincère » signifie « qui dit ce qu'il pense » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "exact",
+     "raison": "« exact » signifie « conforme à la réalité » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "fidèle",
+     "raison": "« fidèle » signifie « qui reste attaché à quelqu'un » : cela décrit la loyauté, pas la vérité d'un propos."
+    }
+   ],
+   "explication": "« véridique » signifie « qui dit la vérité » ; son contraire « mensonger » signifie « qui contient des mensonges ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-036",
+   "type": "contraire",
+   "niveau": 3,
+   "enonce": "Quel mot est le contraire de « opulent » ?",
+   "bonne": "indigent",
+   "pourquoiBonne": "« indigent » signifie « qui manque du nécessaire pour vivre » : c'est l'opposé de « opulent » (« très riche »).",
+   "fausses": [
+    {
+     "texte": "fortuné",
+     "raison": "« fortuné » signifie « qui possède de la fortune » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "prospère",
+     "raison": "« prospère » signifie « qui réussit et s'enrichit » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "généreux",
+     "raison": "« généreux » signifie « qui donne volontiers » : cela décrit la façon de donner, pas la richesse."
+    }
+   ],
+   "explication": "« opulent » signifie « très riche » ; son contraire « indigent » signifie « qui manque du nécessaire pour vivre ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-037",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « clément » ?",
+   "bonne": "impitoyable",
+   "pourquoiBonne": "« impitoyable » signifie « qui n'a aucune pitié » : c'est l'opposé de « clément » (« qui pardonne facilement »).",
+   "fausses": [
+    {
+     "texte": "doux",
+     "raison": "« doux » signifie « agréable et sans violence » : c'est proche de « clément » plutôt que son opposé."
+    },
+    {
+     "texte": "indulgent",
+     "raison": "« indulgent » signifie « qui pardonne facilement » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "puissant",
+     "raison": "« puissant » signifie « qui a beaucoup de force » : cela décrit la force, pas la pitié."
+    }
+   ],
+   "explication": "« clément » signifie « qui pardonne facilement » ; son contraire « impitoyable » signifie « qui n'a aucune pitié ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-038",
+   "type": "contraire",
+   "niveau": 1,
+   "enonce": "Quel mot est le contraire de « embellir » ?",
+   "bonne": "enlaidir",
+   "pourquoiBonne": "« enlaidir » signifie « rendre moins beau » : c'est l'opposé de « embellir » (« rendre plus beau »).",
+   "fausses": [
+    {
+     "texte": "orner",
+     "raison": "« orner » signifie « décorer » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "décorer",
+     "raison": "« décorer » signifie « rendre plus joli avec des ornements » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "blanchir",
+     "raison": "« blanchir » signifie « rendre blanc » : cela décrit une couleur, pas la beauté."
+    }
+   ],
+   "explication": "« embellir » signifie « rendre plus beau » ; son contraire « enlaidir » signifie « rendre moins beau ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-039",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « précoce » ?",
+   "bonne": "tardif",
+   "pourquoiBonne": "« tardif » signifie « qui arrive plus tard que prévu » : c'est l'opposé de « précoce » (« qui arrive plus tôt que prévu »).",
+   "fausses": [
+    {
+     "texte": "hâtif",
+     "raison": "« hâtif » signifie « qui vient trop tôt » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "prématuré",
+     "raison": "« prématuré » signifie « qui arrive avant le moment normal » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "lent",
+     "raison": "« lent » signifie « qui met du temps » : cela décrit la vitesse, pas le moment où quelque chose arrive."
+    }
+   ],
+   "explication": "« précoce » signifie « qui arrive plus tôt que prévu » ; son contraire « tardif » signifie « qui arrive plus tard que prévu ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-CON-040",
+   "type": "contraire",
+   "niveau": 2,
+   "enonce": "Quel mot est le contraire de « amplifier » ?",
+   "bonne": "atténuer",
+   "pourquoiBonne": "« atténuer » signifie « rendre moins fort » : c'est l'opposé de « amplifier » (« rendre plus grand ou plus fort »).",
+   "fausses": [
+    {
+     "texte": "accroître",
+     "raison": "« accroître » signifie « augmenter » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "renforcer",
+     "raison": "« renforcer » signifie « rendre plus fort » : c'est un synonyme (même sens), pas un contraire."
+    },
+    {
+     "texte": "répéter",
+     "raison": "« répéter » signifie « redire ou refaire » : cela n'exprime pas une diminution."
+    }
+   ],
+   "explication": "« amplifier » signifie « rendre plus grand ou plus fort » ; son contraire « atténuer » signifie « rendre moins fort ». Un contraire s'oppose, il ne se contente pas d'être proche ou voisin.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-019",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Capacité d'être présent partout en même temps » ?",
+   "bonne": "ubiquité",
+   "pourquoiBonne": "« ubiquité » est bien le mot qui signifie « capacité d'être présent partout en même temps ».",
+   "fausses": [
+    {
+     "texte": "unanimité",
+     "raison": "« unanimité » signifie « accord de toutes les personnes » : cela ne correspond pas à « capacité d'être présent partout en même temps »."
+    },
+    {
+     "texte": "ambiguïté",
+     "raison": "« ambiguïté » signifie « caractère de ce qui a plusieurs sens » : cela ne correspond pas à « capacité d'être présent partout en même temps »."
+    },
+    {
+     "texte": "opacité",
+     "raison": "« opacité » signifie « caractère de ce qui ne laisse pas passer la lumière » : cela ne correspond pas à « capacité d'être présent partout en même temps »."
+    }
+   ],
+   "explication": "« ubiquité » veut dire « capacité d'être présent partout en même temps ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-020",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui parle très peu » ?",
+   "bonne": "taciturne",
+   "pourquoiBonne": "« taciturne » est bien le mot qui signifie « qui parle très peu ».",
+   "fausses": [
+    {
+     "texte": "loquace",
+     "raison": "« loquace » signifie « qui parle beaucoup » : cela ne correspond pas à « qui parle très peu »."
+    },
+    {
+     "texte": "nonchalant",
+     "raison": "« nonchalant » signifie « qui manque d'énergie et de vivacité » : cela ne correspond pas à « qui parle très peu »."
+    },
+    {
+     "texte": "austère",
+     "raison": "« austère » signifie « sévère et sans agrément » : cela ne correspond pas à « qui parle très peu »."
+    }
+   ],
+   "explication": "« taciturne » veut dire « qui parle très peu ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-021",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui dure longtemps, qui ne disparaît pas » ?",
+   "bonne": "pérenne",
+   "pourquoiBonne": "« pérenne » est bien le mot qui signifie « qui dure longtemps, qui ne disparaît pas ».",
+   "fausses": [
+    {
+     "texte": "éphémère",
+     "raison": "« éphémère » signifie « qui ne dure qu'un instant » : cela ne correspond pas à « qui dure longtemps, qui ne disparaît pas »."
+    },
+    {
+     "texte": "pernicieux",
+     "raison": "« pernicieux » signifie « très nuisible, dangereux » : cela ne correspond pas à « qui dure longtemps, qui ne disparaît pas »."
+    },
+    {
+     "texte": "périlleux",
+     "raison": "« périlleux » signifie « plein de dangers » : cela ne correspond pas à « qui dure longtemps, qui ne disparaît pas »."
+    }
+   ],
+   "explication": "« pérenne » veut dire « qui dure longtemps, qui ne disparaît pas ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-022",
+   "type": "vocabulaire",
+   "niveau": 1,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui se préoccupe du bien des autres » ?",
+   "bonne": "altruiste",
+   "pourquoiBonne": "« altruiste » est bien le mot qui signifie « qui se préoccupe du bien des autres ».",
+   "fausses": [
+    {
+     "texte": "égoïste",
+     "raison": "« égoïste » signifie « qui ne pense qu'à soi » : cela ne correspond pas à « qui se préoccupe du bien des autres »."
+    },
+    {
+     "texte": "altier",
+     "raison": "« altier » signifie « qui est fier et hautain » : cela ne correspond pas à « qui se préoccupe du bien des autres »."
+    },
+    {
+     "texte": "aliéné",
+     "raison": "« aliéné » signifie « qui est devenu étranger à lui-même ou privé de ses droits » : cela ne correspond pas à « qui se préoccupe du bien des autres »."
+    }
+   ],
+   "explication": "« altruiste » veut dire « qui se préoccupe du bien des autres ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-023",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui se nourrit simplement et avec peu » ?",
+   "bonne": "frugal",
+   "pourquoiBonne": "« frugal » est bien le mot qui signifie « qui se nourrit simplement et avec peu ».",
+   "fausses": [
+    {
+     "texte": "fragile",
+     "raison": "« fragile » signifie « qui se casse facilement » : cela ne correspond pas à « qui se nourrit simplement et avec peu »."
+    },
+    {
+     "texte": "frivole",
+     "raison": "« frivole » signifie « qui s'intéresse à des choses légères » : cela ne correspond pas à « qui se nourrit simplement et avec peu »."
+    },
+    {
+     "texte": "fruste",
+     "raison": "« fruste » signifie « grossier, peu raffiné » : cela ne correspond pas à « qui se nourrit simplement et avec peu »."
+    }
+   ],
+   "explication": "« frugal » veut dire « qui se nourrit simplement et avec peu ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-024",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui manque du nécessaire pour vivre » ?",
+   "bonne": "indigent",
+   "pourquoiBonne": "« indigent » est bien le mot qui signifie « qui manque du nécessaire pour vivre ».",
+   "fausses": [
+    {
+     "texte": "indigène",
+     "raison": "« indigène » signifie « originaire du pays où il vit » : cela ne correspond pas à « qui manque du nécessaire pour vivre »."
+    },
+    {
+     "texte": "indolent",
+     "raison": "« indolent » signifie « qui évite l'effort » : cela ne correspond pas à « qui manque du nécessaire pour vivre »."
+    },
+    {
+     "texte": "indulgent",
+     "raison": "« indulgent » signifie « qui pardonne facilement » : cela ne correspond pas à « qui manque du nécessaire pour vivre »."
+    }
+   ],
+   "explication": "« indigent » veut dire « qui manque du nécessaire pour vivre ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-025",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Douceur et indulgence envers les autres » ?",
+   "bonne": "mansuétude",
+   "pourquoiBonne": "« mansuétude » est bien le mot qui signifie « douceur et indulgence envers les autres ».",
+   "fausses": [
+    {
+     "texte": "mansarde",
+     "raison": "« mansarde » signifie « pièce sous un toit en pente » : cela ne correspond pas à « douceur et indulgence envers les autres »."
+    },
+    {
+     "texte": "amertume",
+     "raison": "« amertume » signifie « sentiment de tristesse et de rancœur » : cela ne correspond pas à « douceur et indulgence envers les autres »."
+    },
+    {
+     "texte": "perplexité",
+     "raison": "« perplexité » signifie « état de celui qui hésite, embarrassé » : cela ne correspond pas à « douceur et indulgence envers les autres »."
+    }
+   ],
+   "explication": "« mansuétude » veut dire « douceur et indulgence envers les autres ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-026",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Erreur qui place une chose à une époque qui n'est pas la sienne » ?",
+   "bonne": "anachronisme",
+   "pourquoiBonne": "« anachronisme » est bien le mot qui signifie « erreur qui place une chose à une époque qui n'est pas la sienne ».",
+   "fausses": [
+    {
+     "texte": "anagramme",
+     "raison": "« anagramme » signifie « mot formé en changeant l'ordre des lettres d'un autre » : cela ne correspond pas à « erreur qui place une chose à une époque qui n'est pas la sienne »."
+    },
+    {
+     "texte": "synchronisme",
+     "raison": "« synchronisme » signifie « fait de se produire en même temps » : cela ne correspond pas à « erreur qui place une chose à une époque qui n'est pas la sienne »."
+    },
+    {
+     "texte": "anonymat",
+     "raison": "« anonymat » signifie « état de celui dont on ignore le nom » : cela ne correspond pas à « erreur qui place une chose à une époque qui n'est pas la sienne »."
+    }
+   ],
+   "explication": "« anachronisme » veut dire « erreur qui place une chose à une époque qui n'est pas la sienne ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-027",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui dépense sans compter » ?",
+   "bonne": "prodigue",
+   "pourquoiBonne": "« prodigue » est bien le mot qui signifie « qui dépense sans compter ».",
+   "fausses": [
+    {
+     "texte": "prodige",
+     "raison": "« prodige » signifie « chose extraordinaire, miracle » : cela ne correspond pas à « qui dépense sans compter »."
+    },
+    {
+     "texte": "avare",
+     "raison": "« avare » signifie « qui garde son argent et refuse de dépenser » : cela ne correspond pas à « qui dépense sans compter »."
+    },
+    {
+     "texte": "prude",
+     "raison": "« prude » signifie « qui affiche une pudeur exagérée » : cela ne correspond pas à « qui dépense sans compter »."
+    }
+   ],
+   "explication": "« prodigue » veut dire « qui dépense sans compter ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-028",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui présente des manques, des trous » ?",
+   "bonne": "lacunaire",
+   "pourquoiBonne": "« lacunaire » est bien le mot qui signifie « qui présente des manques, des trous ».",
+   "fausses": [
+    {
+     "texte": "lacustre",
+     "raison": "« lacustre » signifie « qui concerne les lacs » : cela ne correspond pas à « qui présente des manques, des trous »."
+    },
+    {
+     "texte": "laconique",
+     "raison": "« laconique » signifie « qui s'exprime en très peu de mots » : cela ne correspond pas à « qui présente des manques, des trous »."
+    },
+    {
+     "texte": "lunaire",
+     "raison": "« lunaire » signifie « qui concerne la Lune » : cela ne correspond pas à « qui présente des manques, des trous »."
+    }
+   ],
+   "explication": "« lacunaire » veut dire « qui présente des manques, des trous ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-029",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui comprend vite et remarque ce qui échappe aux autres » ?",
+   "bonne": "perspicace",
+   "pourquoiBonne": "« perspicace » est bien le mot qui signifie « qui comprend vite et remarque ce qui échappe aux autres ».",
+   "fausses": [
+    {
+     "texte": "pernicieux",
+     "raison": "« pernicieux » signifie « très nuisible, dangereux » : cela ne correspond pas à « qui comprend vite et remarque ce qui échappe aux autres »."
+    },
+    {
+     "texte": "persistant",
+     "raison": "« persistant » signifie « qui dure ou continue » : cela ne correspond pas à « qui comprend vite et remarque ce qui échappe aux autres »."
+    },
+    {
+     "texte": "perméable",
+     "raison": "« perméable » signifie « qui laisse passer les liquides » : cela ne correspond pas à « qui comprend vite et remarque ce qui échappe aux autres »."
+    }
+   ],
+   "explication": "« perspicace » veut dire « qui comprend vite et remarque ce qui échappe aux autres ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-030",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui affirme ses idées comme des vérités indiscutables » ?",
+   "bonne": "dogmatique",
+   "pourquoiBonne": "« dogmatique » est bien le mot qui signifie « qui affirme ses idées comme des vérités indiscutables ».",
+   "fausses": [
+    {
+     "texte": "pragmatique",
+     "raison": "« pragmatique » signifie « qui s'attache à l'efficacité concrète » : cela ne correspond pas à « qui affirme ses idées comme des vérités indiscutables »."
+    },
+    {
+     "texte": "dramatique",
+     "raison": "« dramatique » signifie « qui concerne le théâtre ou qui est tragique » : cela ne correspond pas à « qui affirme ses idées comme des vérités indiscutables »."
+    },
+    {
+     "texte": "diplomatique",
+     "raison": "« diplomatique » signifie « qui concerne les relations entre États, ou qui est habile avec les autres » : cela ne correspond pas à « qui affirme ses idées comme des vérités indiscutables »."
+    }
+   ],
+   "explication": "« dogmatique » veut dire « qui affirme ses idées comme des vérités indiscutables ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-031",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui cherche à se venger » ?",
+   "bonne": "vindicatif",
+   "pourquoiBonne": "« vindicatif » est bien le mot qui signifie « qui cherche à se venger ».",
+   "fausses": [
+    {
+     "texte": "évocateur",
+     "raison": "« évocateur » signifie « qui rappelle, fait penser à quelque chose » : cela ne correspond pas à « qui cherche à se venger »."
+    },
+    {
+     "texte": "provocateur",
+     "raison": "« provocateur » signifie « qui cherche à provoquer » : cela ne correspond pas à « qui cherche à se venger »."
+    },
+    {
+     "texte": "convivial",
+     "raison": "« convivial » signifie « qui aime la bonne entente et les repas partagés » : cela ne correspond pas à « qui cherche à se venger »."
+    }
+   ],
+   "explication": "« vindicatif » veut dire « qui cherche à se venger ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-032",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui s'exprime en très peu de mots » ?",
+   "bonne": "laconique",
+   "pourquoiBonne": "« laconique » est bien le mot qui signifie « qui s'exprime en très peu de mots ».",
+   "fausses": [
+    {
+     "texte": "volubile",
+     "raison": "« volubile » signifie « qui parle beaucoup et facilement » : cela ne correspond pas à « qui s'exprime en très peu de mots »."
+    },
+    {
+     "texte": "lunatique",
+     "raison": "« lunatique » signifie « dont l'humeur change souvent » : cela ne correspond pas à « qui s'exprime en très peu de mots »."
+    },
+    {
+     "texte": "lacrymal",
+     "raison": "« lacrymal » signifie « qui concerne les larmes » : cela ne correspond pas à « qui s'exprime en très peu de mots »."
+    }
+   ],
+   "explication": "« laconique » veut dire « qui s'exprime en très peu de mots ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-033",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Qu'on montre avec l'envie de se faire remarquer » ?",
+   "bonne": "ostentatoire",
+   "pourquoiBonne": "« ostentatoire » est bien le mot qui signifie « qu'on montre avec l'envie de se faire remarquer ».",
+   "fausses": [
+    {
+     "texte": "obsolète",
+     "raison": "« obsolète » signifie « qui n'est plus utilisé » : cela ne correspond pas à « qu'on montre avec l'envie de se faire remarquer »."
+    },
+    {
+     "texte": "onirique",
+     "raison": "« onirique » signifie « qui concerne les rêves » : cela ne correspond pas à « qu'on montre avec l'envie de se faire remarquer »."
+    },
+    {
+     "texte": "optionnel",
+     "raison": "« optionnel » signifie « qu'on peut choisir ou non » : cela ne correspond pas à « qu'on montre avec l'envie de se faire remarquer »."
+    }
+   ],
+   "explication": "« ostentatoire » veut dire « qu'on montre avec l'envie de se faire remarquer ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-034",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui est juste et impartial » ?",
+   "bonne": "équitable",
+   "pourquoiBonne": "« équitable » est bien le mot qui signifie « qui est juste et impartial ».",
+   "fausses": [
+    {
+     "texte": "équestre",
+     "raison": "« équestre » signifie « qui concerne les chevaux » : cela ne correspond pas à « qui est juste et impartial »."
+    },
+    {
+     "texte": "équivoque",
+     "raison": "« équivoque » signifie « qui peut se comprendre de plusieurs façons » : cela ne correspond pas à « qui est juste et impartial »."
+    },
+    {
+     "texte": "équinoxial",
+     "raison": "« équinoxial » signifie « qui concerne l'équinoxe » : cela ne correspond pas à « qui est juste et impartial »."
+    }
+   ],
+   "explication": "« équitable » veut dire « qui est juste et impartial ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-035",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Quantité excessive de quelque chose » ?",
+   "bonne": "pléthore",
+   "pourquoiBonne": "« pléthore » est bien le mot qui signifie « quantité excessive de quelque chose ».",
+   "fausses": [
+    {
+     "texte": "pénurie",
+     "raison": "« pénurie » signifie « manque de quelque chose » : cela ne correspond pas à « quantité excessive de quelque chose »."
+    },
+    {
+     "texte": "plaidoirie",
+     "raison": "« plaidoirie » signifie « discours d'un avocat » : cela ne correspond pas à « quantité excessive de quelque chose »."
+    },
+    {
+     "texte": "plénière",
+     "raison": "« plénière » signifie « où tous les membres sont réunis » : cela ne correspond pas à « quantité excessive de quelque chose »."
+    }
+   ],
+   "explication": "« pléthore » veut dire « quantité excessive de quelque chose ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-036",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Rendre clair ce qui était obscur » ?",
+   "bonne": "élucider",
+   "pourquoiBonne": "« élucider » est bien le mot qui signifie « rendre clair ce qui était obscur ».",
+   "fausses": [
+    {
+     "texte": "éluder",
+     "raison": "« éluder » signifie « éviter habilement une question » : cela ne correspond pas à « rendre clair ce qui était obscur »."
+    },
+    {
+     "texte": "élire",
+     "raison": "« élire » signifie « choisir par un vote » : cela ne correspond pas à « rendre clair ce qui était obscur »."
+    },
+    {
+     "texte": "élider",
+     "raison": "« élider » signifie « supprimer une voyelle devant une autre » : cela ne correspond pas à « rendre clair ce qui était obscur »."
+    }
+   ],
+   "explication": "« élucider » veut dire « rendre clair ce qui était obscur ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-037",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Vieux et en mauvais état » ?",
+   "bonne": "vétuste",
+   "pourquoiBonne": "« vétuste » est bien le mot qui signifie « vieux et en mauvais état ».",
+   "fausses": [
+    {
+     "texte": "véhément",
+     "raison": "« véhément » signifie « qui s'exprime avec force et passion » : cela ne correspond pas à « vieux et en mauvais état »."
+    },
+    {
+     "texte": "vénal",
+     "raison": "« vénal » signifie « qui se laisse acheter » : cela ne correspond pas à « vieux et en mauvais état »."
+    },
+    {
+     "texte": "vétilleux",
+     "raison": "« vétilleux » signifie « qui s'attache à des détails sans importance » : cela ne correspond pas à « vieux et en mauvais état »."
+    }
+   ],
+   "explication": "« vétuste » veut dire « vieux et en mauvais état ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-038",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Connu de tous, de façon établie » ?",
+   "bonne": "notoire",
+   "pourquoiBonne": "« notoire » est bien le mot qui signifie « connu de tous, de façon établie ».",
+   "fausses": [
+    {
+     "texte": "nocif",
+     "raison": "« nocif » signifie « qui nuit à la santé » : cela ne correspond pas à « connu de tous, de façon établie »."
+    },
+    {
+     "texte": "notarial",
+     "raison": "« notarial » signifie « qui concerne le notaire » : cela ne correspond pas à « connu de tous, de façon établie »."
+    },
+    {
+     "texte": "nébuleux",
+     "raison": "« nébuleux » signifie « couvert de nuages ou peu clair » : cela ne correspond pas à « connu de tous, de façon établie »."
+    }
+   ],
+   "explication": "« notoire » veut dire « connu de tous, de façon établie ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-039",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Fermeté à poursuivre un but sans le lâcher » ?",
+   "bonne": "ténacité",
+   "pourquoiBonne": "« ténacité » est bien le mot qui signifie « fermeté à poursuivre un but sans le lâcher ».",
+   "fausses": [
+    {
+     "texte": "ténuité",
+     "raison": "« ténuité » signifie « caractère de ce qui est très fin » : cela ne correspond pas à « fermeté à poursuivre un but sans le lâcher »."
+    },
+    {
+     "texte": "ténèbres",
+     "raison": "« ténèbres » signifie « obscurité profonde » : cela ne correspond pas à « fermeté à poursuivre un but sans le lâcher »."
+    },
+    {
+     "texte": "tension",
+     "raison": "« tension » signifie « état de ce qui est tendu » : cela ne correspond pas à « fermeté à poursuivre un but sans le lâcher »."
+    }
+   ],
+   "explication": "« ténacité » veut dire « fermeté à poursuivre un but sans le lâcher ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-040",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui n'est pas stable et peut cesser à tout moment » ?",
+   "bonne": "précaire",
+   "pourquoiBonne": "« précaire » est bien le mot qui signifie « qui n'est pas stable et peut cesser à tout moment ».",
+   "fausses": [
+    {
+     "texte": "précieux",
+     "raison": "« précieux » signifie « qui a une grande valeur » : cela ne correspond pas à « qui n'est pas stable et peut cesser à tout moment »."
+    },
+    {
+     "texte": "préalable",
+     "raison": "« préalable » signifie « qui vient avant » : cela ne correspond pas à « qui n'est pas stable et peut cesser à tout moment »."
+    },
+    {
+     "texte": "précoce",
+     "raison": "« précoce » signifie « qui arrive plus tôt que prévu » : cela ne correspond pas à « qui n'est pas stable et peut cesser à tout moment »."
+    }
+   ],
+   "explication": "« précaire » veut dire « qui n'est pas stable et peut cesser à tout moment ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-041",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui se remet vite d'une épreuve » ?",
+   "bonne": "résilient",
+   "pourquoiBonne": "« résilient » est bien le mot qui signifie « qui se remet vite d'une épreuve ».",
+   "fausses": [
+    {
+     "texte": "résidentiel",
+     "raison": "« résidentiel » signifie « qui concerne l'habitation » : cela ne correspond pas à « qui se remet vite d'une épreuve »."
+    },
+    {
+     "texte": "résigné",
+     "raison": "« résigné » signifie « qui accepte son sort sans réagir » : cela ne correspond pas à « qui se remet vite d'une épreuve »."
+    },
+    {
+     "texte": "réticent",
+     "raison": "« réticent » signifie « qui hésite, qui n'est pas d'accord » : cela ne correspond pas à « qui se remet vite d'une épreuve »."
+    }
+   ],
+   "explication": "« résilient » veut dire « qui se remet vite d'une épreuve ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-042",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui s'attache à l'efficacité concrète plus qu'aux théories » ?",
+   "bonne": "pragmatique",
+   "pourquoiBonne": "« pragmatique » est bien le mot qui signifie « qui s'attache à l'efficacité concrète plus qu'aux théories ».",
+   "fausses": [
+    {
+     "texte": "poétique",
+     "raison": "« poétique » signifie « qui concerne la poésie » : cela ne correspond pas à « qui s'attache à l'efficacité concrète plus qu'aux théories »."
+    },
+    {
+     "texte": "symbolique",
+     "raison": "« symbolique » signifie « qui représente autre chose » : cela ne correspond pas à « qui s'attache à l'efficacité concrète plus qu'aux théories »."
+    },
+    {
+     "texte": "mélancolique",
+     "raison": "« mélancolique » signifie « triste et rêveur » : cela ne correspond pas à « qui s'attache à l'efficacité concrète plus qu'aux théories »."
+    }
+   ],
+   "explication": "« pragmatique » veut dire « qui s'attache à l'efficacité concrète plus qu'aux théories ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-043",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Que l'on ne peut pas éviter » ?",
+   "bonne": "inéluctable",
+   "pourquoiBonne": "« inéluctable » est bien le mot qui signifie « que l'on ne peut pas éviter ».",
+   "fausses": [
+    {
+     "texte": "ineffable",
+     "raison": "« ineffable » signifie « qu'on ne peut pas exprimer par des mots » : cela ne correspond pas à « que l'on ne peut pas éviter »."
+    },
+    {
+     "texte": "inéligible",
+     "raison": "« inéligible » signifie « qui n'a pas le droit d'être élu » : cela ne correspond pas à « que l'on ne peut pas éviter »."
+    },
+    {
+     "texte": "inavouable",
+     "raison": "« inavouable » signifie « qu'on n'ose pas avouer » : cela ne correspond pas à « que l'on ne peut pas éviter »."
+    }
+   ],
+   "explication": "« inéluctable » veut dire « que l'on ne peut pas éviter ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-044",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui fait très attention à ne commettre aucune faute » ?",
+   "bonne": "scrupuleux",
+   "pourquoiBonne": "« scrupuleux » est bien le mot qui signifie « qui fait très attention à ne commettre aucune faute ».",
+   "fausses": [
+    {
+     "texte": "sculptural",
+     "raison": "« sculptural » signifie « qui évoque une sculpture » : cela ne correspond pas à « qui fait très attention à ne commettre aucune faute »."
+    },
+    {
+     "texte": "sceptique",
+     "raison": "« sceptique » signifie « qui doute de tout » : cela ne correspond pas à « qui fait très attention à ne commettre aucune faute »."
+    },
+    {
+     "texte": "superstitieux",
+     "raison": "« superstitieux » signifie « qui croit aux présages » : cela ne correspond pas à « qui fait très attention à ne commettre aucune faute »."
+    }
+   ],
+   "explication": "« scrupuleux » veut dire « qui fait très attention à ne commettre aucune faute ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-045",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui comprend finement et devine vite » ?",
+   "bonne": "sagace",
+   "pourquoiBonne": "« sagace » est bien le mot qui signifie « qui comprend finement et devine vite ».",
+   "fausses": [
+    {
+     "texte": "salace",
+     "raison": "« salace » signifie « qui a des pensées grivoises » : cela ne correspond pas à « qui comprend finement et devine vite »."
+    },
+    {
+     "texte": "saugrenu",
+     "raison": "« saugrenu » signifie « bizarre et absurde » : cela ne correspond pas à « qui comprend finement et devine vite »."
+    },
+    {
+     "texte": "sagittal",
+     "raison": "« sagittal » signifie « en forme de flèche » : cela ne correspond pas à « qui comprend finement et devine vite »."
+    }
+   ],
+   "explication": "« sagace » veut dire « qui comprend finement et devine vite ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-046",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Très mince, très fin » ?",
+   "bonne": "ténu",
+   "pourquoiBonne": "« ténu » est bien le mot qui signifie « très mince, très fin ».",
+   "fausses": [
+    {
+     "texte": "tenace",
+     "raison": "« tenace » signifie « qui s'accroche et ne lâche pas » : cela ne correspond pas à « très mince, très fin »."
+    },
+    {
+     "texte": "tendu",
+     "raison": "« tendu » signifie « qui est tiré, raide » : cela ne correspond pas à « très mince, très fin »."
+    },
+    {
+     "texte": "teinté",
+     "raison": "« teinté » signifie « coloré légèrement » : cela ne correspond pas à « très mince, très fin »."
+    }
+   ],
+   "explication": "« ténu » veut dire « très mince, très fin ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-047",
+   "type": "vocabulaire",
+   "niveau": 2,
+   "enonce": "Quel mot correspond à la définition suivante : « Pureté d'esprit, innocence sincère » ?",
+   "bonne": "candeur",
+   "pourquoiBonne": "« candeur » est bien le mot qui signifie « pureté d'esprit, innocence sincère ».",
+   "fausses": [
+    {
+     "texte": "cadence",
+     "raison": "« cadence » signifie « rythme régulier » : cela ne correspond pas à « pureté d'esprit, innocence sincère »."
+    },
+    {
+     "texte": "candidature",
+     "raison": "« candidature » signifie « fait de se présenter à un poste ou à une élection » : cela ne correspond pas à « pureté d'esprit, innocence sincère »."
+    },
+    {
+     "texte": "clameur",
+     "raison": "« clameur » signifie « grand cri collectif » : cela ne correspond pas à « pureté d'esprit, innocence sincère »."
+    }
+   ],
+   "explication": "« candeur » veut dire « pureté d'esprit, innocence sincère ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-VOC-048",
+   "type": "vocabulaire",
+   "niveau": 3,
+   "enonce": "Quel mot correspond à la définition suivante : « Qui ne se laisse ni fléchir ni arrêter » ?",
+   "bonne": "inexorable",
+   "pourquoiBonne": "« inexorable » est bien le mot qui signifie « qui ne se laisse ni fléchir ni arrêter ».",
+   "fausses": [
+    {
+     "texte": "inestimable",
+     "raison": "« inestimable » signifie « qu'on ne peut pas évaluer, de très grande valeur » : cela ne correspond pas à « qui ne se laisse ni fléchir ni arrêter »."
+    },
+    {
+     "texte": "inexplicable",
+     "raison": "« inexplicable » signifie « qu'on ne peut pas expliquer » : cela ne correspond pas à « qui ne se laisse ni fléchir ni arrêter »."
+    },
+    {
+     "texte": "inexistant",
+     "raison": "« inexistant » signifie « qui n'existe pas » : cela ne correspond pas à « qui ne se laisse ni fléchir ni arrêter »."
+    }
+   ],
+   "explication": "« inexorable » veut dire « qui ne se laisse ni fléchir ni arrêter ». Attention aux mots qui se ressemblent mais n'ont pas le même sens.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-021",
+   "type": "intrus",
+   "niveau": 3,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "violoncelle",
+   "pourquoiBonne": "« violoncelle » est un instrument à cordes, alors que les trois autres mots sont des instruments à vent en bois : c'est l'intrus.",
+   "fausses": [
+    {
+     "texte": "hautbois",
+     "raison": "« hautbois » fait partie de la même série que les autres mots (des instruments à vent en bois) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "basson",
+     "raison": "« basson » fait partie de la même série que les autres mots (des instruments à vent en bois) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "clarinette",
+     "raison": "« clarinette » fait partie de la même série que les autres mots (des instruments à vent en bois) : ce n'est pas lui l'intrus."
+    }
+   ],
+   "explication": "Cherche d'abord ce que partagent trois mots, puis repère celui qui s'en écarte : ici, des instruments à vent en bois.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-022",
+   "type": "intrus",
+   "niveau": 2,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "Léman",
+   "pourquoiBonne": "« Léman » est un lac, alors que les trois autres mots sont des fleuves : c'est l'intrus.",
+   "fausses": [
+    {
+     "texte": "Rhône",
+     "raison": "« Rhône » fait partie de la même série que les autres mots (des fleuves) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "Loire",
+     "raison": "« Loire » fait partie de la même série que les autres mots (des fleuves) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "Garonne",
+     "raison": "« Garonne » fait partie de la même série que les autres mots (des fleuves) : ce n'est pas lui l'intrus."
+    }
+   ],
+   "explication": "Cherche d'abord ce que partagent trois mots, puis repère celui qui s'en écarte : ici, des fleuves.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-023",
+   "type": "intrus",
+   "niveau": 3,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "sonnet",
+   "pourquoiBonne": "« sonnet » est un poème de quatorze vers (et non une forme musicale), alors que les trois autres mots sont des formes musicales : c'est l'intrus.",
+   "fausses": [
+    {
+     "texte": "sonate",
+     "raison": "« sonate » fait partie de la même série que les autres mots (des formes musicales) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "concerto",
+     "raison": "« concerto » fait partie de la même série que les autres mots (des formes musicales) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "symphonie",
+     "raison": "« symphonie » fait partie de la même série que les autres mots (des formes musicales) : ce n'est pas lui l'intrus."
+    }
+   ],
+   "explication": "Cherche d'abord ce que partagent trois mots, puis repère celui qui s'en écarte : ici, des formes musicales.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-024",
+   "type": "intrus",
+   "niveau": 1,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "cylindre",
+   "pourquoiBonne": "« cylindre » est un solide, pas un polygone, alors que les trois autres mots sont des polygones (figures planes) : c'est l'intrus.",
+   "fausses": [
+    {
+     "texte": "triangle",
+     "raison": "« triangle » fait partie de la même série que les autres mots (des polygones) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "losange",
+     "raison": "« losange » fait partie de la même série que les autres mots (des polygones) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "trapèze",
+     "raison": "« trapèze » fait partie de la même série que les autres mots (des polygones) : ce n'est pas lui l'intrus."
+    }
+   ],
+   "explication": "Cherche d'abord ce que partagent trois mots, puis repère celui qui s'en écarte : ici, des polygones.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-025",
+   "type": "intrus",
+   "niveau": 2,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "sapin",
+   "pourquoiBonne": "« sapin » est un conifère, alors que les trois autres mots sont des arbres feuillus : c'est l'intrus.",
+   "fausses": [
+    {
+     "texte": "hêtre",
+     "raison": "« hêtre » fait partie de la même série que les autres mots (des arbres à feuilles (feuillus)) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "chêne",
+     "raison": "« chêne » fait partie de la même série que les autres mots (des arbres à feuilles (feuillus)) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "bouleau",
+     "raison": "« bouleau » fait partie de la même série que les autres mots (des arbres à feuilles (feuillus)) : ce n'est pas lui l'intrus."
+    }
+   ],
+   "explication": "Cherche d'abord ce que partagent trois mots, puis repère celui qui s'en écarte : ici, des arbres à feuilles (feuillus).",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-026",
+   "type": "intrus",
+   "niveau": 2,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "biceps",
+   "pourquoiBonne": "« biceps » est un muscle, alors que les trois autres mots sont des os : c'est l'intrus.",
+   "fausses": [
+    {
+     "texte": "fémur",
+     "raison": "« fémur » fait partie de la même série que les autres mots (des os) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "tibia",
+     "raison": "« tibia » fait partie de la même série que les autres mots (des os) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "humérus",
+     "raison": "« humérus » fait partie de la même série que les autres mots (des os) : ce n'est pas lui l'intrus."
+    }
+   ],
+   "explication": "Cherche d'abord ce que partagent trois mots, puis repère celui qui s'en écarte : ici, des os.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-027",
+   "type": "intrus",
+   "niveau": 3,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "fusain",
+   "pourquoiBonne": "« fusain » est un outil de dessin (un bâton de charbon), alors que les trois autres mots sont des techniques de peinture : c'est l'intrus.",
+   "fausses": [
+    {
+     "texte": "aquarelle",
+     "raison": "« aquarelle » fait partie de la même série que les autres mots (des techniques de peinture) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "gouache",
+     "raison": "« gouache » fait partie de la même série que les autres mots (des techniques de peinture) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "huile",
+     "raison": "« huile » fait partie de la même série que les autres mots (des techniques de peinture) : ce n'est pas lui l'intrus."
+    }
+   ],
+   "explication": "Cherche d'abord ce que partagent trois mots, puis repère celui qui s'en écarte : ici, des techniques de peinture.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-028",
+   "type": "intrus",
+   "niveau": 2,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "pharmacien",
+   "pourquoiBonne": "« pharmacien » n'est pas médecin : il prépare et délivre les médicaments, alors que les trois autres mots sont des médecins spécialistes : c'est l'intrus.",
+   "fausses": [
+    {
+     "texte": "pédiatre",
+     "raison": "« pédiatre » fait partie de la même série que les autres mots (des médecins) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "cardiologue",
+     "raison": "« cardiologue » fait partie de la même série que les autres mots (des médecins) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "dermatologue",
+     "raison": "« dermatologue » fait partie de la même série que les autres mots (des médecins) : ce n'est pas lui l'intrus."
+    }
+   ],
+   "explication": "Cherche d'abord ce que partagent trois mots, puis repère celui qui s'en écarte : ici, des médecins.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-029",
+   "type": "intrus",
+   "niveau": 3,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "verbe",
+   "pourquoiBonne": "« verbe » est une nature de mot, pas une figure de style, alors que les trois autres mots sont des figures de style : c'est l'intrus.",
+   "fausses": [
+    {
+     "texte": "métaphore",
+     "raison": "« métaphore » fait partie de la même série que les autres mots (des figures de style) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "antithèse",
+     "raison": "« antithèse » fait partie de la même série que les autres mots (des figures de style) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "litote",
+     "raison": "« litote » fait partie de la même série que les autres mots (des figures de style) : ce n'est pas lui l'intrus."
+    }
+   ],
+   "explication": "Cherche d'abord ce que partagent trois mots, puis repère celui qui s'en écarte : ici, des figures de style.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-030",
+   "type": "intrus",
+   "niveau": 2,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "Titicaca",
+   "pourquoiBonne": "« Titicaca » est un lac, pas un sommet, alors que les trois autres mots sont des sommets montagneux : c'est l'intrus.",
+   "fausses": [
+    {
+     "texte": "Everest",
+     "raison": "« Everest » fait partie de la même série que les autres mots (des sommets montagneux) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "Mont-Blanc",
+     "raison": "« Mont-Blanc » fait partie de la même série que les autres mots (des sommets montagneux) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "Kilimandjaro",
+     "raison": "« Kilimandjaro » fait partie de la même série que les autres mots (des sommets montagneux) : ce n'est pas lui l'intrus."
+    }
+   ],
+   "explication": "Cherche d'abord ce que partagent trois mots, puis repère celui qui s'en écarte : ici, des sommets montagneux.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-031",
+   "type": "intrus",
+   "niveau": 3,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "trombone",
+   "pourquoiBonne": "« trombone » est un instrument à vent en cuivre, alors que les trois autres mots sont des instruments à cordes frottées : c'est l'intrus.",
+   "fausses": [
+    {
+     "texte": "violon",
+     "raison": "« violon » fait partie de la même série que les autres mots (des instruments à cordes frottées) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "alto",
+     "raison": "« alto » fait partie de la même série que les autres mots (des instruments à cordes frottées) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "violoncelle",
+     "raison": "« violoncelle » fait partie de la même série que les autres mots (des instruments à cordes frottées) : ce n'est pas lui l'intrus."
+    }
+   ],
+   "explication": "Cherche d'abord ce que partagent trois mots, puis repère celui qui s'en écarte : ici, des instruments à cordes frottées.",
+   "relecture": null
+  },
+  {
+   "id": "VER-INT-032",
+   "type": "intrus",
+   "niveau": 2,
+   "enonce": "Quel mot est l'intrus ?",
+   "bonne": "carré",
+   "pourquoiBonne": "« carré » est une figure plane, pas un solide, alors que les trois autres mots sont des solides (en trois dimensions) : c'est l'intrus.",
+   "fausses": [
+    {
+     "texte": "parallélépipède",
+     "raison": "« parallélépipède » fait partie de la même série que les autres mots (des solides) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "cube",
+     "raison": "« cube » fait partie de la même série que les autres mots (des solides) : ce n'est pas lui l'intrus."
+    },
+    {
+     "texte": "pyramide",
+     "raison": "« pyramide » fait partie de la même série que les autres mots (des solides) : ce n'est pas lui l'intrus."
+    }
+   ],
+   "explication": "Cherche d'abord ce que partagent trois mots, puis repère celui qui s'en écarte : ici, des solides.",
    "relecture": null
   }
  ]

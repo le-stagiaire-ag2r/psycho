@@ -32,6 +32,8 @@ export interface ConfigEpreuve {
   conseils: string[];
   /** Mise en garde affichée avant de commencer (statut de la banque, limites…) */
   avertissement?: string;
+  /** Matériel autorisé ou interdit, affiché avant de commencer (ex. brouillon, calculatrice) */
+  materiel?: string;
 }
 
 const CONSEIL_VITESSE =
@@ -41,44 +43,44 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
   attention: {
     id: 'attention',
     titre: 'Attention / concentration',
-    description: 'Deux suites de lettres : sont-elles identiques ?',
+    description: 'Plusieurs séries de caractères : trouve celle qui est différente, ou « pas d’intrus ».',
     disponible: true,
-    nbQuestions: 45,
+    nbQuestions: 40,
     dureeSecondes: 210,
-    nbChoix: 2,
+    nbChoix: 4,
     nbQuestionsEntrainement: 20,
     passerAutorise: false,
     penaliteErreur: 0,
     difficulteExamen: 2,
     parametres: {},
     conseils: [
-      'Compare lettre par lettre, de gauche à droite, sans te fier à l’allure générale.',
-      'Les pièges classiques : deux lettres inversées, une lettre proche (O/Q, E/F, M/N, P/R, I/L), une lettre doublée ou oubliée.',
+      'Balaye les séries du regard au lieu de les lire une à une : l’intrus « accroche » l’œil.',
+      'Parfois il n’y a aucun intrus : si rien ne ressort en quelques secondes, choisis « Pas d’intrus ».',
+      'Les pièges : deux caractères inversés, un caractère proche (O/0, I/1, S/5, M/N, E/F), un caractère doublé ou oublié.',
       CONSEIL_VITESSE,
     ],
   },
   codage: {
     id: 'codage',
     titre: 'Codage',
-    description: 'Un tableau de mots et de numéros : retrouve la bonne association.',
+    description: 'Un tableau de 12 mots avec leur code à 4 chiffres : retrouve le code du mot demandé.',
     disponible: true,
-    nbQuestions: 45,
+    nbQuestions: 40,
     dureeSecondes: 150,
     nbChoix: 4,
-    nbQuestionsEntrainement: 15,
+    nbQuestionsEntrainement: 20,
     passerAutorise: false,
     penaliteErreur: 0,
     difficulteExamen: 2,
     parametres: {
-      // 'numero-vers-mot' : on donne le numéro, il faut trouver le mot ; 'mot-vers-numero' : l'inverse.
-      sens: 'numero-vers-mot',
       tailleTableau: 12,
-      // Nombre de questions qui partagent le même tableau avant d'en changer.
-      questionsParTableau: 15,
+      // Le tableau reste le même pendant toute la séance, comme au vrai test.
+      questionsParTableau: 1000,
     },
     conseils: [
-      'Le tableau reste affiché : repère les mots par leur initiale, ne relis pas tout à chaque fois.',
-      'Les mauvaises propositions sont des couples voisins du tableau : vérifie le numéro, pas seulement le mot.',
+      'Le tableau reste affiché : adopte toujours le même parcours du regard pour retrouver le mot, puis lis son code.',
+      'Les mauvaises propositions ne diffèrent du bon code que d’un ou deux chiffres : compare les 4 chiffres, pas seulement le début.',
+      'Au fil des questions, tu connais de mieux en mieux la position des mots : c’est ce qui fait gagner du temps.',
       CONSEIL_VITESSE,
     ],
   },
@@ -127,7 +129,7 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
   spatial: {
     id: 'spatial',
     titre: 'Raisonnement spatial',
-    description: 'Quadrillages tournés, cubes à plier et cubes retournés.',
+    description: 'Une grille 5×5 noir et blanc : retrouve celle qui a subi une rotation de 90°, 180° ou 270°.',
     disponible: true,
     nbQuestions: 25,
     dureeSecondes: 420,
@@ -137,22 +139,22 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
     penaliteErreur: 0,
     difficulteExamen: 2,
     parametres: {
-      // Variantes tirées en alternance (séparées par des virgules) : 'grille', 'patron', 'vues'.
-      // Ordre et répartition à valider auprès de candidats (voir TODO-FORMATS.md).
-      variantes: 'grille,vues,grille,patron',
+      // Les candidats ne décrivent que des rotations de grilles. Les variantes « patron » (cube à plier)
+      // et « vues » (cube retourné) existent dans le code mais ne sont plus proposées par défaut.
+      variantes: 'grille',
       // 'horaire', 'antihoraire' ou 'mixte' (le sens est alors précisé dans chaque consigne)
       sensRotation: 'mixte',
     },
     conseils: [
       'Choisis une case repère (un coin, une case noire isolée) et suis-la pendant la rotation.',
       'Un quart de tour horaire : la première ligne devient la dernière colonne. Un demi-tour : tout est lu à l’envers.',
-      'Méfie-toi des miroirs : ils ressemblent à une rotation mais inversent la gauche et la droite.',
+      'Méfie-toi des grilles qui ressemblent à la bonne : une case en plus ou en moins, ou une grille retournée comme dans un miroir.',
     ],
   },
   verbal: {
     id: 'verbal',
     titre: 'Aptitude verbale',
-    description: 'Synonymes, contraires, intrus, vocabulaire, proverbes, orthographe, analogies.',
+    description: 'Synonymes, contraires, définitions, intrus : le vocabulaire, sans orthographe ni proverbes.',
     disponible: true,
     nbQuestions: 31,
     dureeSecondes: 480,
@@ -167,6 +169,7 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
       'Écarte d’abord les propositions que tu sais fausses : la bonne réponse apparaît souvent par élimination.',
       'Pour un intrus, cherche la catégorie commune aux autres mots avant de regarder le mot isolé.',
       'Si deux réponses te semblent possibles, choisis celle dont le sens est le plus courant, puis passe à la suite.',
+      'Ici, on sait ou on ne sait pas : n’y passe pas trop de temps, une réponse rapide vaut mieux qu’une longue hésitation.',
     ],
     avertissement:
       'Banque de questions rédigées pour ce projet, pas encore relues par un humain : si une question te paraît ambiguë ou fausse, signale-la sur le forum en citant sa référence (affichée sous la question).',
@@ -184,6 +187,7 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
     penaliteErreur: 0,
     difficulteExamen: 2,
     parametres: {},
+    materiel: 'Brouillon et crayon autorisés, calculatrice interdite.',
     conseils: [
       'Estime d’abord l’ordre de grandeur : cela élimine souvent deux ou trois propositions.',
       'Les mauvaises réponses sont des erreurs classiques (base 100 au lieu de 60, pourcentages qui « s’annulent »…) : relis l’énoncé.',
@@ -193,9 +197,9 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
   anglais: {
     id: 'anglais',
     titre: 'Anglais',
-    description: 'QCM de grammaire et de vocabulaire, niveau collège-lycée.',
+    description: 'QCM d’anglais : phrases à trous, grammaire, conjugaison et vocabulaire.',
     disponible: true,
-    nbQuestions: 100,
+    nbQuestions: 150,
     dureeSecondes: 3300,
     nbChoix: 4,
     nbQuestionsEntrainement: 20,

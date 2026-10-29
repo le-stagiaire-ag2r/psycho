@@ -76,8 +76,17 @@ describe('anglais : aucun indice involontaire dans les propositions', () => {
       for (const o of [it.bonne, ...it.fausses.map((f) => f.texte)]) expect(`${it.id} ${o} : ${/[^s]s$/.test(o) && !/(ss|us|is)$/.test(o)}`).toBe(`${it.id} ${o} : false`);
     }
   });
-  it('les trous « ___ » sont bien présents exactement une fois dans les phrases à compléter', () => {
-    for (const it of items.filter((x) => x.type === 'grammaire')) expect(it.enonce.split('___').length - 1).toBe(1);
+  it('les trous « ___ » sont présents une fois (1 trou), deux fois (2 trous) ou jamais (choix de la phrase correcte)', () => {
+    const attendu: Record<string, number> = { grammaire: 1, vocabulaire: 0, grammaire2: 2, phrase: 0 };
+    for (const it of items) {
+      const nb = it.enonce.split('___').length - 1;
+      if (it.type === 'grammaire' || it.type === 'grammaire2') expect(`${it.id} : ${nb}`).toBe(`${it.id} : ${attendu[it.type]}`);
+      if (it.type === 'phrase') expect(nb).toBe(0);
+    }
+  });
+  it('à deux trous, chaque proposition contient exactement deux parties séparées par « / »', () => {
+    for (const it of items.filter((x) => x.type === 'grammaire2'))
+      for (const o of [it.bonne, ...it.fausses.map((f) => f.texte)]) expect(`${it.id} ${o} : ${o.split(' / ').length}`).toBe(`${it.id} ${o} : 2`);
   });
 });
 

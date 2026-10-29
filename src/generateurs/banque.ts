@@ -24,6 +24,8 @@ export interface ItemBanque {
   fausses: { texte: string; raison: string }[];
   /** « À retenir » : la règle ou le sens, en une phrase */
   explication: string;
+  /** `false` : item retiré des nouvelles séances (format qui ne ressemble pas au vrai test) mais toujours rejouable depuis l'historique. */
+  actif?: boolean;
   relecture: { par: string; date: string } | null;
 }
 
@@ -90,7 +92,7 @@ export function creerGenerateurBanque(epreuve: EpreuveId): Generateur {
     construireRefs({ graineBase, nb, difficulte, config }) {
       const rng = creerPrng(graineBase);
       const seulementRelus = Number(config.parametres.seulementRelus ?? 0) === 1;
-      const disponibles = banqueDe(epreuve).filter((x) => !seulementRelus || x.relecture !== null);
+      const disponibles = banqueDe(epreuve).filter((x) => x.actif !== false && (!seulementRelus || x.relecture !== null));
       if (disponibles.length === 0) throw new Error(`Aucun item disponible pour « ${epreuve} »`);
       // Mélange puis tri stable par écart de niveau : à niveau égal, l'ordre reste aléatoire.
       const ordonnes = rng.melanger(disponibles).sort((a, b) => Math.abs(a.niveau - difficulte) - Math.abs(b.niveau - difficulte));

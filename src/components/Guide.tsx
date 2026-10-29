@@ -41,7 +41,7 @@ const ETAPES: Etape[] = [
     texte: 'Ce menu est toujours en haut de l’écran.',
     points: [
       'Épreuves : l’accueil, pour choisir une épreuve.',
-      'Examen blanc : toutes les épreuves à la suite, chrono strict.',
+      'Examen blanc : toutes les épreuves à la suite, avec un chrono.',
       'Révision : refaire tes erreurs.',
       'Méthode : astuces et pièges.',
       'Progression : tes scores et ta sauvegarde.',
@@ -66,7 +66,7 @@ const ETAPES: Etape[] = [
     texte: 'Deux façons de travailler.',
     points: [
       'Entraînement : tu prends ton temps et chaque erreur est expliquée tout de suite.',
-      'Examen blanc : chrono strict, correction à la fin, comme le jour J.',
+      'Examen blanc : avec un chrono (que tu peux rallonger ou supprimer), correction à la fin.',
     ],
   },
   {

@@ -13,53 +13,41 @@ const DIFFS: Difficulte[] = [1, 2, 3];
 
 /** Vérifications indépendantes : on ne se fie qu'à ce qui est affiché, ou à un second chemin de calcul. */
 
-describe('attention : réponse recalculée depuis les deux suites affichées', () => {
-  it.each(DIFFS)('« identiques » ⇔ chaînes égales ; une différence est toujours visible (difficulté %i)', (d) => {
+describe('attention : réponse recalculée depuis les séries affichées', () => {
+  it.each(DIFFS)('l’intrus désigné est bien la seule série différente (difficulté %i)', (d) => {
     const refs = generateurAttention.construireRefs({ graineBase: 5150 + d, nb: 3000, difficulte: d, config: EPREUVES.attention });
-    // Distance d'édition de Damerau-Levenshtein simplifiée : une perturbation = 1 opération.
-    const distance = (a: string, b: string): number => {
-      const D: number[][] = Array.from({ length: a.length + 1 }, (_, i) => [i, ...Array(b.length).fill(0)]);
-      for (let j = 0; j <= b.length; j++) D[0][j] = j;
-      for (let i = 1; i <= a.length; i++)
-        for (let j = 1; j <= b.length; j++) {
-          D[i][j] = Math.min(D[i - 1][j] + 1, D[i][j - 1] + 1, D[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
-          if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) D[i][j] = Math.min(D[i][j], D[i - 2][j - 2] + 1);
-        }
-      return D[a.length][b.length];
-    };
     for (const ref of refs) {
       const it = generateurAttention.generer(ref);
-      if (it.stimulus.type !== 'attention') throw new Error('stimulus inattendu');
-      const { a, b } = it.stimulus;
-      const identiques = a === b;
-      expect(it.options[it.bonneReponse]).toBe(identiques ? 'Identiques' : 'Différentes');
-      if (!identiques) expect(distance(a, b)).toBe(1);
+      if (it.stimulus.type !== 'attention-series') throw new Error('stimulus inattendu');
+      const { series } = it.stimulus;
+      // Second chemin de calcul : on compte combien de fois chaque série apparaît.
+      const comptes = new Map<string, number>();
+      for (const s of series) comptes.set(s, (comptes.get(s) ?? 0) + 1);
+      const solitaires = series.map((s, i) => (comptes.get(s) === 1 ? i : -1)).filter((i) => i >= 0);
+      if (comptes.size === 1) {
+        expect(it.options[it.bonneReponse]).toBe('Pas d’intrus');
+      } else {
+        expect(solitaires).toHaveLength(1);
+        expect(it.options[it.bonneReponse]).toBe(`Série ${solitaires[0] + 1}`);
+      }
     }
   });
 });
 
 describe('codage : réponse relue dans le tableau affiché', () => {
-  it.each(DIFFS)('on retrouve la bonne case à partir de la consigne et du tableau (difficulté %i)', (d) => {
-    for (const sens of ['numero-vers-mot', 'mot-vers-numero']) {
-      const config = { ...EPREUVES.codage, parametres: { ...EPREUVES.codage.parametres, sens } };
-      const refs = generateurCodage.construireRefs({ graineBase: 4242 + d, nb: 600, difficulte: d, config });
-      for (const ref of refs) {
-        const it = generateurCodage.generer(ref);
-        if (it.stimulus.type !== 'codage') throw new Error('stimulus inattendu');
-        const { tableau } = it.stimulus;
-        let attendu: string | undefined;
-        const mNum = /numéro (\d+) \?/.exec(it.consigne);
-        const mMot = /mot « (.+) » \?/.exec(it.consigne);
-        if (mNum) attendu = tableau.find((e) => e.numero === Number(mNum[1]))?.mot;
-        else if (mMot) attendu = String(tableau.find((e) => e.mot === mMot[1])?.numero);
-        expect(attendu, it.consigne).toBeDefined();
-        const egaux = it.options.filter((o) => o === attendu);
-        expect(egaux).toHaveLength(1);
-        expect(it.options[it.bonneReponse]).toBe(attendu);
-        // Mots et numéros du tableau tous distincts : la recherche est sans ambiguïté.
-        expect(new Set(tableau.map((e) => e.mot)).size).toBe(tableau.length);
-        expect(new Set(tableau.map((e) => e.numero)).size).toBe(tableau.length);
-      }
+  it.each(DIFFS)('on retrouve le bon code à partir du mot demandé et du tableau (difficulté %i)', (d) => {
+    const refs = generateurCodage.construireRefs({ graineBase: 4242 + d, nb: 600, difficulte: d, config: EPREUVES.codage });
+    for (const ref of refs) {
+      const it = generateurCodage.generer(ref);
+      if (it.stimulus.type !== 'codage') throw new Error('stimulus inattendu');
+      const { tableau } = it.stimulus;
+      const mMot = /mot « (.+) » \?/.exec(it.consigne);
+      expect(mMot, it.consigne).not.toBeNull();
+      const attendu = String(tableau.find((e) => e.mot === mMot![1])?.numero);
+      expect(it.options.filter((o) => o === attendu)).toHaveLength(1);
+      expect(it.options[it.bonneReponse]).toBe(attendu);
+      expect(new Set(tableau.map((e) => e.mot)).size).toBe(tableau.length);
+      expect(new Set(tableau.map((e) => e.numero)).size).toBe(tableau.length);
     }
   });
 });

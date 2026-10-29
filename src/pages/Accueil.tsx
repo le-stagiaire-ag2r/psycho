@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { MENTION_ENTRAINEMENT, NON_AFFILIATION } from '../config/app';
 import { EPREUVES, ORDRE_EPREUVES } from '../config/epreuves';
 import { NIVEAUX, OBJECTIFS } from '../config/niveaux';
+import ChoixChrono from '../components/ChoixChrono';
+import { dureeEffectiveSecondes } from '../lib/chrono';
 import { formatDuree } from '../lib/format';
 import { erreursARevoir } from '../lib/revision';
 import type { Difficulte, Mode, NiveauId } from '../lib/types';
@@ -16,7 +18,7 @@ const DIFFICULTES: { id: Difficulte; libelle: string }[] = [
 
 export default function Accueil() {
   const { donnees, majPrefs } = useStockage();
-  const { niveau, mode, difficulte } = donnees.prefs;
+  const { niveau, mode, difficulte, chrono } = donnees.prefs;
   const nbErreurs = useMemo(
     () => erreursARevoir(donnees.historique, new Set(donnees.erreursResolues)).length,
     [donnees.historique, donnees.erreursResolues],
@@ -35,7 +37,7 @@ export default function Accueil() {
       <section aria-label="Raccourcis" className="raccourcis">
         <Link className="raccourci" to="/examen" data-guide="raccourci-examen">
           <strong>Examen blanc</strong>
-          <span>Enchaîne les épreuves, chrono strict</span>
+          <span>Enchaîne les épreuves avec un chrono</span>
         </Link>
         <Link className="raccourci" to="/revision" data-guide="raccourci-revision">
           <strong>Réviser mes erreurs</strong>
@@ -115,10 +117,11 @@ export default function Accueil() {
 
           </>
         )}
+        {mode === 'examen' && <ChoixChrono />}
         <p className="discret reglages-aide">
           {mode === 'entrainement'
             ? 'Entraînement : chrono souple, explication après chaque erreur.'
-            : 'Examen blanc : chrono strict, correction à la fin.'}
+            : 'Examen blanc : chrono, correction à la fin.'}
         </p>
       </section>
 
@@ -140,7 +143,11 @@ export default function Accueil() {
                   {id === 'personnalite'
                     ? 'Sans score ni bonne réponse'
                     : mode === 'examen'
-                    ? `${c.nbQuestions} questions · ${formatDuree(c.dureeSecondes * 1000)}`
+                    ? `${c.nbQuestions} questions · ${
+                        Number.isFinite(dureeEffectiveSecondes(c.dureeSecondes, chrono))
+                          ? formatDuree(dureeEffectiveSecondes(c.dureeSecondes, chrono) * 1000)
+                          : 'sans limite de temps'
+                      }`
                     : `${c.nbQuestionsEntrainement} questions`}
                   {objectif && mode === 'examen' && ` · objectif ${Math.round(objectif.precisionMin * 100)} %`}
                 </p>

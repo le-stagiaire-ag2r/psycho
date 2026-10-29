@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
-import { DEPOT_GITHUB, NOM_APP, NON_AFFILIATION } from './config/app';
+import { NOM_APP, NON_AFFILIATION } from './config/app';
 import Guide from './components/Guide';
 import { guideDejaVu, marquerGuideVu } from './lib/guide';
 import Accueil from './pages/Accueil';
@@ -95,11 +95,7 @@ export default function App() {
       <footer className="pied">
         <p className="non-affiliation">{NON_AFFILIATION}</p>
         <p>
-          Gratuit, sans compte, sans publicité. <Link to="/confidentialite">Confidentialité</Link> ·{' '}
-          <a href={DEPOT_GITHUB} target="_blank" rel="noopener noreferrer">
-            Code et contributions
-          </a>{' '}
-          · Code MIT, contenus CC BY-SA 4.0
+          Gratuit, sans compte, sans publicité. <Link to="/confidentialite">Confidentialité</Link> · Code MIT, contenus CC BY-SA 4.0
         </p>
       </footer>
     </>

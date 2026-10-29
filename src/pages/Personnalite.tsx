@@ -116,7 +116,7 @@ export default function Personnalite() {
           Le vrai questionnaire est annoncé comme long (de 100 à 250 affirmations selon les témoignages, par exemple 251
           en 50 minutes, soit environ 12 secondes par affirmation : à valider) et reformule plusieurs fois les mêmes
           idées : c’est aussi le cas ici, avec {TOTAL} affirmations tirées de l’inventaire en accès libre IPIP
-          (traduites et reformulées, voir ATTRIBUTIONS.md). Cet inventaire n’est pas le test réel.
+          (domaine public, traduites et reformulées). Cet inventaire n’est pas le test réel.
         </p>
         <div className="actions">
           <button type="button" className="bouton" onClick={commencer} autoFocus>

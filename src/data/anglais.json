@@ -7033,6 +7033,822 @@
    ],
    "explication": "So that = afin que (but).",
    "relecture": null
+  },
+  {
+   "id": "ANG-GRA-151",
+   "type": "grammaire2",
+   "niveau": 2,
+   "enonce": "She ___ in London ___ 2019.",
+   "bonne": "has lived / since",
+   "pourquoiBonne": "« She has lived in London since 2019. » est correct. Since + date, avec le present perfect.",
+   "fausses": [
+    {
+     "texte": "lived / since",
+     "raison": "« She lived in London since 2019. » ne convient pas : « since 2019 » (depuis 2019) demande le present perfect, pas le passé simple."
+    },
+    {
+     "texte": "has lived / for",
+     "raison": "« She has lived in London for 2019. » ne convient pas : « for » se met devant une durée (for ten years), pas devant une date comme 2019."
+    },
+    {
+     "texte": "lives / ago",
+     "raison": "« She lives in London ago 2019. » ne convient pas : « ago » se place après une durée et ne s'emploie pas devant une année."
+    }
+   ],
+   "explication": "Since + date, avec le present perfect.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-152",
+   "type": "grammaire2",
+   "niveau": 2,
+   "enonce": "I ___ him two years ___.",
+   "bonne": "saw / ago",
+   "pourquoiBonne": "« I saw him two years ago. » est correct. Passé simple + durée + ago.",
+   "fausses": [
+    {
+     "texte": "have seen / ago",
+     "raison": "« I have seen him two years ago. » ne convient pas : « two years ago » est une date passée précise : on ne l'emploie pas avec le present perfect."
+    },
+    {
+     "texte": "saw / since",
+     "raison": "« I saw him two years since. » ne convient pas : « since » demande un point de départ (since 2020), pas « two years »."
+    },
+    {
+     "texte": "see / for",
+     "raison": "« I see him two years for. » ne convient pas : « for » et le présent ne conviennent pas à un fait passé situé « two years » avant."
+    }
+   ],
+   "explication": "Passé simple + durée + ago.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-153",
+   "type": "grammaire2",
+   "niveau": 2,
+   "enonce": "He ___ here ___ he was ten.",
+   "bonne": "has lived / since",
+   "pourquoiBonne": "« He has lived here since he was ten. » est correct. Since + proposition au passé, avec le present perfect.",
+   "fausses": [
+    {
+     "texte": "lived / since",
+     "raison": "« He lived here since he was ten. » ne convient pas : « since he was ten » (depuis ses dix ans) demande le present perfect."
+    },
+    {
+     "texte": "has lived / when",
+     "raison": "« He has lived here when he was ten. » ne convient pas : « when » ne convient pas avec le present perfect ici : il manque « since » pour dire « depuis »."
+    },
+    {
+     "texte": "lives / for",
+     "raison": "« He lives here for he was ten. » ne convient pas : « for » se met devant une durée, pas devant une proposition comme « he was ten »."
+    }
+   ],
+   "explication": "Since + proposition au passé, avec le present perfect.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-154",
+   "type": "grammaire2",
+   "niveau": 1,
+   "enonce": "They ___ married ___ 1998.",
+   "bonne": "got / in",
+   "pourquoiBonne": "« They got married in 1998. » est correct. Date précise = passé simple et in + année.",
+   "fausses": [
+    {
+     "texte": "have got / in",
+     "raison": "« They have got married in 1998. » ne convient pas : « 1998 » est une date passée précise : on emploie le passé simple, pas le present perfect."
+    },
+    {
+     "texte": "got / since",
+     "raison": "« They got married since 1998. » ne convient pas : « since 1998 » parle d'une durée jusqu'à maintenant : on ne l'emploie pas avec « got married » (un événement ponctuel)."
+    },
+    {
+     "texte": "get / ago",
+     "raison": "« They get married ago 1998. » ne convient pas : « ago » se place après une durée et le présent ne convient pas à un fait passé."
+    }
+   ],
+   "explication": "Date précise = passé simple et in + année.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-155",
+   "type": "grammaire2",
+   "niveau": 2,
+   "enonce": "Yesterday, by the time we ___, the film ___ already started.",
+   "bonne": "arrived / had",
+   "pourquoiBonne": "« Yesterday, by the time we arrived, the film had already started. » est correct. Antériorité dans le passé : had + participe passé.",
+   "fausses": [
+    {
+     "texte": "arrived / has",
+     "raison": "« Yesterday, by the time we arrived, the film has already started. » ne convient pas : « Yesterday » est au passé : le film avait déjà commencé (past perfect), pas « has started »."
+    },
+    {
+     "texte": "arrive / had",
+     "raison": "« Yesterday, by the time we arrive, the film had already started. » ne convient pas : « Yesterday » demande le passé : « arrive » est au présent."
+    },
+    {
+     "texte": "arrive / has",
+     "raison": "« Yesterday, by the time we arrive, the film has already started. » ne convient pas : « Yesterday » demande le passé : ni « arrive » ni « has started » ne conviennent."
+    }
+   ],
+   "explication": "Antériorité dans le passé : had + participe passé.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-156",
+   "type": "grammaire2",
+   "niveau": 2,
+   "enonce": "If I ___ more time, I ___ learn Spanish.",
+   "bonne": "had / would",
+   "pourquoiBonne": "« If I had more time, I would learn Spanish. » est correct. Condition irréelle : if + passé, would + infinitif.",
+   "fausses": [
+    {
+     "texte": "have / would",
+     "raison": "« If I have more time, I would learn Spanish. » ne convient pas : Après « would », la condition doit être au passé (had), pas au présent."
+    },
+    {
+     "texte": "had / will",
+     "raison": "« If I had more time, I will learn Spanish. » ne convient pas : Avec « If I had », la suite est « would », pas « will »."
+    },
+    {
+     "texte": "would have / had",
+     "raison": "« If I would have more time, I had learn Spanish. » ne convient pas : « If I would have » est incorrect : après « if » on ne met pas « would »."
+    }
+   ],
+   "explication": "Condition irréelle : if + passé, would + infinitif.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-157",
+   "type": "grammaire2",
+   "niveau": 3,
+   "enonce": "If she ___ harder last year, she ___ the exam.",
+   "bonne": "had worked / would have passed",
+   "pourquoiBonne": "« If she had worked harder last year, she would have passed the exam. » est correct. Condition passée : if + past perfect, would have + participe passé.",
+   "fausses": [
+    {
+     "texte": "worked / would pass",
+     "raison": "« If she worked harder last year, she would pass the exam. » ne convient pas : « last year » et un regret passé demandent « had worked » et « would have passed »."
+    },
+    {
+     "texte": "had worked / would pass",
+     "raison": "« If she had worked harder last year, she would pass the exam. » ne convient pas : « last year » demande « would have passed » : « would pass » parle du présent ou du futur."
+    },
+    {
+     "texte": "has worked / will pass",
+     "raison": "« If she has worked harder last year, she will pass the exam. » ne convient pas : « last year » est au passé : « has worked » et « will pass » ne conviennent pas."
+    }
+   ],
+   "explication": "Condition passée : if + past perfect, would have + participe passé.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-158",
+   "type": "grammaire2",
+   "niveau": 1,
+   "enonce": "I'm interested ___ music but I'm bad ___ singing.",
+   "bonne": "in / at",
+   "pourquoiBonne": "« I'm interested in music but I'm bad at singing. » est correct. Interested in ; good, bad at.",
+   "fausses": [
+    {
+     "texte": "on / in",
+     "raison": "« I'm interested on music but I'm bad in singing. » ne convient pas : On dit « interested in » et « bad at » : « on » et « in » sont les mauvaises prépositions."
+    },
+    {
+     "texte": "in / in",
+     "raison": "« I'm interested in music but I'm bad in singing. » ne convient pas : « bad in singing » est incorrect : on dit « bad at »."
+    },
+    {
+     "texte": "at / at",
+     "raison": "« I'm interested at music but I'm bad at singing. » ne convient pas : « interested at » est incorrect : on dit « interested in »."
+    }
+   ],
+   "explication": "Interested in ; good, bad at.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-159",
+   "type": "grammaire2",
+   "niveau": 1,
+   "enonce": "She is afraid ___ spiders and good ___ maths.",
+   "bonne": "of / at",
+   "pourquoiBonne": "« She is afraid of spiders and good at maths. » est correct. Afraid of ; good at.",
+   "fausses": [
+    {
+     "texte": "from / at",
+     "raison": "« She is afraid from spiders and good at maths. » ne convient pas : « afraid from » est incorrect : on dit « afraid of »."
+    },
+    {
+     "texte": "of / on",
+     "raison": "« She is afraid of spiders and good on maths. » ne convient pas : « good on maths » est incorrect : on dit « good at »."
+    },
+    {
+     "texte": "about / for",
+     "raison": "« She is afraid about spiders and good for maths. » ne convient pas : « afraid about » et « good for maths » ne conviennent pas : il faut « of » et « at »."
+    }
+   ],
+   "explication": "Afraid of ; good at.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-160",
+   "type": "grammaire2",
+   "niveau": 1,
+   "enonce": "We arrived ___ the airport ___ 6 a.m.",
+   "bonne": "at / at",
+   "pourquoiBonne": "« We arrived at the airport at 6 a.m. » est correct. Arrive at + lieu ponctuel ; at + heure.",
+   "fausses": [
+    {
+     "texte": "to / at",
+     "raison": "« We arrived to the airport at 6 a.m. » ne convient pas : « arrived to » est incorrect : on dit « arrived at » (ou « in » pour une ville)."
+    },
+    {
+     "texte": "at / in",
+     "raison": "« We arrived at the airport in 6 a.m. » ne convient pas : Pour une heure précise on dit « at 6 a.m. », pas « in 6 a.m. »."
+    },
+    {
+     "texte": "in / on",
+     "raison": "« We arrived in the airport on 6 a.m. » ne convient pas : « in the airport » et « on 6 a.m. » ne conviennent pas : il faut « at » dans les deux cas."
+    }
+   ],
+   "explication": "Arrive at + lieu ponctuel ; at + heure.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-161",
+   "type": "grammaire2",
+   "niveau": 2,
+   "enonce": "There aren't ___ chairs and there is ___ space.",
+   "bonne": "many / little",
+   "pourquoiBonne": "« There aren't many chairs and there is little space. » est correct. Many / few + dénombrable ; much / little + indénombrable.",
+   "fausses": [
+    {
+     "texte": "much / little",
+     "raison": "« There aren't much chairs and there is little space. » ne convient pas : « chairs » est dénombrable : on dit « many », pas « much »."
+    },
+    {
+     "texte": "many / few",
+     "raison": "« There aren't many chairs and there is few space. » ne convient pas : « space » est indénombrable : on dit « little », pas « few »."
+    },
+    {
+     "texte": "much / few",
+     "raison": "« There aren't much chairs and there is few space. » ne convient pas : « much chairs » et « few space » sont tous deux incorrects : le dénombrable prend « many », l'indénombrable « little »."
+    }
+   ],
+   "explication": "Many / few + dénombrable ; much / little + indénombrable.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-162",
+   "type": "grammaire2",
+   "niveau": 3,
+   "enonce": "This is ___ interesting book ___ I have ever read.",
+   "bonne": "the most / that",
+   "pourquoiBonne": "« This is the most interesting book that I have ever read. » est correct. Superlatif : the most + adjectif long ; that relatif.",
+   "fausses": [
+    {
+     "texte": "most / that",
+     "raison": "« This is most interesting book that I have ever read. » ne convient pas : Le superlatif demande l'article : « the most interesting »."
+    },
+    {
+     "texte": "the more / than",
+     "raison": "« This is the more interesting book than I have ever read. » ne convient pas : « the more interesting » est un comparatif ; avec « ever read » il faut un superlatif (the most)."
+    },
+    {
+     "texte": "the most / who",
+     "raison": "« This is the most interesting book who I have ever read. » ne convient pas : « who » ne s'emploie que pour des personnes, pas pour un livre."
+    }
+   ],
+   "explication": "Superlatif : the most + adjectif long ; that relatif.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-163",
+   "type": "grammaire2",
+   "niveau": 2,
+   "enonce": "I look ___ to seeing you, and I'm looking ___ my keys.",
+   "bonne": "forward / for",
+   "pourquoiBonne": "« I look forward to seeing you, and I'm looking for my keys. » est correct. Look forward to = avoir hâte ; look for = chercher.",
+   "fausses": [
+    {
+     "texte": "for / forward",
+     "raison": "« I look for to seeing you, and I'm looking forward my keys. » ne convient pas : « look forward to » (avoir hâte) et « look for » (chercher) : les mots sont inversés."
+    },
+    {
+     "texte": "forward / after",
+     "raison": "« I look forward to seeing you, and I'm looking after my keys. » ne convient pas : « looking after my keys » veut dire « s'occuper de mes clés » : le sens est faux, il faut « looking for »."
+    },
+    {
+     "texte": "up / for",
+     "raison": "« I look up to seeing you, and I'm looking for my keys. » ne convient pas : « look up to seeing you » est incorrect : l'expression est « look forward to »."
+    }
+   ],
+   "explication": "Look forward to = avoir hâte ; look for = chercher.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-164",
+   "type": "grammaire2",
+   "niveau": 2,
+   "enonce": "You ___ park here: it's forbidden. You ___ pay: it's free.",
+   "bonne": "mustn't / don't have to",
+   "pourquoiBonne": "« You mustn't park here: it's forbidden. You don't have to pay: it's free. » est correct. Mustn't = interdit ; don't have to = pas obligé.",
+   "fausses": [
+    {
+     "texte": "don't have to / mustn't",
+     "raison": "« You don't have to park here: it's forbidden. You mustn't pay: it's free. » ne convient pas : Les deux sont inversés : « forbidden » demande mustn't, « it's free » demande don't have to."
+    },
+    {
+     "texte": "mustn't / mustn't",
+     "raison": "« You mustn't park here: it's forbidden. You mustn't pay: it's free. » ne convient pas : « You mustn't pay: it's free » est faux : ce n'est pas interdit de payer, ce n'est simplement pas obligatoire."
+    },
+    {
+     "texte": "don't have to / don't have to",
+     "raison": "« You don't have to park here: it's forbidden. You don't have to pay: it's free. » ne convient pas : « You don't have to park here: it's forbidden » est faux : une interdiction se dit mustn't."
+    }
+   ],
+   "explication": "Mustn't = interdit ; don't have to = pas obligé.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-165",
+   "type": "grammaire2",
+   "niveau": 2,
+   "enonce": "I ___ swim when I was five, but now I ___ swim fast.",
+   "bonne": "could / can",
+   "pourquoiBonne": "« I could swim when I was five, but now I can swim fast. » est correct. Could = capacité passée ; can = capacité présente.",
+   "fausses": [
+    {
+     "texte": "can / could",
+     "raison": "« I can swim when I was five, but now I could swim fast. » ne convient pas : Le temps est inversé : « when I was five » demande could, « now » demande can."
+    },
+    {
+     "texte": "could / could",
+     "raison": "« I could swim when I was five, but now I could swim fast. » ne convient pas : « but now I could swim fast » ne dit pas que c'est vrai aujourd'hui : il faut « can »."
+    },
+    {
+     "texte": "can / can",
+     "raison": "« I can swim when I was five, but now I can swim fast. » ne convient pas : « I can swim when I was five » est incorrect : le passé demande « could »."
+    }
+   ],
+   "explication": "Could = capacité passée ; can = capacité présente.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-166",
+   "type": "grammaire2",
+   "niveau": 1,
+   "enonce": "She is ___ engineer and works for ___ European company.",
+   "bonne": "an / a",
+   "pourquoiBonne": "« She is an engineer and works for a European company. » est correct. A / an dépend du son, pas de la lettre.",
+   "fausses": [
+    {
+     "texte": "a / a",
+     "raison": "« She is a engineer and works for a European company. » ne convient pas : « engineer » commence par un son voyelle : on dit « an engineer »."
+    },
+    {
+     "texte": "an / an",
+     "raison": "« She is an engineer and works for an European company. » ne convient pas : « European » commence par le son « you » (consonne) : on dit « a European company »."
+    },
+    {
+     "texte": "the / an",
+     "raison": "« She is the engineer and works for an European company. » ne convient pas : « an European » est incorrect : « European » commence par le son « you », on dit « a »."
+    }
+   ],
+   "explication": "A / an dépend du son, pas de la lettre.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-167",
+   "type": "grammaire2",
+   "niveau": 1,
+   "enonce": "I saw ___ man yesterday. ___ man was tall.",
+   "bonne": "a / The",
+   "pourquoiBonne": "« I saw a man yesterday. The man was tall. » est correct. Première mention : a ; mention suivante : the.",
+   "fausses": [
+    {
+     "texte": "the / A",
+     "raison": "« I saw the man yesterday. A man was tall. » ne convient pas : Première mention d'un homme : « a man » ; la seconde fois, on dit « the man »."
+    },
+    {
+     "texte": "a / A",
+     "raison": "« I saw a man yesterday. A man was tall. » ne convient pas : La seconde mention d'un homme déjà cité prend « the », pas « a »."
+    },
+    {
+     "texte": "an / The",
+     "raison": "« I saw an man yesterday. The man was tall. » ne convient pas : « man » commence par un son consonne : on dit « a man », pas « an man »."
+    }
+   ],
+   "explication": "Première mention : a ; mention suivante : the.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-168",
+   "type": "grammaire2",
+   "niveau": 2,
+   "enonce": "He is the man ___ car was stolen, ___ lives next door.",
+   "bonne": "whose / who",
+   "pourquoiBonne": "« He is the man whose car was stolen, who lives next door. » est correct. Whose = dont (possession) ; who = qui (sujet).",
+   "fausses": [
+    {
+     "texte": "who / whose",
+     "raison": "« He is the man who car was stolen, whose lives next door. » ne convient pas : Les pronoms sont inversés : « whose car » (la voiture de) et « who lives » (qui habite)."
+    },
+    {
+     "texte": "whose / whose",
+     "raison": "« He is the man whose car was stolen, whose lives next door. » ne convient pas : « whose lives next door » est incorrect : le sujet du verbe « lives » est « who »."
+    },
+    {
+     "texte": "which / who",
+     "raison": "« He is the man which car was stolen, who lives next door. » ne convient pas : « which » ne s'emploie pas pour une personne, et on veut dire « dont la voiture » : whose."
+    }
+   ],
+   "explication": "Whose = dont (possession) ; who = qui (sujet).",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-169",
+   "type": "grammaire2",
+   "niveau": 2,
+   "enonce": "I stayed at home ___ it was raining, ___ I watched a film.",
+   "bonne": "because / so",
+   "pourquoiBonne": "« I stayed at home because it was raining, so I watched a film. » est correct. Because = cause ; so = conséquence.",
+   "fausses": [
+    {
+     "texte": "so / because",
+     "raison": "« I stayed at home so it was raining, because I watched a film. » ne convient pas : Les mots sont inversés : la pluie est la cause (because), regarder un film est la conséquence (so)."
+    },
+    {
+     "texte": "so / so",
+     "raison": "« I stayed at home so it was raining, so I watched a film. » ne convient pas : « I stayed at home so it was raining » est incorrect : la pluie est la cause, pas la conséquence."
+    },
+    {
+     "texte": "because / because",
+     "raison": "« I stayed at home because it was raining, because I watched a film. » ne convient pas : « because I watched a film » ne s'enchaîne pas avec la cause précédente : la suite est une conséquence (so)."
+    }
+   ],
+   "explication": "Because = cause ; so = conséquence.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-170",
+   "type": "grammaire2",
+   "niveau": 2,
+   "enonce": "I enjoy ___ and I want ___ a doctor.",
+   "bonne": "reading / to become",
+   "pourquoiBonne": "« I enjoy reading and I want to become a doctor. » est correct. Enjoy + -ing ; want + to + infinitif.",
+   "fausses": [
+    {
+     "texte": "to read / becoming",
+     "raison": "« I enjoy to read and I want becoming a doctor. » ne convient pas : « enjoy » est suivi du verbe en -ing, et « want » de « to » + infinitif."
+    },
+    {
+     "texte": "reading / becoming",
+     "raison": "« I enjoy reading and I want becoming a doctor. » ne convient pas : « want becoming » est incorrect : « want » est suivi de « to »."
+    },
+    {
+     "texte": "to read / to become",
+     "raison": "« I enjoy to read and I want to become a doctor. » ne convient pas : « enjoy to read » est incorrect : « enjoy » est suivi du verbe en -ing."
+    }
+   ],
+   "explication": "Enjoy + -ing ; want + to + infinitif.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-171",
+   "type": "grammaire2",
+   "niveau": 3,
+   "enonce": "She suggested ___ early and promised ___ on time.",
+   "bonne": "leaving / to be",
+   "pourquoiBonne": "« She suggested leaving early and promised to be on time. » est correct. Suggest + -ing ; promise + to + infinitif.",
+   "fausses": [
+    {
+     "texte": "to leave / being",
+     "raison": "« She suggested to leave early and promised being on time. » ne convient pas : « suggest » est suivi de -ing, et « promise » de « to » + infinitif : les deux sont inversés."
+    },
+    {
+     "texte": "leaving / being",
+     "raison": "« She suggested leaving early and promised being on time. » ne convient pas : « promised being » est incorrect : « promise » est suivi de « to » + infinitif."
+    },
+    {
+     "texte": "to leave / to be",
+     "raison": "« She suggested to leave early and promised to be on time. » ne convient pas : « suggested to leave » est incorrect : « suggest » est suivi du verbe en -ing."
+    }
+   ],
+   "explication": "Suggest + -ing ; promise + to + infinitif.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-172",
+   "type": "grammaire2",
+   "niveau": 2,
+   "enonce": "I need to ___ some money from the bank to ___ my rent.",
+   "bonne": "withdraw / pay",
+   "pourquoiBonne": "« I need to withdraw some money from the bank to pay my rent. » est correct. Withdraw = retirer ; pay = payer.",
+   "fausses": [
+    {
+     "texte": "earn / pay",
+     "raison": "« I need to earn some money from the bank to pay my rent. » ne convient pas : On ne « gagne » pas de l'argent « from the bank » : on le retire (withdraw)."
+    },
+    {
+     "texte": "lend / pay",
+     "raison": "« I need to lend some money from the bank to pay my rent. » ne convient pas : « lend money from the bank » est incorrect : on retire de l'argent (withdraw) de son compte."
+    },
+    {
+     "texte": "withdraw / earn",
+     "raison": "« I need to withdraw some money from the bank to earn my rent. » ne convient pas : On « paie » son loyer (pay), on ne le « gagne » pas (earn)."
+    }
+   ],
+   "explication": "Withdraw = retirer ; pay = payer.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-173",
+   "type": "phrase",
+   "niveau": 1,
+   "enonce": "Which sentence is correct?",
+   "bonne": "She doesn't like coffee.",
+   "pourquoiBonne": "« She doesn't like coffee. » est correct. Présent simple, négation : doesn't + infinitif sans s.",
+   "fausses": [
+    {
+     "texte": "She don't like coffee.",
+     "raison": "« She don't like coffee. » ne convient pas : Avec « she » (3e personne), l'auxiliaire est « doesn't », pas « don't »."
+    },
+    {
+     "texte": "She doesn't likes coffee.",
+     "raison": "« She doesn't likes coffee. » ne convient pas : Après « doesn't », le verbe reste à l'infinitif : « like », sans « s »."
+    },
+    {
+     "texte": "She not like coffee.",
+     "raison": "« She not like coffee. » ne convient pas : La négation du présent simple demande un auxiliaire : « doesn't like »."
+    }
+   ],
+   "explication": "Présent simple, négation : doesn't + infinitif sans s.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-174",
+   "type": "phrase",
+   "niveau": 2,
+   "enonce": "Which sentence is correct?",
+   "bonne": "He has been working here for three years.",
+   "pourquoiBonne": "« He has been working here for three years. » est correct. For + durée ; since + point de départ.",
+   "fausses": [
+    {
+     "texte": "He has been working here since three years.",
+     "raison": "« He has been working here since three years. » ne convient pas : « since » + durée est incorrect : avec une durée on dit « for »."
+    },
+    {
+     "texte": "He works here since three years.",
+     "raison": "« He works here since three years. » ne convient pas : « since » demande le present perfect, et « three years » est une durée : il faut « for »."
+    },
+    {
+     "texte": "He is working here since three years.",
+     "raison": "« He is working here since three years. » ne convient pas : « since » avec le présent continu est incorrect, et « three years » est une durée : for."
+    }
+   ],
+   "explication": "For + durée ; since + point de départ.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-175",
+   "type": "phrase",
+   "niveau": 2,
+   "enonce": "Which sentence is correct?",
+   "bonne": "I look forward to seeing you.",
+   "pourquoiBonne": "« I look forward to seeing you. » est correct. Look forward to + -ing.",
+   "fausses": [
+    {
+     "texte": "I look forward to see you.",
+     "raison": "« I look forward to see you. » ne convient pas : Après « look forward to », le verbe est en -ing : « seeing »."
+    },
+    {
+     "texte": "I look forward seeing you.",
+     "raison": "« I look forward seeing you. » ne convient pas : Il manque « to » : l'expression est « look forward to »."
+    },
+    {
+     "texte": "I look forward to saw you.",
+     "raison": "« I look forward to saw you. » ne convient pas : Après « to » (ici une préposition) on met le verbe en -ing, pas au passé."
+    }
+   ],
+   "explication": "Look forward to + -ing.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-176",
+   "type": "phrase",
+   "niveau": 2,
+   "enonce": "Which sentence is correct?",
+   "bonne": "If I had time, I would help you.",
+   "pourquoiBonne": "« If I had time, I would help you. » est correct. Condition irréelle : if + passé, would + infinitif.",
+   "fausses": [
+    {
+     "texte": "If I would have time, I would help you.",
+     "raison": "« If I would have time, I would help you. » ne convient pas : On ne met pas « would » après « if » dans cette condition."
+    },
+    {
+     "texte": "If I have had time, I would help you.",
+     "raison": "« If I have had time, I would help you. » ne convient pas : « would help » appelle « if + passé simple » : « had », pas « have had »."
+    },
+    {
+     "texte": "If I will have time, I would help you.",
+     "raison": "« If I will have time, I would help you. » ne convient pas : On ne met jamais « will » après « if »."
+    }
+   ],
+   "explication": "Condition irréelle : if + passé, would + infinitif.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-177",
+   "type": "phrase",
+   "niveau": 1,
+   "enonce": "Which sentence is correct?",
+   "bonne": "She is taller than her sister.",
+   "pourquoiBonne": "« She is taller than her sister. » est correct. Adjectif court : -er + than.",
+   "fausses": [
+    {
+     "texte": "She is more taller than her sister.",
+     "raison": "« She is more taller than her sister. » ne convient pas : « tall » est un adjectif court : on ajoute -er, pas « more »."
+    },
+    {
+     "texte": "She is tallest than her sister.",
+     "raison": "« She is tallest than her sister. » ne convient pas : « tallest » est un superlatif : avec « than » il faut le comparatif « taller »."
+    },
+    {
+     "texte": "She is the more tall than her sister.",
+     "raison": "« She is the more tall than her sister. » ne convient pas : Forme incorrecte : le comparatif de « tall » est « taller »."
+    }
+   ],
+   "explication": "Adjectif court : -er + than.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-178",
+   "type": "phrase",
+   "niveau": 1,
+   "enonce": "Which sentence is correct?",
+   "bonne": "There are many people in the street.",
+   "pourquoiBonne": "« There are many people in the street. » est correct. People est un pluriel : there are many people.",
+   "fausses": [
+    {
+     "texte": "There is many people in the street.",
+     "raison": "« There is many people in the street. » ne convient pas : « people » est pluriel : on dit « there are »."
+    },
+    {
+     "texte": "There are many peoples in the street.",
+     "raison": "« There are many peoples in the street. » ne convient pas : Au sens « les gens », « people » n'a pas de « s »."
+    },
+    {
+     "texte": "There is much people in the street.",
+     "raison": "« There is much people in the street. » ne convient pas : « people » est dénombrable pluriel : « many », et « there are »."
+    }
+   ],
+   "explication": "People est un pluriel : there are many people.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-179",
+   "type": "phrase",
+   "niveau": 2,
+   "enonce": "Which sentence is correct?",
+   "bonne": "He asked me what time it was.",
+   "pourquoiBonne": "« He asked me what time it was. » est correct. Question rapportée : ordre sujet + verbe, temps reculé.",
+   "fausses": [
+    {
+     "texte": "He asked me what time was it.",
+     "raison": "« He asked me what time was it. » ne convient pas : Dans une question rapportée, on n'inverse pas le sujet et le verbe : « it was »."
+    },
+    {
+     "texte": "He asked me what time does it was.",
+     "raison": "« He asked me what time does it was. » ne convient pas : Forme incorrecte : il n'y a pas d'auxiliaire « does » dans une question rapportée."
+    },
+    {
+     "texte": "He asked me what time it be.",
+     "raison": "« He asked me what time it be. » ne convient pas : « be » n'est pas conjugué : il faut « was » (passé après « asked »)."
+    }
+   ],
+   "explication": "Question rapportée : ordre sujet + verbe, temps reculé.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-180",
+   "type": "phrase",
+   "niveau": 1,
+   "enonce": "Which sentence is correct?",
+   "bonne": "I saw him yesterday.",
+   "pourquoiBonne": "« I saw him yesterday. » est correct. Yesterday = passé simple.",
+   "fausses": [
+    {
+     "texte": "I have seen him yesterday.",
+     "raison": "« I have seen him yesterday. » ne convient pas : « yesterday » est une date passée précise : on emploie le passé simple, pas le present perfect."
+    },
+    {
+     "texte": "I have saw him yesterday.",
+     "raison": "« I have saw him yesterday. » ne convient pas : « saw » est un passé simple, pas un participe : « have seen » ; et « yesterday » demande « saw »."
+    },
+    {
+     "texte": "I did saw him yesterday.",
+     "raison": "« I did saw him yesterday. » ne convient pas : Après « did », le verbe est à l'infinitif : « did see », ou simplement « saw »."
+    }
+   ],
+   "explication": "Yesterday = passé simple.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-181",
+   "type": "phrase",
+   "niveau": 2,
+   "enonce": "Which sentence is correct?",
+   "bonne": "The film was boring and I was bored.",
+   "pourquoiBonne": "« The film was boring and I was bored. » est correct. -ing décrit la chose ; -ed décrit la personne qui ressent.",
+   "fausses": [
+    {
+     "texte": "The film was boring and I was boring.",
+     "raison": "« The film was boring and I was boring. » ne convient pas : On est « bored » (ennuyé) ; c'est le film qui est « boring » (ennuyeux)."
+    },
+    {
+     "texte": "The film was bored and I was bored.",
+     "raison": "« The film was bored and I was bored. » ne convient pas : Un film ne s'ennuie pas : il est « boring »."
+    },
+    {
+     "texte": "The film was bored and I was boring.",
+     "raison": "« The film was bored and I was boring. » ne convient pas : Les deux adjectifs sont inversés : film boring, moi bored."
+    }
+   ],
+   "explication": "-ing décrit la chose ; -ed décrit la personne qui ressent.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-182",
+   "type": "phrase",
+   "niveau": 1,
+   "enonce": "Which sentence is correct?",
+   "bonne": "She must go now.",
+   "pourquoiBonne": "« She must go now. » est correct. Modal + infinitif sans to, sans s.",
+   "fausses": [
+    {
+     "texte": "She must to go now.",
+     "raison": "« She must to go now. » ne convient pas : Après « must » on met l'infinitif sans « to »."
+    },
+    {
+     "texte": "She must goes now.",
+     "raison": "« She must goes now. » ne convient pas : Après un modal, le verbe reste à l'infinitif, sans « s »."
+    },
+    {
+     "texte": "She musts go now.",
+     "raison": "« She musts go now. » ne convient pas : Les modaux ne prennent pas de « s » à la 3e personne."
+    }
+   ],
+   "explication": "Modal + infinitif sans to, sans s.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-183",
+   "type": "phrase",
+   "niveau": 2,
+   "enonce": "Which sentence is correct?",
+   "bonne": "He gave me some advice.",
+   "pourquoiBonne": "« He gave me some advice. » est correct. Advice est indénombrable : some advice, a piece of advice.",
+   "fausses": [
+    {
+     "texte": "He gave me an advice.",
+     "raison": "« He gave me an advice. » ne convient pas : « advice » est indénombrable : pas d'article « an »."
+    },
+    {
+     "texte": "He gave me advices.",
+     "raison": "« He gave me advices. » ne convient pas : « advice » est indénombrable : il n'a pas de pluriel."
+    },
+    {
+     "texte": "He gave me a advice.",
+     "raison": "« He gave me a advice. » ne convient pas : « advice » est indénombrable : pas d'article « a »."
+    }
+   ],
+   "explication": "Advice est indénombrable : some advice, a piece of advice.",
+   "relecture": null
+  },
+  {
+   "id": "ANG-GRA-184",
+   "type": "phrase",
+   "niveau": 3,
+   "enonce": "Which sentence is correct?",
+   "bonne": "I'm used to getting up early.",
+   "pourquoiBonne": "« I'm used to getting up early. » est correct. Be used to + -ing = être habitué à.",
+   "fausses": [
+    {
+     "texte": "I'm used to get up early.",
+     "raison": "« I'm used to get up early. » ne convient pas : Après « be used to » (être habitué à), on met le verbe en -ing."
+    },
+    {
+     "texte": "I'm use to getting up early.",
+     "raison": "« I'm use to getting up early. » ne convient pas : La forme est « used » (participe), pas « use »."
+    },
+    {
+     "texte": "I used to getting up early.",
+     "raison": "« I used to getting up early. » ne convient pas : « used to » (avoir l'habitude, passé) est suivi de l'infinitif ; ici le sens et la forme exigent « be used to + -ing »."
+    }
+   ],
+   "explication": "Be used to + -ing = être habitué à.",
+   "relecture": null
   }
  ]
 }

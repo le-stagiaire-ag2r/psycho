@@ -1,4 +1,4 @@
-import type { Difficulte, EpreuveId, ItemRef, Mode, NiveauId, ThemePref } from './types';
+import type { ChronoPref, Difficulte, EpreuveId, ItemRef, Mode, NiveauId, ThemePref } from './types';
 
 /**
  * Stockage local (localStorage). Tout est protégé par try/catch : le stockage peut
@@ -18,6 +18,7 @@ export interface Prefs {
   mode: Mode;
   difficulte: Difficulte;
   theme: ThemePref;
+  chrono: ChronoPref;
 }
 
 export interface ResultatSeance {
@@ -55,7 +56,7 @@ export const MAX_RESOLUES = 2000;
 export function donneesParDefaut(): Donnees {
   return {
     version: 1,
-    prefs: { niveau: 'militaire-du-rang', mode: 'entrainement', difficulte: 2, theme: 'clair' },
+    prefs: { niveau: 'militaire-du-rang', mode: 'entrainement', difficulte: 2, theme: 'clair', chrono: 'indicatif' },
     historique: [],
     erreursResolues: [],
   };
@@ -74,6 +75,7 @@ export function stockageNavigateur(): StorageLike | null {
 const NIVEAUX_VALIDES = ['militaire-du-rang', 'sous-officier', 'officier'];
 const MODES_VALIDES = ['entrainement', 'examen'];
 const THEMES_VALIDES = ['auto', 'clair', 'sombre'];
+const CHRONOS_VALIDES = ['indicatif', 'souple', 'libre'];
 const EPREUVES_VALIDES = [
   'logique',
   'spatial',
@@ -145,6 +147,7 @@ export function normaliser(brut: unknown): Donnees | null {
         ? p.difficulte
         : defaut.prefs.difficulte,
     theme: THEMES_VALIDES.includes(p.theme as string) ? (p.theme as ThemePref) : defaut.prefs.theme,
+    chrono: CHRONOS_VALIDES.includes(p.chrono as string) ? (p.chrono as ChronoPref) : defaut.prefs.chrono,
   };
   const historique = Array.isArray(b.historique) ? b.historique.filter(estResultat) : [];
   const resolues = Array.isArray(b.erreursResolues)

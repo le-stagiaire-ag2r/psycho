@@ -9,27 +9,27 @@ Une recherche web n'a trouvé **aucune source officielle publique** décrivant l
 l'armée de Terre (seulement des supports de préparation et des documents génériques). Les chiffres ci-dessous viennent de
 témoignages de candidats. Pour l'officiel : sengager.fr ou un CIRFA.
 
-## Attention / concentration
-- [ ] Nombre de questions : 45 (témoignages : 40 à 45)
-- [ ] Durée : 3 min 30
+## Attention / concentration (refaite le 29 octobre 2026, voir `RECHERCHE-FORMATS.md`)
+- [x] Format : plusieurs séries de caractères, trouver l'intrus ou « Pas d'intrus » (retex 2017 à 2026)
+- [ ] Nombre de séries : 5 d'après les retex 2025 ; ici **3 séries + « Pas d'intrus » = 4 propositions** (règle des 4 propositions maximum, `nbChoix`)
+- [ ] Nombre de questions : 40 (3 min 30), d'après les sites et les retex
+- [ ] Proportion de questions sans intrus : 25 % ici (`PROBA_SANS_INTRUS`), non confirmée
+- [ ] Types de séries réellement rencontrés : chiffres, lettres, mélange (ici) ; noms propres cités une fois (2017), non implémentés
 - [ ] Peut-on passer une question ? (actuellement : non)
-- [ ] Longueur des suites : 5 à 8 caractères selon la difficulté
-- [ ] Types de différences réellement rencontrés (transposition, substitution, doublement, omission)
 
-## Codage
-- [ ] Nombre de questions : 45 en 2 min 30
-- [ ] **Sens** : numéro → mot (actuel) ou mot → numéro (`parametres.sens`)
-- [ ] Taille du tableau : 12 mots (`tailleTableau`)
-- [ ] Combien de questions partagent le même tableau ? Actuellement 15 (`questionsParTableau`) : choix arbitraire, à valider
-- [ ] Nombre de propositions : 5 (actuel) ou autre mécanisme de réponse
-- [ ] Numéros à 2 chiffres (facile/moyen) ou 3 chiffres (difficile) : à valider
-- [ ] Liste de mots : 215 mots rédigés à la main, à étendre vers 500-1 000 (le tableau n'est pas dépendant du nombre de mots)
+## Codage (refait le 29 octobre 2026)
+- [x] Format : tableau de 12 mots avec un code à 4 chiffres, affiché en permanence ; on donne un mot, on retrouve son code parmi 4 codes très proches (retex 2017 à 2026)
+- [ ] Nombre de questions : 40 en 2 min 30 (retex 2025 et 2026) ; 45 selon des sites
+- [ ] Le tableau reste le même pendant toute la séance (`questionsParTableau: 1000`)
+- [ ] Les faux codes diffèrent d'un à trois chiffres du bon (selon la difficulté) : proportion non confirmée
+- [ ] Liste de mots : 215 mots rédigés à la main, à étendre ; les retex citent des mots longs (« Submersible », « Motocyclette »)
 
 ## Raisonnement spatial
-- [ ] Variantes réellement rencontrées : quadrillages tournés, cubes retournés, patron de cube ? (config `variantes`, répartition actuelle `grille,vues,grille,patron`)
-- [ ] Sens des rotations de quadrillage : horaire, anti-horaire ou mixte (`sensRotation`, actuellement mixte, précisé dans la consigne)
-- [ ] Taille des grilles : 4×4 / 5×5 / 6×6 selon la difficulté (le brief indique souvent 5×5)
-- [ ] Les cubes du vrai test montrent-ils un patron ? deux vues ? Les symboles sont ici des motifs 3×3 asymétriques (choix de conception)
+- [x] Variante : rotation de grille uniquement (retex 2013 à 2026) ; cubes retournés et patrons non cités, désactivés par défaut (`variantes: 'grille'`)
+- [ ] Les distracteurs miroir existent (un retex de 2013 : deux candidats ont choisi une grille « inversée »), alors que la bonne réponse est toujours une rotation de 90°, 180° ou 270°
+- [ ] Sens des rotations : horaire, anti-horaire ou mixte (`sensRotation`, actuellement mixte, précisé dans la consigne)
+- [ ] Taille des grilles : 5×5 d'après les sources (ici 4×4 à 6×6 selon la difficulté)
+- [ ] 4 ou 5 propositions : 4 ici (règle du testeur), 5 d'après les sites
 
 ## Raisonnement logique
 - [ ] Types de règles réellement rencontrés (ici : rotation d'un symbole, échange, décalage circulaire, symbole suivant, tiers de tour du cube autour de l'axe de vue, combinaisons de deux règles)
@@ -42,8 +42,8 @@ témoignages de candidats. Pour l'officiel : sengager.fr ou un CIRFA.
 - [ ] Épreuve de **mémoire / observation** (« quels objets étaient affichés ? ») : non implémentée, à décider
 
 ## Verbal et anglais
-- [ ] **Relecture humaine obligatoire** (une passe IA a déjà eu lieu, voir `RELECTURE.md` avec la liste des questions encore discutables) des 159 items verbaux et des 293 items d’anglais (rédigés pour ce projet avec l'aide d'une IA, donc `relecture: null`)
-- [ ] Types d'items verbaux réellement rencontrés (synonymes, intrus, vocabulaire, proverbes, orthographe : confirmés par le brief ; analogies et grammaire : ajoutés)
+- [ ] **Relecture humaine obligatoire** (une passe IA a déjà eu lieu, voir `RELECTURE.md` avec la liste des questions encore discutables) des items verbaux (179 actifs) et des 327 items d’anglais (rédigés pour ce projet avec l'aide d'une IA, donc `relecture: null`)
+- [x] Types d'items verbaux réellement rencontrés : synonymes, antonymes, définitions, intrus (retex) ; **proverbes et orthographe retirés** (aucun témoin n'en parle, items conservés avec `actif: false`) ; analogies et grammaire gardées, non confirmées
 - [ ] Nombre de propositions : 4 (config `nbChoix`)
 
 ## Personnalité
@@ -61,7 +61,7 @@ témoignages de candidats. Pour l'officiel : sengager.fr ou un CIRFA.
 - [ ] Spatial : ~25 questions en 7 min
 - [ ] Verbal : ~31 questions en 8 min
 - [ ] Numérique : ~25 questions en 18 min
-- [ ] Anglais : 100 à 150 questions, ~55 min (ici 100 en 55 min)
+- [x] Anglais : 150 questions, 55 min, 5 propositions d'après les retex (ici 4 propositions)
 - [ ] Ordre de l'examen blanc : logique, spatial, verbal, numérique, codage, attention (`src/config/examen.ts`)
 
 - [x] Nombre de propositions : 4 maximum pour tous les QCM (retour d'un testeur : « 5 propositions aux cubes, c'est trop »). Réglable par épreuve dans `src/config/epreuves.ts` (`nbChoix`). À confirmer auprès de candidats.

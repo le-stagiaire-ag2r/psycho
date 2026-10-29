@@ -1450,3 +1450,80 @@ progress::-webkit-progress-value {
     padding: 0.5rem 0;
   }
 }
+
+/* ----- Attention : séries de caractères ----- */
+.series {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+  max-width: 28rem;
+}
+.serie {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.6rem 1rem;
+  background: var(--carte);
+  border: 1px solid var(--bordure);
+  border-radius: 2px;
+}
+.serie-num {
+  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  font-size: 0.8rem;
+  color: var(--texte-doux);
+  min-width: 1.2rem;
+}
+.serie-code {
+  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  font-size: clamp(1.3rem, 5vw, 1.8rem);
+  letter-spacing: 0.22em;
+  font-weight: 600;
+}
+
+/* ----- Codage : tableau de 12 mots avec leur code ----- */
+.grille-codage {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--bordure);
+  border: 1px solid var(--bordure);
+  border-radius: 2px;
+  overflow: hidden;
+}
+@media (max-width: 40rem) {
+  .grille-codage {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 22rem) {
+  .grille-codage {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.cellule-codage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.55rem 0.3rem;
+  background: var(--carte);
+  text-align: center;
+  min-width: 0;
+}
+.codage-mot {
+  font-size: 0.95rem;
+  overflow-wrap: anywhere;
+}
+.codage-code {
+  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: 0.12em;
+  color: var(--marque);
+  font-variant-numeric: tabular-nums;
+}

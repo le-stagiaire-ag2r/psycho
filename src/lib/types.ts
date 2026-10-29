@@ -15,6 +15,8 @@ export type Mode = 'entrainement' | 'examen';
 export type NiveauId = 'militaire-du-rang' | 'sous-officier' | 'officier';
 export type Difficulte = 1 | 2 | 3;
 export type ThemePref = 'auto' | 'clair' | 'sombre';
+/** Réglage du chrono de l'examen blanc : durées indicatives, rallongées de 50 %, ou sans limite */
+export type ChronoPref = 'indicatif' | 'souple' | 'libre';
 
 /** Référence sérialisable d'un item : suffit à le régénérer à l'identique. */
 export interface ItemRef {
@@ -35,6 +37,12 @@ export interface StimulusAttention {
   type: 'attention';
   a: string;
   b: string;
+}
+
+/** Séries de caractères à comparer : une série intruse, ou aucune (version 2 de l'attention). */
+export interface StimulusAttentionSeries {
+  type: 'attention-series';
+  series: string[];
 }
 
 export interface StimulusCodage {
@@ -99,6 +107,7 @@ export interface StimulusSuiteCubes {
 
 export type Stimulus =
   | StimulusAttention
+  | StimulusAttentionSeries
   | StimulusCodage
   | StimulusGrille
   | StimulusTexte
