@@ -6,7 +6,7 @@ import { EPREUVES_EXAMEN, EPREUVES_OPTIONNELLES_EXAMEN } from '../config/examen'
 import { EPREUVES, type ConfigEpreuve } from '../config/epreuves';
 import { AVERTISSEMENT_OBJECTIFS, OBJECTIFS, libelleNiveau } from '../config/niveaux';
 import { dureeEffectiveSecondes } from '../lib/chrono';
-import { decimal, formatDuree, pourcent } from '../lib/format';
+import { decimal, formatDuree, formatDureeLongue, pourcent } from '../lib/format';
 import { creerResultat } from '../lib/resultat';
 import { calculerBilan, comparerObjectif, repereGlobal, repereIndicatif, type Bilan } from '../lib/scoring';
 import type { EtatSeance } from '../lib/session';
@@ -79,9 +79,13 @@ export default function Examen() {
         </fieldset>
         <ChoixChrono />
         <p>
-          Durée totale :{' '}
-          <strong>{Number.isFinite(dureeTotale) ? formatDuree(dureeTotale) : 'sans limite de temps'}</strong> (hors lecture
-          des consignes).
+          Temps de chronomètre :{' '}
+          <strong>{Number.isFinite(dureeTotale) ? formatDureeLongue(dureeTotale) : 'sans limite de temps'}</strong>.
+        </p>
+        <p className="discret">
+          Au vrai CSO (GRS), la matinée de tests dure environ 3 h à 3 h 30 : ces minutes de chronomètre s’ajoutent au test de
+          personnalité (environ 1 h pour 241 affirmations), aux consignes, à une question d’exemple avant chaque test et à une
+          pause d’environ 10 minutes. Tu peux faire la personnalité à part, depuis l’accueil.
         </p>
         <div className="actions">
           <button type="button" className="bouton" onClick={demarrer} disabled={choisies.length === 0}>
