@@ -51,7 +51,7 @@ const ATTENDUES: Partial<Record<EpreuveId, { version: number; empreinte: string 
   attention: { version: 2, empreinte: '5b261d53' },
   codage: { version: 2, empreinte: 'c9a92683' },
   numerique: { version: 1, empreinte: '59350aab' },
-  spatial: { version: 1, empreinte: 'f68abccd' },
+  spatial: { version: 1, empreinte: 'd9877f42' }, // config : grilles seules (le générateur n'a pas changé)
   logique: { version: 1, empreinte: '01557153' },
   raisonnement: { version: 1, empreinte: '9c04fb66' },
 };

@@ -8,7 +8,7 @@ import { AVERTISSEMENT_OBJECTIFS, OBJECTIFS, libelleNiveau } from '../config/niv
 import { dureeEffectiveSecondes } from '../lib/chrono';
 import { decimal, formatDuree, pourcent } from '../lib/format';
 import { creerResultat } from '../lib/resultat';
-import { calculerBilan, comparerObjectif, type Bilan } from '../lib/scoring';
+import { calculerBilan, comparerObjectif, repereGlobal, repereIndicatif, type Bilan } from '../lib/scoring';
 import type { EtatSeance } from '../lib/session';
 import type { Difficulte, EpreuveId } from '../lib/types';
 import { useStockage } from '../state/Stockage';
@@ -137,8 +137,14 @@ function BilanExamen({
 }) {
   const lignes = resultats.map((r) => {
     const objectif = OBJECTIFS[r.config.id]?.[niveau];
-    return { ...r, objectif, comparaison: objectif ? comparerObjectif(r.bilan, objectif) : null };
+    return {
+      ...r,
+      objectif,
+      comparaison: objectif ? comparerObjectif(r.bilan, objectif) : null,
+      repere: objectif ? repereIndicatif(r.bilan, objectif) : null,
+    };
   });
+  const repereTotal = repereGlobal(lignes.flatMap((l) => (l.repere ? [l.repere] : [])));
   const evaluees = lignes.filter((l) => l.comparaison);
   const atteints = evaluees.filter((l) => l.comparaison!.precisionOk && l.comparaison!.vitesseOk).length;
   const faibles = [...evaluees]
@@ -164,6 +170,7 @@ function BilanExamen({
             <th>Précision</th>
             <th>Vitesse (bonnes/min)</th>
             <th>Objectif indicatif</th>
+            <th>Repère</th>
           </tr>
         </thead>
         <tbody>
@@ -180,6 +187,7 @@ function BilanExamen({
                   ? `${l.comparaison.precisionOk ? '✓' : '✗'} précision · ${l.comparaison.vitesseOk ? '✓' : '✗'} vitesse`
                   : '—'}
               </td>
+              <td>{l.repere ?? '—'}</td>
             </tr>
           ))}
         </tbody>
@@ -188,6 +196,13 @@ function BilanExamen({
 
       {evaluees.length > 0 && (
         <div className="encadre">
+          {repereTotal && (
+            <p>
+              Repère global indicatif : <strong>{repereTotal}</strong>. À l’armée, les résultats aux tests sont notés E1
+              (tous les postes ouverts), E2 ou E3 : ce n’est pas un seuil fixe, c’est un classement des candidats entre eux.
+              Ce repère est une image grossière de ton entraînement, pas ta vraie note.
+            </p>
+          )}
           <p>
             Objectifs indicatifs atteints (précision <em>et</em> vitesse) :{' '}
             <strong>

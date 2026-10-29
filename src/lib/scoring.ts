@@ -80,3 +80,30 @@ export function comparerObjectif(
     vitesseOk: b.vitesseCorrectes >= objectif.correctesParMinute,
   };
 }
+
+/**
+ * Repère E1 / E2 / E3 (meilleur → moins bon), INDICATIF et non officiel.
+ * La vraie notation n'est pas publiée : l'armée classe les candidats entre eux (E1 = tous les postes
+ * ouverts, E3 = beaucoup de portes fermées). Ici : E1 si l'objectif est atteint en précision ET en vitesse,
+ * E3 si l'on est très loin de l'objectif (précision sous 80 % de la cible ou vitesse sous la moitié), E2 sinon.
+ */
+export type RepereE = 'E1' | 'E2' | 'E3';
+
+export function repereIndicatif(b: Pick<Bilan, 'precision' | 'vitesseCorrectes'>, objectif: Objectif): RepereE {
+  const p = b.precision / objectif.precisionMin;
+  const v = b.vitesseCorrectes / objectif.correctesParMinute;
+  if (p >= 1 && v >= 1) return 'E1';
+  if (p < 0.8 || v < 0.5) return 'E3';
+  return 'E2';
+}
+
+/** Repère global : E3 si au moins un tiers des épreuves sont E3, E1 si au moins les deux tiers sont E1 et aucune E3, sinon E2. */
+export function repereGlobal(reperes: RepereE[]): RepereE | null {
+  if (reperes.length === 0) return null;
+  const n = reperes.length;
+  const e1 = reperes.filter((r) => r === 'E1').length;
+  const e3 = reperes.filter((r) => r === 'E3').length;
+  if (e3 * 3 >= n) return 'E3';
+  if (e3 === 0 && e1 * 3 >= n * 2) return 'E1';
+  return 'E2';
+}

@@ -226,6 +226,8 @@ export function SeanceInner({
           <li>{nbQuestions} questions</li>
           <li>{examen ? (chronoLimite ? `Chrono ${formatDuree(dureeMaxMs)}` : 'Sans limite de temps') : 'Chrono souple'}</li>
           <li>Niveau : {libelleNiveau(niveau)}</li>
+          {config.materiel && <li>{config.materiel}</li>}
+          {examen && chronoLimite && <li>Le test s’arrête net à la fin du temps</li>}
         </ul>
         <div className="actions actions-centre">
           <button type="button" className="bouton bouton-grand" onClick={commencer} autoFocus>

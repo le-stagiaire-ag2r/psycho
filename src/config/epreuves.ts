@@ -32,6 +32,8 @@ export interface ConfigEpreuve {
   conseils: string[];
   /** Mise en garde affichée avant de commencer (statut de la banque, limites…) */
   avertissement?: string;
+  /** Matériel autorisé ou interdit, affiché avant de commencer (ex. brouillon, calculatrice) */
+  materiel?: string;
 }
 
 const CONSEIL_VITESSE =
@@ -127,7 +129,7 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
   spatial: {
     id: 'spatial',
     titre: 'Raisonnement spatial',
-    description: 'Quadrillages tournés, cubes à plier et cubes retournés.',
+    description: 'Une grille 5×5 noir et blanc : retrouve celle qui a subi une rotation de 90°, 180° ou 270°.',
     disponible: true,
     nbQuestions: 25,
     dureeSecondes: 420,
@@ -137,16 +139,16 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
     penaliteErreur: 0,
     difficulteExamen: 2,
     parametres: {
-      // Variantes tirées en alternance (séparées par des virgules) : 'grille', 'patron', 'vues'.
-      // Ordre et répartition à valider auprès de candidats (voir TODO-FORMATS.md).
-      variantes: 'grille,vues,grille,patron',
+      // Les candidats ne décrivent que des rotations de grilles. Les variantes « patron » (cube à plier)
+      // et « vues » (cube retourné) existent dans le code mais ne sont plus proposées par défaut.
+      variantes: 'grille',
       // 'horaire', 'antihoraire' ou 'mixte' (le sens est alors précisé dans chaque consigne)
       sensRotation: 'mixte',
     },
     conseils: [
       'Choisis une case repère (un coin, une case noire isolée) et suis-la pendant la rotation.',
       'Un quart de tour horaire : la première ligne devient la dernière colonne. Un demi-tour : tout est lu à l’envers.',
-      'Méfie-toi des miroirs : ils ressemblent à une rotation mais inversent la gauche et la droite.',
+      'Méfie-toi des grilles qui ressemblent à la bonne : une case en plus ou en moins, ou une grille retournée comme dans un miroir.',
     ],
   },
   verbal: {
@@ -185,6 +187,7 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
     penaliteErreur: 0,
     difficulteExamen: 2,
     parametres: {},
+    materiel: 'Brouillon et crayon autorisés, calculatrice interdite.',
     conseils: [
       'Estime d’abord l’ordre de grandeur : cela élimine souvent deux ou trois propositions.',
       'Les mauvaises réponses sont des erreurs classiques (base 100 au lieu de 60, pourcentages qui « s’annulent »…) : relis l’énoncé.',
