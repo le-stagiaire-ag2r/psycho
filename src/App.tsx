@@ -1,16 +1,19 @@
-import { useEffect, useState } from 'react';
+import { lazy, Suspense, useEffect, useState } from 'react';
 import { Link, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import { NOM_APP, NON_AFFILIATION } from './config/app';
-import Guide from './components/Guide';
 import { guideDejaVu, marquerGuideVu } from './lib/guide';
 import Accueil from './pages/Accueil';
-import Confidentialite from './pages/Confidentialite';
-import Examen from './pages/Examen';
-import Methode from './pages/Methode';
-import Personnalite from './pages/Personnalite';
-import Progression from './pages/Progression';
-import Revision from './pages/Revision';
-import Seance from './pages/Seance';
+import { titreDePage } from './lib/titres';
+
+// Les pages lourdes (générateurs, banques de questions, questionnaire) ne sont chargées qu'au besoin.
+const Guide = lazy(() => import('./components/Guide'));
+const Confidentialite = lazy(() => import('./pages/Confidentialite'));
+const Examen = lazy(() => import('./pages/Examen'));
+const Methode = lazy(() => import('./pages/Methode'));
+const Personnalite = lazy(() => import('./pages/Personnalite'));
+const Progression = lazy(() => import('./pages/Progression'));
+const Revision = lazy(() => import('./pages/Revision'));
+const Seance = lazy(() => import('./pages/Seance'));
 import { useStockage } from './state/Stockage';
 import type { ThemePref } from './lib/types';
 
@@ -34,6 +37,11 @@ export default function App() {
     // Uniquement au chargement initial
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // Un titre d'onglet propre à chaque page (historique, favoris, lecteurs d'écran).
+  useEffect(() => {
+    document.title = titreDePage(pathname);
+  }, [pathname]);
 
   const ouvrirGuide = () => {
     if (pathname !== '/') navigate('/');
@@ -76,6 +84,7 @@ export default function App() {
       )}
 
       <main id="contenu" className="contenu">
+        <Suspense fallback={<p role="status">Chargement…</p>}>
         <Routes>
           <Route path="/" element={<Accueil />} />
           <Route path="/epreuve/:epreuve/:mode" element={<Seance />} />
@@ -86,11 +95,23 @@ export default function App() {
           <Route path="/personnalite" element={<Personnalite />} />
           <Route path="/progression" element={<Progression />} />
           <Route path="/confidentialite" element={<Confidentialite />} />
-          <Route path="*" element={<p>Page introuvable. <Link to="/">Retour à l’accueil</Link></p>} />
+          <Route path="*" element={
+              <section aria-labelledby="titre-404">
+                <h1 id="titre-404">Page introuvable</h1>
+                <p>
+                  <Link to="/">Retour à l’accueil</Link>
+                </p>
+              </section>
+            } />
         </Routes>
+        </Suspense>
       </main>
 
-      {guideOuvert && <Guide onFermer={fermerGuide} />}
+      {guideOuvert && (
+        <Suspense fallback={null}>
+          <Guide onFermer={fermerGuide} />
+        </Suspense>
+      )}
 
       <footer className="pied">
         <p className="non-affiliation">{NON_AFFILIATION}</p>

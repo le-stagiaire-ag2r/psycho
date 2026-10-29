@@ -3,11 +3,16 @@ import { add, egal, formatable, formater, grouperMilliers, q, type Format, type 
 import type { Difficulte, Generateur, Item, ItemRef } from '../lib/types';
 import { GABARITS, gabaritParId, type Gabarit, type Piege } from './numerique/gabarits';
 
-export const VERSION_NUMERIQUE = 1;
+/** v1 : chaque difficulté mélangeait aussi les gabarits plus simples (le niveau 3 contenait 16 gabarits de niveau 1). */
+export const VERSION_NUMERIQUE_V1 = 1;
+/** v2 : chaque difficulté tire ses propres gabarits (le niveau 3 inclut seulement les niveaux 2 et 3). */
+export const VERSION_NUMERIQUE = 2;
 
 /** Gabarits disponibles pour une difficulté donnée. */
-export function gabaritsPour(diff: Difficulte): Gabarit[] {
-  return GABARITS.filter((g) => g.niveau <= diff);
+export function gabaritsPour(diff: Difficulte, version: number = VERSION_NUMERIQUE): Gabarit[] {
+  if (version === VERSION_NUMERIQUE_V1) return GABARITS.filter((g) => g.niveau <= diff);
+  // Difficulté 1 : gabarits simples ; 2 : gabarits intermédiaires ; 3 : intermédiaires et difficiles.
+  return GABARITS.filter((g) => (diff === 3 ? g.niveau >= 2 : g.niveau === diff));
 }
 
 /**
@@ -62,7 +67,7 @@ function mulPetit(a: Q, k: number): Q {
 }
 
 function genererNumerique(ref: ItemRef): Item {
-  if (ref.version !== VERSION_NUMERIQUE) {
+  if (ref.version !== VERSION_NUMERIQUE && ref.version !== VERSION_NUMERIQUE_V1) {
     throw new Error(`Version de générateur non supportée : numérique v${ref.version}`);
   }
   const params = ref.params ?? {};
@@ -71,7 +76,7 @@ function genererNumerique(ref: ItemRef): Item {
 
   const gabarit = params.gabarit
     ? gabaritParId(String(params.gabarit))
-    : rng.choisir(gabaritsPour(ref.difficulte));
+    : rng.choisir(gabaritsPour(ref.difficulte, ref.version));
   const t = gabarit.tirer(rng);
 
   const distracteurs = completerDistracteurs(t.solution, t.pieges, t.format, nbChoix - 1, rng);

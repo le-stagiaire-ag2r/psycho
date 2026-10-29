@@ -18,7 +18,21 @@ export default function Confidentialite() {
           Tu peux l’exporter en fichier JSON pour changer d’appareil, l’importer ailleurs, ou tout effacer depuis la
           page Progression.
         </li>
+        <li>
+          Un seul petit indicateur technique, « guide de départ déjà vu », est aussi gardé dans ton navigateur pour ne
+          pas te remontrer le guide à chaque visite. Tes préférences (niveau, thème, chrono) y sont enregistrées de la
+          même façon.
+        </li>
+        <li>
+          Le questionnaire de personnalité n’enregistre rien : tes réponses disparaissent à la fermeture de la page.
+        </li>
       </ul>
+      <h2>Hébergement</h2>
+      <p>
+        Le site est hébergé gratuitement par Vercel. Comme pour tout site web, l’hébergeur peut conserver des journaux
+        techniques de connexion (adresse IP, date, page demandée) pour assurer la sécurité et le fonctionnement du
+        service. Ces journaux ne contiennent ni tes réponses ni ta progression, qui restent sur ton appareil.
+      </p>
     </article>
   );
 }

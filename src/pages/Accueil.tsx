@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { MENTION_ENTRAINEMENT, NON_AFFILIATION } from '../config/app';
 import { EPREUVES, ORDRE_EPREUVES } from '../config/epreuves';
@@ -6,7 +6,6 @@ import { NIVEAUX, OBJECTIFS } from '../config/niveaux';
 import ChoixChrono from '../components/ChoixChrono';
 import { dureeEffectiveSecondes } from '../lib/chrono';
 import { formatDuree } from '../lib/format';
-import { erreursARevoir } from '../lib/revision';
 import type { Difficulte, Mode, NiveauId } from '../lib/types';
 import { useStockage } from '../state/Stockage';
 
@@ -19,10 +18,17 @@ const DIFFICULTES: { id: Difficulte; libelle: string }[] = [
 export default function Accueil() {
   const { donnees, majPrefs } = useStockage();
   const { niveau, mode, difficulte, chrono } = donnees.prefs;
-  const nbErreurs = useMemo(
-    () => erreursARevoir(donnees.historique, new Set(donnees.erreursResolues)).length,
-    [donnees.historique, donnees.erreursResolues],
-  );
+  // Le comptage régénère les questions : on charge les générateurs à part pour garder l'accueil léger.
+  const [nbErreurs, setNbErreurs] = useState(0);
+  useEffect(() => {
+    let actif = true;
+    void import('../lib/revision').then(({ erreursARevoir }) => {
+      if (actif) setNbErreurs(erreursARevoir(donnees.historique, new Set(donnees.erreursResolues)).length);
+    });
+    return () => {
+      actif = false;
+    };
+  }, [donnees.historique, donnees.erreursResolues]);
 
   return (
     <>

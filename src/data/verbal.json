@@ -4165,7 +4165,7 @@
    "id": "VER-CON-025",
    "type": "contraire",
    "niveau": 2,
-   "enonce": "Quel mot est le contraire de « hostile » ?",
+   "enonce": "Quel mot est l’antonyme de « hostile » ?",
    "bonne": "favorable",
    "pourquoiBonne": "« favorable » signifie « qui soutient et approuve » : c'est l'opposé de « hostile » (« qui se montre contre quelqu'un »).",
    "fausses": [

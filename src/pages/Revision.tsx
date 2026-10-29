@@ -73,7 +73,7 @@ export default function Revision() {
             const nb = parEpreuve.get(id)!.length;
             return (
               <li key={id} className="carte">
-                <h3>{EPREUVES[id].titre}</h3>
+                <h2>{EPREUVES[id].titre}</h2>
                 <p>
                   {nb} erreur{nb > 1 ? 's' : ''} à revoir
                   {nb > MAX_PAR_SEANCE ? ` (par séances de ${MAX_PAR_SEANCE})` : ''}

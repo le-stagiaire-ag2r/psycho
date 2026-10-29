@@ -14,7 +14,7 @@ export default function Methode() {
         <ul className="grille-epreuves">
           {FICHES.map((f) => (
             <li key={f.id} className="carte">
-              <h3>{f.titre}</h3>
+              <h2>{f.titre}</h2>
               <p>{f.resume}</p>
               <Link className="bouton" to={`/methode/${f.id}`}>
                 Lire la fiche

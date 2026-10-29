@@ -6,12 +6,13 @@ import { EPREUVES_EXAMEN, EPREUVES_OPTIONNELLES_EXAMEN } from '../config/examen'
 import { EPREUVES, type ConfigEpreuve } from '../config/epreuves';
 import { AVERTISSEMENT_OBJECTIFS, OBJECTIFS, libelleNiveau } from '../config/niveaux';
 import { dureeEffectiveSecondes } from '../lib/chrono';
-import { decimal, formatDuree, pourcent } from '../lib/format';
+import { decimal, formatDuree, formatDureeLongue, pourcent } from '../lib/format';
 import { creerResultat } from '../lib/resultat';
 import { calculerBilan, comparerObjectif, repereGlobal, repereIndicatif, type Bilan } from '../lib/scoring';
 import type { EtatSeance } from '../lib/session';
 import type { Difficulte, EpreuveId } from '../lib/types';
 import { useStockage } from '../state/Stockage';
+import Personnalite from './Personnalite';
 import { SeanceInner } from './Seance';
 
 interface ResultatEtape {
@@ -68,10 +69,18 @@ export default function Examen() {
             return (
               <label key={id} className="choix">
                 <input type="checkbox" checked={choisies.includes(id)} onChange={() => basculer(id)} />
-                {c.titre} : {c.nbQuestions} questions,{' '}
-                {Number.isFinite(dureeEffectiveSecondes(c.dureeSecondes, chrono))
-                  ? formatDuree(dureeEffectiveSecondes(c.dureeSecondes, chrono) * 1000)
-                  : 'sans limite de temps'}
+                {id === 'personnalite' ? (
+                  <>
+                    {c.titre} : {c.nbQuestions} affirmations, environ 1 h, sans chrono, sans score
+                  </>
+                ) : (
+                  <>
+                    {c.titre} : {c.nbQuestions} questions,{' '}
+                    {Number.isFinite(dureeEffectiveSecondes(c.dureeSecondes, chrono))
+                      ? formatDuree(dureeEffectiveSecondes(c.dureeSecondes, chrono) * 1000)
+                      : 'sans limite de temps'}
+                  </>
+                )}
                 {EPREUVES_OPTIONNELLES_EXAMEN.includes(id) ? ' (option)' : ''}
               </label>
             );
@@ -79,9 +88,13 @@ export default function Examen() {
         </fieldset>
         <ChoixChrono />
         <p>
-          Durée totale :{' '}
-          <strong>{Number.isFinite(dureeTotale) ? formatDuree(dureeTotale) : 'sans limite de temps'}</strong> (hors lecture
-          des consignes).
+          Temps de chronomètre :{' '}
+          <strong>{Number.isFinite(dureeTotale) ? formatDureeLongue(dureeTotale) : 'sans limite de temps'}</strong>.
+        </p>
+        <p className="discret">
+          Au vrai CSO (GRS), la matinée de tests dure environ 3 h à 3 h 30 : ces minutes de chronomètre s’ajoutent au test de
+          personnalité (environ 1 h pour 241 affirmations), aux consignes, à une question d’exemple avant chaque test et à une
+          pause d’environ 10 minutes. Coche « Personnalité » pour l’enchaîner après les épreuves chronométrées.
         </p>
         <div className="actions">
           <button type="button" className="bouton" onClick={demarrer} disabled={choisies.length === 0}>
@@ -97,7 +110,14 @@ export default function Examen() {
 
   // ---------- Fin de l'examen ----------
   if (etape >= configs.length) {
-    return <BilanExamen resultats={resultats} niveau={niveau} onRefaire={() => setEtape(null)} />;
+    return (
+      <BilanExamen
+        resultats={resultats}
+        niveau={niveau}
+        avecPersonnalite={choisies.includes('personnalite')}
+        onRefaire={() => setEtape(null)}
+      />
+    );
   }
 
   // ---------- Une épreuve de l'examen ----------
@@ -107,6 +127,18 @@ export default function Examen() {
       Examen blanc · épreuve {etape + 1} / {configs.length}
     </p>
   );
+  if (config.id === 'personnalite') {
+    return (
+      <Personnalite
+        key={`${manche}-${etape}`}
+        examen={{
+          taille: config.nbQuestions,
+          bandeau,
+          onFin: () => setEtape((e) => (e === null ? e : e + 1)),
+        }}
+      />
+    );
+  }
   return (
     <SeanceInner
       key={`${manche}-${etape}`}
@@ -129,10 +161,12 @@ export default function Examen() {
 function BilanExamen({
   resultats,
   niveau,
+  avecPersonnalite,
   onRefaire,
 }: {
   resultats: ResultatEtape[];
   niveau: Parameters<typeof libelleNiveau>[0];
+  avecPersonnalite: boolean;
   onRefaire(): void;
 }) {
   const lignes = resultats.map((r) => {
@@ -193,6 +227,12 @@ function BilanExamen({
         </tbody>
       </table>
       <p className="discret">{AVERTISSEMENT_OBJECTIFS}</p>
+      {avecPersonnalite && (
+        <p className="discret">
+          Personnalité : faite, sans score et sans réponse enregistrée. Au vrai test, un psychologue s’en sert pour
+          l’entretien : l’important est d’avoir répondu honnêtement.
+        </p>
+      )}
 
       {evaluees.length > 0 && (
         <div className="encadre">

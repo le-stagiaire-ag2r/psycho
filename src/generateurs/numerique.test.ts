@@ -77,3 +77,19 @@ describe('générateur numérique', () => {
     expect(res).toHaveLength(4);
   });
 });
+
+describe('numérique : versions', () => {
+  it('v2 : chaque difficulté a ses propres gabarits ; la difficulté 3 exclut les gabarits simples', () => {
+    expect(gabaritsPour(1).every((g) => g.niveau === 1)).toBe(true);
+    expect(gabaritsPour(2).every((g) => g.niveau === 2)).toBe(true);
+    expect(gabaritsPour(3).every((g) => g.niveau >= 2)).toBe(true);
+  });
+
+  it('v1 : les anciennes références restent rejouables', () => {
+    for (let seed = 1; seed <= 50; seed++) {
+      const item = generateurNumerique.generer({ epreuve: 'numerique', version: 1, seed, difficulte: 3, params: { nbChoix: 5 } });
+      expect(item.id).toBe(`numerique-v1-d3-s${seed}`);
+      expect(item.options).toHaveLength(5);
+    }
+  });
+});
