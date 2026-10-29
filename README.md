@@ -12,11 +12,11 @@ Le brief complet du projet est dans [`CLAUDE.md`](CLAUDE.md).
 
 | Étape | Contenu | État |
 | --- | --- | --- |
-| 1 | Socle : PRNG à graine, schéma d'item, moteur chronométré, sauvegarde locale, export/import, signalement d'erreur | fait |
+| 1 | Socle : PRNG à graine, schéma d'item, moteur chronométré, sauvegarde locale, export/import | fait |
 | 2 | Attention, codage | fait |
 | 3 | Quadrillages tournés (contrôle des 8 symétries), numérique (45 gabarits, arithmétique exacte) | fait |
 | 4 | Cubes à plier / retournés (24 orientations), suites logiques (solveur d'unicité) | fait |
-| 5 | Verbal (159 items) et anglais (293 items, dont 143 de vocabulaire), banques JSON avec champ de relecture | fait, relu une fois par IA (voir `RELECTURE.md`), **relecture humaine à faire** |
+| 5 | Verbal (226 items dont 179 actifs) et anglais (327 items, grammaire, vocabulaire, phrases à deux trous), banques JSON avec champ de relecture | fait, relu une fois par IA (voir `RELECTURE.md`), **relecture humaine à faire** |
 | 6 | Personnalité en mode découverte (sans score, rien d'enregistré) | fait |
 | 7 | Examen blanc enchaîné, révision des erreurs, fiches méthode, statistiques | fait |
 | 8 | Bêta (20 à 50 testeurs), ajustement des chronos et de la difficulté | à faire |
@@ -24,9 +24,10 @@ Le brief complet du projet est dans [`CLAUDE.md`](CLAUDE.md).
 
 ## Ce que fait l'appli
 
-- 9 épreuves : logique, spatial, verbal, numérique, codage, attention, anglais, personnalité (découverte) et **raisonnement général** (épreuve complémentaire : suites de nombres, de lettres et de mots, logique de comparaison ; proposée en option dans l'examen blanc).
+- 9 épreuves : logique, spatial (quadrillages tournés et cubes), verbal, numérique, codage (tableau de 12 mots, codes à 4 chiffres), attention (5 séries de lettres : trouver l’intrus ou « pas d’intrus »), anglais (150 questions par séance), personnalité (découverte, 250 affirmations) et **raisonnement général** (épreuve complémentaire : suites de nombres, de lettres et de mots, logique de comparaison ; proposée en option dans l'examen blanc).
 - **Guide de départ** : visite en bulles avec flèches à la première visite (bouton « Guide » dans le menu pour la revoir), puis mini-test de 3 questions (attention, codage, cubes) pour apprendre le fonctionnement. Rien n’est enregistré (seul un indicateur « guide vu » reste dans le navigateur).
-- Mode **entraînement** (chrono souple, correction détaillée) et **examen blanc** (chrono strict, enchaînement des épreuves).
+- Mode **entraînement** (chrono souple, correction détaillée) et **examen blanc** (chrono strict réglable, enchaînement des épreuves, personnalité en option, repère indicatif E1/E2/E3).
+- Chaque séance tire de nouvelles questions ; les anciennes restent rejouables par leur graine (révision des erreurs).
 - **Révision des erreurs** : les questions ratées sont régénérées à l'identique à partir de leur graine.
 - **Fiches méthode**, objectifs indicatifs par niveau visé (non officiels), progression locale, export/import JSON.
 - Aucune donnée collectée : tout reste dans le navigateur (un test vérifie l'absence d'appel réseau dans le code).

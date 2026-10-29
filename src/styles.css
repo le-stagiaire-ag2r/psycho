@@ -1527,3 +1527,11 @@ progress::-webkit-progress-value {
   color: var(--marque);
   font-variant-numeric: tabular-nums;
 }
+
+/* Très petits écrans : le titre de la correction reste lisible sans déborder. */
+@media (max-width: 24rem) {
+  .modale-tete h2 {
+    font-size: 1.1rem;
+    overflow-wrap: anywhere;
+  }
+}
