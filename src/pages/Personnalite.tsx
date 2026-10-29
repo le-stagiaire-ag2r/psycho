@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import personnaliteJson from '../data/personnalite.json';
 import { creerPrng, graineAleatoire } from '../lib/prng';
@@ -38,9 +38,16 @@ const DIMENSIONS: { nom: string; texte: string }[] = [
 const TOTAL = AFFIRMATIONS.length;
 const TAILLES = [25, 50, 100, 150, 200, TOTAL];
 
-export default function Personnalite() {
+/** Utilisé dans l'examen blanc : écran de départ court, taille imposée, retour à l'examen à la fin. */
+interface PropsExamen {
+  taille: number;
+  bandeau: ReactNode;
+  onFin(): void;
+}
+
+export default function Personnalite({ examen }: { examen?: PropsExamen }) {
   const [etape, setEtape] = useState<'intro' | 'questionnaire' | 'fin'>('intro');
-  const [taille, setTaille] = useState(25);
+  const [taille, setTaille] = useState(examen ? Math.min(examen.taille, TOTAL) : 25);
   const [graine, setGraine] = useState(graineAleatoire);
   const [index, setIndex] = useState(0);
   const [nbRepondues, setNbRepondues] = useState(0);
@@ -50,12 +57,16 @@ export default function Personnalite() {
   const questions = useMemo(() => creerPrng(graine).melanger(AFFIRMATIONS).slice(0, taille), [graine, taille]);
   // Les réponses ne sont volontairement PAS conservées : seule la progression compte pour la mise en situation.
 
+  const terminer = () => {
+    setFin(Date.now());
+    if (examen) examen.onFin();
+    else setEtape('fin');
+  };
+
   const repondre = () => {
     setNbRepondues((n) => n + 1);
-    if (index + 1 >= questions.length) {
-      setFin(Date.now());
-      setEtape('fin');
-    } else setIndex(index + 1);
+    if (index + 1 >= questions.length) terminer();
+    else setIndex(index + 1);
   };
 
   useEffect(() => {
@@ -76,6 +87,27 @@ export default function Personnalite() {
     setDebut(Date.now());
     setEtape('questionnaire');
   };
+
+  if (etape === 'intro' && examen) {
+    return (
+      <section aria-labelledby="titre-perso-examen" className="depart">
+        {examen.bandeau}
+        <h1 id="titre-perso-examen">Personnalité</h1>
+        <p className="sous-titre">Réponds honnêtement et spontanément : il n’y a pas de bonne réponse.</p>
+        <ul className="puces">
+          <li>{taille} affirmations, échelle en 5 points</li>
+          <li>Environ 1 h au vrai test</li>
+          <li>Aucun score, rien n’est enregistré</li>
+          <li>Pas de retour en arrière</li>
+        </ul>
+        <div className="actions actions-centre">
+          <button type="button" className="bouton bouton-grand" onClick={commencer} autoFocus>
+            Commencer la personnalité
+          </button>
+        </div>
+      </section>
+    );
+  }
 
   if (etape === 'intro') {
     return (
@@ -156,6 +188,7 @@ export default function Personnalite() {
   const courante = questions[index];
   return (
     <section aria-label="Questionnaire de personnalité (mode découverte)">
+      {examen && examen.bandeau}
       <div className="barre-seance">
         <span>
           Affirmation {index + 1} / {questions.length}
@@ -175,10 +208,7 @@ export default function Personnalite() {
         <button
           type="button"
           className="bouton-lien"
-          onClick={() => {
-            setFin(Date.now());
-            setEtape('fin');
-          }}
+          onClick={terminer}
         >
           Terminer maintenant
         </button>
