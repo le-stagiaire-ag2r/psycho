@@ -1,92 +1,77 @@
-# Brief : ce que dit le web sur les épreuves (recherche du 29 octobre 2026)
+# Brief : ce que disent les sources sur les épreuves (mis à jour le 29 octobre 2026)
 
-**Fiabilité : faible à moyenne.** Presque tout vient de sites de préparation commerciaux (qui ont intérêt à en faire des
-tonnes) et de quelques témoignages de forum, souvent anciens. Aucune source officielle ne publie le détail des épreuves.
-Les résumés ci-dessous viennent des résultats d'un moteur de recherche : je n'ai pas pu ouvrir les pages elles-mêmes
-(accès réseau bloqué pour aumilitaire.com, pilotemilitaire.fr, quizarmee.fr, jeuxvideo.com, etc.).
+Cette version remplace la première : après déblocage du réseau, j'ai pu lire les pages elles-mêmes, dont des témoignages
+de candidats sur le forum Aumilitaire. Les pages ont été téléchargées et lues en entier.
 
-## 1. Ce qui concorde (plusieurs sites)
+**Niveaux de fiabilité**
+- **Témoignage de candidat** (le plus fiable pour le ressenti) : retex Aumilitaire de janvier 2025 (OSC-E, CSO Nancy),
+  de juin 2022 (CSO Nancy), d'octobre 2020 (CSO Nancy), de Vincennes et du forum jeuxvideo.com.
+- **Site de préparation commercial** : pilotemilitaire.fr, test-psychotechnique-armee.fr, etc. Chiffres cohérents entre
+  eux, mais ils vendent de l'entraînement. Rien d'officiel.
+- Aucune source du ministère des Armées publiant le détail n'a été trouvée.
 
-| Épreuve | Questions | Durée | Nombre de propositions | Notre config actuelle |
-| --- | --- | --- | --- | --- |
-| Raisonnement logique (suites de cubes) | 25 | 14 min | 5 | 25 en 14 min (ok), 4 propositions |
-| Raisonnement spatial (rotation de grilles 5×5) | 25 | 7 min | 5 | 25 en 7 min (ok), 4 propositions |
-| Aptitude verbale | 31 | 8 min | 5 | 31 en 8 min (ok) |
-| Aptitude numérique | 25 (un site : 26) | 18 min | non précisé | 25 en 18 min (ok) |
-| Codage | 45 | 2 min 30 | 4 dans une version | 45 en 2 min 30 (ok) |
-| Attention | 40 (un site : 45, un autre : 30 en 4 min) | 3 min 30 | 4 ou 5 | **45** en 3 min 30 |
-| Anglais (« test de Chambéry ») | **150** | 55 min | 5 | **100** en 55 min |
-| Personnalité (TAMI-P) | 251 | 50 min (environ 12 s par affirmation) | échelle de 5 | 250 affirmations, sans chrono |
+## 1. Format de chaque épreuve (ce qui ressort des sources)
 
-## 2. Écarts probables avec notre appli (à décider)
+| Épreuve | Questions / durée | Format décrit | Notre appli |
+| --- | --- | --- | --- |
+| Raisonnement logique (cubes) | 25 en 14 min | Un patron de dé (ou une suite) puis plusieurs dés dont on voit 3 faces : lequel suit la règle. « Plus ardu que sur internet » (retex 2025). On peut tout traiter. | 25 en 14 min, ok. Patrons déjà présents. |
+| Raisonnement spatial (rotation) | 25 en 7 min | Une grille 5×5 puis 4 propositions (retex 2020) ou 5 (site) : la même grille tournée de **90°, 180° ou 270°**. **Pas de symétrie** pour 97 % des questions (retex 2025). Jugé « très simple », on peut tout traiter. | 25 en 7 min, ok. Les miroirs sont inutiles. Aucune source ne parle de cubes retournés. |
+| Aptitude verbale (« français ») | 31 en 8 min | Synonymes, antonymes, définitions, intrus. 4 choix (pilotemilitaire). « On sait ou on ne sait pas », inutile de réviser, on peut tout traiter. | 31 en 8 min, ok. **Proverbes, orthographe et analogies ne sont cités nulle part.** |
+| Aptitude numérique (« arithmétique ») | 25 ou 26 en 18 min | Problèmes courts, **5 réponses**, brouillon fourni, pas de calculatrice. **Impossible à finir** (16/25 dans le retex 2025), de plus en plus dur. Notions : vitesse = distance / temps, divisions posées, produits en croix, remises en pourcentage, équations du 1er degré (poules et lapins). | 25 en 18 min, ok. Poules et lapins déjà présent. |
+| Codage | 45 en 2 min 30 | Une liste de mots avec leur code à **4 chiffres** reste affichée en haut de l'écran pendant toute l'épreuve ; on donne un mot, on choisit son code parmi les propositions (retex 2020). On peut tout traiter. | 45 en 2 min 30, ok, mais nos numéros ont 2 ou 3 chiffres. |
+| Attention | 40 en 3 min 30 (un site : 30 en 4 min) | À chaque question : **3, 4 ou 5 séries** de chiffres ou de lettres (ex. `7K4Z2`) et une case « pas d'erreur ». Cliquer sur la série **différente des autres**, ou « pas d'erreur » si elles sont identiques. | **45** questions, et format « deux suites : identiques ou non ». À refaire. |
+| Anglais | **150 en 55 min** | Phrases à trous (un ou deux trous) ou intrus, proche des parties 5 et 6 du TOEIC, grammaire, conjugaison, vocabulaire. 5 propositions. « Vraiment porté grammaire », « quelques fautes » et « parfois deux réponses plausibles » (retex 2025). Fini en 20 min au hasard, 45 min avec relecture. Résultat affiché tout de suite. | **100** questions en 55 min. À passer à 150. |
+| Personnalité | 240 (2022) à **251** (armée de Terre), en moins de 50 min | Affirmations notées de 1 (pas du tout d'accord) à 5 (tout à fait d'accord). « Pas de questions pièges », exemples : « je me sens supérieur aux autres ». Analysé par un psychologue ; l'entretien revient dessus. | 250 affirmations, ok. |
 
-1. **Nombre de propositions : 5 dans les sources** (cubes, rotation, verbal, anglais, attention). Nous sommes à 4 par
-   décision du testeur. À trancher : rester à 4 (plus lisible) ou passer à 5 (plus fidèle).
-2. **Raisonnement spatial** : les sources parlent uniquement de rotation de grilles (90°, 180°, 270°) ; l'une dit que
-   les symétries ne sont plus présentes « depuis quelques années ». Aucune source trouvée ne mentionne les cubes
-   retournés. Nos cubes retournés et nos distracteurs en miroir viennent d'un témoignage non retrouvé.
-3. **Codage** : les sources parlent de **codes à 4 chiffres** (ou lettres et chiffres), et d'un mot affiché pour lequel on
-   retrouve le code. Nous avons des numéros à 2 ou 3 chiffres, et le sens par défaut est « numéro vers mot ».
-   Quelques sources évoquent une grille visible en permanence, d'autres une courte phase de mémorisation.
-4. **Attention** : le format décrit n'est pas « deux suites identiques ou non ». C'est un code modèle (par exemple
-   `A7K2-3X9P`) avec 4 ou 5 propositions très proches : trouver l'intrus, ou cocher « Identiques ». La position de
-   « Identiques » change au fil du test. Distracteurs cités : 0/O, 1/I.
-5. **Anglais** : 150 questions en 55 minutes, phrases à trous (un ou deux trous) et « choisir la phrase correcte »,
-   uniquement grammaire, vocabulaire et conjugaison, sans compréhension ni oral. Nous sommes à 100 questions.
-6. **Verbal** : synonymes, antonymes, intrus, définitions, homonymes et paronymes. L'orthographe est discutée (une source
-   dit « pas d'orthographe »). **Les proverbes ne sont cités nulle part.**
-7. **Numérique** : pas de calculatrice, brouillon autorisé, difficulté croissante ; thèmes : proportionnalité, unités,
-   systèmes d'équations, vitesse, pourcentages, moyennes.
+Durée totale des tests sur ordinateur : environ **3 h à 3 h 30** (TAMI-C, puis personnalité, puis anglais).
 
-## 3. Seuils et notation
+## 2. Notation et seuils (important pour l'appli)
 
-- Le TAMI-C est décrit comme **éliminatoire** par certains sites, alors que d'autres disent qu'il oriente plus qu'il
-  n'élimine. Le seuil dépend du niveau visé (militaire du rang < sous-officier < officier). **Aucun seuil officiel publié.**
-- Seul chiffre précis : **6/10** au total, mais sur des pages de filières pilotes (ALAT, EOPN) : à ne pas transposer.
-- Anglais : **75/150 éliminatoire** cité seulement pour les filières pilotes. Un candidat OSC-E cite 123/150.
-- Rien trouvé sur la notation exacte (pénalité d'erreur, pondération des épreuves).
+- **Pas de note éliminatoire par épreuve** pour les militaires du rang, sous-officiers et OSC. C'est un **classement** :
+  le score conditionne l'accès aux spécialités (site de préparation, cohérent avec les retex).
+- Un candidat sous-officier à Vincennes écrit avoir eu « 9/10 à 2 des tests en ayant fait les 2/3 ou 3/4 » : **notes sur 10
+  par test**, et on n'a pas besoin de tout finir. Dossiers classés « E1 ».
+- **Anglais** : pas éliminatoire hors filières pilotes (75/150 n'est cité que pour EOPN, ALAT, EOPAN). Repères d'un candidat :
+  viser au moins 50 pour renseignement ou artillerie, **au-dessus de 80 pour les officiers** ; un autre officier a eu 130.
+  Autres scores cités : 112/150 (session de 2020 où les autres allaient de 30 à 55) et 123/150 (Vincennes).
+- **Personnalité** : aucun seuil chiffré, sert à tester la cohérence entre le projet, l'arme visée et la personnalité.
+- Les tests psychotechniques servent « essentiellement à savoir si vous pouvez candidater en MDR, sous-officier ou
+  officier » (retex 2022) ; ils sont « jugés bons ou très bons » chez les candidats en réussite, sans être le critère le
+  plus discriminant (retex 2020).
+- **Conséquence pour nous** : nos « objectifs par niveau » (précision minimale) restent des repères d'entraînement
+  inventés. Il faut garder la mention « non officiel ».
 
-## 4. Témoignages trouvés (résumés indirects)
+## 3. Déroulement du CSO
 
-- jeuxvideo.com, 2018 : « les tests psycho étaient beaucoup plus durs que ce que j'ai trouvé sur internet ».
-- jeuxvideo.com, 2017 : séance d'environ 3 h 30 : personnalité, tests cognitifs, cubes, un peu de calcul mental, puis anglais.
-- Aumilitaire, 2022 : mardi matin, 7 h 30, tests psycho + personnalité + anglais.
-- Aumilitaire, CSO Nancy janvier 2025 (OSC-E) : le test verbal demande de répondre à tout ; une candidate a dû repasser l'anglais.
-- Aumilitaire, candidat OSCE à Vincennes : 123/150 en anglais.
-- Aumilitaire, Nancy 2015 : bons tests psychotechniques, « sauf le français ».
-- Aumilitaire, 2020 : l'avis du psychologue est consultatif ; le comportement est observé pendant tout le séjour.
-- Une question de forum (juin 2025) demande ce qui se passe si on ne finit pas le codage : réponse non retrouvée.
-- Marine, 2013 (forum-pompier) : ancien et hors armée de Terre.
+2 jours (parfois 2 jours et demi). Jour 1 : tests (7 h 30, environ 3 h 30) puis visite médicale ; jour 2 : sport (Luc Léger,
+tractions, squats ou parcours) puis entretien d'environ 30 minutes (jusqu'à 1 h pour les officiers, avec un psychologue
+et un commandant). La session est coupée en deux groupes, l'un en tests pendant que l'autre fait le médical.
 
-## 5. Déroulement du CSO (sources contradictoires)
+## 4. Ressenti des candidats (témoignages)
 
-2 à 3 jours (une source : 5 demi-journées), cinq centres (Vincennes, Bordeaux, Rennes, Lyon, Nancy). Deux groupes
-tournent entre tests, visite médicale, sport et entretien (environ 30 minutes, souvent en dernier). Ordre des tests
-psychotechniques selon une source : logique, spatial, verbal, numérique, codage, attention (comme notre ordre).
+- On sort des tests « en se sentant bête » : c'est normal (retex 2025).
+- Il est normal de ne pas finir certains tests : le temps est volontairement trop court (retex 2020, 2025).
+- Pour le numérique : si une question bloque, **passer à la suivante** (retex 2025).
+- Codage, attention, spatial, raisonnement : on peut tout traiter avec de l'entraînement ; la concentration est la clé.
+- Application officielle « Test Armée » (Apple) : citée comme la plus proche des vraies questions de raisonnement.
 
-## 6. Pour aller plus loin
+## 5. Ce que je propose de changer dans l'appli
 
-Les pages les plus riches (RETEX d'Aumilitaire, pilotemilitaire.fr, quizarmee.fr) n'ont pas pu être ouvertes. Deux
-options : autoriser ces domaines dans le réseau de l'environnement, ou coller ici le texte des témoignages récents.
+1. **Attention** : 40 questions, format « 4 ou 5 séries de codes, trouver la différente ou « pas d'erreur » ».
+2. **Anglais** : 150 questions en 55 min (la banque en a déjà 293), avec des phrases à deux trous et « phrase correcte ».
+3. **Codage** : codes à 4 chiffres, liste toujours visible, mot vers code.
+4. **Verbal** : retirer les proverbes et l'orthographe, ajouter des antonymes et des définitions.
+5. **Spatial** : retirer les miroirs, ne garder que 90°, 180°, 270°, et abandonner les cubes retournés.
+6. **Résultats** : afficher un classement indicatif plutôt qu'un seuil de réussite.
+7. **Nombre de propositions** : 4 partout aujourd'hui ; les sources disent 4 ou 5 selon l'épreuve. À trancher.
 
 ## Sources
 
-- <https://www.examarena.com/fr/test/armee-francaise/psychotechnique/>
-- <https://test-psychotechnique-armee.fr/tests-psychotechniques-armee.html>
-- <https://test-psychotechnique-armee.fr/test-attention-armee.html>
-- <https://test-psychotechnique-armee.fr/test-codage-armee.html>
-- <https://test-psychotechnique-armee.fr/test-francais-armee.html>
-- <https://test-psychotechnique-armee.fr/test-anglais-armee.html>
-- <https://test-psychotechnique-armee.fr/cso-armee.html>
-- <https://concours-formation.fr/tests-psychotechniques-armee/>
-- <https://concours-formation.fr/tests-psychotechniques-armee-de-terre/>
-- <https://concours-armee.fr/tests-psychotechniques-armee/>
-- <https://concours-armee.fr/test-anglais-armee/qcm/>
-- <https://quizarmee.fr/qcm-armee-de-terre/>
-- <https://pilotemilitaire.fr/eopn/tami-c/>
-- <https://piloteready.fr/eopn/epreuves/tami-c/raisonnement-cubes>
-- <https://test-militaire.fr/guides/deroulement-cso-armee>
-- <https://aumilitaire.com/communaute/topic/63061-retex-cso-nancy-janvier-2025-osce/>
-- <https://aumilitaire.com/communaute/topic/48984-retex-tests-pour-larm%C3%A9e-de-terre/>
-- <https://www.jeuxvideo.com/forums/42-78-57255397-1-0-1-0-armee-de-terre-j-ai-passe-les-tests.htm>
-- <https://www.forum-pompier.com/sujet39169.html>
+- <https://aumilitaire.com/communaute/topic/63061-retex-cso-nancy-janvier-2025-osce/> (témoignage, janvier 2025)
+- <https://aumilitaire.com/communaute/topic/48984-retex-tests-pour-larm%C3%A9e-de-terre/> (témoignage, juin 2022)
+- <https://aumilitaire.com/communaute/topic/43781-retex-cso-nancy-mi-octobre-2020/> (témoignage, octobre 2020)
+- <https://aumilitaire.com/communaute/topic/8956-retex-cso-vincennes> (témoignage)
+- <https://aumilitaire.com/communaute/topic/20654-candidature-osce/> (témoignage)
+- <https://pilotemilitaire.fr/eopn/tami-c/> et ses pages codage, attention, français, anglais (préparation commerciale)
+- <https://test-psychotechnique-armee.fr/cso-armee.html> et <https://test-psychotechnique-armee.fr/test-personnalite-armee-gendarmerie-police.html> (préparation commerciale)
+- <https://www.examarena.com/fr/test/armee-francaise/psychotechnique/> (préparation commerciale)
