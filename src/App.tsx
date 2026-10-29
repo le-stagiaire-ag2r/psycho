@@ -1,5 +1,8 @@
-import { Link, Route, Routes } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { Link, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import { DEPOT_GITHUB, NOM_APP, NON_AFFILIATION } from './config/app';
+import Guide from './components/Guide';
+import { guideDejaVu, marquerGuideVu } from './lib/guide';
 import Accueil from './pages/Accueil';
 import Confidentialite from './pages/Confidentialite';
 import Examen from './pages/Examen';
@@ -21,6 +24,25 @@ const LIBELLE_THEME: Record<ThemePref, string> = {
 export default function App() {
   const { donnees, majPrefs, stockageDispo } = useStockage();
   const theme = donnees.prefs.theme;
+  const [guideOuvert, setGuideOuvert] = useState(false);
+  const navigate = useNavigate();
+  const { pathname } = useLocation();
+
+  // Première visite : le guide s'ouvre tout seul sur l'accueil.
+  useEffect(() => {
+    if (pathname === '/' && !guideDejaVu()) setGuideOuvert(true);
+    // Uniquement au chargement initial
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const ouvrirGuide = () => {
+    if (pathname !== '/') navigate('/');
+    setGuideOuvert(true);
+  };
+  const fermerGuide = () => {
+    marquerGuideVu();
+    setGuideOuvert(false);
+  };
 
   return (
     <>
@@ -31,13 +53,16 @@ export default function App() {
         <Link to="/" className="marque">
           {NOM_APP}
         </Link>
-        <nav aria-label="Navigation principale">
+        <nav aria-label="Navigation principale" data-guide="nav">
           <Link to="/">Épreuves</Link>
           <Link to="/examen">Examen blanc</Link>
           <Link to="/revision">Révision</Link>
           <Link to="/methode">Méthode</Link>
           <Link to="/progression">Progression</Link>
-          <button type="button" className="bouton-lien" onClick={() => majPrefs({ theme: SUIVANT[theme] })}>
+          <button type="button" className="bouton-lien" onClick={ouvrirGuide} data-guide="nav-guide">
+            Guide
+          </button>
+          <button type="button" className="bouton-lien" onClick={() => majPrefs({ theme: SUIVANT[theme] })} data-guide="nav-theme">
             {LIBELLE_THEME[theme]}
           </button>
         </nav>
@@ -64,6 +89,8 @@ export default function App() {
           <Route path="*" element={<p>Page introuvable. <Link to="/">Retour à l’accueil</Link></p>} />
         </Routes>
       </main>
+
+      {guideOuvert && <Guide onFermer={fermerGuide} />}
 
       <footer className="pied">
         <p className="non-affiliation">{NON_AFFILIATION}</p>

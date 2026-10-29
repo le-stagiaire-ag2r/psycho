@@ -25,6 +25,7 @@ Le brief complet du projet est dans [`CLAUDE.md`](CLAUDE.md).
 ## Ce que fait l'appli
 
 - 9 épreuves : logique, spatial, verbal, numérique, codage, attention, anglais, personnalité (découverte) et **raisonnement général** (épreuve complémentaire : suites de nombres, de lettres et de mots, logique de comparaison ; proposée en option dans l'examen blanc).
+- **Guide de départ** : visite en bulles avec flèches à la première visite (bouton « Guide » dans le menu pour la revoir), puis mini-test de 3 questions (attention, codage, cubes) pour apprendre le fonctionnement. Rien n’est enregistré (seul un indicateur « guide vu » reste dans le navigateur).
 - Mode **entraînement** (chrono souple, correction détaillée) et **examen blanc** (chrono strict, enchaînement des épreuves).
 - **Révision des erreurs** : les questions ratées sont régénérées à l'identique à partir de leur graine.
 - **Fiches méthode**, objectifs indicatifs par niveau visé (non officiels), progression locale, export/import JSON.

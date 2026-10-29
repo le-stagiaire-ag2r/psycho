@@ -1265,3 +1265,188 @@ progress::-webkit-progress-value {
 .segmente span {
   border-radius: 2px;
 }
+
+/* ----- Guide de départ ----- */
+.guide {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  touch-action: none;
+}
+.guide-fond {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.74);
+}
+.guide-halo {
+  position: fixed;
+  border-radius: 4px;
+  outline: 2px solid var(--marque);
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.74);
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .guide-halo {
+    transition: top 0.2s ease, left 0.2s ease, width 0.2s ease, height 0.2s ease;
+  }
+}
+.guide-carte {
+  position: fixed;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  touch-action: pan-y;
+  -webkit-overflow-scrolling: touch;
+  background: var(--carte);
+  color: var(--texte);
+  border: 1px solid var(--marque);
+  border-radius: 4px;
+  padding: 1rem 1.25rem 0;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+}
+.guide-carte-large {
+  left: 50%;
+  top: max(12px, env(safe-area-inset-top, 0px));
+  width: min(640px, calc(100% - 24px));
+  max-height: calc(100vh - 24px);
+  transform: translateX(-50%);
+}
+@supports (height: 100dvh) {
+  .guide-carte-large {
+    max-height: calc(100dvh - 24px);
+  }
+}
+.guide-carte p {
+  margin: 0.35rem 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+.guide-compteur {
+  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  font-size: 0.72rem !important;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--texte-doux);
+  margin: 0 0 0.35rem !important;
+}
+.guide-barre {
+  height: 3px;
+  background: var(--bordure);
+  margin-bottom: 0.7rem;
+}
+.guide-barre span {
+  display: block;
+  height: 100%;
+  background: var(--marque);
+}
+.guide-titre {
+  margin: 0 0 0.4rem;
+  padding: 0;
+  border: none;
+  font-size: 1.1rem;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--texte);
+}
+.guide-titre::before {
+  content: none;
+}
+.guide-points {
+  margin: 0.4rem 0 0;
+  padding-left: 1.1rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+.guide-points li {
+  margin: 0.25rem 0;
+}
+.guide-fleche {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: var(--carte);
+  border: 1px solid var(--marque);
+}
+.guide-fleche-haut {
+  top: -8px;
+  border-right: none;
+  border-bottom: none;
+  transform: translateX(-50%) rotate(45deg);
+}
+.guide-fleche-bas {
+  bottom: -8px;
+  border-left: none;
+  border-top: none;
+  transform: translateX(-50%) rotate(45deg);
+}
+.guide-fleche-gauche {
+  left: -8px;
+  border-right: none;
+  border-top: none;
+  transform: translateY(-50%) rotate(45deg);
+}
+.guide-fleche-droite {
+  right: -8px;
+  border-left: none;
+  border-bottom: none;
+  transform: translateY(-50%) rotate(45deg);
+}
+.guide-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  margin: 1rem 0 0;
+  padding: 0.6rem 0 calc(1rem + env(safe-area-inset-bottom, 0px));
+  position: sticky;
+  bottom: 0;
+  background: var(--carte);
+}
+.guide-actions .bouton,
+.guide-actions .bouton-lien {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.guide-nav {
+  display: inline-flex;
+  gap: 0.5rem;
+}
+@media (max-width: 30rem) {
+  .guide-actions {
+    gap: 0.2rem;
+  }
+  .guide-nav {
+    flex: 1 1 100%;
+  }
+  .guide-nav .bouton {
+    flex: 1 1 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    letter-spacing: 0.04em;
+  }
+  .guide-actions .bouton-lien {
+    font-size: 0.85rem;
+  }
+}
+.guide-question {
+  margin-top: 0.5rem;
+}
+.guide-question .question {
+  margin-top: 0.5rem;
+}
+.guide-bravo {
+  color: var(--bon);
+  font-weight: 700;
+}
+.guide-oups {
+  color: var(--mauvais);
+  font-weight: 700;
+}
+@media (max-width: 40rem) {
+  .entete nav a,
+  .entete nav .bouton-lien {
+    padding: 0.5rem 0;
+  }
+}
