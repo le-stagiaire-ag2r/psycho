@@ -151,7 +151,7 @@ export default function Personnalite({ examen }: { examen?: PropsExamen }) {
           (domaine public, traduites et reformulées). Cet inventaire n’est pas le test réel.
         </p>
         <div className="actions">
-          <button type="button" className="bouton" onClick={commencer} autoFocus>
+          <button type="button" className="bouton" onClick={commencer}>
             Commencer
           </button>
           <Link className="bouton bouton-secondaire" to="/">
