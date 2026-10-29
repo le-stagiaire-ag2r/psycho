@@ -319,7 +319,12 @@ export function SeanceInner({
           Terminer maintenant
         </button>
         {(choixAffiche !== null || !examen) && (
-          <span className="discret">Réf. {item.id}</span>
+          <span className="discret">
+            Réf. {item.id} ·{' '}
+            <a href={`/commentaire?ref=${encodeURIComponent(item.id)}`} target="_blank" rel="noopener noreferrer">
+              un souci avec cette question ? (nouvel onglet)
+            </a>
+          </span>
         )}
       </div>
 

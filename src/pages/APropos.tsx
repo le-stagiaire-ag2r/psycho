@@ -52,7 +52,8 @@ export default function APropos() {
       <p>
         Le site est gratuit, sans compte et sans publicité, et il le restera. Il est fait sur du temps libre : ce n’est
         pas un métier à plein temps. Les corrections, les bugs et les questions s’améliorent petit à petit. Si tu vois une
-        erreur ou si tu as une idée, dis-le : c’est ensemble qu’on pourra l’améliorer au maximum.
+        erreur ou si tu as une idée, dis-le : c’est ensemble qu’on pourra l’améliorer au maximum. Tu peux{' '}
+        <Link to="/commentaire">envoyer un commentaire</Link> (la page prépare le message à coller sur le forum).
       </p>
       <p>En espérant que cela te sera utile.</p>
 

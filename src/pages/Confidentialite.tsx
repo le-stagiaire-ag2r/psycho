@@ -24,6 +24,10 @@ export default function Confidentialite() {
           même façon.
         </li>
         <li>
+          La page « Envoyer un commentaire » prépare un message sur ton appareil : rien n’est transmis par le site, c’est
+          toi qui choisis de le copier et de le publier sur le forum.
+        </li>
+        <li>
           Le questionnaire de personnalité n’enregistre rien : tes réponses disparaissent à la fermeture de la page.
         </li>
       </ul>

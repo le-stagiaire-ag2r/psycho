@@ -8,6 +8,7 @@ import { titreDePage } from './lib/titres';
 // Les pages lourdes (générateurs, banques de questions, questionnaire) ne sont chargées qu'au besoin.
 const Guide = lazy(() => import('./components/Guide'));
 const APropos = lazy(() => import('./pages/APropos'));
+const Commentaire = lazy(() => import('./pages/Commentaire'));
 const Confidentialite = lazy(() => import('./pages/Confidentialite'));
 const Examen = lazy(() => import('./pages/Examen'));
 const Methode = lazy(() => import('./pages/Methode'));
@@ -99,6 +100,7 @@ export default function App() {
           <Route path="/personnalite" element={<Personnalite />} />
           <Route path="/progression" element={<Progression />} />
           <Route path="/a-propos" element={<APropos />} />
+          <Route path="/commentaire" element={<Commentaire />} />
           <Route path="/confidentialite" element={<Confidentialite />} />
           <Route path="*" element={
               <section aria-labelledby="titre-404">
@@ -121,7 +123,7 @@ export default function App() {
       <footer className="pied">
         <p className="non-affiliation">{NON_AFFILIATION}</p>
         <p>
-          Gratuit, sans compte, sans publicité. <Link to="/a-propos">Site en bêta : à propos</Link> · <Link to="/confidentialite">Confidentialité</Link> · Code MIT, contenus CC BY-SA 4.0
+          Gratuit, sans compte, sans publicité. <Link to="/a-propos">Site en bêta : à propos</Link> · <Link to="/commentaire">Envoyer un commentaire</Link> · <Link to="/confidentialite">Confidentialité</Link> · Code MIT, contenus CC BY-SA 4.0
         </p>
       </footer>
     </>
