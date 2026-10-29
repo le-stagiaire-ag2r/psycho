@@ -223,7 +223,7 @@ export const FICHES: FicheMethode[] = [
   {
     id: 'verbal',
     titre: 'Aptitude verbale',
-    resume: 'Synonymes, contraires, intrus, vocabulaire, proverbes, orthographe, analogies.',
+    resume: 'Synonymes, contraires, définitions et intrus : du vocabulaire, où l’on sait ou on ne sait pas.',
     sections: [
       {
         titre: 'Méthode',
@@ -235,11 +235,11 @@ export const FICHES: FicheMethode[] = [
         ],
       },
       {
-        titre: 'Orthographe et vocabulaire',
+        titre: 'Vocabulaire',
         points: [
-          'Pense à la famille du mot : « accueillir » s’écrit comme « cueillir » ; « développer » prend deux « p » mais un seul « l ».',
           'Préfixes et racines aident à deviner un mot inconnu : in- (contraire), dé-, omni- (tout), phil- (aimer), -phobe (craindre).',
-          'Proverbes : lis la phrase à haute voix dans ta tête, la bonne fin sonne juste.',
+          'Définitions : repère la famille du mot (par exemple « altruiste » comme « autre ») avant de regarder les propositions.',
+          'Au vrai test, ce n’est pas la peine de réviser des heures : lis un peu, écarte les réponses improbables, et avance.',
         ],
       },
       {

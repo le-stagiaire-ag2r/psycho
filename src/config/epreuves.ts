@@ -152,7 +152,7 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
   verbal: {
     id: 'verbal',
     titre: 'Aptitude verbale',
-    description: 'Synonymes, contraires, intrus, vocabulaire, proverbes, orthographe, analogies.',
+    description: 'Synonymes, contraires, définitions, intrus : le vocabulaire, sans orthographe ni proverbes.',
     disponible: true,
     nbQuestions: 31,
     dureeSecondes: 480,
@@ -167,6 +167,7 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
       'Écarte d’abord les propositions que tu sais fausses : la bonne réponse apparaît souvent par élimination.',
       'Pour un intrus, cherche la catégorie commune aux autres mots avant de regarder le mot isolé.',
       'Si deux réponses te semblent possibles, choisis celle dont le sens est le plus courant, puis passe à la suite.',
+      'Ici, on sait ou on ne sait pas : n’y passe pas trop de temps, une réponse rapide vaut mieux qu’une longue hésitation.',
     ],
     avertissement:
       'Banque de questions rédigées pour ce projet, pas encore relues par un humain : si une question te paraît ambiguë ou fausse, signale-la sur le forum en citant sa référence (affichée sous la question).',

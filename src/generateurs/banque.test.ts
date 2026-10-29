@@ -96,3 +96,24 @@ describe('contrôles de qualité propres à l’anglais', () => {
     }
   });
 });
+
+describe('items retirés des nouvelles séances (actif: false)', () => {
+  it('ne sont jamais tirés, mais restent rejouables depuis l’historique', () => {
+    const retires = BANQUES.verbal!.filter((x) => x.actif === false);
+    expect(retires.length).toBeGreaterThan(0);
+    const ids = new Set(retires.map((x) => x.id));
+    for (const d of [1, 2, 3] as Difficulte[]) {
+      const refs = generateurVerbal.construireRefs({ graineBase: 99, nb: 120, difficulte: d, config: EPREUVES.verbal });
+      for (const r of refs) expect(ids.has(String(r.params?.item))).toBe(false);
+    }
+    for (const x of retires) {
+      const q = generateurVerbal.generer({ epreuve: 'verbal', version: 1, seed: 7, difficulte: 2, params: { item: x.id, nbChoix: 4 } });
+      expect(q.options[q.bonneReponse]).toBe(x.bonne);
+    }
+  });
+  it('le verbal actif ne contient plus ni proverbes ni orthographe', () => {
+    const actifs = BANQUES.verbal!.filter((x) => x.actif !== false);
+    expect(actifs.some((x) => x.type === 'proverbe' || x.type === 'orthographe')).toBe(false);
+    expect(actifs.length).toBeGreaterThanOrEqual(170);
+  });
+});
