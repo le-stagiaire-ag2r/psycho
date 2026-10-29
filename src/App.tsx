@@ -1,12 +1,14 @@
 import { lazy, Suspense, useEffect, useState } from 'react';
 import { Link, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import { NOM_APP, NON_AFFILIATION } from './config/app';
-import { guideDejaVu, marquerGuideVu } from './lib/guide';
+import { aproposDejaVu, guideDejaVu, marquerGuideVu } from './lib/guide';
 import Accueil from './pages/Accueil';
 import { titreDePage } from './lib/titres';
 
 // Les pages lourdes (générateurs, banques de questions, questionnaire) ne sont chargées qu'au besoin.
 const Guide = lazy(() => import('./components/Guide'));
+const APropos = lazy(() => import('./pages/APropos'));
+const Commentaire = lazy(() => import('./pages/Commentaire'));
 const Confidentialite = lazy(() => import('./pages/Confidentialite'));
 const Examen = lazy(() => import('./pages/Examen'));
 const Methode = lazy(() => import('./pages/Methode'));
@@ -31,12 +33,14 @@ export default function App() {
   const navigate = useNavigate();
   const { pathname } = useLocation();
 
-  // Première visite : le guide s'ouvre tout seul sur l'accueil.
+  // Première visite : d'abord la page « À propos » (bêta, limites), puis le guide qui s'ouvre sur l'accueil.
   useEffect(() => {
-    if (pathname === '/' && !guideDejaVu()) setGuideOuvert(true);
-    // Uniquement au chargement initial
+    if (pathname !== '/') return;
+    if (!aproposDejaVu()) navigate('/a-propos', { replace: true });
+    else if (!guideDejaVu()) setGuideOuvert(true);
+    // Une fois la page « À propos » lue, le retour sur l'accueil ouvre le guide
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [pathname]);
 
   // Un titre d'onglet propre à chaque page (historique, favoris, lecteurs d'écran).
   useEffect(() => {
@@ -66,6 +70,7 @@ export default function App() {
           <Link to="/examen">Examen blanc</Link>
           <Link to="/revision">Révision</Link>
           <Link to="/methode">Méthode</Link>
+          <Link to="/a-propos">À propos</Link>
           <Link to="/progression">Progression</Link>
           <button type="button" className="bouton-lien" onClick={ouvrirGuide} data-guide="nav-guide">
             Guide
@@ -94,6 +99,8 @@ export default function App() {
           <Route path="/methode/:id" element={<Methode />} />
           <Route path="/personnalite" element={<Personnalite />} />
           <Route path="/progression" element={<Progression />} />
+          <Route path="/a-propos" element={<APropos />} />
+          <Route path="/commentaire" element={<Commentaire />} />
           <Route path="/confidentialite" element={<Confidentialite />} />
           <Route path="*" element={
               <section aria-labelledby="titre-404">
@@ -116,7 +123,7 @@ export default function App() {
       <footer className="pied">
         <p className="non-affiliation">{NON_AFFILIATION}</p>
         <p>
-          Gratuit, sans compte, sans publicité. <Link to="/confidentialite">Confidentialité</Link> · Code MIT, contenus CC BY-SA 4.0
+          Gratuit, sans compte, sans publicité. <Link to="/a-propos">Site en bêta : à propos</Link> · <Link to="/commentaire">Envoyer un commentaire</Link> · <Link to="/confidentialite">Confidentialité</Link> · Code MIT, contenus CC BY-SA 4.0
         </p>
       </footer>
     </>

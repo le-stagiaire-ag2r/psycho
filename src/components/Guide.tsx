@@ -169,9 +169,15 @@ const ETAPES: Etape[] = [
   },
   {
     type: 'visite',
-    titre: 'Une question te paraît bizarre ?',
+    titre: 'Un bug, une erreur, une idée ?',
     texte:
-      'Chaque question a une référence affichée en petit sous la question (par exemple « codage-v1-d2-s48213 »). Si tu trouves une erreur ou une ambiguïté, écris-la sur le forum en citant cette référence : on retrouve la question exacte et on la corrige.',
+      'Le site est en bêta : ton avis compte. Chaque question a une référence affichée en petit (par exemple « codage-v2-d2-s48213 »), avec un lien « un souci avec cette question ? ». En bas de chaque page, « Envoyer un commentaire » ouvre un petit formulaire.',
+    points: [
+      'Tu choisis : problème, erreur dans une question, idée ou autre, puis tu décris en quelques phrases.',
+      'L’appli prépare un message complet (avec la référence de la question) : tu le copies et tu le colles sur le forum.',
+      'Pour une capture d’écran, la page t’explique comment la faire ; tu la joins toi-même sur le forum.',
+      'Rien n’est envoyé par le site : tout se passe sur ton appareil.',
+    ],
   },
   {
     type: 'visite',

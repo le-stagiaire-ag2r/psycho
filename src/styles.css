@@ -1535,3 +1535,10 @@ progress::-webkit-progress-value {
     overflow-wrap: anywhere;
   }
 }
+
+.apropos {
+  max-width: 46rem;
+}
+.apropos .actions {
+  margin-top: 1.5rem;
+}

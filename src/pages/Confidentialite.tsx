@@ -19,9 +19,13 @@ export default function Confidentialite() {
           page Progression.
         </li>
         <li>
-          Un seul petit indicateur technique, « guide de départ déjà vu », est aussi gardé dans ton navigateur pour ne
-          pas te remontrer le guide à chaque visite. Tes préférences (niveau, thème, chrono) y sont enregistrées de la
+          Deux petits indicateurs techniques, « page de bienvenue déjà lue » et « guide de départ déjà vu », sont aussi gardés dans ton navigateur pour ne
+          pas te les remontrer à chaque visite. Tes préférences (niveau, thème, chrono) y sont enregistrées de la
           même façon.
+        </li>
+        <li>
+          La page « Envoyer un commentaire » prépare un message sur ton appareil : rien n’est transmis par le site, c’est
+          toi qui choisis de le copier et de le publier sur le forum.
         </li>
         <li>
           Le questionnaire de personnalité n’enregistre rien : tes réponses disparaissent à la fermeture de la page.

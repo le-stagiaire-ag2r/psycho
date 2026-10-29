@@ -38,6 +38,10 @@ export default function Accueil() {
         <p className="mention" role="note">
           {NON_AFFILIATION}
         </p>
+        <p className="mention" role="note">
+          Site en bêta : des erreurs sont possibles et ce ne sont pas les vraies épreuves.{' '}
+          <Link to="/a-propos">En savoir plus</Link>
+        </p>
       </section>
 
       <section aria-label="Raccourcis" className="raccourcis">
