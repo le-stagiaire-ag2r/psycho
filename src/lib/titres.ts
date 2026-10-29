@@ -10,6 +10,7 @@ const FIXES: Record<string, string> = {
   '/methode': 'Fiches méthode',
   '/personnalite': 'Personnalité (mode découverte)',
   '/progression': 'Progression',
+  '/a-propos': 'À propos (site en bêta)',
   '/confidentialite': 'Confidentialité',
 };
 
