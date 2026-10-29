@@ -59,29 +59,32 @@ export const FICHES: FicheMethode[] = [
   {
     id: 'attention',
     titre: 'Attention / concentration',
-    resume: 'Deux suites de lettres : identiques ou non ? Pure vitesse de comparaison.',
+    resume: 'Plusieurs séries de caractères : trouve celle qui est différente, ou « pas d’intrus ». Pure vitesse de comparaison.',
     sections: [
       {
         titre: 'Méthode',
         points: [
-          'Compare par petits blocs de 2 ou 3 lettres, de gauche à droite, plutôt que lettre par lettre ou « globalement ».',
-          'Si tu trouves une différence, arrête-toi : inutile de relire la suite entière.',
-          'Garde les yeux et les mains en rythme : utilise les touches du clavier (← identiques, → différentes) plutôt que la souris.',
+          'Balaye toutes les séries d’un coup d’œil au lieu de les lire une à une : la série différente « accroche » l’œil.',
+          'Compare par petits blocs de 2 ou 3 caractères, toujours dans le même sens.',
+          'Si rien ne ressort en quelques secondes (environ 5), choisis « Pas d’intrus » et passe à la suivante.',
+          'Utilise les touches 1 à 4 du clavier plutôt que la souris.',
         ],
       },
       {
         titre: 'Les pièges classiques',
         points: [
-          'Deux lettres inversées (AQWZSX / AQWSZX) : la bonne composition de lettres masque la différence.',
-          'Une lettre proche visuellement : O/Q, E/F, M/N, P/R, I/L, C/G, U/V.',
-          'Une lettre doublée ou oubliée : regarde la longueur des deux suites avant tout.',
+          'Deux caractères inversés (AQWZSX / AQWSZX) : les mêmes caractères au mauvais endroit masquent la différence.',
+          'Des caractères qui se ressemblent : O/0, I/1, S/5, B/8, M/N, E/F, P/R.',
+          'Un caractère doublé ou oublié : regarde d’abord la longueur de chaque série.',
+          'Environ une question sur quatre n’a aucun intrus : ne cherche pas une différence à tout prix.',
         ],
       },
       {
         titre: 'S’entraîner',
         points: [
-          'Commence en difficulté facile pour installer le geste, puis monte.',
+          'Commence en difficulté facile (chiffres seuls) pour installer le geste, puis monte.',
           'Vise d’abord 90 % de précision, puis augmente la vitesse sans descendre sous ce seuil.',
+          'En vrai, c’est impossible de tout finir : une réponse juste vaut mieux que dix réponses au hasard.',
         ],
       },
     ],
@@ -89,29 +92,31 @@ export const FICHES: FicheMethode[] = [
   {
     id: 'codage',
     titre: 'Codage',
-    resume: 'Retrouver vite l’association entre un mot et un numéro.',
+    resume: 'Retrouver vite le code à 4 chiffres d’un mot dans un tableau de 12 mots.',
     sections: [
       {
         titre: 'Méthode',
         points: [
-          'Le tableau reste affiché : ne mémorise pas tout, mais repère les mots par leur initiale et par leur position.',
-          'Balaye le tableau d’un seul regard, de gauche à droite, jusqu’au numéro (ou au mot) demandé, puis vérifie dans les propositions.',
-          'Ne lis pas toutes les propositions avant de chercher : trouve d’abord la réponse dans le tableau.',
+          'Le tableau reste affiché pendant toute l’épreuve : ne cherche pas à le mémoriser d’avance, il s’imprime tout seul dans ta tête au fil des questions.',
+          'Adopte toujours le même parcours du regard (par exemple de gauche à droite, ligne par ligne) pour retrouver le mot.',
+          'Lis le code en entier dans le tableau, puis cherche exactement ce code dans les 4 propositions.',
+          'Ne lis pas les propositions avant d’avoir trouvé le code dans le tableau.',
         ],
       },
       {
         titre: 'Les pièges classiques',
         points: [
-          'Les mauvaises propositions sont des couples voisins du bon : mêmes initiales, numéros proches ou cases adjacentes.',
-          'Des numéros dont les chiffres sont inversés (43 / 34) : vérifie les deux chiffres.',
-          'Les tableaux changent après un certain nombre de questions : relis le nouveau tableau avant de reprendre le rythme.',
+          'Les 4 propositions se ressemblent : elles ne diffèrent que d’un ou deux chiffres, parfois deux chiffres échangés (4521 / 4251).',
+          'Compare les 4 chiffres, pas seulement le début du code.',
+          'Des mots qui se ressemblent dans le tableau : vérifie le mot en entier avant de lire son code.',
         ],
       },
       {
         titre: 'S’entraîner',
         points: [
           'Répétition courte et rapide : le but est un réflexe, pas de la réflexion.',
-          'Le sens de la question (numéro → mot ou mot → numéro) peut varier : entraîne-toi aux deux.',
+          'Au début c’est lent, puis tu connais la position des mots : c’est normal et c’est le but.',
+          'Au vrai test, la plupart des candidats ne finissent pas : vise juste, puis vite.',
         ],
       },
     ],

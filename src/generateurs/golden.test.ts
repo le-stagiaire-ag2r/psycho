@@ -48,8 +48,8 @@ function empreinteEpreuve(id: EpreuveId): string {
  * une question ne doit pas imposer de changer de version (l'item est identifié par son id).
  */
 const ATTENDUES: Partial<Record<EpreuveId, { version: number; empreinte: string }>> = {
-  attention: { version: 1, empreinte: '84120b39' },
-  codage: { version: 1, empreinte: 'c2fae41e' },
+  attention: { version: 2, empreinte: '5b261d53' },
+  codage: { version: 2, empreinte: 'c9a92683' },
   numerique: { version: 1, empreinte: '59350aab' },
   spatial: { version: 1, empreinte: 'f68abccd' },
   logique: { version: 1, empreinte: '01557153' },

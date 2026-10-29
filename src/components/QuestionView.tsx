@@ -19,23 +19,31 @@ function Stimulus({ item }: { item: Item }) {
           <div className="suite" aria-hidden="true">{s.b}</div>
         </div>
       );
+    case 'attention-series':
+      return (
+        <ol className="series" aria-label="Séries à comparer">
+          {s.series.map((x, i) => (
+            <li key={i} className="serie" aria-label={`Série ${i + 1} : ${x.split('').join(' ')}`}>
+              <span className="serie-num" aria-hidden="true">
+                {i + 1}
+              </span>
+              <span className="serie-code" aria-hidden="true">
+                {x}
+              </span>
+            </li>
+          ))}
+        </ol>
+      );
     case 'codage':
       return (
-        <table className="tableau-codage">
-          <caption className="visuellement-cache">Tableau de codage : mots et numéros</caption>
-          <tbody>
-            <tr>
-              {s.tableau.map((e) => (
-                <th key={e.mot} scope="col">{e.mot}</th>
-              ))}
-            </tr>
-            <tr>
-              {s.tableau.map((e) => (
-                <td key={e.mot}>{e.numero}</td>
-              ))}
-            </tr>
-          </tbody>
-        </table>
+        <ul className="grille-codage" aria-label="Tableau de codage : mots et codes">
+          {s.tableau.map((e) => (
+            <li key={e.mot} className="cellule-codage">
+              <span className="codage-mot">{e.mot}</span>
+              <span className="codage-code">{e.numero}</span>
+            </li>
+          ))}
+        </ul>
       );
     case 'grille':
       return (

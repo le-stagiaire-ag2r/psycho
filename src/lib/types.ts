@@ -39,6 +39,12 @@ export interface StimulusAttention {
   b: string;
 }
 
+/** Séries de caractères à comparer : une série intruse, ou aucune (version 2 de l'attention). */
+export interface StimulusAttentionSeries {
+  type: 'attention-series';
+  series: string[];
+}
+
 export interface StimulusCodage {
   type: 'codage';
   tableau: EntreeCodage[];
@@ -101,6 +107,7 @@ export interface StimulusSuiteCubes {
 
 export type Stimulus =
   | StimulusAttention
+  | StimulusAttentionSeries
   | StimulusCodage
   | StimulusGrille
   | StimulusTexte

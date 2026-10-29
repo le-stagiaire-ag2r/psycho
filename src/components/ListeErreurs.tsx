@@ -25,6 +25,7 @@ export default function ListeErreurs({ etat }: { etat: EtatSeance }) {
                         {s.a} / {s.b}
                       </code>
                     )}
+                    {s.type === 'attention-series' && <code>{s.series.join(' · ')}</code>}
                   </summary>
                   <Correction item={item} choix={choix} />
                   <p className="discret">Réf. {item.id}</p>

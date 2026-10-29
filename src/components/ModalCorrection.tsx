@@ -21,6 +21,7 @@ function rappel(item: Item): string {
   const s = item.stimulus;
   if (s.type === 'texte') return s.enonce;
   if (s.type === 'attention') return `${s.a}  /  ${s.b}`;
+  if (s.type === 'attention-series') return s.series.join('  ·  ');
   return item.consigne;
 }
 
