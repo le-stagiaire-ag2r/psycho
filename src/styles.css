@@ -1538,6 +1538,7 @@ progress::-webkit-progress-value {
 
 .apropos {
   max-width: 46rem;
+  margin-inline: auto;
 }
 .apropos .actions {
   margin-top: 1.5rem;

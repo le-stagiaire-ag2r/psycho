@@ -60,7 +60,7 @@ export default function APropos() {
       <p className="non-affiliation">{NON_AFFILIATION}</p>
 
       <div className="actions">
-        <button type="button" className="bouton bouton-grand" onClick={continuer} autoFocus>
+        <button type="button" className="bouton bouton-grand" onClick={continuer}>
           J’ai compris, c’est parti
         </button>
         <Link className="bouton bouton-secondaire" to="/confidentialite">
