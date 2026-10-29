@@ -193,9 +193,9 @@ export const EPREUVES: Record<EpreuveId, ConfigEpreuve> = {
   anglais: {
     id: 'anglais',
     titre: 'Anglais',
-    description: 'QCM de grammaire et de vocabulaire, niveau collège-lycée.',
+    description: 'QCM d’anglais : phrases à trous, grammaire, conjugaison et vocabulaire.',
     disponible: true,
-    nbQuestions: 100,
+    nbQuestions: 150,
     dureeSecondes: 3300,
     nbChoix: 4,
     nbQuestionsEntrainement: 20,

@@ -40,7 +40,7 @@ describe.each(CAS)('banque %s', (nom, gen) => {
   });
 
   it('les phrases à compléter contiennent un trou', () => {
-    for (const it of items.filter((x) => x.type === 'grammaire')) {
+    for (const it of items.filter((x) => x.type === 'grammaire' || x.type === 'grammaire2')) {
       expect(/___|…/.test(it.enonce)).toBe(true);
     }
   });
